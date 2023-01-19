@@ -4222,6 +4222,6 @@ var searchData=
   ['z2se_5fzrc_5fv_5funasare_4219',['Z2SE_ZRC_V_UNASARE',['../Z2SeMgr_8h.html#a2015be0323c9a6d9908c0ddb691584aba403bd00cf52bf473df4d3189668af29c',1,'Z2SeMgr.h']]],
   ['z2se_5fzrz_5fmv_4220',['Z2SE_ZRZ_MV',['../Z2SeMgr_8h.html#a2015be0323c9a6d9908c0ddb691584aba49b58b7e1bf26241a52ff95f2e2ef98c',1,'Z2SeMgr.h']]],
   ['zelda_5fcode_5fsize_4221',['ZELDA_CODE_SIZE',['../d__bg__plc_8h.html#a726ca809ffd3d67ab4b8476646f26635a528c94922b014d4149a61ffa65eb0531',1,'d_bg_plc.h']]],
-  ['zoom_5fview_4222',['ZOOM_VIEW',['../classdMeter__fmapHIO__c.html#adf09c20572183202cc6834f426eac813a6987c503b214d8fa77a11d84513402e8',1,'dMeter_fmapHIO_c']]],
+  ['zoom_5fview_4222',['ZOOM_VIEW',['../classdMeter__fmapHIO__c.html#a1a36e018a0075ad39c124842f615dddaa6987c503b214d8fa77a11d84513402e8',1,'dMeter_fmapHIO_c']]],
   ['zoras_5fjewel_4223',['ZORAS_JEWEL',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a5d46101043cef2e0453461956a543349',1,'d_save.h']]]
 ];
