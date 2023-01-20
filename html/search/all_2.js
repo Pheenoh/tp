@@ -226,7 +226,7 @@ var searchData=
   ['block_5fparticle_223',['BLOCK_PARTICLE',['../namespaceJStudio_1_1stb_1_1data.html#a10bfa84a6c34043b05e7a8645ca13270',1,'JStudio::stb::data']]],
   ['block_5fsound_224',['BLOCK_SOUND',['../namespaceJStudio_1_1stb_1_1data.html#a6de721b1faaf8d66e025e04a54aaac47',1,'JStudio::stb::data']]],
   ['blockreadcallback_225',['BlockReadCallback',['../CARDRdwr_8c.html#a5781820f54ce1235ccef0455b9976a4d',1,'CARDRdwr.c']]],
-  ['blockwritecallback_226',['BlockWriteCallback',['../CARDRdwr_8c.html#a0ad32387ab9818fe4fde68953baae2b5',1,'CARDRdwr.c']]],
+  ['blockwritecallback_226',['BlockWriteCallback',['../CARDRdwr_8c.html#ae0d87cbcf7f43f686ce041fe98ab5e6a',1,'CARDRdwr.c']]],
   ['bloom_5fc_227',['bloom_c',['../classmDoGph__gInf__c_1_1bloom__c.html',1,'mDoGph_gInf_c']]],
   ['bloom_5fclear_228',['BLOOM_CLEAR',['../d__kankyo__data_8h.html#a8eb83049e15a58b364595e306e544abfa3ef37706fe30d8dfc7f37d1c5f794568',1,'d_kankyo_data.h']]],
   ['bloom_5fsoft_229',['BLOOM_SOFT',['../d__kankyo__data_8h.html#a8eb83049e15a58b364595e306e544abfad1e4a1c66f8bf7386aeda4d29ad29ef6',1,'d_kankyo_data.h']]],
