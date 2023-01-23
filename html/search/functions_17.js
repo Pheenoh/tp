@@ -150,5 +150,5 @@ var searchData=
   ['writesramcallback_147',['WriteSramCallback',['../OSRtc_8c.html#afb6a71a502d520ea2bb5970fe3a7f429',1,'OSRtc.c']]],
   ['writetoaram_148',['writeToAram',['../classJKRAramStream.html#a1130dad7cb98df6085463eb5aa053f33',1,'JKRAramStream']]],
   ['writetoaram_5f_5f13jkraramstreamfp20jkraramstreamcommand_149',['writeToAram__13JKRAramStreamFP20JKRAramStreamCommand',['../JKRAramStream_8cpp.html#ad5c01942f7b964089ea08c136c6abdec',1,'JKRAramStream.cpp']]],
-  ['writeuartn_150',['WriteUARTN',['../EXIUart_8c.html#a22030285069ddee2a144f1904e029658',1,'WriteUARTN():&#160;EXIUart.c'],['../uart__console__io__gcn_8c.html#a3905127572175455b5f6025188fed029',1,'WriteUARTN(unsigned char *, size_t):&#160;uart_console_io_gcn.c']]]
+  ['writeuartn_150',['WriteUARTN',['../EXIUart_8c.html#a39334aa83bcf885f46600e74a1b2898c',1,'WriteUARTN(const void *buf, unsigned long len):&#160;EXIUart.c'],['../uart__console__io__gcn_8c.html#a3905127572175455b5f6025188fed029',1,'WriteUARTN(unsigned char *, size_t):&#160;uart_console_io_gcn.c']]]
 ];

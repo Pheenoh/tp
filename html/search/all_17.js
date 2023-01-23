@@ -45,7 +45,7 @@ var searchData=
   ['waitfortick_5f_5ffulus_42',['waitForTick__FUlUs',['../JFWDisplay_8cpp.html#aef75e79df0c93e4504016f01509d2f31',1,'JFWDisplay.cpp']]],
   ['waitingbits_43',['WaitingBits',['../Pad_8c.html#a72beff92f7c63786c4c0384d578dc4d2',1,'Pad.c']]],
   ['waitingcoverclose_44',['WaitingCoverClose',['../dvdlow_8c.html#a8f50c42eafde73327090ae2a918acaeb',1,'dvdlow.c']]],
-  ['waitingqueue_45',['WaitingQueue',['../dvdqueue_8c.html#a9aa05cd28c26899b1e0dfd6a2ccaba93',1,'dvdqueue.c']]],
+  ['waitingqueue_45',['WaitingQueue',['../dvdqueue_8c.html#ac3f16913500a8818fa8ede8b9a15a4e9',1,'dvdqueue.c']]],
   ['waitmessage_46',['waitMessage',['../structJKRThread.html#aa6eb23b3d10cd1f5caebc19e59a121fb',1,'JKRThread']]],
   ['waitmessageblock_47',['waitMessageBlock',['../structJKRThread.html#a266bbe9f560b238750bf8122b10fbf70',1,'JKRThread']]],
   ['waitproc_48',['waitProc',['../structdMsgScrn3Select__c.html#a2b6cc8fecbd31b97619ce44a27999574',1,'dMsgScrn3Select_c::waitProc()'],['../structdMsgObject__c.html#ae7be39e3a2c330539f2f5e558d0bd494',1,'dMsgObject_c::waitProc()']]],
@@ -401,7 +401,7 @@ var searchData=
   ['writesramcallback_398',['WriteSramCallback',['../OSRtc_8c.html#afb6a71a502d520ea2bb5970fe3a7f429',1,'OSRtc.c']]],
   ['writetoaram_399',['writeToAram',['../classJKRAramStream.html#a1130dad7cb98df6085463eb5aa053f33',1,'JKRAramStream']]],
   ['writetoaram_5f_5f13jkraramstreamfp20jkraramstreamcommand_400',['writeToAram__13JKRAramStreamFP20JKRAramStreamCommand',['../JKRAramStream_8cpp.html#ad5c01942f7b964089ea08c136c6abdec',1,'JKRAramStream.cpp']]],
-  ['writeuartn_401',['WriteUARTN',['../EXIUart_8c.html#a22030285069ddee2a144f1904e029658',1,'WriteUARTN():&#160;EXIUart.c'],['../uart__console__io__gcn_8c.html#a3905127572175455b5f6025188fed029',1,'WriteUARTN(unsigned char *, size_t):&#160;uart_console_io_gcn.c']]],
+  ['writeuartn_401',['WriteUARTN',['../EXIUart_8c.html#a39334aa83bcf885f46600e74a1b2898c',1,'WriteUARTN(const void *buf, unsigned long len):&#160;EXIUart.c'],['../uart__console__io__gcn_8c.html#a3905127572175455b5f6025188fed029',1,'WriteUARTN(unsigned char *, size_t):&#160;uart_console_io_gcn.c']]],
   ['ws_5fmain_5fstick_402',['WS_MAIN_STICK',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6ba51b166df5c89223c699b3db18d915360',1,'JUTGamePad']]],
   ['ws_5fsub_5fstick_403',['WS_SUB_STICK',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6bae35d5554715310f5000d13dae308d6ac',1,'JUTGamePad']]]
 ];

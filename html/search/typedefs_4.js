@@ -30,5 +30,6 @@ var searchData=
   ['dvdfileinfo_27',['DVDFileInfo',['../dvd_8h.html#ad9af57ffab70d7c609516bd27b1bb002',1,'dvd.h']]],
   ['dvdlowcallback_28',['DVDLowCallback',['../dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7',1,'dvdlow.h']]],
   ['dvdoptionalcommandchecker_29',['DVDOptionalCommandChecker',['../dvd_8h.html#a0a5a176553de78b9366310c3e6e65471',1,'dvd.h']]],
-  ['dvdstate_30',['DVDState',['../dvd_8h.html#a2e24aece98c0c16fabc8157fa1ce86c3',1,'dvd.h']]]
+  ['dvdresult_30',['DVDResult',['../dvd_8h.html#a88b5081e793c7e07c6a01239b76fe61a',1,'dvd.h']]],
+  ['dvdstate_31',['DVDState',['../dvd_8h.html#a2e24aece98c0c16fabc8157fa1ce86c3',1,'dvd.h']]]
 ];

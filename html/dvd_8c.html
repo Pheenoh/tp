@@ -90,10 +90,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="dvd_8h_source.html">dolphin/dvd/dvd.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dvdlow_8h_source.html">dolphin/dvd/dvdlow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mem_8h_source.html">MSL_C/MSL_Common/Src/mem.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MSL__Common_2Src_2string_8h_source.html">MSL_C/MSL_Common/Src/string.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dvdlow_8h_source.html">dolphin/dvd/dvdlow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="OS_8h_source.html">dolphin/os/OS.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for dvd.c:</div>
@@ -212,24 +212,24 @@ Functions</h2></td></tr>
 <tr class="separator:ac864d2286800f8386fd8e8ff2cef48cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3407d74c2121ea24acd8efc16477454"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aa3407d74c2121ea24acd8efc16477454">__DVDLowTestAlarm</a> (<a class="el" href="structOSAlarm.html">OSAlarm</a> *alarm)</td></tr>
 <tr class="separator:aa3407d74c2121ea24acd8efc16477454"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15a4653c30af24f01ec0bb9b9f1e0c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a15a4653c30af24f01ec0bb9b9f1e0c56">__DVDFSInit</a> ()</td></tr>
-<tr class="separator:a15a4653c30af24f01ec0bb9b9f1e0c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45f31ca58b3d450dbec7d9b04ce496a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a45f31ca58b3d450dbec7d9b04ce496a4">__DVDClearWaitingQueue</a> ()</td></tr>
-<tr class="separator:a45f31ca58b3d450dbec7d9b04ce496a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d4a5c63aa418f025424a815b072382"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aa3d4a5c63aa418f025424a815b072382">__DVDPushWaitingQueue</a> ()</td></tr>
-<tr class="separator:aa3d4a5c63aa418f025424a815b072382"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa853d0cc08edcde45797b3c81d450ed3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDVDCommandBlock.html">DVDCommandBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aa853d0cc08edcde45797b3c81d450ed3">__DVDPopWaitingQueue</a> ()</td></tr>
-<tr class="separator:aa853d0cc08edcde45797b3c81d450ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a530417d97d16375f335b01c71e30986b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a530417d97d16375f335b01c71e30986b">__DVDCheckWaitingQueue</a> ()</td></tr>
-<tr class="separator:a530417d97d16375f335b01c71e30986b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1543469aa35dd19332decc72a5c92b7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a1543469aa35dd19332decc72a5c92b7c">__DVDDequeueWaitingQueue</a> ()</td></tr>
-<tr class="separator:a1543469aa35dd19332decc72a5c92b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8df4f37d662508f0316199c1828300c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a8df4f37d662508f0316199c1828300c3">__DVDStoreErrorCode</a> ()</td></tr>
-<tr class="separator:a8df4f37d662508f0316199c1828300c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c2c481c14693c56d4f717eea8d2711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a67c2c481c14693c56d4f717eea8d2711">__DVDFSInit</a> ()</td></tr>
+<tr class="separator:a67c2c481c14693c56d4f717eea8d2711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39f743ae25e3fc28207dedbee8284d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#ab39f743ae25e3fc28207dedbee8284d3">__DVDClearWaitingQueue</a> ()</td></tr>
+<tr class="separator:ab39f743ae25e3fc28207dedbee8284d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1904546bebb096a4d3413c6a780199d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#af1904546bebb096a4d3413c6a780199d">__DVDPushWaitingQueue</a> ()</td></tr>
+<tr class="separator:af1904546bebb096a4d3413c6a780199d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac035a71cbb11d07def74a30ae25d60bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structDVDCommandBlock.html">DVDCommandBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#ac035a71cbb11d07def74a30ae25d60bf">__DVDPopWaitingQueue</a> ()</td></tr>
+<tr class="separator:ac035a71cbb11d07def74a30ae25d60bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c3259c6b0311270d9f3c21e69769d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a8c3259c6b0311270d9f3c21e69769d4b">__DVDCheckWaitingQueue</a> ()</td></tr>
+<tr class="separator:a8c3259c6b0311270d9f3c21e69769d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9152770c15d35fbfbf64effead095b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aba9152770c15d35fbfbf64effead095b">__DVDDequeueWaitingQueue</a> ()</td></tr>
+<tr class="separator:aba9152770c15d35fbfbf64effead095b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64e72b4d1aee24472e20b9274a555753"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a64e72b4d1aee24472e20b9274a555753">__DVDStoreErrorCode</a> ()</td></tr>
+<tr class="separator:a64e72b4d1aee24472e20b9274a555753"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef9763d8cb801b4ed6d84b47c9524b5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aef9763d8cb801b4ed6d84b47c9524b5c">DVDCompareDiskID</a> (<a class="el" href="structDVDDiskID.html">DVDDiskID</a> *, <a class="el" href="structDVDDiskID.html">DVDDiskID</a> *)</td></tr>
 <tr class="separator:aef9763d8cb801b4ed6d84b47c9524b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96632678a5a4c9286511514cb88a28a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a96632678a5a4c9286511514cb88a28a5">__DVDPrintFatalMessage</a> ()</td></tr>
-<tr class="separator:a96632678a5a4c9286511514cb88a28a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84d060632d4c273ecbd00cf3c980c60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#ae84d060632d4c273ecbd00cf3c980c60">__DVDPrintFatalMessage</a> ()</td></tr>
+<tr class="separator:ae84d060632d4c273ecbd00cf3c980c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a139f733b5d112a3181b78ccb98989739"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a139f733b5d112a3181b78ccb98989739">__fstLoad</a> ()</td></tr>
 <tr class="separator:a139f733b5d112a3181b78ccb98989739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae09450d86d1dd15d53c1bb5c07615601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#ae09450d86d1dd15d53c1bb5c07615601">DVDInit</a> (void)</td></tr>
@@ -313,8 +313,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0e24415434285950cbb2e08dd9a1bf69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSThreadQueue.html">OSThreadQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a0e24415434285950cbb2e08dd9a1bf69">__DVDThreadQueue</a></td></tr>
-<tr class="separator:a0e24415434285950cbb2e08dd9a1bf69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0764984f4a23336c239ccbc9fec3e724"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOSThreadQueue.html">OSThreadQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a0764984f4a23336c239ccbc9fec3e724">__DVDThreadQueue</a></td></tr>
+<tr class="separator:a0764984f4a23336c239ccbc9fec3e724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab642e6ae2b12c0c51ec296dca7bb7612"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#ab642e6ae2b12c0c51ec296dca7bb7612">__DVDVersion</a> = &quot;&lt;&lt; Dolphin SDK - DVD\trelease build: Apr 5 2004 04:14:51 (0x2301) &gt;&gt;&quot;</td></tr>
 <tr class="separator:ab642e6ae2b12c0c51ec296dca7bb7612"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaccd32ed8eb5e24cef959c8c7da2575f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structDVDCommandBlock.html">DVDCommandBlock</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#aaccd32ed8eb5e24cef959c8c7da2575f">executing</a></td></tr>
@@ -367,7 +367,7 @@ Variables</h2></td></tr>
 <tr class="separator:a018f323966457859f869e4349afbe5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d6133f6e1dabe242ae48fd0a64fb2d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a22a2a06fa275008ac56121fac5e1ff92">SECTION_SDATA</a> <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a4d6133f6e1dabe242ae48fd0a64fb2d2">DmaCommand</a> [] = {0xFFFFFFFF}</td></tr>
 <tr class="separator:a4d6133f6e1dabe242ae48fd0a64fb2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a172411f34d3c0a1464e9b539554e52d3"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a172411f34d3c0a1464e9b539554e52d3">string_DVDChangeDiskAsyncMsg</a> [] = &quot;DVDChangeDiskAsync(): You can't specify <a class="el" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> to company name. \n&quot;</td></tr>
+<tr class="memitem:a172411f34d3c0a1464e9b539554e52d3"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8c.html#a172411f34d3c0a1464e9b539554e52d3">string_DVDChangeDiskAsyncMsg</a> []</td></tr>
 <tr class="separator:a172411f34d3c0a1464e9b539554e52d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -415,14 +415,50 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a530417d97d16375f335b01c71e30986b" name="a530417d97d16375f335b01c71e30986b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a530417d97d16375f335b01c71e30986b">&#9670;&#160;</a></span>__DVDCheckWaitingQueue()</h2>
+<a id="a8c3259c6b0311270d9f3c21e69769d4b" name="a8c3259c6b0311270d9f3c21e69769d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c3259c6b0311270d9f3c21e69769d4b">&#9670;&#160;</a></span>__DVDCheckWaitingQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void __DVDCheckWaitingQueue </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> __DVDCheckWaitingQueue </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab39f743ae25e3fc28207dedbee8284d3" name="ab39f743ae25e3fc28207dedbee8284d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab39f743ae25e3fc28207dedbee8284d3">&#9670;&#160;</a></span>__DVDClearWaitingQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __DVDClearWaitingQueue </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba9152770c15d35fbfbf64effead095b" name="aba9152770c15d35fbfbf64effead095b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9152770c15d35fbfbf64effead095b">&#9670;&#160;</a></span>__DVDDequeueWaitingQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __DVDDequeueWaitingQueue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -432,48 +468,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a45f31ca58b3d450dbec7d9b04ce496a4" name="a45f31ca58b3d450dbec7d9b04ce496a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45f31ca58b3d450dbec7d9b04ce496a4">&#9670;&#160;</a></span>__DVDClearWaitingQueue()</h2>
+<a id="a67c2c481c14693c56d4f717eea8d2711" name="a67c2c481c14693c56d4f717eea8d2711"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c2c481c14693c56d4f717eea8d2711">&#9670;&#160;</a></span>__DVDFSInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void __DVDClearWaitingQueue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1543469aa35dd19332decc72a5c92b7c" name="a1543469aa35dd19332decc72a5c92b7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1543469aa35dd19332decc72a5c92b7c">&#9670;&#160;</a></span>__DVDDequeueWaitingQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void __DVDDequeueWaitingQueue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a15a4653c30af24f01ec0bb9b9f1e0c56" name="a15a4653c30af24f01ec0bb9b9f1e0c56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15a4653c30af24f01ec0bb9b9f1e0c56">&#9670;&#160;</a></span>__DVDFSInit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void __DVDFSInit </td>
+          <td class="memname">void __DVDFSInit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -546,15 +548,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa853d0cc08edcde45797b3c81d450ed3" name="aa853d0cc08edcde45797b3c81d450ed3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa853d0cc08edcde45797b3c81d450ed3">&#9670;&#160;</a></span>__DVDPopWaitingQueue()</h2>
+<a id="ac035a71cbb11d07def74a30ae25d60bf" name="ac035a71cbb11d07def74a30ae25d60bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac035a71cbb11d07def74a30ae25d60bf">&#9670;&#160;</a></span>__DVDPopWaitingQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void __DVDPopWaitingQueue </td>
+          <td class="memname"><a class="el" href="structDVDCommandBlock.html">DVDCommandBlock</a> * __DVDPopWaitingQueue </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -581,14 +584,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a96632678a5a4c9286511514cb88a28a5" name="a96632678a5a4c9286511514cb88a28a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96632678a5a4c9286511514cb88a28a5">&#9670;&#160;</a></span>__DVDPrintFatalMessage()</h2>
+<a id="ae84d060632d4c273ecbd00cf3c980c60" name="ae84d060632d4c273ecbd00cf3c980c60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae84d060632d4c273ecbd00cf3c980c60">&#9670;&#160;</a></span>__DVDPrintFatalMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void __DVDPrintFatalMessage </td>
+          <td class="memname">void __DVDPrintFatalMessage </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1904546bebb096a4d3413c6a780199d" name="af1904546bebb096a4d3413c6a780199d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1904546bebb096a4d3413c6a780199d">&#9670;&#160;</a></span>__DVDPushWaitingQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> __DVDPushWaitingQueue </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -598,31 +619,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa3d4a5c63aa418f025424a815b072382" name="aa3d4a5c63aa418f025424a815b072382"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3d4a5c63aa418f025424a815b072382">&#9670;&#160;</a></span>__DVDPushWaitingQueue()</h2>
+<a id="a64e72b4d1aee24472e20b9274a555753" name="a64e72b4d1aee24472e20b9274a555753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64e72b4d1aee24472e20b9274a555753">&#9670;&#160;</a></span>__DVDStoreErrorCode()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void __DVDPushWaitingQueue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8df4f37d662508f0316199c1828300c3" name="a8df4f37d662508f0316199c1828300c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8df4f37d662508f0316199c1828300c3">&#9670;&#160;</a></span>__DVDStoreErrorCode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">asm void __DVDStoreErrorCode </td>
+          <td class="memname">void __DVDStoreErrorCode </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2716,8 +2720,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a0e24415434285950cbb2e08dd9a1bf69" name="a0e24415434285950cbb2e08dd9a1bf69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e24415434285950cbb2e08dd9a1bf69">&#9670;&#160;</a></span>__DVDThreadQueue</h2>
+<a id="a0764984f4a23336c239ccbc9fec3e724" name="a0764984f4a23336c239ccbc9fec3e724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0764984f4a23336c239ccbc9fec3e724">&#9670;&#160;</a></span>__DVDThreadQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2726,7 +2730,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> __DVDThreadQueue</td>
+          <td class="memname"><a class="el" href="structOSThreadQueue.html">OSThreadQueue</a> __DVDThreadQueue</td>
         </tr>
       </table>
   </td>
@@ -3320,7 +3324,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char string_DVDChangeDiskAsyncMsg[] = &quot;DVDChangeDiskAsync(): You can't specify <a class="el" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> to company name. \n&quot;</td>
+          <td class="memname">char string_DVDChangeDiskAsyncMsg[]</td>
         </tr>
       </table>
   </td>
@@ -3329,7 +3333,9 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">    <span class="stringliteral">&quot;DVDChangeDiskAsync(): You can&#39;t specify NULL to company name.  \n&quot;</span></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

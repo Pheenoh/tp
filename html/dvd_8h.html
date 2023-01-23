@@ -132,6 +132,8 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a2e24aece98c0c16fabc8157fa1ce86c3"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7">DVDState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8h.html#a2e24aece98c0c16fabc8157fa1ce86c3">DVDState</a></td></tr>
 <tr class="separator:a2e24aece98c0c16fabc8157fa1ce86c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b5081e793c7e07c6a01239b76fe61a"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b">DVDResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8h.html#a88b5081e793c7e07c6a01239b76fe61a">DVDResult</a></td></tr>
+<tr class="separator:a88b5081e793c7e07c6a01239b76fe61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0f77584fd82c13b79106b6a7157cc0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structDVDDirectory.html">DVDDirectory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8h.html#acd0f77584fd82c13b79106b6a7157cc0">DVDDirectory</a></td></tr>
 <tr class="separator:acd0f77584fd82c13b79106b6a7157cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8842cf5824ef6aecf6e470fd00f0cf1d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structDVDDirectoryEntry.html">DVDDirectoryEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8h.html#a8842cf5824ef6aecf6e470fd00f0cf1d">DVDDirectoryEntry</a></td></tr>
@@ -175,6 +177,12 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ad4f227aed34861133cc1c89c8a0d86e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c743dfa2642c893af57e9582d42d9b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b">DVDResult</a> { <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9baa93fcb586c35c75ed6d326dd67083ca9">DVD_RESULT_GOOD</a> = 0
+, <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9bacea3b30544cda543787debd9453ec4c7">DVD_RESULT_FATAL_ERROR</a> = -1
+, <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9ba2a40b74d00dc17a3d463e8748d404604">DVD_RESULT_IGNORED</a> = -2
+, <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9babcb4520ccd1f3d784211bfd8e0bc0528">DVD_RESULT_CANCELED</a> = -3
+ }</td></tr>
+<tr class="separator:ac3c743dfa2642c893af57e9582d42d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -386,6 +394,20 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a88b5081e793c7e07c6a01239b76fe61a" name="a88b5081e793c7e07c6a01239b76fe61a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b5081e793c7e07c6a01239b76fe61a">&#9670;&#160;</a></span>DVDResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b">DVDResult</a> <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b">DVDResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2e24aece98c0c16fabc8157fa1ce86c3" name="a2e24aece98c0c16fabc8157fa1ce86c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e24aece98c0c16fabc8157fa1ce86c3">&#9670;&#160;</a></span>DVDState</h2>
 
@@ -401,6 +423,26 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac3c743dfa2642c893af57e9582d42d9b" name="ac3c743dfa2642c893af57e9582d42d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c743dfa2642c893af57e9582d42d9b">&#9670;&#160;</a></span>DVDResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b">DVDResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac3c743dfa2642c893af57e9582d42d9baa93fcb586c35c75ed6d326dd67083ca9" name="ac3c743dfa2642c893af57e9582d42d9baa93fcb586c35c75ed6d326dd67083ca9"></a>DVD_RESULT_GOOD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac3c743dfa2642c893af57e9582d42d9bacea3b30544cda543787debd9453ec4c7" name="ac3c743dfa2642c893af57e9582d42d9bacea3b30544cda543787debd9453ec4c7"></a>DVD_RESULT_FATAL_ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac3c743dfa2642c893af57e9582d42d9ba2a40b74d00dc17a3d463e8748d404604" name="ac3c743dfa2642c893af57e9582d42d9ba2a40b74d00dc17a3d463e8748d404604"></a>DVD_RESULT_IGNORED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac3c743dfa2642c893af57e9582d42d9babcb4520ccd1f3d784211bfd8e0bc0528" name="ac3c743dfa2642c893af57e9582d42d9babcb4520ccd1f3d784211bfd8e0bc0528"></a>DVD_RESULT_CANCELED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="ad4f227aed34861133cc1c89c8a0d86e7" name="ad4f227aed34861133cc1c89c8a0d86e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4f227aed34861133cc1c89c8a0d86e7">&#9670;&#160;</a></span>DVDState</h2>
 
@@ -622,7 +664,7 @@ Functions</h2></td></tr>
           <td class="memname">int DVDConvertPathToEntrynum </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -802,7 +844,7 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> DVDOpenDir </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>dirName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1048,25 +1090,25 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">void *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>length</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>prio</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -45,5 +45,6 @@ var searchData=
   ['dmw_5fstatus_42',['dMw_Status',['../structdMw__c.html#a9c12bf96930db318a3d8b6704985face',1,'dMw_c']]],
   ['drawbuffer_43',['DrawBuffer',['../structdDlst__list__c.html#ade1f3b0d8ae13b1208ac59bfcf50415c',1,'dDlst_list_c']]],
   ['drawmode_44',['DrawMode',['../structJ3DSys.html#a30cc363d626b82865300b658c387eab9',1,'J3DSys']]],
-  ['dvdstate_45',['DVDState',['../dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7',1,'dvd.h']]]
+  ['dvdresult_45',['DVDResult',['../dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b',1,'dvd.h']]],
+  ['dvdstate_46',['DVDState',['../dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7',1,'dvd.h']]]
 ];
