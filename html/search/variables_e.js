@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name_0',['name',['../structDVDDirectoryEntry.html#a45b88408d96a8a210d8adc0ed31420d7',1,'DVDDirectoryEntry::name()'],['../structexception.html#a1faeda487816f36cc9f39eec454bcf28',1,'exception::name()'],['../structJKRArchive_1_1SDirEntry.html#aa2f5fa81919217127d1a60e346f4812e',1,'JKRArchive::SDirEntry::name()'],['../structJKRThreadName__.html#a30552ea4ade1451d39e45fa17ca575aa',1,'JKRThreadName_::name()'],['../structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html#a98955d043dc8904fe5fafc11e768aa3d',1,'JStudio::stb::data::THeader::Target::name()'],['../structDynamicNameTableEntry.html#a54701775a5e92f459d8f9e43cc6604f7',1,'DynamicNameTableEntry::name()']]],
+  ['name_0',['name',['../structDynamicNameTableEntry.html#a54701775a5e92f459d8f9e43cc6604f7',1,'DynamicNameTableEntry::name()'],['../structDVDDirectoryEntry.html#a45b88408d96a8a210d8adc0ed31420d7',1,'DVDDirectoryEntry::name()'],['../structexception.html#a1faeda487816f36cc9f39eec454bcf28',1,'exception::name()'],['../structJKRArchive_1_1SDirEntry.html#aa2f5fa81919217127d1a60e346f4812e',1,'JKRArchive::SDirEntry::name()'],['../structJKRThreadName__.html#a30552ea4ade1451d39e45fa17ca575aa',1,'JKRThreadName_::name()'],['../structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html#a98955d043dc8904fe5fafc11e768aa3d',1,'JStudio::stb::data::THeader::Target::name()'],['../classdMenu__Fmap__stage__data__c.html#ad9c075c9b7cfd4ab95e542872d63b976',1,'dMenu_Fmap_stage_data_c::name()']]],
   ['name0_1',['name0',['../d__a__alink_8cpp.html#a57bef45a0dcdd40eade3d8f9d4007ea1',1,'d_a_alink.cpp']]],
   ['name1_2',['name1',['../d__a__alink_8cpp.html#ad8e1e239377f95cdecbfbbec993c9b01',1,'d_a_alink.cpp']]],
   ['name_5f0_3',['name_0',['../d__menu__fishing_8cpp.html#a32a97bd451b3a186795f43ec40ff27e7',1,'d_menu_fishing.cpp']]],
@@ -15,7 +15,7 @@ var searchData=
   ['next_5ffile_12',['next_file',['../struct__FILE.html#a6ef8fecf6994b0308d7e5cf5c8f2dd44',1,'_FILE']]],
   ['next_5ffree_5ffile_5fid_13',['next_free_file_id',['../structSArcDataInfo.html#ab081912c62b47947610dc26f0d613757',1,'SArcDataInfo']]],
   ['nextbufaddr_14',['NextBufAddr',['../vi_8c.html#a541f9b28bfe22b9e9623b62012adba46',1,'vi.c']]],
-  ['nextcommandnumber_15',['NextCommandNumber',['../dvdlow_8c.html#ab033d7a3c9649029f075744cd77d0497',1,'dvdlow.c']]],
+  ['nextcommandnumber_15',['NextCommandNumber',['../dvdlow_8c.html#abe9bb4bc63724bc471a28b6dfb77ddb3',1,'dvdlow.c']]],
   ['nextcount_16',['nextCount',['../JFWDisplay_8cpp.html#a23e7d4289a10d9bfad8ea3dd20a42ae8',1,'JFWDisplay.cpp']]],
   ['nextentryorlength_17',['nextEntryOrLength',['../structFSTEntry.html#aa27dab2cce06a8ab30c4e507fff5f223',1,'FSTEntry']]],
   ['nextpausetimer_18',['nextPauseTimer',['../classdScnPly__c.html#a236682a8587625919db5d35faa8d4219',1,'dScnPly_c']]],

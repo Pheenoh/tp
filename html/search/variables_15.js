@@ -56,7 +56,7 @@ var searchData=
   ['unk88_53',['unk88',['../structdMeter2Info__c.html#ad143429462e5efd4a52ff16a5cf246b2',1,'dMeter2Info_c']]],
   ['unk92_54',['unk92',['../structdMeter2Info__c.html#a70c1f64f3d1e601d3937ae2598501e4d',1,'dMeter2Info_c']]],
   ['unk96_55',['unk96',['../structdMeter2Info__c.html#afcf426421c5a34cfe9e008ac5894b603',1,'dMeter2Info_c']]],
-  ['unk_5f0x0_56',['unk_0x0',['../classdStage__KeepDoorInfo.html#a9c9650a96f7d632b574f56efe457a478',1,'dStage_KeepDoorInfo::unk_0x0()'],['../structJUTResReference.html#a6f433eec1c7f411a6f0b8f89027d9f3f',1,'JUTResReference::unk_0x0()']]],
+  ['unk_5f0x0_56',['unk_0x0',['../classdStage__KeepDoorInfo.html#a8cb81e951abd1609aae2651eec6d127b',1,'dStage_KeepDoorInfo::unk_0x0()'],['../structJUTResReference.html#a6f433eec1c7f411a6f0b8f89027d9f3f',1,'JUTResReference::unk_0x0()']]],
   ['unk_5f0x04_57',['unk_0x04',['../structcBgS__PolyInfo.html#aea3b121183c675ae053c7b4e0be62c57',1,'cBgS_PolyInfo::unk_0x04()'],['../structunk__print.html#a2013ce4636432346f491957be993dd5e',1,'unk_print::unk_0x04()']]],
   ['unk_5f0x06_58',['unk_0x06',['../structunk__print.html#a56c9b81766378e4608c064a9d26fd3f6',1,'unk_print']]],
   ['unk_5f0x08_59',['unk_0x08',['../structunk__print.html#a6c7fc46fd435bfb884c8828b6db48dfa',1,'unk_print']]],

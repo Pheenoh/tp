@@ -106,7 +106,7 @@ var searchData=
   ['wholeloopstart_103',['wholeLoopStart',['../classJUTProcBar.html#a5e4c047a5bc787e83f483d2679a30fac',1,'JUTProcBar']]],
   ['wind_5finf_5fentity_104',['WIND_INF_ENTITY',['../structWIND__INF__ENTITY.html#ae73aec1db18057513a56fc2d06aa88aa',1,'WIND_INF_ENTITY']]],
   ['windmodelcallback_105',['windModelCallBack',['../classdaBoomerang__c.html#afffbda2648f096c2e8e754aa5ea1b8f8',1,'daBoomerang_c']]],
-  ['wipein_106',['wipeIn',['../structdDlst__list__c.html#a42130675411c90dac6f67eb22cfd2441',1,'dDlst_list_c::wipeIn(f32)'],['../structdDlst__list__c.html#a023954d0bca23043b737dec61a9339e0',1,'dDlst_list_c::wipeIn(f32, _GXColor &amp;)']]],
+  ['wipein_106',['wipeIn',['../structdDlst__list__c.html#a18249b025159728064506db8c1e2d19f',1,'dDlst_list_c::wipeIn(f32 i_wipeSpeed)'],['../structdDlst__list__c.html#a7254741bef4c3ba23b140bcdaf527db0',1,'dDlst_list_c::wipeIn(f32 i_wipeSpeed, GXColor &amp;i_wipeColor)']]],
   ['wipein_5f_5f12ddlst_5flist_5fcff_107',['wipeIn__12dDlst_list_cFf',['../d__drawlist_8cpp.html#a82e09972ae4066bb9ca65904794cd7c6',1,'wipeIn__12dDlst_list_cFf():&#160;d_drawlist.cpp'],['../d__event__data_8cpp.html#a82e09972ae4066bb9ca65904794cd7c6',1,'wipeIn__12dDlst_list_cFf():&#160;d_event_data.cpp']]],
   ['wipein_5f_5f12ddlst_5flist_5fcffr8_5fgxcolor_108',['wipeIn__12dDlst_list_cFfR8_GXColor',['../d__drawlist_8cpp.html#aaf2b37ef70fe0ee43346ba92fe6ec949',1,'d_drawlist.cpp']]],
   ['wolfbgcheck_109',['wolfBgCheck',['../structdaAlink__c.html#ab140dafd896ef83e686ac09289f4868d',1,'daAlink_c']]],

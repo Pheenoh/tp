@@ -38,13 +38,14 @@ var searchData=
   ['dccg_5fat_5fspl_35',['dCcG_At_Spl',['../d__cc__d_8h.html#a69a75b4ec8839e0fe308a75c2ec0a531',1,'d_cc_d.h']]],
   ['dccg_5ftg_5fspl_36',['dCcG_Tg_Spl',['../d__cc__d_8h.html#acbb3d4afe38102cc5d44426ead6e3832',1,'d_cc_d.h']]],
   ['dccu_5fattype_37',['dCcU_AtType',['../d__cc__uty_8h.html#aeb7687554f6186a056c72e1b6405ac51',1,'d_cc_uty.h']]],
-  ['dkyd_5fdarklv_38',['dKyd_DARKLV',['../d__kankyo__data_8h.html#a22a7f4c7dfa4763f73a82caff6e1713e',1,'d_kankyo_data.h']]],
-  ['dmeter2draw_5factionflag_39',['dMeter2Draw_actionFlag',['../d__meter2__draw_8h.html#a88f1f58c44f381002ff77651f5d7fbb3',1,'d_meter2_draw.h']]],
-  ['dmeter2draw_5factionid_40',['dMeter2Draw_actionID',['../d__meter2__draw_8h.html#a6d998eb7f44ad1b1ea2fadcf17af89e9',1,'d_meter2_draw.h']]],
-  ['dmeter2info_5fwarpstatus_41',['dMeter2Info_warpStatus',['../d__meter2__info_8h.html#ab5bd43360466ab7ac683d76f39b01939',1,'d_meter2_info.h']]],
-  ['dmw_5fstatus_42',['dMw_Status',['../structdMw__c.html#a9c12bf96930db318a3d8b6704985face',1,'dMw_c']]],
-  ['drawbuffer_43',['DrawBuffer',['../structdDlst__list__c.html#ade1f3b0d8ae13b1208ac59bfcf50415c',1,'dDlst_list_c']]],
-  ['drawmode_44',['DrawMode',['../structJ3DSys.html#a30cc363d626b82865300b658c387eab9',1,'J3DSys']]],
-  ['dvdresult_45',['DVDResult',['../dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b',1,'dvd.h']]],
-  ['dvdstate_46',['DVDState',['../dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7',1,'dvd.h']]]
+  ['dgameover_5fproc_38',['dGameover_Proc',['../d__gameover_8h.html#a9368975a3fec60667f0dde1eec05fc3c',1,'d_gameover.h']]],
+  ['dkyd_5fdarklv_39',['dKyd_DARKLV',['../d__kankyo__data_8h.html#a22a7f4c7dfa4763f73a82caff6e1713e',1,'d_kankyo_data.h']]],
+  ['dmeter2draw_5factionflag_40',['dMeter2Draw_actionFlag',['../d__meter2__draw_8h.html#a88f1f58c44f381002ff77651f5d7fbb3',1,'d_meter2_draw.h']]],
+  ['dmeter2draw_5factionid_41',['dMeter2Draw_actionID',['../d__meter2__draw_8h.html#a6d998eb7f44ad1b1ea2fadcf17af89e9',1,'d_meter2_draw.h']]],
+  ['dmeter2info_5fwarpstatus_42',['dMeter2Info_warpStatus',['../d__meter2__info_8h.html#ab5bd43360466ab7ac683d76f39b01939',1,'d_meter2_info.h']]],
+  ['dmw_5fstatus_43',['dMw_Status',['../structdMw__c.html#a9c12bf96930db318a3d8b6704985face',1,'dMw_c']]],
+  ['drawbuffer_44',['DrawBuffer',['../structdDlst__list__c.html#ade1f3b0d8ae13b1208ac59bfcf50415c',1,'dDlst_list_c']]],
+  ['drawmode_45',['DrawMode',['../structJ3DSys.html#a30cc363d626b82865300b658c387eab9',1,'J3DSys']]],
+  ['dvdresult_46',['DVDResult',['../dvd_8h.html#ac3c743dfa2642c893af57e9582d42d9b',1,'dvd.h']]],
+  ['dvdstate_47',['DVDState',['../dvd_8h.html#ad4f227aed34861133cc1c89c8a0d86e7',1,'dvd.h']]]
 ];
