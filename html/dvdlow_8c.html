@@ -97,7 +97,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="OSTime_8h_source.html">dolphin/os/OSTime.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="OSContext_8h_source.html">dolphin/os/OSContext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="OSReset_8h_source.html">dolphin/os/OSReset.h</a>&quot;</code><br />
-<code>#include &quot;asm/dolphin/dvd/dvdlow/DVDLowRead.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for dvdlow.c:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -109,11 +108,15 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDVDBuffer.html">DVDBuffer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDVDCommand.html">DVDCommand</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a7c124abe9ed36ff71928c6f0185f660a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structDVDBuffer.html">DVDBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a7c124abe9ed36ff71928c6f0185f660a">DVDBuffer</a></td></tr>
+<tr class="separator:a7c124abe9ed36ff71928c6f0185f660a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cd27c2b185d2f753de671d4d31081a3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structDVDCommand.html">DVDCommand</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a8cd27c2b185d2f753de671d4d31081a3">DVDCommand</a></td></tr>
 <tr class="separator:a8cd27c2b185d2f753de671d4d31081a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -131,8 +134,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5a439c7e8e315dd6f3579a8d13b8e645"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade64b8b50a0f949a232b08855542fd4a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#ade64b8b50a0f949a232b08855542fd4a">SeekTwiceBeforeRead</a> (void *arg0, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg2, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> <a class="el" href="m__Do__dvd__thread_8cpp.html#a6740c015dd9c1f64fe72cfe15f1db677">cb</a>)</td></tr>
 <tr class="separator:ade64b8b50a0f949a232b08855542fd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11038853eda736363bbcf02312b050a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a11038853eda736363bbcf02312b050a2">DVDLowRead</a> (void *arg0, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg2, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> <a class="el" href="m__Do__dvd__thread_8cpp.html#a6740c015dd9c1f64fe72cfe15f1db677">cb</a>)</td></tr>
-<tr class="separator:a11038853eda736363bbcf02312b050a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af16e72e78de3d4421e0ae5dea0b14166"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#af16e72e78de3d4421e0ae5dea0b14166">DVDLowRead</a> (void *arg0, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg1, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg2, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> <a class="el" href="m__Do__dvd__thread_8cpp.html#a6740c015dd9c1f64fe72cfe15f1db677">cb</a>)</td></tr>
+<tr class="separator:af16e72e78de3d4421e0ae5dea0b14166"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a206e0d6a0ed6c9d0d489aab54636d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a94a206e0d6a0ed6c9d0d489aab54636d">DVDLowSeek</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> arg0, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> <a class="el" href="m__Do__dvd__thread_8cpp.html#a6740c015dd9c1f64fe72cfe15f1db677">cb</a>)</td></tr>
 <tr class="separator:a94a206e0d6a0ed6c9d0d489aab54636d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0629cc9eae4e7a371bcc5ee1c089c7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#ac0629cc9eae4e7a371bcc5ee1c089c7e">DVDLowWaitCoverClose</a> (<a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> <a class="el" href="m__Do__dvd__thread_8cpp.html#a6740c015dd9c1f64fe72cfe15f1db677">cb</a>)</td></tr>
@@ -183,6 +186,12 @@ Functions</h2></td></tr>
 <tr class="separator:a86b72646ff01e3bbfb0d91937775144d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c426b1e67f147d0559953c090f6dfe7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a0c426b1e67f147d0559953c090f6dfe7">__setAlarm</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> seconds)</td></tr>
 <tr class="separator:a0c426b1e67f147d0559953c090f6dfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b7ce73521964abaa4eda262e179e86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a15b7ce73521964abaa4eda262e179e86">HitCache</a> ()</td></tr>
+<tr class="separator:a15b7ce73521964abaa4eda262e179e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a874f354a14bfc5b982fb943a81b445bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a874f354a14bfc5b982fb943a81b445bd">DoJustRead</a> (void *addr, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> length, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> callback)</td></tr>
+<tr class="separator:a874f354a14bfc5b982fb943a81b445bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5085ceebdeaec56b6bf6e22331147b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a6c5085ceebdeaec56b6bf6e22331147b">WaitBeforeRead</a> (void *addr, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> length, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, <a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a> callback, <a class="el" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> timeout)</td></tr>
+<tr class="separator:a6c5085ceebdeaec56b6bf6e22331147b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -222,14 +231,28 @@ Variables</h2></td></tr>
 <tr class="separator:a482ca2f1b23c968b8089aae7bffe7dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bc4b19095bb58277f0d205520da588c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structOSAlarm.html">OSAlarm</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a7bc4b19095bb58277f0d205520da588c">AlarmForBreak</a></td></tr>
 <tr class="separator:a7bc4b19095bb58277f0d205520da588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15fd6128a59ef0277c172af7a2a406a9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a15fd6128a59ef0277c172af7a2a406a9">Prev</a> [3]</td></tr>
-<tr class="separator:a15fd6128a59ef0277c172af7a2a406a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe020d6606dbcad0c4097399fdbacfc9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#abe020d6606dbcad0c4097399fdbacfc9">Curr</a> [3]</td></tr>
-<tr class="separator:abe020d6606dbcad0c4097399fdbacfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a399941059b94c17c8867b2036a8938be"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a22a2a06fa275008ac56121fac5e1ff92">SECTION_SDATA</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a399941059b94c17c8867b2036a8938be">FirstRead</a> [1+1]</td></tr>
-<tr class="separator:a399941059b94c17c8867b2036a8938be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8650e6f1f024671e17426e6ccc96daf2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structDVDBuffer.html">DVDBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a8650e6f1f024671e17426e6ccc96daf2">Prev</a></td></tr>
+<tr class="separator:a8650e6f1f024671e17426e6ccc96daf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39ef7c5e9e2d636341cf4b0396216136"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structDVDBuffer.html">DVDBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a39ef7c5e9e2d636341cf4b0396216136">Curr</a></td></tr>
+<tr class="separator:a39ef7c5e9e2d636341cf4b0396216136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d13300e7d7935abb5617060a74438cc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a22a2a06fa275008ac56121fac5e1ff92">SECTION_SDATA</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dvdlow_8c.html#a1d13300e7d7935abb5617060a74438cc">FirstRead</a> = <a class="el" href="types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td></tr>
+<tr class="separator:a1d13300e7d7935abb5617060a74438cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7c124abe9ed36ff71928c6f0185f660a" name="a7c124abe9ed36ff71928c6f0185f660a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c124abe9ed36ff71928c6f0185f660a">&#9670;&#160;</a></span>DVDBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structDVDBuffer.html">DVDBuffer</a> <a class="el" href="structDVDBuffer.html">DVDBuffer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8cd27c2b185d2f753de671d4d31081a3" name="a8cd27c2b185d2f753de671d4d31081a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cd27c2b185d2f753de671d4d31081a3">&#9670;&#160;</a></span>DVDCommand</h2>
 
@@ -518,6 +541,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a874f354a14bfc5b982fb943a81b445bd" name="a874f354a14bfc5b982fb943a81b445bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874f354a14bfc5b982fb943a81b445bd">&#9670;&#160;</a></span>DoJustRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void DoJustRead </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a56ee1a61740bdd64551a0e7da1c78c10" name="a56ee1a61740bdd64551a0e7da1c78c10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56ee1a61740bdd64551a0e7da1c78c10">&#9670;&#160;</a></span>DVDLowAudioBufferConfig()</h2>
 
@@ -654,14 +725,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a11038853eda736363bbcf02312b050a2" name="a11038853eda736363bbcf02312b050a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11038853eda736363bbcf02312b050a2">&#9670;&#160;</a></span>DVDLowRead()</h2>
+<a id="af16e72e78de3d4421e0ae5dea0b14166" name="af16e72e78de3d4421e0ae5dea0b14166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af16e72e78de3d4421e0ae5dea0b14166">&#9670;&#160;</a></span>DVDLowRead()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> DVDLowRead </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> DVDLowRead </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>arg0</em>, </td>
@@ -842,6 +913,23 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a>&#160;</td>
           <td class="paramname"><em>cb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a15b7ce73521964abaa4eda262e179e86" name="a15b7ce73521964abaa4eda262e179e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15b7ce73521964abaa4eda262e179e86">&#9670;&#160;</a></span>HitCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> HitCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1048,6 +1136,60 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6c5085ceebdeaec56b6bf6e22331147b" name="a6c5085ceebdeaec56b6bf6e22331147b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5085ceebdeaec56b6bf6e22331147b">&#9670;&#160;</a></span>WaitBeforeRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void WaitBeforeRead </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="dvdlow_8h.html#ab66cbd342948bdcbf3da919c605539e7">DVDLowCallback</a>&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a>&#160;</td>
+          <td class="paramname"><em>timeout</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a7bc4b19095bb58277f0d205520da588c" name="a7bc4b19095bb58277f0d205520da588c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7bc4b19095bb58277f0d205520da588c">&#9670;&#160;</a></span>AlarmForBreak</h2>
@@ -1185,8 +1327,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abe020d6606dbcad0c4097399fdbacfc9" name="abe020d6606dbcad0c4097399fdbacfc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe020d6606dbcad0c4097399fdbacfc9">&#9670;&#160;</a></span>Curr</h2>
+<a id="a39ef7c5e9e2d636341cf4b0396216136" name="a39ef7c5e9e2d636341cf4b0396216136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39ef7c5e9e2d636341cf4b0396216136">&#9670;&#160;</a></span>Curr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1195,7 +1337,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> Curr[3]</td>
+          <td class="memname"><a class="el" href="structDVDBuffer.html">DVDBuffer</a> Curr</td>
         </tr>
       </table>
   </td>
@@ -1207,8 +1349,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a399941059b94c17c8867b2036a8938be" name="a399941059b94c17c8867b2036a8938be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a399941059b94c17c8867b2036a8938be">&#9670;&#160;</a></span>FirstRead</h2>
+<a id="a1d13300e7d7935abb5617060a74438cc" name="a1d13300e7d7935abb5617060a74438cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d13300e7d7935abb5617060a74438cc">&#9670;&#160;</a></span>FirstRead</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1217,7 +1359,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a22a2a06fa275008ac56121fac5e1ff92">SECTION_SDATA</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> FirstRead[1+1]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a22a2a06fa275008ac56121fac5e1ff92">SECTION_SDATA</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> FirstRead = <a class="el" href="types_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a></td>
         </tr>
       </table>
   </td>
@@ -1226,12 +1368,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    0x00000001,</div>
-<div class="line">    </div>
-<div class="line">    0x00000000,</div>
-<div class="line">}</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <a id="af37088b0dff0743fc62c731496294044" name="af37088b0dff0743fc62c731496294044"></a>
@@ -1366,8 +1503,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a15fd6128a59ef0277c172af7a2a406a9" name="a15fd6128a59ef0277c172af7a2a406a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15fd6128a59ef0277c172af7a2a406a9">&#9670;&#160;</a></span>Prev</h2>
+<a id="a8650e6f1f024671e17426e6ccc96daf2" name="a8650e6f1f024671e17426e6ccc96daf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8650e6f1f024671e17426e6ccc96daf2">&#9670;&#160;</a></span>Prev</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1376,7 +1513,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> Prev[3]</td>
+          <td class="memname"><a class="el" href="structDVDBuffer.html">DVDBuffer</a> Prev</td>
         </tr>
       </table>
   </td>

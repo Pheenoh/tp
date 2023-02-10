@@ -76,7 +76,7 @@ var searchData=
   ['unkoffset_73',['unkOffset',['../structJ3DAnmTextureSRTKeyData.html#a52647fe6d8b848ff7a64b2cc2a437638',1,'J3DAnmTextureSRTKeyData']]],
   ['unkval_74',['UnkVal',['../Pad_8c.html#a99f1ffa3b784c63a6f5c36e0b36c1601',1,'Pad.c']]],
   ['unlockcallback_75',['unlockCallback',['../structCARDControl.html#ad7a2ed23a3da4ed07053b7e54ec4c873',1,'CARDControl']]],
-  ['unused_76',['unused',['../classdaObjE__CREATE__c.html#ad775abc14475bfd0cbb58ed96f08d8ac',1,'daObjE_CREATE_c']]],
+  ['unused_76',['unused',['../classdaObjE__CREATE__c.html#ad775abc14475bfd0cbb58ed96f08d8ac',1,'daObjE_CREATE_c::unused()'],['../classdaLv6CstaSw__c.html#a691eba532f6d0ae179cdff4a9fd75cdf',1,'daLv6CstaSw_c::unused()']]],
   ['upsz_5f_77',['upsz_',['../structJMessage_1_1TProcessor_1_1TStack__.html#a21eb48cfc9fe31f9dd08a059ac16dbc6',1,'JMessage::TProcessor::TStack_']]],
   ['urest_78',['uRest',['../structJMessage_1_1TProcessor_1_1TProcess__.html#aff6c60dd1669f76d855649974d22f9f2',1,'JMessage::TProcessor::TProcess_']]],
   ['usedlist_79',['usedList',['../structOSHeapDescriptor.html#a7b24dc58a7946c7d93144e9612b6fbad',1,'OSHeapDescriptor']]],
