@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['u_0',['U',['../structcSGlobe.html#a7a60eb8a480e364713c378406b6e7b2c',1,'cSGlobe::U()'],['../structdCamera__c.html#a4c050aa9674936a2711702a831425478',1,'dCamera_c::U()'],['../structcSGlobe.html#a1937b6fd8f657dcd986ccaf75dff6264',1,'cSGlobe::U()']]],
-  ['u_1',['u',['../unionFpscrUnion.html#a1d65cd4bcf1972ea06323360e9d08a15',1,'FpscrUnion::u()'],['../structJStudio_1_1TAdaptor.html#aedb18683fd1bcd604beff8e14ce36bc8',1,'JStudio::TAdaptor::u()']]],
+  ['u_0',['u',['../unionFpscrUnion.html#a1d65cd4bcf1972ea06323360e9d08a15',1,'FpscrUnion::u()'],['../structJStudio_1_1TAdaptor.html#aedb18683fd1bcd604beff8e14ce36bc8',1,'JStudio::TAdaptor::u()']]],
+  ['u_1',['U',['../structcSGlobe.html#a7a60eb8a480e364713c378406b6e7b2c',1,'cSGlobe::U()'],['../structdCamera__c.html#a4c050aa9674936a2711702a831425478',1,'dCamera_c::U()'],['../structcSGlobe.html#a1937b6fd8f657dcd986ccaf75dff6264',1,'cSGlobe::U()']]],
   ['u16_2',['u16',['../types_8h.html#a9e6c91d77e24643b888dbd1a1a590054',1,'u16():&#160;types.h'],['../unionPPCWGPipe.html#a54691399b526673acdb012dd9db1b3d1',1,'PPCWGPipe::u16()']]],
   ['u32_3',['u32',['../types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac',1,'u32():&#160;types.h'],['../unionPPCWGPipe.html#a36f6c6095ee0cd5b7e1ad444ecd818af',1,'PPCWGPipe::u32()']]],
   ['u32data_4',['u32data',['../structJStudio_1_1TFunctionValue__composite_1_1TData.html#a54fd6928f7f1b307d6056a6b7b6471c2',1,'JStudio::TFunctionValue_composite::TData']]],
@@ -159,9 +159,9 @@ var searchData=
   ['unkstatus_5f0_156',['UNKSTATUS_0',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35ba865acf61d78e4742334359d7d0f783ff',1,'JUTFader']]],
   ['unkstatus_5fm1_157',['UNKSTATUS_M1',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35baa1424faf4cb3b0d746b5da7002333a2c',1,'JUTFader']]],
   ['unkval_158',['UnkVal',['../Pad_8c.html#a99f1ffa3b784c63a6f5c36e0b36c1601',1,'Pad.c']]],
-  ['unlink_159',['unlink',['../structJUTCacheFont.html#ae3e374faf41b1c879fd6ae32ba2b57bc',1,'JUTCacheFont']]],
-  ['unlink_160',['Unlink',['../structcDylPhs.html#a1200da2ab228a7a4a7d719b2a703fb84',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)'],['../structcDylPhs.html#a1486e71bba1471a6eb1e1da68843120c',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)']]],
-  ['unlink_161',['unlink',['../structDynamicModuleControlBase.html#af8db4d9eabf5233d8ba2669b4f49c725',1,'DynamicModuleControlBase']]],
+  ['unlink_159',['Unlink',['../structcDylPhs.html#a1486e71bba1471a6eb1e1da68843120c',1,'cDylPhs']]],
+  ['unlink_160',['unlink',['../structDynamicModuleControlBase.html#af8db4d9eabf5233d8ba2669b4f49c725',1,'DynamicModuleControlBase::unlink()'],['../structJUTCacheFont.html#ae3e374faf41b1c879fd6ae32ba2b57bc',1,'JUTCacheFont::unlink()']]],
+  ['unlink_161',['Unlink',['../structcDylPhs.html#a1200da2ab228a7a4a7d719b2a703fb84',1,'cDylPhs']]],
   ['unlink_5f_5f12jutcachefontfpq212jutcachefont15tglyphcacheinfo_162',['unlink__12JUTCacheFontFPQ212JUTCacheFont15TGlyphCacheInfo',['../JUTCacheFont_8cpp.html#ab4c04ad9fd66043fcdbdb9e6feb8ecc4',1,'JUTCacheFont.cpp']]],
   ['unlink_5f_5f24dynamicmodulecontrolbasefv_163',['unlink__24DynamicModuleControlBaseFv',['../c__dylink_8cpp.html#a8ca566ede8b8179321cd73da27ad0864',1,'c_dylink.cpp']]],
   ['unlink_5f_5f7cdylphsfp30request_5fof_5fphase_5fprocess_5fclasss_164',['Unlink__7cDylPhsFP30request_of_phase_process_classs',['../c__dylink_8cpp.html#a413bc36c019b65d804cfa7be15f3d726',1,'Unlink__7cDylPhsFP30request_of_phase_process_classs():&#160;c_dylink.cpp'],['../d__s__play_8cpp.html#a413bc36c019b65d804cfa7be15f3d726',1,'Unlink__7cDylPhsFP30request_of_phase_process_classs():&#160;d_s_play.cpp']]],
