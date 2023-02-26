@@ -35,7 +35,7 @@ var searchData=
   ['keepitemdata_5f_5f9daalink_5fcfv_32',['keepItemData__9daAlink_cFv',['../d__a__alink_8cpp.html#aefbaa3a38b450d2b422590c57befcc2e',1,'d_a_alink.cpp']]],
   ['keeplock_33',['keepLock',['../classdAttention__c.html#aa38299409aca484ea1f8e1666aa5b77b',1,'dAttention_c']]],
   ['keeplock_5f_5f12dattention_5fcfi_34',['keepLock__12dAttention_cFi',['../d__camera_8cpp.html#a1e2f50de5f86859a9ff79a423043e264',1,'d_camera.cpp']]],
-  ['ketteitxtdispanm_35',['ketteiTxtDispAnm',['../structdMenu__save__c.html#a71be821a5360762fffc1862aabf8bc91',1,'dMenu_save_c::ketteiTxtDispAnm()'],['../structdFile__select__c.html#a21cbe726827fd6ca380c8cbd4f73e2b9',1,'dFile_select_c::ketteiTxtDispAnm()']]],
+  ['ketteitxtdispanm_35',['ketteiTxtDispAnm',['../structdFile__select__c.html#a21cbe726827fd6ca380c8cbd4f73e2b9',1,'dFile_select_c::ketteiTxtDispAnm()'],['../structdMenu__save__c.html#a71be821a5360762fffc1862aabf8bc91',1,'dMenu_save_c::ketteiTxtDispAnm()']]],
   ['ketteitxtdispanm_5f_5f12dmenu_5fsave_5fcfv_36',['ketteiTxtDispAnm__12dMenu_save_cFv',['../d__menu__save_8cpp.html#a2d71cff61b2e97a6ce7fbaa35a0355f7',1,'d_menu_save.cpp']]],
   ['ketteitxtdispanm_5f_5f14dfile_5fselect_5fcfv_37',['ketteiTxtDispAnm__14dFile_select_cFv',['../d__file__select_8cpp.html#aa0e6ff4b255e4d331a01d50f604743aa',1,'d_file_select.cpp']]],
   ['ketteitxtdispanminit_38',['ketteiTxtDispAnmInit',['../structdFile__select__c.html#abf193eb5f176769bb25a879a2099950b',1,'dFile_select_c::ketteiTxtDispAnmInit()'],['../structdMenu__save__c.html#a244cf321ace2206b9b9b83a46bc90bf2',1,'dMenu_save_c::ketteiTxtDispAnmInit()']]],
@@ -57,7 +57,7 @@ var searchData=
   ['killactivechannel_5f_5f13jasdspchannelfv_54',['killActiveChannel__13JASDSPChannelFv',['../JASDSPChannel_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASDSPChannel.cpp'],['../JASAiCtrl_8cpp.html#aec6fb04a5f93b5fde9a125aba8277c19',1,'killActiveChannel__13JASDSPChannelFv():&#160;JASAiCtrl.cpp']]],
   ['killsubcontents_55',['killSubContents',['../classdMeter2__c.html#a2e26c996ab1ab5efd0bbf57ab6d366d8',1,'dMeter2_c']]],
   ['killsubcontents_5f_5f9dmeter2_5fcfuc_56',['killSubContents__9dMeter2_cFUc',['../d__meter2_8cpp.html#aa4b5a9a0afed63f5ef1d5b58821b9685',1,'d_meter2.cpp']]],
-  ['killthreads_57',['KillThreads',['../OSReset_8h.html#afd6e0ba5a2f96cd39ff3e4146be34d44',1,'KillThreads(void):&#160;OSReset.h'],['../OSReset_8c.html#afd6e0ba5a2f96cd39ff3e4146be34d44',1,'KillThreads(void):&#160;OSReset.c']]],
+  ['killthreads_57',['KillThreads',['../OSReset_8c.html#afd6e0ba5a2f96cd39ff3e4146be34d44',1,'KillThreads(void):&#160;OSReset.c'],['../OSReset_8h.html#afd6e0ba5a2f96cd39ff3e4146be34d44',1,'KillThreads(void):&#160;OSReset.h']]],
   ['kind_5fcolor_58',['KIND_COLOR',['../J2DAnimation_8h.html#a424f4c2c887eb519e2f0f02b37e42c48a2bfb96bb6381c7445b2ec8b19bfca828',1,'J2DAnimation.h']]],
   ['kind_5ftev_5freg_59',['KIND_TEV_REG',['../J2DAnimation_8h.html#a424f4c2c887eb519e2f0f02b37e42c48a6da00a8b59e0d91319e6aafcc0891bdd',1,'J2DAnimation.h']]],
   ['kind_5ftex_5fpattern_60',['KIND_TEX_PATTERN',['../J2DAnimation_8h.html#a424f4c2c887eb519e2f0f02b37e42c48ab3d250ee6ba58aa0b39f1f6764379e3d',1,'J2DAnimation.h']]],
@@ -70,7 +70,8 @@ var searchData=
   ['kokiri_5fclothes_5fflag_67',['KOKIRI_CLOTHES_FLAG',['../d__save_8h.html#a754ce34cf5161a6dc781544dbecc6cd0aa8e82eaa10422a66792fb9c246061c4a',1,'d_save.h']]],
   ['kvcdvatdlsize_68',['kVcdVatDLSize',['../J3DShape_8cpp.html#adf764cbdea00d65edcd07bb9953ad2b7a1587d173f2bd09d94ac8cf4004fb6bc2',1,'kVcdVatDLSize():&#160;J3DShape.cpp'],['../classJ3DShape.html#a3401d7061c64290601a663b0d12fd9daa78df67ba3112e67a6e32f56478e5f788',1,'J3DShape::kVcdVatDLSize()']]],
   ['kytag05_5fclass_69',['kytag05_class',['../classkytag05__class.html',1,'']]],
-  ['kytag07_5fclass_70',['kytag07_class',['../classkytag07__class.html',1,'']]],
-  ['kytag14_5fclass_71',['kytag14_class',['../classkytag14__class.html',1,'']]],
-  ['kytag17_5fclass_72',['kytag17_class',['../classkytag17__class.html',1,'']]]
+  ['kytag06_5fclass_70',['kytag06_class',['../classkytag06__class.html',1,'']]],
+  ['kytag07_5fclass_71',['kytag07_class',['../classkytag07__class.html',1,'']]],
+  ['kytag14_5fclass_72',['kytag14_class',['../classkytag14__class.html',1,'']]],
+  ['kytag17_5fclass_73',['kytag17_class',['../classkytag17__class.html',1,'']]]
 ];

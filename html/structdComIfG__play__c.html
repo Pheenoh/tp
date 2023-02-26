@@ -494,6 +494,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abf1b32aab072700c2d5111713e063242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cd72b3c6075279ed9b1fb4c546dbd59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#a6cd72b3c6075279ed9b1fb4c546dbd59">setCameraInfo</a> (int camIdx, <a class="el" href="structcamera__class.html">camera_class</a> *p_cam, int param_2, int param_3, int param_4)</td></tr>
 <tr class="separator:a6cd72b3c6075279ed9b1fb4c546dbd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad689be5c7c62c2254363aabbc1a00de9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#ad689be5c7c62c2254363aabbc1a00de9">setMesgCamInfoID</a> (int param_0)</td></tr>
+<tr class="separator:ad689be5c7c62c2254363aabbc1a00de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2499ee582a3d1fef4fdfb6915f0caab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#a2499ee582a3d1fef4fdfb6915f0caab5">setStatus</a> (<a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="el" href="fstload_8c.html#a7dd63b23746a64a9a58ba770d86359e3">status</a>)</td></tr>
 <tr class="separator:a2499ee582a3d1fef4fdfb6915f0caab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a461606ddf996c4f678909482ce3c8f48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#a461606ddf996c4f678909482ce3c8f48">checkStatus</a> (<a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> flags)</td></tr>
@@ -940,8 +942,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a17fd5400eb203dc9680b9ab5db2070d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51dd1b0aa21d3b75009ad72f9ae05bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#a51dd1b0aa21d3b75009ad72f9ae05bf0">field_0x4fad</a> [3]</td></tr>
 <tr class="separator:a51dd1b0aa21d3b75009ad72f9ae05bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a3e8ed32aef3a5ae69fa3f63d809f1"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#a58a3e8ed32aef3a5ae69fa3f63d809f1">mMesgCamInfo</a></td></tr>
-<tr class="separator:a58a3e8ed32aef3a5ae69fa3f63d809f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada572460b3ce2ecf3813adeae3949abd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#ada572460b3ce2ecf3813adeae3949abd">mMesgCamInfo</a></td></tr>
+<tr class="separator:ada572460b3ce2ecf3813adeae3949abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab89e9f82968eefea353a0738ffb41725"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#ab89e9f82968eefea353a0738ffb41725">mMesgCamInfoBasicID</a></td></tr>
 <tr class="separator:ab89e9f82968eefea353a0738ffb41725"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afacfaf74a46166fc7c83459970de7038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdComIfG__play__c.html#afacfaf74a46166fc7c83459970de7038">mMesgCamInfoActor1</a></td></tr>
@@ -5623,6 +5625,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad689be5c7c62c2254363aabbc1a00de9" name="ad689be5c7c62c2254363aabbc1a00de9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad689be5c7c62c2254363aabbc1a00de9">&#9670;&#160;</a></span>setMesgCamInfoID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dComIfG_play_c::setMesgCamInfoID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>param_0</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac1f8445077e866b314688ed9ab622446" name="ac1f8445077e866b314688ed9ab622446"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1f8445077e866b314688ed9ab622446">&#9670;&#160;</a></span>setMesgCancelButton()</h2>
 
@@ -8930,14 +8958,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a58a3e8ed32aef3a5ae69fa3f63d809f1" name="a58a3e8ed32aef3a5ae69fa3f63d809f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58a3e8ed32aef3a5ae69fa3f63d809f1">&#9670;&#160;</a></span>mMesgCamInfo</h2>
+<a id="ada572460b3ce2ecf3813adeae3949abd" name="ada572460b3ce2ecf3813adeae3949abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada572460b3ce2ecf3813adeae3949abd">&#9670;&#160;</a></span>mMesgCamInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* dComIfG_play_c::mMesgCamInfo</td>
+          <td class="memname">int dComIfG_play_c::mMesgCamInfo</td>
         </tr>
       </table>
 </div><div class="memdoc">
