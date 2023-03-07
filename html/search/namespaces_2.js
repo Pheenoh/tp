@@ -14,9 +14,10 @@ var searchData=
   ['jstudio_5fjaudio2_11',['JStudio_JAudio2',['../namespaceJStudio__JAudio2.html',1,'']]],
   ['jstudio_5fjparticle_12',['JStudio_JParticle',['../namespaceJStudio__JParticle.html',1,'']]],
   ['jstudio_5fjstage_13',['JStudio_JStage',['../namespaceJStudio__JStage.html',1,'']]],
-  ['jutility_14',['JUtility',['../namespaceJUtility.html',1,'']]],
-  ['math_15',['math',['../namespaceJStudio_1_1math.html',1,'JStudio']]],
-  ['object_16',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
-  ['stb_17',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
-  ['vector_18',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
+  ['jutassertion_14',['JUTAssertion',['../namespaceJUTAssertion.html',1,'']]],
+  ['jutility_15',['JUtility',['../namespaceJUtility.html',1,'']]],
+  ['math_16',['math',['../namespaceJStudio_1_1math.html',1,'JStudio']]],
+  ['object_17',['object',['../namespaceJStudio_1_1object.html',1,'JStudio']]],
+  ['stb_18',['stb',['../namespaceJStudio_1_1stb.html',1,'JStudio']]],
+  ['vector_19',['vector',['../namespaceJGadget_1_1vector.html',1,'JGadget']]]
 ];

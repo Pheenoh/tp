@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['isleadbyte_0',['IsLeadByte',['../JUTResFont_8h.html#af6879e9e0377890ffb389f0fff895d26',1,'JUTResFont.h']]]
+  ['isleadbyte_5ffunc_0',['IsLeadByte_func',['../JUTResFont_8h.html#af629f906de729d784c6894c222479586',1,'JUTResFont.h']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tail_0',['TAIL',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5aafec09f67c269de8b3813b8738de58cd',1,'JKRAramHeap']]],
+  ['tail_0',['TAIL',['../classJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5aafec09f67c269de8b3813b8738de58cd',1,'JKRAramHeap']]],
   ['taste_1',['TASTE',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a8585a493765238d03fa238f05c6b846a',1,'d_save.h']]],
   ['test_2',['TEST',['../d__kankyo__data_8h.html#a22a7f4c7dfa4763f73a82caff6e1713eab2f0cd22b1963becef8b91d29d567fe8',1,'d_kankyo_data.h']]],
   ['tf_5fstatus_5fhuman_3',['TF_STATUS_HUMAN',['../d__save_8h.html#ac205be2172292384dd687b5471a87edda10de42bbbcc10537c925455f78e307c0',1,'d_save.h']]],

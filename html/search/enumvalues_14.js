@@ -15,7 +15,7 @@ var searchData=
   ['unk_5fmethod_5f0_12',['UNK_METHOD_0',['../structJFWDisplay.html#af84166a3fe71eef3b55b7de7c8f219c2a53227de1e5a6faf1ae4478b199eee5b3',1,'JFWDisplay']]],
   ['unk_5fmethod_5f1_13',['UNK_METHOD_1',['../structJFWDisplay.html#af84166a3fe71eef3b55b7de7c8f219c2a5a6c2858fd585df25b856ef0f517434f',1,'JFWDisplay']]],
   ['unknown_14',['UNKNOWN',['../classJKRAramStreamCommand.html#a584a0f0d44d10e7db7ae9487b83a3486a2de801cff5693dc0762b74549e5efeb1',1,'JKRAramStreamCommand']]],
-  ['unknown_5fealloc_5fdirection_15',['UNKNOWN_EALLOC_DIRECTION',['../structJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161aaa755b34b664d87cb5d121fe07d24c22',1,'JKRDvdRipper']]],
+  ['unknown_5fealloc_5fdirection_15',['UNKNOWN_EALLOC_DIRECTION',['../classJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161aaa755b34b664d87cb5d121fe07d24c22',1,'JKRDvdRipper']]],
   ['unknown_5fmount_5fdirection_16',['UNKNOWN_MOUNT_DIRECTION',['../structJKRArchive.html#adcf19e3c6e754c27610ed30a8acd1b0fa7ada7bee31268bae4ae8b40f883df688',1,'JKRArchive']]],
   ['unknown_5fmount_5fmode_17',['UNKNOWN_MOUNT_MODE',['../structJKRArchive.html#afa04710b1fffa15f661f0dd3a66bba3ea59ff20ff12931705e7c27dd9f7dd78b9',1,'JKRArchive']]],
   ['unkstatus_5f0_18',['UNKSTATUS_0',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35ba865acf61d78e4742334359d7d0f783ff',1,'JUTFader']]],

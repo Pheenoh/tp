@@ -6,7 +6,7 @@ var searchData=
   ['hbind_5fcenter_3',['HBIND_CENTER',['../J2DTextBox_8h.html#ace2fe1d49637af193cc4e768d170d99ca4d9ed338beee660c09f05121644efede',1,'J2DTextBox.h']]],
   ['hbind_5fleft_4',['HBIND_LEFT',['../J2DTextBox_8h.html#ace2fe1d49637af193cc4e768d170d99cae63de9b277eb77eea17b46c15f6ee7c9',1,'J2DTextBox.h']]],
   ['hbind_5fright_5',['HBIND_RIGHT',['../J2DTextBox_8h.html#ace2fe1d49637af193cc4e768d170d99cac17dc05aef430c16c91de902f21285be',1,'J2DTextBox.h']]],
-  ['head_6',['HEAD',['../structJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5a53e8702fce2a25b97840eebc0cacf017',1,'JKRAramHeap']]],
+  ['head_6',['HEAD',['../classJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5a53e8702fce2a25b97840eebc0cacf017',1,'JKRAramHeap']]],
   ['heap_5ftype_5f1_7',['HEAP_TYPE_1',['../classdaPy__anmHeap__c.html#afb299842834557aa76560115ba6f53f3a70f3763160bd2bb40daefdb1e023fea4',1,'daPy_anmHeap_c']]],
   ['heap_5ftype_5f2_8',['HEAP_TYPE_2',['../classdaPy__anmHeap__c.html#afb299842834557aa76560115ba6f53f3a533e5cb34e11944404ae69d6789e822b',1,'daPy_anmHeap_c']]],
   ['heap_5ftype_5f3_9',['HEAP_TYPE_3',['../classdaPy__anmHeap__c.html#afb299842834557aa76560115ba6f53f3a30066221b7fc38bd10f7281919e5af6f',1,'daPy_anmHeap_c']]],

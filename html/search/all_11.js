@@ -124,12 +124,12 @@ var searchData=
   ['query053_121',['query053',['../structdMsgFlow__c.html#a95f2738b754eb4bfa12af0f5129e9b67',1,'dMsgFlow_c']]],
   ['query053_5f_5f10dmsgflow_5fcfp21mesg_5fflow_5fnode_5fbranchp10fopac_5fac_5fci_122',['query053__10dMsgFlow_cFP21mesg_flow_node_branchP10fopAc_ac_ci',['../d__msg__flow_8cpp.html#abb009503b8a59ec6a81667d29e988ab6',1,'d_msg_flow.cpp']]],
   ['queryfunc_123',['queryFunc',['../d__msg__flow_8h.html#a71fc214636b2632f9cbb91fc7f0c0a45',1,'d_msg_flow.h']]],
-  ['querymapaddress_124',['queryMapAddress',['../structJUTException.html#ac2fa3cd26fb516d971a240d6103c9e86',1,'JUTException']]],
-  ['querymapaddress_5fsingle_125',['queryMapAddress_single',['../structJUTException.html#aeb50fb73800ba5238413322e6ed3604c',1,'JUTException']]],
+  ['querymapaddress_124',['queryMapAddress',['../classJUTException.html#ac2fa3cd26fb516d971a240d6103c9e86',1,'JUTException']]],
+  ['querymapaddress_5fsingle_125',['queryMapAddress_single',['../classJUTException.html#aeb50fb73800ba5238413322e6ed3604c',1,'JUTException']]],
   ['queue_126',['queue',['../structEXIControl.html#a453c0de79076a6aba560ebc953a51073',1,'EXIControl::queue()'],['../structOSMutex.html#a94e38e16ab262180416736b11921867b',1,'OSMutex::queue()'],['../structOSCond.html#a589f00ff1643277e5a9702ad9c1c1a03',1,'OSCond::queue()'],['../structOSThread.html#ad4db9ecdbeb784a78a7d6abf52f1ff57',1,'OSThread::queue()'],['../f__pc__manager_8cpp.html#a73b5e8250c6bfb2e8fb034569229b3ca',1,'queue():&#160;f_pc_manager.cpp']]],
   ['queuelength_127',['QueueLength',['../EXIUart_8c.html#ae499dd0dccf91bd67c7dae9d826448a6',1,'EXIUart.c']]],
   ['quickstart_128',['QuickStart',['../structdCamera__c.html#a37ec7594e5517125c0766779b1370cb4',1,'dCamera_c']]],
   ['quickstart_5f_5f9dcamera_5fcfv_129',['QuickStart__9dCamera_cFv',['../d__camera_8cpp.html#a308e108dfec8345eaa1b2676abaef6ab',1,'QuickStart__9dCamera_cFv():&#160;d_camera.cpp'],['../d__event_8cpp.html#a308e108dfec8345eaa1b2676abaef6ab',1,'QuickStart__9dCamera_cFv():&#160;d_event.cpp']]],
-  ['quitimmortalemitter_130',['quitImmortalEmitter',['../structJPABaseEmitter.html#a52875bae713308a57fddbb4f4d63844c',1,'JPABaseEmitter']]],
+  ['quitimmortalemitter_130',['quitImmortalEmitter',['../classJPABaseEmitter.html#a52875bae713308a57fddbb4f4d63844c',1,'JPABaseEmitter']]],
   ['quot_131',['quot',['../structdiv__t.html#a0b9dda2884048daa68ca4aaa12b17b9a',1,'div_t']]]
 ];
