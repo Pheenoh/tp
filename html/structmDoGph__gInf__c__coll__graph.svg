@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 634;
+var viewWidth = 517;
 var viewHeight = 251;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,164 +58,164 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title=" ">
-<polygon fill="#999999" stroke="#666666" points="296,-19 209,-19 209,0 296,0 296,-19"/>
-<text text-anchor="middle" x="252.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">mDoGph_gInf_c</text>
+<polygon fill="#999999" stroke="#666666" points="290.47,-19 203.47,-19 203.47,0 290.47,0 290.47,-19"/>
+<text text-anchor="middle" x="246.97" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">mDoGph_gInf_c</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="struct__GXTexObj.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="67,-97.5 0,-97.5 0,-78.5 67,-78.5 67,-97.5"/>
-<text text-anchor="middle" x="33.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">_GXTexObj</text>
+<g id="a_node2"><a xlink:href="struct__GXColor.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="114.47,-176 55.47,-176 55.47,-157 114.47,-157 114.47,-176"/>
+<text text-anchor="middle" x="84.97" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">_GXColor</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M34.1,-66.59C35.51,-56.22 39.07,-44.3 47.5,-37 70.91,-16.75 155.85,-11.76 208.77,-10.66"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="30.61,-66.31 33.35,-76.55 37.59,-66.83 30.61,-66.31"/>
-<text text-anchor="middle" x="95" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> mFrameBufferTexObj</text>
-<text text-anchor="middle" x="95" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">mZbufferTexObj</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M56.44,-151.35C26.02,-134.36 -15.11,-104.68 5.97,-77 29.76,-45.75 140.38,-25.45 203.16,-16.23"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="54.44,-154.25 64.91,-155.89 57.75,-148.08 54.44,-154.25"/>
+<text text-anchor="middle" x="33.97" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00"> mBackColor</text>
+<text text-anchor="middle" x="33.97" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">mFadeColor</text>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="classmDoGph__gInf__c_1_1bloom__c.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="198.97,-97.5 70.97,-97.5 70.97,-78.5 198.97,-78.5 198.97,-97.5"/>
+<text text-anchor="middle" x="134.97" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">mDoGph_gInf_c::bloom_c</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node9 -->
+<g id="edge9" class="edge">
+<title>Node2&#45;&gt;Node9</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M96.73,-147.5C106.99,-131.81 121.42,-109.72 129.3,-97.67"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="94.07,-145.17 91.53,-155.46 99.93,-149 94.07,-145.17"/>
+<text text-anchor="middle" x="144.97" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> mBlendColor</text>
+<text text-anchor="middle" x="144.97" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00">mMonoColor</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="structResTIMG.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="181,-97.5 122,-97.5 122,-78.5 181,-78.5 181,-97.5"/>
-<text text-anchor="middle" x="151.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResTIMG</text>
+<g id="a_node3"><a xlink:href="structJUTFader.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="276.97,-97.5 216.97,-97.5 216.97,-78.5 276.97,-78.5 276.97,-97.5"/>
+<text text-anchor="middle" x="246.97" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUTFader</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M146.67,-67.16C145.42,-57.13 145.94,-45.35 152.5,-37 159.68,-27.85 185.19,-21.18 208.64,-16.82"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="143.17,-67.53 148.49,-76.69 150.05,-66.21 143.17,-67.53"/>
-<text text-anchor="middle" x="195.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> mFrameBufferTimg</text>
-<text text-anchor="middle" x="195.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">mZbufferTimg</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M246.97,-66.72C246.97,-51.23 246.97,-30.65 246.97,-19.17"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="243.47,-66.71 246.97,-76.71 250.47,-66.71 243.47,-66.71"/>
+<text text-anchor="middle" x="264.97" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mFader</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="struct__GXColor.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="346,-176 287,-176 287,-157 346,-157 346,-176"/>
-<text text-anchor="middle" x="316.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">_GXColor</text>
+<g id="a_node4"><a xlink:href="structJUtility_1_1TColor.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="232.97,-176 152.97,-176 152.97,-157 232.97,-157 232.97,-176"/>
+<text text-anchor="middle" x="192.97" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">JUtility::TColor</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node1 -->
+<!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
-<title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M298.21,-149.2C285.59,-136.78 269.67,-118.54 261.5,-99 250.12,-71.79 250.71,-35.92 251.74,-19.46"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="295.5,-151.45 305.18,-155.77 300.31,-146.36 295.5,-151.45"/>
-<text text-anchor="middle" x="289.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00"> mBackColor</text>
-<text text-anchor="middle" x="289.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">mFadeColor</text>
-</g>
-<!-- Node10 -->
-<g id="node10" class="node">
-<title>Node10</title>
-<g id="a_node10"><a xlink:href="classmDoGph__gInf__c_1_1bloom__c.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="454.5,-97.5 326.5,-97.5 326.5,-78.5 454.5,-78.5 454.5,-97.5"/>
-<text text-anchor="middle" x="390.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">mDoGph_gInf_c::bloom_c</text>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node10 -->
-<g id="edge10" class="edge">
-<title>Node4&#45;&gt;Node10</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M332.62,-148.83C347.86,-133.08 370.12,-110.07 382.11,-97.67"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="330.48,-146.02 326.04,-155.64 335.51,-150.88 330.48,-146.02"/>
-<text text-anchor="middle" x="391.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00"> mBlendColor</text>
-<text text-anchor="middle" x="391.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00">mMonoColor</text>
+<title>Node4&#45;&gt;Node3</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M204.9,-147.54C211.09,-138.34 218.82,-126.99 225.97,-117 230.63,-110.47 236.07,-103.23 240.24,-97.75"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="202.18,-145.31 199.53,-155.57 208,-149.2 202.18,-145.31"/>
+<text text-anchor="middle" x="242.97" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mColor</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="structJUTFader.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="532.5,-97.5 472.5,-97.5 472.5,-78.5 532.5,-78.5 532.5,-97.5"/>
-<text text-anchor="middle" x="502.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">JUTFader</text>
+<g id="a_node5"><a xlink:href="struct__GXColor.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="219.47,-237.5 166.47,-237.5 166.47,-218.5 219.47,-218.5 219.47,-237.5"/>
+<text text-anchor="middle" x="192.97" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">GXColor</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node1 -->
+<!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
-<title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M474.5,-73.08C451.18,-61.97 416.83,-46.7 385.5,-37 356.37,-27.98 322.68,-21.31 296.5,-16.91"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="472.81,-76.15 483.34,-77.35 475.86,-69.85 472.81,-76.15"/>
-<text text-anchor="middle" x="459.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mFader</text>
+<title>Node5&#45;&gt;Node4</title>
+<path fill="none" stroke="#63b8ff" d="M192.97,-206.82C192.97,-196.44 192.97,-184.33 192.97,-176.32"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="189.47,-206.71 192.97,-216.71 196.47,-206.71 189.47,-206.71"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="structJUtility_1_1TColor.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="480.5,-176 400.5,-176 400.5,-157 480.5,-157 480.5,-176"/>
-<text text-anchor="middle" x="440.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">JUtility::TColor</text>
+<g id="a_node6"><a xlink:href="structJGeometry_1_1TBox2.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="376.97,-176 250.97,-176 250.97,-157 376.97,-157 376.97,-176"/>
+<text text-anchor="middle" x="313.97" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">JGeometry::TBox2&lt; f32 &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
+<!-- Node6&#45;&gt;Node3 -->
 <g id="edge5" class="edge">
-<title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M454.72,-147.95C467.46,-132.23 485.61,-109.84 495.47,-97.67"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="452.14,-145.58 448.57,-155.55 457.58,-149.98 452.14,-145.58"/>
-<text text-anchor="middle" x="496.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mColor</text>
+<title>Node6&#45;&gt;Node3</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M298.98,-148.39C285.2,-132.65 265.32,-109.95 254.56,-97.67"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="296.06,-150.37 305.28,-155.59 301.33,-145.76 296.06,-150.37"/>
+<text text-anchor="middle" x="303.97" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mBox</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="struct__GXColor.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="467,-237.5 414,-237.5 414,-218.5 467,-218.5 467,-237.5"/>
-<text text-anchor="middle" x="440.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">GXColor</text>
+<g id="a_node7"><a xlink:href="structJGeometry_1_1TBox.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="377.97,-243 249.97,-243 249.97,-213 377.97,-213 377.97,-243"/>
+<text text-anchor="start" x="257.97" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">JGeometry::TBox&lt; TVec2</text>
+<text text-anchor="middle" x="313.97" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T &gt; &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#63b8ff" d="M440.5,-206.82C440.5,-196.44 440.5,-184.33 440.5,-176.32"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="437,-206.71 440.5,-216.71 444,-206.71 437,-206.71"/>
+<path fill="none" stroke="#63b8ff" d="M313.97,-201.13C313.97,-192.29 313.97,-182.99 313.97,-176.42"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="310.47,-201.08 313.97,-211.08 317.47,-201.08 310.47,-201.08"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="structJGeometry_1_1TBox2.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="624.5,-176 498.5,-176 498.5,-157 624.5,-157 624.5,-176"/>
-<text text-anchor="middle" x="561.5" y="-164" font-family="Helvetica,sans-Serif" font-size="10.00">JGeometry::TBox2&lt; f32 &gt;</text>
+<g id="a_node8"><a xlink:href="struct__GXTexObj.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="362.47,-97.5 295.47,-97.5 295.47,-78.5 362.47,-78.5 362.47,-97.5"/>
+<text text-anchor="middle" x="328.97" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">_GXTexObj</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node5 -->
+<!-- Node8&#45;&gt;Node1 -->
 <g id="edge7" class="edge">
-<title>Node8&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M547.97,-147.95C535.84,-132.23 518.57,-109.84 509.19,-97.67"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="544.93,-149.74 553.81,-155.53 550.47,-145.47 544.93,-149.74"/>
-<text text-anchor="middle" x="555.5" y="-125.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mBox</text>
+<title>Node8&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M315.99,-69.13C308.21,-59.06 297.75,-46.62 286.97,-37 279.51,-30.34 270.25,-24.11 262.52,-19.36"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="313.09,-71.09 321.89,-77 318.69,-66.9 313.09,-71.09"/>
+<text text-anchor="middle" x="354.47" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> mFrameBufferTexObj</text>
+<text text-anchor="middle" x="354.47" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">mZbufferTexObj</text>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="structJGeometry_1_1TBox.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="625.5,-243 497.5,-243 497.5,-213 625.5,-213 625.5,-243"/>
-<text text-anchor="start" x="505.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">JGeometry::TBox&lt; TVec2</text>
-<text text-anchor="middle" x="561.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; T &gt; &gt;</text>
+<!-- Node9&#45;&gt;Node1 -->
+<g id="edge8" class="edge">
+<title>Node9&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M154.38,-70.9C167.02,-60.71 184.07,-47.52 199.97,-37 209.5,-30.69 220.62,-24.38 229.65,-19.5"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="152.37,-68.03 146.83,-77.06 156.79,-73.45 152.37,-68.03"/>
+<text text-anchor="middle" x="221.47" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_bloom</text>
+</g>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="structResTIMG.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="464.47,-97.5 405.47,-97.5 405.47,-78.5 464.47,-78.5 464.47,-97.5"/>
+<text text-anchor="middle" x="434.97" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">ResTIMG</text>
 </a>
 </g>
-</g>
-<!-- Node9&#45;&gt;Node8 -->
-<g id="edge8" class="edge">
-<title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="#63b8ff" d="M561.5,-201.13C561.5,-192.29 561.5,-182.99 561.5,-176.42"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="558,-201.08 561.5,-211.08 565,-201.08 558,-201.08"/>
 </g>
 <!-- Node10&#45;&gt;Node1 -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>Node10&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M364.43,-72.55C336.19,-56.89 292.02,-32.41 268.5,-19.37"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="362.63,-75.55 373.08,-77.34 366.03,-69.43 362.63,-75.55"/>
-<text text-anchor="middle" x="360" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_bloom</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M428.52,-67.79C423.92,-57.05 416.63,-44.38 405.97,-37 387.73,-24.38 331.12,-17.23 290.65,-13.61"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="425.16,-68.8 431.96,-76.93 431.72,-66.34 425.16,-68.8"/>
+<text text-anchor="middle" x="465.97" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00"> mFrameBufferTimg</text>
+<text text-anchor="middle" x="465.97" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">mZbufferTimg</text>
 </g>
 </g>
 </svg>

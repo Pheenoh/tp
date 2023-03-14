@@ -88,8 +88,6 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="f__pc__node_8h_source.html">f_pc/f_pc_node.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="f__pc__layer__iter_8h_source.html">f_pc/f_pc_layer_iter.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for f_pc_node.cpp:</div>
@@ -208,6 +206,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p ><a class="el" href="f__pc__node_8cpp.html">f_pc_node.cpp</a> Framework - Process Node </p>
 
 </div>
 </div>
@@ -318,16 +317,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a>,  (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a>,</div>
-<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a>, (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a>,</div>
-<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a>,</div>
+<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a>,  </div>
+<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a>,</div>
+<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a>, </div>
+<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a>,</div>
+<div class="line">    (<a class="code hl_typedef" href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a>)<a class="code hl_function" href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a></div>
 <div class="line">}</div>
 <div class="ttc" id="af__pc__method_8h_html_a56bd92368b7dda361388b2d13df2e4ac"><div class="ttname"><a href="f__pc__method_8h.html#a56bd92368b7dda361388b2d13df2e4ac">process_method_func</a></div><div class="ttdeci">int(* process_method_func)(void *)</div><div class="ttdef"><b>Definition:</b> f_pc_method.h:7</div></div>
-<div class="ttc" id="af__pc__node_8cpp_html_a4a172b993e32ce21e34a0686b3155675"><div class="ttname"><a href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a></div><div class="ttdeci">s32 fpcNd_IsDelete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:80</div></div>
-<div class="ttc" id="af__pc__node_8cpp_html_a7adf7f08ebfd8f8e91dff0bc9f97d8bf"><div class="ttname"><a href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a></div><div class="ttdeci">s32 fpcNd_Draw(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:22</div></div>
-<div class="ttc" id="af__pc__node_8cpp_html_aac58759dd23d4d377bf3064c92786b29"><div class="ttname"><a href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a></div><div class="ttdeci">s32 fpcNd_Delete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:85</div></div>
-<div class="ttc" id="af__pc__node_8cpp_html_abb0f19a8fbf4ebfbd564fc8efaf001d2"><div class="ttname"><a href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a></div><div class="ttdeci">s32 fpcNd_Create(process_node_class *pProcNode1)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:97</div></div>
-<div class="ttc" id="af__pc__node_8cpp_html_af5d0cde86620bc9bd88dcc8e8d4b4e31"><div class="ttname"><a href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a></div><div class="ttdeci">s32 fpcNd_Execute(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:34</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_a4a172b993e32ce21e34a0686b3155675"><div class="ttname"><a href="f__pc__node_8cpp.html#a4a172b993e32ce21e34a0686b3155675">fpcNd_IsDelete</a></div><div class="ttdeci">s32 fpcNd_IsDelete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:74</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_a7adf7f08ebfd8f8e91dff0bc9f97d8bf"><div class="ttname"><a href="f__pc__node_8cpp.html#a7adf7f08ebfd8f8e91dff0bc9f97d8bf">fpcNd_Draw</a></div><div class="ttdeci">s32 fpcNd_Draw(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:16</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_aac58759dd23d4d377bf3064c92786b29"><div class="ttname"><a href="f__pc__node_8cpp.html#aac58759dd23d4d377bf3064c92786b29">fpcNd_Delete</a></div><div class="ttdeci">s32 fpcNd_Delete(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:79</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_abb0f19a8fbf4ebfbd564fc8efaf001d2"><div class="ttname"><a href="f__pc__node_8cpp.html#abb0f19a8fbf4ebfbd564fc8efaf001d2">fpcNd_Create</a></div><div class="ttdeci">s32 fpcNd_Create(process_node_class *pProcNode1)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:91</div></div>
+<div class="ttc" id="af__pc__node_8cpp_html_af5d0cde86620bc9bd88dcc8e8d4b4e31"><div class="ttname"><a href="f__pc__node_8cpp.html#af5d0cde86620bc9bd88dcc8e8d4b4e31">fpcNd_Execute</a></div><div class="ttdeci">s32 fpcNd_Execute(process_node_class *pProcNode)</div><div class="ttdef"><b>Definition:</b> f_pc_node.cpp:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>
