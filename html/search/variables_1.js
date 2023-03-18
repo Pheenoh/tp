@@ -65,7 +65,7 @@ var searchData=
   ['aramaudiobufsize_5f_5fq29jfwsystem11csetupparam_62',['aramAudioBufSize__Q29JFWSystem11CSetUpParam',['../m__Do__machine_8cpp.html#a53059e8b7352419ee077cd513eb1c974',1,'aramAudioBufSize__Q29JFWSystem11CSetUpParam():&#160;m_Do_machine.cpp'],['../JFWSystem_8cpp.html#a53059e8b7352419ee077cd513eb1c974',1,'aramAudioBufSize__Q29JFWSystem11CSetUpParam():&#160;JFWSystem.cpp']]],
   ['aramgraphbufsize_63',['aramGraphBufSize',['../structJFWSystem_1_1CSetUpParam.html#a3235fcf9331d6e041897b2e39668b25c',1,'JFWSystem::CSetUpParam']]],
   ['aramgraphbufsize_5f_5fq29jfwsystem11csetupparam_64',['aramGraphBufSize__Q29JFWSystem11CSetUpParam',['../m__Do__machine_8cpp.html#ae4565afb6afdf23e9fb836a08754c872',1,'aramGraphBufSize__Q29JFWSystem11CSetUpParam():&#160;m_Do_machine.cpp'],['../JFWSystem_8cpp.html#ae4565afb6afdf23e9fb836a08754c872',1,'aramGraphBufSize__Q29JFWSystem11CSetUpParam():&#160;JFWSystem.cpp']]],
-  ['archive_65',['archive',['../structdName__c.html#a9f1b0658508cefc6c806ccc3d1945bfb',1,'dName_c']]],
+  ['archive_65',['archive',['../classdName__c.html#a9f1b0658508cefc6c806ccc3d1945bfb',1,'dName_c']]],
   ['archiveheap_66',['archiveHeap',['../m__Do__ext_8cpp.html#a0ef3ac7d31aa5a8d075244ba2557407c',1,'archiveHeap():&#160;m_Do_ext.cpp'],['../m__Do__ext_8h.html#a0ef3ac7d31aa5a8d075244ba2557407c',1,'archiveHeap():&#160;m_Do_ext.cpp']]],
   ['archiveheapcheck_67',['ArchiveHeapCheck',['../m__Do__main_8cpp.html#ae7a4618384be05884d10d75a9a1dec09',1,'m_Do_main.cpp']]],
   ['archiveheaperrors_68',['archiveHeapErrors',['../m__Do__machine_8cpp.html#aff5eb8258ce2030218157ee1d4ad47c3',1,'m_Do_machine.cpp']]],

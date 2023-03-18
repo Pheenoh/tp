@@ -48,7 +48,7 @@ var searchData=
   ['reschedule_45',['Reschedule',['../OSThread_8c.html#a5cb6bd1ac3d242fb0b85b96f0ac78c55',1,'OSThread.c']]],
   ['rescolor_5f_46',['resColor_',['../structJMessage_1_1TResourceContainer.html#a6c081e78dbb9d6a890b50b35561ec3f7',1,'JMessage::TResourceContainer']]],
   ['rescontainer_5f_47',['resContainer_',['../structJMessage_1_1TResourceContainer.html#a567d6095e544b8959df3e6b6f79ae842',1,'JMessage::TResourceContainer']]],
-  ['reserve_48',['reserve',['../structdSv__save__c.html#a38b887bd2e2a6a271cfbd516bc09e9e5',1,'dSv_save_c']]],
+  ['reserve_48',['reserve',['../classdSv__save__c.html#a38b887bd2e2a6a271cfbd516bc09e9e5',1,'dSv_save_c']]],
   ['reserved_49',['reserved',['../struct____va__list__struct.html#ab991798c453e3d78184ddb3e4f5fffeb',1,'__va_list_struct']]],
   ['resetalarm_50',['ResetAlarm',['../dvd_8c.html#a012ace3d9bea281aa7fb9d0bcc78d746',1,'dvd.c']]],
   ['resetcallback_51',['ResetCallback',['../OSResetSW_8c.html#a3ef3a51602f918733b9a0f5d39689f6a',1,'OSResetSW.c']]],

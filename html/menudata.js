@@ -319,6 +319,7 @@ var menudata={children:[
 {text:"l",url:"globals_enum.html#index_l"},
 {text:"o",url:"globals_enum.html#index_o"},
 {text:"p",url:"globals_enum.html#index_p"},
+{text:"r",url:"globals_enum.html#index_r"},
 {text:"s",url:"globals_enum.html#index_s"},
 {text:"v",url:"globals_enum.html#index_v"},
 {text:"w",url:"globals_enum.html#index_w"},
