@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b_0',['B',['../namespaceCButton.html#a360d8fcb617172d77dc7203de53d27eba23592f049b7da374fe07b8f127cca616',1,'CButton']]],
+  ['b_0',['B',['../namespaceCButton.html#a280971f786486f431094edd1f7b2a72ea23592f049b7da374fe07b8f127cca616',1,'CButton']]],
   ['b_1',['b',['../struct__GXColorS10.html#ac8258574f2bde46e91f956ce2dc06b08',1,'_GXColorS10::b()'],['../struct__GXColor.html#ab5f92d6ef6636ecc7bd3262404bcc60e',1,'_GXColor::b()'],['../structcolor__RGB__class.html#aef0cd38f188a780cd3a7d8265da70a80',1,'color_RGB_class::b()']]],
   ['b1_2',['b1',['../structstd_1_1pair.html#aec44ab235f9347c4cabf40c443ac3e45',1,'std::pair']]],
   ['b_5fbutton_5fitem_3',['B_BUTTON_ITEM',['../d__save_8h.html#a6d317460fab5a02d2a7fc3e2bb396911ae9fa5ce335f49fa0671129c49d574f4c',1,'d_save.h']]],
@@ -279,7 +279,7 @@ var searchData=
   ['bootthisdol_276',['bootThisDol',['../OSReset_8c.html#ab44038914dc7d78a3ad7c538162ade39',1,'OSReset.c']]],
   ['bordercolor0_277',['borderColor0',['../d__map_8cpp.html#a470f4fe0636c68673afc9054326f08a0',1,'borderColor0():&#160;d_map.cpp'],['../d__menu__fmap__map_8cpp.html#a470f4fe0636c68673afc9054326f08a0',1,'borderColor0():&#160;d_menu_fmap_map.cpp']]],
   ['bordercolor1_278',['borderColor1',['../d__map_8cpp.html#a24ef828e0ab1514b2ebaaca40a05e47e',1,'borderColor1():&#160;d_map.cpp'],['../d__menu__fmap__map_8cpp.html#a24ef828e0ab1514b2ebaaca40a05e47e',1,'borderColor1():&#160;d_menu_fmap_map.cpp']]],
-  ['boss_5fkey_279',['BOSS_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ae5177c3ab4817d6c99577974c512d3cd',1,'BOSS_KEY():&#160;d_save.h'],['../structdSv__memBit__c.html#abdf6de27c1703247e4ccaf3d1c694627addc140ece9a60e605fcdd9344585ae22',1,'dSv_memBit_c::BOSS_KEY()']]],
+  ['boss_5fkey_279',['BOSS_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ae5177c3ab4817d6c99577974c512d3cd',1,'BOSS_KEY():&#160;d_save.h'],['../structdSv__memBit__c.html#a78ad0ff77dc3b328f077637ce09c1299addc140ece9a60e605fcdd9344585ae22',1,'dSv_memBit_c::BOSS_KEY()']]],
   ['boss_5flight_280',['BOSS_LIGHT',['../structBOSS__LIGHT.html',1,'BOSS_LIGHT'],['../structBOSS__LIGHT.html#ad41f08ce849ecf440b59e99bf72eb020',1,'BOSS_LIGHT::BOSS_LIGHT()']]],
   ['boss_5ftag_281',['boss_tag',['../d__menu__dmap_8cpp.html#aae619f4bafb2059bd2e9720c96f5306c',1,'d_menu_dmap.cpp']]],
   ['bossrider_5fkey_282',['BOSSRIDER_KEY',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a3e139d96c259ac549389e2fabcb92895',1,'d_save.h']]],
@@ -302,7 +302,7 @@ var searchData=
   ['bpresent_299',['bPresent',['../structDBInterface.html#a6a156d7e9af779c5c0086d349feeea73',1,'DBInterface']]],
   ['branch_300',['branch',['../structdDemo__c.html#a96ab36fb2b860795c01d216683d29407',1,'dDemo_c']]],
   ['branch_5f_5f7ddemo_5fcfv_301',['branch__7dDemo_cFv',['../d__demo_8cpp.html#ae7f6be074522122b7b06cc1aa4a1a12b',1,'d_demo.cpp']]],
-  ['branch_5fprocess_302',['branch_process',['../structJMessage_1_1TSequenceProcessor_1_1TProcess__.html#a4130c497dd4cec8fb588a1573e88f093',1,'JMessage::TSequenceProcessor::TProcess_']]],
+  ['branch_5fprocess_302',['branch_process',['../structJMessage_1_1TSequenceProcessor_1_1TProcess__.html#ab56247c83ada5f9ce89df348a4a7662b',1,'JMessage::TSequenceProcessor::TProcess_']]],
   ['branchcondition_303',['BranchCondition',['../structJASSeqParser_1_1BranchCondition.html',1,'JASSeqParser']]],
   ['branchfile_304',['branchFile',['../d__demo_8cpp.html#a0200633d23fcb5ab4c14e76ef2bce539',1,'d_demo.cpp']]],
   ['branchfile_5f_5ffpcc_305',['branchFile__FPCc',['../d__demo_8cpp.html#afcdf984b61ab31347d62476da1559a8e',1,'d_demo.cpp']]],

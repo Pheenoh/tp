@@ -14,7 +14,7 @@ var searchData=
   ['sequencestepdata_5fc_11',['sequenceStepData_c',['../classdaNpcT__MotionSeqMngr__c_1_1sequenceStepData__c.html',1,'daNpcT_MotionSeqMngr_c']]],
   ['shake_12',['Shake',['../structdCamera__c_1_1Shake.html',1,'dCamera_c']]],
   ['shape_13',['Shape',['../structcCcD__ShapeAttr_1_1Shape.html',1,'cCcD_ShapeAttr']]],
-  ['shdwdrawpoly_5fc_14',['ShdwDrawPoly_c',['../structShdwDrawPoly__c.html',1,'']]],
+  ['shdwdrawpoly_5fc_14',['ShdwDrawPoly_c',['../classShdwDrawPoly__c.html',1,'']]],
   ['shop_5fitem_5fdata_15',['shop_item_data',['../structshop__item__data.html',1,'']]],
   ['shopcam_5faction_5fc_16',['ShopCam_action_c',['../structShopCam__action__c.html',1,'']]],
   ['sicomm_5fs_17',['SIComm_s',['../structSIComm__s.html',1,'']]],
