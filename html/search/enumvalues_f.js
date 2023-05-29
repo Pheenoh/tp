@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['obj_5fstone_5ftype_5fbig_0',['OBJ_STONE_TYPE_BIG',['../d__a__obj__stone_8h.html#a3babbf89cae9b856a12864a41506efbda3831449d77ef05e0fb9417ac878c88ca',1,'d_a_obj_stone.h']]],
-  ['obj_5fstone_5ftype_5fsmall_1',['OBJ_STONE_TYPE_SMALL',['../d__a__obj__stone_8h.html#a3babbf89cae9b856a12864a41506efbda39417a99e1a1432d7e8a07ee0fbe2d84',1,'d_a_obj_stone.h']]],
+  ['obj_5fstone_5ftype_5fbig_0',['OBJ_STONE_TYPE_BIG',['../d__a__obj__stone_8h.html#aa491173a6b1628f4ff82067b2e1ceaa9a3831449d77ef05e0fb9417ac878c88ca',1,'d_a_obj_stone.h']]],
+  ['obj_5fstone_5ftype_5fsmall_1',['OBJ_STONE_TYPE_SMALL',['../d__a__obj__stone_8h.html#aa491173a6b1628f4ff82067b2e1ceaa9a39417a99e1a1432d7e8a07ee0fbe2d84',1,'d_a_obj_stone.h']]],
   ['oil_2',['OIL',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a6a10c29c017118a747a3f8b75b636420',1,'d_save.h']]],
   ['oil2_3',['OIL2',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a6d1385f2d7484c318a4c17de82f025d5',1,'d_save.h']]],
   ['oil_5fbottle_4',['OIL_BOTTLE',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a0891a8dc15ce4b05d5de2a66a2529a1a',1,'d_save.h']]],

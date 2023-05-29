@@ -157,6 +157,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acf77e0dd4ae4af53541a5681e7971bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77da156e182212a95c3f5a7725aa4543"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ3DDrawBuffer.html#a77da156e182212a95c3f5a7725aa4543">setZSort</a> ()</td></tr>
 <tr class="separator:a77da156e182212a95c3f5a7725aa4543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7db4cf65df5c917ea58839004cb9aef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ3DDrawBuffer.html#aa7db4cf65df5c917ea58839004cb9aef">setZMtx</a> (<a class="el" href="mtx_8h.html#a486ec93ad57f76408600fa51e755e290">MtxP</a> <a class="el" href="c__lib_8cpp.html#acb9d23c4d464c6b0a4fd696c59ab4dcb">mtx</a>)</td></tr>
+<tr class="separator:aa7db4cf65df5c917ea58839004cb9aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -181,8 +183,6 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac0155480cdaecc5ac8fc52b714f76811"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ3DDrawBuffer.html#ac0155480cdaecc5ac8fc52b714f76811">entryNum</a> [4+4]</td></tr>
-<tr class="separator:ac0155480cdaecc5ac8fc52b714f76811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee7386c6696731960c6f2b296a2d83e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="J3DDrawBuffer_8h.html#ab1dec7104bf79e4c034a4a38749afa57">sortFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ3DDrawBuffer.html#aee7386c6696731960c6f2b296a2d83e6">sortFuncTable</a> [6]</td></tr>
 <tr class="separator:aee7386c6696731960c6f2b296a2d83e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5df21c82ed2018dd727b073cb1794cd4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="J3DDrawBuffer_8h.html#a335541ef525e8d285efdfb9228a81615">drawFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ3DDrawBuffer.html#a5df21c82ed2018dd727b073cb1794cd4">drawFuncTable</a> [2]</td></tr>
@@ -618,6 +618,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa7db4cf65df5c917ea58839004cb9aef" name="aa7db4cf65df5c917ea58839004cb9aef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7db4cf65df5c917ea58839004cb9aef">&#9670;&#160;</a></span>setZMtx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void J3DDrawBuffer::setZMtx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="mtx_8h.html#a486ec93ad57f76408600fa51e755e290">MtxP</a>&#160;</td>
+          <td class="paramname"><em>mtx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a77da156e182212a95c3f5a7725aa4543" name="a77da156e182212a95c3f5a7725aa4543"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77da156e182212a95c3f5a7725aa4543">&#9670;&#160;</a></span>setZSort()</h2>
 
@@ -673,29 +699,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a52db2c3372dadddeaa1f1b4d6c660ed2" name="a52db2c3372dadddeaa1f1b4d6c660ed2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52db2c3372dadddeaa1f1b4d6c660ed2">&#9670;&#160;</a></span>entryNum <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int J3DDrawBuffer::entryNum</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac0155480cdaecc5ac8fc52b714f76811" name="ac0155480cdaecc5ac8fc52b714f76811"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0155480cdaecc5ac8fc52b714f76811">&#9670;&#160;</a></span>entryNum <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52db2c3372dadddeaa1f1b4d6c660ed2">&#9670;&#160;</a></span>entryNum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -876,7 +880,6 @@ Static Public Attributes</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/m_Do/<a class="el" href="m__Do__ext_8cpp.html">m_Do_ext.cpp</a></li>
-<li>libs/JSystem/J3DGraphAnimator/<a class="el" href="J3DJoint_8cpp.html">J3DJoint.cpp</a></li>
 <li>include/JSystem/J3DGraphBase/<a class="el" href="J3DDrawBuffer_8h_source.html">J3DDrawBuffer.h</a></li>
 <li>libs/JSystem/J3DGraphBase/<a class="el" href="J3DDrawBuffer_8cpp.html">J3DDrawBuffer.cpp</a></li>
 </ul>

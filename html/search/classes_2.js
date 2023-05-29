@@ -6,9 +6,10 @@ var searchData=
   ['bg_3',['BG',['../structdCamera__c_1_1BG.html',1,'dCamera_c']]],
   ['bi2debug_4',['BI2Debug',['../structBI2Debug.html',1,'']]],
   ['binarystreamfiletable_5',['BinaryStreamFileTable',['../structBinaryStreamFileTable.html',1,'']]],
-  ['blinkanime_6',['BlinkAnime',['../structdMeter__fmapHIO__c_1_1BlinkAnime.html',1,'dMeter_fmapHIO_c']]],
-  ['blockheader_7',['BlockHeader',['../structBlockHeader.html',1,'']]],
-  ['bloom_5fc_8',['bloom_c',['../classmDoGph__gInf__c_1_1bloom__c.html',1,'mDoGph_gInf_c']]],
-  ['boss_5flight_9',['BOSS_LIGHT',['../structBOSS__LIGHT.html',1,'']]],
-  ['branchcondition_10',['BranchCondition',['../structJASSeqParser_1_1BranchCondition.html',1,'JASSeqParser']]]
+  ['bitset_6',['bitset',['../classstd_1_1bitset.html',1,'std']]],
+  ['blinkanime_7',['BlinkAnime',['../structdMeter__fmapHIO__c_1_1BlinkAnime.html',1,'dMeter_fmapHIO_c']]],
+  ['blockheader_8',['BlockHeader',['../structBlockHeader.html',1,'']]],
+  ['bloom_5fc_9',['bloom_c',['../classmDoGph__gInf__c_1_1bloom__c.html',1,'mDoGph_gInf_c']]],
+  ['boss_5flight_10',['BOSS_LIGHT',['../structBOSS__LIGHT.html',1,'']]],
+  ['branchcondition_11',['BranchCondition',['../structJASSeqParser_1_1BranchCondition.html',1,'JASSeqParser']]]
 ];
