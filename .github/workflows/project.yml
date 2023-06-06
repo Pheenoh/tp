@@ -1,0 +1,28 @@
+name: Update status on project board
+on: workflow_dispatch
+jobs:
+  update_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read status
+        id: read_status
+        uses: github/update-project-action@v2
+        with:
+          github_token: ${{ secrets.STATUS_UPDATE_TOKEN }}
+          organization: github
+          project_number: 3
+          operation: read
+          content_id: ${{ github.event.client_payload.command.resource.id }}
+      - name: Output status
+        run: |
+          echo "Current status value: ${{ steps.read_status.outputs.field_read_value }}"
+      - name: Update status
+        id: update_status
+        uses: github/update-project-action@v2
+        with:
+          github_token: ${{ secrets.STATUS_UPDATE_TOKEN }}
+          organization: github
+          project_number: 3
+          content_id: ${{ github.event.client_payload.command.resource.id }}
+          field: Status
+          value: ${{ github.event.client_payload.data.status }}
