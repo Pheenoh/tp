@@ -1,5 +1,7 @@
 name: project_test
-on: workflow_dispatch
+push:
+    branches:
+      - project_test
 jobs:
   update_project:
     runs-on: ubuntu-latest
