@@ -1,7 +1,8 @@
 name: project_test
-push:
-    branches:
-      - project_test
+on:
+    push:
+        branches:
+        - project_test
 jobs:
   update_project:
     runs-on: ubuntu-latest
