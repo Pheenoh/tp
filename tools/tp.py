@@ -36,6 +36,7 @@ try:
     import click
     import libdol
     import libarc
+    import libgithub
     import requests
 
     from rich.logging import RichHandler
@@ -761,7 +762,6 @@ def calculate_progress(build_path: Path, matching: bool, format: str, print_rels
         LOG.error("unknown format: '{format}'")
 
 
-
 def find_function_range(asm: Path) -> Tuple[int, int]:
     with asm.open("r", encoding="utf-8") as file:
         lines = file.readlines()
@@ -1223,6 +1223,132 @@ def check_sha1(game_path: Path, build_path: Path, include_rels: bool):
 
     return True
 
+
+#
+# Setup Projects
+#
+@tp.command(name="setup-github-projects")
+@click.option("--debug/--no-debug")
+@click.option(
+    "--personal-access-token",
+    help="Github Personal Access Token for authorizing API calls.",
+    required=True,
+)
+def setup_projects(debug: bool, personal_access_token: str):
+    libs = [
+        "libs/TRK_MINNOW_DOLPHIN",
+        "libs/Runtime.PPCEABI.H",
+        "libs/odenotstub",
+        "libs/dolphin",
+        "libs/JSystem",
+        "libs/odemuexi2",
+        "libs/Z2AudioLib",
+        "libs/amcstubs",
+        "libs/SSystem",
+        "libs/MSL_C",
+    ]
+
+    actors = [
+        "rel/d/a",
+        "src/d/a"
+    ]
+
+    framework = [
+        "src/f_ap",
+        "src/f_op",
+        "src/f_pc",
+    ]
+
+    boot = [
+        "src/init.c",
+        "src/__start.c"
+    ]
+
+    m_do = [
+        "src/m_Do"
+    ]
+
+    misc = [
+        "src/unknown_translation_unit.cpp",
+        "src/c/c_damagereaction.cpp"
+    ]
+
+    dylink = [
+        "src/DynamicLink.cpp"
+        "src/c/c_dylink.cpp"
+    ]
+
+    dolzel = [
+        "src/d"
+        "src/msg"
+    ]
+
+    if debug:
+        LOG.setLevel(logging.DEBUG)
+
+    LOG.debug("Setting up projects in Github")
+
+    owner = 'pheenoh' # change later
+    repo = 'tp' # change later
+    projects = libs # change later
+    project_type = "libs" # change later
+
+    current_project_list = libgithub.get_project_titles(owner, repo, personal_access_token)
+    LOG.debug(f'Current projects: {current_project_list}')
+
+    match project_type:
+        case "libs":
+            for project in projects:
+                project_name = project.split("/")[1]
+                if project_name in current_project_list:
+                    LOG.info(f'{project_name} project already exists. Skipping!')
+                    continue
+
+                project_number = create_github_project(owner, repo, project_name, personal_access_token)
+        case "actors":
+            if "Actors" in current_project_list:
+                LOG.info("Actors project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "Actors", personal_access_token)
+        case "framework":
+            if "Framework" in current_project_list:
+                LOG.info("Framework project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "Framework", personal_access_token)
+        case "boot":
+            if "Boot" in current_project_list:
+                LOG.info("Boot project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "Boot", personal_access_token)
+        case "m_do":
+            if "m_Do" in current_project_list:
+                LOG.info("m_Do project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "m_Do", personal_access_token)
+        case "misc":
+            if "Misc" in current_project_list:
+                LOG.info("Misc project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "Misc", personal_access_token)
+        case "dylink":
+            if "Dylink" in current_project_list:
+                LOG.info("Dylink project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "Dylink", personal_access_token)
+        case "dolzel":
+            if "dolzel" in current_project_list:
+                LOG.info("dolzel project already exists. Skipping!")
+                return
+
+            create_github_project(owner, repo, "dolzel", personal_access_token)
+        case _:
+            print(f"Unknown case supplied for setting up projects.")
 
 if __name__ == "__main__":
     tp()
