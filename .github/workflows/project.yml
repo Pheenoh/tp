@@ -11,14 +11,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 10
+          fetch-depth: 0
 
       - name: Get changed files
         id: getfile
         run: |
-          echo "::set-output name=files::$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} | grep -E '\.c$|\.cpp$')"
+          echo "::set-output name=files::$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} | grep -E '\.c$|\.cpp$|\.inc$')"
           
       - name: Print changed files
         run: |
-          echo "Modified files in this PR:"
+          echo "Modified .c, .cpp, or .inc files in this PR:"
           echo "${{ steps.getfile.outputs.files }}"
