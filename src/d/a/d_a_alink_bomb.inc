@@ -8,7 +8,7 @@ s16 daAlink_c::getBombExplodeTime() const {
 f32 daAlink_c::getBombGravity() const {
     return daAlinkHIO_bomb_c0::m.mGravity;
 }
-
+#TEST!
 /* 800E3780-800E3790 0DE0C0 0010+00 0/0 0/0 2/2 .text            getBombMaxFallSpeed__9daAlink_cCFv
  */
 f32 daAlink_c::getBombMaxFallSpeed() const {
