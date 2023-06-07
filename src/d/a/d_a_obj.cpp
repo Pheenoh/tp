@@ -9,8 +9,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-# TEST!
-
 //
 // Types:
 //

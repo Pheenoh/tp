@@ -12,19 +12,19 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # windows-latest | macos-latest
+    runs-on: ubuntu-latest
     name: Test changed-files
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
-      - name: Get changed files in the docs folder
+          fetch-depth: 0
+      - name: Get changed .c, .cpp, .inc files
         id: changed-files-specific
         uses: tj-actions/changed-files@v36
         with:
           files: |
             **/*.{c,cpp,inc}
-      - name: Run step if any file(s) in the docs folder change
+      - name: Run step if any .c, .cpp, .inc file(s) changed
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           echo "One or more .c,.cpp, or .inc files has changed."
