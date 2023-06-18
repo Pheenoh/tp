@@ -27,3 +27,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           run_id: ${{ steps.get_run_id.outputs.run_id }}
           name: artifact-${{ steps.get_run_id.outputs.run_id }}
+          workflow: ci.yml
