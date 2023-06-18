@@ -1,3 +1,11 @@
+name: Release
+
+on:
+  pull_request:
+    branches:
+      - master
+    types: [synchronize]
+
 jobs:
   build:
     runs-on: ubuntu-latest
