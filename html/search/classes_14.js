@@ -169,6 +169,7 @@ var searchData=
   ['twavegroup_166',['TWaveGroup',['../structJASBasicWaveBank_1_1TWaveGroup.html',1,'JASBasicWaveBank']]],
   ['twavehandle_167',['TWaveHandle',['../structJASBasicWaveBank_1_1TWaveHandle.html',1,'JASBasicWaveBank::TWaveHandle'],['../structJASSimpleWaveBank_1_1TWaveHandle.html',1,'JASSimpleWaveBank::TWaveHandle']]],
   ['twidth_168',['TWidth',['../structJUTFont_1_1TWidth.html',1,'JUTFont']]],
-  ['type_5ftbl_5fentry_169',['type_tbl_entry',['../structtype__tbl__entry.html',1,'']]],
-  ['typegroupdata_5fc_170',['typeGroupData_c',['../structdTres__c_1_1typeGroupData__c.html',1,'dTres_c']]]
+  ['type_5fgroup_5flist_169',['type_group_list',['../structdTres__c_1_1type__group__list.html',1,'dTres_c']]],
+  ['type_5ftbl_5fentry_170',['type_tbl_entry',['../structtype__tbl__entry.html',1,'']]],
+  ['typegroupdata_5fc_171',['typeGroupData_c',['../structdTres__c_1_1typeGroupData__c.html',1,'dTres_c']]]
 ];

@@ -680,5 +680,8 @@ var searchData=
   ['at_5ftype_5funk_677',['AT_TYPE_UNK',['../c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac6fabb731c91c87bfc880dcb34fb9ba9',1,'c_cc_d.h']]],
   ['at_5ftype_5fwolf_5fattack_678',['AT_TYPE_WOLF_ATTACK',['../c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba41af3ad7ade494109db521f4165623eb',1,'c_cc_d.h']]],
   ['at_5ftype_5fwolf_5fcut_5fturn_679',['AT_TYPE_WOLF_CUT_TURN',['../c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba48f5003bacd42aa36189e87fefa91f72',1,'c_cc_d.h']]],
-  ['attention_680',['ATTENTION',['../classdMeter__drawOptionHIO__c.html#addce8d063f373db43de7dd258c94754da2d319c37e95f748055b5a6bf99322c25',1,'dMeter_drawOptionHIO_c']]]
+  ['attention_680',['ATTENTION',['../classdMeter__drawOptionHIO__c.html#addce8d063f373db43de7dd258c94754da2d319c37e95f748055b5a6bf99322c25',1,'dMeter_drawOptionHIO_c']]],
+  ['audiomsg_5fdma_681',['AUDIOMSG_DMA',['../JASAudioThread_8h.html#ac11d3651aef0eb9a6920dc7bac750bd8adcfccab5e84ad73d2f47546f39785c83',1,'JASAudioThread.h']]],
+  ['audiomsg_5fdsp_682',['AUDIOMSG_DSP',['../JASAudioThread_8h.html#ac11d3651aef0eb9a6920dc7bac750bd8a1627b194dec06db911c01dc1be60a946',1,'JASAudioThread.h']]],
+  ['audiomsg_5fstop_683',['AUDIOMSG_STOP',['../JASAudioThread_8h.html#ac11d3651aef0eb9a6920dc7bac750bd8a5970d81ce535ff0b79caead577521e85',1,'JASAudioThread.h']]]
 ];

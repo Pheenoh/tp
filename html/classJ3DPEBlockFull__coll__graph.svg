@@ -52,16 +52,16 @@
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="structJ3DFogInfo.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="148,-141 81,-141 81,-122 148,-122 148,-141"/>
-<text text-anchor="middle" x="114.5" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">J3DFogInfo</text>
+<polygon fill="white" stroke="#666666" points="131,-141 64,-141 64,-122 131,-122 131,-141"/>
+<text text-anchor="middle" x="97.5" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">J3DFogInfo</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#63b8ff" d="M114.5,-110.11C114.5,-101.52 114.5,-91.97 114.5,-85.25"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="111,-110.07 114.5,-120.07 118,-110.07 111,-110.07"/>
+<path fill="none" stroke="#63b8ff" d="M103.73,-110.71C106.48,-101.96 109.58,-92.12 111.75,-85.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="100.43,-109.55 100.76,-120.14 107.1,-111.65 100.43,-109.55"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -82,46 +82,61 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="structJ3DBlend.html" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="structJ3DAlphaCompInfo.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="250,-141 149,-141 149,-122 250,-122 250,-141"/>
+<text text-anchor="middle" x="199.5" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">J3DAlphaCompInfo</text>
+</a>
+</g>
+</g>
+<!-- Node6&#45;&gt;Node5 -->
+<g id="edge5" class="edge">
+<title>Node6&#45;&gt;Node5</title>
+<path fill="none" stroke="#63b8ff" d="M199.5,-110.11C199.5,-101.52 199.5,-91.97 199.5,-85.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="196,-110.07 199.5,-120.07 203,-110.07 196,-110.07"/>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node">
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="structJ3DBlend.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="319,-85 260,-85 260,-66 319,-66 319,-85"/>
 <text text-anchor="middle" x="289.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">J3DBlend</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge5" class="edge">
-<title>Node6&#45;&gt;Node1</title>
+<!-- Node7&#45;&gt;Node1 -->
+<g id="edge6" class="edge">
+<title>Node7&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M280.15,-55.92C276.08,-49.26 270.78,-42.13 264.5,-37 255.06,-29.29 243.08,-23.56 231.98,-19.44"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="276.9,-57.27 284.79,-64.33 283.03,-53.89 276.9,-57.27"/>
 <text text-anchor="middle" x="292.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> mBlend</text>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node">
-<title>Node7</title>
-<g id="a_node7"><a xlink:href="structJ3DBlendInfo.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="327,-141 252,-141 252,-122 327,-122 327,-141"/>
-<text text-anchor="middle" x="289.5" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">J3DBlendInfo</text>
-</a>
-</g>
-</g>
-<!-- Node7&#45;&gt;Node6 -->
-<g id="edge6" class="edge">
-<title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#63b8ff" d="M289.5,-110.11C289.5,-101.52 289.5,-91.97 289.5,-85.25"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="286,-110.07 289.5,-120.07 293,-110.07 286,-110.07"/>
-</g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="structJ3DZMode.html" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="structJ3DBlendInfo.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="343,-141 268,-141 268,-122 343,-122 343,-141"/>
+<text text-anchor="middle" x="305.5" y="-129" font-family="Helvetica,sans-Serif" font-size="10.00">J3DBlendInfo</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node7 -->
+<g id="edge7" class="edge">
+<title>Node8&#45;&gt;Node7</title>
+<path fill="none" stroke="#63b8ff" d="M299.64,-110.71C297.04,-101.96 294.13,-92.12 292.09,-85.25"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="296.23,-111.54 302.43,-120.13 302.94,-109.55 296.23,-111.54"/>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="structJ3DZMode.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="401.5,-85 337.5,-85 337.5,-66 401.5,-66 401.5,-85"/>
 <text text-anchor="middle" x="369.5" y="-73" font-family="Helvetica,sans-Serif" font-size="10.00">J3DZMode</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node1 -->
-<g id="edge7" class="edge">
-<title>Node8&#45;&gt;Node1</title>
+<!-- Node9&#45;&gt;Node1 -->
+<g id="edge8" class="edge">
+<title>Node9&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M350.18,-58.7C340.08,-51.15 327.21,-42.56 314.5,-37 291.98,-27.14 265.3,-20.71 243.31,-16.65"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="348.01,-61.45 358.05,-64.83 352.31,-55.92 348.01,-61.45"/>
 <text text-anchor="middle" x="354" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00"> mZMode</text>
