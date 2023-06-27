@@ -546,7 +546,7 @@ var searchData=
   ['sthreadqueue_543',['sThreadQueue',['../structJASAudioThread.html#ae9b726ffae2d1821e385f6c5c092c612',1,'JASAudioThread']]],
   ['sthreshold_544',['sThreshold',['../structJUTGamePad_1_1C3ButtonReset.html#a40358e6a9bf3ae2e2dbbdaf71ef04d25',1,'JUTGamePad::C3ButtonReset']]],
   ['sthreshold_5f_5fq210jutgamepad13c3buttonreset_545',['sThreshold__Q210JUTGamePad13C3ButtonReset',['../JUTGamePad_8cpp.html#a385ed09df0b287bdf9eb4c4f5339b561',1,'JUTGamePad.cpp']]],
-  ['stick_546',['stick',['../classdName__c.html#ae41dd896c38c5a565c6d4becf3576269',1,'dName_c::stick()'],['../structdMenu__save__c.html#a5ca49b1d3b9b0e44868e2e24553e25fa',1,'dMenu_save_c::stick()']]],
+  ['stick_546',['stick',['../classdName__c.html#ae41dd896c38c5a565c6d4becf3576269',1,'dName_c::stick()'],['../classdMenu__save__c.html#a5ca49b1d3b9b0e44868e2e24553e25fa',1,'dMenu_save_c::stick()']]],
   ['stick_5finit_547',['stick_init',['../d__menu__ring_8cpp.html#af34a676d3f7449a962cc516bb8a8ec4f',1,'d_menu_ring.cpp']]],
   ['stick_5fproc_548',['stick_proc',['../d__menu__ring_8cpp.html#ae1faa0c3805c694c160a0d203894eeb4',1,'d_menu_ring.cpp']]],
   ['stick_5fx_549',['stick_x',['../structPADStatus.html#a9f36cc198f9cfa4a3c5489da5a178304',1,'PADStatus']]],
