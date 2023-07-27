@@ -3,8 +3,8 @@ var searchData=
   ['haihail_5fn_0',['haihail_n',['../d__menu__option_8cpp.html#aa25b92939a90a97629da8c0820b60ba8',1,'d_menu_option.cpp']]],
   ['haihair_5fn_1',['haihair_n',['../d__menu__option_8cpp.html#a25ff6a114256f6741e34db3ef923df6f',1,'d_menu_option.cpp']]],
   ['haku_5ftag_2',['haku_tag',['../d__meter__hakusha_8cpp.html#a429b605a4543a2a4042313fc17d25164',1,'d_meter_hakusha.cpp']]],
-  ['half_3',['half',['../k__sin_8c.html#aaad8d6a2a7c43ba9c697808113a6261a',1,'half():&#160;k_sin.c'],['../e__rem__pio2_8c.html#aaad8d6a2a7c43ba9c697808113a6261a',1,'half():&#160;e_rem_pio2.c']]],
-  ['half_4',['halF',['../e__exp_8c.html#a3afae8a50b8d60e14a71304f87d5f597',1,'e_exp.c']]],
+  ['half_3',['halF',['../e__exp_8c.html#a3afae8a50b8d60e14a71304f87d5f597',1,'e_exp.c']]],
+  ['half_4',['half',['../k__sin_8c.html#aaad8d6a2a7c43ba9c697808113a6261a',1,'half():&#160;k_sin.c'],['../e__rem__pio2_8c.html#aaad8d6a2a7c43ba9c697808113a6261a',1,'half():&#160;e_rem_pio2.c']]],
   ['half_5fmilk_5fbottle_5',['HALF_MILK_BOTTLE',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a9c2224f1578c0db4922241aa520a65ee',1,'d_save.h']]],
   ['halftofull_6',['halftofull',['../JUTResFont_8cpp.html#af3aa67215dc49f2f7be50046cd0b3f82',1,'JUTResFont.cpp']]],
   ['hamon_5fname_7',['hamon_name',['../f__op__actor__mng_8cpp.html#a9390c6a49717bf83600ae371da878baf',1,'f_op_actor_mng.cpp']]],
@@ -12,7 +12,7 @@ var searchData=
   ['handbgcheck_5f_5f9daalink_5fcfv_9',['handBgCheck__9daAlink_cFv',['../d__a__alink_8cpp.html#a6e6337c648d56f1c593676ab6e310daf',1,'d_a_alink.cpp']]],
   ['handcenteroffsetvec_10',['handCenterOffsetVec',['../d__a__alink_8cpp.html#a35e39aaabea7876141fa45cbeec17d15',1,'d_a_alink.cpp']]],
   ['handle_11',['handle',['../struct__FILE.html#a650486106be3f2e24c2396f25e85af84',1,'_FILE']]],
-  ['handle_5f_12',['handle_',['../structJAISound.html#aea7bd660ddbd9fd1eb85a40ef6733120',1,'JAISound']]],
+  ['handle_5f_12',['handle_',['../classJAISound.html#aea7bd660ddbd9fd1eb85a40ef6733120',1,'JAISound']]],
   ['handleclosefilesupportrequest_13',['HandleCloseFileSupportRequest',['../support_8c.html#ae2b75dddb9aaac67b7bc7e1d89af30e1',1,'HandleCloseFileSupportRequest():&#160;support.c'],['../targimpl_8c.html#ad29dc4a86387cb8c6f3e7ec505588452',1,'HandleCloseFileSupportRequest():&#160;support.c']]],
   ['handleopenfilesupportrequest_14',['HandleOpenFileSupportRequest',['../support_8c.html#a35bfecd59ff31a4eeb694751674f9440',1,'HandleOpenFileSupportRequest():&#160;support.c'],['../targimpl_8c.html#aa4f044bfd4ece64079717d431893d6ce',1,'HandleOpenFileSupportRequest():&#160;support.c']]],
   ['handlepositionfilesupportrequest_15',['HandlePositionFileSupportRequest',['../support_8c.html#a1b7f3ca5af73fdcc5ca1ab1f9a38f658',1,'HandlePositionFileSupportRequest():&#160;support.c'],['../targimpl_8c.html#af22439d55aaadf3e9086e04386ed717c',1,'HandlePositionFileSupportRequest():&#160;support.c']]],
@@ -216,7 +216,7 @@ var searchData=
   ['huge_5fvall_213',['HUGE_VALL',['../dol2asm_8h.html#ab8b359c356d4311bf5d4ae6c03f43182',1,'dol2asm.h']]],
   ['hvy_5fboots_214',['HVY_BOOTS',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a7f07fa39342c062b1d2902823ad080e2',1,'d_save.h']]],
   ['hylia_5fshield_215',['HYLIA_SHIELD',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2ab90e6d91fd34a913c583889a6f59b208',1,'d_save.h']]],
-  ['hylian_5fbass_216',['HYLIAN_BASS',['../classdMeter__drawFishingHIO__c.html#a4c33f2712b303db676145d11656ab0c8a5e522cf9eab5eda6db5381a20a2e3fff',1,'dMeter_drawFishingHIO_c']]],
-  ['hylian_5floach_217',['HYLIAN_LOACH',['../classdMeter__drawFishingHIO__c.html#a4c33f2712b303db676145d11656ab0c8a3660e21f52532c662c322b434f69b3e6',1,'dMeter_drawFishingHIO_c']]],
-  ['hylian_5fpike_218',['HYLIAN_PIKE',['../classdMeter__drawFishingHIO__c.html#a4c33f2712b303db676145d11656ab0c8a679d422d6a83272ea1c621308fd45d67',1,'dMeter_drawFishingHIO_c']]]
+  ['hylian_5fbass_216',['HYLIAN_BASS',['../classdMeter__drawFishingHIO__c.html#ab1b23ac65e3a7b4039012220155656a6a5e522cf9eab5eda6db5381a20a2e3fff',1,'dMeter_drawFishingHIO_c']]],
+  ['hylian_5floach_217',['HYLIAN_LOACH',['../classdMeter__drawFishingHIO__c.html#ab1b23ac65e3a7b4039012220155656a6a3660e21f52532c662c322b434f69b3e6',1,'dMeter_drawFishingHIO_c']]],
+  ['hylian_5fpike_218',['HYLIAN_PIKE',['../classdMeter__drawFishingHIO__c.html#ab1b23ac65e3a7b4039012220155656a6a679d422d6a83272ea1c621308fd45d67',1,'dMeter_drawFishingHIO_c']]]
 ];
