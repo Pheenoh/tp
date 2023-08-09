@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['eaction_0',['EAction',['../classdaTagTWGate__c.html#ab337ee634eed22c26b1f8dc4912892a5',1,'daTagTWGate_c::EAction()'],['../classdaAlldie__c.html#a78c81511b77b6387b2b896b7f48dcb16',1,'daAlldie_c::EAction()']]],
+  ['eaction_0',['EAction',['../classdaAlldie__c.html#a78c81511b77b6387b2b896b7f48dcb16',1,'daAlldie_c']]],
   ['eallocdirection_1',['EAllocDirection',['../classJKRDvdRipper.html#add5351d092f559b4c2bef0b3e2199161',1,'JKRDvdRipper']]],
   ['eallocmode_2',['EAllocMode',['../classJKRAramHeap.html#a205023c6aecd9390890fb673e5dc18c5',1,'JKRAramHeap::EAllocMode()'],['../structJKRExpHeap.html#a9a114aea69c03b0590e1615a86fedf0d',1,'JKRExpHeap::EAllocMode()']]],
   ['econsoletype_3',['EConsoleType',['../classJUTConsole.html#ad7223c9ab1f27f5443a1149a7828f14c',1,'JUTConsole']]],
@@ -18,10 +18,9 @@ var searchData=
   ['estatus_15',['EStatus',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35b',1,'JUTFader']]],
   ['estickdir_16',['EStickDir',['../structSTControl.html#aae5481b3246ccaf69c1d1f7e156a46bb',1,'STControl']]],
   ['estickmode_17',['EStickMode',['../structJUTGamePad.html#abca75dfff195b24734a99dea1527843b',1,'JUTGamePad']]],
-  ['etype_18',['EType',['../classdaTagTWGate__c.html#aed6ff6be009999660f082bad442efaf2',1,'daTagTWGate_c']]],
-  ['eventmode_19',['EventMode',['../d__event_8h.html#a0a8ba9df0e4b60821889d34ab83e47fe',1,'d_event.h']]],
-  ['eventstatus_20',['EventStatus',['../d__event_8h.html#ac03f53915dd13820e0dfd3b3c93bed17',1,'d_event.h']]],
-  ['eventtype_21',['EventType',['../d__event_8h.html#a2628ea8d12e8b2563c32f05dc7fff6fa',1,'d_event.h']]],
-  ['ewhichstick_22',['EWhichStick',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6b',1,'JUTGamePad']]],
-  ['exfbnumber_23',['EXfbNumber',['../classJUTXfb.html#afdd1587f1b4b7c8868f78ac2065e6bc6',1,'JUTXfb']]]
+  ['eventmode_18',['EventMode',['../d__event_8h.html#a0a8ba9df0e4b60821889d34ab83e47fe',1,'d_event.h']]],
+  ['eventstatus_19',['EventStatus',['../d__event_8h.html#ac03f53915dd13820e0dfd3b3c93bed17',1,'d_event.h']]],
+  ['eventtype_20',['EventType',['../d__event_8h.html#a2628ea8d12e8b2563c32f05dc7fff6fa',1,'d_event.h']]],
+  ['ewhichstick_21',['EWhichStick',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6b',1,'JUTGamePad']]],
+  ['exfbnumber_22',['EXfbNumber',['../classJUTXfb.html#afdd1587f1b4b7c8868f78ac2065e6bc6',1,'JUTXfb']]]
 ];
