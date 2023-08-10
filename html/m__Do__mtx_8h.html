@@ -176,6 +176,8 @@ Functions</h2></td></tr>
 <tr class="separator:af7550c9f0d52fda83cb651a165c05f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd7ef5cadabbdf6ad0b83140d1b44d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__mtx_8h.html#aadd7ef5cadabbdf6ad0b83140d1b44d7">cMtx_multVec</a> (<a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> <a class="el" href="c__lib_8cpp.html#acb9d23c4d464c6b0a4fd696c59ab4dcb">mtx</a>, const <a class="el" href="structVec.html">Vec</a> *src, <a class="el" href="structVec.html">Vec</a> *dst)</td></tr>
 <tr class="separator:aadd7ef5cadabbdf6ad0b83140d1b44d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e88ca7fc57a7f6b2d3099a80a481bf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__mtx_8h.html#a7e88ca7fc57a7f6b2d3099a80a481bf0">cMtx_lookAt</a> (<a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>(*param_0)[4], <a class="el" href="structVec.html">Vec</a> const *param_1, <a class="el" href="structVec.html">Vec</a> const *param_2, <a class="el" href="structVec.html">Vec</a> const *param_3, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_4)</td></tr>
+<tr class="separator:a7e88ca7fc57a7f6b2d3099a80a481bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5ff61a8a67ee861095ce214446df911"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__mtx_8h.html#ae5ff61a8a67ee861095ce214446df911">cMtx_copy</a> (const <a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> src, <a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> dst)</td></tr>
 <tr class="separator:ae5ff61a8a67ee861095ce214446df911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5951973d910244aaf296fb714bdeeb19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="m__Do__mtx_8h.html#a5951973d910244aaf296fb714bdeeb19">cMtx_multVecArray</a> (<a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> <a class="el" href="c__lib_8cpp.html#acb9d23c4d464c6b0a4fd696c59ab4dcb">mtx</a>, const <a class="el" href="structVec.html">Vec</a> *src, <a class="el" href="structVec.html">Vec</a> *dst, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> count)</td></tr>
@@ -257,6 +259,60 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a>&#160;</td>
           <td class="paramname"><em>dst</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e88ca7fc57a7f6b2d3099a80a481bf0" name="a7e88ca7fc57a7f6b2d3099a80a481bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e88ca7fc57a7f6b2d3099a80a481bf0">&#9670;&#160;</a></span>cMtx_lookAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cMtx_lookAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>(*)&#160;</td>
+          <td class="paramname"><em>param_0</em>[4], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structVec.html">Vec</a> const *&#160;</td>
+          <td class="paramname"><em>param_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structVec.html">Vec</a> const *&#160;</td>
+          <td class="paramname"><em>param_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structVec.html">Vec</a> const *&#160;</td>
+          <td class="paramname"><em>param_3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td>
+          <td class="paramname"><em>param_4</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

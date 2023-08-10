@@ -102,8 +102,8 @@ var searchData=
   ['l_5ffpcndrq_5fqueue_99',['l_fpcNdRq_Queue',['../f__pc__node__req_8cpp.html#a04ad189e3bbe6a71d597963ba7fb582c',1,'f_pc_node_req.cpp']]],
   ['l_5ffpcpi_5fqueue_100',['l_fpcPi_Queue',['../f__pc__priority_8cpp.html#af7b08399d39573826a79a70c884ec92b',1,'f_pc_priority.cpp']]],
   ['l_5fhalfatnwaitbaseanime_101',['l_halfAtnWaitBaseAnime',['../d__a__alink_8cpp.html#ad47a6e9c3984ffa742964d1bc374f88d',1,'d_a_alink.cpp']]],
-  ['l_5fhio_102',['l_HIO',['../d__gameover_8cpp.html#a8e7e81fb61cc506f8a9808f6fc15d15b',1,'d_gameover.cpp']]],
-  ['l_5fhio_103',['l_hio',['../f__op__actor__mng_8cpp.html#a7dce05e1f2c1675c60371678624e359d',1,'f_op_actor_mng.cpp']]],
+  ['l_5fhio_102',['l_hio',['../f__op__actor__mng_8cpp.html#a7dce05e1f2c1675c60371678624e359d',1,'f_op_actor_mng.cpp']]],
+  ['l_5fhio_103',['l_HIO',['../d__gameover_8cpp.html#a8e7e81fb61cc506f8a9808f6fc15d15b',1,'d_gameover.cpp']]],
   ['l_5fhorsebaseanime_104',['l_horseBaseAnime',['../d__a__alink_8cpp.html#a932159304c4f97de03a1f9165383860e',1,'d_a_alink.cpp']]],
   ['l_5fhtag_105',['l_htag',['../d__file__sel__info_8cpp.html#a36e1406338dc0c6ec8fcc0a7a2284c20',1,'d_file_sel_info.cpp']]],
   ['l_5fhyshdarcname_106',['l_hyShdArcName',['../d__a__alink_8cpp.html#ae4a301b4559035e5010b46353e19479d',1,'d_a_alink.cpp']]],
@@ -364,7 +364,7 @@ var searchData=
   ['lightstatuspt_361',['lightStatusPt',['../d__kankyo_8cpp.html#ad445451543305f6ab5b0f5256aceb0a8',1,'d_kankyo.cpp']]],
   ['line_362',['line',['../structXY.html#a29f43c94bfe07f586fa50bc8dbb3e4ca',1,'XY']]],
   ['line_5ftag4914_363',['line_tag4914',['../d__menu__letter_8cpp.html#a5cc7710ff35c1da2836e0a186c9b4393',1,'d_menu_letter.cpp']]],
-  ['linespace_364',['linespace',['../d__file__select_8cpp.html#a96442d9ee9830a909c5622f8c4eb01ac',1,'d_file_select.cpp']]],
+  ['linespace_364',['linespace',['../d__file__select_8cpp.html#ad582c4372a489ba747a093c2e4876da5',1,'d_file_select.cpp']]],
   ['link_365',['link',['../structOSAlarm.html#a7f357e8d2926151d3973b12a8032bcaf',1,'OSAlarm::link()'],['../structOSMutex.html#a81716a34bc8d9003ebb5ada22bb975ea',1,'OSMutex::link()'],['../structOSThread.html#ac27abf0e8bb8c9f904cd31da317a32d1',1,'OSThread::link()']]],
   ['lists_366',['lists',['../f__op__draw__tag_8cpp.html#a3754562d7d9af348967e71adb58d4172',1,'f_op_draw_tag.cpp']]],
   ['lit_5f1_367',['lit_1',['../ai_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;ai.c'],['../ar_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;ar.c'],['../CARDBios_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;CARDBios.c'],['../EXIBios_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;EXIBios.c'],['../GXInit_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;GXInit.c'],['../OS_8c.html#a1cd58c4dc61549c6adda3ca112802e89',1,'lit_1():&#160;OS.c'],['../SIBios_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;SIBios.c'],['../vi_8c.html#a1a6069729885614d1c28f573d06bd419',1,'lit_1():&#160;vi.c']]],
@@ -3782,6 +3782,6 @@ var searchData=
   ['lodbias_3779',['LODBias',['../structResTIMG.html#a968543b1a58698fd75ca4b967af130fe',1,'ResTIMG']]],
   ['losescale_3780',['loseScale',['../d__a__alink_8cpp.html#a00273422868bbd5a9dc4f5a8564ed898',1,'d_a_alink.cpp']]],
   ['low_5fwtrmark_3781',['low_wtrmark',['../struct__GXFifoObj.html#ab262081e08799aa5d30fd9701dcd2b85',1,'_GXFifoObj']]],
-  ['lr_3782',['LR',['../structDefault__PPC.html#a59df8e4ca06b11edc3be052722ac968b',1,'Default_PPC::LR()'],['../structTRKState.html#a529bfe010821837ba52b8985b504b5b9',1,'TRKState::LR()']]],
-  ['lr_3783',['lr',['../structOSContext.html#a00254ff67d8ee6eec2718c2d47d8031f',1,'OSContext']]]
+  ['lr_3782',['lr',['../structOSContext.html#a00254ff67d8ee6eec2718c2d47d8031f',1,'OSContext']]],
+  ['lr_3783',['LR',['../structDefault__PPC.html#a59df8e4ca06b11edc3be052722ac968b',1,'Default_PPC::LR()'],['../structTRKState.html#a529bfe010821837ba52b8985b504b5b9',1,'TRKState::LR()']]]
 ];

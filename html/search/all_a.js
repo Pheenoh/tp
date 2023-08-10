@@ -82,7 +82,7 @@ var searchData=
   ['j2dgrafcontext_2eh_79',['J2DGrafContext.h',['../J2DGrafContext_8h.html',1,'']]],
   ['j2dgxcolors10_80',['J2DGXColorS10',['../structJ2DGXColorS10.html#afe52073fe7f4f24790ed04d9b084ad64',1,'J2DGXColorS10::J2DGXColorS10(const J2DGXColorS10 &amp;other)'],['../structJ2DGXColorS10.html#af09617e54863634e9bd99f02a359e664',1,'J2DGXColorS10::J2DGXColorS10()'],['../structJ2DGXColorS10.html#acded5217e0a54d27520369a71d188d9c',1,'J2DGXColorS10::J2DGXColorS10(const GXColorS10 &amp;other)'],['../structJ2DGXColorS10.html',1,'J2DGXColorS10']]],
   ['j2dheap_81',['j2dHeap',['../m__Do__ext_8cpp.html#a9596221d95fb5bf27079728c068cf91f',1,'m_Do_ext.cpp']]],
-  ['j2dheapcheck_82',['J2dHeapCheck',['../m__Do__main_8cpp.html#adde63677882d4bf7722d329debee6590',1,'m_Do_main.cpp']]],
+  ['j2dheapcheck_82',['J2dHeapCheck',['../m__Do__main_8cpp.html#a05b83dda83af2d339f979013450efa44',1,'m_Do_main.cpp']]],
   ['j2dhermiteinterpolation_83',['J2DHermiteInterpolation',['../J2DAnimation_8h.html#ab0f93f30e3ba625936842a958e3eaee0',1,'J2DAnimation.h']]],
   ['j2dhermiteinterpolation_3c_20f32_20_3e_84',['J2DHermiteInterpolation&lt; f32 &gt;',['../J2DAnimation_8h.html#acec7007cbe55155cdacccf3d2527dd87',1,'J2DAnimation.h']]],
   ['j2dhermiteinterpolation_3c_20s16_20_3e_85',['J2DHermiteInterpolation&lt; s16 &gt;',['../J2DAnimation_8h.html#ae4211708bdea58941a164c71270142b1',1,'J2DAnimation.h']]],
