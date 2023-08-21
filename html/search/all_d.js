@@ -822,7 +822,7 @@ var searchData=
   ['manualcamera_819',['manualCamera',['../structdCamera__c.html#ac1b46053c7d20c2766a8d63e5e221033',1,'dCamera_c']]],
   ['manualcamera_5f_5f9dcamera_5fcfl_820',['manualCamera__9dCamera_cFl',['../d__camera_8cpp.html#abaec9bb396fc8e5baaa6b3fc505ee42d',1,'d_camera.cpp']]],
   ['maoffset_821',['mAOffset',['../structJ3DAnmColorFullTable.html#a17d5e20fdff126697747c1b79f440f03',1,'J3DAnmColorFullTable::mAOffset()'],['../structJ2DAnmColorFullInfo.html#a2c3698c19030fe59913fd23d1d9baeb6',1,'J2DAnmColorFullInfo::mAOffset()']]],
-  ['map_822',['MAP',['../structdSv__memBit__c.html#ab259e706878410f8d74578a7707f992ba9147eb41515583931d2d71a6635bf7b9',1,'dSv_memBit_c::MAP()'],['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a4cafa5feda04184537b4d7d346e1e89b',1,'MAP():&#160;d_save.h']]],
+  ['map_822',['MAP',['../structdSv__memBit__c.html#aa99345344410be8b98cba89603f19675a9147eb41515583931d2d71a6635bf7b9',1,'dSv_memBit_c::MAP()'],['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a4cafa5feda04184537b4d7d346e1e89b',1,'MAP():&#160;d_save.h']]],
   ['map1_823',['MAP1',['../structResFONT_1_1MAP1.html',1,'ResFONT']]],
   ['map_5ficon_5fsize_824',['map_icon_size',['../d__menu__map__common_8cpp.html#af7f328beeb0ca28fc972d0da54baaf57',1,'d_menu_map_common.cpp']]],
   ['map_5ficon_5fsize_5ft_825',['map_icon_size_t',['../structmap__icon__size__t.html',1,'']]],
