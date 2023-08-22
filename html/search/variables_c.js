@@ -102,8 +102,8 @@ var searchData=
   ['l_5ffpcndrq_5fqueue_99',['l_fpcNdRq_Queue',['../f__pc__node__req_8cpp.html#a04ad189e3bbe6a71d597963ba7fb582c',1,'f_pc_node_req.cpp']]],
   ['l_5ffpcpi_5fqueue_100',['l_fpcPi_Queue',['../f__pc__priority_8cpp.html#af7b08399d39573826a79a70c884ec92b',1,'f_pc_priority.cpp']]],
   ['l_5fhalfatnwaitbaseanime_101',['l_halfAtnWaitBaseAnime',['../d__a__alink_8cpp.html#ad47a6e9c3984ffa742964d1bc374f88d',1,'d_a_alink.cpp']]],
-  ['l_5fhio_102',['l_hio',['../f__op__actor__mng_8cpp.html#a7dce05e1f2c1675c60371678624e359d',1,'f_op_actor_mng.cpp']]],
-  ['l_5fhio_103',['l_HIO',['../d__gameover_8cpp.html#a8e7e81fb61cc506f8a9808f6fc15d15b',1,'d_gameover.cpp']]],
+  ['l_5fhio_102',['l_HIO',['../d__gameover_8cpp.html#a8e7e81fb61cc506f8a9808f6fc15d15b',1,'d_gameover.cpp']]],
+  ['l_5fhio_103',['l_hio',['../f__op__actor__mng_8cpp.html#a7dce05e1f2c1675c60371678624e359d',1,'f_op_actor_mng.cpp']]],
   ['l_5fhorsebaseanime_104',['l_horseBaseAnime',['../d__a__alink_8cpp.html#a932159304c4f97de03a1f9165383860e',1,'d_a_alink.cpp']]],
   ['l_5fhtag_105',['l_htag',['../d__file__sel__info_8cpp.html#a36e1406338dc0c6ec8fcc0a7a2284c20',1,'d_file_sel_info.cpp']]],
   ['l_5fhyshdarcname_106',['l_hyShdArcName',['../d__a__alink_8cpp.html#ae4a301b4559035e5010b46353e19479d',1,'d_a_alink.cpp']]],
@@ -3764,6 +3764,6 @@ var searchData=
   ['lodbias_3761',['LODBias',['../structResTIMG.html#a968543b1a58698fd75ca4b967af130fe',1,'ResTIMG']]],
   ['losescale_3762',['loseScale',['../d__a__alink_8cpp.html#a00273422868bbd5a9dc4f5a8564ed898',1,'d_a_alink.cpp']]],
   ['low_5fwtrmark_3763',['low_wtrmark',['../struct__GXFifoObj.html#ab262081e08799aa5d30fd9701dcd2b85',1,'_GXFifoObj']]],
-  ['lr_3764',['LR',['../structDefault__PPC.html#a59df8e4ca06b11edc3be052722ac968b',1,'Default_PPC::LR()'],['../structTRKState.html#a529bfe010821837ba52b8985b504b5b9',1,'TRKState::LR()']]],
-  ['lr_3765',['lr',['../structOSContext.html#a00254ff67d8ee6eec2718c2d47d8031f',1,'OSContext']]]
+  ['lr_3764',['lr',['../structOSContext.html#a00254ff67d8ee6eec2718c2d47d8031f',1,'OSContext']]],
+  ['lr_3765',['LR',['../structDefault__PPC.html#a59df8e4ca06b11edc3be052722ac968b',1,'Default_PPC::LR()'],['../structTRKState.html#a529bfe010821837ba52b8985b504b5b9',1,'TRKState::LR()']]]
 ];
