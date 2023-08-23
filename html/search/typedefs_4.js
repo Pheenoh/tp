@@ -10,7 +10,7 @@ var searchData=
   ['dbcommreadfunc_7',['DBCommReadFunc',['../dolphin__trk__glue_8h.html#a8ada0547f0570288a724ef065f79adb6',1,'dolphin_trk_glue.h']]],
   ['dbcommtable_8',['DBCommTable',['../dolphin__trk__glue_8h.html#a411ab7f8281000ccefd7c749bfb7301b',1,'dolphin_trk_glue.h']]],
   ['dbcommwritefunc_9',['DBCommWriteFunc',['../dolphin__trk__glue_8h.html#a2c6a2dad34caf7ac2882689b98d2a89b',1,'dolphin_trk_glue.h']]],
-  ['dbgw_5farrowstickcallback_10',['dBgW_ArrowStickCallback',['../d__bg__w_8h.html#a84356dcd23de8fc71e3d19e944e88590',1,'d_bg_w.h']]],
+  ['dbgw_5farrowstickcallback_10',['dBgW_ArrowStickCallback',['../d__bg__w_8h.html#a60978784879e55948ded6835e7c3e322',1,'d_bg_w.h']]],
   ['dbgw_5fcrrfunc_11',['dBgW_CrrFunc',['../d__bg__w_8h.html#a0f00807bff52b2fa6f7e9e62b2a4467b',1,'d_bg_w.h']]],
   ['dbgw_5fridecallback_12',['dBgW_RideCallback',['../d__bg__w_8h.html#a4ff02a6bf4424c2ffad7149ad5e5357e',1,'d_bg_w.h']]],
   ['dbinterface_13',['DBInterface',['../db_8h.html#aba5c450459fc0c88bbfee13e223c9a3b',1,'db.h']]],

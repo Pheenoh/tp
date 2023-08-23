@@ -90,6 +90,9 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="d__bg__w_8h_source.html">d/bg/d_bg_w.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="c__math_8h_source.html">SSystem/SComponent/c_math.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__bg__s__shdw__draw_8h_source.html">SSystem/SComponent/c_bg_s_shdw_draw.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__s__sph__chk_8h_source.html">d/bg/d_bg_s_sph_chk.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__s__cap__poly_8h_source.html">d/bg/d_bg_s_cap_poly.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__com__inf__game_8h_source.html">d/com/d_com_inf_game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
@@ -102,44 +105,21 @@ $(function() {
 <code>#include &quot;asm/d/bg/d_bg_w/__dt__11cBgW_GrpElmFv.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/RwgLineCheck__4cBgWFUsP11cBgS_LinChk.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/__dt__8cM3dGTriFv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/LineCheckRp__4cBgWFP11cBgS_LinChki.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/LineCheckGrpRp__4cBgWFP11cBgS_LinChkii.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgGroundCheckCommon__4cBgWFfUsP11cBgS_GndChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgGroundCheckGnd__4cBgWFUsP11cBgS_GndChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgGroundCheckWall__4cBgWFUsP11cBgS_GndChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/GroundCrossRp__4cBgWFP11cBgS_GndChki.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/GroundCrossGrpRp__4cBgWFP11cBgS_GndChkii.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgShdwDraw__4cBgWFiP13cBgS_ShdwDraw.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/ShdwDrawRp__4cBgWFP13cBgS_ShdwDrawi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/ShdwDrawGrpRp__4cBgWFP13cBgS_ShdwDrawi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/GetGrpRoomIndex__4cBgWCFRC13cBgS_PolyInfo.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/positionWallCorrect__4dBgWFP9dBgS_AcchfR8cM3dGPlaP4cXyzf.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/RwgWallCorrect__4dBgWFP9dBgS_AcchUs.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/WallCorrectRp__4dBgWFP9dBgS_Acchi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/WallCorrectGrpRp__4dBgWFP9dBgS_Acchii.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/RwgWallCorrectSort__4dBgWFP9dBgS_AcchUs.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/WallCorrectRpSort__4dBgWFP9dBgS_Acchi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/WallCorrectGrpRpSort__4dBgWFP9dBgS_Acchii.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/WallCorrectSort__4dBgWFP9dBgS_Acch.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgRoofChk__4dBgWFUsP12dBgS_RoofChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RoofChkRp__4dBgWFP12dBgS_RoofChki.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RoofChkGrpRp__4dBgWFP12dBgS_RoofChkii.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgSplGrpChk__4dBgWFUsP14dBgS_SplGrpChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/SplGrpChkRp__4dBgWFP14dBgS_SplGrpChki.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/SplGrpChkGrpRp__4dBgWFP14dBgS_SplGrpChkii.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/RwgCaptPoly__4dBgWFiR13dBgS_CaptPoly.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/CaptPolyRp__4dBgWFR13dBgS_CaptPolyi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/CaptPolyGrpRp__4dBgWFR13dBgS_CaptPolyii.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/RwgSphChk__4dBgWFUsP11dBgS_SphChkPv.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/SphChkRp__4dBgWFP11dBgS_SphChkPvi.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/SphChkGrpRp__4dBgWFP11dBgS_SphChkPvii.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/CrrPos__4dBgWFRC13cBgS_PolyInfoPvbP4cXyzP5csXyzP5csXyz.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/TransPos__4dBgWFRC13cBgS_PolyInfoPvbP4cXyzP5csXyzP5csXyz.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/MatrixCrrPos__4dBgWFRC13cBgS_PolyInfoPvbP4cXyzP5csXyzP5csXyz.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/ChkPolyThrough__4dBgWFiP16cBgS_PolyPassChk.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/ChkGrpThrough__4dBgWFiP15cBgS_GrpPassChki.s&quot;</code><br />
-<code>#include &quot;asm/d/bg/d_bg_w/CallArrowStickCallBack__4dBgWFP10fopAc_ac_cP10fopAc_ac_cR4cXyz.s&quot;</code><br />
 <code>#include &quot;asm/d/bg/d_bg_w/__dt__4dBgWFv.s&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_bg_w.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__bg__w_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -561,8 +541,6 @@ Variables</h2></td></tr>
 <tr class="separator:a5b471b588fe23b626e27588de3222322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fffcd21cb50ce34f6429a5e667ac031"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#a9fffcd21cb50ce34f6429a5e667ac031">lit_3937</a> = 1.0f</td></tr>
 <tr class="separator:a9fffcd21cb50ce34f6429a5e667ac031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f0e5cb7b2a03480204ec498cb18b819"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#a8f0e5cb7b2a03480204ec498cb18b819">lit_4271</a> = 0.014000000432133675f</td></tr>
-<tr class="separator:a8f0e5cb7b2a03480204ec498cb18b819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a945796fe062cf8bcf42440933d7fe110"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#a945796fe062cf8bcf42440933d7fe110">lit_4962</a> [1+1]</td></tr>
 <tr class="separator:a945796fe062cf8bcf42440933d7fe110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e655e5156b26faeb27a9f6ae0effd2a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwcs__data.html">wcs_data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#a3e655e5156b26faeb27a9f6ae0effd2a">l_wcsbuf</a> [84]</td></tr>
@@ -3845,7 +3823,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__bg__w_8cpp_html_a9c0fb41037bfb8e5fb08c6f9b3225cb5"><div class="ttname"><a href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a></div><div class="ttdeci">void __dt__11cBgW_GrpElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:872</div></div>
+<div class="ttc" id="ad__bg__w_8cpp_html_a9c0fb41037bfb8e5fb08c6f9b3225cb5"><div class="ttname"><a href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a></div><div class="ttdeci">void __dt__11cBgW_GrpElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:875</div></div>
 <div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> stddef.h:12</div></div>
 </div><!-- fragment -->
 </div>
@@ -3904,7 +3882,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__bg__w_8cpp.html#ac1d0ad370e185be59528d31ae727d190">__dt__11cBgW_TriElmFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__bg__w_8cpp_html_ac1d0ad370e185be59528d31ae727d190"><div class="ttname"><a href="d__bg__w_8cpp.html#ac1d0ad370e185be59528d31ae727d190">__dt__11cBgW_TriElmFv</a></div><div class="ttdeci">void __dt__11cBgW_TriElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:551</div></div>
+<div class="ttc" id="ad__bg__w_8cpp_html_ac1d0ad370e185be59528d31ae727d190"><div class="ttname"><a href="d__bg__w_8cpp.html#ac1d0ad370e185be59528d31ae727d190">__dt__11cBgW_TriElmFv</a></div><div class="ttdeci">void __dt__11cBgW_TriElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:554</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4048,7 +4026,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__bg__w_8cpp_html_a9cbb9cdf4d72625aeb85146e4c7b1cb6"><div class="ttname"><a href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a></div><div class="ttdeci">void __dt__8cM3dGTriFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:929</div></div>
+<div class="ttc" id="ad__bg__w_8cpp_html_a9cbb9cdf4d72625aeb85146e4c7b1cb6"><div class="ttname"><a href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a></div><div class="ttdeci">void __dt__8cM3dGTriFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:932</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4201,28 +4179,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_3937 = 1.0f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8f0e5cb7b2a03480204ec498cb18b819" name="a8f0e5cb7b2a03480204ec498cb18b819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f0e5cb7b2a03480204ec498cb18b819">&#9670;&#160;</a></span>lit_4271</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4271 = 0.014000000432133675f</td>
         </tr>
       </table>
   </td>
