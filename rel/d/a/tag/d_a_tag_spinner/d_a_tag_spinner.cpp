@@ -1,6 +1,6 @@
 /**
- * d_a_tag_spinner.cpp
- * Tag - Spinner
+ * @file d_a_tag_spinner.cpp
+ * @brief Tag - Spinner
  */
 
 #include "rel/d/a/tag/d_a_tag_spinner/d_a_tag_spinner.h"

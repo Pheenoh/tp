@@ -20,6 +20,7 @@ class daObj_ItaMato_c : public fopAc_ac_c {
     /* 80C2A890 */ void setEnvTevColor();
     /* 80C2A8EC */ void setRoomNo();
     /* 80C2A930 */ void setMtx();
+    void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
 };
 
 class daObj_ItaMato_Param_c {

@@ -1,6 +1,6 @@
 /**
- * d_a_tag_shop_item.cpp
- * Tag - Shop Item
+ * @file d_a_tag_shop_item.cpp
+ * @brief Tag - Shop Item
  */
 
 #include "rel/d/a/tag/d_a_tag_shop_item/d_a_tag_shop_item.h"

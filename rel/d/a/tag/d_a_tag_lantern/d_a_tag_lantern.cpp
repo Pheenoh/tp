@@ -1,6 +1,6 @@
 /**
- * d_a_tag_lantern.cpp
- * Tag - Lantern
+ * @file d_a_tag_lantern.cpp
+ * @brief Tag - Lantern
  */
 
 #include "rel/d/a/tag/d_a_tag_lantern/d_a_tag_lantern.h"

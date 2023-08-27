@@ -25,25 +25,13 @@ class daTag_AllMato_c : public fopAc_ac_c {
     /* 80489608 */ ~daTag_AllMato_c();
 };
 
-class daObj_ItaMato_c : public fopAc_ac_c {
-    /* 804891BC */ void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
-};
-
-class daObj_BouMato_c : public fopAc_ac_c {
-    /* 8048940C */ void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
-};
-
-class daNpcT_ActorMngr_c : public fopAc_ac_c {
+class daNpcT_ActorMngr_c {
     /* 801456D4 */ void initialize();
     /* 801456E0 */ void entry(fopAc_ac_c*);
     /* 801456FC */ void remove();
     /* 80145708 */ void getActorP();
     /* 80489138 */ ~daNpcT_ActorMngr_c();
     /* 80489180 */ daNpcT_ActorMngr_c();
-};
-
-class daArrow_c : public fopAc_ac_c {
-    /* 804895EC */ void getStartPos();
 };
 
 #endif /* D_A_TAG_ALLMATO_H */

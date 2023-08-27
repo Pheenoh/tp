@@ -1,6 +1,6 @@
 /**
- * d_a_tag_gra.cpp
- * Tag - Goron A
+ * @file d_a_tag_gra.cpp
+ * @brief Tag - Goron A
  */
 
 #include "rel/d/a/tag/d_a_tag_gra/d_a_tag_gra.h"

@@ -7,37 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dCamera_c {
-    /* 80181E64 */ void Eye();
-};
-
-struct cCcD_Obj {};
-
-struct Tag_FWall_n {
-    static u8 cc_sph_src[64];
-    static u8 game_over_eff_name[8];
-};
-
-//
 // Forward References:
 //
 

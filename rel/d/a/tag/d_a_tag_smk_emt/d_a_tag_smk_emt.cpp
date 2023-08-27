@@ -1,6 +1,6 @@
 /**
- * d_a_tag_smk_emt.cpp
- * Tag - Smoke Emit
+ * @file d_a_tag_smk_emt.cpp
+ * @brief Tag - Smoke Emit
  */
 
 #include "rel/d/a/tag/d_a_tag_smk_emt/d_a_tag_smk_emt.h"

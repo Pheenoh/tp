@@ -24,7 +24,6 @@ private:
     /* 0x568 vtable */
     /* 0x56C */ u8 field_0x56c;
 };
-
 STATIC_ASSERT(sizeof(daTag_EvtArea_c) == 0x570);
 
 #endif /* D_A_TAG_EVTAREA_H */

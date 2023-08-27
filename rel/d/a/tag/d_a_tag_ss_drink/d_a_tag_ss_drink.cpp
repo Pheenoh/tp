@@ -4,23 +4,8 @@
 //
 
 #include "rel/d/a/tag/d_a_tag_ss_drink/d_a_tag_ss_drink.h"
+#include "d/a/d_a_obj_ss_base.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dAttCatch_c {
-    /* 80073A08 */ void request(fopAc_ac_c*, u8, f32, f32, f32, s16, int);
-};
 
 //
 // Forward References:

@@ -1,6 +1,6 @@
 /**
- * d_a_tag_mwait.cpp
- * Midna Wait Trigger
+ * @file d_a_tag_mwait.cpp
+ * @brief Midna Wait Trigger
  */
 
 #include "rel/d/a/tag/d_a_tag_mwait/d_a_tag_mwait.h"

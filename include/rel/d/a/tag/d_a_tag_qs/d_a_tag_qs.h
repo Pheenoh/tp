@@ -16,12 +16,4 @@ class daTagQs_c : public fopAc_ac_c {
     /* 80D5EBF8 */ bool draw();
 };
 
-class daItem_c : public fopAc_ac_c {
-    /* 80037BE0 */ void startCtrl();
-};
-
-class daItemBase_c : public fopAc_ac_c {
-    /* 80037A5C */ void getItemNo();
-};
-
 #endif /* D_A_TAG_QS_H */

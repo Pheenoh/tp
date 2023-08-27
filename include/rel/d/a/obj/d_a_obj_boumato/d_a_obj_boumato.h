@@ -21,6 +21,7 @@ class daObj_BouMato_c : public fopAc_ac_c {
     /* 80BBC19C */ void setEnvTevColor();
     /* 80BBC1F8 */ void setRoomNo();
     /* 80BBC23C */ void setMtx();
+    void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
 };
 
 class daObj_BouMato_Param_c {

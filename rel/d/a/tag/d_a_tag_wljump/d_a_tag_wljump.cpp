@@ -11,10 +11,6 @@
 #include "JSystem/JKernel/JKRHeap.h"
 
 //
-// Types:
-//
-
-//
 // Forward References:
 //
 

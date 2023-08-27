@@ -7,18 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dCamera_c {
-    /* 80163558 */ void SetTagData(fopAc_ac_c*, s32, u16, u8);
-};
-
-//
 // Forward References:
 //
 

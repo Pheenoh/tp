@@ -1,6 +1,6 @@
 /**
- * d_a_tag_poFire.cpp
- * Tag - Poe Fire
+ * @file d_a_tag_poFire.cpp
+ * @brief Tag - Poe Fire
  */
 
 #include "rel/d/a/tag/d_a_tag_poFire/d_a_tag_poFire.h"

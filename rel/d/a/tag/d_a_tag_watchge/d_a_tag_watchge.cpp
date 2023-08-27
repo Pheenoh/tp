@@ -1,6 +1,6 @@
 /**
- * d_a_tag_watchge.cpp
- * Tag - Guay
+ * @file d_a_tag_watchge.cpp
+ * @brief Tag - Guay
  */
 
 #include "rel/d/a/tag/d_a_tag_watchge/d_a_tag_watchge.h"

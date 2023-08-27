@@ -16,8 +16,4 @@ class daTag_Cam_c : public fopAc_ac_c {
     /* 80489F74 */ void execute();
 };
 
-class daAlink_c : public fopAc_ac_c {
-    /* 800E1390 */ void getCopyRodCameraActor();
-};
-
 #endif /* D_A_TAG_CAMERA_H */

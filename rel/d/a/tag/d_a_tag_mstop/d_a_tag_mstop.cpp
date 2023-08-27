@@ -1,6 +1,6 @@
 /**
- * d_a_tag_mstop.cpp
- * Tag - Midna Stop
+ * @file d_a_tag_mstop.cpp
+ * @brief Tag - Midna Stop
  */
 
 #include "rel/d/a/tag/d_a_tag_mstop/d_a_tag_mstop.h"

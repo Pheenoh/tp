@@ -1,6 +1,6 @@
 /**
- * d_a_tag_CstaSw.cpp
- * Overworld Statue switch trigger
+ * @file d_a_tag_CstaSw.cpp
+ * @brief Overworld Statue switch trigger
  */
 
 #include "rel/d/a/tag/d_a_tag_CstaSw/d_a_tag_CstaSw.h"

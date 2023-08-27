@@ -1,4 +1,7 @@
-// Translation Unit: d_a_tag_lightball
+/**
+ * @file d_a_tag_lightball.cpp
+ * 
+ */
 
 #include "rel/d/a/tag/d_a_tag_lightball/d_a_tag_lightball.h"
 #include "JSystem/JKernel/JKRHeap.h"

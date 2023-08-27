@@ -40,10 +40,4 @@ class daObj_SSDrink_c : public fopAc_ac_c {
     static u8 mCcDCyl[68];
 };
 
-class daObj_SSBase_c : public fopAc_ac_c {
-    /* 8015E3F8 */ daObj_SSBase_c();
-    /* 8015E450 */ ~daObj_SSBase_c();
-    /* 8015E4B0 */ void getProcessID();
-};
-
 #endif /* D_A_OBJ_SS_DRINK_H */

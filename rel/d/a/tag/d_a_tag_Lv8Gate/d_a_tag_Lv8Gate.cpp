@@ -7,28 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-};
-
-struct dAttention_c {
-    /* 80070880 */ void getActionBtnB();
-    /* 80073734 */ void ActionTarget(s32);
-};
-
-//
 // Forward References:
 //
 

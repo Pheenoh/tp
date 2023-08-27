@@ -1,6 +1,6 @@
 /**
- * d_a_tag_shop_camera.cpp
- * Tag - Shop Camera
+ * @file d_a_tag_shop_camera.cpp
+ * @brief Tag - Shop Camera
  */
 
 #include "rel/d/a/tag/d_a_tag_shop_camera/d_a_tag_shop_camera.h"

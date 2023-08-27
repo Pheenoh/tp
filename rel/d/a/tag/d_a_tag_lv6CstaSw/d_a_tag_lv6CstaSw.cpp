@@ -1,6 +1,6 @@
 /**
- * d_a_tag_lv6CstaSw.cpp
- * Temple of Time Statue switch trigger
+ * @file d_a_tag_lv6CstaSw.cpp
+ * @brief Temple of Time Statue switch trigger
  */
 
 #include "rel/d/a/tag/d_a_tag_lv6CstaSw/d_a_tag_lv6CstaSw.h"

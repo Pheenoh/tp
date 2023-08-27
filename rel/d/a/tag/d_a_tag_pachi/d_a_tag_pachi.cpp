@@ -7,14 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dCcD_SrcCyl {};
-
-struct cCcD_Obj {};
-
-//
 // Forward References:
 //
 

@@ -1,6 +1,6 @@
 /**
- * d_a_tag_hjump.cpp
- * Epona fence jump trigger / object
+ * @file d_a_tag_hjump.cpp
+ * @brief Epona fence jump trigger / object
  */
 
 #include "rel/d/a/tag/d_a_tag_hjump/d_a_tag_hjump.h"

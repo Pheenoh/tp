@@ -1,7 +1,6 @@
 /**
- * d_a_tag_setrestart.cpp
- * RMBack0
- * Sets player room restart info
+ * @file d_a_tag_setrestart.cpp
+ * @brief RMBack0 - Sets player room restart info
  */
 
 #include "rel/d/a/tag/d_a_tag_setrestart/d_a_tag_setrestart.h"

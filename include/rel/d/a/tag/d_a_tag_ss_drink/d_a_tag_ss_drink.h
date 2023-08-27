@@ -25,11 +25,4 @@ class daTag_SSDrink_c : public fopAc_ac_c {
     /* 80D63724 */ ~daTag_SSDrink_c();
 };
 
-class daObj_SSBase_c : public fopAc_ac_c {
-    /* 8015E3F8 */ daObj_SSBase_c();
-    /* 8015E450 */ ~daObj_SSBase_c();
-    /* 8015E4B0 */ void getProcessID();
-    /* 80D63794 */ void setSoldOut();
-};
-
 #endif /* D_A_TAG_SS_DRINK_H */

@@ -7,31 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dAttHint_c {
-    /* 800738FC */ void request(fopAc_ac_c*, int);
-};
-
-//
 // Forward References:
 //
 

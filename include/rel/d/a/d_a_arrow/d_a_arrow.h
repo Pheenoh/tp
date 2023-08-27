@@ -42,6 +42,7 @@ public:
     /* 8049D0CC */ void draw();
     /* 8049D440 */ void create();
     /* 8049D98C */ ~daArrow_c();
+    void getStartPos();
 
     void setBombArrowExplode() { field_0x950 = 0; }
     bool checkBombArrow() const { return mIsBombArrow == true; }

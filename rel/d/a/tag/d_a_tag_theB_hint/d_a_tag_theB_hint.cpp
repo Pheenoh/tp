@@ -1,6 +1,6 @@
 /**
- * d_a_tag_theB_hint.cpp
- * Tag - Telma B Hint
+ * @file d_a_tag_theB_hint.cpp
+ * @brief Tag - Telma B Hint
  */
 
 #include "rel/d/a/tag/d_a_tag_theB_hint/d_a_tag_theB_hint.h"

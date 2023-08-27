@@ -7,41 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoGph_gInf_c {
-    /* 80007FD8 */ void fadeOut(f32, _GXColor&);
-};
-
-struct dMsgObject_c {
-    /* 80238440 */ void getSelectCursorPos();
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCamera_c {
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AA8 */ void Set(cXyz, cXyz);
-    /* 80181E64 */ void Eye();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-//
 // Forward References:
 //
 

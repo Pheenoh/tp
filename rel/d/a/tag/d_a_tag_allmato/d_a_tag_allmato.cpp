@@ -4,25 +4,10 @@
 //
 
 #include "rel/d/a/tag/d_a_tag_allmato/d_a_tag_allmato.h"
+#include "rel/d/a/obj/d_a_obj_itamato/d_a_obj_itamato.h"
+#include "rel/d/a/obj/d_a_obj_boumato/d_a_obj_boumato.h"
+#include "rel/d/a/d_a_arrow/d_a_arrow.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042518 */ void reset(void*);
-    /* 8004365C */ void setPt2(void*);
-};
-
-struct dCamera_c {
-    /* 80174EAC */ void SaveZoomRatio();
-};
 
 //
 // Forward References:
@@ -120,7 +105,6 @@ extern "C" void _restgpr_29();
 extern "C" void strlen();
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
-extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 
 //
 // Declarations:

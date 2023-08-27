@@ -1,6 +1,6 @@
 /**
- * d_a_tag_lv2prchk.cpp
- * Boomerang Switch Puzzle Tag
+ * @file d_a_tag_lv2prchk.cpp
+ * @brief Boomerang Switch Puzzle Tag
  */
 
 #include "rel/d/a/tag/d_a_tag_lv2prchk/d_a_tag_lv2prchk.h"

@@ -10,4 +10,9 @@ class daTag_FWall_c : public fopAc_ac_c {
     /* 80D590A8 */ void create();
 };
 
+class Tag_FWall_n {
+    static u8 cc_sph_src[64];
+    static u8 game_over_eff_name[8];
+};
+
 #endif /* D_A_TAG_FIREWALL_H */
