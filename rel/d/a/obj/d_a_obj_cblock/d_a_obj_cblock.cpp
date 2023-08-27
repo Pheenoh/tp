@@ -11,51 +11,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_lc_c {
-    /* 8001DC68 */ void lineCheck(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct daObjCBlk_c {
-    struct chain_s {
-        /* 80BC5E58 */ ~chain_s();
-        /* 80BC5E94 */ chain_s();
-    };
-
-    /* 80BC5A0C */ void initBaseMtx();
-    /* 80BC5A48 */ void setBaseMtx();
-    /* 80BC5ABC */ void Create();
-    /* 80BC5CF8 */ void CreateHeap();
-    /* 80BC5E98 */ void create();
-    /* 80BC6260 */ void Execute(f32 (**)[3][4]);
-    /* 80BC6270 */ void initWait();
-    /* 80BC627C */ void modeWait();
-    /* 80BC6414 */ void initWalk();
-    /* 80BC6430 */ void modeWalk();
-    /* 80BC65CC */ void getChainBasePos(cXyz*);
-    /* 80BC6648 */ void setPower(f32);
-    /* 80BC66DC */ void checkWall();
-    /* 80BC6868 */ bool Draw();
-    /* 80BC6870 */ void Delete();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dPath {};
@@ -63,8 +20,6 @@ struct dPath {};
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -78,12 +33,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModelData {};
 
 //
 // Forward References:
@@ -160,9 +109,6 @@ extern "C" void cM_atan2s__Fff();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void __construct_new_array();
 extern "C" void _savegpr_25();
@@ -173,8 +119,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];

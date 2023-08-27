@@ -11,125 +11,9 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-};
-
-struct fopEn_enemy_c {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 8015F8D0 */ void getThrowBoomerangActor();
-
-    static u8 m_midnaActor[4];
-};
-
-struct daObjCarry_c {
-    /* 80474448 */ void mode_init_drop(u8);
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
-struct daE_HZ_c {
-    /* 806EA690 */ void setBck(int, u8, f32, f32);
-    /* 806EA734 */ void checkBck(int);
-    /* 806EA790 */ void draw();
-    /* 806EAADC */ void setActionMode(int);
-    /* 806EAB68 */ void checkHideStart();
-    /* 806EAEDC */ void checkAttackStart();
-    /* 806EB05C */ void checkArrowCharge();
-    /* 806EB0A4 */ void setTgSetBit(int);
-    /* 806EB0FC */ void isWait();
-    /* 806EB13C */ void checkFall();
-    /* 806EB2E8 */ void setCloseSmokeEffect();
-    /* 806EB3EC */ void executeWait();
-    /* 806EB7B0 */ void getHideSpeed();
-    /* 806EB818 */ void executeHide();
-    /* 806EBD44 */ void executeAttack();
-    /* 806EC068 */ void initBackWalk();
-    /* 806EC348 */ void executeAway();
-    /* 806ECAEC */ void setWindEnd();
-    /* 806ECB64 */ void executeWind();
-    /* 806ED5B0 */ void executeChance();
-    /* 806ED6C8 */ void initRollDamage();
-    /* 806ED7A8 */ void doRollDamage();
-    /* 806ED8A4 */ void executeDamage();
-    /* 806EDAA8 */ void executeDeath();
-    /* 806EDDCC */ void setWindChanceEnd();
-    /* 806EDDE8 */ void executeWindChance();
-    /* 806EE120 */ void executeWindWalk();
-    /* 806EE2A4 */ void setWaterEffect();
-    /* 806EE3BC */ void executeWaterDeath();
-    /* 806EE820 */ void executeDeathWait();
-    /* 806EE978 */ void damage_check();
-    /* 806EEE10 */ void checkWaterSurface();
-    /* 806EEEE4 */ void action();
-    /* 806EF144 */ void mtx_set();
-    /* 806EF2C8 */ void cc_set();
-    /* 806EF46C */ void execute();
-    /* 806EF6B4 */ void _delete();
-    /* 806EF770 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 806EF880 */ void JointCallBack(J3DJoint*, int);
-    /* 806EF8CC */ void CreateHeap();
-    /* 806EFB54 */ void setInitPos();
-    /* 806EFC18 */ void create();
-};
-
-struct daE_HZ_HIO_c {
-    /* 806EA60C */ daE_HZ_HIO_c();
-    /* 806F0368 */ ~daE_HZ_HIO_c();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dPa_levelEcallBack {};
@@ -137,8 +21,6 @@ struct dPa_levelEcallBack {};
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -216,14 +98,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgD_t {};
 
 struct cBgW {
@@ -241,35 +115,6 @@ struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct _GXTexObj {};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-    /* 802C1B7C */ void setLinkSearch(bool);
-    /* 802C1B90 */ void setEnemyName(char const*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DLightObj {
-    /* 806F02C8 */ J3DLightObj();
-};
-
-struct J3DLightInfo {
-    /* 803256C4 */ void operator=(J3DLightInfo const&);
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 //
@@ -460,9 +305,6 @@ extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void __as__12J3DLightInfoFRC12J3DLightInfo();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_19();
 extern "C" void _savegpr_23();
@@ -476,9 +318,6 @@ extern "C" void _restgpr_24();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern u8 const j3dDefaultLightInfo[52];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -487,8 +326,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
@@ -1804,7 +1641,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DLightObj::J3DLightObj() {
+// asm J3DLightObj::J3DLightObj() {
+extern "C" asm void __ct__11J3DLightObjFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_hz/d_a_e_hz/__ct__11J3DLightObjFv.s"
 }

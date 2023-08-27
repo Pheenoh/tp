@@ -10,62 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80CB29C4 */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daPoFire_c {
-    /* 80CB2A0C */ void setBaseMtx();
-    /* 80CB2A74 */ void create();
-    /* 80CB2BB8 */ void Execute();
-    /* 80CB2BFC */ void procMain();
-    /* 80CB2D84 */ void setFire();
-    /* 80CB2F68 */ void searchCandle(void*, void*);
-    /* 80CB2FD4 */ void searchFireTag(void*, void*);
-    /* 80CB3024 */ void init_modeInitMove();
-    /* 80CB30FC */ void modeInitMove();
-    /* 80CB31FC */ void modeWait();
-    /* 80CB32EC */ void init_modeWaitSetEffect();
-    /* 80CB3380 */ void modeWaitSetEffect();
-    /* 80CB3540 */ void init_modeMoveOut();
-    /* 80CB355C */ void modeMoveOut();
-    /* 80CB3714 */ void init_modeMove();
-    /* 80CB3730 */ void modeMove();
-    /* 80CB38EC */ void init_modeMoveWait();
-    /* 80CB3918 */ void modeMoveWait();
-    /* 80CB3958 */ void modeNoMove();
-    /* 80CB39CC */ void init_modeOnFire();
-    /* 80CB39E0 */ void modeOnFire();
-    /* 80CB3ADC */ void init_modeFireEnd();
-    /* 80CB3AE8 */ void modeFireEnd();
-    /* 80CB3B70 */ void eventStart();
-    /* 80CB3BE0 */ void eventRun();
-    /* 80CB3C64 */ bool eventEnd();
-    /* 80CB3C6C */ bool Draw();
-    /* 80CB3C74 */ void Delete();
-    /* 80CB3E58 */ ~daPoFire_c();
-};
-
-struct daPoFire_HIO_c {
-    /* 80CB294C */ daPoFire_HIO_c();
-    /* 80CB3D24 */ ~daPoFire_HIO_c();
-};
-
-struct daPoCandle_c {
-    /* 80CB3E3C */ void getFirePos();
 };
 
 struct dSv_player_get_item_c {
@@ -73,20 +19,6 @@ struct dSv_player_get_item_c {
 };
 
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-};
 
 struct dPa_control_c {
     struct level_c {
@@ -99,16 +31,6 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 
     static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
-
-struct dEvt_control_c {
-    /* 8004368C */ void setPtT(void*);
-};
-
-struct dEvent_manager_c {
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dEvLib_callback_c {
@@ -139,17 +61,6 @@ struct cBgS {
 
 struct JPABaseEmitter {
     /* 8027EC60 */ void deleteAllParticle();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct JGeometry {
-    template <typename A1>
-    struct TVec3 {};
-    /* TVec3<f32> */
-    struct TVec3__template0 {};
 };
 
 //
@@ -242,15 +153,11 @@ extern "C" void cLib_addCalcPos__FP4cXyzRC4cXyzfff();
 extern "C" void deleteAllParticle__14JPABaseEmitterFv();
 extern "C" void func_802807E0();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_27();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 sincosTable___5JMath[65536];

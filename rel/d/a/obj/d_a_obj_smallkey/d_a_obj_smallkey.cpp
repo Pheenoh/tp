@@ -11,74 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daKey_c {
-    /* 80CD9F2C */ void initBaseMtx();
-    /* 80CD9F68 */ void setBaseMtx();
-    /* 80CD9FDC */ void Create();
-    /* 80CDA15C */ bool __CreateHeap();
-    /* 80CDA164 */ void create();
-    /* 80CDA680 */ void bg_check();
-    /* 80CDA7E8 */ void actionInitInit();
-    /* 80CDA81C */ void actionInit();
-    /* 80CDA8C8 */ void actionParentWaitInit();
-    /* 80CDA8FC */ void actionParentWait();
-    /* 80CDA9AC */ void actionWaitInit();
-    /* 80CDAA28 */ void actionWait();
-    /* 80CDAB74 */ void initActionOrderGetDemo();
-    /* 80CDAC18 */ void actionOrderGetDemo();
-    /* 80CDAC94 */ void actionGetDemo();
-    /* 80CDAD28 */ void actionInitSwOnWait();
-    /* 80CDADD4 */ void actionSwOnWait();
-    /* 80CDAE54 */ void actionInitBoomerangCarry();
-    /* 80CDAF40 */ void actionBoomerangCarry();
-    /* 80CDAFB4 */ void effectSet();
-    /* 80CDB0D8 */ void effectStop();
-    /* 80CDB128 */ void effectCtrl();
-    /* 80CDB2E0 */ void seStartTwinkle_private(u32);
-    /* 80CDB36C */ void actionInitE_GB();
-    /* 80CDB3D8 */ void actionE_GB();
-    /* 80CDB404 */ void execute();
-    /* 80CDB5D4 */ void draw();
-    /* 80CDB628 */ void _delete();
-};
-
-struct daItemBase_c {
-    /* 80037A64 */ void hide();
-    /* 80037A74 */ void show();
-    /* 80037ACC */ void chkDraw();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144C7C */ void setListStart();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D18 */ void setTevStr();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 80145144 */ void chkFlag(int);
-    /* 80145164 */ void getTevFrm();
-    /* 80145180 */ void getBtpFrm();
-    /* 8014519C */ void getShadowSize();
-    /* 801451B4 */ void getCollisionH();
-    /* 801451D0 */ void getCollisionR();
-};
-
 struct dTres_c {
     /* 8009C1F0 */ void offStatus(u8, int, int);
     /* 8009C3CC */ void setPosition(int, u8, Vec const*, int);
@@ -105,10 +37,6 @@ struct dPa_followEcallBack {
     /* 80CDA48C */ void __defctor();
 };
 
-struct dKy_tevstr_c {};
-
-struct _GXColor {};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
@@ -118,14 +46,6 @@ struct dPa_control_c {
 struct dItem_data {
     static void* field_item_res[1020];
     static u8 item_info[1020 + 4 /* padding */];
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047ADC */ void endCheckOld(char const*);
 };
 
 struct dBgS_PolyPassChk {
@@ -149,14 +69,6 @@ struct dBgS_Acch {
     /* 800760A0 */ dBgS_Acch();
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
     /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 struct cBgS_PolyInfo {
@@ -316,7 +228,6 @@ extern "C" void __dt__18JPAEmitterCallBackFv();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void __cvt_fp2unsigned();
@@ -325,8 +236,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__19dPa_followEcallBack[10];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];

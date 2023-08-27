@@ -4,6 +4,21 @@
 #include "rel/d/a/d_a_horse/d_a_horse.h"
 #include "SSystem/SComponent/c_phase.h"
 #include "d/cc/d_cc_uty.h"
+#include "f_op/f_op_actor_mng.h"
+
+class daObjCRVSTEEL_c : public fopEn_enemy_c {
+    /* 80BD5BFC */ void OpenSet(f32, f32);
+    /* 80BD5C18 */ void CloseSet(f32);
+};
+
+class daObjCRVGATE_c : public fopEn_enemy_c {
+    /* 80BD245C */ void SetB_Close();
+};
+
+class daE_WB_HIO_c : public fopEn_enemy_c {
+    /* 807D248C */ daE_WB_HIO_c();
+    /* 807E20DC */ ~daE_WB_HIO_c();
+};
 
 enum daE_wb_ACT {
     /* 0x00 */ ACT_WAIT,

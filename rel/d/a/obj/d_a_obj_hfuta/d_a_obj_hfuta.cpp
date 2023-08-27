@@ -10,31 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjFuta_c {
-    /* 80C1DD8C */ void initBaseMtx();
-    /* 80C1DDC8 */ void setBaseMtx();
-    /* 80C1DE94 */ void Create();
-    /* 80C1DF2C */ void CreateHeap();
-    /* 80C1DF9C */ void create1st();
-    /* 80C1E020 */ void Execute(f32 (**)[3][4]);
-    /* 80C1EB38 */ void mode_proc_call();
-    /* 80C1EBDC */ void mode_wait();
-    /* 80C1EC44 */ void mode_move();
-    /* 80C1ECB4 */ void mode_end();
-    /* 80C1ECC4 */ void Draw();
-    /* 80C1ED68 */ void Delete();
-};
-
 struct dSv_event_flag_c {
     static u8 saveBitLabels[1644 + 4 /* padding */];
 };
@@ -43,35 +18,9 @@ struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {
-    static f32 Zero[3];
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 80C1EAFC */ ~csXyz();
-
-    static u8 Zero[4];
-};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -85,8 +34,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -139,19 +86,13 @@ extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP
 extern "C" void __ct__5csXyzFsss();
 extern "C" void cLib_addCalc__FPfffff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" f32 Zero__4cXyz[3];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 Zero__5csXyz[4];
 extern "C" void __register_global_object();
 
@@ -632,7 +573,8 @@ asm void daObjFuta_c::Execute(f32 (**param_0)[3][4]) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_hfuta/d_a_obj_hfuta/__dt__5csXyzFv.s"
 }

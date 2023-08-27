@@ -10,76 +10,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
-
-struct cXyz {
-    /* 80BD56A4 */ ~cXyz();
-    /* 80BD56E0 */ cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjCRVLH_UP_c {
-    /* 80BD4F1C */ void HakaiSet();
-    /* 80BD4FB0 */ void UpMotion();
-    /* 80BD4FD8 */ void Hakai();
-    /* 80BD5254 */ void setBaseMtx();
-    /* 80BD5378 */ void CreateHeap();
-    /* 80BD53F0 */ void create();
-    /* 80BD56EC */ void Create();
-    /* 80BD5730 */ void Execute(f32 (**)[3][4]);
-    /* 80BD593C */ void Draw();
-    /* 80BD59C0 */ void Delete();
-};
-
-struct daObjCRVHAHEN_c {
-    /* 80BD342C */ void HahenSet(cXyz, cXyz, cXyz, cXyz, f32);
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgW_Base {};
@@ -101,14 +37,6 @@ struct dBgS_MoveBgActor {
     /* 80078950 */ void MoveBGExecute();
 };
 
-struct cM3dGCyl {
-    /* 80BD5614 */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 80BD565C */ ~cM3dGAab();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -116,20 +44,6 @@ struct cBgW_BgId {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -198,16 +112,11 @@ extern "C" void ChkUsed__9cBgW_BgIdCFv();
 extern "C" void cLib_chaseAngleS__FPsss();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_24();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -215,8 +124,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void HahenSet__15daObjCRVHAHEN_cF4cXyz4cXyz4cXyz4cXyzf();
 
@@ -521,7 +428,8 @@ asm void daObjCRVLH_UP_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_crvlh_up/d_a_obj_crvlh_up/__dt__8cM3dGCylFv.s"
 }
@@ -531,7 +439,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_crvlh_up/d_a_obj_crvlh_up/__dt__8cM3dGAabFv.s"
 }
@@ -541,14 +450,16 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_crvlh_up/d_a_obj_crvlh_up/__dt__4cXyzFv.s"
 }
 #pragma pop
 
 /* 80BD56E0-80BD56E4 000880 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 

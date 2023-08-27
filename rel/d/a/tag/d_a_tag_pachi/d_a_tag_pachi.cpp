@@ -10,62 +10,9 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTagPati_c {
-    /* 80D5D438 */ ~daTagPati_c();
-    /* 80D5D570 */ void create();
-    /* 80D5D78C */ void Execute();
-    /* 80D5D7C8 */ void col_set();
-    /* 80D5D830 */ void chk_CoHit();
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
 struct dCcD_SrcCyl {};
 
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80D5D6A0 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-    /* 80084658 */ void ChkCoHit();
-};
-
-struct dCcD_Cyl {
-    /* 800848B4 */ void Set(dCcD_SrcCyl const&);
-};
-
-struct cXyz {};
-
-struct cM3dGCyl {
-    /* 8026F1DC */ void SetC(cXyz const&);
-    /* 8026F1F8 */ void SetH(f32);
-    /* 8026F200 */ void SetR(f32);
-    /* 80D5D6FC */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 80D5D744 */ ~cM3dGAab();
-};
-
 struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 80D5D8C4 */ ~cCcD_GStts();
-};
 
 //
 // Forward References:
@@ -103,8 +50,6 @@ extern "C" void SetR__8cM3dGCylFf();
 extern "C" void __dl__FPv();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -202,7 +147,8 @@ asm void daTagPati_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_pachi/d_a_tag_pachi/__dt__10dCcD_GSttsFv.s"
 }
@@ -212,7 +158,8 @@ asm dCcD_GStts::~dCcD_GStts() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_pachi/d_a_tag_pachi/__dt__8cM3dGCylFv.s"
 }
@@ -222,7 +169,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_pachi/d_a_tag_pachi/__dt__8cM3dGAabFv.s"
 }
@@ -303,7 +251,8 @@ static asm void daTagPati_Delete(daTagPati_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_pachi/d_a_tag_pachi/__dt__10cCcD_GSttsFv.s"
 }

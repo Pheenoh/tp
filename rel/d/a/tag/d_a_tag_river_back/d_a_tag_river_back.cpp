@@ -10,53 +10,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daTagRiverBack_c {
-    /* 80D5F2F8 */ void Create();
-    /* 80D5F360 */ void create();
-    /* 80D5F3F0 */ void execute();
-    /* 80D5F48C */ void event_proc_call();
-    /* 80D5F548 */ void actionWait();
-    /* 80D5F5BC */ void actionOrderEvent();
-    /* 80D5F66C */ void actionEvent();
-    /* 80D5F70C */ void actionDead();
-    /* 80D5F710 */ void demoProc();
-    /* 80D5F88C */ void _delete();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
 struct dEvt_control_c {
     /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
 };
 
 //
@@ -104,8 +63,6 @@ extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_80D5FA68[4];

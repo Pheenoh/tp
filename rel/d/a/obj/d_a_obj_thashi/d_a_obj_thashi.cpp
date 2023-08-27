@@ -11,52 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 80D0C318 */ ~csXyz();
-    /* 80D0CE60 */ csXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjTHASHI_c {
-    /* 80D0C238 */ void initCcCylinder();
-    /* 80D0C354 */ void setBaseMtx();
-    /* 80D0C654 */ void CreateHeap();
-    /* 80D0C8B4 */ void create();
-    /* 80D0CE70 */ void Create();
-    /* 80D0CEB4 */ void Execute(f32 (**)[3][4]);
-    /* 80D0CEE0 */ void Draw();
-    /* 80D0D140 */ void Delete();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
 };
@@ -100,16 +54,6 @@ struct cBgD_t {};
 struct cBgW {
     /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
 };
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -187,8 +131,6 @@ extern "C" void SetC__8cM3dGCylFRC4cXyz();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_26();
@@ -198,8 +140,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -209,8 +149,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 m_set_func__16dBgS_MoveBgActor[4 + 4 /* padding */];
 
@@ -329,7 +267,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_thashi/d_a_obj_thashi/__dt__5csXyzFv.s"
 }
@@ -805,7 +744,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma pop
 
 /* 80D0CE60-80D0CE64 000CA0 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

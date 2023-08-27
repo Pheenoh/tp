@@ -10,33 +10,11 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daSwLBall_c {
-    /* 80D4EB8C */ void checkArea_sub(fopAc_ac_c*);
-    /* 80D4ECCC */ void checkArea();
-    /* 80D4ED80 */ void search_lb();
-    /* 80D4EEAC */ void Create();
-    /* 80D4EEF8 */ void create();
-    /* 80D4EF60 */ void execute();
-    /* 80D4F008 */ void actionInit();
-    /* 80D4F080 */ void actionRun();
-    /* 80D4F220 */ void actionStop();
-    /* 80D4F224 */ void PutCrrPos();
-    /* 80D4F444 */ bool _delete();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
-
-struct cXyz {};
-
-struct Vec {};
 
 //
 // Forward References:
@@ -81,8 +59,6 @@ extern "C" void _savegpr_26();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 
 //

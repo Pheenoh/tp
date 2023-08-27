@@ -10,33 +10,8 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80D0E910 */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daTimeFire_c {
-    /* 80D0E958 */ void setBaseMtx();
-    /* 80D0E9B0 */ void create();
-    /* 80D0EACC */ void lightInit();
-    /* 80D0EB40 */ void setLight();
-    /* 80D0EB64 */ void cutLight();
-    /* 80D0EB88 */ void Execute();
-    /* 80D0ED68 */ void fireCheck(u8);
-    /* 80D0EF88 */ bool Draw();
-    /* 80D0EF90 */ void Delete();
-};
-
-struct daTimeFire_HIO_c {
-    /* 80D0E8EC */ daTimeFire_HIO_c();
-    /* 80D0F038 */ ~daTimeFire_HIO_c();
 };
 
 struct dSv_info_c {
@@ -45,34 +20,11 @@ struct dSv_info_c {
 
 struct dPa_levelEcallBack {};
 
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
-
-struct cXyz {};
-
 struct dPa_control_c {
     /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
                             cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
                             _GXColor const*, cXyz const*, f32);
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct LIGHT_INFLUENCE {};
 
 //
 // Forward References:
@@ -113,11 +65,8 @@ extern "C" void dKy_plight_cut__FP15LIGHT_INFLUENCE();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

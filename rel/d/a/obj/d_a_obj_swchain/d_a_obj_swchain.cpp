@@ -11,54 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static u8 mGndCheck[84];
-    static f32 mGroundY;
-};
-
-struct daPy_py_c {
-    /* 8015F478 */ void setFmChainPos(fopAc_ac_c*, cXyz*, int);
-    /* 8015F520 */ void setPlayerSe(u32);
-    /* 80CFB6C8 */ void getRightHandPos() const;
-};
-
-struct daObjSwChain_c {
-    struct chain_s {
-        /* 80CF8B00 */ ~chain_s();
-        /* 80CF8B3C */ chain_s();
-    };
-
-    /* 80CF8768 */ void Create();
-    /* 80CF89C0 */ void CreateHeap();
-    /* 80CF8B48 */ void create1st();
-    /* 80CF8ED0 */ void execute();
-    /* 80CF94E4 */ void getChainBasePos(cXyz*);
-    /* 80CF9500 */ void chain_control();
-    /* 80CF99C0 */ void chain_control2();
-    /* 80CFA05C */ void initChainMtx();
-    /* 80CFA124 */ void setChainMtx();
-    /* 80CFA4A8 */ void chain_count_control();
-    /* 80CFAD50 */ void setTension();
-    /* 80CFB450 */ void getTopChainNo();
-    /* 80CFB464 */ void checkPlayerPull();
-    /* 80CFB53C */ void draw();
-    /* 80CFB5E8 */ void _delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -67,21 +19,6 @@ struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dMdl_obj_c {};
@@ -104,8 +41,6 @@ struct dBgS_AcchCir {
     /* 80075F58 */ void SetWall(f32, f32);
 };
 
-struct csXyz {};
-
 struct cBgS_PolyInfo {};
 
 struct dBgS {
@@ -119,20 +54,10 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS {
     /* 80074618 */ void GetActorPointer(int) const;
     /* 80074660 */ void ChkPolySafe(cBgS_PolyInfo const&);
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -229,8 +154,6 @@ extern "C" void cLib_addCalcAngleS2__FPssss();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_new_array();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_25();
@@ -242,8 +165,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__6dMdl_c[5 + 1 /* padding */];
@@ -254,7 +175,6 @@ extern "C" extern void* __vt__9J3DPacket[5];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mGndCheck__11fopAcM_gc_c[84];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

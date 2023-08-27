@@ -10,60 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjIce_s_c {
-    /* 80C209DC */ void RideOn_Angle(s16&, f32, s16, f32);
-    /* 80C20A44 */ void Check_LinkRideOn(cXyz);
-    /* 80C20C98 */ void Check_RideOn(cXyz);
-    /* 80C20EC0 */ void initBaseMtx();
-    /* 80C20EEC */ void setBaseMtx();
-    /* 80C212CC */ void create();
-    /* 80C2157C */ void CreateHeap();
-    /* 80C215F4 */ void Create();
-    /* 80C21634 */ void Execute(f32 (**)[3][4]);
-    /* 80C21964 */ void Draw();
-    /* 80C21A08 */ void Delete();
-};
-
-struct daOBJ_ICE_S_HIO_c {
-    /* 80C209AC */ daOBJ_ICE_S_HIO_c();
-    /* 80C21A60 */ ~daOBJ_ICE_S_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
 struct dBgW {};
 
 struct dBgS_ObjGndChk_Spl {
@@ -89,14 +35,6 @@ struct dBgS_MoveBgActor {
 struct cBgS_GndChk {
     /* 80267D28 */ void SetPos(cXyz const*);
 };
-
-struct Vec {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -162,24 +100,17 @@ extern "C" void cLib_chaseF__FPfff();
 extern "C" void cLib_chaseAngleS__FPsss();
 extern "C" void cLib_targetAngleY__FPC3VecPC3Vec();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" void __register_global_object();
 
 //

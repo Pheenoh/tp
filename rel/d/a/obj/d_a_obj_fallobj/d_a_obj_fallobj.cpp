@@ -10,62 +10,10 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjFallObj_c {
-    /* 80BE39B8 */ void initBaseMtx();
-    /* 80BE3A24 */ void setBaseMtx();
-    /* 80BE3A88 */ void Create();
-    /* 80BE3BA8 */ void getFallTime();
-    /* 80BE3BD4 */ void getFallHeight();
-    /* 80BE3C28 */ void CreateHeap();
-    /* 80BE3C98 */ void create1st();
-    /* 80BE3D24 */ void Execute(f32 (**)[3][4]);
-    /* 80BE4138 */ void action();
-    /* 80BE4228 */ void action_wait(bool);
-    /* 80BE42C0 */ void action_fallStart();
-    /* 80BE43E4 */ void action_countdown();
-    /* 80BE45F4 */ void action_fall();
-    /* 80BE466C */ void action_end();
-    /* 80BE4670 */ void action_follow_fall();
-    /* 80BE4700 */ void checkHang();
-    /* 80BE47A0 */ void checkHang2();
-    /* 80BE48A4 */ void Draw();
-    /* 80BE4948 */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
     /* 8006FB10 */ void StartQuake(int, int, cXyz);
     /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dBgW {};
@@ -96,20 +44,6 @@ struct cBgS_LinChk {};
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
 };
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -182,21 +116,13 @@ extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP
 extern "C" void cLib_chaseS__FPsss();
 extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 
 //
 // Declarations:

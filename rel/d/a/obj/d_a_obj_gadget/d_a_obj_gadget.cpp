@@ -11,65 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObj_Gadget_c {
-    /* 80BF2D2C */ ~daObj_Gadget_c();
-    /* 80BF2F28 */ void create();
-    /* 80BF3478 */ void CreateHeap();
-    /* 80BF3504 */ void Delete();
-    /* 80BF3538 */ void Execute();
-    /* 80BF3FAC */ void Draw();
-    /* 80BF4130 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80BF4150 */ void setEnvTevColor();
-    /* 80BF41AC */ void setRoomNo();
-    /* 80BF41F0 */ void reset();
-    /* 80BF424C */ void setMtx();
-    /* 80BF4354 */ void calcRollAngle(s16, int);
-    /* 80BF43F4 */ void getWallAngle(s16, s16*);
-    /* 80BF4584 */ void setSmokePrtcl();
-    /* 80BF4600 */ void setWaterPrtcl();
-    /* 80BF4728 */ void setHamonPrtcl();
-};
-
-struct daObj_Gadget_Param_c {
-    /* 80BF48D8 */ ~daObj_Gadget_Param_c();
-
-    static u8 const m[44];
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -80,8 +22,6 @@ struct dPa_control_c {
                             cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
                             _GXColor const*, cXyz const*, f32);
 };
-
-struct _GXTexObj {};
 
 struct dDlst_shadowControl_c {
     /* 80055F84 */ void setSimple(cXyz*, f32, f32, cXyz*, s16, f32, _GXTexObj*);
@@ -125,14 +65,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_LinChk {};
 
 struct cBgS_GndChk {
@@ -144,12 +76,6 @@ struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -265,9 +191,6 @@ extern "C" void cLib_addCalcAngleS2__FPssss();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void cLib_chaseAngleS__FPsss();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_27();
@@ -276,8 +199,6 @@ extern "C" void _restgpr_23();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -286,7 +207,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" void __register_global_object();
 

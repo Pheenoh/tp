@@ -10,35 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObj_SekiDoor_c {
-    /* 80CCD02C */ void create();
-    /* 80CCD154 */ void CreateHeap();
-    /* 80CCD1F0 */ void Create();
-    /* 80CCD23C */ void Delete();
-    /* 80CCD290 */ void Execute(f32 (**)[3][4]);
-    /* 80CCD538 */ void Draw();
-    /* 80CCD5DC */ void evtSkip();
-    /* 80CCD64C */ void setPrtcls();
-    /* 80CCD810 */ void initBaseMtx();
-    /* 80CCD84C */ void setBaseMtx();
-};
-
-struct daObj_SekiDoor_Param_c {
-    /* 80CCD9AC */ ~daObj_SekiDoor_Param_c();
-
-    static u8 const m[1 + 3 /* padding */];
-};
-
-struct cXyz {};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
     /* 8006FD94 */ void StopQuake(int);
@@ -48,26 +19,7 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -95,25 +47,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -175,16 +108,10 @@ extern "C" void cLib_chaseF__FPfff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void _savegpr_24();
 extern "C" void _restgpr_24();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

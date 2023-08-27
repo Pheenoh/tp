@@ -10,100 +10,17 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C134F8 */ ~mDoHIO_entry_c();
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {
-    /* 8032600C */ void simpleCalcMaterial(u16, f32 (*)[4]);
-};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct daGrdWater_c {
-    /* 80C13540 */ void setBaseMtx();
-    /* 80C13618 */ void CreateHeap();
-    /* 80C139E4 */ void create();
-    /* 80C13DB0 */ daGrdWater_c();
-    /* 80C13FEC */ void Execute(f32 (**)[3][4]);
-    /* 80C14194 */ void init_modeWait();
-    /* 80C141A0 */ void modeWait();
-    /* 80C141A4 */ void init_modeLevelUpA();
-    /* 80C1423C */ void modeLevelUpA();
-    /* 80C142AC */ void init_modeLevelDownA();
-    /* 80C14320 */ void modeLevelDownA();
-    /* 80C1437C */ void init_modeLevelUpB();
-    /* 80C14414 */ void modeLevelUpB();
-    /* 80C14484 */ void init_modeLevelDownB();
-    /* 80C144F8 */ void modeLevelDownB();
-    /* 80C14554 */ void Draw();
-    /* 80C147EC */ void Delete();
-};
-
-struct daGrdWater_HIO_c {
-    /* 80C134AC */ daGrdWater_HIO_c();
-    /* 80C148A8 */ ~daGrdWater_HIO_c();
 };
 
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -121,15 +38,6 @@ struct dBgS_MoveBgActor {
 
 struct J3DTexMtxInfo {
     /* 80325794 */ void setEffectMtx(f32 (*)[4]);
-};
-
-struct J3DModel {
-    /* 80327BD4 */ void calcAnmMtx();
-};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80C13FA4 */ ~J3DFrameCtrl();
 };
 
 //
@@ -201,9 +109,6 @@ extern "C" void setEffectMtx__13J3DTexMtxInfoFPA4_f();
 extern "C" void simpleCalcMaterial__12J3DModelDataFUsPA4_f();
 extern "C" void calcAnmMtx__8J3DModelFv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void C_MTXLightPerspective();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_28();
@@ -211,13 +116,8 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern u8 const j3dDefaultMtx[48];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" void __register_global_object();
 
 //
@@ -449,7 +349,8 @@ asm daGrdWater_c::daGrdWater_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_groundwater/d_a_obj_groundwater/__dt__12J3DFrameCtrlFv.s"
 }

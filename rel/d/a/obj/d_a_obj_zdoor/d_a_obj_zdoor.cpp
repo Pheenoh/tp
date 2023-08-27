@@ -11,42 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daZdoor_c {
-    /* 80D3F65C */ void init_cyl();
-    /* 80D3F740 */ void set_cyl();
-    /* 80D3F884 */ void setBaseMtx();
-    /* 80D3F8F8 */ void Create();
-    /* 80D3F970 */ void CreateHeap();
-    /* 80D3F9F0 */ void create1st();
-    /* 80D3FACC */ void Execute(f32 (**)[3][4]);
-    /* 80D3FCE8 */ void Draw();
-    /* 80D3FD8C */ void Delete();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
 struct dBgW {};
 
 struct dBgS_PolyPassChk {
@@ -58,8 +22,6 @@ struct dBgS_ObjAcch {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -82,12 +44,6 @@ struct dBgS_Acch {
     /* 80075F94 */ ~dBgS_Acch();
     /* 800760A0 */ dBgS_Acch();
 };
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -160,9 +116,6 @@ extern "C" void SetC__8cM3dGCylFRC4cXyz();
 extern "C" void cLib_addCalcAngleS__FPsssss();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_26();
@@ -170,8 +123,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_23();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -179,8 +130,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //

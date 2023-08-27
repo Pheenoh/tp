@@ -3,6 +3,11 @@
 
 #include "Z2AudioLib/Z2Creature.h"
 #include "d/cc/d_cc_uty.h"
+#include "f_op/f_op_actor_mng.h"
+
+class daTag_FWall_c : public fopEn_enemy_c {
+    /* 80815958 */ void getPos(u8);
+};
 
 class daE_YM_HIO_c {
 public:

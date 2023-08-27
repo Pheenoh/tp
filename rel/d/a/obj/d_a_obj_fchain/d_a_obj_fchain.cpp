@@ -10,93 +10,10 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 80BE6328 */ ~csXyz();
-    /* 80BE6364 */ csXyz();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-    /* 80266F48 */ void normalizeZP();
-    /* 80267128 */ void atan2sX_Z() const;
-    /* 80267150 */ void atan2sY_XZ() const;
-    /* 80BE6368 */ ~cXyz();
-    /* 80BE63A4 */ cXyz();
-
-    static f32 Zero[3];
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjFchain_shape_c {
-    /* 80BE7194 */ void draw();
-    /* 80BE73D4 */ ~daObjFchain_shape_c();
-};
-
-struct daObjFchain_c {
-    /* 80BE5FF8 */ void createHeap();
-    /* 80BE6074 */ void create();
-    /* 80BE63C8 */ ~daObjFchain_c();
-    /* 80BE64E0 */ void checkPlayerFoot(cXyz const*, cXyz const*, cXyz*);
-    /* 80BE66B4 */ void setGroundVec(cXyz*, f32);
-    /* 80BE6868 */ void execute();
-    /* 80BE7324 */ void draw();
-};
-
 struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvent_manager_c {
-    /* 800483E8 */ void getRunEventName();
-};
-
-struct J3DShape {
-    /* 80315300 */ void loadPreDrawSetting() const;
-
-    static u8 sOldVcdVatCmd[4];
-};
-
-struct J3DPacket;
-struct J3DDrawBuffer {
-    /* 8032548C */ void entryImm(J3DPacket*, u16);
-};
-
-struct J3DPacket {
-    /* 80312750 */ bool entry(J3DDrawBuffer*);
-};
 
 //
 // Forward References:
@@ -156,15 +73,6 @@ extern "C" void __dl__FPv();
 extern "C" bool entry__9J3DPacketFP13J3DDrawBuffer();
 extern "C" void loadPreDrawSetting__8J3DShapeCFv();
 extern "C" void entryImm__13J3DDrawBufferFP9J3DPacketUs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECScale();
-extern "C" void PSVECSquareMag();
-extern "C" void GXLoadLightObjImm();
-extern "C" void GXSetChanAmbColor();
-extern "C" void GXSetChanMatColor();
-extern "C" void GXLoadPosMtxImm();
-extern "C" void GXLoadNrmMtxImm();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
@@ -172,16 +80,11 @@ extern "C" void _savegpr_24();
 extern "C" void _restgpr_23();
 extern "C" void _restgpr_24();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__9J3DPacket[5];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" f32 Zero__4cXyz[3];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u32 g_whiteColor;
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 sOldVcdVatCmd__8J3DShape[4];
 
@@ -351,14 +254,16 @@ asm void daObjFchain_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_fchain/d_a_obj_fchain/__dt__5csXyzFv.s"
 }
 #pragma pop
 
 /* 80BE6364-80BE6368 0003E4 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 
@@ -366,14 +271,16 @@ csXyz::csXyz() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_fchain/d_a_obj_fchain/__dt__4cXyzFv.s"
 }
 #pragma pop
 
 /* 80BE63A4-80BE63A8 000424 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 

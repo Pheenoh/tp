@@ -10,57 +10,13 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct cXyz {};
-
-struct daTag_EvtMsg_c {
-    /* 8048CF38 */ void create();
-    /* 8048D014 */ bool Delete();
-    /* 8048D01C */ void Execute();
-    /* 8048D31C */ bool Draw();
-    /* 8048D324 */ void getOnEvtBit();
-    /* 8048D340 */ void getOffEvtBit();
-    /* 8048D35C */ void getOnSwBit();
-    /* 8048D368 */ void getOffSwBit();
-    /* 8048D374 */ void getProcType();
-    /* 8048D384 */ void isDelete();
-    /* 8048D428 */ void chkPointInArea(cXyz);
-    /* 8048D54C */ void ECut_talk(int);
-    /* 8048D5CC */ void ECut_wait(int);
-    /* 8048D6F0 */ ~daTag_EvtMsg_c();
-
-    static void* mEvtCutNameList[3];
-    static u8 mEvtCutList[36];
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F48 */ ~dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 //
@@ -127,8 +83,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" extern u8 const __ptmf_null[12 + 4 /* padding */];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 

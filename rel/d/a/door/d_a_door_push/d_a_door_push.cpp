@@ -10,68 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {
-    /* 80678060 */ ~cXyz();
-    /* 80678E38 */ cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daDoorPush_c {
-    /* 80677E08 */ void initBaseMtx();
-    /* 80677F38 */ void setBaseMtx();
-    /* 8067809C */ void Create();
-    /* 806781FC */ void CreateHeap();
-    /* 80678318 */ void create1st();
-    /* 8067839C */ void Execute(f32 (**)[3][4]);
-    /* 8067840C */ void action();
-    /* 80678488 */ void init_modeWait();
-    /* 806784B4 */ void modeWait();
-    /* 80678664 */ void event_proc_call();
-    /* 80678708 */ void actionOpenWait();
-    /* 8067877C */ void actionOrderEvent();
-    /* 806787F8 */ void actionEvent();
-    /* 80678818 */ void demoProc();
-    /* 80678AEC */ void rotateInit();
-    /* 80678B10 */ void rotate();
-    /* 80678BC0 */ void setGoal();
-    /* 80678C70 */ void Draw();
-    /* 80678D2C */ void Delete();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-    /* 800483C4 */ void setGoal(cXyz*);
-};
-
 struct dBgW_Base {
     struct PushPullLabel {};
 };
@@ -82,8 +20,6 @@ struct dBgW {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -115,25 +51,6 @@ struct cBgW {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -214,9 +131,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_25();
@@ -225,12 +139,8 @@ extern "C" void _savegpr_28();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80679070[4];
@@ -326,7 +236,8 @@ asm void daDoorPush_c::setBaseMtx() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/door/d_a_door_push/d_a_door_push/__dt__4cXyzFv.s"
 }
@@ -730,7 +641,8 @@ static asm void daDoorPush_create1st(daDoorPush_c* param_0) {
 #pragma pop
 
 /* 80678E38-80678E3C 0010F8 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 

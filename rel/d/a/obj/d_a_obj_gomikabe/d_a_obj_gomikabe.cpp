@@ -11,76 +11,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 80BFF8C8 */ csXyz();
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 8026745C */ void operator+=(csXyz&);
-    /* 80BFEA24 */ ~csXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_wt_c {
-    /* 8001DD84 */ void waterCheck(cXyz const*);
-
-    static f32 mWaterY[1 + 1 /* padding */];
-};
-
-struct daObjGOMIKABE_c {
-    /* 80BFE244 */ void initCcCylinder();
-    /* 80BFE2CC */ void SetCcCyl();
-    /* 80BFE47C */ void WaitAction();
-    /* 80BFE4C4 */ void BreakChk();
-    /* 80BFE52C */ void BreakSet();
-    /* 80BFEA60 */ void getWaterStream(cXyz&, cXyz&, f32);
-    /* 80BFEB90 */ void SpeedSet();
-    /* 80BFED54 */ void BreakAction();
-    /* 80BFED74 */ void CheckCull();
-    /* 80BFEE24 */ void checkViewArea(cXyz);
-    /* 80BFEEA8 */ void Action();
-    /* 80BFEF20 */ void setBaseMtx();
-    /* 80BFEF84 */ void setBaseMtx2();
-    /* 80BFF064 */ void CreateHeap();
-    /* 80BFF164 */ void create();
-    /* 80BFF8D8 */ void Create();
-    /* 80BFF938 */ void Execute(f32 (**)[3][4]);
-    /* 80BFFA00 */ void Draw();
-    /* 80BFFB1C */ void Delete();
-};
-
-struct daObjGOMIKABE_HIO_c {
-    /* 80BFE22C */ daObjGOMIKABE_HIO_c();
-    /* 80BFFB74 */ ~daObjGOMIKABE_HIO_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
 };
 
 struct dBgW_Base {};
@@ -132,14 +64,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -151,8 +75,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -263,8 +185,6 @@ extern "C" void cLib_addCalc2__FPffff();
 extern "C" void cLib_offsetPos__FP4cXyzPC4cXyzsPC4cXyz();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_19();
 extern "C" void _savegpr_23();
@@ -280,8 +200,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -289,8 +207,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" f32 mWaterY__11fopAcM_wt_c[1 + 1 /* padding */];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -602,7 +518,8 @@ asm void daObjGOMIKABE_c::BreakSet() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gomikabe/d_a_obj_gomikabe/__dt__5csXyzFv.s"
 }
@@ -944,7 +861,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma pop
 
 /* 80BFF8C8-80BFF8CC 001788 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

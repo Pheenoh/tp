@@ -10,79 +10,10 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-    /* 80266F48 */ void normalizeZP();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjSakuita_c {
-    /* 80CC46F8 */ void create_init();
-    /* 80CC47F8 */ void initBaseMtx();
-    /* 80CC4818 */ void setBaseMtx();
-    /* 80CC489C */ void setPlatePos();
-    /* 80CC4A98 */ void calcAngle();
-    /* 80CC4C9C */ ~daObjSakuita_c();
-
-    static u8 const M_attr[44];
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
-
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
     /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
     /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80CC5008 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-};
-
-struct cM3dGCyl {
-    /* 80CC4F78 */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 80CC4FC0 */ ~cM3dGAab();
-};
-
-struct cCcD_GStts {
-    /* 80CC5064 */ ~cCcD_GStts();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -139,11 +70,6 @@ extern "C" void cM_atan2s__Fff();
 extern "C" void cM_rnd__Fv();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSVECAdd();
-extern "C" void PSVECScale();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -437,7 +363,8 @@ static asm void daObjSakuita_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sakuita/d_a_obj_sakuita/__dt__8cM3dGCylFv.s"
 }
@@ -447,7 +374,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sakuita/d_a_obj_sakuita/__dt__8cM3dGAabFv.s"
 }
@@ -457,7 +385,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sakuita/d_a_obj_sakuita/__dt__10dCcD_GSttsFv.s"
 }
@@ -467,7 +396,8 @@ asm dCcD_GStts::~dCcD_GStts() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sakuita/d_a_obj_sakuita/__dt__10cCcD_GSttsFv.s"
 }

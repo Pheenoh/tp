@@ -10,67 +10,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoLib_clipper {
     static f32 mSystemFar;
 };
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daShopItem_c {
-    /* 8059E9B8 */ void getShopArcname();
-    /* 8059EC04 */ void getHeapSize();
-    /* 8059EC1C */ void CreateInit();
-    /* 8059ED58 */ void set_mtx();
-    /* 8059EEF4 */ void _execute();
-    /* 8059EF48 */ void _draw();
-    /* 8059EF9C */ void setListStart();
-    /* 8059EFA0 */ void setShadow();
-    /* 8059F024 */ void chkFlag(int);
-    /* 8059F044 */ void getTevFrm();
-    /* 8059F064 */ void getBtpFrm();
-    /* 8059F084 */ void getShadowSize();
-    /* 8059F0A0 */ void getCollisionH();
-    /* 8059F0BC */ void getCollisionR();
-
-    static void* const mData[276];
-    static f32 const m_cullfar_max;
-};
-
-struct daItemBase_c {
-    /* 80037A74 */ void show();
-    /* 80037ACC */ void chkDraw();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144754 */ bool __CreateHeap();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D18 */ void setTevStr();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 8014503C */ void animPlay(f32, f32, f32, f32, f32, f32);
-};
-
-struct dKy_tevstr_c {};
-
 struct dDlst_shadowControl_c {
     static u8 mSimpleTexObj[32];
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgS_PolyPassChk {
@@ -90,21 +35,7 @@ struct dBgS_Acch {
     /* 800760A0 */ dBgS_Acch();
 };
 
-struct cXyz {};
-
-struct cM3dGCyl {
-    /* 8059F294 */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 8059F2DC */ ~cM3dGAab();
-};
-
 struct cBgS_PolyInfo {};
-
-struct _GXTexObj {};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -170,14 +101,10 @@ extern "C" void setShadow__12daItemBase_cFv();
 extern "C" void animEntry__12daItemBase_cFv();
 extern "C" void animPlay__12daItemBase_cFffffff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
 extern "C" void* const mData__12daShopItem_c[276];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12daItemBase_c[17 + 1 /* padding */];
@@ -545,7 +472,8 @@ static asm void daShopItem_Create(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_shop_item/d_a_shop_item/__dt__8cM3dGCylFv.s"
 }
@@ -555,7 +483,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_shop_item/d_a_shop_item/__dt__8cM3dGAabFv.s"
 }

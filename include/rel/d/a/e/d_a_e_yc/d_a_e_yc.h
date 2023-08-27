@@ -2,6 +2,14 @@
 #define D_A_E_YC_H
 
 #include "dolphin/types.h"
+#include "f_op/f_op_actor_mng.h"
+
+class e_yc_class : public fopEn_enemy_c {};
+
+class daE_YC_HIO_c : public fopEn_enemy_c {
+    /* 807EFECC */ daE_YC_HIO_c();
+    /* 807F27BC */ ~daE_YC_HIO_c();
+};
 // #include "f_op/f_op_actor.h"
 // #include "Z2AudioLib/Z2Creature.h"
 // #include "d/com/d_com_inf_game.h"

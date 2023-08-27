@@ -10,63 +10,13 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80694F58 */ ~cXyz();
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct e_bug_class {};
-
-struct daPy_py_c {
-    /* 8015F89C */ void checkBoomerangCharge();
-};
-
-struct daE_Bug_HIO_c {
-    /* 80694B8C */ daE_Bug_HIO_c();
-    /* 80697BEC */ ~daE_Bug_HIO_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct csXyz {};
-
 struct dPa_control_c {
     /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
 };
-
-struct J3DModel {};
-
-struct J3DModelData {};
 
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
@@ -91,24 +41,9 @@ struct bug_s {
     /* 80697BB8 */ bug_s();
 };
 
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct JAISoundID {};
-
 struct Z2SoundObjBeeGroup {
     /* 802C1D10 */ Z2SoundObjBeeGroup();
     /* 802C1D6C */ void playBeeGroupSound(JAISoundID, u8);
-};
-
-struct Z2SoundObjBase {
-    /* 802BDF48 */ ~Z2SoundObjBase();
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -193,10 +128,6 @@ extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void __ct__18Z2SoundObjBeeGroupFv();
 extern "C" void playBeeGroupSound__18Z2SoundObjBeeGroupF10JAISoundIDUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSquareMag();
 extern "C" void __construct_array();
 extern "C" void _savegpr_22();
 extern "C" void _savegpr_24();
@@ -213,14 +144,11 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16Z2SoundObjSimple[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
-extern "C" extern u32 __float_nan;
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" void __register_global_object();
 
@@ -473,7 +401,8 @@ static asm void simple_bg_check(bug_s* param_0, int param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_bug/d_a_e_bug/__dt__4cXyzFv.s"
 }

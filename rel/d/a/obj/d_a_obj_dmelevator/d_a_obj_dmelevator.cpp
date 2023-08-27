@@ -10,99 +10,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80BDDBB4 */ ~cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CDD4 */ void transM(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjDmElevator_c {
-    /* 80BDDD38 */ void initBaseMtx();
-    /* 80BDDD90 */ void setBaseMtx();
-    /* 80BDDEFC */ void Create();
-    /* 80BDE0A4 */ void init();
-    /* 80BDE2F8 */ void CreateHeap();
-    /* 80BDE448 */ void create1st();
-    /* 80BDE500 */ void Execute(f32 (**)[3][4]);
-    /* 80BDE5F8 */ void setting_ride_flag();
-    /* 80BDE6FC */ void event_sw_proc_call();
-    /* 80BDE7A0 */ void actionSwPauseNoneInit();
-    /* 80BDE7AC */ void actionSwPauseNone();
-    /* 80BDE7B0 */ void actionSwPauseOrderInit();
-    /* 80BDE808 */ void actionSwPauseOrder();
-    /* 80BDE83C */ void actionSwPauseInit();
-    /* 80BDE868 */ void actionSwPause();
-    /* 80BDE8D0 */ void calc_top_pos();
-    /* 80BDE960 */ void mode_sw_proc_call();
-    /* 80BDEA1C */ void modeSwWaitLowerInit();
-    /* 80BDEA44 */ void modeSwWaitLower();
-    /* 80BDEB88 */ void modeSwLowerInit();
-    /* 80BDEC10 */ void modeSwLower();
-    /* 80BDEC94 */ void modeSwWaitUpperInit();
-    /* 80BDECB4 */ void modeSwWaitUpper();
-    /* 80BDECE0 */ void modeSwUpperInit();
-    /* 80BDED64 */ void modeSwUpper();
-    /* 80BDEDE0 */ void event_proc_call();
-    /* 80BDEECC */ void actionWait();
-    /* 80BDEF60 */ void actionOrderEvent();
-    /* 80BDF000 */ void actionEvent();
-    /* 80BDF068 */ void actionStartEvent();
-    /* 80BDF0A0 */ void actionMoveStart();
-    /* 80BDF168 */ void actionDead();
-    /* 80BDF16C */ void demoProc();
-    /* 80BDF320 */ void moveInit();
-    /* 80BDF3B8 */ void moveProc();
-    /* 80BDF618 */ void Draw();
-    /* 80BDF6DC */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPath {};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-};
 
 struct dBgW_Base {};
 
@@ -112,8 +24,6 @@ struct dBgW {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -145,32 +55,6 @@ struct cBgW {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
 
 //
 // Forward References:
@@ -281,24 +165,15 @@ extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareDistance();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 
@@ -474,7 +349,8 @@ static asm void rideCallBack(dBgW* param_0, fopAc_ac_c* param_1, fopAc_ac_c* par
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_dmelevator/d_a_obj_dmelevator/__dt__4cXyzFv.s"
 }

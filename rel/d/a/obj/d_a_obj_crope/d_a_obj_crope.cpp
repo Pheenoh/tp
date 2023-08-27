@@ -11,53 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoExt_3DlineMat_c {};
-
-struct mDoExt_3DlineMatSortPacket {
-    /* 80014738 */ void setMat(mDoExt_3DlineMat_c*);
-};
-
 struct ResTIMG {};
-
-struct _GXColor {};
-
-struct dKy_tevstr_c {};
-
-struct mDoExt_3DlineMat1_c {
-    /* 80013360 */ void init(u16, u16, ResTIMG*, int);
-    /* 8001373C */ void update(int, f32, _GXColor&, u16, dKy_tevstr_c*);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjCrope_c {
-    /* 80BCCCD8 */ void createHeap();
-    /* 80BCCD64 */ void create();
-    /* 80BCD524 */ ~daObjCrope_c();
-    /* 80BCD6C4 */ void setNormalRopePos();
-    /* 80BCD9EC */ void setRideRopePos();
-    /* 80BCE4FC */ void execute();
-    /* 80BCE9BC */ void draw();
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
 
 //
 // Forward References:
@@ -119,7 +73,6 @@ extern "C" void cM3d_Len2dSqPntAndSegLine__FffffffPfPfPf();
 extern "C" void __ct__8cM3dGLinFRC4cXyzRC4cXyz();
 extern "C" void SetC__8cM3dGSphFRC4cXyz();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
@@ -129,15 +82,12 @@ extern "C" void _restgpr_23();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_27();
 extern "C" extern void* __vt__19mDoExt_3DlineMat1_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
 extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 
 //
 // Declarations:

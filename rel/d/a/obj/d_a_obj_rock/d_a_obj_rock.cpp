@@ -16,30 +16,6 @@ struct rock_ss {
     /* 80CBE678 */ rock_ss();
 };
 
-struct request_of_phase_process_class {};
-
-struct obj_rock_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
-
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
     /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
@@ -54,10 +30,6 @@ struct dBgS_ObjGndChk_Spl {
 struct dBgS_GndChk {
     /* 8007757C */ dBgS_GndChk();
     /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 struct cBgS_GndChk {
@@ -122,8 +94,6 @@ extern "C" void MtxPosition__FP4cXyzP4cXyz();
 extern "C" void MtxPush__Fv();
 extern "C" void MtxPull__Fv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_26();
@@ -133,8 +103,6 @@ extern "C" void _restgpr_23();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];

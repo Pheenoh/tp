@@ -11,75 +11,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjSwChain_c {
-    /* 80C665A4 */ void checkTight();
-};
-
-struct dMdl_obj_c {
-    /* 80C66558 */ dMdl_obj_c();
-};
-
-struct daObjLv4Chan_c {
-    struct ChainPos {
-        /* 80C66564 */ ~ChainPos();
-        /* 80C665A0 */ ChainPos();
-    };
-
-    /* 80C63360 */ void create1st();
-    /* 80C634CC */ void setMtxChain(daObjLv4Chan_c::ChainPos*, dMdl_obj_c*, int);
-    /* 80C636B4 */ void setMtx();
-    /* 80C639B4 */ void rideActor(fopAc_ac_c*);
-    /* 80C63CFC */ void CreateHeap();
-    /* 80C63FA8 */ void Create();
-    /* 80C6449C */ void constraintChain(daObjLv4Chan_c::ChainPos*, int);
-    /* 80C64668 */ void constraintBase();
-    /* 80C647FC */ void calcVec(daObjLv4Chan_c::ChainPos*, int);
-    /* 80C64878 */ void chkGnd();
-    /* 80C648F4 */ void Execute(f32 (**)[3][4]);
-    /* 80C65F04 */ void Draw();
-    /* 80C66114 */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
 
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dMdl_mng_c {
-    /* 8009C8D8 */ void entry(J3DModelData*, u16, int);
-};
-
-struct dMdl_c {
-    /* 8009C668 */ void entryObj(dMdl_obj_c*);
 };
 
 struct dDlst_shadowControl_c {
@@ -97,8 +34,6 @@ struct dBgS_ObjGndChk {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -118,10 +53,6 @@ struct dBgS_GndChk {
     /* 800775F0 */ ~dBgS_GndChk();
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_GndChk {
     /* 80267D28 */ void SetPos(cXyz const*);
 };
@@ -129,14 +60,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
-
-struct _GXTexObj {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -238,12 +161,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXIdentity();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXRotAxisRad();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void __construct_new_array();
 extern "C" void _savegpr_18();
@@ -260,8 +177,6 @@ extern "C" void _restgpr_24();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -270,11 +185,9 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" f32 Zero__4cXyz[3];
 extern "C" u8 BaseY__4cXyz[12];
 extern "C" u8 BaseZ__4cXyz[12];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
@@ -1057,7 +970,8 @@ static asm void func_80C66550() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dMdl_obj_c::dMdl_obj_c() {
+// asm dMdl_obj_c::dMdl_obj_c() {
+extern "C" asm void __ct__10dMdl_obj_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv4chandelier/d_a_obj_lv4chandelier/__ct__10dMdl_obj_cFv.s"
 }

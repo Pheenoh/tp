@@ -10,83 +10,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266F48 */ void normalizeZP();
-    /* 80D3C35C */ ~cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObj_YBag_c {
-    /* 80D3C0EC */ daObj_YBag_c();
-    /* 80D3C408 */ ~daObj_YBag_c();
-    /* 80D3C610 */ void create();
-    /* 80D3C898 */ void CreateHeap();
-    /* 80D3C93C */ void Delete();
-    /* 80D3C970 */ void Execute();
-    /* 80D3D32C */ void Draw();
-    /* 80D3D438 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80D3D458 */ bool getTypeFromParam();
-    /* 80D3D460 */ bool isDelete();
-    /* 80D3D468 */ void setEnvTevColor();
-    /* 80D3D4C4 */ void setRoomNo();
-    /* 80D3D508 */ void reset();
-    /* 80D3D5C8 */ void setMtx();
-    /* 80D3D69C */ void calcRollAngle(s16, int);
-    /* 80D3D73C */ void getWallAngle(s16, s16*);
-    /* 80D3D8CC */ void setSmokePrtcl();
-    /* 80D3D948 */ void setWaterPrtcl();
-    /* 80D3DA70 */ void setHamonPrtcl();
-
-    static u8 const mCcDObjInfo[48];
-    static u8 mCcDCyl[68];
-};
-
-struct daObj_YBag_Param_c {
-    /* 80D3DC20 */ ~daObj_YBag_Param_c();
-
-    static u8 const m[44];
-};
-
-struct daNpcT_c {
-    static u8 const mCcDObjData[48];
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -100,26 +24,6 @@ struct dPa_control_c {
 
 struct dDlst_shadowControl_c {
     static u8 mSimpleTexObj[32];
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcCyl {};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80D3C300 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-};
-
-struct dCcD_Cyl {
-    /* 800848B4 */ void Set(dCcD_SrcCyl const&);
 };
 
 struct dBgS_PolyPassChk {
@@ -159,31 +63,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCyl {
-    /* 8026F1DC */ void SetC(cXyz const&);
-    /* 8026F1F8 */ void SetH(f32);
-    /* 8026F200 */ void SetR(f32);
-    /* 80D3C200 */ ~cM3dGCyl();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80D3C248 */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 80D3DB48 */ ~cCcD_GStts();
-};
-
 struct cBgS_LinChk {};
 
 struct cBgS_GndChk {
@@ -194,14 +73,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
 };
-
-struct _GXTexObj {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -319,10 +190,6 @@ extern "C" void cLib_addCalcAngleS2__FPssss();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void cLib_chaseAngleS__FPsss();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_26();
@@ -333,10 +200,7 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" void abs();
 extern "C" u8 const mCcDObjData__8daNpcT_c[48];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -345,7 +209,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 extern "C" void __register_global_object();
@@ -503,7 +366,8 @@ asm daObj_YBag_c::daObj_YBag_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yel_bag/d_a_obj_yel_bag/__dt__8cM3dGCylFv.s"
 }
@@ -513,7 +377,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yel_bag/d_a_obj_yel_bag/__dt__8cM3dGAabFv.s"
 }
@@ -533,7 +398,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yel_bag/d_a_obj_yel_bag/__dt__10dCcD_GSttsFv.s"
 }
@@ -543,7 +409,8 @@ asm dCcD_GStts::~dCcD_GStts() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yel_bag/d_a_obj_yel_bag/__dt__4cXyzFv.s"
 }
@@ -1130,7 +997,8 @@ static bool daObj_YBag_IsDelete(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yel_bag/d_a_obj_yel_bag/__dt__10cCcD_GSttsFv.s"
 }

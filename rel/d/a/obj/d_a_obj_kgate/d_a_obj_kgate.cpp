@@ -11,86 +11,9 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daObjKGate_c {
-    /* 805880C8 */ void initBaseMtx();
-    /* 8058827C */ void setBaseMtx();
-    /* 805887A0 */ void Create();
-    /* 805889A4 */ void CreateHeap();
-    /* 80588BF8 */ void create1st();
-    /* 80588D00 */ void checkAreaL(cXyz const*, cXyz const*);
-    /* 805890D4 */ void checkAreaR(cXyz const*, cXyz const*);
-    /* 805894A4 */ void checkOpen();
-    /* 805895D0 */ void checkDirL(fopAc_ac_c*);
-    /* 80589664 */ void checkDirR(fopAc_ac_c*);
-    /* 805896F8 */ void setAtkSE();
-    /* 80589774 */ void setCrkSE();
-    /* 805897F0 */ void action();
-    /* 805898A0 */ void action_typeA();
-    /* 80589F40 */ void action_typeB();
-    /* 8058A1B0 */ void actionWaitEvent();
-    /* 8058A294 */ void actionEvent();
-    /* 8058A2FC */ void actionDead();
-    /* 8058A300 */ void event_proc_call();
-    /* 8058A3A4 */ void demoProc();
-    /* 8058A508 */ void getDemoAction();
-    /* 8058A550 */ void Execute(f32 (**)[3][4]);
-    /* 8058A5B8 */ void Draw();
-    /* 8058A6F4 */ void Delete();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dBgW_Base {};
@@ -119,10 +42,6 @@ struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -136,12 +55,6 @@ struct cBgW {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -253,9 +166,6 @@ extern "C" void cLib_chaseF__FPfff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXInverse();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_24();
@@ -270,8 +180,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -279,8 +187,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

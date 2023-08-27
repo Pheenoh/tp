@@ -10,35 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjLv3saka_c {
-    /* 80C5BE58 */ void initBaseMtx();
-    /* 80C5BE78 */ void setBaseMtx();
-    /* 80C5BED8 */ void Create();
-    /* 80C5BFA0 */ void CreateHeap();
-    /* 80C5C058 */ void create1st();
-    /* 80C5C0FC */ void Execute(f32 (**)[3][4]);
-    /* 80C5C17C */ void setNrmDzb();
-    /* 80C5C1F8 */ void setWtrDzb();
-    /* 80C5C274 */ bool Draw();
-    /* 80C5C27C */ void Delete();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dBgW_Base {};
@@ -49,10 +22,6 @@ struct dBgW {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
-
-struct cXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -130,10 +99,6 @@ extern "C" void __ct__4dBgWFv();
 extern "C" void Move__4dBgWFv();
 extern "C" void ChkUsed__9cBgW_BgIdCFv();
 extern "C" void* __nw__FUl();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 

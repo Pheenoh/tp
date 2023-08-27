@@ -10,16 +10,6 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct kytag13_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -41,8 +31,6 @@ struct dBgS_GndChk {
     /* 800775F0 */ ~dBgS_GndChk();
 };
 
-struct cXyz {};
-
 struct cBgS_GndChk {
     /* 80267D28 */ void SetPos(cXyz const*);
 };
@@ -50,12 +38,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct DOUBLE_POS {};
 
 //
 // Forward References:
@@ -98,21 +80,13 @@ extern "C" void SetPos__11cBgS_GndChkFPC4cXyz();
 extern "C" void cM3d_VectorProduct2d__Fffffff();
 extern "C" void cLib_addCalc__FPfffff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_21();
 extern "C" void _restgpr_21();
 extern "C" void strcmp();
-extern "C" void sqrt();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__18dBgS_ObjGndChk_All[12];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 
 //

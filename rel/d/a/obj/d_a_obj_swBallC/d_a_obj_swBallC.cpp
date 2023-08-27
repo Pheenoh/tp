@@ -10,54 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjSwBallC_c {
-    /* 80CF5CD4 */ void initBaseMtx();
-    /* 80CF5CF4 */ void setBaseMtx();
-    /* 80CF5D58 */ void Create();
-    /* 80CF5EF8 */ void CreateHeap();
-    /* 80CF606C */ void create();
-    /* 80CF6120 */ void execute();
-    /* 80CF6144 */ void event_proc_call();
-    /* 80CF6200 */ void actionWait();
-    /* 80CF629C */ void actionOrderEvent();
-    /* 80CF6344 */ void actionEvent();
-    /* 80CF63F0 */ void actionDead();
-    /* 80CF63F4 */ void demoProc();
-    /* 80CF6818 */ void setLightOnSwB();
-    /* 80CF6888 */ void setLightOffSwB();
-    /* 80CF68F8 */ void deleteLightBall();
-    /* 80CF692C */ void deleteLightBallA();
-    /* 80CF6964 */ void deleteLightBallB();
-    /* 80CF699C */ void calcLightBallScale();
-    /* 80CF6A74 */ void draw();
-    /* 80CF6BFC */ void _delete();
-};
-
 struct dSv_memBit_c {
     /* 800347A0 */ void onTbox(int);
 };
@@ -65,61 +17,6 @@ struct dSv_memBit_c {
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-};
-
-struct Z2SeqMgr {
-    /* 802AFB94 */ void bgmStreamPrepare(u32);
-    /* 802AFE18 */ void bgmStreamPlay();
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80CF6024 */ ~J3DFrameCtrl();
 };
 
 //
@@ -206,10 +103,6 @@ extern "C" void bgmStreamPlay__8Z2SeqMgrFv();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXTrans();
-extern "C" void C_MTXLightOrtho();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_28();
@@ -217,12 +110,8 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_80CF6F18[4];
 
@@ -533,7 +422,8 @@ asm void daObjSwBallC_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_swBallC/d_a_obj_swBallC/__dt__12J3DFrameCtrlFv.s"
 }

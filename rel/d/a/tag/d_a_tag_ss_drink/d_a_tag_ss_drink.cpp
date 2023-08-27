@@ -10,63 +10,16 @@
 // Types:
 //
 
-struct fopAc_ac_c {};
-
-struct daTag_SSDrink_c {
-    /* 80D62DB8 */ void create();
-    /* 80D62E5C */ bool Delete();
-    /* 80D62E64 */ void Execute();
-    /* 80D62ED0 */ bool Draw();
-    /* 80D62ED8 */ void getTypeFromParam();
-    /* 80D62F80 */ void getSwitchFromParam();
-    /* 80D62F8C */ void getFlowNodeNum();
-    /* 80D62FC8 */ void getValue();
-    /* 80D62FD4 */ void restart();
-    /* 80D63044 */ void initialize();
-    /* 80D630BC */ void checkProcess(int (daTag_SSDrink_c::*)(void*));
-    /* 80D630E8 */ void setProcess(int (daTag_SSDrink_c::*)(void*));
-    /* 80D631D4 */ void setAttnPos();
-    /* 80D63208 */ void chkEvent();
-    /* 80D63384 */ void orderEvent();
-    /* 80D63490 */ void wait(void*);
-    /* 80D635C8 */ void talk(void*);
-    /* 80D63724 */ ~daTag_SSDrink_c();
-};
-
-struct daObj_SSBase_c {
-    /* 8015E3F8 */ daObj_SSBase_c();
-    /* 8015E450 */ ~daObj_SSBase_c();
-    /* 8015E4B0 */ void getProcessID();
-    /* 80D63794 */ void setSoldOut();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F48 */ ~dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
 };
 
 struct dEvt_control_c {
     /* 80042468 */ void reset();
 };
 
-struct dEvent_manager_c {
-    /* 800487F0 */ void ChkPresentEnd();
-};
-
 struct dAttCatch_c {
     /* 80073A08 */ void request(fopAc_ac_c*, u8, f32, f32, f32, s16, int);
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
 };
 
 //
@@ -124,8 +77,6 @@ extern "C" void __ptmf_cmpr();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 
 //

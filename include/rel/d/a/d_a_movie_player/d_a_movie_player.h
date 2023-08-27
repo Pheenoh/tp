@@ -2,6 +2,12 @@
 #define D_A_MOVIE_PLAYER_H
 
 #include "f_op/f_op_actor.h"
+#include "f_op/f_op_actor_mng.h"
+
+class daMP_Dlst_base_c : public fopAc_ac_c {
+    /* 80878DB8 */ void draw();
+    /* 80878FD8 */ daMP_Dlst_base_c();
+};
 
 class daMP_c : public fopAc_ac_c {
 public:

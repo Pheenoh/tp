@@ -10,75 +10,14 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjBmSh_c {
-    /* 80BB9A58 */ void initBaseMtx();
-    /* 80BB9AE4 */ void setBaseMtx();
-    /* 80BB9B84 */ void Create();
-    /* 80BB9C50 */ void CreateHeap();
-    /* 80BB9CC0 */ void create();
-    /* 80BB9DB4 */ void Execute(f32 (**)[3][4]);
-    /* 80BB9F34 */ void checkSw();
-    /* 80BB9FBC */ void checkAnySw();
-    /* 80BBA044 */ void checkMySw();
-    /* 80BBA080 */ void event_proc_call();
-    /* 80BBA13C */ void actionWait();
-    /* 80BBA1A4 */ void actionOrderEvent();
-    /* 80BBA20C */ void actionEvent();
-    /* 80BBA268 */ void actionDead();
-    /* 80BBA26C */ void mode_proc_call();
-    /* 80BBA394 */ void modeWait();
-    /* 80BBA5B4 */ void modeMove();
-    /* 80BBA640 */ void modeEnd();
-    /* 80BBA644 */ void Draw();
-    /* 80BBA6E8 */ void Delete();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
-};
-
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -92,24 +31,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -176,20 +97,13 @@ extern "C" void cLib_addCalc__FPfffff();
 extern "C" void cLib_addCalc0__FPfff();
 extern "C" void cLib_addCalcAngleS2__FPssss();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80BBA970[4];

@@ -10,37 +10,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTag_Event_c {
-    /* 8048AD68 */ void getEventNo();
-    /* 8048AD74 */ void getSwbit();
-    /* 8048AD80 */ void getSwbit2();
-    /* 8048AD8C */ void getType();
-    /* 8048AD98 */ void getInvalidEventFlag();
-    /* 8048ADA4 */ void getAreaType();
-    /* 8048ADB0 */ void getValidEventFlag();
-    /* 8048ADBC */ void horseRodeo();
-    /* 8048ADEC */ void arrivalTerms();
-    /* 8048AEEC */ void demoInitProc();
-    /* 8048AEF8 */ void demoEndProc();
-    /* 8048AEFC */ void demoProc();
-    /* 8048AF00 */ void create();
-    /* 8048B0E4 */ void actionNext();
-    /* 8048B1B0 */ void actionEvent();
-    /* 8048B268 */ void actionReady();
-    /* 8048B378 */ void checkArea();
-    /* 8048B514 */ void actionHunt();
-    /* 8048B5C8 */ void actionArrival();
-    /* 8048B5F4 */ bool actionWait();
-    /* 8048B5FC */ void actionHunt2();
-    /* 8048B6D4 */ void execute();
-    /* 8048B784 */ bool draw();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
@@ -57,17 +26,6 @@ struct dSv_event_c {
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80043500 */ void searchMapEventData(u8, s32);
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
 };
 
 //
@@ -122,11 +80,8 @@ extern "C" void searchMapEventData__14dEvt_control_cFUcl();
 extern "C" void getEventIdx__16dEvent_manager_cFP10fopAc_ac_cUc();
 extern "C" void endCheck__16dEvent_manager_cFs();
 extern "C" void __mi__4cXyzCFRC3Vec();
-extern "C" void PSVECSquareMag();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];

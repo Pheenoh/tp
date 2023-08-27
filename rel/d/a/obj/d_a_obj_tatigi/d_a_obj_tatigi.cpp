@@ -16,30 +16,6 @@ struct tg_ss {
     /* 80D08494 */ tg_ss();
 };
 
-struct request_of_phase_process_class {};
-
-struct obj_tatigi_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
-
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
     /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
@@ -51,20 +27,12 @@ struct dBgS_GndChk {
     /* 800775F0 */ ~dBgS_GndChk();
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_GndChk {
     /* 80267D0C */ void SetPos(Vec const*);
 };
 
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -126,8 +94,6 @@ extern "C" void MtxPosition__FP4cXyzP4cXyz();
 extern "C" void MtxPush__Fv();
 extern "C" void MtxPull__Fv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_25();
@@ -137,8 +103,6 @@ extern "C" void _restgpr_23();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];

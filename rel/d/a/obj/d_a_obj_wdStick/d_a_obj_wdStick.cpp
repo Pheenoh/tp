@@ -10,89 +10,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80D31B88 */ ~mDoHIO_entry_c();
 };
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static u8 mGndCheck[84];
-};
-
-struct daWdStick_c {
-    /* 80D31BD0 */ void setBaseMtx();
-    /* 80D31C58 */ void CreateHeap();
-    /* 80D31CC4 */ void create();
-    /* 80D32168 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80D32194 */ void lightInit();
-    /* 80D32198 */ void setLight();
-    /* 80D3219C */ void setFire();
-    /* 80D3269C */ void Execute();
-    /* 80D32DB4 */ void bgCheck();
-    /* 80D33348 */ void setBoundSe();
-    /* 80D333F4 */ void mode_proc_call();
-    /* 80D3350C */ void mode_init_wait();
-    /* 80D3353C */ void mode_proc_wait();
-    /* 80D33588 */ void mode_init_carry();
-    /* 80D335AC */ void mode_proc_carry();
-    /* 80D3386C */ void mode_init_drop();
-    /* 80D33890 */ void mode_proc_drop();
-    /* 80D338DC */ void mode_init_roll();
-    /* 80D338F4 */ void mode_proc_roll();
-    /* 80D33D44 */ void chkWaterLineIn();
-    /* 80D33D68 */ void mode_init_sink();
-    /* 80D33D8C */ void mode_proc_sink();
-    /* 80D33EB0 */ void Draw();
-    /* 80D33F14 */ void Delete();
-
-    static u8 const mCcDObjInfo[48];
-    static u8 mCcDSph[64];
-};
-
-struct daWdStick_HIO_c {
-    /* 80D31B4C */ daWdStick_HIO_c();
-    /* 80D34030 */ ~daWdStick_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -104,27 +26,6 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 
     static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80D3202C */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 80084460 */ void ChkTgHit();
-    /* 80084548 */ void GetTgHitGObj();
 };
 
 struct dBgS_PolyPassChk {
@@ -174,34 +75,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 80D31F9C */ ~cM3dGSph();
-};
-
-struct cM3dGPla {
-    /* 80D32D6C */ ~cM3dGPla();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80D31FE4 */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 80D33FE8 */ ~cCcD_GStts();
-};
-
 struct cBgS_LinChk {};
 
 struct cBgS_GndChk {
@@ -213,23 +86,6 @@ struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
 };
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -344,14 +200,6 @@ extern "C" void cLib_addCalc__FPfffff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
-extern "C" void PSVECScale();
-extern "C" void PSVECSquareMag();
-extern "C" void PSVECDotProduct();
-extern "C" void C_VECReflect();
 extern "C" void __ptmf_scall();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_25();
@@ -360,8 +208,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -370,9 +216,7 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mGndCheck__11fopAcM_gc_c[84];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mParticleTracePCB__13dPa_control_c[4 + 4 /* padding */];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -681,7 +525,8 @@ asm void daWdStick_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_wdStick/d_a_obj_wdStick/__dt__8cM3dGSphFv.s"
 }
@@ -691,7 +536,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_wdStick/d_a_obj_wdStick/__dt__8cM3dGAabFv.s"
 }
@@ -701,7 +547,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_wdStick/d_a_obj_wdStick/__dt__10dCcD_GSttsFv.s"
 }
@@ -901,7 +748,8 @@ static asm void bound(cXyz* param_0, cBgS_PolyInfo const& param_1, f32 param_2) 
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGPla::~cM3dGPla() {
+// asm cM3dGPla::~cM3dGPla() {
+extern "C" asm void __dt__8cM3dGPlaFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_wdStick/d_a_obj_wdStick/__dt__8cM3dGPlaFv.s"
 }
@@ -1266,7 +1114,8 @@ static asm void daWdStick_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_wdStick/d_a_obj_wdStick/__dt__10cCcD_GSttsFv.s"
 }

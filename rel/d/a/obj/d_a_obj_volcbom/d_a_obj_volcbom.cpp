@@ -11,102 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daPy_py_c {
-    static u8 m_midnaActor[4];
-};
-
-struct daObjVolcBom_c {
-    /* 80D241E0 */ void initBaseMtx();
-    /* 80D24238 */ void setBaseMtx();
-    /* 80D242A8 */ void Create();
-    /* 80D244E0 */ void CreateHeap();
-    /* 80D248F4 */ void create1st();
-    /* 80D249D0 */ void Execute(f32 (**)[3][4]);
-    /* 80D24A2C */ void mode_proc_call();
-    /* 80D24B18 */ void init_modeWaitAppear();
-    /* 80D24B6C */ void modeWaitAppear();
-    /* 80D24D80 */ void init_modeFall();
-    /* 80D24E50 */ void modeFall();
-    /* 80D25024 */ void init_modeWaitEndFallDemo();
-    /* 80D25038 */ void modeWaitEndFallDemo();
-    /* 80D25094 */ void init_modeWait();
-    /* 80D25100 */ void modeWait();
-    /* 80D25178 */ void clrDzb();
-    /* 80D251CC */ void setDzb();
-    /* 80D25224 */ void appear();
-    /* 80D25230 */ void disappear();
-    /* 80D2523C */ void setSmoke();
-    /* 80D252C8 */ void checkTalkDistance();
-    /* 80D25364 */ void calcMidnaWaitPos();
-    /* 80D253FC */ void setSrcEffect();
-    /* 80D25528 */ void setBindEffect();
-    /* 80D255F4 */ void followBindEffect();
-    /* 80D25664 */ void endBindEffect();
-    /* 80D256B8 */ void followSrcEffect();
-    /* 80D25758 */ void endSrcEffect();
-    /* 80D257E4 */ void event_proc_call();
-    /* 80D25914 */ void orderZHintEvent();
-    /* 80D25A08 */ void actionWait();
-    /* 80D25B04 */ void actionOrderEvent();
-    /* 80D25CA0 */ void actionOrderATalkEvent();
-    /* 80D25DEC */ void actionTalkEvent();
-    /* 80D25E78 */ void actionWarpEvent();
-    /* 80D25EE4 */ void actionDead();
-    /* 80D25EE8 */ void demoProc();
-    /* 80D26468 */ void calcObjPos();
-    /* 80D264E8 */ void Draw();
-    /* 80D266FC */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -124,52 +28,12 @@ struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-    /* 8024A528 */ void getEventId(int*);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-    /* 8004365C */ void setPt2(void*);
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 800479F8 */ void startCheck(s16);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-    /* 800483E8 */ void getRunEventName();
 };
 
 struct dDlst_shadowControl_c {
@@ -226,33 +90,12 @@ struct dAttHint_c {
     /* 800738FC */ void request(fopAc_ac_c*, int);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct _GXTexObj {};
-
-struct JUTNameTab {
-    /* 802DEAF8 */ void getName(u16) const;
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80D248AC */ ~J3DFrameCtrl();
 };
 
 //
@@ -406,8 +249,6 @@ extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void getName__10JUTNameTabCFUs();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_26();
@@ -420,8 +261,6 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -431,9 +270,7 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_meter2_info[248];
-extern "C" extern u8 j3dSys[284];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
@@ -844,7 +681,8 @@ asm void daObjVolcBom_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_volcbom/d_a_obj_volcbom/__dt__12J3DFrameCtrlFv.s"
 }

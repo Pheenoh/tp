@@ -10,87 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daSetBgObj_c {
-    /* 80031870 */ void getArcName(fopAc_ac_c*);
-};
-
-struct FlagJoint_c {
-    /* 80BEC3BC */ ~FlagJoint_c();
-    /* 80BEC4E0 */ FlagJoint_c();
-};
-
-struct csXyz {
-    /* 8026745C */ void operator+=(csXyz&);
-    /* 80267490 */ void operator-(csXyz&);
-    /* 802674E8 */ void operator*(f32);
-};
-
-struct daObjFlag_c {
-    /* 80BEB778 */ void create_init();
-    /* 80BEB8F0 */ void initBaseMtx();
-    /* 80BEB984 */ void getJointAngle(csXyz*, int);
-    /* 80BEB9AC */ void calcJointAngle();
-    /* 80BEBC58 */ void calcAngleSwingZ(FlagJoint_c*, f32);
-    /* 80BEBDAC */ void calcAngleSwingX(FlagJoint_c*, f32);
-    /* 80BEBE64 */ void getSwingY(f32);
-
-    static u8 const M_attr[52];
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
 //
 // Forward References:
 //
@@ -144,19 +63,14 @@ extern "C" void cLib_addCalcAngleS__FPsssss();
 extern "C" void cLib_chaseS__FPsss();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_26();
 extern "C" void _restgpr_26();
 extern "C" void sprintf();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

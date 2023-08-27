@@ -11,75 +11,6 @@
 // Types:
 //
 
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 804D15CC */ void getHeadTopPos() const;
-};
-
-struct daPy_boomerangMove_c {
-    /* 8015E5B0 */ void initOffset(cXyz const*);
-    /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
-    /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
-};
-
-struct daObjYOUSEI_c {
-    /* 804CE738 */ void InitCcSph();
-    /* 804CE7A4 */ void SetCcSph();
-    /* 804CE920 */ void SpeedSet();
-    /* 804CE9D0 */ void MoveAction();
-    /* 804CEE50 */ void BinAction();
-    /* 804CF098 */ void LinkChk();
-    /* 804CF6C4 */ void WaitAction();
-    /* 804CFCE8 */ void LinkAction();
-    /* 804D057C */ void LinkSearch();
-    /* 804D065C */ void WayBgCheck(f32, f32, s16);
-    /* 804D0780 */ void CareAction();
-    /* 804D080C */ void CheckGround();
-    /* 804D0988 */ void CheckWater();
-    /* 804D0AD0 */ void Action();
-    /* 804D0CCC */ void ObjHit();
-    /* 804D0DF0 */ void Execute();
-    /* 804D0F98 */ void Delete();
-    /* 804D0FCC */ void setBaseMtx();
-    /* 804D111C */ void create();
-};
-
 struct dSv_event_flag_c {
     static u8 saveBitLabels[1644 + 4 /* padding */];
 };
@@ -88,22 +19,7 @@ struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -170,10 +86,6 @@ struct dAttCatch_c {
     /* 80073A08 */ void request(fopAc_ac_c*, u8, f32, f32, f32, s16, int);
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_LinChk {};
 
 struct cBgS_GndChk {
@@ -185,14 +97,8 @@ struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
 
-struct _GXTexObj {};
-
 struct JPABaseEmitter {
     /* 8027EC60 */ void deleteAllParticle();
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 //
@@ -319,8 +225,6 @@ extern "C" void init__10Z2CreatureFP3VecP3VecUcUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_28();
@@ -328,8 +232,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__18dBgS_ObjGndChk_All[12];
 extern "C" extern void* __vt__8dCcD_Sph[36];
@@ -340,7 +242,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
 
 //

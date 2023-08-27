@@ -10,35 +10,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct cXyz {};
-
-struct daTag_Push_c {
-    /* 804902B8 */ void srchActor(void*, void*);
-    /* 80490418 */ void create();
-    /* 804904D4 */ bool Delete();
-    /* 804904DC */ void Execute();
-    /* 804906BC */ bool Draw();
-    /* 804906C4 */ void isDelete();
-    /* 80490724 */ void chkPointInArea(cXyz);
-    /* 804908CC */ ~daTag_Push_c();
-};
-
-struct daNpcT_ActorMngr_c {
-    /* 801456D4 */ void initialize();
-    /* 801456E0 */ void entry(fopAc_ac_c*);
-    /* 80145708 */ void getActorP();
-    /* 80490884 */ ~daNpcT_ActorMngr_c();
-};
-
-struct daNpcF_ActorMngr_c {
-    /* 801506BC */ void entry(fopAc_ac_c*);
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -81,8 +52,6 @@ extern "C" void entry__18daNpcF_ActorMngr_cFP10fopAc_ac_c();
 extern "C" void __dl__FPv();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 

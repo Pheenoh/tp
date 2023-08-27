@@ -15,46 +15,6 @@ struct wd_ss {
     /* 80C55A04 */ wd_ss();
 };
 
-struct request_of_phase_process_class {};
-
-struct obj_lp_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct mDoExt_3DlineMat_c {};
-
-struct mDoExt_3DlineMatSortPacket {
-    /* 80014738 */ void setMat(mDoExt_3DlineMat_c*);
-};
-
-struct dKy_tevstr_c {};
-
-struct _GXColor {};
-
-struct mDoExt_3DlineMat0_c {
-    /* 800125E0 */ void init(u16, u16, int);
-    /* 80012E3C */ void update(int, _GXColor&, dKy_tevstr_c*);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
-
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
     /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
@@ -71,22 +31,12 @@ struct dBgS_GndChk {
     /* 800775F0 */ ~dBgS_GndChk();
 };
 
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
 struct cBgS_GndChk {
     /* 80267D0C */ void SetPos(Vec const*);
 };
 
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -154,9 +104,6 @@ extern "C" void MtxPosition__FP4cXyzP4cXyz();
 extern "C" void MtxPush__Fv();
 extern "C" void MtxPull__Fv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECSquareMag();
 extern "C" void __construct_array();
 extern "C" void _savegpr_22();
 extern "C" void _savegpr_24();
@@ -170,14 +117,10 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
 extern "C" extern void* __vt__19mDoExt_3DlineMat0_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
-extern "C" extern u32 __float_nan;
 
 //
 // Declarations:

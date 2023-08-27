@@ -10,39 +10,6 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjStopper_c {
-    /* 80CECF34 */ void initBaseMtx();
-    /* 80CED024 */ void setBaseMtx();
-    /* 80CED0B8 */ void Create();
-    /* 80CED20C */ void CreateHeap();
-    /* 80CED258 */ void create();
-    /* 80CED6BC */ void Execute(f32 (**)[3][4]);
-    /* 80CED708 */ void action();
-    /* 80CED824 */ void actionWait();
-    /* 80CEDA24 */ void actionWaitOrderEvent();
-    /* 80CEDAAC */ void actionOrderEvent();
-    /* 80CEDB2C */ void actionEvent();
-    /* 80CEE048 */ void actionDead();
-    /* 80CEE04C */ void actionWaitClose();
-    /* 80CEE05C */ void actionCloseInit();
-    /* 80CEE0E0 */ void actionClose();
-    /* 80CEE148 */ void hint_action1();
-    /* 80CEE5D0 */ void hint_action2();
-    /* 80CEEA28 */ void hint_action3();
-    /* 80CEECFC */ void Draw();
-    /* 80CEED60 */ void Delete();
-};
-
-struct cXyz {
-    /* 80CECFE8 */ ~cXyz();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
     /* 8006FB10 */ void StartQuake(int, int, cXyz);
@@ -52,15 +19,6 @@ struct dVibration_c {
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
 };
 
 struct dPa_levelEcallBack {
@@ -74,32 +32,10 @@ struct dPa_followEcallBack {
     /* 80CED4C8 */ void __defctor();
 };
 
-struct csXyz {};
-
-struct _GXColor {};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80CED580 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgW {};
@@ -141,34 +77,6 @@ struct dBgS_Acch {
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
 };
 
-struct cM3dGCyl {
-    /* 80CED4F0 */ ~cM3dGCyl();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80CED538 */ ~cM3dGAab();
-};
-
-struct cCcD_GStts {
-    /* 80CEEE7C */ ~cCcD_GStts();
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
 struct JPABaseEmitter {};
 
 struct JPAEmitterCallBack {
@@ -178,12 +86,6 @@ struct JPAEmitterCallBack {
     /* 80CEEF40 */ void draw(JPABaseEmitter*);
     /* 80CEEF44 */ void drawAfter(JPABaseEmitter*);
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -286,14 +188,10 @@ extern "C" void cLib_offsetPos__FP4cXyzPC4cXyzsPC4cXyz();
 extern "C" void __dt__18JPAEmitterCallBackFv();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__19dPa_followEcallBack[10];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -302,7 +200,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -461,7 +358,8 @@ asm void daObjStopper_c::initBaseMtx() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_stopper/d_a_obj_stopper/__dt__4cXyzFv.s"
 }
@@ -765,7 +663,8 @@ asm void dPa_followEcallBack::__defctor() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_stopper/d_a_obj_stopper/__dt__8cM3dGCylFv.s"
 }
@@ -775,7 +674,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_stopper/d_a_obj_stopper/__dt__8cM3dGAabFv.s"
 }
@@ -785,7 +685,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_stopper/d_a_obj_stopper/__dt__10dCcD_GSttsFv.s"
 }
@@ -1104,7 +1005,8 @@ static asm void daObjStopper_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_stopper/d_a_obj_stopper/__dt__10cCcD_GSttsFv.s"
 }

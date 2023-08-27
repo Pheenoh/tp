@@ -7,6 +7,14 @@
 #include "d/bg/d_bg_s_lin_chk.h"
 #include "SSystem/SComponent/c_phase.h"
 
+class daTagWaterFall_c : public fopAc_ac_c {
+    /* 80D64768 */ void checkHitWaterFall(cXyz);
+};
+
+class daObjGOMIKABE_c : public fopAc_ac_c {
+    /* 80BFE52C */ void BreakSet();
+};
+
 class daCanoe_c : public fopAc_ac_c {
 public:
     /* 804DA5F4 */ void createHeap();

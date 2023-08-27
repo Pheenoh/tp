@@ -10,35 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daWindStone_c {
-    /* 80D37A18 */ daWindStone_c();
-    /* 80D37A68 */ ~daWindStone_c();
-    /* 80D37AF4 */ void createHeap();
-    /* 80D37C20 */ void create();
-    /* 80D37F0C */ void execute();
-    /* 80D37F6C */ void draw();
-    /* 80D3806C */ void Delete();
-    /* 80D3811C */ void setModelMtx();
-    /* 80D38180 */ void init();
-    /* 80D381EC */ void chkWlfInRange();
-    /* 80D38278 */ void chkEveOccur();
-    /* 80D382C4 */ void exeModeHowl();
-    /* 80D3835C */ void exeModeMapDisp();
-    /* 80D383FC */ void chkMapDispMode();
-    /* 80D384C4 */ void getGoldWolfIdx();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
@@ -51,23 +22,6 @@ struct dSv_event_flag_c {
 
 struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dDlst_shadowControl_c {
@@ -94,8 +48,6 @@ struct dBgS_AcchCir {
     /* 80D37E9C */ ~dBgS_AcchCir();
 };
 
-struct csXyz {};
-
 struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
 };
@@ -105,10 +57,6 @@ struct dBgS_Acch {
     /* 800760A0 */ dBgS_Acch();
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
     /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
 };
 
 struct cBgW_BgId {
@@ -130,15 +78,9 @@ struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
 
-struct _GXTexObj {};
-
-struct Vec {};
-
 struct Z2WolfHowlMgr {
     /* 802CB6EC */ void startWindStoneSound(s8, Vec*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -209,22 +151,15 @@ extern "C" void __dt__8cM3dGCirFv();
 extern "C" void startWindStoneSound__13Z2WolfHowlMgrFScP3Vec();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_meter2_info[248];
-extern "C" extern u8 j3dSys[284];
 
 //
 // Declarations:

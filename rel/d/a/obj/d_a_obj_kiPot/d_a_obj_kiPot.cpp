@@ -10,33 +10,8 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C44D30 */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daKiPot_c {
-    /* 80C44D78 */ void setBaseMtx();
-    /* 80C44DD0 */ void create();
-    /* 80C44E7C */ void Execute();
-    /* 80C44EF8 */ void procMain();
-    /* 80C44F74 */ void init_modeWait();
-    /* 80C44F80 */ void modeWait();
-    /* 80C45008 */ void chkEvent();
-    /* 80C45058 */ bool Draw();
-    /* 80C45060 */ bool Delete();
-};
-
-struct daKiPot_HIO_c {
-    /* 80C44D0C */ daKiPot_HIO_c();
-    /* 80C450E8 */ ~daKiPot_HIO_c();
 };
 
 struct dAttCatch_c {
@@ -74,10 +49,7 @@ extern "C" void __ct__10fopAc_ac_cFv();
 extern "C" void fopAcM_setCullSizeBox__FP10fopAc_ac_cffffff();
 extern "C" void request__11dAttCatch_cFP10fopAc_ac_cUcfffsi();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" void __register_global_object();

@@ -12,14 +12,6 @@
 // Types:
 //
 
-struct daTagWaterFall_c {
-    /* 80D64768 */ void checkHitWaterFall(cXyz);
-};
-
-struct daObjGOMIKABE_c {
-    /* 80BFE52C */ void BreakSet();
-};
-
 //
 // Forward References:
 //

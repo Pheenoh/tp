@@ -11,31 +11,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTagQs_c {
-    /* 80D5DE78 */ ~daTagQs_c();
-    /* 80D5DFB0 */ void create();
-    /* 80D5E1FC */ void getPower();
-    /* 80D5E220 */ void getSafeArea();
-    /* 80D5E244 */ void getPower80();
-    /* 80D5E268 */ void getCenterPower();
-    /* 80D5E28C */ void calcPower(f32, f32);
-    /* 80D5E9F8 */ void execute();
-    /* 80D5EBF8 */ bool draw();
-};
-
-struct daItem_c {
-    /* 80037BE0 */ void startCtrl();
-};
-
-struct daItemBase_c {
-    /* 80037A5C */ void getItemNo();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -94,8 +69,6 @@ extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];

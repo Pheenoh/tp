@@ -10,52 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjSword_c {
-    /* 80CFD558 */ void initBaseMtx();
-    /* 80CFD594 */ void setBaseMtx();
-    /* 80CFD600 */ void Create();
-    /* 80CFD67C */ void create();
-    /* 80CFDA14 */ void actionWait();
-    /* 80CFDA8C */ void initActionOrderGetDemo();
-    /* 80CFDB04 */ void actionOrderGetDemo();
-    /* 80CFDB80 */ void actionGetDemo();
-    /* 80CFDC1C */ void execute();
-    /* 80CFDD18 */ void draw();
-    /* 80CFDD6C */ void _delete();
-};
-
-struct daItemBase_c {
-    /* 80037A64 */ void hide();
-    /* 80037A74 */ void show();
-    /* 80037ACC */ void chkDraw();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144754 */ bool __CreateHeap();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144C7C */ void setListStart();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D18 */ void setTevStr();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 80145144 */ void chkFlag(int);
-    /* 80145164 */ void getTevFrm();
-    /* 80145180 */ void getBtpFrm();
-    /* 8014519C */ void getShadowSize();
-    /* 801451B4 */ void getCollisionH();
-    /* 801451D0 */ void getCollisionR();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800354E0 */ void onItem(int, int);
@@ -64,23 +18,6 @@ struct dSv_info_c {
 
 struct dItem_data {
     static void* field_item_res[1020];
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047ADC */ void endCheckOld(char const*);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80CFD8D8 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgS_PolyPassChk {
@@ -99,26 +36,6 @@ struct dBgS_AcchCir {
 struct dBgS_Acch {
     /* 80075F94 */ ~dBgS_Acch();
     /* 800760A0 */ dBgS_Acch();
-};
-
-struct csXyz {};
-
-struct cXyz {};
-
-struct cM3dGCyl {
-    /* 80CFD848 */ ~cM3dGCyl();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80CFD890 */ ~cM3dGAab();
-};
-
-struct cCcD_GStts {
-    /* 80CFDE24 */ ~cCcD_GStts();
 };
 
 struct cBgS_PolyInfo {
@@ -202,13 +119,9 @@ extern "C" void getCollisionR__12daItemBase_cFv();
 extern "C" void __dt__13cBgS_PolyInfoFv();
 extern "C" void __dt__8cM3dGCirFv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" void* field_item_res__10dItem_data[1020];
@@ -425,7 +338,8 @@ asm void daObjSword_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sword/d_a_obj_sword/__dt__8cM3dGCylFv.s"
 }
@@ -435,7 +349,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sword/d_a_obj_sword/__dt__8cM3dGAabFv.s"
 }
@@ -445,7 +360,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sword/d_a_obj_sword/__dt__10dCcD_GSttsFv.s"
 }
@@ -595,7 +511,8 @@ static asm void daObjSword_Create(daObjSword_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sword/d_a_obj_sword/__dt__10cCcD_GSttsFv.s"
 }

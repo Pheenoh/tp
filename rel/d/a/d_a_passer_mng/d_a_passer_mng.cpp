@@ -10,21 +10,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daPasserMng_c {
-    /* 80D45738 */ void execute();
-    /* 80D4597C */ void getPasserParam();
-    /* 80D45E14 */ void getLuggageParamHigh(u32);
-    /* 80D46768 */ void create();
-    /* 80D467C0 */ void create_init();
-
-    static void* mGroupTbl[4];
-};
-
 struct dSv_event_flag_c {
     static u8 saveBitLabels[1644 + 4 /* padding */];
 };
@@ -34,14 +19,6 @@ struct dSv_event_c {
 };
 
 struct dPath {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
-
-struct cXyz {};
-
-struct Vec {};
 
 //
 // Forward References:
@@ -89,8 +66,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 

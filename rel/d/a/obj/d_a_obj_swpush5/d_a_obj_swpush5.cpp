@@ -10,57 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 8059C658 */ ~cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjSw5_c {
-    /* 8059B804 */ void initBaseMtx();
-    /* 8059B88C */ void setBaseMtx();
-    /* 8059B920 */ void Create();
-    /* 8059BA1C */ void CreateHeap();
-    /* 8059BB1C */ void create();
-    /* 8059BBD4 */ void Execute(f32 (**)[3][4]);
-    /* 8059BC70 */ void setting_ride_flag();
-    /* 8059BD24 */ bool checkPushable();
-    /* 8059BD2C */ void event_proc_call();
-    /* 8059BE18 */ void actionPauseNoneInit();
-    /* 8059BE24 */ void actionPauseNone();
-    /* 8059BE28 */ void actionPauseOrderInit();
-    /* 8059BE80 */ void actionPauseOrder();
-    /* 8059BEB4 */ void actionPauseInit();
-    /* 8059BEE0 */ void actionPause();
-    /* 8059BF48 */ void actionWait();
-    /* 8059BF4C */ void actionOrder();
-    /* 8059BF50 */ void actionEvent();
-    /* 8059BF54 */ void calc_top_pos();
-    /* 8059BFE4 */ void mode_proc_call();
-    /* 8059C0A0 */ void modeWaitLowerInit();
-    /* 8059C0C8 */ void modeWaitLower();
-    /* 8059C23C */ void modeLowerInit();
-    /* 8059C2D0 */ void modeLower();
-    /* 8059C364 */ void modeWaitUpperInit();
-    /* 8059C370 */ void modeWaitUpper();
-    /* 8059C3C4 */ void modeUpperInit();
-    /* 8059C454 */ void modeUpper();
-    /* 8059C4BC */ void Draw();
-    /* 8059C560 */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -71,25 +20,6 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
 struct dBgW_Base {};
 
 struct dBgW {
@@ -98,8 +28,6 @@ struct dBgW {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -131,24 +59,6 @@ struct cBgW {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
 
 //
 // Forward References:
@@ -234,9 +144,6 @@ extern "C" void ChkUsed__9cBgW_BgIdCFv();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_28();
@@ -244,12 +151,8 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -984,7 +887,8 @@ static asm void daObjSw5_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_swpush5/d_a_obj_swpush5/__dt__4cXyzFv.s"
 }

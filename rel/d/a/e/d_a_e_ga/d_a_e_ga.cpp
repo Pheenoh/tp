@@ -10,61 +10,15 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct ga_s {
     /* 804FBAB8 */ ~ga_s();
     /* 804FBAF4 */ ga_s();
 };
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct e_ga_class {};
-
-struct daE_Ga_HIO_c {
-    /* 804FB0EC */ daE_Ga_HIO_c();
-    /* 804FBAF8 */ ~daE_Ga_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
-
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
     /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
     /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -113,9 +67,6 @@ extern "C" void cM_rndFX__Ff();
 extern "C" void cLib_addCalcAngleS2__FPssss();
 extern "C" void MtxPosition__FP4cXyzP4cXyz();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECAdd();
 extern "C" void __construct_array();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_27();
@@ -125,11 +76,8 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
 extern "C" void __register_global_object();

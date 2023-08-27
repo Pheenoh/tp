@@ -10,81 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 8026702C */ bool operator==(Vec const&) const;
-    /* 805ADDD8 */ void abs(Vec const&) const;
-    /* 805ADEEC */ cXyz(cXyz const&);
-    /* 805ADF2C */ void operator=(cXyz const&);
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-    /* 805ADF08 */ void multVecZero(Vec*);
-
-    static u8 now[48];
-};
-
-struct mDoExt_morf_c {
-    /* 805ADDA8 */ void isStop();
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 805ADD78 */ void changeDemoPos0(cXyz const*);
-    /* 805ADD94 */ void changeDemoMode(u32, int, int, s16);
-};
-
-struct daL7ODR_c {
-    /* 805AB098 */ void setAction(void (daL7ODR_c::*)());
-    /* 805AB13C */ void action();
-    /* 805AB164 */ void setDrAction(void (daL7ODR_c::*)());
-    /* 805AB208 */ void dr_action();
-    /* 805AB230 */ void mtx_set();
-    /* 805AB2E8 */ void draw();
-    /* 805AB3F0 */ void wait();
-    /* 805AB520 */ void pl_walk();
-    /* 805ABC2C */ void setZoomOutCamPos(cXyz&, cXyz&, f32);
-    /* 805ABCF8 */ void dr_wait();
-    /* 805ABE0C */ void dr_fly();
-    /* 805AD7B4 */ void execute();
-    /* 805AD87C */ void _delete();
-    /* 805AD90C */ void CreateHeap();
-    /* 805ADA2C */ void check_start();
-    /* 805ADAC0 */ void create();
-};
-
 struct dVibration_c {
     /* 8006FB10 */ void StartQuake(int, int, cXyz);
     /* 8006FD94 */ void StopQuake(int);
@@ -92,23 +17,6 @@ struct dVibration_c {
 
 struct dSv_restart_c {
     /* 80034F80 */ void setRoom(cXyz const&, s16, s8);
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
 };
 
 struct dDlst_shadowControl_c {
@@ -147,28 +55,6 @@ struct dBgS_Acch {
 };
 
 struct cBgS_PolyInfo {};
-
-struct _GXTexObj {};
-
-struct Z2SeqMgr {
-    /* 802AF49C */ void subBgmStart(u32);
-    /* 802AF884 */ void subBgmStop();
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -272,24 +158,16 @@ extern "C" void __ct__15Z2CreatureEnemyFv();
 extern "C" void init__15Z2CreatureEnemyFP3VecP3VecUcUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSVECAdd();
-extern "C" void PSVECScale();
-extern "C" void PSVECSquareDistance();
 extern "C" void __ptmf_test();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //
@@ -1247,7 +1125,8 @@ asm void daPy_py_c::changeDemoMode(u32 param_0, int param_1, int param_2, s16 pa
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoExt_morf_c::isStop() {
+// asm void mDoExt_morf_c::isStop() {
+extern "C" asm void isStop__13mDoExt_morf_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_L7op_demo_dr/d_a_L7op_demo_dr/isStop__13mDoExt_morf_cFv.s"
 }
@@ -1257,7 +1136,8 @@ asm void mDoExt_morf_c::isStop() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void cXyz::abs(Vec const& param_0) const {
+// asm void cXyz::abs(Vec const& param_0) const {
+extern "C" asm void abs__4cXyzCFRC3Vec() {
     nofralloc
 #include "asm/rel/d/a/d_a_L7op_demo_dr/d_a_L7op_demo_dr/abs__4cXyzCFRC3Vec.s"
 }
@@ -1267,7 +1147,8 @@ asm void cXyz::abs(Vec const& param_0) const {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::cXyz(cXyz const& param_0) {
+// asm cXyz::cXyz(cXyz const& param_0) {
+extern "C" asm void __ct__4cXyzFRC4cXyz() {
     nofralloc
 #include "asm/rel/d/a/d_a_L7op_demo_dr/d_a_L7op_demo_dr/__ct__4cXyzFRC4cXyz.s"
 }
@@ -1278,7 +1159,8 @@ asm cXyz::cXyz(cXyz const& param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
+// asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
+extern "C" asm void multVecZero__14mDoMtx_stack_cFP3Vec() {
     nofralloc
 #include "asm/rel/d/a/d_a_L7op_demo_dr/d_a_L7op_demo_dr/multVecZero__14mDoMtx_stack_cFP3Vec.s"
 }
@@ -1288,7 +1170,8 @@ asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void cXyz::operator=(cXyz const& param_0) {
+// asm void cXyz::operator=(cXyz const& param_0) {
+extern "C" asm void __as__4cXyzFRC4cXyz() {
     nofralloc
 #include "asm/rel/d/a/d_a_L7op_demo_dr/d_a_L7op_demo_dr/__as__4cXyzFRC4cXyz.s"
 }

@@ -10,164 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-    /* 80849924 */ ~cXyz();
-    /* 80854A28 */ cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-};
-
 struct mDoCPd_c {
     static u8 m_cpadInfo[256];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daTagWaterFall_c {
-    /* 80D64768 */ void checkHitWaterFall(cXyz);
-};
-
-struct daPy_py_c {
-    /* 8015F914 */ void setPlayerDamage(int, int);
-    /* 80854AE0 */ void getMidnaActor();
-
-    static u8 m_midnaActor[4];
-};
-
-struct daObj_Balloon_c {
-    /* 80BA80F4 */ void saveBestScore();
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
-struct daKago_c {
-    /* 80849660 */ void getBckName(int);
-    /* 808496F0 */ void setBck(int, u8, f32, f32);
-    /* 80849798 */ void checkBck(int);
-    /* 808497F8 */ void draw();
-    /* 80849980 */ void executeBalloonMenu();
-    /* 80849BA8 */ void checkGroundHeight(cXyz, f32*);
-    /* 8084A070 */ void checkRoofHeight(cXyz);
-    /* 8084A210 */ void checkMoveHeight();
-    /* 8084A2A8 */ void checkSizeBg();
-    /* 8084A6DC */ bool getBeforeGroundHeight(u8);
-    /* 8084A6E4 */ void demo_skip(int);
-    /* 8084AA64 */ void DemoSkipCallBack(void*, int);
-    /* 8084AA98 */ void setActionMode(int, int);
-    /* 8084AAAC */ void setMidnaTagPos();
-    /* 8084AB40 */ void setMidnaRideOn();
-    /* 8084AB8C */ void setPlayerRideOn();
-    /* 8084ABC8 */ void setRideOff();
-    /* 8084AC2C */ void searchNearPassPoint();
-    /* 8084AE78 */ void setSceneChange(int);
-    /* 8084AF40 */ void createBalloonScore();
-    /* 8084AFB0 */ void startBalloonScore();
-    /* 8084B024 */ void endBalloonScore();
-    /* 8084B088 */ void checkNextPath(cXyz);
-    /* 8084B108 */ void checkHeight();
-    /* 8084B134 */ void checkYaguraPos(cXyz);
-    /* 8084B1E0 */ void checkWallHitFall(int);
-    /* 8084B56C */ void checkAttackStart();
-    /* 8084B5DC */ void getValueY(f32);
-    /* 8084B6F4 */ void getValueX(f32);
-    /* 8084B718 */ void getValueAbsX(f32);
-    /* 8084B744 */ void flySpeedCalcLockOn();
-    /* 8084B96C */ void flySpeedCalc(s16, int);
-    /* 8084C078 */ void checkFlySceneChange();
-    /* 8084C178 */ void setFlyAway();
-    /* 8084C204 */ void setFlyAnime();
-    /* 8084C2CC */ void executeFly();
-    /* 8084C8FC */ void executeStagger();
-    /* 8084D108 */ void executeWait();
-    /* 8084D354 */ void calcAttackMove(int);
-    /* 8084D50C */ void executeAttack();
-    /* 8084DA18 */ void calcCircleCamera(int);
-    /* 8084DBFC */ void executeEvent();
-    /* 8084DD18 */ void initPerchDemo();
-    /* 8084E2D4 */ void executePerchDemo();
-    /* 8084F09C */ void PerchDemoAwayForward();
-    /* 8084FA58 */ void executePerch();
-    /* 8084FAA8 */ void executeEvent2();
-    /* 8084FB50 */ void initFirstDemo();
-    /* 80850384 */ void executeFirstDemo();
-    /* 808513E4 */ void executePerch2();
-    /* 80851434 */ void executeLandingLakeHairia();
-    /* 80851DEC */ void executeLandingBoartHouse();
-    /* 808525B0 */ void executeLanding();
-    /* 80852610 */ void moveDemoFly();
-    /* 80852D90 */ void setFlyEffect();
-    /* 80852F14 */ void setDashEffect();
-    /* 808530A4 */ void setDamageEffect();
-    /* 80853228 */ void setDashBlurEffect(int);
-    /* 80853460 */ void setWallHitEffect(cXyz, int);
-    /* 8085350C */ void setSibukiEffect();
-    /* 8085366C */ void setDashSibukiEffect();
-    /* 80853730 */ void setWaterFallEffect();
-    /* 8085392C */ void setFlySound();
-    /* 80853BCC */ void action();
-    /* 80853EF0 */ void mtx_set();
-    /* 80853FB0 */ void cc_set();
-    /* 80854058 */ void execute();
-    /* 80854190 */ void _delete();
-    /* 80854220 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 808542DC */ void JointCallBack(J3DJoint*, int);
-    /* 80854328 */ void CreateHeap();
-    /* 808544D8 */ void create();
-};
-
-struct daKago_HIO_c {
-    /* 808495AC */ daKago_HIO_c();
-    /* 80854A4C */ ~daKago_HIO_c();
-};
-
-struct daE_YM_c {
-    /* 808123C4 */ void setLockByCargo();
-};
-
-struct daBalloon2D_c {
-    /* 80653FC0 */ void setScoreCount(u32);
 };
 
 struct dVibration_c {
@@ -189,24 +33,9 @@ struct dSv_event_c {
     /* 8003498C */ void onEventBit(u16);
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPath {};
 
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -225,14 +54,6 @@ struct dMsgObject_c {
     /* 80238440 */ void getSelectCursorPos();
 };
 
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-    /* 8024A4C4 */ void remove();
-    /* 8024A540 */ void getNowMsgNo();
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
@@ -244,24 +65,6 @@ struct dDlst_shadowControl_c {
 
 struct dComIfG_play_c {
     /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dCamera_c {
@@ -329,25 +132,7 @@ struct dAttention_c {
     /* 800737E4 */ void LockonTruth();
 };
 
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 80854928 */ ~cM3dGSph();
-};
-
-struct cM3dGPla {
-    /* 8084A694 */ ~cM3dGPla();
-};
-
-struct cM3dGAab {
-    /* 80854970 */ ~cM3dGAab();
-};
-
 struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
 
 struct cBgS_LinChk {};
 
@@ -360,40 +145,6 @@ struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
     /* 80074618 */ void GetActorPointer(int) const;
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct _GXTexObj {};
-
-struct Z2StatusMgr {
-    /* 802B61E8 */ void setDemoName(char*);
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct JGeometry {
-    template <typename A1>
-    struct TVec3 {};
-    /* TVec3<f32> */
-    struct TVec3__template0 {};
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 //
@@ -621,11 +372,6 @@ extern "C" void init__15Z2CreatureEnemyFP3VecP3VecUcUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSquareDistance();
 extern "C" void __construct_array();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_25();
@@ -639,10 +385,7 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -653,11 +396,8 @@ extern "C" u8 m_cpadInfo__8mDoCPd_c[256];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
@@ -1028,7 +768,8 @@ asm void daKago_c::draw() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/__dt__4cXyzFv.s"
 }
@@ -1191,7 +932,8 @@ asm void daKago_c::checkSizeBg() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGPla::~cM3dGPla() {
+// asm cM3dGPla::~cM3dGPla() {
+extern "C" asm void __dt__8cM3dGPlaFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/__dt__8cM3dGPlaFv.s"
 }
@@ -2596,7 +2338,8 @@ asm void daKago_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/__dt__8cM3dGSphFv.s"
 }
@@ -2606,7 +2349,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/__dt__8cM3dGAabFv.s"
 }
@@ -2616,14 +2360,16 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/__dt__12dBgS_ObjAcchFv.s"
 }
 #pragma pop
 
 /* 80854A28-80854A2C 00B568 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 

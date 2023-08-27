@@ -11,40 +11,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjLv6EGate_c {
-    /* 80C82078 */ void create1st();
-    /* 80C82108 */ void setMtx();
-    /* 80C82178 */ bool CreateHeap();
-    /* 80C82180 */ void Create();
-    /* 80C822DC */ void offDisp();
-    /* 80C82330 */ void onDisp();
-    /* 80C82388 */ void Execute(f32 (**)[3][4]);
-    /* 80C82690 */ void Draw();
-    /* 80C826A0 */ void Delete();
-    /* 80C82A80 */ ~daObjLv6EGate_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
@@ -73,10 +44,6 @@ struct dBgS_MoveBgActor {
 
 struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 struct cBgW_BgId {
@@ -148,15 +115,10 @@ extern "C" void SetC__8cM3dGCylFRC4cXyz();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_25();
 extern "C" void _restgpr_25();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16dBgS_MoveBgActor[10];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];

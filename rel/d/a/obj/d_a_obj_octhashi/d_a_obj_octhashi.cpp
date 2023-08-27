@@ -11,73 +11,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 80CA624C */ csXyz();
-    /* 8026745C */ void operator+=(csXyz&);
-    /* 80CA546C */ ~csXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daObjOCTHASHI_c {
-    /* 80CA4BB8 */ void initCcCylinder();
-    /* 80CA4DFC */ void SetCoSph();
-    /* 80CA4EA4 */ void SetCoCyl();
-    /* 80CA4F24 */ void HakaiSet2(int);
-    /* 80CA52F0 */ void HakaiMotion2();
-    /* 80CA54E4 */ void CylAction();
-    /* 80CA55C4 */ void SphAction();
-    /* 80CA5844 */ void SphAction2();
-    /* 80CA58F4 */ void Action();
-    /* 80CA59BC */ void setBaseMtx();
-    /* 80CA5AE0 */ void CreateHeap();
-    /* 80CA5B98 */ void create();
-    /* 80CA62A4 */ void Create();
-    /* 80CA62F8 */ void Execute(f32 (**)[3][4]);
-    /* 80CA636C */ void Draw();
-    /* 80CA6444 */ void Delete();
-};
-
 struct dSv_memBit_c {
     /* 80034934 */ void isDungeonItem(int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -104,10 +42,6 @@ struct dBgS_MoveBgActor {
     /* 80078950 */ void MoveBGExecute();
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -115,13 +49,6 @@ struct cBgW_BgId {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -223,8 +150,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __ct__10Z2CreatureFv();
 extern "C" void init__10Z2CreatureFP3VecP3VecUcUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_20();
 extern "C" void _savegpr_21();
@@ -239,8 +164,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -250,8 +173,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_80CA6680[4];
@@ -475,7 +396,8 @@ asm void daObjOCTHASHI_c::HakaiMotion2() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_octhashi/d_a_obj_octhashi/__dt__5csXyzFv.s"
 }
@@ -893,7 +815,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma pop
 
 /* 80CA624C-80CA6250 00170C 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

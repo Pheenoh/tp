@@ -10,54 +10,9 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct mDoLib_clipper {
     static u8 mClipper[92];
     static f32 mSystemFar;
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daPy_py_c {
-    /* 8015F424 */ void checkNowWolfEyeUp();
-    /* 8052090C */ void getSwordTopPos() const;
-};
-
-struct daGrass_c {
-    /* 8051BEFC */ void createGrass();
-    /* 8051BF68 */ void deleteGrass();
-    /* 8051C040 */ void executeGrass();
-    /* 8051C074 */ void drawGrass();
-    /* 8051C0A8 */ void newGrassData(cXyz&, int, u8, u8, s16, u8);
-    /* 8051C0D4 */ void createFlower();
-    /* 8051C140 */ void deleteFlower();
-    /* 8051C218 */ void executeFlower();
-    /* 8051C24C */ void drawFlower();
-    /* 8051C280 */ void newFlowerData(s8, cXyz&, int, s8, s16);
-    /* 8051C304 */ void create();
-
-    static u8 m_myObj[4];
-    static u8 m_grass[4];
-    static u8 m_flower[4];
 };
 
 struct dStage_roomControl_c {
@@ -66,20 +21,7 @@ struct dStage_roomControl_c {
     static u8 mStatus[65792];
 };
 
-struct dScnKy_env_light_c {
-    /* 8019FA08 */ void getDaytime();
-};
-
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 8051EB4C */ ~csXyz();
-};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -188,44 +130,9 @@ struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
 
-struct _GXTevRegID {};
-
-struct _GXColorS10 {};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
 struct J3DUClipper {
     /* 8027378C */ void calcViewFrustum();
     /* 802738FC */ void clip(f32 const (*)[4], Vec, f32) const;
-};
-
-struct J3DSys {
-    /* 8031073C */ void reinitGX();
-};
-
-struct J3DShape {
-    static u8 sOldVcdVatCmd[4];
-};
-
-struct J3DPacket;
-struct J3DDrawBuffer {
-    /* 8032548C */ void entryImm(J3DPacket*, u16);
-};
-
-struct J3DPacket {
-    /* 80312750 */ bool entry(J3DDrawBuffer*);
 };
 
 //
@@ -356,24 +263,6 @@ extern "C" void __dl__FPv();
 extern "C" void reinitGX__6J3DSysFv();
 extern "C" bool entry__9J3DPacketFP13J3DDrawBuffer();
 extern "C" void entryImm__13J3DDrawBufferFP9J3DPacketUs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECScale();
-extern "C" void PSVECSquareMag();
-extern "C" void PSVECSquareDistance();
-extern "C" void GXSetVtxDesc();
-extern "C" void GXSetVtxDescv();
-extern "C" void GXClearVtxDesc();
-extern "C" void GXSetVtxAttrFmt();
-extern "C" void GXSetVtxAttrFmtv();
-extern "C" void GXSetArray();
-extern "C" void GXSetChanAmbColor();
-extern "C" void GXSetNumIndStages();
-extern "C" void GXSetTevColorS10();
-extern "C" void GXCallDisplayList();
-extern "C" void GXLoadPosMtxImm();
-extern "C" void GXLoadNrmMtxImm();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_18();
@@ -394,8 +283,6 @@ extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void memcmp();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__9J3DPacket[5];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mClipper__14mDoLib_clipper[92];
@@ -403,11 +290,8 @@ extern "C" u8 mStatus__20dStage_roomControl_c[65792];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 m_deleteRoom__15dGrass_packet_c[12];
 extern "C" u8 m_deleteRoom__16dFlower_packet_c[12];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_Counter[12 + 4 /* padding */];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" f32 mSystemFar__14mDoLib_clipper;
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
@@ -7150,7 +7034,8 @@ asm void dGrass_data_c::WorkAt(fopAc_ac_c* param_0, u32 param_1, int param_2,
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_grass/d_a_grass/__dt__5csXyzFv.s"
 }

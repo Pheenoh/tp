@@ -10,39 +10,6 @@
 // Types:
 //
 
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTag_Cam_c {
-    /* 80489F14 */ void getSwType();
-    /* 80489F20 */ void getPrio();
-    /* 80489F2C */ void getSwBit();
-    /* 80489F38 */ void getCondition();
-    /* 80489F44 */ void getCameraId();
-    /* 80489F50 */ void getRailID();
-    /* 80489F5C */ void getAreaType();
-    /* 80489F68 */ void getAreaNoChk();
-    /* 80489F74 */ void execute();
-};
-
-struct daAlink_c {
-    /* 800E1390 */ void getCopyRodCameraActor();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -106,14 +73,10 @@ extern "C" void getCopyRodCameraActor__9daAlink_cFv();
 extern "C" void SetTagData__9dCamera_cFP10fopAc_ac_clUsUc();
 extern "C" void dCam_getBody__Fv();
 extern "C" void __mi__4cXyzCFRC3Vec();
-extern "C" void PSMTXMultVec();
 extern "C" void _savegpr_27();
 extern "C" void _restgpr_27();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 
 //

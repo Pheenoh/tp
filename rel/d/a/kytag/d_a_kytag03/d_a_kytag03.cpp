@@ -10,12 +10,6 @@
 // Types:
 //
 
-struct kytag03_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -23,14 +17,6 @@ struct dSv_info_c {
 struct dPath {};
 
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
-
-struct cXyz {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -40,17 +26,6 @@ struct dPa_control_c {
 
 struct dCamera_c {
     /* 80181E64 */ void Eye();
-};
-
-struct Vec {};
-
-struct cM3dGLin {
-    /* 8026F31C */ void SetStartEnd(Vec const&, Vec const&);
-    /* 808560DC */ ~cM3dGLin();
-};
-
-struct Z2EnvSeMgr {
-    /* 802C92C8 */ void registWolfSmellSePos(Vec*);
 };
 
 struct JPABaseEmitter {
@@ -99,7 +74,6 @@ extern "C" void deleteAllParticle__14JPABaseEmitterFv();
 extern "C" void JPAGetXYZRotateMtx__FsssPA4_f();
 extern "C" void registWolfSmellSePos__10Z2EnvSeMgrFP3Vec();
 extern "C" void __dl__FPv();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_27();
@@ -108,14 +82,8 @@ extern "C" void _restgpr_24();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 g_mEnvSeMgr[780];
 extern "C" extern u8 g_Counter[12 + 4 /* padding */];
-extern "C" extern u32 __float_nan;
-extern "C" extern u32 __float_max;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 
 //
@@ -173,7 +141,8 @@ static asm void dEnvSe_getNearPathPos(cXyz* param_0, cXyz* param_1, dPath* param
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGLin::~cM3dGLin() {
+// asm cM3dGLin::~cM3dGLin() {
+extern "C" asm void __dt__8cM3dGLinFv() {
     nofralloc
 #include "asm/rel/d/a/kytag/d_a_kytag03/d_a_kytag03/__dt__8cM3dGLinFv.s"
 }

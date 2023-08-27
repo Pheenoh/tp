@@ -10,61 +10,9 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjDigSnow_c {
-    /* 80BDCC58 */ void initBaseMtx();
-    /* 80BDCC94 */ void setBaseMtx();
-    /* 80BDCD08 */ void Create();
-    /* 80BDCD64 */ void CreateHeap();
-    /* 80BDCDD4 */ void create1st();
-    /* 80BDCE84 */ void Execute(f32 (**)[3][4]);
-    /* 80BDCF00 */ void action();
-    /* 80BDCFA4 */ void mode_init_wait();
-    /* 80BDCFB0 */ void mode_wait();
-    /* 80BDCFDC */ void mode_init_dig();
-    /* 80BDD124 */ void mode_dig();
-    /* 80BDD1BC */ void mode_init_end();
-    /* 80BDD210 */ void mode_end();
-    /* 80BDD214 */ void Draw();
-    /* 80BDD2B8 */ void Delete();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80BDD4A8 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgW {};
@@ -84,8 +32,6 @@ struct dBgS_ObjAcch {
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -115,22 +61,6 @@ struct dBgS_Acch {
     /* 800760A0 */ dBgS_Acch();
 };
 
-struct cM3dGCyl {
-    /* 80BDD418 */ ~cM3dGCyl();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80BDD460 */ ~cM3dGAab();
-};
-
-struct cCcD_GStts {
-    /* 80BDD650 */ ~cCcD_GStts();
-};
-
 struct cBgS_GndChk {
     /* 80267D28 */ void SetPos(cXyz const*);
 };
@@ -138,8 +68,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -217,15 +145,11 @@ extern "C" void __dt__13cBgS_PolyInfoFv();
 extern "C" void __dt__8cM3dGCirFv();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -233,8 +157,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u8 data_80BDD860[4];
 
 //
@@ -619,7 +541,8 @@ static asm void daObjDigSnow_create1st(daObjDigSnow_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_digsnow/d_a_obj_digsnow/__dt__8cM3dGCylFv.s"
 }
@@ -629,7 +552,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_digsnow/d_a_obj_digsnow/__dt__8cM3dGAabFv.s"
 }
@@ -639,7 +563,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_digsnow/d_a_obj_digsnow/__dt__10dCcD_GSttsFv.s"
 }
@@ -702,7 +627,8 @@ static asm void daObjDigSnow_MoveBGDraw(daObjDigSnow_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_digsnow/d_a_obj_digsnow/__dt__10cCcD_GSttsFv.s"
 }

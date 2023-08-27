@@ -10,63 +10,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTag_AllMato_c {
-    /* 80487538 */ void create();
-    /* 804876B0 */ bool Delete();
-    /* 804876B8 */ void Execute();
-    /* 80487C5C */ bool Draw();
-    /* 80487C64 */ void srchBouMato(void*, void*);
-    /* 80487D00 */ void srchItaMato(void*, void*);
-    /* 80487D9C */ void srchTaro(void*, void*);
-    /* 80487E38 */ void srchArrow(void*, void*);
-    /* 80487ED4 */ void isDelete();
-    /* 80487F80 */ void entryBouMatoActors();
-    /* 80488034 */ void entryItaMatoActors();
-    /* 80488104 */ void getTaroActorP();
-    /* 804881C0 */ void getArrowActorP();
-    /* 80488238 */ void checkCrsMato();
-    /* 80488994 */ void checkCrsMato2();
-    /* 80488F40 */ void checkBrkMato();
-    /* 80488FD8 */ void evtChange(u16);
-    /* 80489608 */ ~daTag_AllMato_c();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80266B84 */ void operator*(f32) const;
-    /* 80487670 */ ~cXyz();
-    /* 804876AC */ cXyz();
-};
-
-struct daObj_ItaMato_c {
-    /* 804891BC */ void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
-};
-
-struct daObj_BouMato_c {
-    /* 8048940C */ void checkCrs(fopAc_ac_c*, cXyz, cXyz, f32);
-};
-
-struct daNpcT_ActorMngr_c {
-    /* 801456D4 */ void initialize();
-    /* 801456E0 */ void entry(fopAc_ac_c*);
-    /* 801456FC */ void remove();
-    /* 80145708 */ void getActorP();
-    /* 80489138 */ ~daNpcT_ActorMngr_c();
-    /* 80489180 */ daNpcT_ActorMngr_c();
-};
-
-struct daArrow_c {
-    /* 804895EC */ void getStartPos();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -77,31 +20,8 @@ struct dEvt_control_c {
     /* 8004365C */ void setPt2(void*);
 };
 
-struct dEvent_manager_c {
-    /* 80046800 */ void setObjectArchive(char*);
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 8004817C */ void cutEnd(int);
-};
-
 struct dCamera_c {
     /* 80174EAC */ void SaveZoomRatio();
-};
-
-struct cM3dGSph {
-    /* 8026F664 */ void Set(cXyz const&, f32);
-    /* 804893C4 */ ~cM3dGSph();
-};
-
-struct cM3dGLin {
-    /* 8026F2E8 */ void SetStartEnd(cXyz const&, cXyz const&);
-};
-
-struct cM3dGCyl {
-    /* 8026F180 */ void Set(cXyz const&, f32, f32);
 };
 
 //
@@ -183,9 +103,6 @@ extern "C" void Set__8cM3dGCylFRC4cXyzff();
 extern "C" void SetStartEnd__8cM3dGLinFRC4cXyzRC4cXyz();
 extern "C" void Set__8cM3dGSphFRC4cXyzf();
 extern "C" void __dl__FPv();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSquareMag();
-extern "C" void PSVECSquareDistance();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_18();
@@ -201,10 +118,7 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strlen();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 
@@ -316,14 +230,16 @@ asm void daTag_AllMato_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_allmato/d_a_tag_allmato/__dt__4cXyzFv.s"
 }
 #pragma pop
 
 /* 804876AC-804876B0 0001EC 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 
@@ -686,7 +602,8 @@ asm void daObj_ItaMato_c::checkCrs(fopAc_ac_c* param_0, cXyz param_1, cXyz param
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/tag/d_a_tag_allmato/d_a_tag_allmato/__dt__8cM3dGSphFv.s"
 }

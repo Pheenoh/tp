@@ -3,6 +3,7 @@
 
 #include "f_op/f_op_actor.h"
 #include "d/msg/d_msg_flow.h"
+#include "f_op/f_op_actor_mng.h"
 
 class daTagMhint_c : public fopAc_ac_c {
 public:

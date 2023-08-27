@@ -10,86 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daBullet_c {
-    /* 8065594C */ ~daBullet_c();
-    /* 80655B08 */ void create();
-    /* 80655E5C */ void CreateHeap();
-    /* 80655EDC */ void Delete();
-    /* 80655F10 */ void Execute();
-    /* 806560FC */ void Draw();
-    /* 80656160 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80656180 */ void getResName();
-    /* 80656198 */ void getBmdName();
-    /* 806561B0 */ void getTypeFromParam();
-    /* 806561D0 */ void initialize();
-    /* 80656378 */ void setProcess(int (daBullet_c::*)(void*));
-    /* 80656420 */ void wait(void*);
-    /* 806564B8 */ void move(void*);
-
-    static u8 const mCcDObjInfo[48];
-    static u8 mCcDSph[64];
-};
-
-struct daBullet_Param_c {
-    /* 806566A8 */ ~daBullet_Param_c();
-
-    static u8 const m[24];
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80655D90 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-};
-
 struct dBgS_PolyPassChk {
     /* 80078E68 */ void SetObj();
 };
@@ -120,28 +40,10 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGSph {
-    /* 80655C90 */ ~cM3dGSph();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80655CD8 */ ~cM3dGAab();
-};
-
-struct cCcD_GStts {
-    /* 806565D0 */ ~cCcD_GStts();
-};
-
 struct cBgS_GndChk {
     /* 80267C1C */ cBgS_GndChk();
     /* 80267C94 */ ~cBgS_GndChk();
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -221,13 +123,10 @@ extern "C" void __dt__11cBgS_GndChkFv();
 extern "C" void __dt__13cBgS_PolyInfoFv();
 extern "C" void __dt__8cM3dGCirFv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __ptmf_test();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -235,7 +134,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 extern "C" void __register_global_object();
@@ -381,7 +279,8 @@ asm void daBullet_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_bullet/d_a_bullet/__dt__8cM3dGSphFv.s"
 }
@@ -391,7 +290,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_bullet/d_a_bullet/__dt__8cM3dGAabFv.s"
 }
@@ -411,7 +311,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_bullet/d_a_bullet/__dt__10dCcD_GSttsFv.s"
 }
@@ -659,7 +560,8 @@ static bool daBullet_IsDelete(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_bullet/d_a_bullet/__dt__10cCcD_GSttsFv.s"
 }

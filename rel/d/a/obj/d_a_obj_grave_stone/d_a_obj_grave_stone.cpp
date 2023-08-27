@@ -10,64 +10,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CCC8 */ void push();
-    /* 8000CD14 */ void pop();
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daGraveStone_c {
-    struct daObj_GrvStn_prtclMngr_c {
-        /* 80C12EF0 */ ~daObj_GrvStn_prtclMngr_c();
-        /* 80C12F2C */ daObj_GrvStn_prtclMngr_c();
-    };
-
-    /* 80C125F8 */ void setBaseMtx();
-    /* 80C1266C */ void moveCalc();
-    /* 80C12918 */ void setPrtcl();
-    /* 80C12A38 */ void setEnvTevColor();
-    /* 80C12A94 */ void setRoomNo();
-    /* 80C12AD8 */ void Create();
-    /* 80C12CA4 */ void CreateHeap();
-    /* 80C12D1C */ void create();
-    /* 80C13030 */ void Execute(f32 (**)[3][4]);
-    /* 80C13078 */ void Draw();
-    /* 80C1311C */ void Delete();
-
-    static u8 const mCcDObjInfo[48];
-    static u8 const mCcDCyl[68];
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C6B8 */ void getObjectResName2Index(char const*, char const*);
-};
-
 struct dPa_control_c {
     struct level_c {
         /* 8004B918 */ void getEmitter(u32);
     };
 };
-
-struct csXyz {};
 
 struct dBgS_AcchCir {
     /* 80075EAC */ dBgS_AcchCir();
@@ -92,24 +39,6 @@ struct dPaPo_c {
     /* 80050C9C */ void init(dBgS_Acch*, f32, f32);
     /* 80051008 */ void setEffectCenter(dKy_tevstr_c const*, cXyz const*, u32, u32, cXyz const*,
                                         csXyz const*, cXyz const*, s8, f32, f32);
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcCyl {};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-};
-
-struct dCcD_Cyl {
-    /* 800848B4 */ void Set(dCcD_SrcCyl const&);
 };
 
 struct dBgW_Base {};
@@ -137,14 +66,6 @@ struct dBgS_MoveBgActor {
     /* 80078950 */ void MoveBGExecute();
 };
 
-struct cM3dGCyl {
-    /* 80C12F30 */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 80C12F78 */ ~cM3dGAab();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -156,20 +77,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -250,9 +157,6 @@ extern "C" void __ct__11cBgS_GndChkFv();
 extern "C" void ChkUsed__9cBgW_BgIdCFv();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_28();
@@ -260,8 +164,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -269,8 +171,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //
@@ -535,7 +435,8 @@ daGraveStone_c::daObj_GrvStn_prtclMngr_c::daObj_GrvStn_prtclMngr_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_grave_stone/d_a_obj_grave_stone/__dt__8cM3dGCylFv.s"
 }
@@ -545,7 +446,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_grave_stone/d_a_obj_grave_stone/__dt__8cM3dGAabFv.s"
 }

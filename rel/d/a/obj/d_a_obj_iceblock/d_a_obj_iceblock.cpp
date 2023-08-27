@@ -11,61 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct dBgW_Base {
-    struct PushPullLabel {};
-};
-
-struct daObjIceBlk_c {
-    /* 80C21CD8 */ void PPCallBack(fopAc_ac_c*, fopAc_ac_c*, s16, dBgW_Base::PushPullLabel);
-    /* 80C21DC4 */ void initBaseMtx();
-    /* 80C21E24 */ void setBaseMtx();
-    /* 80C21EA4 */ void getPointNo();
-    /* 80C21F2C */ void loadCurrentPos();
-    /* 80C21FC8 */ void saveCurrentPos();
-    /* 80C22200 */ void enablePushPull();
-    /* 80C2224C */ void disablePushPull();
-    /* 80C22298 */ void Create();
-    /* 80C22618 */ void CreateHeap();
-    /* 80C227F4 */ void create1st();
-    /* 80C228B4 */ void Execute(f32 (**)[3][4]);
-    /* 80C2294C */ void checkWalk();
-    /* 80C22B04 */ void clrCounter();
-    /* 80C22B28 */ void mode_proc_call();
-    /* 80C22EF8 */ void mode_init_wait();
-    /* 80C22F74 */ void mode_proc_wait();
-    /* 80C23058 */ void mode_init_walk();
-    /* 80C23088 */ void mode_proc_walk();
-    /* 80C23388 */ void setEffect();
-    /* 80C2350C */ void checkWallPre(s16);
-    /* 80C236C8 */ void checkBgHit();
-    /* 80C237B0 */ void bgCheck();
-    /* 80C23860 */ void init_bgCheck();
-    /* 80C238B0 */ void checkFall();
-    /* 80C23A50 */ void event_proc_call();
-    /* 80C23B0C */ void actionWait();
-    /* 80C23B70 */ void actionOrderEvent();
-    /* 80C23C1C */ void actionEvent();
-    /* 80C23CA0 */ void actionDead();
-    /* 80C23CA4 */ void Draw();
-    /* 80C23DA8 */ void Delete();
-};
-
-struct J3DModel {};
-
-struct daMirror_c {
-    /* 8003194C */ void entry(J3DModel*);
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -76,26 +21,7 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -106,19 +32,10 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 };
 
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
 struct dCamera_c {
     /* 801614AC */ void Start();
     /* 801614D0 */ void Stop();
     /* 8016300C */ void SetTrimSize(s32);
-};
-
-struct dBgW {
-    /* 8007B970 */ dBgW();
-    /* 8007B9C0 */ void Move();
 };
 
 struct dBgS_PolyPassChk {
@@ -136,10 +53,6 @@ struct dBgS_ObjGndChk {
 
 struct dBgS_ObjAcch {
     /* 80C241A0 */ ~dBgS_ObjAcch();
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
 };
 
 struct dBgS_MoveBgActor {
@@ -179,24 +92,6 @@ struct dBgS_Acch {
 struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
     /* 80075B84 */ void RideCallBack(cBgS_PolyInfo const&, fopAc_ac_c*);
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgD_t {};
-
-struct cBgW {
-    /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
 };
 
 struct cBgS_LinChk {};
@@ -356,8 +251,6 @@ extern "C" void cLib_chaseF__FPfff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_25();
@@ -369,8 +262,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -378,9 +269,7 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 BaseZ__4cXyz[12];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80C24698[4];
 

@@ -10,39 +10,11 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 805A8DF4 */ ~mDoHIO_entry_c();
 };
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daYkgr_c {
-    /* 805A85D4 */ void getPosRate();
-
-    static u8 m_aim_rate[4];
-    static u8 m_path[4];
-    static u8 m_emitter[4];
-};
-
-struct daYkgr_HIO_c {
-    /* 805A8D98 */ ~daYkgr_HIO_c();
-};
-
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
-
-struct cXyz {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -64,13 +36,6 @@ struct JPAParticleCallBack {
     /* 8027EFA4 */ ~JPAParticleCallBack();
     /* 805A8E9C */ void execute(JPABaseEmitter*, JPABaseParticle*);
     /* 805A8FA4 */ void draw(JPABaseEmitter*, JPABaseParticle*);
-};
-
-struct JGeometry {
-    template <typename A1>
-    struct TVec3 {};
-    /* TVec3<f32> */
-    struct TVec3__template0 {};
 };
 
 //
@@ -111,22 +76,13 @@ extern "C" void cLib_addCalc2__FPffff();
 extern "C" void __dt__19JPAParticleCallBackFv();
 extern "C" void func_802807E0();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECSquareDistance();
-extern "C" void GXSetIndTexMtx();
-extern "C" void GXSetTevAlphaIn();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u32 __float_nan;
-extern "C" extern u32 __float_max;
 extern "C" extern u8 struct_80450D8C[4];
 extern "C" u8 m_aim_rate__8daYkgr_c[4];
 extern "C" u8 m_path__8daYkgr_c[4];

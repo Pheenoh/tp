@@ -10,27 +10,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daAndsw2_c {
-    /* 804D5DF8 */ void getEventNo();
-    /* 804D5E04 */ void getSwbit();
-    /* 804D5E10 */ void getSwbit2();
-    /* 804D5E1C */ void getType();
-    /* 804D5E28 */ void getTimer();
-    /* 804D5E34 */ void getNum();
-    /* 804D5E40 */ void getTopSw();
-    /* 804D5EB0 */ void getSwAns();
-    /* 804D5EBC */ void chkAllSw2();
-    /* 804D5F64 */ void chkSwStatus();
-    /* 804D6024 */ void chkSwStatus2();
-    /* 804D60CC */ ~daAndsw2_c();
-    /* 804D6120 */ void create();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
@@ -39,11 +18,6 @@ struct dSv_info_c {
 
 struct dEvt_control_c {
     /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
 };
 
 //
@@ -95,8 +69,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 
 //

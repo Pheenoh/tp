@@ -10,31 +10,10 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daSwBall_c {
-    /* 80D4E054 */ void checkArea_sub(fopAc_ac_c*);
-    /* 80D4E194 */ void checkArea();
-    /* 80D4E248 */ void search_ball();
-    /* 80D4E374 */ void Create();
-    /* 80D4E42C */ void create();
-    /* 80D4E494 */ void execute();
-    /* 80D4E524 */ void actionRun();
-    /* 80D4E6C4 */ void actionStop();
-    /* 80D4E6C8 */ void PutCrrPos();
-    /* 80D4E90C */ bool _delete();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
 };
-
-struct cXyz {};
-
-struct Vec {};
 
 //
 // Forward References:
@@ -77,8 +56,6 @@ extern "C" void _savegpr_25();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 
 //

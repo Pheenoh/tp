@@ -10,196 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct msg_class {};
-
-struct csXyz {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 8094A9BC */ ~mDoHIO_entry_c();
-};
-
-struct J3DAnmTexPattern {};
-
-struct J3DMaterialTable {
-    /* 8032F6F8 */ void removeTexNoAnimator(J3DAnmTexPattern*);
-};
-
-struct mDoExt_btpAnm {
-    /* 8000D54C */ void init(J3DMaterialTable*, J3DAnmTexPattern*, int, int, f32, s16, s16);
-    /* 8000D5E8 */ void entry(J3DMaterialTable*, s16);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0420 */ ~Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTag_MynaLight_c {
-    /* 80D5CE40 */ void setTurnOnOffChange();
-};
-
-struct daPy_py_c {
-    /* 8094AA04 */ void getHeadTopPos() const;
-};
-
-struct daObj_SSItem_c {
-    /* 80CE77F8 */ void getExchangeItemPtr();
-};
-
-struct J3DAnmTransformKey {};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80946370 */ ~J3DFrameCtrl();
-};
-
-struct J3DJoint {};
-
-struct daMyna_c {
-    /* 80945E80 */ void baseMotion00(int);
-    /* 80945EC0 */ void baseMotion01(int);
-    /* 80945F00 */ void baseMotion02(int);
-    /* 80945F40 */ void baseMotion03(int);
-    /* 80945FA0 */ void baseMotion04(int);
-    /* 80946000 */ void baseMotion05(int);
-    /* 80946060 */ void baseMotion06(int);
-    /* 809460A0 */ void create();
-    /* 809463B8 */ void destroy();
-    /* 8094640C */ void draw();
-    /* 809464CC */ void execute();
-    /* 809466D8 */ void createHeap();
-    /* 8094686C */ void jntNodeCB(J3DJoint*, J3DModel*);
-    /* 809468EC */ void attack_wait_init();
-    /* 8094692C */ void attack_wait_move();
-    /* 80946AEC */ void attack_before_talk_init();
-    /* 80946B40 */ void attack_before_talk_move();
-    /* 80946BB4 */ void attack_fly_init();
-    /* 80946BF4 */ void attack_fly_move();
-    /* 80946D20 */ void attack_init();
-    /* 80946D64 */ void attack_move();
-    /* 80946DD4 */ void attack_after_talk_init();
-    /* 80946E08 */ void attack_after_talk_move();
-    /* 80946E84 */ void greet_wait_init();
-    /* 80946EB0 */ void greet_wait_move();
-    /* 80947030 */ void greet_talk_init();
-    /* 8094711C */ void greet_talk_move();
-    /* 809471BC */ void shopping_wait_init();
-    /* 809471E8 */ void shopping_wait_move();
-    /* 809475B4 */ void shopping_talk_init();
-    /* 80947630 */ void shopping_talk_move();
-    /* 809476A0 */ void thanks_talk_init();
-    /* 8094772C */ void thanks_talk_move();
-    /* 80947794 */ void byebye_talk_init();
-    /* 809478D0 */ void byebye_talk_move();
-    /* 80947A00 */ void turn_on_start_init();
-    /* 80947AA4 */ void turn_on_start_move();
-    /* 80947CD0 */ void turn_on_init();
-    /* 80947CFC */ void turn_on_move();
-    /* 80947D48 */ void turn_on_end1_init();
-    /* 80947D74 */ void turn_on_end1_move();
-    /* 80947E18 */ void turn_on_end2_init();
-    /* 80947E50 */ void turn_on_end2_move();
-    /* 80948070 */ void turn_on_end3_init();
-    /* 80948074 */ void turn_on_end3_move();
-    /* 809480E4 */ void wolf_talk_init();
-    /* 80948118 */ void wolf_talk_move();
-    /* 80948174 */ void attack_wait2_init();
-    /* 809481B4 */ void attack_wait2_move();
-    /* 80948388 */ void attack_before_talk2_init();
-    /* 809483DC */ void attack_before_talk2_move();
-    /* 80948444 */ void attack_fly2_init();
-    /* 80948484 */ void attack_fly2_move();
-    /* 80948600 */ void attack2_init();
-    /* 80948644 */ void attack2_move();
-    /* 809486F8 */ void attack2_talk_init();
-    /* 80948734 */ void attack2_talk_move();
-    /* 809487EC */ void soldoutItem(unsigned int);
-    /* 80948828 */ void fly_attack_move();
-    /* 80948ADC */ void fly_return_move();
-    /* 80948DFC */ void fly_body_wave();
-    /* 80948E84 */ void talkAnime(msg_class*);
-    /* 80948FAC */ void chkEvent();
-    /* 809490B8 */ void orderEvent();
-    /* 80949128 */ void deleteItem(int);
-    /* 80949144 */ void deleteItem(unsigned int);
-    /* 80949190 */ void initiate();
-    /* 80949408 */ void setItemInfo();
-    /* 80949544 */ void setRoomNo();
-    /* 80949588 */ void setCollision();
-    /* 809495E0 */ void set_mtx();
-    /* 80949744 */ void animePlay();
-    /* 8094983C */ void setMcaMorfAnm(J3DAnmTransformKey*, f32, f32, int, int, int);
-    /* 809498B8 */ void setBtpAnm(J3DAnmTexPattern*, J3DModelData*, f32, int);
-    /* 809498F8 */ void getTrnsfrmKeyAnm(char*);
-    /* 80949948 */ void getTexPtrnAnm(char*);
-    /* 80949A70 */ void checkEndAnm(J3DFrameCtrl*);
-    /* 80949998 */ void checkEndAnm(f32);
-    /* 80949AD4 */ void getItemNumMax();
-    /* 80949AE0 */ void getItemType(void*);
-    /* 80949C0C */ void getFlowNodeNum();
-    /* 80949C44 */ void checkDead();
-    /* 80949D54 */ void chkPlayerInEvtArea(fopAc_ac_c*, cXyz);
-    /* 80949EE8 */ void animeControl();
-    /* 8094A054 */ void setAnimeType(u8, f32);
-    /* 8094A098 */ void playDefaultWaitAnime();
-    /* 8094A608 */ void setDefaultWaitAnime(u8);
-    /* 8094AA20 */ ~daMyna_c();
-
-    static u8 const mCcDSph[64];
-    static u8 mBaseMotionTBL[84];
-};
-
-struct daMyna_HIO_c {
-    /* 8094A960 */ ~daMyna_HIO_c();
 };
 
 struct dSv_memBit_c {
@@ -216,60 +28,8 @@ struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
 struct dMsgObject_c {
     /* 8023822C */ void getStatus();
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F48 */ ~dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-    /* 8024A548 */ void getMsg();
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 800432EC */ void convPId(unsigned int);
-};
-
-struct dEvent_manager_c {
-    /* 800487F0 */ void ChkPresentEnd();
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80083830 */ void Move();
-    /* 80946314 */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-    /* 800842C0 */ void ChkAtHit();
 };
 
 struct cBgS_PolyInfo {};
@@ -278,37 +38,9 @@ struct dBgS {
     /* 80075100 */ void GetRoomId(cBgS_PolyInfo const&);
 };
 
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 80946284 */ ~cM3dGSph();
-};
-
-struct cM3dGAab {
-    /* 809462CC */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 8094A918 */ ~cCcD_GStts();
-};
-
 struct cBgS_GndChk {
     /* 80267C1C */ cBgS_GndChk();
     /* 80267C94 */ ~cBgS_GndChk();
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
 };
 
 //
@@ -511,10 +243,6 @@ extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void removeTexNoAnimator__16J3DMaterialTableFP16J3DAnmTexPattern();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSubtract();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_test();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_23();
@@ -529,9 +257,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -540,11 +265,8 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" void __register_global_object();
 extern "C" void getExchangeItemPtr__14daObj_SSItem_cFv();
 extern "C" void setTurnOnOffChange__17daTag_MynaLight_cFv();
@@ -1571,7 +1293,8 @@ asm void daMyna_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__8cM3dGSphFv.s"
 }
@@ -1581,7 +1304,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__8cM3dGAabFv.s"
 }
@@ -1591,7 +1315,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__10dCcD_GSttsFv.s"
 }
@@ -1601,7 +1326,8 @@ asm dCcD_GStts::~dCcD_GStts() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__12J3DFrameCtrlFv.s"
 }
@@ -2574,7 +2300,8 @@ static bool daMyna_IsDelete(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__10cCcD_GSttsFv.s"
 }

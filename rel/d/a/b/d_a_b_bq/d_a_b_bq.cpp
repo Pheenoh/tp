@@ -15,78 +15,8 @@ namespace std {
 /* 805BA4D8 */ void fabsf(f32);
 };
 
-struct request_of_phase_process_class {};
-
-struct obj_ystone_class {
-    /* 805BA234 */ void setCurrentPos(cXyz);
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 805BA314 */ void multVecZero(Vec*);
-
-    static u8 now[48];
-};
-
 struct mDoGph_gInf_c {
     /* 80008078 */ void onBlure();
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 805BA080 */ void cancelOriginalDemo();
-    /* 805BA18C */ void changeDemoMode(u32, int, int, s16);
-    /* 805BA1A0 */ void changeOriginalDemo();
-};
-
-struct daB_BQ_HIO_c {
-    /* 805B356C */ daB_BQ_HIO_c();
-    /* 805B9FFC */ ~daB_BQ_HIO_c();
 };
 
 struct dVibration_c {
@@ -105,27 +35,7 @@ struct dSv_info_c {
     /* 800352B0 */ void offSwitch(int, int);
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 805BA124 */ ~csXyz();
-};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -139,11 +49,6 @@ struct dPa_control_c {
     /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
                             cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
                             _GXColor const*, cXyz const*, f32);
-};
-
-struct dEvt_info_c {
-    /* 805BA1C4 */ void onCondition(u16);
-    /* 805BA1D4 */ void checkCommandDemoAccrpt();
 };
 
 struct dEvt_control_c {
@@ -173,64 +78,12 @@ struct dBgS_LinChk {
     /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_LinChk {
     /* 805B8A04 */ void GetCross();
 };
 
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-struct b_bq_class {
-    /* 805B9B3C */ b_bq_class();
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct Z2SeqMgr {
-    /* 802AF010 */ void bgmStart(u32, u32, s32);
-    /* 802AF408 */ void bgmStop(u32, s32);
-    /* 802AF49C */ void subBgmStart(u32);
-    /* 802AF884 */ void subBgmStop();
-    /* 802AFB94 */ void bgmStreamPrepare(u32);
-    /* 802AFE18 */ void bgmStreamPlay();
-    /* 802AFF8C */ void changeBgmStatus(s32);
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {
-    /* 805BA2E8 */ void setBaseTRMtx(f32 (*)[4]);
-    /* 805BA338 */ void getAnmMtx(int);
-};
-
-struct J3DJoint {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 8032842C */ void checkPass(f32);
-    /* 805B9654 */ ~J3DFrameCtrl();
 };
 
 //
@@ -432,8 +285,6 @@ extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void _savegpr_22();
 extern "C" void _savegpr_23();
@@ -449,8 +300,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -458,8 +307,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
@@ -2505,7 +2352,8 @@ static asm void useHeapInit(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/__dt__12J3DFrameCtrlFv.s"
 }
@@ -2678,7 +2526,8 @@ asm void dEvt_control_c::checkSkipEdge() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void fopAcM_GetParam(void const* param_0) {
+// static asm void fopAcM_GetParam(void const* param_0) {
+extern "C" asm void fopAcM_GetParam__FPCv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/fopAcM_GetParam__FPCv.s"
 }
@@ -2698,7 +2547,8 @@ static asm void dComIfGs_onStageBossEnemy() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/__dt__5csXyzFv.s"
 }
@@ -2770,7 +2620,8 @@ asm void dEvt_info_c::onCondition(u16 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dEvt_info_c::checkCommandDemoAccrpt() {
+// asm void dEvt_info_c::checkCommandDemoAccrpt() {
+extern "C" asm void checkCommandDemoAccrpt__11dEvt_info_cFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/checkCommandDemoAccrpt__11dEvt_info_cFv.s"
 }
@@ -2780,7 +2631,8 @@ asm void dEvt_info_c::checkCommandDemoAccrpt() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void dComIfGp_getPlayer(int param_0) {
+// static asm void dComIfGp_getPlayer(int param_0) {
+extern "C" asm void dComIfGp_getPlayer__Fi() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/dComIfGp_getPlayer__Fi.s"
 }
@@ -2862,7 +2714,8 @@ asm void J3DModel::setBaseTRMtx(f32 (*param_0)[4]) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
+// asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
+extern "C" asm void multVecZero__14mDoMtx_stack_cFP3Vec() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/multVecZero__14mDoMtx_stack_cFP3Vec.s"
 }
@@ -2872,7 +2725,8 @@ asm void mDoMtx_stack_c::multVecZero(Vec* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DModel::getAnmMtx(int param_0) {
+// asm void J3DModel::getAnmMtx(int param_0) {
+extern "C" asm void getAnmMtx__8J3DModelFi() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/getAnmMtx__8J3DModelFi.s"
 }
@@ -2882,7 +2736,8 @@ asm void J3DModel::getAnmMtx(int param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void mDoAud_seStart(u32 param_0, Vec const* param_1, u32 param_2, s8 param_3) {
+// static asm void mDoAud_seStart(u32 param_0, Vec const* param_1, u32 param_2, s8 param_3) {
+extern "C" asm void mDoAud_seStart__FUlPC3VecUlSc() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/mDoAud_seStart__FUlPC3VecUlSc.s"
 }

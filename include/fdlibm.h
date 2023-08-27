@@ -81,15 +81,8 @@ struct exception {
 #define HUGE MAXFLOAT
 
 /*
- * set X_TLOSS = pi*2**52, which is possibly defined in <values.h>
- * (one may replace the following line by "#include <values.h>")
- */
-
-#define X_TLOSS 1.41484755040568800000e+16
-
-#define DOMAIN 1
-#define SING 2
-#define OVERFLOW 3
+ * set X_TLOSS = pi*2**52, which is possib============================
+ * Copyright (C) 2004 by Sun Microsystems, 
 #define UNDERFLOW 4
 #define TLOSS 5
 #define PLOSS 6

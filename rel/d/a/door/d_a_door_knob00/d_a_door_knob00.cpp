@@ -10,31 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
 struct knob_param_c {
     /* 8045E858 */ void getDoorModel(fopAc_ac_c*);
     /* 8045E864 */ void getDoorLightInf(fopAc_ac_c*);
@@ -42,94 +17,14 @@ struct knob_param_c {
     /* 8045E87C */ void getExitNo(fopAc_ac_c*);
 };
 
-struct daKnob20_c {
-    /* 8045E888 */ void getAlwaysArcName();
-    /* 8045E898 */ void getEvArcName();
-    /* 8045E8A8 */ void getDzb();
-    /* 8045E8B8 */ void getDummyBmd();
-    /* 8045E8C8 */ void getBmd();
-    /* 8045E91C */ void getDoorModelData();
-    /* 8045E960 */ void CreateHeap();
-    /* 8045EBA0 */ void calcMtx();
-    /* 8045EC44 */ void CreateInit();
-    /* 8045ED1C */ void create();
-    /* 8045EE5C */ void checkOpenDoor(int*);
-    /* 8045EEE4 */ void setActionFromFlow();
-    /* 8045EFCC */ void setEventId();
-    /* 8045F058 */ void checkArea(f32, f32, f32);
-    /* 8045F29C */ void setEventPrm();
-    /* 8045F428 */ void releaseBG();
-    /* 8045F478 */ void frontCheck();
-    /* 8045F520 */ void getDemoAction();
-    /* 8045F568 */ void demoProc();
-    /* 8045F8A4 */ void setStart(f32, f32);
-    /* 8045F94C */ void setAngle();
-    /* 8045F968 */ void adjustmentProc();
-    /* 8045FA98 */ void openInit(int);
-    /* 8045FBF8 */ void openProc(int);
-    /* 8045FCA4 */ void openEnd(int);
-    /* 8045FDF8 */ void initOpenDemo();
-    /* 8045FE68 */ void startDemoProc();
-    /* 8045FF08 */ void actionWait();
-    /* 8045FFB0 */ void actionSpecialDemo();
-    /* 8046002C */ void actionDemo();
-    /* 804600C0 */ void actionTalk();
-    /* 8046012C */ void actionTalkWait();
-    /* 804601D4 */ void actionTalkOpen();
-    /* 8046027C */ void actionInit();
-    /* 804602D8 */ bool actionDead();
-    /* 804602E0 */ void execute();
-    /* 8046045C */ void draw();
-    /* 80460550 */ void Delete();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
 struct dSv_restart_c {
     /* 80034F80 */ void setRoom(cXyz const&, s16, s8);
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
 };
 
 struct dMsgObject_c {
     /* 802371E4 */ void isPlaceMessage();
     /* 80238098 */ void endFlowGroup();
     /* 8023822C */ void getStatus();
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A13C */ void checkOpenDoor(fopAc_ac_c*, int*);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dBgW_Base {};
@@ -155,32 +50,6 @@ struct cBgW {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JUTNameTab {
-    /* 802DEA58 */ void getIndex(char const*) const;
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 8032842C */ void checkPass(f32);
-    /* 8045EE14 */ ~J3DFrameCtrl();
 };
 
 //
@@ -287,10 +156,6 @@ extern "C" void __dl__FPv();
 extern "C" void getIndex__10JUTNameTabCFPCc();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_26();
@@ -300,18 +165,12 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
 extern "C" void sprintf();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_meter2_info[248];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //
@@ -807,7 +666,8 @@ asm void daKnob20_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/door/d_a_door_knob00/d_a_door_knob00/__dt__12J3DFrameCtrlFv.s"
 }

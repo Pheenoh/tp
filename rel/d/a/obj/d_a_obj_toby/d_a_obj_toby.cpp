@@ -15,56 +15,8 @@ struct yuka_s {
     /* 80D15530 */ yuka_s();
 };
 
-struct request_of_phase_process_class {};
-
-struct obj_toby_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 8015F89C */ void checkBoomerangCharge();
-    /* 80D155B8 */ void getLeftHandPos() const;
-};
-
-struct daObj_Toby_HIO_c {
-    /* 80D1378C */ daObj_Toby_HIO_c();
-    /* 80D15534 */ ~daObj_Toby_HIO_c();
-};
-
-struct daE_HZ_c {
-    /* 806EB0FC */ void isWait();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
-};
-
-struct dKy_tevstr_c {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80D139FC */ ~cXyz();
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct JPAEmitterManager {};
@@ -75,12 +27,6 @@ struct dPa_simpleEcallBack {
 
 struct dPa_levelEcallBack {};
 
-struct csXyz {
-    /* 8026745C */ void operator+=(csXyz&);
-};
-
-struct _GXColor {};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
@@ -89,14 +35,6 @@ struct dPa_control_c {
                             cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
                             _GXColor const*, cXyz const*, f32);
 };
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct J3DModel {};
-
-struct J3DModelData {};
 
 struct dComIfG_play_c {
     /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
@@ -131,16 +69,6 @@ struct cBgW {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
 };
 
 //
@@ -223,11 +151,6 @@ extern "C" void MtxPosition__FP4cXyzP4cXyz();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSubtract();
-extern "C" void PSVECSquareMag();
 extern "C" void __construct_array();
 extern "C" void _savegpr_21();
 extern "C" void _savegpr_23();
@@ -242,13 +165,9 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void isWait__8daE_HZ_cFv();
 extern "C" void __register_global_object();
@@ -405,7 +324,8 @@ static asm void s_bomb_sub(void* param_0, void* param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_toby/d_a_obj_toby/__dt__4cXyzFv.s"
 }

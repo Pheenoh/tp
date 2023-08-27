@@ -11,52 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoExt_3DlineMat_c {};
-
-struct mDoExt_3DlineMatSortPacket {
-    /* 80014738 */ void setMat(mDoExt_3DlineMat_c*);
-};
-
 struct ResTIMG {};
-
-struct _GXColor {};
-
-struct dKy_tevstr_c {};
-
-struct mDoExt_3DlineMat1_c {
-    /* 80013360 */ void init(u16, u16, ResTIMG*, int);
-    /* 80013FB0 */ void update(int, _GXColor&, dKy_tevstr_c*);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjLndRope_c {
-    /* 80C521F8 */ void create_init();
-    /* 80C5285C */ void initBaseMtx();
-    /* 80C52890 */ void setBaseMtx();
-    /* 80C528E0 */ void setNormalRopePos();
-
-    static u8 const M_attr[20];
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
 
 //
 // Forward References:
@@ -116,7 +71,6 @@ extern "C" void cM_rnd__Fv();
 extern "C" void cLib_targetAngleY__FPC3VecPC3Vec();
 extern "C" void cLib_targetAngleX__FPC4cXyzPC4cXyz();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_25();
@@ -124,15 +78,12 @@ extern "C" void _savegpr_26();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" extern void* __vt__19mDoExt_3DlineMat1_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
 extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 
 //
 // Declarations:

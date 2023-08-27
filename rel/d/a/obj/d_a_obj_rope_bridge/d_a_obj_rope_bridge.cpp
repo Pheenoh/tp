@@ -11,68 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_3DlineMat_c {};
-
-struct mDoExt_3DlineMatSortPacket {
-    /* 80014738 */ void setMat(mDoExt_3DlineMat_c*);
-};
-
 struct ResTIMG {};
-
-struct _GXColor {};
-
-struct dKy_tevstr_c {};
-
-struct mDoExt_3DlineMat1_c {
-    /* 80013360 */ void init(u16, u16, ResTIMG*, int);
-    /* 8001373C */ void update(int, f32, _GXColor&, u16, dKy_tevstr_c*);
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_lc_c {
-    /* 8001DC68 */ void lineCheck(cXyz const*, cXyz const*, fopAc_ac_c const*);
-
-    static u8 mLineCheck[112];
-};
-
-struct daObjRBridge_c {
-    /* 80595E38 */ void initBaseMtx();
-    /* 80595ED8 */ void setBaseMtx();
-    /* 80595F84 */ void checkE3Special();
-    /* 80595FE0 */ void setStPos();
-    /* 8059616C */ void initLinePos();
-    /* 805963C4 */ void setLinePos();
-    /* 80596768 */ void getLinePosSt(cXyz*);
-    /* 805967E4 */ void getLinePosBrg(int, cXyz*);
-    /* 8059689C */ void checkTight();
-    /* 805969FC */ void Create();
-    /* 80596B88 */ void CreateHeap();
-    /* 80596DEC */ void create1st();
-    /* 80596EBC */ void Execute(f32 (**)[3][4]);
-    /* 80596FA8 */ void action();
-    /* 8059715C */ void init_wait();
-    /* 80597170 */ void mode_wait();
-    /* 805973BC */ void init_cut();
-    /* 805973E4 */ void mode_cut();
-    /* 805975E8 */ void init_end();
-    /* 805975F4 */ void mode_end();
-    /* 805975F8 */ void Draw();
-    /* 805977D0 */ void checkHimoCulling();
-    /* 805978BC */ void Delete();
-};
 
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
@@ -81,19 +20,6 @@ struct dVibration_c {
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dBgW {};
@@ -116,21 +42,6 @@ struct dBgS_MoveBgActor {
 struct dAttLook_c {
     /* 80073D08 */ void request(fopAc_ac_c*, f32, f32, f32, s16, int);
 };
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-    /* 802BE4A4 */ void startCollisionSE(u32, u32, Z2SoundObjBase*);
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -239,8 +150,6 @@ extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void* __nw__FUl();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void __construct_new_array();
 extern "C" void __ptmf_scall();
@@ -256,8 +165,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
 extern "C" extern void* __vt__19mDoExt_3DlineMat1_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__8dCcD_Cps[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -268,8 +175,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mLineCheck__11fopAcM_lc_c[112];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_805980F8[4];

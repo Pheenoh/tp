@@ -10,108 +10,14 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C8A368 */ ~mDoHIO_entry_c();
-};
-
-struct J3DAnmTextureSRTKey {};
-
-struct J3DMaterialTable {
-    /* 8032F7B4 */ void removeTexMtxAnimator(J3DAnmTextureSRTKey*);
-};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct dBgW {};
-
-struct daOptiLift_c {
-    /* 80C8A3B0 */ void setBaseMtx();
-    /* 80C8A438 */ void CreateHeap();
-    /* 80C8A500 */ void create();
-    /* 80C8A780 */ void lightSet();
-    /* 80C8A7D0 */ void rideCallBack(dBgW*, fopAc_ac_c*, fopAc_ac_c*);
-    /* 80C8A7E8 */ void Execute(f32 (**)[3][4]);
-    /* 80C8A848 */ void moveLift();
-    /* 80C8AAC4 */ void init_modeAcc();
-    /* 80C8AAD0 */ void modeAcc();
-    /* 80C8ABB0 */ void init_modeMove();
-    /* 80C8ABBC */ void modeMove();
-    /* 80C8AED4 */ void init_modeBrk();
-    /* 80C8AEE0 */ void modeBrk();
-    /* 80C8B100 */ void init_modeMoveInit();
-    /* 80C8B1B0 */ void modeMoveInit();
-    /* 80C8B1F0 */ void init_modeMoveWait();
-    /* 80C8B230 */ void modeMoveWait();
-    /* 80C8B288 */ void init_modeWait();
-    /* 80C8B294 */ void modeWait();
-    /* 80C8B298 */ void init_modeStop();
-    /* 80C8B318 */ void modeStop();
-    /* 80C8B428 */ void init_modeInitSet();
-    /* 80C8B464 */ void modeInitSet();
-    /* 80C8B484 */ void init_modeInitSet2();
-    /* 80C8B4B8 */ void modeInitSet2();
-    /* 80C8B4D8 */ void liftReset();
-    /* 80C8B53C */ void setNextPoint();
-    /* 80C8B66C */ void Draw();
-    /* 80C8B824 */ void Delete();
-
-    static u8 const mSpeed[64];
-};
-
-struct daOptiLift_HIO_c {
-    /* 80C8A30C */ daOptiLift_HIO_c();
-    /* 80C8B900 */ ~daOptiLift_HIO_c();
 };
 
 struct dSv_info_c {
     /* 800352B0 */ void offSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 8026702C */ bool operator==(Vec const&) const;
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dBgW_Base {};
-
-struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -131,32 +37,8 @@ struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
 };
 
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80C8A738 */ ~J3DFrameCtrl();
 };
 
 //
@@ -250,24 +132,14 @@ extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void removeTexMtxAnimator__16J3DMaterialTableFP19J3DAnmTextureSRTKey();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXTrans();
-extern "C" void C_MTXLightOrtho();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_scall();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 
@@ -549,7 +421,8 @@ asm void daOptiLift_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv8OptiLift/d_a_obj_lv8OptiLift/__dt__12J3DFrameCtrlFv.s"
 }

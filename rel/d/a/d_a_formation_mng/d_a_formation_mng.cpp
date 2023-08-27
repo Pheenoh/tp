@@ -10,82 +10,11 @@
 // Types:
 //
 
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CCC8 */ void push();
-    /* 8000CD14 */ void pop();
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct Vec {};
-
-struct daNpcFgd_c {
-    /* 809BA53C */ void initPosAngle(Vec&, s16);
-};
-
-struct J3DAnmTransformKey {};
-
-struct daNpcCd2_c {
-    /* 801580F0 */ void getAnmP(int, int);
-    /* 80158F00 */ void setAnm(J3DAnmTransformKey*, f32, f32, int, int, int);
-};
-
-struct FmtPos_c {
-    /* 80836C24 */ ~FmtPos_c();
-    /* 80836C60 */ FmtPos_c();
-};
-
-struct daFmtMng_c {
-    /* 80835558 */ void initWait();
-    /* 80835624 */ void initMemberPos();
-    /* 80835B24 */ void executeWait();
-    /* 80835D28 */ void initWalk();
-    /* 80835DEC */ void executeWalk();
-    /* 8083622C */ void setMovePath(FmtPos_c*, int);
-    /* 80836810 */ void initReverse();
-    /* 808368A4 */ void executeReverse();
-    /* 80836C64 */ void initMotion();
-    /* 80836E20 */ void executeMotion();
-    /* 80836F78 */ void initFight();
-    /* 80837078 */ void executeFight();
-    /* 808374B4 */ void create();
-    /* 8083750C */ void create_init();
-
-    static u8 const M_attr[24];
-    static u8 ActionTable[120];
-};
-
-struct daFmtMng_Path_c {
-    /* 808365B0 */ void checkPathEnd(cXyz, f32);
-    /* 8083665C */ void checkPoint(cXyz, f32);
-};
-
 struct dSv_danBit_c {
     /* 80034B98 */ void onSwitch(int);
 };
 
 struct dPath {};
-
-struct csXyz {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
 
 struct FmtMember_c {
     /* 80837458 */ ~FmtMember_c();
@@ -162,8 +91,6 @@ extern "C" void cLib_targetAngleY__FPC3VecPC3Vec();
 extern "C" void cLib_distanceAngleS__Fss();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareDistance();
 extern "C" void __destroy_new_array();
 extern "C" void __construct_new_array();
 extern "C" void __ptmf_scall();
@@ -181,13 +108,9 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void pow();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" void initPosAngle__10daNpcFgd_cFR3Vecs();
 

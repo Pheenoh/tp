@@ -11,86 +11,16 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 80BBB1F4 */ ~csXyz();
-    /* 80BBB558 */ csXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObj_BouMato_c {
-    /* 80BBAFEC */ ~daObj_BouMato_c();
-    /* 80BBB230 */ void create();
-    /* 80BBB770 */ void CreateHeap();
-    /* 80BBB800 */ void Delete();
-    /* 80BBB834 */ void Execute();
-    /* 80BBBD80 */ void Draw();
-    /* 80BBBE50 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80BBBE70 */ void tgHitCallBack(fopAc_ac_c*, dCcD_GObjInf*, fopAc_ac_c*, dCcD_GObjInf*);
-    /* 80BBBEA0 */ void srchArrow(void*, void*);
-    /* 80BBBF4C */ void deleteStuckArrow();
-    /* 80BBBFF8 */ void getResName();
-    /* 80BBC008 */ void setSwayParam(fopAc_ac_c*);
-    /* 80BBC19C */ void setEnvTevColor();
-    /* 80BBC1F8 */ void setRoomNo();
-    /* 80BBC23C */ void setMtx();
-};
-
-struct daObj_BouMato_Param_c {
-    /* 80BBC404 */ ~daObj_BouMato_Param_c();
-
-    static u8 const m[28];
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
 
 struct dJntColData_c {};
 
 struct dJntCol_c {
     /* 80035C8C */ dJntCol_c();
     /* 80035CA0 */ void init(fopAc_ac_c*, dJntColData_c const*, J3DModel*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dDlst_shadowControl_c {
@@ -131,23 +61,9 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_GndChk {
     /* 80267C1C */ cBgS_GndChk();
     /* 80267C94 */ ~cBgS_GndChk();
-};
-
-struct _GXTexObj {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -261,9 +177,6 @@ extern "C" void SetR__8cM3dGCylFf();
 extern "C" void cLib_addCalc2__FPffff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_25();
@@ -272,8 +185,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -282,7 +193,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -428,7 +338,8 @@ asm daObj_BouMato_c::~daObj_BouMato_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_boumato/d_a_obj_boumato/__dt__5csXyzFv.s"
 }
@@ -489,7 +400,8 @@ asm void daObj_BouMato_c::create() {
 #pragma pop
 
 /* 80BBB558-80BBB55C 000658 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

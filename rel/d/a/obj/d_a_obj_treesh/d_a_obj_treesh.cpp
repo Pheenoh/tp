@@ -10,61 +10,13 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80D1F148 */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {};
-
-struct daTreeSh_c {
-    /* 80D1F258 */ void initBaseMtx();
-    /* 80D1F294 */ void setBaseMtx();
-    /* 80D1F2E8 */ void CreateHeap();
-    /* 80D1F358 */ void Create();
-    /* 80D1F414 */ void create1st();
-    /* 80D1F49C */ void Execute(f32 (**)[3][4]);
-    /* 80D1F648 */ void Draw();
-    /* 80D1F6EC */ void Delete();
-};
-
-struct daTreeSh_HIO_c {
-    /* 80D1F0CC */ daTreeSh_HIO_c();
-    /* 80D1F81C */ ~daTreeSh_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {
-    /* 80D1F10C */ ~csXyz();
-    /* 80D1F7AC */ csXyz();
-};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -78,18 +30,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
 
 //
 // Forward References:
@@ -142,18 +82,13 @@ extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP
 extern "C" void cM_rndF__Ff();
 extern "C" void cM_rndFX__Ff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_23();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" void __register_global_object();
@@ -236,7 +171,8 @@ asm daTreeSh_HIO_c::daTreeSh_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_treesh/d_a_obj_treesh/__dt__5csXyzFv.s"
 }
@@ -406,7 +342,8 @@ static asm void daTreeSh_create1st(daTreeSh_c* param_0) {
 #pragma pop
 
 /* 80D1F7AC-80D1F7B0 0007CC 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

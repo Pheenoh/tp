@@ -11,112 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-    /* 8000CE70 */ void scaleM(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct J3DModel {};
-
-struct mDoExt_invisibleModel {
-    /* 8000E53C */ void create(J3DModel*, u8);
-    /* 8000E7C0 */ void entryDL(cXyz*);
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111EC */ void modelCalc();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct J3DJoint {};
-
-struct daE_FK_c {
-    /* 806B93CC */ void CreateHeap();
-    /* 806B9534 */ void initBodySph();
-    /* 806B95BC */ void initSwordSph();
-    /* 806B9670 */ void SetBodySph();
-    /* 806B97A4 */ void SetSwordSph();
-    /* 806B98C4 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 806B9A28 */ void SetAnm(int, int, f32, f32);
-    /* 806B9AD8 */ void Yazirushi();
-    /* 806B9B2C */ void SpeedSet();
-    /* 806B9BB4 */ void TnNeckSet(s16);
-    /* 806B9C14 */ void HsAngleSet();
-    /* 806B9C18 */ void SpeedChk();
-    /* 806B9C1C */ void SetAnmSpeed();
-    /* 806B9C20 */ void TgChk();
-    /* 806B9D00 */ void AtChk();
-    /* 806B9D7C */ void OnAt();
-    /* 806B9DA4 */ void R_MoveAction();
-    /* 806B9E6C */ void StartAction();
-    /* 806B9F20 */ void RunAction();
-    /* 806BA004 */ void Action();
-    /* 806BA024 */ void DeathAction();
-    /* 806BA188 */ void DamageChk();
-    /* 806BA24C */ void DamageAction();
-    /* 806BA330 */ void checkViewArea();
-    /* 806BA3B4 */ void AttackAction();
-    /* 806BA61C */ void UpDown();
-    /* 806BA6EC */ void Execute();
-    /* 806BABB8 */ void At_Check(int);
-    /* 806BACEC */ void Draw();
-    /* 806BADB4 */ void Delete();
-    /* 806BAE1C */ void setBaseMtx();
-    /* 806BAEB0 */ void setEfMtx();
-    /* 806BAF74 */ void CreateChk();
-    /* 806BB004 */ void Create();
-};
-
-struct daE_FK_HIO_c {
-    /* 806B938C */ daE_FK_HIO_c();
-    /* 806BB594 */ ~daE_FK_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dCcU_AtInfo {};
 
 struct dBgS_PolyPassChk {
@@ -138,20 +32,6 @@ struct dBgS_Acch {
     /* 800760A0 */ dBgS_Acch();
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
     /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-    /* 802C1B90 */ void setEnemyName(char const*);
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
 };
 
 //
@@ -276,8 +156,6 @@ extern "C" void init__15Z2CreatureEnemyFP3VecP3VecUcUc();
 extern "C" void setEnemyName__15Z2CreatureEnemyFPCc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_27();
@@ -287,8 +165,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -296,8 +172,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" void __register_global_object();

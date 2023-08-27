@@ -10,58 +10,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C87CF8 */ ~mDoHIO_entry_c();
 };
 
-struct fopAc_ac_c {};
-
-struct daKekaiTrap_c {
-    /* 80C87D40 */ void setBaseMtx();
-    /* 80C87DC8 */ void CreateHeap();
-    /* 80C87E48 */ void create();
-    /* 80C87FB0 */ void Execute(f32 (**)[3][4]);
-    /* 80C88000 */ void moveMain();
-    /* 80C88104 */ void init_modeWait();
-    /* 80C88110 */ void modeWait();
-    /* 80C88114 */ void init_modeMoveUp();
-    /* 80C88138 */ void modeMoveUp();
-    /* 80C881F0 */ void init_modeMoveDown();
-    /* 80C88214 */ void modeMoveDown();
-    /* 80C882C8 */ void Draw();
-    /* 80C8836C */ void Delete();
-};
-
-struct daKekaiTrap_HIO_c {
-    /* 80C87CAC */ daKekaiTrap_HIO_c();
-    /* 80C88438 */ ~daKekaiTrap_HIO_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dBgW_Base {};
@@ -69,8 +23,6 @@ struct dBgW_Base {};
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -93,8 +45,6 @@ struct dBgS {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -152,17 +102,11 @@ extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP
 extern "C" void cLib_addCalc__FPfffff();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" void __register_global_object();
 
 //

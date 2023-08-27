@@ -11,73 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daPy_py_c {
-    /* 8015F4F0 */ void setLookPos(cXyz*);
-};
-
-struct daItemShield_c {
-    /* 80CD6D9C */ void initBaseMtx();
-    /* 80CD6DD8 */ void setBaseMtx();
-    /* 80CD7094 */ void Create();
-    /* 80CD724C */ bool __CreateHeap();
-    /* 80CD7254 */ void create();
-    /* 80CD75EC */ void bg_check();
-    /* 80CD7734 */ void action_proc_call();
-    /* 80CD77F0 */ void actionInit();
-    /* 80CD7828 */ void actionWaitInit();
-    /* 80CD7890 */ void actionWait();
-    /* 80CD7C68 */ void initActionOrderGetDemo();
-    /* 80CD7D04 */ void actionOrderGetDemo();
-    /* 80CD7D80 */ void actionGetDemo();
-    /* 80CD7E00 */ void event_proc_call();
-    /* 80CD7EBC */ void actionWaitCamDemo();
-    /* 80CD7F20 */ void actionOrderCamDemo();
-    /* 80CD7F88 */ void actionCamDemo();
-    /* 80CD7FE4 */ void actionCamDemoEnd();
-    /* 80CD7FE8 */ void execute();
-    /* 80CD80EC */ void draw();
-    /* 80CD8140 */ void _delete();
-};
-
-struct daItemBase_c {
-    /* 80037A64 */ void hide();
-    /* 80037A74 */ void show();
-    /* 80037ACC */ void chkDraw();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144C7C */ void setListStart();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D18 */ void setTevStr();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 80145144 */ void chkFlag(int);
-    /* 80145164 */ void getTevFrm();
-    /* 80145180 */ void getBtpFrm();
-    /* 8014519C */ void getShadowSize();
-    /* 801451B4 */ void getCollisionH();
-    /* 801451D0 */ void getCollisionR();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
@@ -86,16 +19,6 @@ struct dSv_info_c {
 struct dItem_data {
     static void* field_item_res[1020];
     static u8 item_info[1020 + 4 /* padding */];
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047ADC */ void endCheckOld(char const*);
 };
 
 struct dBgS_PolyPassChk {
@@ -112,8 +35,6 @@ struct dBgS_AcchCir {
     /* 80CD750C */ ~dBgS_AcchCir();
 };
 
-struct csXyz {};
-
 struct dBgS {};
 
 struct dBgS_Acch {
@@ -123,24 +44,12 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
 
 struct cBgS {
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -255,13 +164,9 @@ extern "C" void SetR__8cM3dGCylFf();
 extern "C" void cLib_addCalcAngleS__FPsssss();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" void* field_item_res__10dItem_data[1020];

@@ -10,42 +10,7 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daNpcCoach_c {
-    /* 8099DBA4 */ void deleteFireArrow(unsigned int);
-    /* 8099DCE8 */ void deleteFireArrowFromList(unsigned int);
-};
-
-struct daCoachFire_c {
-    /* 80657B78 */ void create_init();
-    /* 80657C48 */ void initBaseMtx();
-    /* 80657CA8 */ void setBaseMtx();
-    /* 80657D2C */ void initCcSphere();
-
-    static u8 const M_attr[16];
-};
-
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct csXyz {};
-
-struct _GXColor {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
 
 struct dPa_control_c {
     struct level_c {
@@ -59,53 +24,10 @@ struct dPa_control_c {
     static u8 mParticleTracePCB[4 + 4 /* padding */];
 };
 
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 8065833C */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-    /* 80084460 */ void ChkTgHit();
-};
-
 struct dAttention_c {
     /* 8007353C */ void LockonTarget(s32);
     /* 800737E4 */ void LockonTruth();
 };
-
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 806582AC */ ~cM3dGSph();
-};
-
-struct cM3dGAab {
-    /* 806582F4 */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 80658398 */ ~cCcD_GStts();
-};
-
-struct LIGHT_INFLUENCE {};
 
 //
 // Forward References:
@@ -155,13 +77,8 @@ extern "C" void __mi__4cXyzCFRC3Vec();
 extern "C" void SetC__8cM3dGSphFRC4cXyz();
 extern "C" void SetR__8cM3dGSphFf();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECScale();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -392,7 +309,8 @@ static asm void daCoachFire_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_coach_fire/d_a_coach_fire/__dt__8cM3dGSphFv.s"
 }
@@ -402,7 +320,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_coach_fire/d_a_coach_fire/__dt__8cM3dGAabFv.s"
 }
@@ -412,7 +331,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_coach_fire/d_a_coach_fire/__dt__10dCcD_GSttsFv.s"
 }
@@ -422,7 +342,8 @@ asm dCcD_GStts::~dCcD_GStts() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_coach_fire/d_a_coach_fire/__dt__10cCcD_GSttsFv.s"
 }

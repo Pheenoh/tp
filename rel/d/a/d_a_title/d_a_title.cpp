@@ -11,52 +11,12 @@
 // Types:
 //
 
-struct scene_class {};
-
-struct request_of_phase_process_class {};
-
 struct mDoRst {
     static u8 mResetData[4 + 4 /* padding */];
 };
 
 struct mDoGph_gInf_c {
     static u8 mFader[4];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmColor {};
-
-struct mDoExt_bpkAnm {
-    /* 8000D47C */ void init(J3DMaterialTable*, J3DAnmColor*, int, int, f32, s16, s16);
-    /* 8000D518 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
 };
 
 struct JKRHeap {
@@ -72,46 +32,8 @@ struct mDoCPd_c {
     static u8 m_cpadInfo[256];
 };
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daTitle_c {
-    /* 80D66B54 */ void CreateHeap();
-    /* 80D66CDC */ void create();
-    /* 80D66E7C */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80D66E9C */ void Execute();
-    /* 80D66F34 */ void KeyWaitAnm();
-    /* 80D67010 */ void loadWait_init();
-    /* 80D6701C */ void loadWait_proc();
-    /* 80D672E0 */ void logoDispWaitInit();
-    /* 80D672EC */ void logoDispWait();
-    /* 80D67350 */ void logoDispAnmInit();
-    /* 80D6737C */ void logoDispAnm();
-    /* 80D674A8 */ void keyWaitInit();
-    /* 80D674B4 */ void keyWait();
-    /* 80D67544 */ void nextScene_init();
-    /* 80D67550 */ void nextScene_proc();
-    /* 80D675EC */ void fastLogoDispInit();
-    /* 80D676AC */ void fastLogoDisp();
-    /* 80D676F4 */ void getDemoPrm();
-    /* 80D67768 */ void Draw();
-    /* 80D6786C */ void Delete();
-};
-
-struct daTit_HIO_c {
-    /* 80D66B0C */ daTit_HIO_c();
-    /* 80D67A08 */ ~daTit_HIO_c();
-};
-
 struct dStage_roomControl_c {
     static u8 mProcID[4];
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dMenu_Collect3D_c {
@@ -139,30 +61,11 @@ struct dDemo_c {
     static u8 m_object[4];
 };
 
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
 struct JKRExpHeap {
     /* 802CEE2C */ void create(u32, JKRHeap*, bool);
 };
 
 struct JKRArchive {};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80D67B78 */ ~J3DFrameCtrl();
-};
 
 struct J2DTextBox {
     /* 80300658 */ void getStringPtr() const;
@@ -267,17 +170,13 @@ extern "C" void draw__9J2DScreenFffPC14J2DGrafContext();
 extern "C" void getStringPtr__10J2DTextBoxCFv();
 extern "C" void setString__10J2DTextBoxFsPCce();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 m_cpadInfo__8mDoCPd_c[256];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u32 g_blackColor;
 extern "C" f32 mViewOffsetY__17dMenu_Collect3D_c[1 + 1 /* padding */];
 extern "C" u8 mFader__13mDoGph_gInf_c[4];
@@ -833,7 +732,8 @@ asm dDlst_daTitle_c::~dDlst_daTitle_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_title/d_a_title/__dt__12J3DFrameCtrlFv.s"
 }

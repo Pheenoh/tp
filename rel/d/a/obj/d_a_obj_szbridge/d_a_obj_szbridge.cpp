@@ -10,46 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjSZbridge_c {
-    /* 80D04360 */ void rideActor(fopAc_ac_c*);
-    /* 80D04424 */ void create1st();
-    /* 80D044B8 */ void setMtx();
-    /* 80D04528 */ void CreateHeap();
-    /* 80D04598 */ void chkBg();
-    /* 80D048C4 */ void Create();
-    /* 80D04974 */ void Execute(f32 (**)[3][4]);
-    /* 80D049E4 */ void Draw();
-    /* 80D04A88 */ void Delete();
-    /* 80D04B90 */ ~daObjSZbridge_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dBgW {};
 
 struct dBgS_WtrChk {
@@ -71,8 +31,6 @@ struct dBgS_ObjGndChk {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -103,8 +61,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -170,18 +126,11 @@ extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP
 extern "C" void cM_rndF__Ff();
 extern "C" void SetPos__11cBgS_GndChkFPC4cXyz();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECSquareMag();
 extern "C" void _savegpr_26();
 extern "C" void _restgpr_26();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16dBgS_MoveBgActor[10];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 
 //

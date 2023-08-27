@@ -21,11 +21,6 @@ struct mDoGph_gInf_c {
 
 struct daMP_THPReadBuffer {};
 
-struct daMP_Dlst_base_c {
-    /* 80878DB8 */ void draw();
-    /* 80878FD8 */ daMP_Dlst_base_c();
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
 };
@@ -229,7 +224,6 @@ extern "C" void VISetPostRetraceCallback();
 extern "C" void VIGetNextField();
 extern "C" void VIGetTvFormat();
 extern "C" void AIGetDSPSampleRate();
-extern "C" void GXClearVtxDesc();
 extern "C" void GXDrawDone();
 extern "C" void GXInvalidateTexAll();
 extern "C" static void GXEnd();
@@ -1978,7 +1972,8 @@ asm void daMP_c::daMP_c_Get_arg_demoNo() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void fopAcM_GetParam(void const* param_0) {
+// static asm void fopAcM_GetParam(void const* param_0) {
+extern "C" asm void fopAcM_GetParam__FPCv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/fopAcM_GetParam__FPCv.s"
 }
@@ -1988,7 +1983,8 @@ static asm void fopAcM_GetParam(void const* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void fpcM_GetParam(void const* param_0) {
+// static asm void fpcM_GetParam(void const* param_0) {
+extern "C" asm void fpcM_GetParam__FPCv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/fpcM_GetParam__FPCv.s"
 }
@@ -2132,7 +2128,8 @@ asm void daMP_c::daMP_c_Callback_Init(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void fopAcM_OnCondition(fopAc_ac_c* param_0, u32 param_1) {
+// static asm void fopAcM_OnCondition(fopAc_ac_c* param_0, u32 param_1) {
+extern "C" asm void fopAcM_OnCondition__FP10fopAc_ac_cUl() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/fopAcM_OnCondition__FP10fopAc_ac_cUl.s"
 }
@@ -2162,7 +2159,8 @@ extern "C" static asm void* __nw__FUlPv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void fopAcM_CheckCondition(fopAc_ac_c* param_0, u32 param_1) {
+// static asm void fopAcM_CheckCondition(fopAc_ac_c* param_0, u32 param_1) {
+extern "C" asm void fopAcM_CheckCondition__FP10fopAc_ac_cUl() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/fopAcM_CheckCondition__FP10fopAc_ac_cUl.s"
 }

@@ -14,10 +14,6 @@
 // Types:
 //
 
-struct daTag_FWall_c {
-    /* 80815958 */ void getPos(u8);
-};
-
 struct E_YM_n {
     static dCcD_SrcSph cc_sph_src;
 };

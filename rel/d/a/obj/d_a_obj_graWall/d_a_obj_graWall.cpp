@@ -11,18 +11,6 @@
 // Types:
 //
 
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjGraWall_c {
-    /* 80C10BF8 */ void Create();
-    /* 80C10DD8 */ void Execute();
-    /* 80C10E78 */ bool Delete();
-    /* 80C10E80 */ void col_init();
-    /* 80C10ED4 */ void col_set();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -33,10 +21,6 @@ struct dSv_event_flag_c {
 
 struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 //
@@ -72,8 +56,6 @@ extern "C" void SetC__8cM3dGCylFRC4cXyz();
 extern "C" void SetH__8cM3dGCylFf();
 extern "C" void SetR__8cM3dGCylFf();
 extern "C" void __dl__FPv();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];

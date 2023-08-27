@@ -10,104 +10,13 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD9C */ void transM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C88790 */ ~mDoHIO_entry_c();
-};
-
-struct J3DAnmTextureSRTKey {};
-
-struct J3DMaterialTable {
-    /* 8032F7B4 */ void removeTexMtxAnimator(J3DAnmTextureSRTKey*);
-};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct dBgW {};
-
-struct daL8Lift_c {
-    /* 80C887D8 */ void setBaseMtx();
-    /* 80C88860 */ void CreateHeap();
-    /* 80C88928 */ void create();
-    /* 80C88D6C */ void lightSet();
-    /* 80C88DBC */ void rideCallBack(dBgW*, fopAc_ac_c*, fopAc_ac_c*);
-    /* 80C88DD4 */ void Execute(f32 (**)[3][4]);
-    /* 80C88E34 */ void moveLift();
-    /* 80C890B8 */ void modeAcc();
-    /* 80C89198 */ void init_modeMove();
-    /* 80C891A4 */ void modeMove();
-    /* 80C894BC */ void init_modeBrk();
-    /* 80C894C8 */ void modeBrk();
-    /* 80C896C8 */ void init_modeWaitInit();
-    /* 80C896D4 */ void modeWaitInit();
-    /* 80C89708 */ void init_modeWait();
-    /* 80C89714 */ void modeWait();
-    /* 80C89720 */ void init_modeMoveWait();
-    /* 80C8972C */ void modeMoveWait();
-    /* 80C89770 */ void init_modeOnAnm();
-    /* 80C89820 */ void modeOnAnm();
-    /* 80C89874 */ void init_modeStop();
-    /* 80C898DC */ void modeStop();
-    /* 80C899D0 */ void init_modeInitSet();
-    /* 80C89A04 */ void modeInitSet();
-    /* 80C89A24 */ void init_modeInitSet2();
-    /* 80C89A58 */ void modeInitSet2();
-    /* 80C89A78 */ void liftReset();
-    /* 80C89ADC */ void setNextPoint();
-    /* 80C89C10 */ void Draw();
-    /* 80C89DC8 */ void Delete();
-
-    static u8 const mSpeed[64];
-};
-
-struct daL8Lift_HIO_c {
-    /* 80C8872C */ daL8Lift_HIO_c();
-    /* 80C89EA4 */ ~daL8Lift_HIO_c();
 };
 
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 8026702C */ bool operator==(Vec const&) const;
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dBgW_Base {};
 
 struct dBgS_PolyPassChk {
     /* 80078E68 */ void SetObj();
@@ -116,12 +25,6 @@ struct dBgS_PolyPassChk {
 struct dBgS_ObjAcch {
     /* 80C88C44 */ ~dBgS_ObjAcch();
 };
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -153,36 +56,8 @@ struct dBgS {
     /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80C88D24 */ ~J3DFrameCtrl();
 };
 
 //
@@ -288,11 +163,6 @@ extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void removeTexMtxAnimator__16J3DMaterialTableFP19J3DAnmTextureSRTKey();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXTrans();
-extern "C" void C_MTXLightOrtho();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_scall();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_26();
@@ -301,13 +171,8 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 
@@ -671,7 +536,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv8Lift/d_a_obj_lv8Lift/__dt__12J3DFrameCtrlFv.s"
 }

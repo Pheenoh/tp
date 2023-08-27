@@ -10,56 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct daObjRotStair_c {
-    /* 80CC1558 */ void initBaseMtx();
-    /* 80CC1614 */ void setBaseMtx();
-    /* 80CC16B0 */ void Create();
-    /* 80CC17F0 */ void CreateHeap();
-    /* 80CC1A28 */ void create1st();
-    /* 80CC1AF0 */ void Execute(f32 (**)[3][4]);
-    /* 80CC1BA4 */ void move_proc_call();
-    /* 80CC1C30 */ void init_modeWait();
-    /* 80CC1CF0 */ void modeWait();
-    /* 80CC1DF8 */ void init_modeRotate();
-    /* 80CC1EC8 */ void modeRotate();
-    /* 80CC2024 */ void event_proc_call();
-    /* 80CC20E0 */ void actionWait();
-    /* 80CC2158 */ void actionOrderEvent();
-    /* 80CC21C0 */ void actionEvent();
-    /* 80CC221C */ void actionDead();
-    /* 80CC2220 */ void checkChangeSw();
-    /* 80CC22A0 */ void offSwitch(int);
-    /* 80CC2310 */ void onWaterModel();
-    /* 80CC2364 */ void offWaterModel();
-    /* 80CC23C4 */ void Draw();
-    /* 80CC25C0 */ void Delete();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -67,32 +17,6 @@ struct dVibration_c {
 struct dSv_info_c {
     /* 800352B0 */ void offSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {
-    /* 8032600C */ void simpleCalcMaterial(u16, f32 (*)[4]);
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
 };
 
 struct dBgW_Base {};
@@ -103,8 +27,6 @@ struct dBgW {
 };
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -137,28 +59,8 @@ struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
 
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
 struct J3DTexMtxInfo {
     /* 80325794 */ void setEffectMtx(f32 (*)[4]);
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80CC19E0 */ ~J3DFrameCtrl();
 };
 
 //
@@ -242,8 +144,6 @@ extern "C" void __dl__FPv();
 extern "C" void setEffectMtx__13J3DTexMtxInfoFPA4_f();
 extern "C" void simpleCalcMaterial__12J3DModelDataFUsPA4_f();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void C_MTXLightPerspective();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_19();
 extern "C" void _savegpr_27();
@@ -253,14 +153,8 @@ extern "C" void _restgpr_19();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
-extern "C" extern u8 const j3dDefaultMtx[48];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80CC2880[4];
 
@@ -485,7 +379,8 @@ asm void daObjRotStair_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_rstair/d_a_obj_rstair/__dt__12J3DFrameCtrlFv.s"
 }

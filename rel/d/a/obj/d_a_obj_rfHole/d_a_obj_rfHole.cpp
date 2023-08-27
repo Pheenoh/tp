@@ -10,51 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80CB8EBC */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {};
-
-struct dBgW {};
-
-struct daRfHole_c {
-    /* 80CB8F04 */ void setBaseMtx();
-    /* 80CB8F8C */ void CreateHeap();
-    /* 80CB8FF8 */ void create();
-    /* 80CB9148 */ void rideCallBack(dBgW*, fopAc_ac_c*, fopAc_ac_c*);
-    /* 80CB9194 */ void playerAreaCheck();
-    /* 80CB940C */ void Execute(f32 (**)[3][4]);
-    /* 80CB9464 */ void holeProc();
-    /* 80CB9520 */ void init_modeWait();
-    /* 80CB952C */ void modeWait();
-    /* 80CB9558 */ void init_modeBreak();
-    /* 80CB96AC */ void modeBreak();
-    /* 80CB96CC */ void init_modeBreakEff();
-    /* 80CB971C */ void modeBreakEff();
-    /* 80CB973C */ void init_modeEnd();
-    /* 80CB9748 */ void modeEnd();
-    /* 80CB9768 */ void setBreakEffect();
-    /* 80CB9878 */ void Draw();
-    /* 80CB991C */ void Delete();
-};
-
-struct daRfHole_HIO_c {
-    /* 80CB8E6C */ daRfHole_HIO_c();
-    /* 80CB99D8 */ ~daRfHole_HIO_c();
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 80266B34 */ void operator-(Vec const&) const;
 };
 
 struct dVibration_c {
@@ -66,34 +23,13 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
 };
-
-struct cBgS_PolyInfo {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -108,18 +44,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -188,22 +112,13 @@ extern "C" void __pl__4cXyzCFRC3Vec();
 extern "C" void __mi__4cXyzCFRC3Vec();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 

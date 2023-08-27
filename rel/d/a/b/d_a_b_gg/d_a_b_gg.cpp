@@ -11,142 +11,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 8026745C */ void operator+=(csXyz&);
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
 struct mDoGph_gInf_c {
     /* 80008078 */ void onBlure();
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopEn_enemy_c {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    /* 8015F398 */ void checkMasterSwordEquip();
-    /* 8015F8E4 */ void cancelBoomerangLockActor(fopAc_ac_c*);
-
-    static u8 m_midnaActor[4];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
-struct daB_GG_c {
-    /* 805DE464 */ void CreateHeap();
-    /* 805DE650 */ void initCc();
-    /* 805DE7A4 */ void setCcCylinder();
-    /* 805DE9B8 */ void G_setCcCylinder();
-    /* 805DEAD0 */ void MoveCo();
-    /* 805DEB44 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 805DED58 */ void HeadctrlJoint(J3DJoint*, J3DModel*);
-    /* 805DEF64 */ void SetAnm(int, int, f32, f32);
-    /* 805DF9F4 */ void Yazirushi();
-    /* 805DFA48 */ void SpeedClear();
-    /* 805DFA64 */ void SetAction(u8, u8, u8);
-    /* 805DFA8C */ void GetAction(u8, u8, u8);
-    /* 805DFACC */ void DemoSkip(int);
-    /* 805DFC24 */ void DemoSkipCallBack(void*, int);
-    /* 805DFC58 */ void CameraSet();
-    /* 805DFD78 */ void SetStopingCam();
-    /* 805DFDFC */ void SetStopCam(cXyz, f32, f32, s16);
-    /* 805DFF4C */ void SetMoveCam(cXyz, f32, f32, s16, f32, f32);
-    /* 805E00D4 */ void SetMoveCam1(f32, f32);
-    /* 805E01F8 */ void SetReleaseCam();
-    /* 805E029C */ void St_CamAction();
-    /* 805E0F2C */ void St_DemoAction();
-    /* 805E18E8 */ void Md_CamAction();
-    /* 805E1C28 */ void Md_DemoAction();
-    /* 805E23E8 */ void Gn_CamAction();
-    /* 805E2974 */ void Gn_DemoAction();
-    /* 805E2F44 */ void DemoAction();
-    /* 805E3024 */ void F_WaitAction();
-    /* 805E31E4 */ void F_FookChk();
-    /* 805E3448 */ void F_MoveAction();
-    /* 805E3CAC */ void F_LV7_W_MoveAction();
-    /* 805E3F0C */ void F_AttackAction();
-    /* 805E4914 */ void F_DamageAction();
-    /* 805E5190 */ void AttentionChk();
-    /* 805E5220 */ void FlyAction();
-    /* 805E561C */ void F_A_TargetMove(cXyz);
-    /* 805E53DC */ void F_A_TargetMove(cXyz, u8);
-    /* 805E5808 */ void F_A_MoveAction();
-    /* 805E5D0C */ void F_A_WaitAction();
-    /* 805E5D2C */ void F_A_Action();
-    /* 805E5E78 */ void FookChk();
-    /* 805E608C */ void CutChk();
-    /* 805E6174 */ void G_MoveAction();
-    /* 805E6AB0 */ void FallChk();
-    /* 805E6E30 */ void G_AttackAction();
-    /* 805E73A8 */ void G_DamageAction();
-    /* 805E7D50 */ void G_DeathAction();
-    /* 805E7F50 */ void G_DeathAction1();
-    /* 805E82F0 */ void DeathCam();
-    /* 805E8D48 */ void GroundAction();
-    /* 805E8EE8 */ void StopAction();
-    /* 805E92A0 */ void HitChk();
-    /* 805E9310 */ void Action();
-    /* 805E9418 */ void HeadAction();
-    /* 805E9A28 */ void SetHeadAngle();
-    /* 805E9B48 */ void SoundChk();
-    /* 805EA344 */ void Execute();
-    /* 805EA72C */ void ObjHit();
-    /* 805EA74C */ void At_Check();
-    /* 805EA938 */ void MoveAt();
-    /* 805EA9AC */ void F_AtHit();
-    /* 805EAAFC */ void ChanceTime();
-    /* 805EB028 */ void ArmAngleSet();
-    /* 805EB090 */ void Guard();
-    /* 805EB5E0 */ void Draw();
-    /* 805EB8A8 */ void Delete();
-    /* 805EB910 */ void setBaseMtx();
-    /* 805EB980 */ void setShieldMtx();
-    /* 805EB9DC */ void setSwordMtx();
-    /* 805EBA4C */ void setSwordMtx1();
-    /* 805EBAB8 */ void setHeadMtx();
-    /* 805EBB30 */ void setHeadMtx1();
-    /* 805EBBE4 */ void Create();
-    /* 805EC424 */ daB_GG_c();
-};
-
-struct daB_GG_HIO_c {
-    /* 805DE40C */ daB_GG_HIO_c();
-    /* 805EC9C4 */ ~daB_GG_HIO_c();
 };
 
 struct dVibration_c {
@@ -165,22 +31,7 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
@@ -254,28 +105,6 @@ struct cBgS_LinChk {};
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct _GXTexObj {};
-
-struct Z2SeqMgr {
-    /* 802AF49C */ void subBgmStart(u32);
-    /* 802AF884 */ void subBgmStop();
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-    /* 802C1B7C */ void setLinkSearch(bool);
-    /* 802C1B90 */ void setEnemyName(char const*);
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 //
@@ -513,9 +342,6 @@ extern "C" void setEnemyName__15Z2CreatureEnemyFPCc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXInverse();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_19();
 extern "C" void _savegpr_22();
@@ -534,8 +360,6 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -546,8 +370,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
 extern "C" extern u8 mBlureFlag__13mDoGph_gInf_c[4];

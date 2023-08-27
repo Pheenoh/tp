@@ -10,10 +10,6 @@
 // Types:
 //
 
-struct daPy_py_c {
-    static u8 m_midnaActor[4];
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
@@ -29,11 +25,6 @@ struct dSv_event_c {
 
 struct dEvt_control_c {
     /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
 };
 
 struct dAttHint_c {

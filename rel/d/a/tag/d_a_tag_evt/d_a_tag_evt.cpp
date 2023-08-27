@@ -10,28 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTag_Evt_c {
-    /* 8048B918 */ void create();
-    /* 8048B9D8 */ void destroy();
-    /* 8048BA0C */ void execute();
-    /* 8048BE44 */ bool draw();
-    /* 8048BE4C */ void getParam();
-    /* 8048BF64 */ void isDelete();
-    /* 8048C090 */ void doEvtCutWait(int);
-    /* 8048C124 */ void doEvtCutTalk(int);
-    /* 8048C1C8 */ void doEvtCutNext(int);
-    /* 8048C304 */ ~daTag_Evt_c();
-
-    static void* mEvtCutList[3];
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
@@ -45,36 +23,12 @@ struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
 };
 
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F48 */ ~dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-    /* 8024A528 */ void getEventId(int*);
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
 };
 
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-};
-
 struct dComIfG_play_c {
     /* 8002C97C */ void getLayerNo(int);
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
 };
 
 //
@@ -131,17 +85,13 @@ extern "C" void doFlow__10dMsgFlow_cFP10fopAc_ac_cPP10fopAc_ac_ci();
 extern "C" void getEventId__10dMsgFlow_cFPi();
 extern "C" void __mi__4cXyzCFRC3Vec();
 extern "C" void __dl__FPv();
-extern "C" void PSVECSquareMag();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
 extern "C" void strcpy();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 
 //

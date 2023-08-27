@@ -10,45 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80CB1A9C */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daPoCandle_c {
-    /* 80CB1AE4 */ void setBaseMtx();
-    /* 80CB1B6C */ void CreateHeap();
-    /* 80CB1BD8 */ void create();
-    /* 80CB1D74 */ void lightInit();
-    /* 80CB1E00 */ void setLight();
-    /* 80CB1E30 */ void cutLight();
-    /* 80CB1E60 */ void pointLightProc();
-    /* 80CB1F10 */ void Execute(f32 (**)[3][4]);
-    /* 80CB2140 */ void init_modeWait();
-    /* 80CB214C */ void modeWait();
-    /* 80CB21D8 */ void init_modeOnFire();
-    /* 80CB22D4 */ void modeOnFire();
-    /* 80CB22F4 */ void modeOnSwWait();
-    /* 80CB2354 */ void init_modeEnd();
-    /* 80CB2360 */ void modeEnd();
-    /* 80CB2364 */ void eventStart();
-    /* 80CB2388 */ void Draw();
-    /* 80CB242C */ void Delete();
-    /* 80CB2610 */ ~daPoCandle_c();
-};
-
-struct daPoCandle_HIO_c {
-    /* 80CB1A6C */ daPoCandle_HIO_c();
-    /* 80CB2508 */ ~daPoCandle_HIO_c();
 };
 
 struct dSv_info_c {
@@ -56,28 +19,7 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -113,23 +55,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -209,18 +134,12 @@ extern "C" void cLib_addCalc__FPfffff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16dBgS_MoveBgActor[10];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 

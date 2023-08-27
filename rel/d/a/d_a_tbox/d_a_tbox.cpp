@@ -11,137 +11,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80490E08 */ ~mDoHIO_entry_c();
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_lc_c {
-    /* 8001DC68 */ void lineCheck(cXyz const*, cXyz const*, fopAc_ac_c const*);
-
-    static u8 mLineCheck[112];
-};
-
-struct fopAcM_gc_c {
-    /* 8001DCBC */ void gndCheck(cXyz const*);
-
-    static f32 mGroundY;
-};
-
-struct daTbox_c {
-    /* 80490E50 */ void getModelInfo();
-    /* 80490E6C */ void commonShapeSet();
-    /* 804911B8 */ s32 effectShapeSet();
-    /* 804911C0 */ s32 envShapeSet();
-    /* 804911C8 */ void bgCheckSet();
-    /* 8049129C */ void lightReady();
-    /* 804912EC */ void setLightPos();
-    /* 8049135C */ bool checkEnv();
-    /* 80491364 */ void checkAppear();
-    /* 8049139C */ void checkOpen();
-    /* 804913D0 */ void clrDzb();
-    /* 8049141C */ void setDzb();
-    /* 80491484 */ void surfaceProc();
-    /* 80491544 */ void checkNormal();
-    /* 804915BC */ void checkEnvEffectTbox();
-    /* 80491624 */ void calcHeapSize();
-    /* 804916A4 */ void CreateHeap();
-    /* 80491744 */ void CreateInit();
-    /* 804919B0 */ void initPos();
-    /* 80491BB0 */ void initAnm();
-    /* 80491F68 */ void boxCheck();
-    /* 804920A8 */ void demoProcOpen();
-    /* 8049216C */ void lightColorProc();
-    /* 8049233C */ void environmentProc();
-    /* 80492398 */ void lightUpProc();
-    /* 804923D4 */ void lightDownProc();
-    /* 80492408 */ void dropProcInitCall();
-    /* 80492450 */ void dropProcInit();
-    /* 804928DC */ void calcJumpGoalAndAngle(cXyz*, s16*);
-    /* 80492B10 */ void getDropSAngle(s16*);
-    /* 80492BC8 */ void getDir();
-    /* 80492C84 */ void setRotAxis(cXyz const*, cXyz const*);
-    /* 80492D08 */ void dropProcInit2();
-    /* 80492F50 */ void dropProc();
-    /* 80493338 */ void demoInitAppear();
-    /* 80493484 */ void demoProcAppear();
-    /* 80493518 */ void demoProc();
-    /* 80493838 */ void OpenInit_com();
-    /* 804939A4 */ void OpenInit();
-    /* 804939F4 */ bool actionWait();
-    /* 804939FC */ void actionDemo();
-    /* 80493CC8 */ void actionDemo2();
-    /* 80493D90 */ void actionDropDemo();
-    /* 80493ED8 */ void getBombItemNo(u8, u8);
-    /* 80493FE8 */ void getBombItemNo2(u8, u8, u8);
-    /* 80494144 */ void getBombItemNo3(u8, u8, u8, u8);
-    /* 804942CC */ void getBombItemNoMain(u8);
-    /* 804945C8 */ void setGetDemoItem();
-    /* 804946A4 */ void actionOpenWait();
-    /* 804948CC */ void actionNotOpenDemo();
-    /* 80494950 */ void checkDrop();
-    /* 80494A0C */ void settingDropDemoCamera();
-    /* 80494D88 */ void actionSwOnWait();
-    /* 80494E98 */ void actionSwOnWait2();
-    /* 80494F44 */ void actionDropWait();
-    /* 80495058 */ void actionGenocide();
-    /* 8049518C */ void actionDropWaitForWeb();
-    /* 80495250 */ void actionDropForWeb();
-    /* 804953D4 */ void initBaseMtx();
-    /* 80495490 */ void setBaseMtx();
-    /* 80495660 */ void mode_proc_call();
-    /* 804956EC */ void mode_exec_wait();
-    /* 80495818 */ void mode_exec();
-    /* 80495910 */ void create1st();
-    /* 804959EC */ void Execute(f32 (**)[3][4]);
-    /* 80495AF0 */ void Draw();
-    /* 80495C9C */ void Delete();
-    /* 804961B0 */ bool Create();
-    /* 804961B8 */ bool checkSmallTbox();
-};
-
-struct daTbox_HIO_c {
-    /* 80490D2C */ daTbox_HIO_c();
-    /* 804960B8 */ ~daTbox_HIO_c();
-};
-
-struct daPy_py_c {
-    static u8 m_midnaActor[4];
 };
 
 struct dVibration_c {
@@ -185,26 +56,11 @@ struct dStage_roomControl_c {
     /* 80024384 */ void getStatusRoomDt(int);
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
 
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -218,25 +74,10 @@ struct dItem_data {
     static u8 item_info[1020 + 4 /* padding */];
 };
 
-struct dEvt_info_c {
-    /* 80043428 */ void setEventName(char*);
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80043500 */ void searchMapEventData(u8, s32);
     /* 800436BC */ void setPtI(void*);
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047ADC */ void endCheckOld(char const*);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dCamera_c {
@@ -306,10 +147,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
 struct cBgD_t {};
 
 struct cBgW {
@@ -323,23 +160,6 @@ struct cBgS_GndChk {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80491170 */ ~J3DFrameCtrl();
 };
 
 //
@@ -564,12 +384,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXIdentity();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXRotAxisRad();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_21();
 extern "C" void _savegpr_24();
@@ -584,8 +398,6 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" u8 item_info__10dItem_data[1020 + 4 /* padding */];
@@ -595,10 +407,8 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mLineCheck__11fopAcM_lc_c[112];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 BaseX__4cXyz[12];
 extern "C" u8 BaseY__4cXyz[12];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" f32 mGroundY__11fopAcM_gc_c;
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
@@ -1335,7 +1145,8 @@ asm void daTbox_c::commonShapeSet() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_tbox/d_a_tbox/__dt__12J3DFrameCtrlFv.s"
 }
@@ -2258,7 +2069,8 @@ static asm void daTbox_create1st(daTbox_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_tbox/d_a_tbox/__dt__12dBgS_AcchCirFv.s"
 }
@@ -2268,7 +2080,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_tbox/d_a_tbox/__dt__12dBgS_ObjAcchFv.s"
 }

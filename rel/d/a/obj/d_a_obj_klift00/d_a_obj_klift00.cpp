@@ -11,48 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjKLift00_c {
-    struct ChainPos {
-        /* 8058C338 */ ~ChainPos();
-        /* 8058C374 */ ChainPos();
-    };
-
-    /* 8058B02C */ void create1st();
-    /* 8058B0D0 */ void setMtx();
-    /* 8058B4B0 */ void rideActor(fopAc_ac_c*);
-    /* 8058B5EC */ void CreateHeap();
-    /* 8058B77C */ void Create();
-    /* 8058B97C */ void Execute(f32 (**)[3][4]);
-    /* 8058BEEC */ void Draw();
-    /* 8058C014 */ void Delete();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dMdl_obj_c {
     /* 8058C32C */ dMdl_obj_c();
 };
@@ -69,8 +27,6 @@ struct dBgW {};
 
 struct cBgS_PolyInfo {};
 
-struct csXyz {};
-
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
     /* 800786B0 */ bool IsDelete();
@@ -83,12 +39,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -167,11 +117,6 @@ extern "C" void SetC__8cM3dGSphFRC4cXyz();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nwa__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXIdentity();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXRotAxisRad();
-extern "C" void PSMTXTrans();
 extern "C" void __construct_array();
 extern "C" void __construct_new_array();
 extern "C" void _savegpr_22();
@@ -182,8 +127,6 @@ extern "C" void _restgpr_22();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -193,10 +136,8 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" f32 Zero__4cXyz[3];
 extern "C" u8 BaseZ__4cXyz[12];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //
@@ -650,7 +591,8 @@ static asm void daObjKLift00_MoveBGDraw(daObjKLift00_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dMdl_obj_c::dMdl_obj_c() {
+// asm dMdl_obj_c::dMdl_obj_c() {
+extern "C" asm void __ct__10dMdl_obj_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_klift00/d_a_obj_klift00/__ct__10dMdl_obj_cFv.s"
 }

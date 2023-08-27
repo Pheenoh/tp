@@ -10,77 +10,10 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct leafdraw_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daItemBase_c {
-    /* 80037A64 */ void hide();
-    /* 80037ACC */ void chkDraw();
-    /* 80037AF4 */ void chkDead();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 8014503C */ void animPlay(f32, f32, f32, f32, f32, f32);
-    /* 80145144 */ void chkFlag(int);
-    /* 80145164 */ void getTevFrm();
-    /* 80145180 */ void getBtpFrm();
-    /* 8014519C */ void getShadowSize();
-    /* 801451B4 */ void getCollisionH();
-    /* 801451D0 */ void getCollisionR();
-};
-
-struct daDitem_c {
-    /* 804DFBCC */ bool __CreateHeap();
-    /* 804DFBD4 */ void CreateInit();
-    /* 804DFC98 */ void action();
-    /* 804DFD10 */ void actionStart();
-    /* 804E00DC */ void actionEvent();
-    /* 804E0A50 */ void actionWaitLightEnd();
-    /* 804E0B40 */ void actionEnd();
-    /* 804E0B60 */ void setInsectEffect();
-    /* 804E0C44 */ void followInsectEffect();
-    /* 804E0CB0 */ void endInsectEffect();
-    /* 804E0D44 */ void onEventReg(int, int);
-    /* 804E0DB4 */ void set_pos();
-    /* 804E105C */ void anim_control();
-    /* 804E1098 */ void initEffectLight();
-    /* 804E10D0 */ void settingEffectLight();
-    /* 804E111C */ void set_mtx();
-    /* 804E11D4 */ void setTevStr();
-    /* 804E122C */ void setListStart();
-    /* 804E1230 */ void draw_WOOD_STICK();
-};
-
 struct dSv_event_c {
     /* 800349BC */ void isEventBit(u16) const;
     /* 800349E0 */ void setEventReg(u16, u8);
     /* 80034A04 */ void getEventReg(u16) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {
-    /* 804E00A0 */ ~cXyz();
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
 };
 
 struct dPa_levelEcallBack {};
@@ -88,10 +21,6 @@ struct dPa_levelEcallBack {};
 struct dPa_followEcallBack {
     /* 80049580 */ dPa_followEcallBack(u8, u8);
 };
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -105,14 +34,6 @@ struct dItem_data {
 
 struct dComIfG_play_c {
     /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
 };
 
 struct dBgS_PolyPassChk {
@@ -130,30 +51,6 @@ struct dBgS_AcchCir {
 struct dBgS_Acch {
     /* 80075F94 */ ~dBgS_Acch();
     /* 800760A0 */ dBgS_Acch();
-};
-
-struct create_tag_class {};
-
-struct cM3dGCyl {
-    /* 804E15BC */ ~cM3dGCyl();
-};
-
-struct cM3dGAab {
-    /* 804E1604 */ ~cM3dGAab();
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct JUTNameTab {
-    /* 802DEAF8 */ void getName(u16) const;
 };
 
 //
@@ -254,15 +151,11 @@ extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void __dl__FPv();
 extern "C" void getName__10JUTNameTabCFUs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" void* item_resource__10dItem_data[1530];
@@ -272,7 +165,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" void __register_global_object();
 
@@ -359,7 +251,8 @@ asm void daDitem_c::actionStart() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_demo_item/d_a_demo_item/__dt__4cXyzFv.s"
 }
@@ -875,7 +768,8 @@ static asm void daDitem_Create(daDitem_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_demo_item/d_a_demo_item/__dt__8cM3dGCylFv.s"
 }
@@ -885,7 +779,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_demo_item/d_a_demo_item/__dt__8cM3dGAabFv.s"
 }

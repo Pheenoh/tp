@@ -11,31 +11,6 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjFPillar_c {
-    /* 80BE9118 */ void initBaseMtx();
-    /* 80BE9138 */ void setBaseMtx();
-    /* 80BE9190 */ void Create();
-    /* 80BE9230 */ void create();
-    /* 80BE94E4 */ void execute();
-    /* 80BE9610 */ void action();
-    /* 80BE96B4 */ void actionOffInit();
-    /* 80BE96E0 */ void actionOff();
-    /* 80BE9784 */ void actionOnWaitInit();
-    /* 80BE97B8 */ void actionOnWait();
-    /* 80BE986C */ void actionOnInit();
-    /* 80BE98A0 */ void actionOn();
-    /* 80BE9984 */ void draw();
-    /* 80BE99B8 */ bool _delete();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
@@ -56,16 +31,6 @@ struct dBgS_AcchCir {
 struct dBgS_Acch {
     /* 80075F94 */ ~dBgS_Acch();
     /* 800760A0 */ dBgS_Acch();
-};
-
-struct csXyz {};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 struct cBgS_PolyInfo {
@@ -128,13 +93,9 @@ extern "C" void __ct__8cM3dGCpsFv();
 extern "C" void Set__8cM3dGCpsFRC9cM3dGCpsS();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cps[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CpsAttr[25];

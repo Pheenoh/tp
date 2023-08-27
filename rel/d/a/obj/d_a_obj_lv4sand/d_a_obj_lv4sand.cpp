@@ -10,49 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjLv4Sand_c {
-    /* 80C69A98 */ void initBaseMtx();
-    /* 80C69AD4 */ void setBaseMtx();
-    /* 80C69B50 */ void Create();
-    /* 80C69C28 */ void CreateHeap();
-    /* 80C69D8C */ void create1st();
-    /* 80C69E10 */ void Execute(f32 (**)[3][4]);
-    /* 80C69F18 */ void action();
-    /* 80C69FBC */ void mode_init_wait();
-    /* 80C69FC8 */ void mode_wait();
-    /* 80C6A01C */ void mode_init_move();
-    /* 80C6A034 */ void mode_move();
-    /* 80C6A09C */ void mode_init_dead();
-    /* 80C6A0A8 */ void mode_dead();
-    /* 80C6A0AC */ void eventStart();
-    /* 80C6A0D0 */ void Draw();
-    /* 80C6A18C */ void Delete();
-    /* 80C6A30C */ ~daObjLv4Sand_c();
-};
-
 struct dSv_memBit_c {
     /* 80034934 */ void isDungeonItem(int) const;
 };
@@ -60,23 +17,6 @@ struct dSv_memBit_c {
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dEvLib_callback_c {
@@ -90,8 +30,6 @@ struct dBgW {};
 
 struct cBgS_PolyInfo {};
 
-struct csXyz {};
-
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
     /* 800786B0 */ bool IsDelete();
@@ -103,25 +41,6 @@ struct dBgS_MoveBgActor {
                                      u32, f32 (*)[3][4]);
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80C69D44 */ ~J3DFrameCtrl();
 };
 
 //
@@ -193,20 +112,14 @@ extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16dBgS_MoveBgActor[10];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_80C6A508[4];
 
@@ -383,7 +296,8 @@ asm void daObjLv4Sand_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv4sand/d_a_obj_lv4sand/__dt__12J3DFrameCtrlFv.s"
 }

@@ -11,34 +11,7 @@
 // Types:
 //
 
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CED4 */ void XYZrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjKnBullet_c {
-    /* 80C47118 */ void Create();
-    /* 80C47300 */ void Execute();
-    /* 80C47480 */ bool Draw();
-    /* 80C47488 */ bool Delete();
-    /* 80C47490 */ void setBaseMtx();
-    /* 80C474E8 */ void col_init();
-    /* 80C47558 */ void col_chk();
-    /* 80C477B4 */ void hitPrtclSet();
-};
-
 struct dPa_levelEcallBack {};
-
-struct dKy_tevstr_c {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -51,10 +24,6 @@ struct dPa_control_c {
     /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
                             cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
                             _GXColor const*, cXyz const*, f32);
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 struct JPABaseEmitter {
@@ -112,17 +81,12 @@ extern "C" void SetR__8cM3dGSphFf();
 extern "C" void deleteAllParticle__14JPABaseEmitterFv();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_26();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_24();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];

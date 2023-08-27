@@ -10,92 +10,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266AE4 */ void operator+(Vec const&) const;
-    /* 805818DC */ ~cXyz();
-
-    static f32 Zero[3];
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObj_Kanban2_c {
-    /* 80581790 */ void draw();
-    /* 80581938 */ void setKanbanSE(int);
-    /* 805819BC */ void createBreakParts(u32, csXyz);
-    /* 805819FC */ void createWallHitBreak();
-    /* 80581B5C */ void getKanbanCutType();
-    /* 80581C48 */ void getKanbanWolfCutType();
-    /* 80581D04 */ void damage_check();
-    /* 8058221C */ void float_damage_check();
-    /* 805822F0 */ void deletePart();
-    /* 805825A4 */ void getWallAngle();
-    /* 8058271C */ void setGroundAngle();
-    /* 80582894 */ void checkWaterSurface();
-    /* 80582944 */ void checkPataGround(s16, s16);
-    /* 80582A68 */ void setCullMtx();
-    /* 80582AAC */ void setSmokeEffect(cXyz);
-    /* 80582AFC */ void setWaterEffect();
-    /* 80582C40 */ void setCenterPos();
-    /* 80582E68 */ void checkCarryOn();
-    /* 80582EF0 */ void setActionMode(int, int);
-    /* 80582F40 */ void calcNormalSwing();
-    /* 80583364 */ void executeNormal();
-    /* 80583598 */ void initPart();
-    /* 80583A2C */ void executePart();
-    /* 8058437C */ void executeFloat();
-    /* 80584884 */ void executeCarry();
-    /* 805849CC */ void action();
-    /* 80584AD8 */ void mtx_set();
-    /* 80584CFC */ void cc_set();
-    /* 80584DF0 */ void execute();
-    /* 80584ED8 */ void _delete();
-    /* 80584F64 */ void CreateHeap();
-    /* 805850E8 */ void create();
-};
-
-struct daObj_Kanban2_HIO_c {
-    /* 8058176C */ daObj_Kanban2_HIO_c();
-    /* 80585578 */ ~daObj_Kanban2_HIO_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
@@ -103,41 +18,8 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 };
 
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
 struct dDlst_shadowControl_c {
     static u8 mSimpleTexObj[32];
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80083830 */ void Move();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 80084460 */ void ChkTgHit();
-    /* 800844F8 */ void GetTgHitObj();
-    /* 80084658 */ void ChkCoHit();
-    /* 800846F0 */ void GetCoHitObj();
 };
 
 struct dBgS_PolyPassChk {
@@ -179,32 +61,6 @@ struct dBgS_Acch {
     /* 80077114 */ void SetGroundUpY(f32);
 };
 
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 80585458 */ ~cM3dGSph();
-};
-
-struct cM3dGPla {
-    /* 805826D4 */ ~cM3dGPla();
-};
-
-struct cM3dGAab {
-    /* 805854A0 */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {
-    /* 80263A48 */ void GetAc();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_Stts {
-    /* 8026395C */ void ClrCcMove();
-};
-
 struct cBgS_PolyInfo {};
 
 struct cBgS_LinChk {};
@@ -220,32 +76,6 @@ struct cBgS {
     /* 80074660 */ void ChkPolySafe(cBgS_PolyInfo const&);
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
 };
-
-struct _GXTexObj {};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -389,10 +219,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSubtract();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_26();
@@ -405,9 +231,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -416,10 +239,8 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" f32 Zero__4cXyz[3];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
 
@@ -748,7 +569,8 @@ asm void daObj_Kanban2_c::draw() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kanban2/d_a_obj_kanban2/__dt__4cXyzFv.s"
 }
@@ -972,7 +794,8 @@ asm void daObj_Kanban2_c::getWallAngle() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGPla::~cM3dGPla() {
+// asm cM3dGPla::~cM3dGPla() {
+extern "C" asm void __dt__8cM3dGPlaFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kanban2/d_a_obj_kanban2/__dt__8cM3dGPlaFv.s"
 }
@@ -1609,7 +1432,8 @@ asm void daObj_Kanban2_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kanban2/d_a_obj_kanban2/__dt__8cM3dGSphFv.s"
 }
@@ -1619,7 +1443,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kanban2/d_a_obj_kanban2/__dt__8cM3dGAabFv.s"
 }

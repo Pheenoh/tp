@@ -10,72 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjSCannonTen_c {
-    /* 80CCB364 */ daObjSCannonTen_c();
-    /* 80CCB43C */ ~daObjSCannonTen_c();
-    /* 80CCB4EC */ void createHeap();
-    /* 80CCB66C */ void create();
-    /* 80CCB9E0 */ void Delete();
-    /* 80CCBA58 */ void draw();
-    /* 80CCBB6C */ void execute();
-    /* 80CCBB90 */ void middleExe();
-    /* 80CCBC08 */ void exeModeWait();
-    /* 80CCBCB0 */ void exeModeOrderEvt();
-    /* 80CCBD4C */ void exeModeActionEvt();
-    /* 80CCBDCC */ void exeModeEnd();
-    /* 80CCBDD0 */ void demoExe();
-    /* 80CCBE8C */ void demoModeInit(int);
-    /* 80CCBF00 */ void demoInitLinkIn();
-    /* 80CCBF04 */ void demoExeLinkIn();
-    /* 80CCBFC4 */ void demoInitSet();
-    /* 80CCC088 */ void demoExeSet();
-    /* 80CCC114 */ void demoInitMove();
-    /* 80CCC118 */ void demoExeMove();
-    /* 80CCC20C */ void demoInitFire();
-    /* 80CCC260 */ void demoExeFire();
-    /* 80CCC2B8 */ void demoInitFireEnd();
-    /* 80CCC37C */ void demoExeFireEnd();
-    /* 80CCC3D4 */ void demoInitFinish();
-    /* 80CCC498 */ void demoExeFinish();
-    /* 80CCC528 */ void init();
-    /* 80CCC53C */ void setModelMtx();
-    /* 80CCC5A0 */ void changeScene();
-    /* 80CCC628 */ void initEmtSmoke();
-    /* 80CCC74C */ void exeEmtSmoke();
-    /* 80CCC7D0 */ void initEmtLine();
-    /* 80CCC8B8 */ void exeEmtLine();
-    /* 80CCC97C */ void delEmtAll();
-
-    static u8 s_exeProc[48];
-    static u8 s_demoExeProc[144];
-};
-
-struct cXyz {};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
     /* 8006FB10 */ void StartQuake(int, int, cXyz);
@@ -83,44 +17,12 @@ struct dVibration_c {
     /* 8006FE5C */ void CheckQuake();
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dDlst_shadowControl_c {
@@ -158,12 +60,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct camera_class {};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -181,39 +77,6 @@ struct cBgS_PolyInfo {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct _GXTexObj {};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JUTNameTab {
-    /* 802DEAF8 */ void getName(u16) const;
-};
-
-struct JGeometry {
-    template <typename A1>
-    struct TVec3 {};
-    /* TVec3<f32> */
-    struct TVec3__template0 {};
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 8032842C */ void checkPass(f32);
-    /* 80CCB3F4 */ ~J3DFrameCtrl();
 };
 
 //
@@ -336,8 +199,6 @@ extern "C" void __dl__FPv();
 extern "C" void getName__10JUTNameTabCFUs();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_test();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_24();
@@ -349,13 +210,9 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 
 //
@@ -686,7 +543,8 @@ asm daObjSCannonTen_c::daObjSCannonTen_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_scannon_ten/d_a_obj_scannon_ten/__dt__12J3DFrameCtrlFv.s"
 }

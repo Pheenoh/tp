@@ -10,20 +10,8 @@
 // Types:
 //
 
-struct kytag01_class {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct cXyz {};
-
-struct Z2EnvSeMgr {
-    /* 802C9400 */ void startFogSe();
 };
 
 //
@@ -52,18 +40,11 @@ extern "C" void dKy_change_colpat__FUc();
 extern "C" void cM_atan2s__Fff();
 extern "C" void cLib_addCalc__FPfffff();
 extern "C" void startFogSe__10Z2EnvSeMgrFv();
-extern "C" void PSVECSquareDistance();
 extern "C" void _savegpr_27();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" void abs();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 g_mEnvSeMgr[780];
-extern "C" extern u32 __float_nan;
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 
 //

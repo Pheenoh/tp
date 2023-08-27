@@ -65,6 +65,7 @@ extern "C" void __dt__10daDo_HIO_cFv();
 extern "C" void __sinit_d_a_do_cpp();
 extern "C" static void func_8066EDC4();
 extern "C" static void func_8066EDCC();
+extern "C" bool fopAcM_riverStream__FP4cXyzPsPff();
 extern "C" extern char const* const d_a_do__stringBase0;
 
 //

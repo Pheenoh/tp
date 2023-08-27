@@ -11,41 +11,8 @@
 // Types:
 //
 
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct _GXColor {};
-
 struct mDoGph_gInf_c {
     /* 80008028 */ void fadeOut_f(f32, _GXColor&);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjDrop_c {
-    /* 80BDFD8C */ void Create();
-    /* 80BDFE58 */ void create();
-    /* 80BE0358 */ void dropGet();
-    /* 80BE0430 */ void checkGetArea();
-    /* 80BE05DC */ void checkCompleteDemo();
-    /* 80BE0658 */ void createLineEffect();
-    /* 80BE071C */ void removeLineEffect();
-    /* 80BE077C */ void createBodyEffect();
-    /* 80BE0840 */ void removeBodyEffect();
-    /* 80BE08A0 */ void modeInit();
-    /* 80BE0994 */ void modeNoParent();
-    /* 80BE09F4 */ void modeParentWait();
-    /* 80BE0C08 */ void modeWait();
-    /* 80BE1928 */ bool actionCompleteWait();
-    /* 80BE1930 */ void actionOrderCompleteDemo();
-    /* 80BE19D0 */ void actionCompleateDemo();
-    /* 80BE1ACC */ void actionWaitCompleteGetDemo();
-    /* 80BE1B5C */ void actionCompleteGetDemo();
-    /* 80BE1BC4 */ void execute();
-    /* 80BE1DCC */ void _delete();
 };
 
 struct dTres_c {
@@ -87,27 +54,10 @@ struct dPa_followEcallBack {
     /* 80BE02B0 */ void __defctor();
 };
 
-struct dKy_tevstr_c {};
-
-struct csXyz {
-    /* 80BE02D8 */ ~csXyz();
-    /* 80BE0314 */ csXyz();
-
-    static u8 Zero[4];
-};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047ADC */ void endCheckOld(char const*);
 };
 
 struct dCamera_c {
@@ -134,24 +84,8 @@ struct dBgS_Acch {
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
 };
 
 struct JPABaseEmitter {};
@@ -162,10 +96,6 @@ struct JPAEmitterCallBack {
     /* 80BE1EE4 */ void executeAfter(JPABaseEmitter*);
     /* 80BE1EE8 */ void draw(JPABaseEmitter*);
     /* 80BE1EEC */ void drawAfter(JPABaseEmitter*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -279,7 +209,6 @@ extern "C" void __dt__18JPAEmitterCallBackFv();
 extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_18();
@@ -291,8 +220,6 @@ extern "C" void _restgpr_24();
 extern "C" void _restgpr_25();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__19dPa_followEcallBack[10];
 extern "C" extern void* __vt__8dCcD_Sph[36];
@@ -676,14 +603,16 @@ asm void dPa_followEcallBack::__defctor() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__dt__5csXyzFv.s"
 }
 #pragma pop
 
 /* 80BE0314-80BE0318 0006B4 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 

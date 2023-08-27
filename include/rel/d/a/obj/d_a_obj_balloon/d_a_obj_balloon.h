@@ -2,5 +2,29 @@
 #define D_A_OBJ_BALLOON_H
 
 #include "dolphin/types.h"
+#include "f_op/f_op_actor_mng.h"
+
+class daObj_Balloon_c : public fopAc_ac_c {
+    /* 80BA7FF4 */ void draw();
+    /* 80BA80F4 */ void saveBestScore();
+    /* 80BA810C */ void cc_set();
+    /* 80BA81B8 */ void action();
+    /* 80BA865C */ void mtx_set();
+    /* 80BA86CC */ void execute();
+    /* 80BA8734 */ void _delete();
+    /* 80BA87CC */ void CreateHeap();
+    /* 80BA88C4 */ void create();
+};
+
+class daObj_Balloon_HIO_c {
+    /* 80BA7FAC */ daObj_Balloon_HIO_c();
+    /* 80BA8D64 */ ~daObj_Balloon_HIO_c();
+};
+
+class daBalloon2D_c : public fopAc_ac_c {
+    /* 80653F58 */ void setComboCount(u8, u8);
+    /* 80653FC0 */ void setScoreCount(u32);
+    /* 80653FEC */ void addScoreCount(cXyz*, u32, u8);
+};
 
 #endif /* D_A_OBJ_BALLOON_H */

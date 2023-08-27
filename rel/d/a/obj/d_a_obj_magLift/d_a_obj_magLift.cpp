@@ -10,79 +10,17 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
 struct mDoHIO_entry_c {
     /* 80C8DA58 */ ~mDoHIO_entry_c();
-};
-
-struct fopAc_ac_c {};
-
-struct daMagLift_c {
-    /* 80C8DAA0 */ void setBaseMtx();
-    /* 80C8DB28 */ void CreateHeap();
-    /* 80C8DB94 */ void create();
-    /* 80C8DD38 */ void Execute(f32 (**)[3][4]);
-    /* 80C8DD88 */ void moveLift();
-    /* 80C8DE98 */ void modeAcc();
-    /* 80C8DF20 */ void init_modeMove();
-    /* 80C8DF2C */ void modeMove();
-    /* 80C8E1EC */ void init_modeBrk();
-    /* 80C8E1F8 */ void modeBrk();
-    /* 80C8E260 */ void init_modeWaitInit();
-    /* 80C8E26C */ void modeWaitInit();
-    /* 80C8E2A0 */ void init_modeWait();
-    /* 80C8E2AC */ void modeWait();
-    /* 80C8E2B8 */ void init_modeMoveWait();
-    /* 80C8E2C4 */ void modeMoveWait();
-    /* 80C8E318 */ void modeDead();
-    /* 80C8E31C */ void setNextPoint();
-    /* 80C8E450 */ void Draw();
-    /* 80C8E4F4 */ void Delete();
-
-    static u8 const mSpeed[64];
-};
-
-struct daMagLift_HIO_c {
-    /* 80C8DA2C */ daMagLift_HIO_c();
-    /* 80C8E5B0 */ ~daMagLift_HIO_c();
 };
 
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 8026702C */ bool operator==(Vec const&) const;
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -97,8 +35,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -165,17 +101,9 @@ extern "C" bool __eq__4cXyzCFRC3Vec();
 extern "C" void cLib_addCalcPos__FP4cXyzRC4cXyzfff();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSVECSquareMag();
 extern "C" void __ptmf_scall();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
-extern "C" extern u32 __float_nan;
 extern "C" void __register_global_object();
 
 //

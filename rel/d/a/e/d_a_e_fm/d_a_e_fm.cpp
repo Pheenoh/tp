@@ -11,83 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct obj_ystone_class {
-    /* 804FA488 */ void setCurrentPos(cXyz);
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DAnmTevRegKey {};
-
-struct mDoExt_brkAnm {
-    /* 8000D70C */ void init(J3DMaterialTable*, J3DAnmTevRegKey*, int, int, f32, s16, s16);
-    /* 8000D7A8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct mDoExt_McaMorf {
-    /* 8000FC4C */ mDoExt_McaMorf(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                  mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int, int,
-                                  int, void*, u32, u32);
-    /* 8001037C */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32, void*);
-    /* 800105C8 */ void play(Vec*, u32, s8);
-    /* 80010680 */ void entryDL();
-    /* 800106AC */ void modelCalc();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct e_fm_class {
-    /* 804F9B64 */ e_fm_class();
-};
-
-struct daPy_py_c {
-    /* 8015F478 */ void setFmChainPos(fopAc_ac_c*, cXyz*, int);
-    /* 8015F4B8 */ void cancelFmChainGrab();
-    /* 8015F4F0 */ void setLookPos(cXyz*);
-    /* 8015F520 */ void setPlayerSe(u32);
-    /* 804FA534 */ void changeDemoPos0(cXyz const*);
-    /* 804FA680 */ void changeDemoMode(u32, int, int, s16);
-    /* 804FA694 */ void changeOriginalDemo();
-};
-
-struct daObjHHASHI_c {
-    /* 80580854 */ void Rolling(cXyz*, f32, f32, s8);
-};
-
-struct daE_FM_HIO_c {
-    /* 804EF0EC */ daE_FM_HIO_c();
-    /* 804FA3D8 */ ~daE_FM_HIO_c();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
     /* 8006FB10 */ void StartQuake(int, int, cXyz);
@@ -108,31 +31,7 @@ struct dSv_event_c {
     /* 800349A4 */ void offEventBit(u16);
 };
 
-struct dKy_tevstr_c {
-    /* 804F9ED8 */ ~dKy_tevstr_c();
-    /* 804F9FE0 */ dKy_tevstr_c();
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct csXyz {
-    /* 804FA06C */ csXyz();
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 804EF63C */ ~csXyz();
-};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     struct level_c {
@@ -205,14 +104,6 @@ struct chain_s {
     /* 804F9F14 */ chain_s();
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
@@ -221,51 +112,6 @@ struct cBgS_LinChk {};
 
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-struct _GXTexObj {};
-
-struct Z2SeqMgr {
-    /* 802AF010 */ void bgmStart(u32, u32, s32);
-    /* 802AF408 */ void bgmStop(u32, s32);
-    /* 802AF49C */ void subBgmStart(u32);
-    /* 802AFB94 */ void bgmStreamPrepare(u32);
-    /* 802AFE18 */ void bgmStreamPlay();
-    /* 802AFF8C */ void changeBgmStatus(s32);
-};
-
-struct Z2CreatureFM {
-    /* 802C1F54 */ Z2CreatureFM();
-    /* 802C1FFC */ void init(Vec*, Vec*, Vec*, Vec*, Vec*, Vec*, u8, u8, u8, u8, u8, u8);
-    /* 802C2290 */ void startChainSoundLevel(JAISoundID, u8, f32, u32, s8);
-};
-
-struct LIGHT_INFLUENCE {};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DLightObj {
-    /* 804FA034 */ J3DLightObj();
-};
-
-struct J3DLightInfo {
-    /* 803256C4 */ void operator=(J3DLightInfo const&);
-};
-
-struct J3DJoint {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 8032842C */ void checkPass(f32);
-    /* 804F95CC */ ~J3DFrameCtrl();
 };
 
 //
@@ -490,8 +336,6 @@ extern "C" void __dl__FPv();
 extern "C" void __as__12J3DLightInfoFRC12J3DLightInfo();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void _savegpr_14();
@@ -516,9 +360,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern u8 const j3dDefaultLightInfo[52];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -528,8 +369,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
@@ -1416,7 +1255,8 @@ static asm void s_hasira_eff_sub(void* param_0, void* param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__dt__5csXyzFv.s"
 }
@@ -2683,7 +2523,8 @@ static asm void useHeapInit(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__dt__12J3DFrameCtrlFv.s"
 }
@@ -2745,7 +2586,8 @@ asm chain_s::~chain_s() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dKy_tevstr_c::~dKy_tevstr_c() {
+// asm dKy_tevstr_c::~dKy_tevstr_c() {
+extern "C" asm void __dt__12dKy_tevstr_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__dt__12dKy_tevstr_cFv.s"
 }
@@ -2765,7 +2607,8 @@ asm chain_s::chain_s() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dKy_tevstr_c::dKy_tevstr_c() {
+// asm dKy_tevstr_c::dKy_tevstr_c() {
+extern "C" asm void __ct__12dKy_tevstr_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__ct__12dKy_tevstr_cFv.s"
 }
@@ -2775,14 +2618,16 @@ asm dKy_tevstr_c::dKy_tevstr_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DLightObj::J3DLightObj() {
+// asm J3DLightObj::J3DLightObj() {
+extern "C" asm void __ct__11J3DLightObjFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__ct__11J3DLightObjFv.s"
 }
 #pragma pop
 
 /* 804FA06C-804FA070 00B06C 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 
@@ -2845,7 +2690,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -2855,7 +2701,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/__dt__12dBgS_AcchCirFv.s"
 }

@@ -2,5 +2,42 @@
 #define D_A_OBJ_KAMAKIRI_H
 
 #include "dolphin/types.h"
+#include "f_op/f_op_actor_mng.h"
+
+class daPy_boomerangMove_c : public fopAc_ac_c {
+    /* 8015E5B0 */ void initOffset(cXyz const*);
+    /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
+    /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
+};
+
+class daObj_KamHIO_c {
+    /* 80C3518C */ daObj_KamHIO_c();
+    /* 80C38360 */ ~daObj_KamHIO_c();
+};
+
+class daObjKAM_c : public fopAc_ac_c {
+    /* 80C351BC */ void InitCcSph();
+    /* 80C35228 */ void SetCcSph();
+    /* 80C352A0 */ void CreateHeap();
+    /* 80C35684 */ void ShopWaitAction();
+    /* 80C357EC */ void WaitAction();
+    /* 80C35970 */ void WallCheck();
+    /* 80C35BE4 */ void SpeedSet();
+    /* 80C35CF0 */ void WallWalk();
+    /* 80C36138 */ void WalkAction();
+    /* 80C36338 */ void MoveAction();
+    /* 80C36B20 */ void Action();
+    /* 80C36BE4 */ void ShopAction();
+    /* 80C36CA0 */ void Insect_Release();
+    /* 80C36CB8 */ void Z_BufferChk();
+    /* 80C36E34 */ void ParticleSet();
+    /* 80C36F58 */ void BoomChk();
+    /* 80C37324 */ void ObjHit();
+    /* 80C374AC */ void Execute();
+    /* 80C37724 */ void Delete();
+    /* 80C3778C */ void setBaseMtx();
+    /* 80C378F4 */ void CreateChk();
+    /* 80C37AA0 */ void create();
+};
 
 #endif /* D_A_OBJ_KAMAKIRI_H */

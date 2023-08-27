@@ -11,34 +11,6 @@
 // Types:
 //
 
-struct csXyz {
-    /* 802673F4 */ csXyz(s16, s16, s16);
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daTagAtkItem_c {
-    /* 805A2958 */ void setBaseMtx();
-    /* 805A2990 */ void Create();
-    /* 805A2A34 */ void create();
-    /* 805A2C48 */ void execute();
-    /* 805A2CA8 */ void action();
-    /* 805A2D10 */ void eventStart();
-    /* 805A2D34 */ void eventEnd();
-    /* 805A2D58 */ void checkHit();
-    /* 805A2F54 */ void createItem();
-    /* 805A3038 */ bool _delete();
-    /* 805A3118 */ ~daTagAtkItem_c();
-};
-
 struct dEvLib_callback_c {
     /* 8004886C */ void eventUpdate();
     /* 80048940 */ void orderEvent(int, int, int);
@@ -46,10 +18,6 @@ struct dEvLib_callback_c {
     /* 805A30E8 */ bool eventRun();
     /* 805A30F0 */ bool eventStart();
     /* 805A30F8 */ bool eventEnd();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 //
@@ -112,8 +80,6 @@ extern "C" void _savegpr_27();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];

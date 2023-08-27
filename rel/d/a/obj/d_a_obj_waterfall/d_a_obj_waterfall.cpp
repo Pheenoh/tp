@@ -11,41 +11,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjWaterFall_c {
-    /* 80D2ED14 */ void search_bomb();
-    /* 80D2F034 */ void search_arrow();
-    /* 80D2F324 */ void initBaseMtx();
-    /* 80D2F344 */ void setBaseMtx();
-    /* 80D2F39C */ void Create();
-    /* 80D2F5A0 */ void create();
-    /* 80D2F984 */ void execute();
-    /* 80D2FA6C */ void push_player();
-    /* 80D2FC94 */ bool draw();
-    /* 80D2FC9C */ void _delete();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
 struct dBomb_c {
     /* 80031FF4 */ void checkWaterBomb(fopAc_ac_c*);
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
 };
 
 //
@@ -107,15 +78,11 @@ extern "C" void SetH__8cM3dGCylFf();
 extern "C" void SetR__8cM3dGCylFf();
 extern "C" void cLib_chasePosXZ__FP4cXyzRC4cXyzf();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void _savegpr_23();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_23();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__8dCcD_Tri[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];

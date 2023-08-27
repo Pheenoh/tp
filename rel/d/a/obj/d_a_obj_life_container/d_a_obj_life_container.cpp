@@ -11,70 +11,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjLife_c {
-    /* 804CCBE4 */ void initBaseMtx();
-    /* 804CCC04 */ void setBaseMtx();
-    /* 804CCC6C */ void Create();
-    /* 804CCE00 */ void setEffect();
-    /* 804CCF5C */ void endEffect00();
-    /* 804CCFAC */ void endEffect02();
-    /* 804CCFD8 */ bool __CreateHeap();
-    /* 804CCFE0 */ void create();
-    /* 804CD428 */ void bg_check();
-    /* 804CD5B8 */ void actionWaitInit();
-    /* 804CD660 */ void actionWait();
-    /* 804CD8C0 */ void initActionOrderGetDemo();
-    /* 804CD98C */ void actionOrderGetDemo();
-    /* 804CDA08 */ void actionGetDemo();
-    /* 804CDBC8 */ void actionSwOnWait();
-    /* 804CDC2C */ void actionInitBoomerangCarry();
-    /* 804CDD0C */ void actionBoomerangCarry();
-    /* 804CDD7C */ void actionInitWait2();
-    /* 804CDD8C */ void actionWait2();
-    /* 804CDDAC */ void calcScale();
-    /* 804CDE70 */ void execute();
-    /* 804CE19C */ void draw();
-    /* 804CE1F0 */ void setListStart();
-    /* 804CE214 */ void _delete();
-};
-
-struct daItemBase_c {
-    /* 80037A64 */ void hide();
-    /* 80037A74 */ void show();
-    /* 80037ACC */ void chkDraw();
-    /* 80144724 */ void DeleteBase(char const*);
-    /* 8014474C */ bool clothCreate();
-    /* 80144B94 */ void DrawBase();
-    /* 80144C30 */ void RotateYBase();
-    /* 80144CC4 */ void settingBeforeDraw();
-    /* 80144D18 */ void setTevStr();
-    /* 80144D70 */ void setShadow();
-    /* 80144EDC */ void animEntry();
-    /* 8014503C */ void animPlay(f32, f32, f32, f32, f32, f32);
-    /* 80145144 */ void chkFlag(int);
-    /* 80145164 */ void getTevFrm();
-    /* 80145180 */ void getBtpFrm();
-    /* 8014519C */ void getShadowSize();
-    /* 801451B4 */ void getCollisionH();
-    /* 801451D0 */ void getCollisionR();
-    /* 8015B0B8 */ void getData();
-};
-
 struct dSv_memBit_c {
     /* 80034934 */ void isDungeonItem(int) const;
 };
@@ -99,10 +35,6 @@ struct dPa_followEcallBack {
     /* 80049580 */ dPa_followEcallBack(u8, u8);
 };
 
-struct dKy_tevstr_c {};
-
-struct _GXColor {};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
@@ -112,14 +44,6 @@ struct dPa_control_c {
 struct dItem_data {
     static void* field_item_res[1020];
     static u8 item_info[1020 + 4 /* padding */];
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047ADC */ void endCheckOld(char const*);
 };
 
 struct dBgS_PolyPassChk {
@@ -145,29 +69,12 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
 
 struct cBgS {
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-    /* 802BE4A4 */ void startCollisionSE(u32, u32, Z2SoundObjBase*);
 };
 
 struct JPABaseEmitter {};
@@ -178,10 +85,6 @@ struct JPAEmitterCallBack {
     /* 804CE3B4 */ void executeAfter(JPABaseEmitter*);
     /* 804CE3B8 */ void draw(JPABaseEmitter*);
     /* 804CE3BC */ void drawAfter(JPABaseEmitter*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
 };
 
 //
@@ -321,9 +224,6 @@ extern "C" void deleteObject__14Z2SoundObjBaseFv();
 extern "C" void startCollisionSE__14Z2SoundObjBaseFUlUlP14Z2SoundObjBase();
 extern "C" void __ct__16Z2SoundObjSimpleFv();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXInverse();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_28();
@@ -331,8 +231,6 @@ extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" void* field_item_res__10dItem_data[1020];
@@ -343,7 +241,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_804CE6A0[4];

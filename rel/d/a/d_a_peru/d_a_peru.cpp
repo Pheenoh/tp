@@ -10,283 +10,12 @@
 // Types:
 //
 
-struct csXyz {
-    /* 80D4AFCC */ ~csXyz();
-    /* 80D4B6B8 */ csXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CF0C */ void ZXYrotS(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Vec {};
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0420 */ ~Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80D4AF90 */ ~cXyz();
-    /* 80D4B7B8 */ cXyz();
-};
-
-struct daTag_EvtArea_c {
-    /* 80D4BFD4 */ void chkPointInArea(cXyz);
-    /* 8048C94C */ void chkPointInArea(cXyz, cXyz);
-};
-
-struct daPy_py_c {
-    /* 80D4C034 */ void checkNowWolf();
-};
-
-struct daNpcT_faceMotionAnmData_c {};
-
-struct daNpcT_MotionSeqMngr_c {
-    struct sequenceStepData_c {};
-
-    /* 80145898 */ void initialize();
-    /* 80D4B7BC */ ~daNpcT_MotionSeqMngr_c();
-};
-
-struct daNpcT_evtData_c {};
-
-struct daNpcT_motionAnmData_c {};
-
-struct J3DJoint {};
-
-struct daPeru_c {
-    /* 80D46EEC */ ~daPeru_c();
-    /* 80D46FCC */ void create();
-    /* 80D4720C */ void CreateHeap();
-    /* 80D4765C */ void typeInitialize();
-    /* 80D47750 */ void Delete();
-    /* 80D47784 */ void Execute();
-    /* 80D477A4 */ void Draw();
-    /* 80D47840 */ void createHeapCallBack(fopAc_ac_c*);
-    /* 80D47860 */ void ctrlJointCallBack(J3DJoint*, int);
-    /* 80D478B8 */ void isDelete();
-    /* 80D478EC */ void reset();
-    /* 80D47B20 */ void setParam();
-    /* 80D47C4C */ void setAfterTalkMotion();
-    /* 80D47CAC */ void srchActors();
-    /* 80D47D5C */ void evtTalk();
-    /* 80D47E48 */ void evtCutProc();
-    /* 80D47F10 */ void action();
-    /* 80D47F5C */ void setAttnPos();
-    /* 80D481A4 */ void setCollision();
-    /* 80D4835C */ bool drawDbgInfo();
-    /* 80D48364 */ void setAction(int (daPeru_c::*)(int), int);
-    /* 80D48414 */ void wait(int);
-    /* 80D486A0 */ void is_AppearDemo_start();
-    /* 80D48720 */ void _AppearDemoTag_delete();
-    /* 80D48750 */ void talk(int);
-    /* 80D48A7C */ void jump_st(int);
-    /* 80D48C58 */ void jump_ed(int);
-    /* 80D48E34 */ void sniff(int);
-    /* 80D48FA8 */ void demo_appear(int);
-    /* 80D4910C */ void demo_walk_to_link(int);
-    /* 80D492A8 */ void demo_walk_circle(int);
-    /* 80D49418 */ void demo_walk_to_window(int);
-    /* 80D4971C */ void demo_walk_to_pathway(int);
-    /* 80D499AC */ void cutAppear(int);
-    /* 80D49A40 */ void _cutAppear_Init(int const&);
-    /* 80D4A334 */ void _cutAppear_Main(int const&);
-    /* 80D4A840 */ void _catdoor_open();
-    /* 80D4A920 */ void _catdoor_open_demoskip();
-    /* 80D4A984 */ void cutAppear_skip(int);
-    /* 80D4AA18 */ void _cutAppear_skip_Init(int const&);
-    /* 80D4AAF0 */ void _cutAppear_skip_Main(int const&);
-    /* 80D4BE2C */ daPeru_c(daNpcT_faceMotionAnmData_c const*, daNpcT_motionAnmData_c const*,
-                            daNpcT_MotionSeqMngr_c::sequenceStepData_c const*, int,
-                            daNpcT_MotionSeqMngr_c::sequenceStepData_c const*, int,
-                            daNpcT_evtData_c const*, char**);
-    /* 80D4BEC4 */ bool getEyeballMaterialNo();
-    /* 80D4BECC */ s32 getHeadJointNo();
-    /* 80D4BED4 */ s32 getNeckJointNo();
-    /* 80D4BEDC */ bool getBackboneJointNo();
-    /* 80D4BEE4 */ void checkChangeJoint(int);
-    /* 80D4BEF4 */ void checkRemoveJoint(int);
-    /* 80D4BF04 */ void beforeMove();
-
-    static void* mCutNameList[3];
-    static u8 mCutList[36];
-};
-
-struct daPeru_Param_c {
-    /* 80D4BF7C */ ~daPeru_Param_c();
-
-    static u8 const m[152];
-};
-
-struct daObjCatDoor_c {
-    /* 80BC42B8 */ void attr() const;
-    /* 80BC4454 */ void setBaseMtx();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-};
-
-struct _GXColorS10 {};
-
-struct J3DModel {};
-
-struct daNpcT_c {
-    /* 80147FA4 */ void tgHitCallBack(fopAc_ac_c*, dCcD_GObjInf*, fopAc_ac_c*, dCcD_GObjInf*);
-    /* 801483F8 */ void loadRes(s8 const*, char const**);
-    /* 801484AC */ void deleteRes(s8 const*, char const**);
-    /* 8014852C */ void execute();
-    /* 8014886C */ void draw(int, int, f32, _GXColorS10*, f32, int, int, int);
-    /* 801490D4 */ void ctrlBtk();
-    /* 80149190 */ void setMtx();
-    /* 8014951C */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 8014997C */ void evtProc();
-    /* 80149BB4 */ void setFootPos();
-    /* 80149D7C */ void setFootPrtcl(cXyz*, f32, f32);
-    /* 8014A05C */ bool checkCullDraw();
-    /* 8014A064 */ void twilight();
-    /* 8014A0B0 */ void evtOrder();
-    /* 8014A324 */ void clrParam();
-    /* 8014A388 */ void setFaceMotionAnm(int, bool);
-    /* 8014A628 */ void setMotionAnm(int, f32, int);
-    /* 8014AA18 */ void setAngle(s16);
-    /* 8014ABD0 */ void chkActorInSight(fopAc_ac_c*, f32, s16);
-    /* 8014B338 */ void srchPlayerActor();
-    /* 8014B648 */ void step(s16, int, int, int, int);
-    /* 8014BBF0 */ void initTalk(int, fopAc_ac_c**);
-    /* 8014BC78 */ void talkProc(int*, int, fopAc_ac_c**, int);
-    /* 8014BEE4 */ void getEvtAreaTagP(int, int);
-    /* 80D4AC08 */ ~daNpcT_c();
-    /* 80D4B2B4 */ daNpcT_c(daNpcT_faceMotionAnmData_c const*, daNpcT_motionAnmData_c const*,
-                            daNpcT_MotionSeqMngr_c::sequenceStepData_c const*, int,
-                            daNpcT_MotionSeqMngr_c::sequenceStepData_c const*, int,
-                            daNpcT_evtData_c const*, char**);
-    /* 80D4BCAC */ void ctrlSubFaceMotion(int);
-    /* 80D4BCB0 */ s32 getFootLJointNo();
-    /* 80D4BCB8 */ s32 getFootRJointNo();
-    /* 80D4BCC0 */ bool getEyeballLMaterialNo();
-    /* 80D4BCC8 */ bool getEyeballRMaterialNo();
-    /* 80D4BCD0 */ void afterJntAnm(int);
-    /* 80D4BCD4 */ bool checkChangeEvt();
-    /* 80D4BCDC */ bool evtEndProc();
-    /* 80D4BCE4 */ void afterMoved();
-    /* 80D4BCE8 */ bool chkXYItems();
-    /* 80D4BCF0 */ void decTmr();
-    /* 80D4BD08 */ void drawOtherMdl();
-    /* 80D4BD0C */ void drawGhost();
-    /* 80D4BD10 */ bool afterSetFaceMotionAnm(int, int, f32, int);
-    /* 80D4BD18 */ bool afterSetMotionAnm(int, int, f32, int);
-    /* 80D4BD20 */ void getFaceMotionAnm(daNpcT_faceMotionAnmData_c);
-    /* 80D4BD50 */ void getMotionAnm(daNpcT_motionAnmData_c);
-    /* 80D4BD80 */ void changeAnm(int*, int*);
-    /* 80D4BD84 */ void changeBck(int*, int*);
-    /* 80D4BD88 */ void changeBtp(int*, int*);
-    /* 80D4BD8C */ void changeBtk(int*, int*);
-
-    static u8 mCcDCyl[68];
-};
-
-struct daNpcT_Path_c {
-    /* 80145C40 */ void initialize();
-    /* 80D4B11C */ ~daNpcT_Path_c();
-};
-
-struct daNpcT_MatAnm_c {
-    /* 80145764 */ void initialize();
-};
-
-struct daNpcT_JntAnm_c {
-    /* 80146C98 */ void initialize();
-    /* 80146CD8 */ void setParam(fopAc_ac_c*, J3DModel*, cXyz*, int, int, int, f32, f32, f32, f32,
-                                 f32, f32, f32, f32, f32, f32, cXyz*);
-    /* 80147C38 */ void calcJntRad(f32, f32, f32);
-    /* 80D4B6BC */ ~daNpcT_JntAnm_c();
-    /* 80D4B988 */ void setEyeAngleY(cXyz, s16, int, f32, s16);
-    /* 80D4BAA4 */ void setEyeAngleX(cXyz, f32, s16);
-};
-
-struct daNpcT_DmgStagger_c {
-    /* 80147E3C */ void calc(int);
-};
-
-struct daNpcT_ActorMngr_c {
-    /* 801456D4 */ void initialize();
-    /* 801456E0 */ void entry(fopAc_ac_c*);
-    /* 801456FC */ void remove();
-    /* 80145708 */ void getActorP();
-    /* 80D4B008 */ ~daNpcT_ActorMngr_c();
-    /* 80D4B278 */ daNpcT_ActorMngr_c();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
 };
 
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F48 */ ~dMsgFlow_c();
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-    /* 800487F0 */ void ChkPresentEnd();
-};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcCyl {};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80D4B874 */ ~dCcD_GStts();
-};
-
-struct dCcD_Cyl {
-    /* 800848B4 */ void Set(dCcD_SrcCyl const&);
-    /* 80D4B050 */ ~dCcD_Cyl();
-    /* 80D4B164 */ dCcD_Cyl();
 };
 
 struct dBgW_Base {};
@@ -321,31 +50,6 @@ struct dBgS_Acch {
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
 };
 
-struct cM3dGCyl {
-    /* 8026F1DC */ void SetC(cXyz const&);
-    /* 8026F1F8 */ void SetH(f32);
-    /* 8026F200 */ void SetR(f32);
-    /* 80D4B1E8 */ ~cM3dGCyl();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80D4B230 */ ~cM3dGAab();
-};
-
-struct cCcD_Obj {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_GStts {
-    /* 80D4ABC0 */ ~cCcD_GStts();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -361,16 +65,6 @@ struct cBgS_GndChk {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
 };
 
 struct J3DTexNoAnm {
@@ -401,15 +95,6 @@ struct J3DMaterialAnm {
 struct J3DMatColorAnm {
     /* 80D47608 */ ~J3DMatColorAnm();
     /* 80D47644 */ J3DMatColorAnm();
-};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80D4B940 */ ~J3DFrameCtrl();
-};
-
-struct J3DAnmTexPattern {
-    /* 8032AF50 */ void getTexNo(u16, u16*) const;
 };
 
 //
@@ -645,10 +330,6 @@ extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
 extern "C" void getTexNo__16J3DAnmTexPatternCFUsPUs();
 extern "C" void initialize__14J3DMaterialAnmFv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSquareMag();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void __ptmf_test();
@@ -667,8 +348,6 @@ extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" extern u8 const __ptmf_null[12 + 4 /* padding */];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" u8 mCcDCyl__8daNpcT_c[68];
@@ -680,8 +359,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" extern void* __vt__14J3DMaterialAnm[4];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 j3dSys[284];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void chkPointInArea__15daTag_EvtArea_cF4cXyz4cXyz();
 extern "C" void attr__14daObjCatDoor_cCFv();
@@ -1293,7 +970,8 @@ asm void daPeru_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::~J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::~J3DTevKColorAnm() {
+extern "C" asm void __dt__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__15J3DTevKColorAnmFv.s"
 }
@@ -2190,7 +1868,8 @@ asm void J3DTexNoAnm::calc(u16* param_0) const {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__10cCcD_GSttsFv.s"
 }
@@ -2210,7 +1889,8 @@ asm daNpcT_c::~daNpcT_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__4cXyzFv.s"
 }
@@ -2220,7 +1900,8 @@ asm cXyz::~cXyz() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__5csXyzFv.s"
 }
@@ -2240,7 +1921,8 @@ asm daNpcT_ActorMngr_c::~daNpcT_ActorMngr_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_Cyl::~dCcD_Cyl() {
+// asm dCcD_Cyl::~dCcD_Cyl() {
+extern "C" asm void __dt__8dCcD_CylFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__8dCcD_CylFv.s"
 }
@@ -2260,7 +1942,8 @@ asm daNpcT_Path_c::~daNpcT_Path_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_Cyl::dCcD_Cyl() {
+// asm dCcD_Cyl::dCcD_Cyl() {
+extern "C" asm void __ct__8dCcD_CylFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__8dCcD_CylFv.s"
 }
@@ -2270,7 +1953,8 @@ asm dCcD_Cyl::dCcD_Cyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGCyl::~cM3dGCyl() {
+// asm cM3dGCyl::~cM3dGCyl() {
+extern "C" asm void __dt__8cM3dGCylFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__8cM3dGCylFv.s"
 }
@@ -2280,7 +1964,8 @@ asm cM3dGCyl::~cM3dGCyl() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__8cM3dGAabFv.s"
 }
@@ -2313,7 +1998,8 @@ asm daNpcT_c::daNpcT_c(daNpcT_faceMotionAnmData_c const* param_0,
 #pragma pop
 
 /* 80D4B6B8-80D4B6BC 0048B8 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 
@@ -2328,7 +2014,8 @@ asm daNpcT_JntAnm_c::~daNpcT_JntAnm_c() {
 #pragma pop
 
 /* 80D4B7B8-80D4B7BC 0049B8 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 
@@ -2356,7 +2043,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__10dCcD_GSttsFv.s"
 }
@@ -2376,7 +2064,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__12J3DFrameCtrlFv.s"
 }

@@ -11,118 +11,15 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-    /* 80011310 */ void stopZelAnime();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
-struct daE_PH_c {
-    /* 8073D48C */ void initCcSph();
-    /* 8073D5C4 */ void SetStopingCam();
-    /* 8073D648 */ void SetStopCam(cXyz, f32, f32, s16);
-    /* 8073D768 */ void SetCMoveCam(cXyz, f32, f32);
-    /* 8073D7AC */ void SetReleaseCam();
-    /* 8073D850 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 8073D950 */ void setCcSph();
-    /* 8073DB28 */ void SetAnm(int, int, f32, f32);
-    /* 8073DBD4 */ void SearchNearP();
-    /* 8073DDF8 */ void FlyAnm();
-    /* 8073E068 */ void SetShapeAngle();
-    /* 8073E22C */ void GoTarget();
-    /* 8073E4A4 */ void SetCheckAngle();
-    /* 8073E8B0 */ void C_CheckPoint();
-    /* 8073E924 */ void DownBoots();
-    /* 8073EA50 */ void UpBoots();
-    /* 8073EB64 */ void C_Action();
-    /* 8073ED0C */ void SearchNextPos();
-    /* 8073ED58 */ void SearchBackPos();
-    /* 8073EDA0 */ void S_SetPlaySpeed();
-    /* 8073EE68 */ void S_GoTarget();
-    /* 8073F250 */ void S_CheckPoint();
-    /* 8073F3D4 */ void S_SetAngle();
-    /* 8073F8C8 */ void FlyAnm2();
-    /* 8073FB70 */ void S_Action();
-    /* 8073FBDC */ void StopAction();
-    /* 8073FD70 */ void Action();
-    /* 80740024 */ void SetHeadAngle(s16);
-    /* 80740098 */ void CamAction();
-    /* 80740318 */ void DemoAction();
-    /* 807408C0 */ void ToumeiAction();
-    /* 80740B3C */ void Execute();
-    /* 80740C3C */ void AttentionSet();
-    /* 80740E70 */ void ObjHit();
-    /* 807410B0 */ void BaseSet();
-    /* 8074117C */ void De_Timer();
-    /* 807411C0 */ void EyeSet();
-    /* 80741200 */ void Delete();
-    /* 80741268 */ void setBaseMtx();
-    /* 80741428 */ void create();
-};
-
-struct daE_PH_HIO_c {
-    /* 8073D44C */ daE_PH_HIO_c();
-    /* 80741B4C */ ~daE_PH_HIO_c();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPath {};
 
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -178,40 +75,12 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {};
 
 struct cBgS_LinChk {};
 
 struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-struct _GXTexObj {};
-
-struct Z2SeqMgr {
-    /* 802AF010 */ void bgmStart(u32, u32, s32);
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-    /* 802C1B90 */ void setEnemyName(char const*);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 //
@@ -362,16 +231,12 @@ extern "C" void setEnemyName__15Z2CreatureEnemyFPCc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -380,8 +245,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];

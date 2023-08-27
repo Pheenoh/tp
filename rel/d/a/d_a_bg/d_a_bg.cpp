@@ -17,11 +17,6 @@
 // Types:
 //
 
-struct daGrass_c {
-    /* 800319C8 */ static void deleteRoomGrass(int);
-    /* 80031A20 */ static void deleteRoomFlower(int);
-};
-
 class daBg_btkAnm_c {
 public:
     /* 80457F34 */ int create(J3DModelData*, J3DAnmTextureSRTKey*, int);

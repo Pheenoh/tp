@@ -10,55 +10,11 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObj_Sekizo_c {
-    /* 80CCDC0C */ void create();
-    /* 80CCDD00 */ void CreateHeap();
-    /* 80CCDD8C */ void Create();
-    /* 80CCDDE8 */ void Delete();
-    /* 80CCDE3C */ void Execute(f32 (**)[3][4]);
-    /* 80CCDEF4 */ void Draw();
-    /* 80CCDFA4 */ void initBaseMtx();
-    /* 80CCDFE0 */ void setBaseMtx();
-};
-
-struct daObj_Sekizo_Param_c {
-    /* 80CCE118 */ ~daObj_Sekizo_Param_c();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dBgW_Base {};
 
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -80,8 +36,6 @@ struct dBgS {
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
 };
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -130,13 +84,8 @@ extern "C" void MoveBGExecute__16dBgS_MoveBgActorFv();
 extern "C" void settingTevStruct__18dScnKy_env_light_cFiP4cXyzP12dKy_tevstr_c();
 extern "C" void setLightTevColorType_MAJI__18dScnKy_env_light_cFP12J3DModelDataP12dKy_tevstr_c();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" void __register_global_object();
 

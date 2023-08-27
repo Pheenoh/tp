@@ -10,127 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80735AD8 */ ~cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DAnmTransform {};
-
-struct J3DModelData {};
-
-struct Z2Creature {};
-
-struct mDoExt_McaMorfSO {
-    /* 800107D0 */ mDoExt_McaMorfSO(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                    mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int,
-                                    int, Z2Creature*, u32, u32);
-    /* 80010E70 */ void setAnm(J3DAnmTransform*, int, f32, f32, f32, f32);
-    /* 800110B0 */ void play(u32, s8);
-    /* 800111C0 */ void entryDL();
-    /* 800111EC */ void modelCalc();
-};
-
-struct fopEn_enemy_c {};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daPy_py_c {
-    static u8 m_midnaActor[4];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
-
-struct daE_OC_c {
-    /* 8072C630 */ void ctrlJoint(J3DJoint*, J3DModel*);
-    /* 8072C6E8 */ void JointCallBack(J3DJoint*, int);
-    /* 8072C734 */ void draw();
-    /* 8072CBD4 */ void getVisionAngle(fopAc_ac_c*);
-    /* 8072CC10 */ void searchOtherOc();
-    /* 8072CDA8 */ void setWatchMode();
-    /* 8072CE00 */ void searchPlayer();
-    /* 8072CF90 */ void searchPlayer2();
-    /* 8072D100 */ void searchPlayerShakeHead();
-    /* 8072D1DC */ void searchSound();
-    /* 8072D364 */ void checkBeforeBg();
-    /* 8072D640 */ void checkBeforeBgFind();
-    /* 8072D87C */ void checkBeforeFloorBg(f32);
-    /* 8072D994 */ void checkDamageBg();
-    /* 8072DB10 */ void setGroundAngle();
-    /* 8072DCBC */ void setActionMode(int, int);
-    /* 8072DD18 */ void getCutType();
-    /* 8072DD8C */ void offTgSph();
-    /* 8072DDF4 */ void damage_check();
-    /* 8072E274 */ void setBck(int, u8, f32, f32);
-    /* 8072E31C */ void checkBck(int);
-    /* 8072E37C */ void setSpitEffect();
-    /* 8072E42C */ void getHeadAngle();
-    /* 8072E498 */ void setStabPos();
-    /* 8072E528 */ void setWaitSound();
-    /* 8072E5A4 */ void setWalkSound();
-    /* 8072E670 */ void setWalkStSound();
-    /* 8072E788 */ void setDashSound();
-    /* 8072E910 */ void setWaitStSound();
-    /* 8072EA58 */ void setFootNoteSound();
-    /* 8072EAA4 */ void executeWait();
-    /* 8072F1A8 */ void executeWalk();
-    /* 8072F5E0 */ void executeTalk();
-    /* 8072F914 */ void executeFind();
-    /* 807302E8 */ void setWeaponGroundAngle();
-    /* 807305C0 */ void executeAttack();
-    /* 80730DC0 */ void executeDamage();
-    /* 80731124 */ void executeBigDamage();
-    /* 807316F8 */ void executeWatch();
-    /* 807319E4 */ void executeSoundWatch();
-    /* 80731D18 */ void checkBeforeDeath();
-    /* 80731D4C */ void executeDeath();
-    /* 80731F5C */ void setWaterEffect();
-    /* 80732074 */ void executeWaterDeath();
-    /* 807323A4 */ void executeDemoMaster();
-    /* 80732B04 */ void executeDemoChild();
-    /* 80732E64 */ void checkFall();
-    /* 8073301C */ void executeFallDead();
-    /* 807331CC */ void executeFall();
-    /* 8073332C */ void executeFindStay();
-    /* 807335B4 */ void executeMoveOut();
-    /* 80733E48 */ void checkWaterSurface();
-    /* 80733F20 */ void action();
-    /* 807345D8 */ void mtx_set();
-    /* 80734698 */ void cc_set();
-    /* 807348DC */ void execute();
-    /* 80734B6C */ void _delete();
-    /* 80734C10 */ void CreateHeap();
-    /* 80734DA8 */ void create();
-};
-
-struct daE_OC_HIO_c {
-    /* 8072C5CC */ daE_OC_HIO_c();
-    /* 80735630 */ ~daE_OC_HIO_c();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
@@ -140,22 +19,7 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
@@ -178,33 +42,6 @@ struct dDlst_shadowControl_c {
 };
 
 struct dCcU_AtInfo {};
-
-struct dCcD_Stts {
-    /* 80083860 */ void Init(int, int, fopAc_ac_c*);
-};
-
-struct dCcD_SrcSph {};
-
-struct dCcD_Sph {
-    /* 80084A34 */ void Set(dCcD_SrcSph const&);
-    /* 807352AC */ ~dCcD_Sph();
-    /* 80735378 */ dCcD_Sph();
-};
-
-struct dCcD_GStts {
-    /* 80083760 */ dCcD_GStts();
-    /* 80083830 */ void Move();
-    /* 8073548C */ ~dCcD_GStts();
-};
-
-struct dCcD_GObjInf {
-    /* 80083A28 */ dCcD_GObjInf();
-    /* 800840E4 */ ~dCcD_GObjInf();
-    /* 800842C0 */ void ChkAtHit();
-    /* 80084358 */ void GetAtHitObj();
-    /* 80084460 */ void ChkTgHit();
-    /* 800844F8 */ void GetTgHitObj();
-};
 
 struct dCamera_c {
     /* 801614AC */ void Start();
@@ -258,38 +95,8 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGSph {
-    /* 8026F648 */ void SetC(cXyz const&);
-    /* 8026F708 */ void SetR(f32);
-    /* 807353FC */ ~cM3dGSph();
-};
-
-struct cM3dGPla {
-    /* 8072D5F8 */ ~cM3dGPla();
-};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cM3dGAab {
-    /* 80735444 */ ~cM3dGAab();
-};
-
 struct cCcD_Obj {
     /* 80263A48 */ void GetAc();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cCcD_Stts {
-    /* 8026395C */ void ClrCcMove();
-};
-
-struct cCcD_GStts {
-    /* 807355E8 */ ~cCcD_GStts();
 };
 
 struct cBgS_LinChk {};
@@ -303,35 +110,6 @@ struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct _GXTexObj {};
-
-struct Z2SeqMgr {
-    /* 802B4844 */ void setBattleSeqState(u8);
-};
-
-struct Z2CreatureEnemy {
-    /* 802C0F64 */ Z2CreatureEnemy();
-    /* 802C1094 */ void init(Vec*, Vec*, u8, u8);
-    /* 802C1B7C */ void setLinkSearch(bool);
-    /* 802C1B90 */ void setEnemyName(char const*);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DFrameCtrl {
-    /* 8032842C */ void checkPass(f32);
 };
 
 struct E_OC_n {
@@ -560,12 +338,6 @@ extern "C" void setEnemyName__15Z2CreatureEnemyFPCc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void checkPass__12J3DFrameCtrlFf();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
-extern "C" void PSVECSquareMag();
-extern "C" void PSVECSquareDistance();
 extern "C" void __construct_array();
 extern "C" void _savegpr_19();
 extern "C" void _savegpr_23();
@@ -577,10 +349,7 @@ extern "C" void _restgpr_23();
 extern "C" void _restgpr_26();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void abs();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -589,11 +358,8 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u32 __float_nan;
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void __register_global_object();
@@ -1291,7 +1057,8 @@ asm void daE_OC_c::checkBeforeBg() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGPla::~cM3dGPla() {
+// asm cM3dGPla::~cM3dGPla() {
+extern "C" asm void __dt__8cM3dGPlaFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__8cM3dGPlaFv.s"
 }
@@ -2408,7 +2175,8 @@ asm void daE_OC_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_Sph::~dCcD_Sph() {
+// asm dCcD_Sph::~dCcD_Sph() {
+extern "C" asm void __dt__8dCcD_SphFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__8dCcD_SphFv.s"
 }
@@ -2418,7 +2186,8 @@ asm dCcD_Sph::~dCcD_Sph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_Sph::dCcD_Sph() {
+// asm dCcD_Sph::dCcD_Sph() {
+extern "C" asm void __ct__8dCcD_SphFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__ct__8dCcD_SphFv.s"
 }
@@ -2428,7 +2197,8 @@ asm dCcD_Sph::dCcD_Sph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGSph::~cM3dGSph() {
+// asm cM3dGSph::~cM3dGSph() {
+extern "C" asm void __dt__8cM3dGSphFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__8cM3dGSphFv.s"
 }
@@ -2438,7 +2208,8 @@ asm cM3dGSph::~cM3dGSph() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cM3dGAab::~cM3dGAab() {
+// asm cM3dGAab::~cM3dGAab() {
+extern "C" asm void __dt__8cM3dGAabFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__8cM3dGAabFv.s"
 }
@@ -2448,7 +2219,8 @@ asm cM3dGAab::~cM3dGAab() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcD_GStts::~dCcD_GStts() {
+// asm dCcD_GStts::~dCcD_GStts() {
+extern "C" asm void __dt__10dCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__10dCcD_GSttsFv.s"
 }
@@ -2488,7 +2260,8 @@ static asm void daE_OC_Create(daE_OC_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cCcD_GStts::~cCcD_GStts() {
+// asm cCcD_GStts::~cCcD_GStts() {
+extern "C" asm void __dt__10cCcD_GSttsFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__10cCcD_GSttsFv.s"
 }
@@ -2555,7 +2328,8 @@ static asm void setMidnaBindEffect(fopEn_enemy_c* param_0, Z2CreatureEnemy* para
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_oc/d_a_e_oc/__dt__4cXyzFv.s"
 }

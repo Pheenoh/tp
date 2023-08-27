@@ -21,20 +21,6 @@ struct himo_s {
     /* 807E1D2C */ himo_s();
 };
 
-struct daObjCRVSTEEL_c {
-    /* 80BD5BFC */ void OpenSet(f32, f32);
-    /* 80BD5C18 */ void CloseSet(f32);
-};
-
-struct daObjCRVGATE_c {
-    /* 80BD245C */ void SetB_Close();
-};
-
-struct daE_WB_HIO_c {
-    /* 807D248C */ daE_WB_HIO_c();
-    /* 807E20DC */ ~daE_WB_HIO_c();
-};
-
 struct dMsgObject_c {
     /* 8023822C */ void getStatus();
 };

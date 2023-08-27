@@ -11,80 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF0C */ void ZXYrotS(csXyz const&);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjGeyser_c {
-    /* 80BF6F18 */ void initBaseMtx();
-    /* 80BF6F38 */ void setBaseMtx();
-    /* 80BF6F80 */ void Create();
-    /* 80BF70E0 */ void CreateHeap();
-    /* 80BF7174 */ void create1st();
-    /* 80BF7288 */ void Execute(f32 (**)[3][4]);
-    /* 80BF744C */ void action();
-    /* 80BF75B8 */ void actionOff2Init();
-    /* 80BF75C4 */ void actionOff2();
-    /* 80BF7838 */ void actionOnWait2Init();
-    /* 80BF787C */ void actionOnWait2();
-    /* 80BF7C54 */ void actionOn2Init();
-    /* 80BF7CA0 */ void actionOn2();
-    /* 80BF8158 */ void actionDisappearInit(u8);
-    /* 80BF8178 */ void actionDisappear();
-    /* 80BF823C */ void actionOffInit();
-    /* 80BF8268 */ void actionOff();
-    /* 80BF82D0 */ void actionOnWaitInit();
-    /* 80BF8344 */ void actionOnWait();
-    /* 80BF83E4 */ void actionOnInit();
-    /* 80BF846C */ void actionOn();
-    /* 80BF8584 */ void setPntWind();
-    /* 80BF863C */ void cutPntWind();
-    /* 80BF8660 */ void movePntWind();
-    /* 80BF8870 */ void Draw();
-    /* 80BF8914 */ void setEmitterPre00();
-    /* 80BF89AC */ void setEmitterSrc00Sand();
-    /* 80BF89B0 */ void setEmitterSrc01Smk();
-    /* 80BF8A54 */ void stopEmitterPre00();
-    /* 80BF8A80 */ void stopEmitterSrc00Sand();
-    /* 80BF8AAC */ void stopEmitterSrc01Smk();
-    /* 80BF8AD8 */ void setEmitterClm00();
-    /* 80BF8B70 */ void setEmitterSmk01();
-    /* 80BF8C08 */ void setEmitterSmk02();
-    /* 80BF8CA0 */ void stopEmitterClm00();
-    /* 80BF8CCC */ void stopEmitterSmk01();
-    /* 80BF8CF8 */ void stopEmitterSmk02();
-    /* 80BF8D24 */ void Delete();
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -110,14 +37,6 @@ struct dBgS_MoveBgActor {
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
 };
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct WIND_INFLUENCE {};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -221,13 +140,9 @@ extern "C" void cLib_chaseUC__FPUcUcUc();
 extern "C" void cLib_chaseF__FPfff();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cps[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CpsAttr[25];
@@ -235,8 +150,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80BF9240[4];
 

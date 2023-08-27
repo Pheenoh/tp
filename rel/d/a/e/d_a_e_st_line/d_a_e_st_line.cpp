@@ -10,31 +10,6 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoExt_3DlineMat0_c {
-    /* 800125E0 */ void init(u16, u16, int);
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct e_st_line_class {};
-
-struct cXyz {
-    /* 807A6F60 */ ~cXyz();
-    /* 807A7220 */ cXyz();
-};
-
-struct Z2SoundObjSimple {
-    /* 802BE844 */ Z2SoundObjSimple();
-};
-
-struct Z2SoundObjBase {
-    /* 802BDFF8 */ void deleteObject();
-};
-
 //
 // Forward References:
 //
@@ -67,8 +42,6 @@ extern "C" void __construct_array();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
 extern "C" extern void* __vt__19mDoExt_3DlineMat0_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 
 //
 // Declarations:
@@ -83,7 +56,8 @@ static bool daE_ST_LINE_Draw(e_st_line_class* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_st_line/d_a_e_st_line/__dt__4cXyzFv.s"
 }
@@ -344,7 +318,8 @@ static asm void daE_ST_LINE_Create(fopAc_ac_c* param_0) {
 #pragma pop
 
 /* 807A7220-807A7224 000340 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 

@@ -16,15 +16,6 @@ namespace std {
 /* 8061AACC */ void fabsf(f32);
 };
 
-struct obj_ystone_class {
-    /* 8061AA70 */ void setCurrentPos(cXyz);
-};
-
-struct daB_OB_HIO_c {
-    /* 8061056C */ daB_OB_HIO_c();
-    /* 8061A808 */ ~daB_OB_HIO_c();
-};
-
 //
 // Forward References:
 //

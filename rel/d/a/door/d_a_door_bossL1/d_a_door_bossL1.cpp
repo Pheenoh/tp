@@ -10,93 +10,9 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CDD4 */ void transM(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
 struct door_param2_c {
     /* 8003A1D0 */ void getSwbit(fopAc_ac_c*);
     /* 8003A224 */ void getExitNo(fopAc_ac_c*);
-};
-
-struct daBdoorL1_c {
-    /* 804E1E2C */ void getDoorEventName();
-    /* 804E1EE8 */ void getDoorEventName2();
-    /* 804E1FA4 */ void getArcName();
-    /* 804E2060 */ void getAnmArcName();
-    /* 804E20C4 */ void getDoorType();
-    /* 804E2104 */ void getOpenAnm();
-    /* 804E2158 */ void getCloseAnm();
-    /* 804E21AC */ void getAlwaysArcName();
-    /* 804E21BC */ void getBmd();
-    /* 804E21CC */ void getDzb();
-    /* 804E21DC */ void getDoorModelData();
-    /* 804E2258 */ void CreateHeap();
-    /* 804E2578 */ void calcMtx();
-    /* 804E2754 */ void CreateInit();
-    /* 804E28E4 */ void create();
-    /* 804E2B78 */ void getDemoAction();
-    /* 804E2BC0 */ void demoProc();
-    /* 804E3180 */ void openInit();
-    /* 804E357C */ void openProc();
-    /* 804E3794 */ void openEnd();
-    /* 804E3850 */ void closeInit();
-    /* 804E3A2C */ void closeProc();
-    /* 804E3C0C */ bool closeEnd();
-    /* 804E3C14 */ void unlockInit();
-    /* 804E3CCC */ void setPos();
-    /* 804E3DE8 */ void calcGoal(cXyz*, int);
-    /* 804E3F10 */ void setAngle();
-    /* 804E3FF8 */ void createKey();
-    /* 804E4100 */ void smokeInit();
-    /* 804E4104 */ void deleteEmitter();
-    /* 804E4158 */ void checkArea();
-    /* 804E432C */ void checkFront();
-    /* 804E43A0 */ void checkOpen();
-    /* 804E4414 */ bool actionWait();
-    /* 804E441C */ void actionCloseWait();
-    /* 804E44B4 */ void actionOpen();
-    /* 804E44EC */ void actionEnd();
-    /* 804E464C */ void execute();
-    /* 804E476C */ void draw();
-    /* 804E48BC */ void Delete();
 };
 
 struct dVibration_c {
@@ -118,29 +34,11 @@ struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
 };
 
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C37C */ void getRes(char const*, char const*, dRes_info_c*, int);
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
 
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct csXyz {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -148,16 +46,6 @@ struct dPa_control_c {
                             cXyz const*, f32);
     /* 8004D068 */ void setPoly(u16, cBgS_PolyInfo&, cXyz const*, dKy_tevstr_c const*, csXyz const*,
                                 cXyz const*, int, dPa_levelEcallBack*, s8, cXyz const*);
-};
-
-struct dEvent_manager_c {
-    /* 80047758 */ void getEventIdx(fopAc_ac_c*, char const*, u8);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-    /* 800483C4 */ void setGoal(cXyz*);
 };
 
 struct dBgW_Base {};
@@ -191,10 +79,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -207,34 +91,6 @@ struct cBgW {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct JAISoundID {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct JGeometry {
-    template <typename A1>
-    struct TVec3 {};
-    /* TVec3<f32> */
-    struct TVec3__template0 {};
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 804E2530 */ ~J3DFrameCtrl();
 };
 
 //
@@ -363,10 +219,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECAdd();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_25();
 extern "C" void _savegpr_28();
@@ -375,13 +227,9 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_meter2_info[248];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
@@ -941,7 +789,8 @@ asm void daBdoorL1_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/door/d_a_door_bossL1/d_a_door_bossL1/__dt__12J3DFrameCtrlFv.s"
 }

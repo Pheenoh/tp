@@ -11,95 +11,9 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {};
-
-struct fopAcM_lc_c {
-    /* 8001DC68 */ void lineCheck(cXyz const*, cXyz const*, fopAc_ac_c const*);
-
-    static u8 mLineCheck[112];
-};
-
-struct daTbox2_c {
-    /* 80496A18 */ void initBaseMtx();
-    /* 80496A54 */ void setBaseMtx();
-    /* 80496AB8 */ void Create();
-    /* 80496C20 */ void CreateHeap();
-    /* 80496E3C */ void create1st();
-    /* 8049724C */ void demoProc();
-    /* 80497478 */ void openInit();
-    /* 80497500 */ void Execute(f32 (**)[3][4]);
-    /* 804975EC */ void mode_proc_call();
-    /* 80497678 */ void mode_exec_wait();
-    /* 80497790 */ void mode_exec();
-    /* 8049780C */ void action();
-    /* 804978C8 */ void init_actionWait();
-    /* 804978D4 */ void actionWait();
-    /* 804978D8 */ void init_actionNotOpenDemo();
-    /* 804978E4 */ void actionNotOpenDemo();
-    /* 8049794C */ void init_actionOpenDemo();
-    /* 80497958 */ void actionOpenDemo();
-    /* 80497A0C */ void init_actionOpenWait();
-    /* 80497A18 */ void actionOpenWait();
-    /* 80497BD0 */ void setGetDemoItem();
-    /* 80497C60 */ void boxCheck();
-    /* 80497DA0 */ void Draw();
-    /* 80497E6C */ void Delete();
-    /* 80498140 */ bool checkSmallTbox();
-};
-
-struct daPy_py_c {
-    static u8 m_midnaActor[4];
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_info_c {
-    /* 80043428 */ void setEventName(char*);
-};
-
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 800436BC */ void setPtI(void*);
-};
-
-struct dEvent_manager_c {
-    /* 80047A78 */ void endCheck(s16);
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047D4C */ void getIsAddvance(int);
-    /* 80047E10 */ void getMyActIdx(int, char const* const*, int, int, int);
-    /* 8004817C */ void cutEnd(int);
 };
 
 struct dBgW_Base {};
@@ -120,8 +34,6 @@ struct dBgS_ObjAcch {
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -159,10 +71,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
 struct cBgW_BgId {
     /* 802681D4 */ void ChkUsed() const;
 };
@@ -175,17 +83,6 @@ struct cBgW {
 
 struct cBgS {
     /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80496DF4 */ ~J3DFrameCtrl();
 };
 
 //
@@ -308,8 +205,6 @@ extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXMultVec();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_24();
 extern "C" void _savegpr_25();
@@ -320,8 +215,6 @@ extern "C" void _restgpr_25();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Cyl[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_CylAttr[25];
@@ -330,8 +223,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" u8 mLineCheck__11fopAcM_lc_c[112];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80498480[4];
@@ -671,7 +562,8 @@ asm void daTbox2_c::CreateHeap() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_tbox2/d_a_tbox2/__dt__12J3DFrameCtrlFv.s"
 }

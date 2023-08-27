@@ -10,77 +10,8 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct mDoMtx_stack_c {
-    static u8 now[48];
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct fopAc_ac_c {
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daObjCdoor_c {
-    /* 80BC6DB8 */ void CreateHeap();
-    /* 80BC6F30 */ void create();
-    /* 80BC729C */ ~daObjCdoor_c();
-    /* 80BC73C0 */ void setMatrix();
-    /* 80BC7424 */ void Execute(f32 (**)[3][4]);
-    /* 80BC7478 */ void execCdoor();
-    /* 80BC7630 */ void execWgate();
-    /* 80BC775C */ void init_modeWait();
-    /* 80BC7768 */ void modeWait();
-    /* 80BC776C */ void init_modeOpen();
-    /* 80BC77BC */ void modeOpen();
-    /* 80BC78B0 */ void init_modeClose();
-    /* 80BC7900 */ void modeClose();
-    /* 80BC7A14 */ void event_proc_call();
-    /* 80BC7AD0 */ void actionWait();
-    /* 80BC7B34 */ void actionOrderEvent();
-    /* 80BC7B9C */ void actionEvent();
-    /* 80BC7BF8 */ void actionDead();
-    /* 80BC7C04 */ void Draw();
-};
-
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct cXyz {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
 };
 
 struct dCamera_c {
@@ -91,8 +22,6 @@ struct dCamera_c {
 struct dBgW {};
 
 struct cBgS_PolyInfo {};
-
-struct csXyz {};
 
 struct dBgS_MoveBgActor {
     /* 80078624 */ dBgS_MoveBgActor();
@@ -107,30 +36,6 @@ struct dBgS_MoveBgActor {
                                      u32, f32 (*)[3][4]);
     /* 800788DC */ void MoveBGDelete();
     /* 80078950 */ void MoveBGExecute();
-};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2EnvSeMgr {
-    /* 802C8258 */ void setHyrulSewerOpen(bool);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-struct J3DModel {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80BC7234 */ ~J3DFrameCtrl();
 };
 
 //
@@ -207,19 +112,12 @@ extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void setHyrulSewerOpen__10Z2EnvSeMgrFb();
 extern "C" void __dl__FPv();
 extern "C" void init__12J3DFrameCtrlFs();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__16dBgS_MoveBgActor[10];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 g_mEnvSeMgr[780];
-extern "C" extern u8 j3dSys[284];
 extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80BC7EB8[4];
@@ -466,7 +364,8 @@ asm void daObjCdoor_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_cdoor/d_a_obj_cdoor/__dt__12J3DFrameCtrlFv.s"
 }

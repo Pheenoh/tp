@@ -11,63 +11,7 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct csXyz {};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-    /* 8000CF44 */ void ZXYrotM(csXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObj_Balloon_c {
-    /* 80BA7FF4 */ void draw();
-    /* 80BA80F4 */ void saveBestScore();
-    /* 80BA810C */ void cc_set();
-    /* 80BA81B8 */ void action();
-    /* 80BA865C */ void mtx_set();
-    /* 80BA86CC */ void execute();
-    /* 80BA8734 */ void _delete();
-    /* 80BA87CC */ void CreateHeap();
-    /* 80BA88C4 */ void create();
-};
-
-struct daObj_Balloon_HIO_c {
-    /* 80BA7FAC */ daObj_Balloon_HIO_c();
-    /* 80BA8D64 */ ~daObj_Balloon_HIO_c();
-};
-
-struct daBalloon2D_c {
-    /* 80653F58 */ void setComboCount(u8, u8);
-    /* 80653FC0 */ void setScoreCount(u32);
-    /* 80653FEC */ void addScoreCount(cXyz*, u32, u8);
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dPa_levelEcallBack {};
-
-struct _GXColor {};
 
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
@@ -99,21 +43,9 @@ struct dBgS_Acch {
     /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
 };
 
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };
-
-struct _GXTexObj {};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -201,14 +133,11 @@ extern "C" void cLib_chaseF__FPfff();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStop__7Z2SeMgrF10JAISoundIDUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
 extern "C" void __cvt_fp2unsigned();
 extern "C" void _savegpr_22();
 extern "C" void _savegpr_28();
 extern "C" void _restgpr_22();
 extern "C" void _restgpr_28();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
 extern "C" extern void* __vt__12cCcD_SphAttr[25];
@@ -217,7 +146,6 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_env_light[4880];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void setComboCount__13daBalloon2D_cFUcUc();
 extern "C" void setScoreCount__13daBalloon2D_cFUl();

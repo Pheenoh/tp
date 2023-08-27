@@ -10,69 +10,12 @@
 // Types:
 //
 
-struct request_of_phase_process_class {};
-
-struct cXyz {
-    /* 80C9DEDC */ ~cXyz();
-    /* 80C9E700 */ cXyz();
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-
-    static u8 now[48];
-};
-
-struct fopAc_ac_c {};
-
-struct daObjStair_c {
-    /* 80C9D098 */ void initBaseMtx();
-    /* 80C9D0D4 */ void setBaseMtx();
-    /* 80C9D148 */ void Create();
-    /* 80C9D2B8 */ void CreateHeap();
-    /* 80C9D338 */ void create1st();
-    /* 80C9D41C */ void event_proc_call();
-    /* 80C9D4D8 */ void mode_proc_call();
-    /* 80C9D594 */ void Execute(f32 (**)[3][4]);
-    /* 80C9D710 */ void Draw();
-    /* 80C9D7B4 */ void Delete();
-    /* 80C9D82C */ void actionWait();
-    /* 80C9D8EC */ void actionOrderEvent();
-    /* 80C9D95C */ void actionEvent();
-    /* 80C9D9BC */ bool actionEnd();
-    /* 80C9D9C4 */ void modeWaitUpperInit();
-    /* 80C9D9F4 */ void modeWaitUpper();
-    /* 80C9DA98 */ void modeUpperInit();
-    /* 80C9DADC */ void modeUpper();
-    /* 80C9DF18 */ void modeWaitLowerInit();
-    /* 80C9DF60 */ void modeWaitLower();
-    /* 80C9E004 */ void modeLowerInit();
-    /* 80C9E034 */ void modeLower();
-    /* 80C9E3D8 */ void setParticle();
-    /* 80C9E5A0 */ void removeParticle();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
 
 struct dSv_info_c {
     /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dKy_tevstr_c {};
-
-struct J3DModelData {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
 };
 
 struct dPa_levelEcallBack {
@@ -86,23 +29,10 @@ struct dPa_followEcallBack {
     /* 80C9E78C */ void __defctor();
 };
 
-struct csXyz {};
-
-struct _GXColor {};
-
 struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047698 */ void getEventIdx(fopAc_ac_c*, u8);
-    /* 80047A78 */ void endCheck(s16);
 };
 
 struct dBgW {};
@@ -122,19 +52,6 @@ struct dBgS_MoveBgActor {
     /* 80078950 */ void MoveBGExecute();
 };
 
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-    /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
 struct JPABaseEmitter {};
 
 struct JPAEmitterCallBack {
@@ -144,12 +61,6 @@ struct JPAEmitterCallBack {
     /* 80C9E89C */ void draw(JPABaseEmitter*);
     /* 80C9E8A0 */ void drawAfter(JPABaseEmitter*);
 };
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DModel {};
 
 //
 // Forward References:
@@ -233,22 +144,15 @@ extern "C" void __dt__18JPAEmitterCallBackFv();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void seStartLevel__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __construct_array();
 extern "C" void __ptmf_scall();
 extern "C" void _savegpr_28();
 extern "C" void _savegpr_29();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__19dPa_followEcallBack[10];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 struct_80C9EAA8[4];
@@ -680,7 +584,8 @@ asm void daObjStair_c::modeUpper() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm cXyz::~cXyz() {
+// asm cXyz::~cXyz() {
+extern "C" asm void __dt__4cXyzFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_mvstair/d_a_obj_mvstair/__dt__4cXyzFv.s"
 }
@@ -808,7 +713,8 @@ static asm void daObjStair_create1st(daObjStair_c* param_0) {
 #pragma pop
 
 /* 80C9E700-80C9E704 0016E0 0004+00 1/1 0/0 0/0 .text            __ct__4cXyzFv */
-cXyz::cXyz() {
+// cXyz::cXyz() {
+extern "C" asm void __ct__4cXyzFv() {
     /* empty function */
 }
 
