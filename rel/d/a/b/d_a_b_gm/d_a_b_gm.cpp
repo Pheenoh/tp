@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/b/d_a_b_gm/d_a_b_gm.h"
+#include "rel/d/a/obj/d_a_obj_ystone/d_a_obj_ystone.h"
 #include "d/cc/d_cc_d.h"
 #include "dol2asm.h"
 

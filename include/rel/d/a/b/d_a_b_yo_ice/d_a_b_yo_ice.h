@@ -4,15 +4,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daMirror_c : public fopEn_enemy_c {
-    /* 8003194C */ void entry(J3DModel*);
-};
-
-class daB_YO_c : public fopEn_enemy_c {
-    /* 8062FBEC */ void onIceBreak(u16);
-    /* 8063DC54 */ void getIceCenterPos();
-};
-
 class daB_YOI_c : public fopEn_enemy_c {
     /* 8063A17C */ void draw();
     /* 8063A2D8 */ void setActionMode(int, int);

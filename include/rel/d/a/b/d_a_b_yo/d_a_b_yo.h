@@ -65,15 +65,12 @@ class daB_YO_c : public fopEn_enemy_c {
     /* 806380F8 */ void CreateHeap();
     /* 806388A0 */ void CreateHeap2();
     /* 806389C0 */ void create();
+    void getIceCenterPos();
 };
 
 class daB_YO_HIO_c {
     /* 8062F46C */ daB_YO_HIO_c();
     /* 806395E4 */ ~daB_YO_HIO_c();
-};
-
-class daB_YOI_c : public fopEn_enemy_c {
-    /* 8063A480 */ void setOperate(int);
 };
 
 #endif /* D_A_B_YO_H */

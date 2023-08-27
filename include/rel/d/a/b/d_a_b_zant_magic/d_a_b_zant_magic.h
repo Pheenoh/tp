@@ -4,11 +4,6 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class daB_ZANT_c : public fopEn_enemy_c {
-    /* 80640654 */ void getMagicSpeed();
-    /* 80640664 */ void getMagicWaterSpeed();
-};
-
 class daB_ZANTM_c : public fopEn_enemy_c {
     /* 8064F778 */ void draw();
     /* 8064F7D4 */ void setMagicEffect();

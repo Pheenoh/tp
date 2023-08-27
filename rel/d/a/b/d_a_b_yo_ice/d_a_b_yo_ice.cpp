@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/b/d_a_b_yo_ice/d_a_b_yo_ice.h"
+#include "rel/d/a/b/d_a_b_yo/d_a_b_yo.h"
 #include "dol2asm.h"
 
 //

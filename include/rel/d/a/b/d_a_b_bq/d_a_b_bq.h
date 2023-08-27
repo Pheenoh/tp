@@ -4,10 +4,6 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class obj_ystone_class {
-    /* 805BA234 */ void setCurrentPos(cXyz);
-};
-
 class daB_BQ_HIO_c {
     /* 805B356C */ daB_BQ_HIO_c();
     /* 805B9FFC */ ~daB_BQ_HIO_c();

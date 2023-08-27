@@ -4,10 +4,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class obj_ystone_class : public fopEn_enemy_c {
-    /* 805CAD2C */ void setCurrentPos(cXyz);
-};
-
 class daB_DRE_c : public fopEn_enemy_c {
     /* 805C7DD4 */ void SetAnm(mDoExt_McaMorfSO*, int, int, f32, f32);
     /* 805C7EAC */ void CameraSet();

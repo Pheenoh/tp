@@ -5,10 +5,6 @@
 #include "d/cc/d_cc_uty.h"
 #include "f_op/f_op_actor_mng.h"
 
-class obj_ystone_class : public fopEn_enemy_c {
-    /* 8061AA70 */ void setCurrentPos(cXyz);
-};
-
 class daB_OB_HIO_c {
     /* 8061056C */ daB_OB_HIO_c();
     /* 8061A808 */ ~daB_OB_HIO_c();
