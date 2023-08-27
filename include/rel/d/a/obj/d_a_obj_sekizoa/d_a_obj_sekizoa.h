@@ -86,7 +86,7 @@ class daObj_Sekizoa_c : public fopAc_ac_c {
     static u8 mCutList[108];
 };
 
-class daObj_Sekizoa_Param_c : public fopAc_ac_c {
+class daObj_Sekizoa_Param_c {
     /* 80CD5C30 */ ~daObj_Sekizoa_Param_c();
 
     static u8 const m[156];

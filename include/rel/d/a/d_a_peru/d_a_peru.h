@@ -81,7 +81,7 @@ class daPeru_c : public fopAc_ac_c {
     static u8 mCutList[36];
 };
 
-class daPeru_Param_c : public fopAc_ac_c {
+class daPeru_Param_c {
     /* 80D4BF7C */ ~daPeru_Param_c();
 
     static u8 const m[152];

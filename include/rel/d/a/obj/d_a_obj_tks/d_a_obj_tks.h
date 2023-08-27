@@ -36,7 +36,7 @@ class daObjTks_c : public fopAc_ac_c {
     /* 80D11E9C */ void drawOtherMdls();
 };
 
-class daObjTks_Param_c : public fopAc_ac_c {
+class daObjTks_Param_c {
     /* 80D126D0 */ ~daObjTks_Param_c();
 
     static u8 const m[128];

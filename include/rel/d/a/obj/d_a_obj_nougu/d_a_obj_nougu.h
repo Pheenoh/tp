@@ -21,7 +21,7 @@ class daObj_Nougu_c : public fopAc_ac_c {
     static u8 mCcDSph[64];
 };
 
-class daObj_Nougu_Param_c : public fopAc_ac_c {
+class daObj_Nougu_Param_c {
     /* 80CA494C */ ~daObj_Nougu_Param_c();
 
     static u8 const m[16];

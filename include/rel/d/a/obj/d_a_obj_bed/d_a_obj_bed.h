@@ -20,7 +20,7 @@ class daObj_Bed_c : public fopAc_ac_c {
     /* 80BADFD0 */ void setMtx();
 };
 
-class daObj_Bed_Param_c : public fopAc_ac_c {
+class daObj_Bed_Param_c {
     /* 80BAE0FC */ ~daObj_Bed_Param_c();
 
     static u8 const m[16];

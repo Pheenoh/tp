@@ -18,7 +18,7 @@ class daObj_SMTile_c : public fopAc_ac_c {
     /* 80CDE1A8 */ void setMtx();
 };
 
-class daObj_SMTile_Param_c : public fopAc_ac_c {
+class daObj_SMTile_Param_c {
     /* 80CDE300 */ ~daObj_SMTile_Param_c();
 
     static u8 const m[8];

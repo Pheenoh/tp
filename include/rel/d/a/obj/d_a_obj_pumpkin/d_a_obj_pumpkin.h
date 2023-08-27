@@ -31,13 +31,13 @@ class daObj_Pumpkin_c : public fopAc_ac_c {
     /* 80CB7EF4 */ void crash();
 };
 
-class daObj_Pumpkin_Param_c : public fopAc_ac_c {
+class daObj_Pumpkin_Param_c {
     /* 80CB8304 */ ~daObj_Pumpkin_Param_c();
 
     static u8 const m[52];
 };
 
-class daNpc_Jagar_Param_c : public fopAc_ac_c {
+class daNpc_Jagar_Param_c {
     static u8 const m[160];
 };
 

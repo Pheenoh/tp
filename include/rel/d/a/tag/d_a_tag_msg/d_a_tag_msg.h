@@ -20,7 +20,7 @@ class daTag_Msg_c : public fopAc_ac_c {
     static void* mEvtCutTBL[2];
 };
 
-class daTag_Msg_Param_c : public fopAc_ac_c {
+class daTag_Msg_Param_c {
     /* 80490128 */ ~daTag_Msg_Param_c();
 
     static u8 const m[1 + 3 /* padding */];

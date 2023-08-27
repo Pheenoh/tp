@@ -148,7 +148,7 @@ class daObj_GrA_c : public fopAc_ac_c {
     static u8 mFaceMotionList[168];
 };
 
-class daObj_GrA_Param_c : public fopAc_ac_c {
+class daObj_GrA_Param_c {
     /* 80C04B1C */ ~daObj_GrA_Param_c();
 
     static u8 const m[192];

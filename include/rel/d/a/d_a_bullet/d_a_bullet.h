@@ -24,7 +24,7 @@ class daBullet_c : public fopAc_ac_c {
     static u8 mCcDSph[64];
 };
 
-class daBullet_Param_c : public fopAc_ac_c {
+class daBullet_Param_c {
     /* 806566A8 */ ~daBullet_Param_c();
 
     static u8 const m[24];

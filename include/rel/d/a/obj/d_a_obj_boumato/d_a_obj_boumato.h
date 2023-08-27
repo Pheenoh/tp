@@ -23,7 +23,7 @@ class daObj_BouMato_c : public fopAc_ac_c {
     /* 80BBC23C */ void setMtx();
 };
 
-class daObj_BouMato_Param_c : public fopAc_ac_c {
+class daObj_BouMato_Param_c {
     /* 80BBC404 */ ~daObj_BouMato_Param_c();
 
     static u8 const m[28];

@@ -15,7 +15,7 @@ class daObj_Sekizo_c : public fopAc_ac_c {
     /* 80CCDFE0 */ void setBaseMtx();
 };
 
-class daObj_Sekizo_Param_c : public fopAc_ac_c {
+class daObj_Sekizo_Param_c {
     /* 80CCE118 */ ~daObj_Sekizo_Param_c();
 };
 

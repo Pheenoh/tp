@@ -20,7 +20,7 @@ class daObj_AutoMata_c : public fopAc_ac_c {
     /* 80BA674C */ void setSe();
 };
 
-class daObj_AutoMata_Param_c : public fopAc_ac_c {
+class daObj_AutoMata_Param_c {
     /* 80BA6BA4 */ ~daObj_AutoMata_Param_c();
 
     static u8 const m[12];

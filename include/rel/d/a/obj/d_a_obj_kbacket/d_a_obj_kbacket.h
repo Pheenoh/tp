@@ -23,7 +23,7 @@ class daObj_KBacket_c : public fopAc_ac_c {
     /* 80587B68 */ void setHamonPrtcl();
 };
 
-class daObj_KBacket_Param_c : public fopAc_ac_c {
+class daObj_KBacket_Param_c {
     /* 80587D18 */ ~daObj_KBacket_Param_c();
 
     static u8 const m[44];

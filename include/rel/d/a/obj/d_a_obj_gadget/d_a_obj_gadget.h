@@ -23,7 +23,7 @@ class daObj_Gadget_c : public fopAc_ac_c {
     /* 80BF4728 */ void setHamonPrtcl();
 };
 
-class daObj_Gadget_Param_c : public fopAc_ac_c {
+class daObj_Gadget_Param_c {
     /* 80BF48D8 */ ~daObj_Gadget_Param_c();
 
     static u8 const m[44];

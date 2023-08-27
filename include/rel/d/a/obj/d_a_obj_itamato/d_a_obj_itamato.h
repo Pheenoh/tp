@@ -22,7 +22,7 @@ class daObj_ItaMato_c : public fopAc_ac_c {
     /* 80C2A930 */ void setMtx();
 };
 
-class daObj_ItaMato_Param_c : public fopAc_ac_c {
+class daObj_ItaMato_Param_c {
     /* 80C2AB04 */ ~daObj_ItaMato_Param_c();
 
     static u8 const m[20];

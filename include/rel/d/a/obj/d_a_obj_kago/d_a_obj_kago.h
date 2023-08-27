@@ -24,7 +24,7 @@ class daObj_Kago_c : public fopAc_ac_c {
     /* 80C33A58 */ void setHamonPrtcl();
 };
 
-class daObj_Kago_Param_c : public fopAc_ac_c {
+class daObj_Kago_Param_c {
     /* 80C33C14 */ ~daObj_Kago_Param_c();
 
     static u8 const m[44];

@@ -19,7 +19,7 @@ class daObj_Pleaf_c : public fopAc_ac_c {
     /* 80CB1684 */ void setMtx();
 };
 
-class daObj_Pleaf_Param_c : public fopAc_ac_c {
+class daObj_Pleaf_Param_c {
     /* 80CB17F8 */ ~daObj_Pleaf_Param_c();
 
     static u8 const m[16];

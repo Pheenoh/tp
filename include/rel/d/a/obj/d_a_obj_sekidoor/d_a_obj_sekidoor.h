@@ -17,7 +17,7 @@ class daObj_SekiDoor_c : public fopAc_ac_c {
     /* 80CCD84C */ void setBaseMtx();
 };
 
-class daObj_SekiDoor_Param_c : public fopAc_ac_c {
+class daObj_SekiDoor_Param_c {
     /* 80CCD9AC */ ~daObj_SekiDoor_Param_c();
 
     static u8 const m[1 + 3 /* padding */];

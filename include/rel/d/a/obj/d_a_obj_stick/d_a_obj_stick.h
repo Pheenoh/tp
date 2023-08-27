@@ -21,7 +21,7 @@ class daObj_Stick_c : public fopAc_ac_c {
     static u8 mCcDSph[64];
 };
 
-class daObj_Stick_Param_c : public fopAc_ac_c {
+class daObj_Stick_Param_c {
     /* 80599DD0 */ ~daObj_Stick_Param_c();
 
     static u8 const m[16];
