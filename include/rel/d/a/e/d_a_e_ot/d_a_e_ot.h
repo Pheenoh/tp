@@ -32,7 +32,7 @@ class daE_OT_c : public fopEn_enemy_c {
     /* 8073C31C */ void create();
 };
 
-class daE_OT_HIO_c : public fopEn_enemy_c {
+class daE_OT_HIO_c {
     /* 8073A2CC */ daE_OT_HIO_c();
     /* 8073C9B0 */ ~daE_OT_HIO_c();
 };

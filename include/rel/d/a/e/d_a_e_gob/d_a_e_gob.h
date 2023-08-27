@@ -8,7 +8,7 @@ class e_gob_class : public fopEn_enemy_c {
     /* 806DEA10 */ e_gob_class();
 };
 
-class daE_GOB_HIO_c : public fopEn_enemy_c {
+class daE_GOB_HIO_c {
     /* 806D808C */ daE_GOB_HIO_c();
     /* 806DECD0 */ ~daE_GOB_HIO_c();
 };

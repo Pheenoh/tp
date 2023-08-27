@@ -30,7 +30,7 @@ class daE_ZM_c : public fopEn_enemy_c {
     /* 80832064 */ void create();
 };
 
-class daE_ZM_HIO_c : public fopEn_enemy_c {
+class daE_ZM_HIO_c {
     /* 8082F94C */ daE_ZM_HIO_c();
     /* 80832800 */ ~daE_ZM_HIO_c();
 };

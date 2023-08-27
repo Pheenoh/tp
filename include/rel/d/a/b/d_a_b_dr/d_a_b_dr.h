@@ -69,7 +69,7 @@ class daB_DR_c : public fopEn_enemy_c {
     /* 805C62B0 */ daB_DR_c();
 };
 
-class daB_DR_HIO_c : public fopEn_enemy_c {
+class daB_DR_HIO_c {
     /* 805BAE6C */ daB_DR_HIO_c();
     /* 805C6B94 */ ~daB_DR_HIO_c();
 };

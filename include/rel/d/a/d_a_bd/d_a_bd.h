@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daBd_HIO_c : public fopAc_ac_c {
+class daBd_HIO_c {
     /* 804D6C4C */ daBd_HIO_c();
     /* 804D9CB8 */ ~daBd_HIO_c();
 };

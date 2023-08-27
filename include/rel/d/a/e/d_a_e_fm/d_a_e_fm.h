@@ -26,7 +26,7 @@ class daObjHHASHI_c : public fopEn_enemy_c {
     /* 80580854 */ void Rolling(cXyz*, f32, f32, s8);
 };
 
-class daE_FM_HIO_c : public fopEn_enemy_c {
+class daE_FM_HIO_c {
     /* 804EF0EC */ daE_FM_HIO_c();
     /* 804FA3D8 */ ~daE_FM_HIO_c();
 };

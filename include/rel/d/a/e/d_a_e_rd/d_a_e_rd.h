@@ -16,7 +16,7 @@ class daObjH_Saku_c : public fopEn_enemy_c {
     /* 80C1552C */ void BreakSet();
 };
 
-class daE_RD_HIO_c : public fopEn_enemy_c {
+class daE_RD_HIO_c {
     /* 80504A6C */ daE_RD_HIO_c();
     /* 8051801C */ ~daE_RD_HIO_c();
 };

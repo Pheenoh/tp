@@ -35,7 +35,7 @@ class daE_OctBg_c : public fopEn_enemy_c {
     /* 807399A4 */ void draw();
 };
 
-class daE_OctBg_HIO_c : public fopEn_enemy_c {
+class daE_OctBg_HIO_c {
     /* 8073620C */ daE_OctBg_HIO_c();
     /* 80739CB8 */ ~daE_OctBg_HIO_c();
 };

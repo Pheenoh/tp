@@ -19,7 +19,7 @@ class daB_ZANTZ_c : public fopEn_enemy_c {
     /* 80652038 */ void create();
 };
 
-class daB_ZANTZ_HIO_c : public fopEn_enemy_c {
+class daB_ZANTZ_HIO_c {
     /* 8065078C */ daB_ZANTZ_HIO_c();
     /* 8065268C */ ~daB_ZANTZ_HIO_c();
 };

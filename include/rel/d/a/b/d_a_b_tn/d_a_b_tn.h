@@ -77,7 +77,7 @@ class daB_TN_c : public fopEn_enemy_c {
     /* 8062D2F0 */ daB_TN_c();
 };
 
-class daB_TN_HIO_c : public fopEn_enemy_c {
+class daB_TN_HIO_c {
     /* 8061EBEC */ daB_TN_HIO_c();
     /* 8062D98C */ ~daB_TN_HIO_c();
 };

@@ -79,7 +79,7 @@ class daE_YMB_c : public fopEn_enemy_c {
     /* 80820DD0 */ void create();
 };
 
-class daE_YMB_HIO_c : public fopEn_enemy_c {
+class daE_YMB_HIO_c {
     /* 8081610C */ daE_YMB_HIO_c();
     /* 80821460 */ ~daE_YMB_HIO_c();
 };

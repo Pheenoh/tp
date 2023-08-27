@@ -94,7 +94,7 @@ class daKago_c : public fopAc_ac_c {
     /* 808544D8 */ void create();
 };
 
-class daKago_HIO_c : public fopAc_ac_c {
+class daKago_HIO_c {
     /* 808495AC */ daKago_HIO_c();
     /* 80854A4C */ ~daKago_HIO_c();
 };

@@ -8,7 +8,7 @@ class e_is_class : public fopEn_enemy_c {
     /* 806F76B4 */ e_is_class();
 };
 
-class daE_IS_HIO_c : public fopEn_enemy_c {
+class daE_IS_HIO_c {
     /* 806F5A4C */ daE_IS_HIO_c();
     /* 806F7AC4 */ ~daE_IS_HIO_c();
 };

@@ -67,7 +67,7 @@ class daB_YO_c : public fopEn_enemy_c {
     /* 806389C0 */ void create();
 };
 
-class daB_YO_HIO_c : public fopEn_enemy_c {
+class daB_YO_HIO_c {
     /* 8062F46C */ daB_YO_HIO_c();
     /* 806395E4 */ ~daB_YO_HIO_c();
 };

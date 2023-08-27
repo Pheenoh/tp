@@ -6,7 +6,7 @@
 
 class e_yc_class : public fopEn_enemy_c {};
 
-class daE_YC_HIO_c : public fopEn_enemy_c {
+class daE_YC_HIO_c {
     /* 807EFECC */ daE_YC_HIO_c();
     /* 807F27BC */ ~daE_YC_HIO_c();
 };

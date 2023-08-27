@@ -61,7 +61,7 @@ class daE_HM_c : public fopEn_enemy_c {
     /* 806E4E64 */ void Create();
 };
 
-class daE_HM_HIO_c : public fopEn_enemy_c {
+class daE_HM_HIO_c {
     /* 806E03EC */ daE_HM_HIO_c();
     /* 806E53F8 */ ~daE_HM_HIO_c();
 };

@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daB_GOS_HIO_c : public fopEn_enemy_c {
+class daB_GOS_HIO_c {
     /* 8060426C */ daB_GOS_HIO_c();
     /* 80605320 */ ~daB_GOS_HIO_c();
 };

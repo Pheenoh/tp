@@ -18,7 +18,7 @@ class daHorse_c : public fopEn_enemy_c {
     /* 806025F0 */ void changeOriginalDemo();
 };
 
-class daB_GND_HIO_c : public fopEn_enemy_c {
+class daB_GND_HIO_c {
     /* 805F4A4C */ daB_GND_HIO_c();
     /* 80602230 */ ~daB_GND_HIO_c();
 };

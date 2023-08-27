@@ -41,7 +41,7 @@ class daE_KK_c : public fopEn_enemy_c {
     /* 806FE6B8 */ void create();
 };
 
-class daE_KK_HIO_c : public fopEn_enemy_c {
+class daE_KK_HIO_c {
     /* 806FA70C */ daE_KK_HIO_c();
     /* 806FF0F0 */ ~daE_KK_HIO_c();
 };

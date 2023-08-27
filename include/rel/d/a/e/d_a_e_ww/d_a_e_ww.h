@@ -50,7 +50,7 @@ class daE_WW_c : public fopEn_enemy_c {
     /* 807EE63C */ void create();
 };
 
-class daE_WW_HIO_c : public fopEn_enemy_c {
+class daE_WW_HIO_c {
     /* 807E76EC */ daE_WW_HIO_c();
     /* 807EEEBC */ ~daE_WW_HIO_c();
 };

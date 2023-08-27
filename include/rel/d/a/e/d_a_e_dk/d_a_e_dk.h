@@ -34,7 +34,7 @@ class daE_DK_c : public fopEn_enemy_c {
     /* 806AD0AC */ daE_DK_c();
 };
 
-class daE_DK_HIO_c : public fopEn_enemy_c {
+class daE_DK_HIO_c {
     /* 806AA1EC */ daE_DK_HIO_c();
     /* 806AD490 */ ~daE_DK_HIO_c();
 };

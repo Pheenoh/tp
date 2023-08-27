@@ -76,7 +76,7 @@ class daTbox_c : public fopAc_ac_c {
     /* 804961B8 */ bool checkSmallTbox();
 };
 
-class daTbox_HIO_c : public fopAc_ac_c {
+class daTbox_HIO_c {
     /* 80490D2C */ daTbox_HIO_c();
     /* 804960B8 */ ~daTbox_HIO_c();
 };

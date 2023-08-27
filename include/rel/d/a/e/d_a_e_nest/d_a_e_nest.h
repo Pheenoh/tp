@@ -17,7 +17,7 @@ class daNPC_TK_c : public fopEn_enemy_c {
     /* 80B0A568 */ void endHawkCamera();
 };
 
-class daE_Nest_HIO_c : public fopEn_enemy_c {
+class daE_Nest_HIO_c {
     /* 80500F8C */ daE_Nest_HIO_c();
     /* 80504634 */ ~daE_Nest_HIO_c();
 };

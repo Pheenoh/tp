@@ -10,7 +10,7 @@ class daPy_py_c : public fopEn_enemy_c {
     /* 8015F89C */ void checkBoomerangCharge();
 };
 
-class daE_Bug_HIO_c : public fopEn_enemy_c {
+class daE_Bug_HIO_c {
     /* 80694B8C */ daE_Bug_HIO_c();
     /* 80697BEC */ ~daE_Bug_HIO_c();
 };

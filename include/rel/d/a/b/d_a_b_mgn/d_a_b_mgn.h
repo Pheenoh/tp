@@ -73,7 +73,7 @@ class daB_MGN_c : public fopEn_enemy_c {
     /* 8060F0D0 */ void create();
 };
 
-class daB_MGN_HIO_c : public fopEn_enemy_c {
+class daB_MGN_HIO_c {
     /* 8060572C */ daB_MGN_HIO_c();
     /* 8060F8D0 */ ~daB_MGN_HIO_c();
 };

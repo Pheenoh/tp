@@ -39,7 +39,7 @@ class daE_DF_c : public fopEn_enemy_c {
     /* 806A9678 */ void Create();
 };
 
-class daE_DF_HIO_c : public fopEn_enemy_c {
+class daE_DF_HIO_c {
     /* 806A76EC */ daE_DF_HIO_c();
     /* 806A9A84 */ ~daE_DF_HIO_c();
 };

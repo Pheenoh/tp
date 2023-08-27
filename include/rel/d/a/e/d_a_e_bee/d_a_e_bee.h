@@ -6,7 +6,7 @@
 
 class e_bee_class : public fopEn_enemy_c {};
 
-class daE_Bee_HIO_c : public fopEn_enemy_c {
+class daE_Bee_HIO_c {
     /* 8068286C */ daE_Bee_HIO_c();
     /* 8068539C */ ~daE_Bee_HIO_c();
 };

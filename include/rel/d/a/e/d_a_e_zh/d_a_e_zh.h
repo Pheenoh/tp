@@ -42,7 +42,7 @@ class daE_ZH_c : public fopEn_enemy_c {
     /* 8082ECEC */ daE_ZH_c();
 };
 
-class daE_ZH_HIO_c : public fopEn_enemy_c {
+class daE_ZH_HIO_c {
     /* 8082902C */ daE_ZH_HIO_c();
     /* 8082F160 */ ~daE_ZH_HIO_c();
 };

@@ -59,7 +59,7 @@ class daE_HZ_c : public fopEn_enemy_c {
     /* 806EFC18 */ void create();
 };
 
-class daE_HZ_HIO_c : public fopEn_enemy_c {
+class daE_HZ_HIO_c {
     /* 806EA60C */ daE_HZ_HIO_c();
     /* 806F0368 */ ~daE_HZ_HIO_c();
 };

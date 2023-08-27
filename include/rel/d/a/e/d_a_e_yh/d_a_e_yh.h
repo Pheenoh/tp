@@ -12,7 +12,7 @@ class daPy_py_c : public fopEn_enemy_c {
     static u8 m_midnaActor[4];
 };
 
-class daE_YH_HIO_c : public fopEn_enemy_c {
+class daE_YH_HIO_c {
     /* 807FD4CC */ daE_YH_HIO_c();
     /* 80803D48 */ ~daE_YH_HIO_c();
 };

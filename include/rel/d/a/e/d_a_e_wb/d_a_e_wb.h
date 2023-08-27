@@ -15,7 +15,7 @@ class daObjCRVGATE_c : public fopEn_enemy_c {
     /* 80BD245C */ void SetB_Close();
 };
 
-class daE_WB_HIO_c : public fopEn_enemy_c {
+class daE_WB_HIO_c {
     /* 807D248C */ daE_WB_HIO_c();
     /* 807E20DC */ ~daE_WB_HIO_c();
 };

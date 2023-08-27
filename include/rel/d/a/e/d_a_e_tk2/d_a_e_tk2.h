@@ -6,7 +6,7 @@
 
 class e_tk2_class : public fopEn_enemy_c {};
 
-class daE_TK2_HIO_c : public fopEn_enemy_c {
+class daE_TK2_HIO_c {
     /* 807BA56C */ daE_TK2_HIO_c();
     /* 807BBD00 */ ~daE_TK2_HIO_c();
 };

@@ -29,7 +29,7 @@ class daE_FB_c : public fopEn_enemy_c {
     /* 806B8C1C */ daE_FB_c();
 };
 
-class daE_FB_HIO_c : public fopEn_enemy_c {
+class daE_FB_HIO_c {
     /* 806B64AC */ daE_FB_HIO_c();
     /* 806B8EE4 */ ~daE_FB_HIO_c();
 };

@@ -12,7 +12,7 @@ class daPy_py_c : public fopEn_enemy_c {
     /* 805F4160 */ void changeDemoMode(u32, int, int, s16);
 };
 
-class daB_GM_HIO_c : public fopEn_enemy_c {
+class daB_GM_HIO_c {
     /* 805ED94C */ daB_GM_HIO_c();
     /* 805F3E64 */ ~daB_GM_HIO_c();
 };

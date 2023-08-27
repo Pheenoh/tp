@@ -37,7 +37,7 @@ class daE_HP_c : public fopEn_enemy_c {
     /* 806E9900 */ daE_HP_c();
 };
 
-class daE_HP_HIO_c : public fopEn_enemy_c {
+class daE_HP_HIO_c {
     /* 806E5DEC */ daE_HP_HIO_c();
     /* 806E9D38 */ ~daE_HP_HIO_c();
 };

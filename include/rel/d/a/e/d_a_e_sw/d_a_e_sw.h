@@ -67,7 +67,7 @@ class daE_SW_c : public fopEn_enemy_c {
     /* 807AF57C */ void d_execute();
 };
 
-class daE_SW_HIO_c : public fopEn_enemy_c {
+class daE_SW_HIO_c {
     /* 807A740C */ daE_SW_HIO_c();
     /* 807AF870 */ ~daE_SW_HIO_c();
 };

@@ -35,7 +35,7 @@ class daE_WS_c : public fopEn_enemy_c {
     /* 807E6860 */ void create();
 };
 
-class daE_WS_HIO_c : public fopEn_enemy_c {
+class daE_WS_HIO_c {
     /* 807E3A0C */ daE_WS_HIO_c();
     /* 807E6E44 */ ~daE_WS_HIO_c();
 };

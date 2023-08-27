@@ -6,7 +6,7 @@
 
 class e_mb_class : public fopEn_enemy_c {};
 
-class daE_MB_HIO_c : public fopEn_enemy_c {
+class daE_MB_HIO_c {
     /* 8070616C */ daE_MB_HIO_c();
     /* 8070882C */ ~daE_MB_HIO_c();
 };

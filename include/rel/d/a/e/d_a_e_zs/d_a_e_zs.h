@@ -27,7 +27,7 @@ class daE_ZS_c : public fopEn_enemy_c {
     /* 80834884 */ void create();
 };
 
-class daE_ZS_HIO_c : public fopEn_enemy_c {
+class daE_ZS_HIO_c {
     /* 808330AC */ daE_ZS_HIO_c();
     /* 80834DDC */ ~daE_ZS_HIO_c();
 };

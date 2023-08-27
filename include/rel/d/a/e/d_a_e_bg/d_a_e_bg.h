@@ -31,7 +31,7 @@ class daE_BG_c : public fopEn_enemy_c {
     /* 80689C38 */ void create();
 };
 
-class daE_BG_HIO_c : public fopEn_enemy_c {
+class daE_BG_HIO_c {
     /* 8068580C */ daE_BG_HIO_c();
     /* 8068A19C */ ~daE_BG_HIO_c();
 };

@@ -88,7 +88,7 @@ class daB_GG_c : public fopEn_enemy_c {
     /* 805EC424 */ daB_GG_c();
 };
 
-class daB_GG_HIO_c : public fopEn_enemy_c {
+class daB_GG_HIO_c {
     /* 805DE40C */ daB_GG_HIO_c();
     /* 805EC9C4 */ ~daB_GG_HIO_c();
 };

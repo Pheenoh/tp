@@ -77,7 +77,7 @@ class daE_VA_c : public fopEn_enemy_c {
     /* 807CDAD8 */ daE_VA_c();
 };
 
-class daE_VA_HIO_c : public fopEn_enemy_c {
+class daE_VA_HIO_c {
     /* 807C25EC */ daE_VA_HIO_c();
     /* 807CE2AC */ ~daE_VA_HIO_c();
 };
