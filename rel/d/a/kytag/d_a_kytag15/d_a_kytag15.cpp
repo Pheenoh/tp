@@ -1,6 +1,6 @@
 /**
- * d_a_kytag15.cpp
- * Z Shake Tag
+ * @file d_a_kytag15.cpp
+ * @brief Z Shake Tag
  */
 
 #include "rel/d/a/kytag/d_a_kytag15/d_a_kytag15.h"

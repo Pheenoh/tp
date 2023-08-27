@@ -1,6 +1,6 @@
 /**
- * d_a_kytag06.cpp
- * Weather System Manager
+ * @file d_a_kytag06.cpp
+ * @brief Weather System Manager
  */
 
 #include "rel/d/a/kytag/d_a_kytag06/d_a_kytag06.h"

@@ -1,6 +1,6 @@
 /**
- * d_a_kytag10.cpp
- * Sparks Particle Emitter on a Path
+ * @file d_a_kytag10.cpp
+ * @brief Sparks Particle Emitter on a Path
  */
 
 #include "rel/d/a/kytag/d_a_kytag10/d_a_kytag10.h"

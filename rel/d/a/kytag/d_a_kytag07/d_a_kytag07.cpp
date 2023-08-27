@@ -1,6 +1,6 @@
 /**
- * d_a_kytag07.cpp
- * Environment Tag 7
+ * @file d_a_kytag07.cpp
+ * @brief Environment Tag 7
  */
 
 #include "rel/d/a/kytag/d_a_kytag07/d_a_kytag07.h"

@@ -1,6 +1,6 @@
 /**
- * d_a_kytag11.cpp
- * Time Control Tag
+ * @file d_a_kytag11.cpp
+ * @brief Time Control Tag
  */
 
 #include "rel/d/a/kytag/d_a_kytag11/d_a_kytag11.h"

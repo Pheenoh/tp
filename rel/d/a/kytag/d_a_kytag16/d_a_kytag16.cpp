@@ -1,6 +1,6 @@
 /**
- * d_a_kytag16.cpp
- * Pikari Tag
+ * @file d_a_kytag16.cpp
+ * @brief Pikari Tag
  */
 
 #include "rel/d/a/kytag/d_a_kytag16/d_a_kytag16.h"

@@ -1,7 +1,6 @@
 /**
- * d_a_kytag14.cpp
- * Savmem
- * Sets savefile spawn location
+ * @file d_a_kytag14.cpp
+ * @brief Savmem - Sets savefile spawn location
  */
 
 #include "rel/d/a/kytag/d_a_kytag14/d_a_kytag14.h"

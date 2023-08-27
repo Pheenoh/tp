@@ -1,6 +1,6 @@
 /**
- * d_a_kytag17.cpp
- * Light Mask Tag
+ * @file d_a_kytag17.cpp
+ * @brief Light Mask Tag
  */
 
 #include "rel/d/a/kytag/d_a_kytag17/d_a_kytag17.h"
