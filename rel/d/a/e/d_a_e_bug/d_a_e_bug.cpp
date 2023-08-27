@@ -36,11 +36,6 @@ struct cBgS {
     /* 800743B4 */ void LineCross(cBgS_LinChk*);
 };
 
-struct bug_s {
-    /* 80697B4C */ ~bug_s();
-    /* 80697BB8 */ bug_s();
-};
-
 struct Z2SoundObjBeeGroup {
     /* 802C1D10 */ Z2SoundObjBeeGroup();
     /* 802C1D6C */ void playBeeGroupSound(JAISoundID, u8);

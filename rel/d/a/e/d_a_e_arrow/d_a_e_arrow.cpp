@@ -8,18 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dMsgObject_c {
-    /* 8023822C */ void getStatus();
-};
-
-struct dMeter2_c {
-    /* 8021F780 */ void setLifeZero();
-};
-
-//
 // Forward References:
 //
 

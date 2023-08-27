@@ -1,6 +1,6 @@
 /**
 * @file d_a_e_yk.h
-* This header contains information about the Shadow Keese actor.
+* @brief This header contains information about the Shadow Keese actor.
 *
 */
 
@@ -112,6 +112,6 @@ public:
     /* 0xA84 */ u32 mParticleEmitterIds[2];             ///< @brief ???
     /* 0xA8C */ u8 field_0xa8c;                         ///< @brief ???
 };
-// size: 0xA90
+STATIC_ASSERT(sizeof(e_yk_class) == 0xA90);
 
 #endif /* D_A_E_YK_H */

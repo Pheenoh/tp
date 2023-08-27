@@ -4,10 +4,6 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class daObjCarry_c : public fopEn_enemy_c {
-    /* 80474448 */ void mode_init_drop(u8);
-};
-
 class daE_HZ_c : public fopEn_enemy_c {
     /* 806EA690 */ void setBck(int, u8, f32, f32);
     /* 806EA734 */ void checkBck(int);

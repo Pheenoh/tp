@@ -5,6 +5,10 @@
 #include "d/cc/d_cc_uty.h"
 #include "f_op/f_op_actor_mng.h"
 
+class E_YM_n {
+    static dCcD_SrcSph cc_sph_src;
+};
+
 class daTag_FWall_c : public fopEn_enemy_c {
     /* 80815958 */ void getPos(u8);
 };

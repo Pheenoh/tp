@@ -19,10 +19,6 @@ struct fOpAcm_HIO_entry_c {
     /* 80828338 */ ~fOpAcm_HIO_entry_c();
 };
 
-struct e_yrHIO_c {
-    /* 808282CC */ ~e_yrHIO_c();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;

@@ -11,11 +11,6 @@
 // Types:
 //
 
-struct nest_hahen_s {
-    /* 805044AC */ ~nest_hahen_s();
-    /* 805044E8 */ nest_hahen_s();
-};
-
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 80035360 */ void isSwitch(int, int) const;

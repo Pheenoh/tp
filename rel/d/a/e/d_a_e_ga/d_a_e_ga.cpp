@@ -7,21 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct ga_s {
-    /* 804FBAB8 */ ~ga_s();
-    /* 804FBAF4 */ ga_s();
-};
-
-struct dComIfG_play_c {
-    /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
-    /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
-    /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-//
 // Forward References:
 //
 

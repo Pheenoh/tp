@@ -1,6 +1,6 @@
 /**
- * d_a_e_ym_tag.cpp
- * Enemy - Shadow Insect / 闇虫 (Yami Mushi) - Tag
+ * @file d_a_e_ym_tag.cpp
+ * @brief Enemy - Shadow Insect / 闇虫 (Yami Mushi) - Tag
  */
 
 #include "rel/d/a/e/d_a_e_ym_tag/d_a_e_ym_tag.h"

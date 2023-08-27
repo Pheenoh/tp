@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
+class bug_s {
+    /* 80697B4C */ ~bug_s();
+    /* 80697BB8 */ bug_s();
+};
+
 class e_bug_class : public fopEn_enemy_c {};
 
 class daE_Bug_HIO_c {

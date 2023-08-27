@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class bee_s {
+    /* 806852FC */ ~bee_s();
+    /* 80685368 */ bee_s();
+};
+
 class e_bee_class : public fopEn_enemy_c {};
 
 class daE_Bee_HIO_c {

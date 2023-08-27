@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
+class chain_s {
+    /* 804F9E14 */ ~chain_s();
+    /* 804F9F14 */ chain_s();
+};
+
 class e_fm_class : public fopEn_enemy_c {
     /* 804F9B64 */ e_fm_class();
 };

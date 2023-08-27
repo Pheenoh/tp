@@ -47,11 +47,6 @@ struct cBgS {
     /* 800744A0 */ void GroundCross(cBgS_GndChk*);
 };
 
-struct bee_s {
-    /* 806852FC */ ~bee_s();
-    /* 80685368 */ bee_s();
-};
-
 struct Z2SoundObjBeeGroup {
     /* 802C1D10 */ Z2SoundObjBeeGroup();
     /* 802C1D6C */ void playBeeGroupSound(JAISoundID, u8);

@@ -16,11 +16,6 @@ struct mDoLib_clipper {
     static f32 mSystemFar;
 };
 
-struct ep_hahen_s {
-    /* 8046ACC0 */ ~ep_hahen_s();
-    /* 8046AD44 */ ep_hahen_s();
-};
-
 struct daObj {
     /* 80037900 */ void HitSeStart(cXyz const*, int, dCcD_GObjInf const*, u32);
 };

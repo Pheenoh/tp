@@ -11,11 +11,6 @@
 // Types:
 //
 
-struct st_foot {
-    /* 807A5F5C */ ~st_foot();
-    /* 807A5F98 */ st_foot();
-};
-
 struct mDoCPd_c {
     static u8 m_cpadInfo[256];
 };

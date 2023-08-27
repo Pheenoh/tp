@@ -9,23 +9,6 @@
 #include "m_Do/m_Do_graphic.h"
 
 //
-// Types:
-//
-
-namespace std {
-/* 807E2350 */ void fabsf(f32);
-};
-
-struct himo_s {
-    /* 807E1CCC */ ~himo_s();
-    /* 807E1D2C */ himo_s();
-};
-
-struct dMsgObject_c {
-    /* 8023822C */ void getStatus();
-};
-
-//
 // Forward References:
 //
 
@@ -4563,7 +4546,8 @@ void daPy_py_c::changeDemoParam2(s16 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void std::fabsf(f32 param_0) {
+// asm void std::fabsf(f32 param_0) {
+extern "C" asm void fabsf__3stdFf() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_wb/d_a_e_wb/fabsf__3stdFf.s"
 }

@@ -11,11 +11,6 @@
 // Types:
 //
 
-struct th_ke_s {
-    /* 807B3B58 */ ~th_ke_s();
-    /* 807B3BD4 */ th_ke_s();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };

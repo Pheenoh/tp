@@ -6,13 +6,9 @@
 #include "d/cc/d_cc_uty.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daObjCRVSTEEL_c : public fopEn_enemy_c {
-    /* 80BD5BFC */ void OpenSet(f32, f32);
-    /* 80BD5C18 */ void CloseSet(f32);
-};
-
-class daObjCRVGATE_c : public fopEn_enemy_c {
-    /* 80BD245C */ void SetB_Close();
+class himo_s {
+    /* 807E1CCC */ ~himo_s();
+    /* 807E1D2C */ himo_s();
 };
 
 class daE_WB_HIO_c {

@@ -11,4 +11,9 @@ class daE_S1_HIO_c {
     /* 80780840 */ ~daE_S1_HIO_c();
 };
 
+class s1_ke_s {
+    /* 807803F4 */ ~s1_ke_s();
+    /* 80780470 */ s1_ke_s();
+};
+
 #endif /* D_A_E_S1_H */

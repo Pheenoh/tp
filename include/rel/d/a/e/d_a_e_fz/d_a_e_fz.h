@@ -4,10 +4,6 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class daMirror_c : public fopEn_enemy_c {
-    /* 8003194C */ void entry(J3DModel*);
-};
-
 class daE_FZ_c : public fopEn_enemy_c {
     /* 806BE9D4 */ void draw();
     /* 806BEAF8 */ void setActionMode(int, int);

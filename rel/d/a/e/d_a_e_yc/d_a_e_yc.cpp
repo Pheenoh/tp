@@ -4,60 +4,7 @@
 //
 
 #include "rel/d/a/e/d_a_e_yc/d_a_e_yc.h"
-#include "d/cc/d_cc_d.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 807F274C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_PolyInfo {};
 
 //
 // Forward References:
@@ -176,9 +123,7 @@ extern "C" extern void* __vt__12cCcD_SphAttr[25];
 extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
-extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern void* calc_mtx[1 + 1 /* padding */];
 extern "C" extern u8 pauseTimer__9dScnPly_c[4];
 extern "C" void __register_global_object();
 
@@ -283,12 +228,18 @@ SECTION_DATA static void* l_daE_YC_Method[8] = {
 
 /* 807F2A88-807F2AB8 -00001 0030+00 0/0 0/0 1/0 .data            g_profile_E_YC */
 SECTION_DATA extern void* g_profile_E_YC[12] = {
-    (void*)0xFFFFFFFD, (void*)0x0004FFFD,
-    (void*)0x00F50000, (void*)&g_fpcLf_Method,
-    (void*)0x00000BA8, (void*)NULL,
-    (void*)NULL,       (void*)&g_fopAc_Method,
-    (void*)0x00BB0000, (void*)&l_daE_YC_Method,
-    (void*)0x00040100, (void*)0x020E0000,
+    (void*)0xFFFFFFFD, 
+    (void*)0x0004FFFD,
+    (void*)0x00F50000, 
+    (void*)&g_fpcLf_Method,
+    (void*)0x00000BA8, 
+    (void*)NULL,
+    (void*)NULL,       
+    (void*)&g_fopAc_Method,
+    (void*)0x00BB0000, 
+    (void*)&l_daE_YC_Method,
+    (void*)0x00040100, 
+    (void*)0x020E0000,
 };
 
 /* 807F2AB8-807F2AC4 000164 000C+00 2/2 0/0 0/0 .data            __vt__8cM3dGSph */

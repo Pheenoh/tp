@@ -4,6 +4,17 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
+class E_OC_n {
+    static u8 const oc_attackb_trans[40];
+    static u8 const oc_attackc_trans[40];
+    static u8 cc_sph_src[64];
+    static u8 at_sph_src[64];
+    static u8 m_battle_oc[4];
+    static u8 m_damage_oc[4];
+    static u8 m_death_oc[4];
+    static u8 m_talk_oc[4];
+};
+
 class daE_OC_c : public fopEn_enemy_c {
     /* 8072C630 */ void ctrlJoint(J3DJoint*, J3DModel*);
     /* 8072C6E8 */ void JointCallBack(J3DJoint*, int);

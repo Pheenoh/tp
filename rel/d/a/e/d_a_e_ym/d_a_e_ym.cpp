@@ -1,6 +1,6 @@
 /**
- * d_a_e_ym.cpp
- * Enemy - Shadow Insect / 闇虫 (Yami Mushi)
+ * @file d_a_e_ym.cpp
+ * @brief Enemy - Shadow Insect / 闇虫 (Yami Mushi)
  */
 
 #include "rel/d/a/e/d_a_e_ym/d_a_e_ym.h"
@@ -9,14 +9,6 @@
 #include "dol2asm.h"
 #include "f_op/f_op_actor_mng.h"
 #include "global.h"
-
-//
-// Types:
-//
-
-struct E_YM_n {
-    static dCcD_SrcSph cc_sph_src;
-};
 
 //
 // Forward References:

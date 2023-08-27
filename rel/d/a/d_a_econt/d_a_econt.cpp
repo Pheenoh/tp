@@ -1,6 +1,6 @@
 /**
- * d_a_econt.cpp
- * Encounter
+ * @file d_a_econt.cpp
+ * @brief Enemy - Encounter
  */
 
 #include "rel/d/a/d_a_econt/d_a_econt.h"

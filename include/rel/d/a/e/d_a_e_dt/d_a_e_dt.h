@@ -4,6 +4,17 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
+class E_DT_n {
+    static u8 eDt_ShakeFrame[40];
+    static u8 eDt_ShakeFrameDemo[40];
+    static u8 cc_dt_body_src[64];
+    static u8 cc_dt_tongue_src[64];
+    static u8 mDt_OtamaNum[4];
+    static u8 mDt_OtamaNo[80];
+    static u8 m_fall_no[4];
+    static u8 m_tongue_pos[12];
+};
+
 class daE_DT_c : public fopEn_enemy_c {
     /* 806AD97C */ void ctrlJoint(J3DJoint*, J3DModel*);
     /* 806ADBA0 */ void JointCallBack(J3DJoint*, int);

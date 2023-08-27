@@ -96,11 +96,6 @@ struct dBgS_Acch {
     /* 80076AAC */ void CrrPos(dBgS&);
 };
 
-struct chain_s {
-    /* 804F9E14 */ ~chain_s();
-    /* 804F9F14 */ chain_s();
-};
-
 struct cBgS_PolyInfo {
     /* 802680B0 */ ~cBgS_PolyInfo();
 };

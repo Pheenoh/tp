@@ -106,17 +106,6 @@ struct cBgS {
     /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
 };
 
-struct E_OC_n {
-    static u8 const oc_attackb_trans[40];
-    static u8 const oc_attackc_trans[40];
-    static u8 cc_sph_src[64];
-    static u8 at_sph_src[64];
-    static u8 m_battle_oc[4];
-    static u8 m_damage_oc[4];
-    static u8 m_death_oc[4];
-    static u8 m_talk_oc[4];
-};
-
 //
 // Forward References:
 //

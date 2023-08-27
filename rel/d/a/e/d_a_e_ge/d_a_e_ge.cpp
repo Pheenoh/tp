@@ -1,6 +1,6 @@
 /**
- * d_a_e_ge.cpp
- * Enemy - Guay
+ * @file d_a_e_ge.cpp
+ * @brief Enemy - Guay
  */
 
 #include "rel/d/a/e/d_a_e_ge/d_a_e_ge.h"

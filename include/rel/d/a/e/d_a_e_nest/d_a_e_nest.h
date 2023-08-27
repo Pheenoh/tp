@@ -4,13 +4,12 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class e_nest_class : public fopEn_enemy_c {};
-
-class daNPC_TK_c : public fopEn_enemy_c {
-    /* 80B0A444 */ void setHawkSideCamera(cXyz);
-    /* 80B0A500 */ void setHawkCamera(fopAc_ac_c*);
-    /* 80B0A568 */ void endHawkCamera();
+class nest_hahen_s {
+    /* 805044AC */ ~nest_hahen_s();
+    /* 805044E8 */ nest_hahen_s();
 };
+
+class e_nest_class : public fopEn_enemy_c {};
 
 class daE_Nest_HIO_c {
     /* 80500F8C */ daE_Nest_HIO_c();

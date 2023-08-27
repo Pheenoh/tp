@@ -8,18 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct ResTIMG {};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dCcU_AtInfo {};
-
-//
 // Forward References:
 //
 

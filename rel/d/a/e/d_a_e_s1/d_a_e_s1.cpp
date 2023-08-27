@@ -11,11 +11,6 @@
 // Types:
 //
 
-struct s1_ke_s {
-    /* 807803F4 */ ~s1_ke_s();
-    /* 80780470 */ s1_ke_s();
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
 };
