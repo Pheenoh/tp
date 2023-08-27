@@ -44,10 +44,6 @@ struct dEvt_control_c {
     /* 800429A8 */ void onSkipFade();
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dComIfG_play_c {
     /* 8002C97C */ void getLayerNo(int);
 };

@@ -61,12 +61,6 @@ struct dEvt_control_c {
     /* 800429A8 */ void onSkipFade();
 };
 
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCamera_c {
@@ -3305,7 +3299,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_tn/d_a_b_tn/checkNowWolf__9daPy_py_cFv.s"
 }

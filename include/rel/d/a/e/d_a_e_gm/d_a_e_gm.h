@@ -2,11 +2,7 @@
 #define D_A_E_GM_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_GM_c : public fopEn_enemy_c {
     /* 806D12C8 */ void setAction(void (daE_GM_c::*)());

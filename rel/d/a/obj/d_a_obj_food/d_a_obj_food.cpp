@@ -19,10 +19,6 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dBgS_PolyPassChk {
     /* 80078E68 */ void SetObj();
 };

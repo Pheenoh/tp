@@ -2,12 +2,7 @@
 #define D_A_B_DS_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 805DC9A4 */ void changeDemoPos0(cXyz const*);
-    /* 805DC9DC */ void changeDemoMode(u32, int, int, s16);
-};
+#include "d/a/d_a_player.h"
 
 class daB_DS_c : public fopEn_enemy_c {
     /* 805CB314 */ void ctrlJoint(J3DJoint*, J3DModel*);

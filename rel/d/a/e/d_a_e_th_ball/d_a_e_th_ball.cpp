@@ -23,10 +23,6 @@ struct dSv_memBit_c {
     /* 80034810 */ void onSwitch(int);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dBgS_PolyPassChk {
     /* 80078E68 */ void SetObj();
 };

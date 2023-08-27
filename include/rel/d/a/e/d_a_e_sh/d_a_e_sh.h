@@ -2,13 +2,9 @@
 #define D_A_E_SH_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class e_sh_class : public fopEn_enemy_c {};
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
-};
 
 class daE_SH_HIO_c {
     /* 8078E34C */ daE_SH_HIO_c();

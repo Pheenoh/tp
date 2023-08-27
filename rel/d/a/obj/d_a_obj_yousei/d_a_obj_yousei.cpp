@@ -32,10 +32,6 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dBgS_PolyPassChk {
     /* 80078E68 */ void SetObj();
 };
@@ -1165,7 +1161,8 @@ static asm void func_804D15C4() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getHeadTopPos() const {
+// asm void daPy_py_c::getHeadTopPos() const {
+extern "C" asm void getHeadTopPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_yousei/d_a_obj_yousei/getHeadTopPos__9daPy_py_cCFv.s"
 }

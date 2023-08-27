@@ -42,10 +42,6 @@ struct dEvt_control_c {
     /* 8075B7CC */ void checkSkipEdge();
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCcD_SrcCyl {};
@@ -2717,8 +2713,11 @@ extern "C" asm void __dt__4cXyzFv() {
 
 /* 80761144-8076114C -00001 0008+00 0/0 0/0 0/0 .text            changeDemoMoveAngle__9daPy_py_cFs
  */
-void daPy_py_c::changeDemoMoveAngle(s16 param_0) {
-    *(u16*)(((u8*)this) + 1542) /* this->field_0x606 */ = (u16)(param_0);
+// void daPy_py_c::changeDemoMoveAngle(s16 param_0) {
+void changeDemoMoveAngle__9daPy_py_cFs() {
+    asm {
+        sth r4, 0x606(r3)
+    }
 }
 
 /* 8076114C-80761164 008CCC 0018+00 1/1 0/0 0/0 .text            zero__4cXyzFv */
@@ -2759,7 +2758,8 @@ extern "C" asm void isStop__13mDoExt_morf_cFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_pz/d_a_e_pz/checkNowWolf__9daPy_py_cFv.s"
 }

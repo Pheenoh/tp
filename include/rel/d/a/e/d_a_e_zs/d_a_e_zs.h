@@ -2,11 +2,7 @@
 #define D_A_E_ZS_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_ZS_c : public fopEn_enemy_c {
     /* 808330DC */ void draw();
@@ -30,11 +26,6 @@ class daE_ZS_c : public fopEn_enemy_c {
 class daE_ZS_HIO_c {
     /* 808330AC */ daE_ZS_HIO_c();
     /* 80834DDC */ ~daE_ZS_HIO_c();
-};
-
-class daB_DS_c : public fopEn_enemy_c {
-    /* 80835284 */ void getHandPosR();
-    /* 808352A0 */ void getHandPosL();
 };
 
 #endif /* D_A_E_ZS_H */

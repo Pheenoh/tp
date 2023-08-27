@@ -2,7 +2,7 @@
 #define D_A_TBOX2_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class daTbox2_c : public fopAc_ac_c {
     /* 80496A18 */ void initBaseMtx();
@@ -30,10 +30,6 @@ class daTbox2_c : public fopAc_ac_c {
     /* 80497DA0 */ void Draw();
     /* 80497E6C */ void Delete();
     /* 80498140 */ bool checkSmallTbox();
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
 };
 
 #endif /* D_A_TBOX2_H */

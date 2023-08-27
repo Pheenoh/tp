@@ -29,6 +29,7 @@ class daObjLife_c : public fopAc_ac_c {
     /* 804CE19C */ void draw();
     /* 804CE1F0 */ void setListStart();
     /* 804CE214 */ void _delete();
+    void setPos(cXyz param_0);
 };
 
 class daItemBase_c : public fopAc_ac_c {

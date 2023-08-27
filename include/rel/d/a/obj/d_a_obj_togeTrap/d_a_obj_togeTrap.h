@@ -2,7 +2,7 @@
 #define D_A_OBJ_TOGETRAP_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 #include "d/bg/d_bg_w.h"
 
 class daTogeTrap_c : public fopAc_ac_c {
@@ -31,11 +31,6 @@ class daTogeTrap_c : public fopAc_ac_c {
 class daTogeTrap_HIO_c {
     /* 80D17B6C */ daTogeTrap_HIO_c();
     /* 80D18DA8 */ ~daTogeTrap_HIO_c();
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F7C8 */ void getSpinnerRideSpeed() const;
-    /* 8015F814 */ void checkSpinnerReflectEffect();
 };
 
 #endif /* D_A_OBJ_TOGETRAP_H */

@@ -2,14 +2,10 @@
 #define D_A_E_DN_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class e_dn_class : public fopEn_enemy_c {
     /* 804EDE58 */ e_dn_class();
-};
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
 };
 
 class daE_DN_HIO_c {

@@ -48,10 +48,6 @@ struct dPaPoT_c {
     static u8 m_emitterTwoData[36];
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dComIfG_play_c {
     /* 8002C97C */ void getLayerNo(int);
 };
@@ -3024,7 +3020,8 @@ asm void daCow_c::getShapeAngle() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_cow/d_a_cow/checkNowWolf__9daPy_py_cFv.s"
 }

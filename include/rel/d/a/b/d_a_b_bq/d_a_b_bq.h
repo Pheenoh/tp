@@ -2,16 +2,10 @@
 #define D_A_B_BQ_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class obj_ystone_class {
     /* 805BA234 */ void setCurrentPos(cXyz);
-};
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 805BA080 */ void cancelOriginalDemo();
-    /* 805BA18C */ void changeDemoMode(u32, int, int, s16);
-    /* 805BA1A0 */ void changeOriginalDemo();
 };
 
 class daB_BQ_HIO_c {

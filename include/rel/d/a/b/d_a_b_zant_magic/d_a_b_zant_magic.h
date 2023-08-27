@@ -2,11 +2,7 @@
 #define D_A_B_ZANT_MAGIC_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F398 */ void checkMasterSwordEquip();
-};
+#include "d/a/d_a_player.h"
 
 class daB_ZANT_c : public fopEn_enemy_c {
     /* 80640654 */ void getMagicSpeed();

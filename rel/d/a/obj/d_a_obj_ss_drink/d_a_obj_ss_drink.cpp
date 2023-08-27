@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/obj/d_a_obj_ss_drink/d_a_obj_ss_drink.h"
+#include "rel/d/a/d_a_myna/d_a_myna.h"
 #include "dol2asm.h"
 
 //
@@ -13,12 +14,6 @@
 struct dSv_info_c {
     /* 80035200 */ void onSwitch(int, int);
     /* 800352B0 */ void offSwitch(int, int);
-};
-
-struct dDlst_shadowControl_c {
-    /* 80055F84 */ void setSimple(cXyz*, f32, f32, cXyz*, s16, f32, _GXTexObj*);
-
-    static u8 mSimpleTexObj[32];
 };
 
 struct dBgS_PolyPassChk {
@@ -925,7 +920,8 @@ static asm void func_80CE6734() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getLeftHandPos() const {
+// asm void daPy_py_c::getLeftHandPos() const {
+extern "C" asm void getLeftHandPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_ss_drink/d_a_obj_ss_drink/getLeftHandPos__9daPy_py_cCFv.s"
 }

@@ -2,11 +2,7 @@
 #define D_A_E_SB_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F398 */ void checkMasterSwordEquip();
-};
+#include "d/a/d_a_player.h"
 
 class daE_SB_c : public fopEn_enemy_c {
     /* 807816D8 */ void CreateHeap();

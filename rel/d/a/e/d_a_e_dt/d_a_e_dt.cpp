@@ -50,10 +50,6 @@ struct dEvt_control_c {
     /* 800429A8 */ void onSkipFade();
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCamera_c {

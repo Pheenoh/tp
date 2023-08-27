@@ -2,11 +2,7 @@
 #define D_A_COW_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 80662D84 */ void checkNowWolf();
-};
+#include "d/a/d_a_player.h"
 
 class daCow_c : public fopAc_ac_c {
     /* 806585CC */ void calcRunAnime(int);
@@ -94,7 +90,5 @@ class daCow_c : public fopAc_ac_c {
     /* 80662BE4 */ void Delete();
     /* 80662D70 */ void getShapeAngle();
 };
-
-class camera_class : public fopAc_ac_c {};
 
 #endif /* D_A_COW_H */

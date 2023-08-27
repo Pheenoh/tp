@@ -2,11 +2,7 @@
 #define D_A_OBJ_SHIELD_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F4F0 */ void setLookPos(cXyz*);
-};
+#include "d/a/d_a_player.h"
 
 class daItemShield_c : public fopAc_ac_c {
     /* 80CD6D9C */ void initBaseMtx();

@@ -2,13 +2,7 @@
 #define D_A_OBJ_SWCHAIN_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F478 */ void setFmChainPos(fopAc_ac_c*, cXyz*, int);
-    /* 8015F520 */ void setPlayerSe(u32);
-    /* 80CFB6C8 */ void getRightHandPos() const;
-};
+#include "d/a/d_a_player.h"
 
 class daObjSwChain_c : public fopAc_ac_c {
     struct chain_s {

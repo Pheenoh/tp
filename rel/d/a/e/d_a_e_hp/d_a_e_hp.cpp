@@ -44,10 +44,6 @@ struct dEvt_control_c {
     /* 8004368C */ void setPtT(void*);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCcD_SrcCyl {};

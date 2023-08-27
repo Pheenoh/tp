@@ -2,16 +2,12 @@
 #define D_A_PERU_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 #include "d/cc/d_cc_d.h"
 
 class daTag_EvtArea_c : public fopAc_ac_c {
     /* 80D4BFD4 */ void chkPointInArea(cXyz);
     /* 8048C94C */ void chkPointInArea(cXyz, cXyz);
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 80D4C034 */ void checkNowWolf();
 };
 
 class daNpcT_faceMotionAnmData_c : public fopAc_ac_c {};

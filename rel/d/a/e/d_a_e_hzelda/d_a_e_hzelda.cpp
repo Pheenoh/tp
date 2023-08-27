@@ -44,12 +44,6 @@ struct dPa_control_c {
                             _GXColor const*, cXyz const*, f32);
 };
 
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCamera_c {
     /* 801614D0 */ void Stop();
     /* 8016300C */ void SetTrimSize(s32);

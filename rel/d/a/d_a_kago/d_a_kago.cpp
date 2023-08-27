@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/d_a_kago/d_a_kago.h"
+#include "rel/d/a/e/d_a_e_ym/d_a_e_ym.h"
 #include "dol2asm.h"
 
 //
@@ -14,137 +15,10 @@ struct mDoCPd_c {
     static u8 m_cpadInfo[256];
 };
 
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_memBit_c {
-    /* 80034810 */ void onSwitch(int);
-    /* 80034860 */ void isSwitch(int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-};
-
 struct dPath {};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
 
 struct dMsgObject_c {
     /* 80238440 */ void getSelectCursorPos();
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80163028 */ void SetTrimTypeForce(s32);
-    /* 80163D50 */ void ModeFix(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180C68 */ void Reset();
-    /* 80180C18 */ void Reset(cXyz, cXyz);
-    /* 80181E64 */ void Eye();
-};
-
-struct dBgS_RoofChk {
-    /* 80078FF4 */ dBgS_RoofChk();
-    /* 80079090 */ ~dBgS_RoofChk();
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk_Spl {
-    /* 800777B0 */ dBgS_ObjGndChk_Spl();
-    /* 80077848 */ ~dBgS_ObjGndChk_Spl();
-};
-
-struct dBgS_ObjAcch {
-    /* 808549B8 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS {
-    /* 80074CBC */ void GetSpecialCode(cBgS_PolyInfo const&);
-    /* 8007549C */ void RoofChk(dBgS_RoofChk*);
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct dAttention_c {
-    /* 8007353C */ void LockonTarget(s32);
-    /* 800737E4 */ void LockonTruth();
-};
-
-struct cCcD_Obj {};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-    /* 80074618 */ void GetActorPointer(int) const;
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
 };
 
 //
@@ -385,7 +259,6 @@ extern "C" void _restgpr_26();
 extern "C" void _restgpr_27();
 extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
-extern "C" void strcmp();
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -394,11 +267,9 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 m_cpadInfo__8mDoCPd_c[256];
 extern "C" u8 now__14mDoMtx_stack_c[48];
-extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
-extern "C" extern u8 mStayNo__20dStage_roomControl_c[4];
 extern "C" u8 m_midnaActor__9daPy_py_c[4];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" void setScoreCount__13daBalloon2D_cFUl();
@@ -2432,7 +2303,8 @@ static asm void func_80854AD8() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getMidnaActor() {
+// asm void daPy_py_c::getMidnaActor() {
+extern "C" asm void getMidnaActor__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_kago/d_a_kago/getMidnaActor__9daPy_py_cFv.s"
 }

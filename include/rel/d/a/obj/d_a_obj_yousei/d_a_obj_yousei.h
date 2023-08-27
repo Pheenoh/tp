@@ -2,17 +2,13 @@
 #define D_A_OBJ_YOUSEI_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
-class daPy_py_c : public fopAc_ac_c {
-    /* 804D15CC */ void getHeadTopPos() const;
-};
-
-class daPy_boomerangMove_c : public fopAc_ac_c {
-    /* 8015E5B0 */ void initOffset(cXyz const*);
-    /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
-    /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
-};
+// class daPy_boomerangMove_c : public fopAc_ac_c {
+//     /* 8015E5B0 */ void initOffset(cXyz const*);
+//     /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
+//     /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
+// };
 
 class daObjYOUSEI_c : public fopAc_ac_c {
     /* 804CE738 */ void InitCcSph();

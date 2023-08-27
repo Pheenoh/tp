@@ -2,11 +2,7 @@
 #define D_A_OBJ_SS_DRINK_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 80CE673C */ void getLeftHandPos() const;
-};
+#include "d/a/d_a_player.h"
 
 class daObj_SSDrink_c : public fopAc_ac_c {
     /* 80CE4F78 */ ~daObj_SSDrink_c();
@@ -48,10 +44,6 @@ class daObj_SSBase_c : public fopAc_ac_c {
     /* 8015E3F8 */ daObj_SSBase_c();
     /* 8015E450 */ ~daObj_SSBase_c();
     /* 8015E4B0 */ void getProcessID();
-};
-
-class daMyna_c : public fopAc_ac_c {
-    /* 809487EC */ void soldoutItem(unsigned int);
 };
 
 #endif /* D_A_OBJ_SS_DRINK_H */

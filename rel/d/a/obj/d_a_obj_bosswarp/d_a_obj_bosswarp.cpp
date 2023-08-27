@@ -4,6 +4,8 @@
 //
 
 #include "rel/d/a/obj/d_a_obj_bosswarp/d_a_obj_bosswarp.h"
+#include "rel/d/a/obj/d_a_obj_ystone/d_a_obj_ystone.h"
+#include "rel/d/a/obj/d_a_obj_life_container/d_a_obj_life_container.h"
 #include "dol2asm.h"
 
 //

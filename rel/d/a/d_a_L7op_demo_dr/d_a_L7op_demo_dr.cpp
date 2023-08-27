@@ -19,10 +19,6 @@ struct dSv_restart_c {
     /* 80034F80 */ void setRoom(cXyz const&, s16, s8);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCamera_c {
     /* 801614AC */ void Start();
     /* 801614D0 */ void Stop();

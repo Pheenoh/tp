@@ -44,12 +44,6 @@ struct dPa_control_c {
                                 cXyz const*, int, dPa_levelEcallBack*, s8, cXyz const*);
 };
 
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCamera_c {
@@ -1430,7 +1424,8 @@ static asm void setMidnaBindEffect(fopEn_enemy_c* param_0, Z2CreatureEnemy* para
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_gi/d_a_e_gi/checkNowWolf__9daPy_py_cFv.s"
 }

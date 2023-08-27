@@ -2,17 +2,7 @@
 #define D_A_E_PZ_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 80761144 */ void changeDemoMoveAngle(s16);
-    /* 80761208 */ void checkNowWolf();
-    /* 80761368 */ void changeDemoPos0(cXyz const*);
-    /* 8076141C */ void changeDemoMode(u32, int, int, s16);
-    /* 80761430 */ void changeOriginalDemo();
-
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_PZ_c : public fopEn_enemy_c {
     /* 807585BC */ void draw();

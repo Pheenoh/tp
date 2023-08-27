@@ -12,46 +12,16 @@
 
 struct J3DMaterial {};
 
-struct daMidna_hio_c0 {
-    static u8 const m[32];
-};
-
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_player_status_b_c {
-    /* 80032BEC */ void isTransformLV(int) const;
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
 };
 
 struct dStage_roomControl_c {
     static u8 mDemoArcName[10 + 2 /* padding */];
 };
 
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
 struct dMsgObject_c {
     /* 802383A4 */ void isMouthCheck();
-};
-
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
 };
 
 struct dDemo_object_c {
@@ -67,67 +37,8 @@ struct dDemo_actor_c {
     /* 80038338 */ void getDemoIDData(int*, int*, int*, u16*, u8*);
 };
 
-struct dBgS_LinkLinChk {
-    /* 80078030 */ dBgS_LinkLinChk();
-    /* 8007808C */ ~dBgS_LinkLinChk();
-};
-
-struct dBgS_LinChk {
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS {
-    /* 80074BE8 */ void GetPolyColor(cBgS_PolyInfo const&);
-    /* 80075100 */ void GetRoomId(cBgS_PolyInfo const&);
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
 struct JKRArchive {
     /* 802D5ECC */ void readIdxResource(void*, u32, u32);
-};
-
-struct J3DTexNoAnm {
-    /* 804BD140 */ ~J3DTexNoAnm();
-    /* 804BD188 */ J3DTexNoAnm();
-    /* 804C634C */ void calc(u16*) const;
-};
-
-struct J3DTexMtxAnm {
-    /* 804BD1AC */ ~J3DTexMtxAnm();
-    /* 804BD1E8 */ J3DTexMtxAnm();
-};
-
-struct J3DTevKColorAnm {
-    /* 804BD098 */ ~J3DTevKColorAnm();
-    /* 804BD0D4 */ J3DTevKColorAnm();
-};
-
-struct J3DTevColorAnm {
-    /* 804BD0EC */ ~J3DTevColorAnm();
-    /* 804BD128 */ J3DTevColorAnm();
-};
-
-struct J3DMaterialAnm {
-    /* 8032C320 */ void initialize();
-    /* 8032C3C4 */ void calc(J3DMaterial*) const;
-};
-
-struct J3DMatColorAnm {
-    /* 804BD200 */ ~J3DMatColorAnm();
-    /* 804BD23C */ J3DMatColorAnm();
-};
-
-struct J3DAnmLoaderDataBaseFlag {};
-
-struct J3DAnmLoaderDataBase {
-    /* 80337B40 */ void load(void const*, J3DAnmLoaderDataBaseFlag);
 };
 
 //
@@ -383,7 +294,7 @@ extern "C" u8 mGndCheck__11fopAcM_gc_c[84];
 extern "C" u8 mDemoArcName__20dStage_roomControl_c[10 + 2 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mSimpleTexObj__21dDlst_shadowControl_c[32];
-extern "C" extern u8 g_meter2_info[248];
+// extern "C" extern u8 g_meter2_info[248];
 extern "C" f32 Zero__4cXyz[3];
 extern "C" u8 BaseX__4cXyz[12];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
@@ -773,7 +684,8 @@ extern "C" asm void __dt__15J3DTevKColorAnmFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::J3DTevKColorAnm() {
+extern "C" asm void __ct__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__ct__15J3DTevKColorAnmFv.s"
 }
@@ -783,7 +695,8 @@ asm J3DTevKColorAnm::J3DTevKColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::~J3DTevColorAnm() {
+// asm J3DTevColorAnm::~J3DTevColorAnm() {
+extern "C" asm void __dt__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__dt__14J3DTevColorAnmFv.s"
 }
@@ -793,7 +706,8 @@ asm J3DTevColorAnm::~J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::J3DTevColorAnm() {
+// asm J3DTevColorAnm::J3DTevColorAnm() {
+extern "C" asm void __ct__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__ct__14J3DTevColorAnmFv.s"
 }
@@ -803,7 +717,8 @@ asm J3DTevColorAnm::J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::~J3DTexNoAnm() {
+// asm J3DTexNoAnm::~J3DTexNoAnm() {
+extern "C" asm void __dt__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__dt__11J3DTexNoAnmFv.s"
 }
@@ -813,7 +728,8 @@ asm J3DTexNoAnm::~J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::J3DTexNoAnm() {
+// asm J3DTexNoAnm::J3DTexNoAnm() {
+extern "C" asm void __ct__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__ct__11J3DTexNoAnmFv.s"
 }
@@ -823,7 +739,8 @@ asm J3DTexNoAnm::J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+extern "C" asm void __dt__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__dt__12J3DTexMtxAnmFv.s"
 }
@@ -833,7 +750,8 @@ asm J3DTexMtxAnm::~J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::J3DTexMtxAnm() {
+extern "C" asm void __ct__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__ct__12J3DTexMtxAnmFv.s"
 }
@@ -843,7 +761,8 @@ asm J3DTexMtxAnm::J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::~J3DMatColorAnm() {
+// asm J3DMatColorAnm::~J3DMatColorAnm() {
+extern "C" asm void __dt__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__dt__14J3DMatColorAnmFv.s"
 }
@@ -853,7 +772,8 @@ asm J3DMatColorAnm::~J3DMatColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::J3DMatColorAnm() {
+// asm J3DMatColorAnm::J3DMatColorAnm() {
+extern "C" asm void __ct__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/__ct__14J3DMatColorAnmFv.s"
 }
@@ -2070,7 +1990,8 @@ static asm void daMidna_Delete(daMidna_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DTexNoAnm::calc(u16* param_0) const {
+// asm void J3DTexNoAnm::calc(u16* param_0) const {
+extern "C" asm void calc__11J3DTexNoAnmCFPUs() {
     nofralloc
 #include "asm/rel/d/a/d_a_midna/d_a_midna/calc__11J3DTexNoAnmCFPUs.s"
 }

@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/e/d_a_e_ymb/d_a_e_ymb.h"
+#include "rel/d/a/obj/d_a_obj_drop/d_a_obj_drop.h"
 #include "dol2asm.h"
 
 //
@@ -57,10 +58,6 @@ struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
     /* 8004368C */ void setPtT(void*);
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
 };
 
 struct dCcU_AtInfo {};
@@ -2904,7 +2901,8 @@ REGISTER_CTORS(0x808214A8, __sinit_d_a_e_ymb_cpp);
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daObjDrop_c::setPos(cXyz param_0) {
+// asm void daObjDrop_c::setPos(cXyz param_0) {
+extern "C" asm void setPos__11daObjDrop_cF4cXyz() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_ymb/d_a_e_ymb/setPos__11daObjDrop_cF4cXyz.s"
 }

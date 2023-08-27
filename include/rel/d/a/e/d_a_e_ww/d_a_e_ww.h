@@ -2,13 +2,7 @@
 #define D_A_E_WW_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 807EF744 */ void checkNowWolf();
-
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_WW_c : public fopEn_enemy_c {
     /* 807E7748 */ void ctrlJoint(J3DJoint*, J3DModel*);

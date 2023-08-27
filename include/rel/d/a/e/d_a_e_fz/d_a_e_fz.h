@@ -2,11 +2,7 @@
 #define D_A_E_FZ_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daMirror_c : public fopEn_enemy_c {
     /* 8003194C */ void entry(J3DModel*);

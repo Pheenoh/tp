@@ -798,7 +798,8 @@ asm obj_sc_s::obj_sc_s() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getLeftHandPos() const {
+// asm void daPy_py_c::getLeftHandPos() const {
+extern "C" asm void getLeftHandPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_sw/d_a_obj_sw/getLeftHandPos__9daPy_py_cCFv.s"
 }

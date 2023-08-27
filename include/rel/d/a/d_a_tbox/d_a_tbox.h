@@ -2,7 +2,7 @@
 #define D_A_TBOX_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class daTbox_c : public fopAc_ac_c {
     /* 80490E50 */ void getModelInfo();
@@ -79,10 +79,6 @@ class daTbox_c : public fopAc_ac_c {
 class daTbox_HIO_c {
     /* 80490D2C */ daTbox_HIO_c();
     /* 804960B8 */ ~daTbox_HIO_c();
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
 };
 
 #endif /* D_A_TBOX_H */

@@ -2,12 +2,7 @@
 #define D_A_GRASS_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F424 */ void checkNowWolfEyeUp();
-    /* 8052090C */ void getSwordTopPos() const;
-};
+#include "d/a/d_a_player.h"
 
 class daGrass_c : public fopAc_ac_c {
     /* 8051BEFC */ void createGrass();

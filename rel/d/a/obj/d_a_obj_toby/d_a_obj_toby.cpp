@@ -918,7 +918,8 @@ REGISTER_CTORS(0x80D1557C, __sinit_d_a_obj_toby_cpp);
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getLeftHandPos() const {
+// asm void daPy_py_c::getLeftHandPos() const {
+extern "C" asm void getLeftHandPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_toby/d_a_obj_toby/getLeftHandPos__9daPy_py_cCFv.s"
 }

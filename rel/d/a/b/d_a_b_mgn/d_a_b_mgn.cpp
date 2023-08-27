@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/b/d_a_b_mgn/d_a_b_mgn.h"
+#include "rel/d/a/obj/d_a_obj_bhashi/d_a_obj_bhashi.h"
 #include "dol2asm.h"
 
 //
@@ -44,10 +45,6 @@ struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
     /* 800429A8 */ void onSkipFade();
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
 };
 
 struct dCcU_AtInfo {};
@@ -2517,7 +2514,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_mgn/d_a_b_mgn/checkNowWolf__9daPy_py_cFv.s"
 }

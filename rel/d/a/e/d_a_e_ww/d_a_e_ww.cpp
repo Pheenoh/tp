@@ -32,10 +32,6 @@ struct dPa_control_c {
                                 cXyz const*, int, dPa_levelEcallBack*, s8, cXyz const*);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dBgS_PolyPassChk {
@@ -1988,7 +1984,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {  
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_ww/d_a_e_ww/checkNowWolf__9daPy_py_cFv.s"
 }

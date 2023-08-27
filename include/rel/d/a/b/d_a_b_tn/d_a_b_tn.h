@@ -2,15 +2,8 @@
 #define D_A_B_TN_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
 #include "d/cc/d_cc_d.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F8D0 */ void getThrowBoomerangActor();
-    /* 8062E608 */ void checkNowWolf();
-
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daB_TN_c : public fopEn_enemy_c {
     /* 8061EC58 */ void ctrlJoint(J3DJoint*, J3DModel*);

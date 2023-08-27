@@ -2,16 +2,10 @@
 #define D_A_E_KR_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 
 class e_kr_class : public fopEn_enemy_c {
     /* 80705004 */ e_kr_class();
-};
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F8E4 */ void cancelBoomerangLockActor(fopAc_ac_c*);
-
-    static u8 m_midnaActor[4];
 };
 
 #endif /* D_A_E_KR_H */

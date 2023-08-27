@@ -6244,6 +6244,7 @@ inline BOOL dComIfGs_isTransformLV(int i_no);
 inline BOOL i_dComIfGs_isEventBit(const u16);
 
 typedef int (daMidna_c::*daMidna_func)();
+// needs to be moved to appropriate header at some point
 class daMidna_c : public fopAc_ac_c {
 public:
     enum daMidna_ERFLG0 {

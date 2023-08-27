@@ -2,11 +2,7 @@
 #define D_A_OBJ_WARP_KBRG_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daObjWarpKBrg_c : public fopAc_ac_c {
     /* 80D26FA8 */ void initBaseMtx();

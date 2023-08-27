@@ -2,9 +2,7 @@
 #define D_A_OBJ_SCANNON_CRS_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daMidna_c : public fopAc_ac_c {};
+#include "d/a/d_a_player.h"
 
 class daSCannonCrs_c : public fopAc_ac_c {
     /* 80CC973C */ daSCannonCrs_c();
@@ -30,10 +28,6 @@ class daSCannonCrs_c : public fopAc_ac_c {
     /* 80CCACD0 */ void callMidnaBeamEmt();
 
     static u8 s_exeProc[72];
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
 };
 
 #endif /* D_A_OBJ_SCANNON_CRS_H */

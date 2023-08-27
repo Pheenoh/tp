@@ -2,21 +2,8 @@
 #define D_A_MYNA_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class msg_class : public fopAc_ac_c {};
-
-class daTag_MynaLight_c : public fopAc_ac_c {
-    /* 80D5CE40 */ void setTurnOnOffChange();
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8094AA04 */ void getHeadTopPos() const;
-};
-
-class daObj_SSItem_c : public fopAc_ac_c {
-    /* 80CE77F8 */ void getExchangeItemPtr();
-};
+#include "d/a/d_a_player.h"
+#include "f_op/f_op_msg.h"
 
 class daMyna_c : public fopAc_ac_c {
     /* 80945E80 */ void baseMotion00(int);

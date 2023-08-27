@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/e/d_a_e_zs/d_a_e_zs.h"
+#include "rel/d/a/b/d_a_b_ds/d_a_b_ds.h"
 #include "dol2asm.h"
 
 //
@@ -20,10 +21,6 @@ struct dPa_control_c {
     /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
                             u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
                             cXyz const*, f32);
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
 };
 
 struct dCcD_SrcCyl {};
@@ -915,7 +912,8 @@ static asm void setMidnaBindEffect(fopEn_enemy_c* param_0, Z2CreatureEnemy* para
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daB_DS_c::getHandPosR() {
+// asm void daB_DS_c::getHandPosR() {
+extern "C" asm void getHandPosR__8daB_DS_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_zs/d_a_e_zs/getHandPosR__8daB_DS_cFv.s"
 }
@@ -925,7 +923,8 @@ asm void daB_DS_c::getHandPosR() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daB_DS_c::getHandPosL() {
+// asm void daB_DS_c::getHandPosL() {
+extern "C" asm void getHandPosL__8daB_DS_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_zs/d_a_e_zs/getHandPosL__8daB_DS_cFv.s"
 }

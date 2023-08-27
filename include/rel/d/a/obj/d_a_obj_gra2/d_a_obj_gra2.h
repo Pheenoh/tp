@@ -2,15 +2,11 @@
 #define D_A_OBJ_GRA2_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
+#include "d/a/d_a_player.h"
 #include "d/bg/d_bg_w.h"
 
 class daTagGra_c : public fopAc_ac_c {
     /* 80C0CF10 */ void getGraPos();
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F3FC */ void getAttentionOffsetY();
 };
 
 class daObj_GrA_c : public fopAc_ac_c {

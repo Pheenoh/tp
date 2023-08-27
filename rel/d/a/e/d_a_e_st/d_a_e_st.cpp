@@ -41,10 +41,6 @@ struct dPa_control_c {
                             cXyz const*, f32);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dBgS_PolyPassChk {
@@ -2295,7 +2291,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getHeadTopPos() const {
+// asm void daPy_py_c::getHeadTopPos() const {
+extern "C" asm void getHeadTopPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_st/d_a_e_st/getHeadTopPos__9daPy_py_cCFv.s"
 }

@@ -2,11 +2,7 @@
 #define D_A_B_DR_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F398 */ void checkMasterSwordEquip();
-};
+#include "d/a/d_a_player.h"
 
 class daB_DR_c : public fopEn_enemy_c {
     /* 805BAF80 */ void ctrlJoint(J3DJoint*, J3DModel*);

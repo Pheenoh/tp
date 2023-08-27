@@ -65,10 +65,6 @@ struct dEvt_control_c {
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCamera_c {
     /* 801614AC */ void Start();
     /* 801614D0 */ void Stop();

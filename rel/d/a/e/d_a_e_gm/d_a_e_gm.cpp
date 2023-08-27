@@ -30,10 +30,6 @@ struct dMsgObject_c {
     /* 8023822C */ void getStatus();
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dBgS_PolyPassChk {

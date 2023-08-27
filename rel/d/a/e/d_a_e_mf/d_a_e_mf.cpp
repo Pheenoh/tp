@@ -39,12 +39,6 @@ struct dJntCol_c {
     /* 80035CA0 */ void init(fopAc_ac_c*, dJntColData_c const*, J3DModel*, int);
 };
 
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dBomb_c {

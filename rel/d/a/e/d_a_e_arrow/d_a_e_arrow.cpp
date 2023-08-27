@@ -11,81 +11,12 @@
 // Types:
 //
 
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B8B4 */ void forceOnEventMove(u32);
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-
-    static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
-
 struct dMsgObject_c {
     /* 8023822C */ void getStatus();
 };
 
 struct dMeter2_c {
     /* 8021F780 */ void setLifeZero();
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk_Spl {
-    /* 800777B0 */ dBgS_ObjGndChk_Spl();
-    /* 80077848 */ ~dBgS_ObjGndChk_Spl();
-};
-
-struct dBgS_ObjGndChk {
-    /* 8067DA70 */ ~dBgS_ObjGndChk();
-};
-
-struct dBgS_LinChk {
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_ArrowLinChk {
-    /* 800781D8 */ dBgS_ArrowLinChk();
-    /* 80078240 */ ~dBgS_ArrowLinChk();
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS {
-    /* 80074E50 */ void GetPolyAtt0(cBgS_PolyInfo const&);
-    /* 80075BF4 */ void ArrowStickCallBack(cBgS_PolyInfo const&, fopAc_ac_c*, cXyz&);
-};
-
-struct dAttLook_c {
-    /* 80073D08 */ void request(fopAc_ac_c*, f32, f32, f32, s16, int);
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct JPABaseEmitter {
-    /* 8027EC60 */ void deleteAllParticle();
 };
 
 //
@@ -227,7 +158,6 @@ extern "C" extern void* __vt__14cCcD_ShapeAttr[22];
 extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_meter2_info[248];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
 extern "C" u8 mParticleTracePCB__13dPa_control_c[4 + 4 /* padding */];

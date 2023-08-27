@@ -299,7 +299,6 @@ extern "C" u8 m_myObj__9daGrass_c[4];
 extern "C" u8 m_grass__9daGrass_c[4];
 extern "C" u8 m_flower__9daGrass_c[4];
 extern "C" u8 mLight8EcallBack__13dPa_control_c[4];
-extern "C" extern f32 G_CM3D_F_ABS_MIN[1 + 1 /* padding */];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" u8 sOldVcdVatCmd__8J3DShape[4];
 extern "C" void __register_global_object();
@@ -7196,7 +7195,8 @@ asm void dGrass_packet_c::setAnm(int param_0, s16 param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getSwordTopPos() const {
+// asm void daPy_py_c::getSwordTopPos() const {
+extern "C" asm void getSwordTopPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_grass/d_a_grass/getSwordTopPos__9daPy_py_cCFv.s"
 }

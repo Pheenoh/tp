@@ -2,11 +2,7 @@
 #define D_A_E_WS_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_WS_c : public fopEn_enemy_c {
     /* 807E3A6C */ void draw();

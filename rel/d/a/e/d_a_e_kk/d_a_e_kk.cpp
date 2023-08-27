@@ -27,10 +27,6 @@ struct dPa_control_c {
                             cXyz const*, f32);
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCcD_SrcCyl {};

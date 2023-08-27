@@ -2,11 +2,7 @@
 #define D_A_OBJ_VOLCBOM_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daObjVolcBom_c : public fopAc_ac_c {
     /* 80D241E0 */ void initBaseMtx();

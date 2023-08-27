@@ -2351,7 +2351,8 @@ asm void daTag_EvtArea_c::chkPointInArea(cXyz param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::checkNowWolf() {
+// asm void daPy_py_c::checkNowWolf() {
+extern "C" asm void checkNowWolf__9daPy_py_cFv() {  
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/checkNowWolf__9daPy_py_cFv.s"
 }

@@ -49,11 +49,11 @@ struct dEvt_control_c {
     /* 800429A8 */ void onSkipFade();
 };
 
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
+// struct dDlst_shadowControl_c {
+//     /* 80055F1C */ void addReal(u32, J3DModel*);
 
-    static u8 mSimpleTexObj[32];
-};
+//     static u8 mSimpleTexObj[32];
+// };
 
 struct dCcU_AtInfo {};
 

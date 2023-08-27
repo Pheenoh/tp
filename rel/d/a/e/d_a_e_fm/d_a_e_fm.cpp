@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/e/d_a_e_fm/d_a_e_fm.h"
+#include "rel/d/a/obj/d_a_obj_ystone/d_a_obj_ystone.h"
 #include "d/cc/d_cc_d.h"
 #include "dol2asm.h"
 
@@ -49,10 +50,6 @@ struct dPa_control_c {
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
 };
 
 struct dCcU_AtInfo {};
@@ -2774,7 +2771,8 @@ static asm void func_804FA480() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void obj_ystone_class::setCurrentPos(cXyz param_0) {
+// asm void obj_ystone_class::setCurrentPos(cXyz param_0) {
+extern "C" asm void setCurrentPos__16obj_ystone_classF4cXyz() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_fm/d_a_e_fm/setCurrentPos__16obj_ystone_classF4cXyz.s"
 }

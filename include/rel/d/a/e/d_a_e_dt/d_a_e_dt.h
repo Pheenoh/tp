@@ -2,11 +2,7 @@
 #define D_A_E_DT_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F914 */ void setPlayerDamage(int, int);
-};
+#include "d/a/d_a_player.h"
 
 class daE_DT_c : public fopEn_enemy_c {
     /* 806AD97C */ void ctrlJoint(J3DJoint*, J3DModel*);
@@ -71,7 +67,5 @@ class daE_DT_HIO_c {
     /* 806AD90C */ daE_DT_HIO_c();
     /* 806B5BDC */ ~daE_DT_HIO_c();
 };
-
-class camera_class : public fopEn_enemy_c {};
 
 #endif /* D_A_E_DT_H */

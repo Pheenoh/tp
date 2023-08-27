@@ -2,22 +2,7 @@
 #define D_A_KAGO_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daTagWaterFall_c : public fopAc_ac_c {
-    /* 80D64768 */ void checkHitWaterFall(cXyz);
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 8015F914 */ void setPlayerDamage(int, int);
-    /* 80854AE0 */ void getMidnaActor();
-
-    static u8 m_midnaActor[4];
-};
-
-class daObj_Balloon_c : public fopAc_ac_c {
-    /* 80BA80F4 */ void saveBestScore();
-};
+#include "d/a/d_a_player.h"
 
 class daKago_c : public fopAc_ac_c {
     /* 80849660 */ void getBckName(int);
@@ -97,14 +82,6 @@ class daKago_c : public fopAc_ac_c {
 class daKago_HIO_c {
     /* 808495AC */ daKago_HIO_c();
     /* 80854A4C */ ~daKago_HIO_c();
-};
-
-class daE_YM_c : public fopAc_ac_c {
-    /* 808123C4 */ void setLockByCargo();
-};
-
-class daBalloon2D_c : public fopAc_ac_c {
-    /* 80653FC0 */ void setScoreCount(u32);
 };
 
 #endif /* D_A_KAGO_H */

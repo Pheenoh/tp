@@ -2,17 +2,7 @@
 #define D_A_B_MGN_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8060FDB4 */ void checkNowWolf();
-
-    static u8 m_midnaActor[4];
-};
-
-class daObjBHASHI_c : public fopEn_enemy_c {
-    /* 80577500 */ void Obj_Damage(cXyz);
-};
+#include "d/a/d_a_player.h"
 
 class daB_MGN_c : public fopEn_enemy_c {
     /* 8060577C */ void ctrlJoint(J3DJoint*, J3DModel*);

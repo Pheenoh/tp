@@ -4,6 +4,7 @@
 //
 
 #include "rel/d/a/e/d_a_e_gb/d_a_e_gb.h"
+#include "rel/d/a/obj/d_a_obj_smallkey/d_a_obj_smallkey.h"
 #include "d/cc/d_cc_d.h"
 #include "dol2asm.h"
 
@@ -38,12 +39,6 @@ struct dPa_control_c {
 struct dEvt_control_c {
     /* 80042468 */ void reset();
     /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-};
-
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-
-    static u8 mSimpleTexObj[32];
 };
 
 struct dCcU_AtInfo {};
@@ -1894,7 +1889,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daKey_c::setPos(cXyz param_0) {
+// asm void daKey_c::setPos(cXyz param_0) {
+extern "C" asm void setPos__7daKey_cF4cXyz() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_gb/d_a_e_gb/setPos__7daKey_cF4cXyz.s"
 }

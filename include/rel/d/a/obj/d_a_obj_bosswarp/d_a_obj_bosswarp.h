@@ -2,19 +2,7 @@
 #define D_A_OBJ_BOSSWARP_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class obj_ystone_class : public fopAc_ac_c {
-    /* 8057B33C */ void setCurrentPos(cXyz);
-};
-
-class daPy_py_c : public fopAc_ac_c {
-    static u8 m_midnaActor[4];
-};
-
-class daObjLife_c : public fopAc_ac_c {
-    /* 8057B320 */ void setPos(cXyz);
-};
+#include "d/a/d_a_player.h"
 
 class daObjBossWarp_c : public fopAc_ac_c {
     /* 80579700 */ void initBaseMtx();

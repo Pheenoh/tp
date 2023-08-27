@@ -44,10 +44,6 @@ struct dEvt_control_c {
     /* 80042468 */ void reset();
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dCamera_c {

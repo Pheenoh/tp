@@ -33,10 +33,6 @@ struct dPa_control_c {
     static u8 mParticleTracePCB[4 + 4 /* padding */];
 };
 
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
 struct dCcU_AtInfo {};
 
 struct dBgS_PolyPassChk {

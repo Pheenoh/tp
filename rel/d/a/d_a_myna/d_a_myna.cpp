@@ -2346,7 +2346,8 @@ asm mDoHIO_entry_c::~mDoHIO_entry_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::getHeadTopPos() const {
+// asm void daPy_py_c::getHeadTopPos() const {
+extern "C" asm void getHeadTopPos__9daPy_py_cCFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/getHeadTopPos__9daPy_py_cCFv.s"
 }

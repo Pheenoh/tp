@@ -2,15 +2,7 @@
 #define D_A_E_VT_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopEn_enemy_c {
-    /* 8015F398 */ void checkMasterSwordEquip();
-    /* 8015F424 */ void checkNowWolfEyeUp();
-    /* 807CEC7C */ void checkNowWolf();
-
-    static u8 m_midnaActor[4];
-};
+#include "d/a/d_a_player.h"
 
 class daE_VA_c : public fopEn_enemy_c {
     /* 807C267C */ void ctrlJoint(J3DJoint*, J3DModel*);

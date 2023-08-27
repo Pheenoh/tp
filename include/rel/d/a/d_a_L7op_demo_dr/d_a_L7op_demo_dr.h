@@ -2,12 +2,7 @@
 #define D_A_L7OP_DEMO_DR_H
 
 #include "dolphin/types.h"
-#include "f_op/f_op_actor_mng.h"
-
-class daPy_py_c : public fopAc_ac_c {
-    /* 805ADD78 */ void changeDemoPos0(cXyz const*);
-    /* 805ADD94 */ void changeDemoMode(u32, int, int, s16);
-};
+#include "d/a/d_a_player.h"
 
 class daL7ODR_c : public fopAc_ac_c {
     /* 805AB098 */ void setAction(void (daL7ODR_c::*)());
