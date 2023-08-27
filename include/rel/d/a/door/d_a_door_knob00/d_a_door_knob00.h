@@ -4,6 +4,13 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class knob_param_c {
+    /* 8045E858 */ void getDoorModel(fopAc_ac_c*);
+    /* 8045E864 */ void getDoorLightInf(fopAc_ac_c*);
+    /* 8045E870 */ void getMsgNo(fopAc_ac_c*);
+    /* 8045E87C */ void getExitNo(fopAc_ac_c*);
+};
+
 class daKnob20_c : public fopAc_ac_c {
     /* 8045E888 */ void getAlwaysArcName();
     /* 8045E898 */ void getEvArcName();

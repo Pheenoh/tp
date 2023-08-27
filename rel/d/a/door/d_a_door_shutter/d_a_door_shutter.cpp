@@ -4,29 +4,12 @@
 //
 
 #include "rel/d/a/door/d_a_door_shutter/d_a_door_shutter.h"
+#include "d/d_door_param2.h"
 #include "dol2asm.h"
 
 //
 // Types:
 //
-
-struct door_param2_c {
-    /* 8003A188 */ void getKind(fopAc_ac_c*);
-    /* 8003A194 */ void getDoorModel(fopAc_ac_c*);
-    /* 8003A1A0 */ void getFrontOption(fopAc_ac_c*);
-    /* 8003A1AC */ void getBackOption(fopAc_ac_c*);
-    /* 8003A1B8 */ void getFRoomNo(fopAc_ac_c*);
-    /* 8003A1C4 */ void getBRoomNo(fopAc_ac_c*);
-    /* 8003A1D0 */ void getSwbit(fopAc_ac_c*);
-    /* 8003A1DC */ void getSwbit2(fopAc_ac_c*);
-    /* 8003A1E8 */ void getSwbit3(fopAc_ac_c*);
-    /* 8003A1F4 */ void isMsgDoor(fopAc_ac_c*);
-    /* 8003A200 */ void getEventNo(fopAc_ac_c*);
-    /* 8003A20C */ void getEventNo2(fopAc_ac_c*);
-    /* 8003A218 */ void getMsgNo(fopAc_ac_c*);
-    /* 8003A230 */ void getFLightInf(fopAc_ac_c*);
-    /* 8003A23C */ void getBLightInf(fopAc_ac_c*);
-};
 
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);

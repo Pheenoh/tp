@@ -4,24 +4,12 @@
 //
 
 #include "rel/d/a/door/d_a_door_mbossL1/d_a_door_mbossL1.h"
+#include "d/d_door_param2.h"
 #include "dol2asm.h"
 
 //
 // Types:
 //
-
-struct door_param2_c {
-    /* 8003A1A0 */ void getFrontOption(fopAc_ac_c*);
-    /* 8003A1AC */ void getBackOption(fopAc_ac_c*);
-    /* 8003A1B8 */ void getFRoomNo(fopAc_ac_c*);
-    /* 8003A1D0 */ void getSwbit(fopAc_ac_c*);
-    /* 8003A1DC */ void getSwbit2(fopAc_ac_c*);
-    /* 8003A1E8 */ void getSwbit3(fopAc_ac_c*);
-    /* 8003A200 */ void getEventNo(fopAc_ac_c*);
-    /* 8003A224 */ void getExitNo(fopAc_ac_c*);
-    /* 8003A248 */ void getMFLightInf(fopAc_ac_c*);
-    /* 8003A254 */ void getMBLightInf(fopAc_ac_c*);
-};
 
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);
@@ -48,17 +36,6 @@ struct dPa_control_c {
                             cXyz const*, f32);
     /* 8004D068 */ void setPoly(u16, cBgS_PolyInfo&, cXyz const*, dKy_tevstr_c const*, csXyz const*,
                                 cXyz const*, int, dPa_levelEcallBack*, s8, cXyz const*);
-};
-
-struct dDoor_stop2_c {
-    /* 806728B4 */ void calcMtx(fopAc_ac_c*);
-    /* 80672970 */ void closeInit(fopAc_ac_c*, u8);
-    /* 80672AE4 */ void closeProc(fopAc_ac_c*);
-    /* 80672B70 */ void openInit(fopAc_ac_c*, u8);
-    /* 80672CD8 */ void openProc(fopAc_ac_c*);
-    /* 80672D80 */ void create(J3DModelData*);
-    /* 80672DCC */ void draw(fopAc_ac_c*);
-    /* 80672E44 */ void getHeight();
 };
 
 struct dBgW_Base {};

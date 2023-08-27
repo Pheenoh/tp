@@ -10,12 +10,6 @@
 // Types:
 //
 
-struct door_param2_c {
-    /* 8003A194 */ void getDoorModel(fopAc_ac_c*);
-    /* 8003A1B8 */ void getFRoomNo(fopAc_ac_c*);
-    /* 8003A224 */ void getExitNo(fopAc_ac_c*);
-};
-
 struct dStage_roomControl_c {
     /* 800244E8 */ void checkRoomDisp(int) const;
 };

@@ -4,16 +4,12 @@
 //
 
 #include "rel/d/a/door/d_a_door_bossL1/d_a_door_bossL1.h"
+#include "d/d_door_param2.h"
 #include "dol2asm.h"
 
 //
 // Types:
 //
-
-struct door_param2_c {
-    /* 8003A1D0 */ void getSwbit(fopAc_ac_c*);
-    /* 8003A224 */ void getExitNo(fopAc_ac_c*);
-};
 
 struct dVibration_c {
     /* 8006FA24 */ void StartShock(int, int, cXyz);

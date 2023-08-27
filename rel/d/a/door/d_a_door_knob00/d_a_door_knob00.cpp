@@ -10,13 +10,6 @@
 // Types:
 //
 
-struct knob_param_c {
-    /* 8045E858 */ void getDoorModel(fopAc_ac_c*);
-    /* 8045E864 */ void getDoorLightInf(fopAc_ac_c*);
-    /* 8045E870 */ void getMsgNo(fopAc_ac_c*);
-    /* 8045E87C */ void getExitNo(fopAc_ac_c*);
-};
-
 struct dSv_restart_c {
     /* 80034F80 */ void setRoom(cXyz const&, s16, s8);
 };

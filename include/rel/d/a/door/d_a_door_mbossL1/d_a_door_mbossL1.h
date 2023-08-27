@@ -4,6 +4,17 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class dDoor_stop2_c {
+    /* 806728B4 */ void calcMtx(fopAc_ac_c*);
+    /* 80672970 */ void closeInit(fopAc_ac_c*, u8);
+    /* 80672AE4 */ void closeProc(fopAc_ac_c*);
+    /* 80672B70 */ void openInit(fopAc_ac_c*, u8);
+    /* 80672CD8 */ void openProc(fopAc_ac_c*);
+    /* 80672D80 */ void create(J3DModelData*);
+    /* 80672DCC */ void draw(fopAc_ac_c*);
+    /* 80672E44 */ void getHeight();
+};
+
 class daMBdoorL1_c : public fopAc_ac_c {
     /* 80672E70 */ void getAnmArcName();
     /* 80672EE8 */ void getArcName();
