@@ -9,6 +9,10 @@
 #include "d/msg/d_msg_flow.h"
 #include "f_op/f_op_actor.h"
 
+class daHorse_hio_c0 {
+    static u8 const m[292];
+};
+
 class daHorseRein_c {
 public:
     /* 80837F2C */ void setReinPos(int);

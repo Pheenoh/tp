@@ -7,15 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dComIfG_play_c {
-    /* 8002CB9C */ void getTimerNowTimeMs();
-    /* 8002CBDC */ void getTimerPtr();
-};
-
-//
 // Forward References:
 //
 

@@ -1,6 +1,6 @@
 /**
- * d_a_izumi_gate.cpp
- * Spring - Gate
+ * @file d_a_izumi_gate.cpp
+ * @brief Spring - Gate
  */
 
 #include "rel/d/a/d_a_izumi_gate/d_a_izumi_gate.h"

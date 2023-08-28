@@ -7,35 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AA8 */ void Set(cXyz, cXyz);
-};
-
-//
 // Forward References:
 //
 

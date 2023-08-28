@@ -7,21 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_danBit_c {
-    /* 80034B98 */ void onSwitch(int);
-};
-
-struct dPath {};
-
-struct FmtMember_c {
-    /* 80837458 */ ~FmtMember_c();
-    /* 80837798 */ FmtMember_c();
-};
-
-//
 // Forward References:
 //
 

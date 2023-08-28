@@ -1,6 +1,6 @@
 /**
- * d_a_swTime.cpp
- * Switch Time
+ * @file d_a_swTime.cpp
+ * @brief Switch Time
  */
 
 #include "rel/d/a/d_a_swTime/d_a_swTime.h"

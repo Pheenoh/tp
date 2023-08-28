@@ -4,243 +4,8 @@
 //
 
 #include "rel/d/a/d_a_hozelda/d_a_hozelda.h"
+#include "JSystem/J3DGraphAnimator/J3DJoint.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct request_of_phase_process_class {};
-
-struct Quaternion {};
-
-struct Vec {};
-
-struct cXyz {
-    /* 80266B34 */ void operator-(Vec const&) const;
-    /* 80267128 */ void atan2sX_Z() const;
-    /* 80267150 */ void atan2sY_XZ() const;
-};
-
-struct mDoMtx_stack_c {
-    /* 8000CD64 */ void transS(cXyz const&);
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CF7C */ void quatM(Quaternion const*);
-
-    static u8 now[48];
-};
-
-struct J3DMaterialTable {};
-
-struct J3DAnmTexPattern {
-    /* 8032AF50 */ void getTexNo(u16, u16*) const;
-};
-
-struct mDoExt_btpAnm {
-    /* 8000D54C */ void init(J3DMaterialTable*, J3DAnmTexPattern*, int, int, f32, s16, s16);
-    /* 8000D5E8 */ void entry(J3DMaterialTable*, s16);
-};
-
-struct J3DAnmTextureSRTKey {};
-
-struct mDoExt_btkAnm {
-    /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-    /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_bckAnm {
-    /* 8000D7DC */ void init(J3DAnmTransform*, int, int, f32, s16, s16, bool);
-    /* 8000D9CC */ void entry(J3DModelData*, f32);
-};
-
-struct mDoExt_baseAnm {
-    /* 8000D428 */ void play();
-};
-
-struct mDoExt_MtxCalcOldFrame {
-    /* 8000F848 */ void initOldFrameMorf(f32, u16, u16);
-};
-
-struct mDoExt_AnmRatioPack {
-    /* 80846CF4 */ ~mDoExt_AnmRatioPack();
-    /* 80846D30 */ mDoExt_AnmRatioPack();
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-    /* 80018C8C */ ~fopAc_ac_c();
-};
-
-struct daPy_frameCtrl_c {
-    /* 8015E4CC */ void checkAnmEnd();
-    /* 8015E510 */ void updateFrame();
-    /* 8015E544 */ void setFrameCtrl(u8, s16, s16, f32, f32);
-    /* 80846C4C */ ~daPy_frameCtrl_c();
-    /* 80846CA8 */ daPy_frameCtrl_c();
-};
-
-struct daPy_actorKeep_c {
-    /* 8015EC48 */ void setActor();
-    /* 8015ECB8 */ void setData(fopAc_ac_c*);
-    /* 8015ECFC */ void clearData();
-};
-
-struct J3DMaterial {};
-
-struct daHoZelda_matAnm_c {
-    /* 80845EAC */ void init();
-    /* 80845EDC */ void calc(J3DMaterial*) const;
-    /* 80848D54 */ ~daHoZelda_matAnm_c();
-};
-
-struct daHoZelda_hio_c0 {
-    static u8 const m[16];
-};
-
-struct daHoZelda_c {
-    /* 80846000 */ void createHeap();
-    /* 80846718 */ void modelCallBack(u16);
-    /* 808469B0 */ void create();
-    /* 80846DB0 */ ~daHoZelda_c();
-    /* 80846F4C */ void setDoubleAnime(f32, f32, f32, u16, u16, f32);
-    /* 8084718C */ void setUpperAnime(u16);
-    /* 80847234 */ void resetUpperAnime();
-    /* 808472C0 */ void setSingleAnime(u16, f32, f32, s16, f32);
-    /* 80847430 */ void animePlay();
-    /* 80847574 */ void setEyeBtp(u16);
-    /* 808475F0 */ void setEyeBtk(u16, u8);
-    /* 80847670 */ void setNormalFace();
-    /* 808476B0 */ void setAnm();
-    /* 80847E44 */ void setBowModel();
-    /* 80847F54 */ void setMatrix();
-    /* 80848058 */ void shootArrow();
-    /* 80848090 */ void deleteArrow();
-    /* 80848118 */ void setBowBck(u16);
-    /* 8084819C */ void setRideOffset();
-    /* 80848204 */ void clearEyeMove();
-    /* 80848254 */ void setEyeMove(cXyz const*, s16, s16);
-    /* 808484B8 */ void setNeckAngle();
-    /* 80848774 */ void searchBodyAngle();
-    /* 808489CC */ void execute();
-    /* 80848B64 */ void draw();
-};
-
-struct dKy_tevstr_c {};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct J3DModel {};
-
-struct dDlst_shadowControl_c {
-    /* 80055F1C */ void addReal(u32, J3DModel*);
-};
-
-struct dAttention_c {
-    /* 80070844 */ void GetLockonList(s32);
-    /* 800737E4 */ void LockonTruth();
-};
-
-struct dAttList_c {
-    /* 80073864 */ void getActor();
-};
-
-struct csXyz {};
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0420 */ ~Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct J3DTransformInfo {};
-
-struct J3DTexNoAnm {
-    /* 808465E4 */ ~J3DTexNoAnm();
-    /* 8084662C */ J3DTexNoAnm();
-    /* 80848C88 */ void calc(u16*) const;
-};
-
-struct J3DTexMtxAnm {
-    /* 80846650 */ ~J3DTexMtxAnm();
-    /* 8084668C */ J3DTexMtxAnm();
-};
-
-struct J3DTevKColorAnm {
-    /* 8084653C */ ~J3DTevKColorAnm();
-    /* 80846578 */ J3DTevKColorAnm();
-};
-
-struct J3DTevColorAnm {
-    /* 80846590 */ ~J3DTevColorAnm();
-    /* 808465CC */ J3DTevColorAnm();
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DMtxCalcNoAnmBase {
-    /* 80846498 */ ~J3DMtxCalcNoAnmBase();
-};
-
-template <typename A0, typename B0>
-struct J3DMtxCalcNoAnm {};
-/* J3DMtxCalcNoAnm<J3DMtxCalcCalcTransformMaya, J3DMtxCalcJ3DSysInitMaya> */
-struct J3DMtxCalcNoAnm__template0 {
-    /* 8084642C */ void func_8084642C(void* _this);
-    /* 80848CE0 */ void func_80848CE0(void* _this, Vec const&, f32 const (&)[3][4]);
-    /* 80848D08 */ void func_80848D08(void* _this);
-};
-
-struct J3DMtxCalcJ3DSysInitMaya {
-    /* 8032ECAC */ void init(Vec const&, f32 const (&)[3][4]);
-};
-
-struct J3DMtxCalcCalcTransformMaya {
-    /* 8032EFBC */ void calcTransform(J3DTransformInfo const&);
-};
-
-struct J3DMtxCalc {
-    /* 808464F4 */ ~J3DMtxCalc();
-    /* 80848CB8 */ void setAnmTransform(u8, J3DAnmTransform*);
-    /* 80848CBC */ void setAnmTransform(J3DAnmTransform*);
-    /* 80848CC0 */ bool getAnmTransform(u8);
-    /* 80848CC8 */ bool getAnmTransform();
-    /* 80848CD0 */ void setWeight(u8, f32);
-    /* 80848CD4 */ void getWeight(u8) const;
-
-    static u8 mJoint[4];
-};
-
-struct J3DMaterialAnm {
-    /* 8032C320 */ void initialize();
-    /* 8032C3C4 */ void calc(J3DMaterial*) const;
-};
-
-struct J3DMatColorAnm {
-    /* 808466A4 */ ~J3DMatColorAnm();
-    /* 808466E0 */ J3DMatColorAnm();
-};
-
-struct J3DJoint {};
-
-struct J3DFrameCtrl {
-    /* 803283FC */ void init(s16);
-    /* 80846D48 */ ~J3DFrameCtrl();
-};
 
 //
 // Forward References:
@@ -374,14 +139,6 @@ extern "C" void initialize__14J3DMaterialAnmFv();
 extern "C" void calc__14J3DMaterialAnmCFP11J3DMaterial();
 extern "C" void init__24J3DMtxCalcJ3DSysInitMayaFRC3VecRA3_A4_Cf();
 extern "C" void calcTransform__27J3DMtxCalcCalcTransformMayaFRC16J3DTransformInfo();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXConcat();
-extern "C" void PSMTXInverse();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXQuat();
-extern "C" void PSMTXMultVec();
-extern "C" void PSVECSquareMag();
-extern "C" void PSVECSquareDistance();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void __construct_new_array();
@@ -400,15 +157,10 @@ extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" extern void* __vt__28mDoExt_MtxCalcAnmBlendTblOld[11];
 extern "C" extern void* __vt__25mDoExt_MtxCalcAnmBlendTbl[11];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern void* __vt__14J3DMaterialAnm[4];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
-extern "C" extern u32 __float_nan;
 extern "C" u8 mJoint__10J3DMtxCalc[4];
 extern "C" extern u8 struct_80849010[4];
 
@@ -606,7 +358,8 @@ extern "C" asm void func_8084642C(void* _this) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMtxCalcNoAnmBase::~J3DMtxCalcNoAnmBase() {
+// asm J3DMtxCalcNoAnmBase::~J3DMtxCalcNoAnmBase() {
+extern "C" asm void __dt__19J3DMtxCalcNoAnmBaseFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__19J3DMtxCalcNoAnmBaseFv.s"
 }
@@ -616,7 +369,8 @@ asm J3DMtxCalcNoAnmBase::~J3DMtxCalcNoAnmBase() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMtxCalc::~J3DMtxCalc() {
+// asm J3DMtxCalc::~J3DMtxCalc() {
+extern "C" asm void __dt__10J3DMtxCalcFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__10J3DMtxCalcFv.s"
 }
@@ -626,7 +380,8 @@ asm J3DMtxCalc::~J3DMtxCalc() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::~J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::~J3DTevKColorAnm() {
+extern "C" asm void __dt__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__15J3DTevKColorAnmFv.s"
 }
@@ -636,7 +391,8 @@ asm J3DTevKColorAnm::~J3DTevKColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::J3DTevKColorAnm() {
+extern "C" asm void __ct__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__15J3DTevKColorAnmFv.s"
 }
@@ -646,7 +402,8 @@ asm J3DTevKColorAnm::J3DTevKColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::~J3DTevColorAnm() {
+// asm J3DTevColorAnm::~J3DTevColorAnm() {
+extern "C" asm void __dt__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__14J3DTevColorAnmFv.s"
 }
@@ -656,7 +413,8 @@ asm J3DTevColorAnm::~J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::J3DTevColorAnm() {
+// asm J3DTevColorAnm::J3DTevColorAnm() {
+extern "C" asm void __ct__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__14J3DTevColorAnmFv.s"
 }
@@ -666,7 +424,8 @@ asm J3DTevColorAnm::J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::~J3DTexNoAnm() {
+// asm J3DTexNoAnm::~J3DTexNoAnm() {
+extern "C" asm void __dt__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__11J3DTexNoAnmFv.s"
 }
@@ -676,7 +435,8 @@ asm J3DTexNoAnm::~J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::J3DTexNoAnm() {
+// asm J3DTexNoAnm::J3DTexNoAnm() {
+extern "C" asm void __ct__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__11J3DTexNoAnmFv.s"
 }
@@ -686,7 +446,8 @@ asm J3DTexNoAnm::J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+extern "C" asm void __dt__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__12J3DTexMtxAnmFv.s"
 }
@@ -696,7 +457,8 @@ asm J3DTexMtxAnm::~J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::J3DTexMtxAnm() {
+extern "C" asm void __ct__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__12J3DTexMtxAnmFv.s"
 }
@@ -706,7 +468,8 @@ asm J3DTexMtxAnm::J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::~J3DMatColorAnm() {
+// asm J3DMatColorAnm::~J3DMatColorAnm() {
+extern "C" asm void __dt__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__14J3DMatColorAnmFv.s"
 }
@@ -716,7 +479,8 @@ asm J3DMatColorAnm::~J3DMatColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::J3DMatColorAnm() {
+// asm J3DMatColorAnm::J3DMatColorAnm() {
+extern "C" asm void __ct__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__14J3DMatColorAnmFv.s"
 }
@@ -774,7 +538,8 @@ asm void daHoZelda_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm daPy_frameCtrl_c::~daPy_frameCtrl_c() {
+// asm daPy_frameCtrl_c::~daPy_frameCtrl_c() {
+extern "C" asm void __dt__16daPy_frameCtrl_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__16daPy_frameCtrl_cFv.s"
 }
@@ -784,7 +549,8 @@ asm daPy_frameCtrl_c::~daPy_frameCtrl_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm daPy_frameCtrl_c::daPy_frameCtrl_c() {
+// asm daPy_frameCtrl_c::daPy_frameCtrl_c() {
+extern "C" asm void __ct__16daPy_frameCtrl_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__16daPy_frameCtrl_cFv.s"
 }
@@ -794,7 +560,8 @@ asm daPy_frameCtrl_c::daPy_frameCtrl_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoExt_AnmRatioPack::~mDoExt_AnmRatioPack() {
+// asm mDoExt_AnmRatioPack::~mDoExt_AnmRatioPack() {
+extern "C" asm void __dt__19mDoExt_AnmRatioPackFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__19mDoExt_AnmRatioPackFv.s"
 }
@@ -804,7 +571,8 @@ asm mDoExt_AnmRatioPack::~mDoExt_AnmRatioPack() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoExt_AnmRatioPack::mDoExt_AnmRatioPack() {
+// asm mDoExt_AnmRatioPack::mDoExt_AnmRatioPack() {
+extern "C" asm void __ct__19mDoExt_AnmRatioPackFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__ct__19mDoExt_AnmRatioPackFv.s"
 }
@@ -814,7 +582,8 @@ asm mDoExt_AnmRatioPack::mDoExt_AnmRatioPack() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DFrameCtrl::~J3DFrameCtrl() {
+// asm J3DFrameCtrl::~J3DFrameCtrl() {
+extern "C" asm void __dt__12J3DFrameCtrlFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/__dt__12J3DFrameCtrlFv.s"
 }
@@ -1269,7 +1038,8 @@ static asm void daHoZelda_Draw(daHoZelda_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DTexNoAnm::calc(u16* param_0) const {
+// asm void J3DTexNoAnm::calc(u16* param_0) const {
+extern "C" asm void calc__11J3DTexNoAnmCFPUs() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/calc__11J3DTexNoAnmCFPUs.s"
 }
@@ -1277,28 +1047,33 @@ asm void J3DTexNoAnm::calc(u16* param_0) const {
 
 /* 80848CB8-80848CBC 002E98 0004+00 3/0 0/0 0/0 .text
  * setAnmTransform__10J3DMtxCalcFUcP15J3DAnmTransform           */
-void J3DMtxCalc::setAnmTransform(u8 param_0, J3DAnmTransform* param_1) {
+// void J3DMtxCalc::setAnmTransform(u8 param_0, J3DAnmTransform* param_1) {
+extern "C" asm void setAnmTransform__10J3DMtxCalcFUcP15J3DAnmTransform() {
     /* empty function */
 }
 
 /* 80848CBC-80848CC0 002E9C 0004+00 3/0 0/0 0/0 .text
  * setAnmTransform__10J3DMtxCalcFP15J3DAnmTransform             */
-void J3DMtxCalc::setAnmTransform(J3DAnmTransform* param_0) {
+// void J3DMtxCalc::setAnmTransform(J3DAnmTransform* param_0) {
+extern "C" asm void setAnmTransform__10J3DMtxCalcFP15J3DAnmTransform() {
     /* empty function */
 }
 
 /* 80848CC0-80848CC8 002EA0 0008+00 3/0 0/0 0/0 .text            getAnmTransform__10J3DMtxCalcFUc */
-bool J3DMtxCalc::getAnmTransform(u8 param_0) {
+// bool J3DMtxCalc::getAnmTransform(u8 param_0) {
+bool getAnmTransform__10J3DMtxCalcFUc() {
     return false;
 }
 
 /* 80848CC8-80848CD0 002EA8 0008+00 3/0 0/0 0/0 .text            getAnmTransform__10J3DMtxCalcFv */
-bool J3DMtxCalc::getAnmTransform() {
+// bool J3DMtxCalc::getAnmTransform() {
+bool getAnmTransform__10J3DMtxCalcFv() {
     return false;
 }
 
 /* 80848CD0-80848CD4 002EB0 0004+00 3/0 0/0 0/0 .text            setWeight__10J3DMtxCalcFUcf */
-void J3DMtxCalc::setWeight(u8 param_0, f32 param_1) {
+// void J3DMtxCalc::setWeight(u8 param_0, f32 param_1) {
+extern "C" asm void setWeight__10J3DMtxCalcFUcf() {
     /* empty function */
 }
 
@@ -1306,7 +1081,8 @@ void J3DMtxCalc::setWeight(u8 param_0, f32 param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DMtxCalc::getWeight(u8 param_0) const {
+// asm void J3DMtxCalc::getWeight(u8 param_0) const {
+extern "C" asm void getWeight__10J3DMtxCalcCFUc() {
     nofralloc
 #include "asm/rel/d/a/d_a_hozelda/d_a_hozelda/getWeight__10J3DMtxCalcCFUc.s"
 }

@@ -4,6 +4,12 @@
 #include "f_op/f_op_actor.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct THPVideoInfo {};
+
+struct THPAudioInfo {};
+
+struct daMP_THPReadBuffer {};
+
 class daMP_Dlst_base_c : public fopAc_ac_c {
     /* 80878DB8 */ void draw();
     /* 80878FD8 */ daMP_Dlst_base_c();

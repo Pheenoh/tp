@@ -10,63 +10,8 @@
 // Types:
 //
 
-struct mDoHIO_entry_c {
-    /* 80657794 */ ~mDoHIO_entry_c();
-};
-
-struct JUtility {
-    struct TColor {};
-};
-
-struct dMsgScrnLight_c {
-    /* 80245934 */ dMsgScrnLight_c(u8, u8);
-    /* 80245F90 */ void draw(f32*, f32, f32, f32, f32, f32, f32, JUtility::TColor,
-                             JUtility::TColor);
-};
-
-struct dMsgObject_c {
-    /* 8023822C */ void getStatus();
-};
-
 struct dDlst_base_c {
     /* 80657734 */ void draw();
-};
-
-struct dDlst_list_c {
-    /* 80056794 */ void set(dDlst_base_c**&, dDlst_base_c**&, dDlst_base_c*);
-};
-
-struct JKRExpHeap {};
-
-struct JKRArchive {};
-
-struct J2DGrafContext {};
-
-struct J2DScreen {
-    /* 802F8498 */ J2DScreen();
-    /* 802F8648 */ void setPriority(char const*, u32, JKRArchive*);
-    /* 802F8ED4 */ void draw(f32, f32, J2DGrafContext const*);
-    /* 802F9690 */ void animation();
-};
-
-struct J2DPane {
-    /* 802F7100 */ void getBounds();
-};
-
-struct J2DAnmLoaderDataBase {
-    /* 80308A6C */ void load(void const*);
-};
-
-struct CPaneMgrAlpha {
-    /* 802555C8 */ void show();
-    /* 80255608 */ void hide();
-    /* 802557D0 */ void setAlphaRate(f32);
-};
-
-struct CPaneMgr {
-    /* 80253984 */ CPaneMgr(J2DScreen*, u64, u8, JKRExpHeap*);
-    /* 802545B0 */ void paneTrans(f32, f32);
-    /* 80254EBC */ void getGlobalVtxCenter(J2DPane*, bool, s16);
 };
 
 //

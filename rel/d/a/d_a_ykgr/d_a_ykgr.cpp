@@ -4,39 +4,8 @@
 //
 
 #include "rel/d/a/d_a_ykgr/d_a_ykgr.h"
+#include "JSystem/JParticle/JPAParticle.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 805A8DF4 */ ~mDoHIO_entry_c();
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct JPABaseParticle {};
-
-struct JPABaseEmitter {};
-
-struct dPa_YkgrPcallBack {
-    /* 805A848C */ void draw(JPABaseEmitter*, JPABaseParticle*);
-    /* 805A84D4 */ void setParam(f32);
-    /* 805A8E3C */ ~dPa_YkgrPcallBack();
-};
-
-struct JPAParticleCallBack {
-    /* 8027EFA4 */ ~JPAParticleCallBack();
-    /* 805A8E9C */ void execute(JPABaseEmitter*, JPABaseParticle*);
-    /* 805A8FA4 */ void draw(JPABaseEmitter*, JPABaseParticle*);
-};
 
 //
 // Forward References:

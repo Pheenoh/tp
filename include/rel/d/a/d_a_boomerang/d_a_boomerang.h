@@ -8,6 +8,15 @@
 #include "d/particle/d_particle_copoly.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct daBoomerang_HIO_c0 {
+    static u16 const m_lockWaitTime;
+    static f32 const m_minCircleR;
+    static f32 const m_middleCircleR;
+    static f32 const m_maxCircleR;
+    static f32 const m_scale;
+    static f32 const m_lockWindScale;
+};
+
 class daBoomerang_sight_c {
 public:
     /* 8049E0B8 */ int createHeap();

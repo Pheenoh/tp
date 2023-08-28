@@ -8,101 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct cBgS_PolyInfo {
-    /* 80268074 */ cBgS_PolyInfo();
-    /* 802680B0 */ ~cBgS_PolyInfo();
-    /* 80268148 */ void SetPolyInfo(cBgS_PolyInfo const&);
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-
-    static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
-
-struct dDlst_shadowControl_c {
-    /* 80055F84 */ void setSimple(cXyz*, f32, f32, cXyz*, s16, f32, _GXTexObj*);
-
-    static u8 mSimpleTexObj[32];
-};
-
-struct dCcMassS_Mng {
-    /* 80085D98 */ void Set(cCcD_Obj*, u8);
-};
-
-struct dBomb_c {
-    /* 80031F94 */ void checkStateCarry();
-    /* 804CC31C */ bool checkExplodeNow();
-    /* 804CC324 */ void deleteBombAndEffect();
-    /* 804CC328 */ void setCargoBombExplode();
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078EBC */ void SetBomb();
-};
-
-struct dBgS_LinChk {
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_BombLinChk {
-    /* 80078104 */ dBgS_BombLinChk();
-    /* 80078160 */ ~dBgS_BombLinChk();
-};
-
-struct dBgS_BombAcch {
-    /* 804C7E24 */ ~dBgS_BombAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 804C7DB4 */ ~dBgS_AcchCir();
-};
-
-struct dBgS {
-    /* 80074ABC */ void ChkMoveBG(cBgS_PolyInfo const&);
-    /* 80074BE8 */ void GetPolyColor(cBgS_PolyInfo const&);
-    /* 80074E50 */ void GetPolyAtt0(cBgS_PolyInfo const&);
-    /* 80074EF0 */ void GetGroundCode(cBgS_PolyInfo const&);
-    /* 80075100 */ void GetRoomId(cBgS_PolyInfo const&);
-    /* 80075880 */ void MoveBgTransPos(cBgS_PolyInfo const&, bool, cXyz*, csXyz*, csXyz*);
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076288 */ void Set(fopAc_ac_c*, int, dBgS_AcchCir*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 80074660 */ void ChkPolySafe(cBgS_PolyInfo const&);
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-//
 // Forward References:
 //
 
@@ -909,7 +814,8 @@ extern "C" asm void __dt__12dBgS_AcchCirFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_BombAcch::~dBgS_BombAcch() {
+// asm dBgS_BombAcch::~dBgS_BombAcch() {
+extern "C" asm void __dt__13dBgS_BombAcchFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_nbomb/d_a_nbomb/__dt__13dBgS_BombAcchFv.s"
 }
@@ -1747,17 +1653,20 @@ asm void daNbomb_c::setCargoBombExplode() {
 #pragma pop
 
 /* 804CC31C-804CC324 00563C 0008+00 1/0 0/0 0/0 .text            checkExplodeNow__7dBomb_cFv */
-bool dBomb_c::checkExplodeNow() {
+// bool dBomb_c::checkExplodeNow() {
+bool checkExplodeNow__7dBomb_cFv() {
     return false;
 }
 
 /* 804CC324-804CC328 005644 0004+00 1/0 0/0 0/0 .text            deleteBombAndEffect__7dBomb_cFv */
-void dBomb_c::deleteBombAndEffect() {
+// void dBomb_c::deleteBombAndEffect() {
+extern "C" asm void deleteBombAndEffect__7dBomb_cFv() {
     /* empty function */
 }
 
 /* 804CC328-804CC32C 005648 0004+00 1/0 0/0 0/0 .text            setCargoBombExplode__7dBomb_cFv */
-void dBomb_c::setCargoBombExplode() {
+// void dBomb_c::setCargoBombExplode() {
+extern "C" asm void setCargoBombExplode__7dBomb_cFv() {
     /* empty function */
 }
 

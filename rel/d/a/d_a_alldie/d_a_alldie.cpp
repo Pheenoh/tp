@@ -1,6 +1,6 @@
 /**
- * d_a_alldie.cpp
- * Activates a switch when all enemies are defeated 
+ * @file d_a_alldie.cpp
+ * @brief Activates a switch when all enemies are defeated 
 */
 
 #include "rel/d/a/d_a_alldie/d_a_alldie.h"

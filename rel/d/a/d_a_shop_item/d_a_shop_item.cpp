@@ -7,37 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoLib_clipper {
-    static f32 mSystemFar;
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 8059F324 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-};
-
-struct cBgS_PolyInfo {};
-
-//
 // Forward References:
 //
 

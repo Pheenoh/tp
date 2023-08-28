@@ -1,6 +1,6 @@
 /**
- * d_a_crod.cpp
- * Dominion Rod Object
+ * @file d_a_crod.cpp
+ * @brief Dominion Rod Object
  */
 
 #include "rel/d/a/d_a_crod/d_a_crod.h"

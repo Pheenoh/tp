@@ -3,293 +3,9 @@
 // Translation Unit: d_a_mg_rod
 //
 
-// #include "rel/d/a/d_a_mg_rod/d_a_mg_rod.h"
+#include "rel/d/a/d_a_mg_rod/d_a_mg_rod.h"
 #include "dol2asm.h"
-#include "d/cc/d_cc_d.h"
 #include "dolphin/types.h"
-
-//
-// Types:
-//
-
-struct wd_ss {};
-
-struct request_of_phase_process_class {};
-
-struct mg_hook_s {
-    /* 804BAF78 */ ~mg_hook_s();
-    /* 804BAFD8 */ mg_hook_s();
-};
-
-struct mg_fish_class {};
-
-struct mDoMtx_stack_c {
-    /* 8000CCC8 */ void push();
-    /* 8000CD14 */ void pop();
-    /* 8000CD9C */ void transM(f32, f32, f32);
-    /* 8000CE38 */ void scaleM(f32, f32, f32);
-
-    static u8 now[48];
-};
-
-struct mDoExt_McaMorfCallBack2_c {};
-
-struct mDoExt_McaMorfCallBack1_c {};
-
-struct J3DModelData {};
-
-struct J3DAnmTransform {};
-
-struct mDoExt_McaMorf {
-    /* 8000FC4C */ mDoExt_McaMorf(J3DModelData*, mDoExt_McaMorfCallBack1_c*,
-                                  mDoExt_McaMorfCallBack2_c*, J3DAnmTransform*, int, f32, int, int,
-                                  int, void*, u32, u32);
-    /* 80010680 */ void entryDL();
-    /* 800106AC */ void modelCalc();
-};
-
-struct mDoExt_3DlineMat_c {};
-
-struct mDoExt_3DlineMatSortPacket {
-    /* 80014738 */ void setMat(mDoExt_3DlineMat_c*);
-};
-
-struct dKy_tevstr_c {};
-
-struct _GXColor {};
-
-struct mDoExt_3DlineMat0_c {
-    /* 800125E0 */ void init(u16, u16, int);
-    /* 80012E3C */ void update(int, _GXColor&, dKy_tevstr_c*);
-};
-
-struct mDoCPd_c {
-    /* 804BB4C0 */ void getTrigZ(u32);
-    /* 804BB4DC */ void getTrigA(u32);
-
-    static u8 m_cpadInfo[256];
-};
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct dmg_rod_class {
-    /* 804BAC0C */ dmg_rod_class();
-};
-
-struct dmg_rod_HIO_c {
-    /* 804A95EC */ dmg_rod_HIO_c();
-    /* 804BB070 */ ~dmg_rod_HIO_c();
-};
-
-struct daPy_py_c {
-    /* 8015EA20 */ void checkFishingRodItem(int);
-    /* 804BB294 */ void cancelOriginalDemo();
-    /* 804BB2F0 */ void changeDemoMode(u32, int, int, s16);
-    /* 804BB304 */ void changeOriginalDemo();
-};
-
-struct daObjLife_c {
-    /* 804CDD7C */ void actionInitWait2();
-};
-
-struct daAlink_c {
-    /* 800B9340 */ void checkEquipAnime() const;
-    /* 800F3E4C */ void checkFishingRodGrab(fopAc_ac_c*) const;
-    /* 800F3F38 */ void checkCanoeFishingRodGrabOrPut() const;
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_player_item_record_c {
-    /* 80033F7C */ void getBombNum(u8) const;
-};
-
-struct dSv_player_item_max_c {
-    /* 800340F8 */ void getBombNum(u8) const;
-};
-
-struct dSv_player_item_c {
-    /* 80033030 */ void getItem(int, bool) const;
-    /* 80033494 */ void setEmptyBottle();
-    /* 80033A50 */ void setEmptyBombBagItemIn(u8, u8, bool);
-};
-
-struct dSv_info_c {
-    /* 800354E0 */ void onItem(int, int);
-};
-
-struct dSv_fishing_info_c {
-    /* 800344FC */ void addFishCount(u8);
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-    /* 800349A4 */ void offEventBit(u16);
-    /* 800349BC */ void isEventBit(u16) const;
-    /* 800349E0 */ void setEventReg(u16, u8);
-    /* 80034A04 */ void getEventReg(u16) const;
-};
-
-struct dScnKy_env_light_c {
-    /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-    /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-};
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
-struct dPa_levelEcallBack {};
-
-struct csXyz {
-    /* 804BB020 */ csXyz();
-    /* 802673F4 */ csXyz(s16, s16, s16);
-    /* 804BB178 */ ~csXyz();
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dMsgObject_c {
-    /* 80238440 */ void getSelectCursorPos();
-};
-
-struct dMsgFlow_c {
-    /* 80249F00 */ dMsgFlow_c();
-    /* 80249F90 */ void init(fopAc_ac_c*, int, int, fopAc_ac_c**);
-    /* 8024A2D8 */ void doFlow(fopAc_ac_c*, fopAc_ac_c**, int);
-    /* 8024A4C4 */ void remove();
-};
-
-struct dMeter2Info_c {
-    /* 8021C970 */ void setMeterString(s32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dComIfG_play_c {
-    /* 8002B36C */ void setItemBombNumCount(u8, s16);
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180BA0 */ void Reset(cXyz, cXyz, f32, s16);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-    /* 80078EE0 */ void SetRope();
-};
-
-struct dBgS_ObjGndChk_Spl {
-    /* 800777B0 */ dBgS_ObjGndChk_Spl();
-    /* 80077848 */ ~dBgS_ObjGndChk_Spl();
-};
-
-struct dBgS_ObjAcch {
-    /* 804BAE98 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 804BAF08 */ ~dBgS_AcchCir();
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct dAttLook_c {
-    /* 80073D08 */ void request(fopAc_ac_c*, f32, f32, f32, s16, int);
-};
-
-struct camera_class {};
-
-struct cM3dGCir {
-    /* 8026EF18 */ ~cM3dGCir();
-};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-    /* 80267D0C */ void SetPos(Vec const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct Z2SeqMgr {
-    /* 802AF49C */ void subBgmStart(u32);
-    /* 802AFF8C */ void changeBgmStatus(s32);
-    /* 802B2A88 */ void changeFishingBgm(s32);
-};
-
-struct Z2Creature {
-    /* 802C03C8 */ Z2Creature();
-    /* 802C0530 */ void init(Vec*, Vec*, u8, u8);
-};
-
-struct JMath {
-    static u8 sincosTable_[65536];
-};
-
-struct J3DSys {
-    static u8 mCurrentMtx[48];
-};
-
-struct J3DModel {};
-
-struct J3DJoint {};
 
 //
 // Forward References:
@@ -538,9 +254,6 @@ extern "C" void __ct__10Z2CreatureFv();
 extern "C" void init__10Z2CreatureFP3VecP3VecUcUc();
 extern "C" void* __nw__FUl();
 extern "C" void __dl__FPv();
-extern "C" void PSMTXCopy();
-extern "C" void PSMTXTrans();
-extern "C" void PSMTXMultVec();
 extern "C" void __destroy_arr();
 extern "C" void __construct_array();
 extern "C" void __cvt_fp2unsigned();
@@ -566,8 +279,6 @@ extern "C" void _restgpr_28();
 extern "C" void _restgpr_29();
 extern "C" void strcmp();
 extern "C" extern void* __vt__19mDoExt_3DlineMat0_c[5];
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" u8 saveBitLabels__16dSv_event_flag_c[1644 + 4 /* padding */];
 extern "C" extern void* __vt__8dCcD_Sph[36];
 extern "C" extern void* __vt__9dCcD_Stts[11];
@@ -577,10 +288,8 @@ extern "C" extern void* __vt__9cCcD_Stts[8];
 extern "C" u8 m_cpadInfo__8mDoCPd_c[256];
 extern "C" u8 now__14mDoMtx_stack_c[48];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
-extern "C" extern u8 g_env_light[4880];
 extern "C" extern u8 g_meter2_info[248];
 extern "C" extern u8 g_Counter[12 + 4 /* padding */];
-extern "C" extern u8 j3dSys[284];
 extern "C" u8 mCurrentMtx__6J3DSys[48];
 extern "C" u8 sincosTable___5JMath[65536];
 extern "C" extern void* calc_mtx[1 + 1 /* padding */];
@@ -3213,7 +2922,8 @@ extern "C" asm void __dt__12dBgS_AcchCirFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mg_hook_s::~mg_hook_s() {
+// asm mg_hook_s::~mg_hook_s() {
+extern "C" asm void __dt__9mg_hook_sFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/__dt__9mg_hook_sFv.s"
 }
@@ -3223,14 +2933,16 @@ asm mg_hook_s::~mg_hook_s() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mg_hook_s::mg_hook_s() {
+// asm mg_hook_s::mg_hook_s() {
+extern "C" asm void __ct__9mg_hook_sFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/__ct__9mg_hook_sFv.s"
 }
 #pragma pop
 
 /* 804BB020-804BB024 011B20 0004+00 1/1 0/0 0/0 .text            __ct__5csXyzFv */
-csXyz::csXyz() {
+// csXyz::csXyz() {
+extern "C" asm void __ct__5csXyzFv() {
     /* empty function */
 }
 
@@ -3310,7 +3022,8 @@ static asm void func_804BB170() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm csXyz::~csXyz() {
+// asm csXyz::~csXyz() {
+extern "C" asm void __dt__5csXyzFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/__dt__5csXyzFv.s"
 }
@@ -3393,7 +3106,8 @@ static asm void dComIfGp_getPlayerCameraID(int param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void dComIfGp_getPlayer(int param_0) {
+// static asm void dComIfGp_getPlayer(int param_0) {
+extern "C" asm void dComIfGp_getPlayer__Fi() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/dComIfGp_getPlayer__Fi.s"
 }
@@ -3403,7 +3117,8 @@ static asm void dComIfGp_getPlayer(int param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::cancelOriginalDemo() {
+// asm void daPy_py_c::cancelOriginalDemo() {
+extern "C" asm void cancelOriginalDemo__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/cancelOriginalDemo__9daPy_py_cFv.s"
 }
@@ -3444,7 +3159,8 @@ static asm void JMAFastSqrt(f32 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::changeDemoMode(u32 param_0, int param_1, int param_2, s16 param_3) {
+// asm void daPy_py_c::changeDemoMode(u32 param_0, int param_1, int param_2, s16 param_3) {
+extern "C" asm void changeDemoMode__9daPy_py_cFUliis() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/changeDemoMode__9daPy_py_cFUliis.s"
 }
@@ -3454,7 +3170,8 @@ asm void daPy_py_c::changeDemoMode(u32 param_0, int param_1, int param_2, s16 pa
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void daPy_py_c::changeOriginalDemo() {
+// asm void daPy_py_c::changeOriginalDemo() {
+extern "C" asm void changeOriginalDemo__9daPy_py_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/changeOriginalDemo__9daPy_py_cFv.s"
 }
@@ -3464,7 +3181,8 @@ asm void daPy_py_c::changeOriginalDemo() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-static asm void mDoAud_seStart(u32 param_0, Vec const* param_1, u32 param_2, s8 param_3) {
+// static asm void mDoAud_seStart(u32 param_0, Vec const* param_1, u32 param_2, s8 param_3) {
+extern "C" asm void mDoAud_seStart__FUlPC3VecUlSc() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/mDoAud_seStart__FUlPC3VecUlSc.s"
 }
@@ -3506,7 +3224,8 @@ extern "C" asm void __as__4cXyzFRC4cXyz() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoCPd_c::getTrigZ(u32 param_0) {
+// asm void mDoCPd_c::getTrigZ(u32 param_0) {
+extern "C" asm void getTrigZ__8mDoCPd_cFUl() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/getTrigZ__8mDoCPd_cFUl.s"
 }
@@ -3516,7 +3235,8 @@ asm void mDoCPd_c::getTrigZ(u32 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoCPd_c::getTrigA(u32 param_0) {
+// asm void mDoCPd_c::getTrigA(u32 param_0) {
+extern "C" asm void getTrigA__8mDoCPd_cFUl() {
     nofralloc
 #include "asm/rel/d/a/d_a_mg_rod/d_a_mg_rod/getTrigA__8mDoCPd_cFUl.s"
 }

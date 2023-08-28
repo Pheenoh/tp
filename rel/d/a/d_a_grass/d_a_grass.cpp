@@ -7,135 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoLib_clipper {
-    static u8 mClipper[92];
-    static f32 mSystemFar;
-};
-
-struct dStage_roomControl_c {
-    /* 80024384 */ void getStatusRoomDt(int);
-
-    static u8 mStatus[65792];
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-
-    static u8 mLight8EcallBack[4];
-};
-
-struct dCcMassS_HitInf {
-    /* 8051ED98 */ ~dCcMassS_HitInf();
-};
-
-struct cCcD_Obj {};
-
-struct dGrass_data_c {
-    /* 8051D88C */ void WorkCo(fopAc_ac_c*, u32, int);
-    /* 8051DA20 */ void WorkAt_NoCutAnim(fopAc_ac_c*, u32, int, dCcMassS_HitInf*, cCcD_Obj*);
-    /* 8051DF54 */ void Direction_Set(fopAc_ac_c*, u32, int, dCcMassS_HitInf*, cCcD_Obj*, csXyz*);
-    /* 8051E1C8 */ void WorkAt(fopAc_ac_c*, u32, int, dCcMassS_HitInf*, u16);
-    /* 8051EB88 */ void hitCheck(int, u16);
-    /* 80520940 */ ~dGrass_data_c();
-    /* 8052097C */ dGrass_data_c();
-};
-
-struct dGrass_room_c {
-    /* 8051EDE0 */ void newData(dGrass_data_c*);
-    /* 8051EDF0 */ void deleteData();
-    /* 80520928 */ dGrass_room_c();
-};
-
-struct dGrass_packet_c {
-    /* 8051BFBC */ ~dGrass_packet_c();
-    /* 8051EE8C */ dGrass_packet_c();
-    /* 8051F03C */ void draw();
-    /* 8051FABC */ void calc();
-    /* 80520030 */ void update();
-    /* 8052067C */ void setData(dGrass_data_c*, int, cXyz&, int, u8, u8, s16, u8);
-    /* 80520770 */ void newData(cXyz&, int, u8, u8, s16, u8);
-    /* 80520864 */ void deleteRoom(int);
-    /* 80520898 */ void newAnm();
-    /* 805208E4 */ void setAnm(int, s16);
-
-    static u8 m_deleteRoom[12];
-};
-
-struct dGrass_anm_c {
-    /* 80520934 */ dGrass_anm_c();
-};
-
-struct dFlower_data_c {
-    /* 80520988 */ void WorkCo(fopAc_ac_c*, u32, int);
-    /* 80520AD8 */ void deleteAnm();
-    /* 80520B34 */ void WorkAt_NoCutAnim(fopAc_ac_c*, u32, int, dCcMassS_HitInf*, cCcD_Obj*);
-    /* 80520CFC */ void WorkAt(fopAc_ac_c*, u32, int, dCcMassS_HitInf*);
-    /* 80521A3C */ void hitCheck(fopAc_ac_c*, int);
-    /* 80522FCC */ ~dFlower_data_c();
-    /* 80523008 */ dFlower_data_c();
-};
-
-struct dFlower_room_c {
-    /* 80521BF8 */ void newData(dFlower_data_c*);
-    /* 80521C08 */ void deleteData();
-    /* 80522FB4 */ dFlower_room_c();
-};
-
-struct dFlower_packet_c {
-    /* 8051C194 */ ~dFlower_packet_c();
-    /* 80521C64 */ dFlower_packet_c();
-    /* 80521DAC */ void draw();
-    /* 80522774 */ void calc();
-    /* 80522A64 */ void update();
-    /* 80522CBC */ void setData(dFlower_data_c*, int, s8, cXyz&, int, s8, s16);
-    /* 80522E28 */ void newData(s8, cXyz&, int, s8, s16);
-    /* 80522F0C */ void deleteRoom(int);
-    /* 80522F40 */ void newAnm();
-    /* 80522F8C */ void setAnm(int, s16);
-
-    static u8 m_deleteRoom[12];
-};
-
-struct dFlower_anm_c {
-    /* 80522FC0 */ dFlower_anm_c();
-};
-
-struct dCcS {
-    /* 8008730C */ void MassClear();
-};
-
-struct dCcMassS_Mng {
-    /* 80085630 */ void SetAttr(f32, f32, u8, u8);
-    /* 80085690 */ void Prepare();
-    /* 800858AC */ void Chk(cXyz*, fopAc_ac_c**, dCcMassS_HitInf*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct J3DUClipper {
-    /* 8027378C */ void calcViewFrustum();
-    /* 802738FC */ void clip(f32 const (*)[4], Vec, f32) const;
-};
-
-//
 // Forward References:
 //
 
@@ -7062,7 +6933,8 @@ asm void dGrass_data_c::hitCheck(int param_0, u16 param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dCcMassS_HitInf::~dCcMassS_HitInf() {
+// asm dCcMassS_HitInf::~dCcMassS_HitInf() {
+extern "C" asm void __dt__15dCcMassS_HitInfFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_grass/d_a_grass/__dt__15dCcMassS_HitInfFv.s"
 }

@@ -4,6 +4,12 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class FmtMember_c {
+    /* 80837458 */ ~FmtMember_c();
+    /* 80837798 */ FmtMember_c();
+};
+
+
 struct FmtPos_c {
     /* 80836C24 */ ~FmtPos_c();
     /* 80836C60 */ FmtPos_c();

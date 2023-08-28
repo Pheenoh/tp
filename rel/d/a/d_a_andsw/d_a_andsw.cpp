@@ -1,6 +1,6 @@
 /**
- * d_a_andsw.cpp
- * AND - Switch
+ * @file d_a_andsw.cpp
+ * @brief AND - Switch
  */
 
 #include "rel/d/a/d_a_andsw/d_a_andsw.h"

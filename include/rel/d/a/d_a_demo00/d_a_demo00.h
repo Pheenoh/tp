@@ -5,6 +5,11 @@
 #include "f_op/f_op_actor_mng.h"
 #include "d/d_demo.h"
 
+struct demo_s1_ke_s {
+    /* 804A4420 */ ~demo_s1_ke_s();
+    /* 804A86B4 */ demo_s1_ke_s();
+};
+
 class daMP_c : public fopAc_ac_c {
     /* 80031AD0 */ void daMP_c_THPPlayerPlay();
     /* 80031B24 */ void daMP_c_THPPlayerPause();

@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct mant_j_s {
+    /* 80862AC0 */ ~mant_j_s();
+    /* 80862B3C */ mant_j_s();
+};
+
 class mant_class : public fopAc_ac_c {};
 
 class daMant_packet_c : public fopAc_ac_c {

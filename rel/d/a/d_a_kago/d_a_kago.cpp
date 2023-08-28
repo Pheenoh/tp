@@ -8,20 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoCPd_c {
-    static u8 m_cpadInfo[256];
-};
-
-struct dPath {};
-
-struct dMsgObject_c {
-    /* 80238440 */ void getSelectCursorPos();
-};
-
-//
 // Forward References:
 //
 

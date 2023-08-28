@@ -7,53 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-    /* 800349E0 */ void setEventReg(u16, u8);
-    /* 80034A04 */ void getEventReg(u16) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_followEcallBack {
-    /* 80049580 */ dPa_followEcallBack(u8, u8);
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dItem_data {
-    static void* item_resource[1530];
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 804E164C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-};
-
-//
 // Forward References:
 //
 

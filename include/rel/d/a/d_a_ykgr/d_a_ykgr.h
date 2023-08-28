@@ -3,6 +3,13 @@
 
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
+#include "JSystem/JParticle/JPAEmitter.h"
+
+struct dPa_YkgrPcallBack {
+    /* 805A848C */ void draw(JPABaseEmitter*, JPABaseParticle*);
+    /* 805A84D4 */ void setParam(f32);
+    /* 805A8E3C */ ~dPa_YkgrPcallBack();
+};
 
 class daYkgr_c : public fopAc_ac_c {
     /* 805A85D4 */ void getPosRate();

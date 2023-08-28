@@ -2,7 +2,19 @@
 #define D_A_MG_ROD_H
 
 #include "d/msg/d_msg_flow.h"
-#include "f_op/f_op_actor.h"
+#include "f_op/f_op_actor_mng.h"
+#include "Z2AudioLib/Z2Creature.h"
+#include "d/cc/d_cc_d.h"
+#include "d/bg/d_bg_s_acch.h"
+
+struct wd_ss {};
+
+struct mg_fish_class {};
+
+class dmg_rod_HIO_c {
+    /* 804A95EC */ dmg_rod_HIO_c();
+    /* 804BB070 */ ~dmg_rod_HIO_c();
+};
 
 struct mg_rod_s {
     /* 0x0 */ cXyz field_0x0[16];

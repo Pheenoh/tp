@@ -9,10 +9,6 @@
 #include "d/meter/d_meter2_info.h"
 
 //
-// Types:
-//
-
-//
 // Forward References:
 //
 

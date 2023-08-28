@@ -15,19 +15,6 @@
 #include "rel/d/a/d_a_mirror/d_a_mirror.h"
 
 //
-// Types:
-//
-
-struct daBoomerang_HIO_c0 {
-    static u16 const m_lockWaitTime;
-    static f32 const m_minCircleR;
-    static f32 const m_middleCircleR;
-    static f32 const m_maxCircleR;
-    static f32 const m_scale;
-    static f32 const m_lockWindScale;
-};
-
-//
 // Forward References:
 //
 

@@ -1,6 +1,6 @@
 /**
- * d_a_disappear.cpp
- * Disappear death effect when an enemy is defeated
+ * @file d_a_disappear.cpp
+ * @brief Disappear death effect when an enemy is defeated
  */
 
 #include "rel/d/a/d_a_disappear/d_a_disappear.h"

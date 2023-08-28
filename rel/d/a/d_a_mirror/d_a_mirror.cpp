@@ -13,10 +13,6 @@
 #include "JSystem/J3DGraphBase/J3DMaterial.h"
 
 //
-// Types:
-//
-
-//
 // Forward References:
 //
 

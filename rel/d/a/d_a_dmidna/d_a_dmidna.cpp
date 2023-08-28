@@ -1,6 +1,6 @@
 /**
- * d_a_dmidna.cpp
- * Dying Midna Actor
+ * @file d_a_dmidna.cpp
+ * @brief Dying Midna Actor
  */
 
 #include "rel/d/a/d_a_dmidna/d_a_dmidna.h"

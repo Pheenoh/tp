@@ -8,20 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 800352B0 */ void offSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-//
 // Forward References:
 //
 

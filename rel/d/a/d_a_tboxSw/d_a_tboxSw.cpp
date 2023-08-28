@@ -1,6 +1,6 @@
 /**
- * d_a_tboxSw.cpp
- * Turns on a switch when a treasure chest is opened
+ * @file d_a_tboxSw.cpp
+ * @brief Turns on a switch when a treasure chest is opened
  */
 
 #include "rel/d/a/d_a_tboxSw/d_a_tboxSw.h"

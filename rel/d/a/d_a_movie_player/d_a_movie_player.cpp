@@ -5,59 +5,10 @@
 
 #include "rel/d/a/d_a_movie_player/d_a_movie_player.h"
 #include "dol2asm.h"
+#include "d/d_drawlist.h"
 #include "dolphin/os/OS.h"
 #include "dolphin/types.h"
-
-//
-// Types:
-//
-
-struct mDoGph_gInf_c {
-    /* 800080D0 */ void fadeOut(f32);
-    /* 80878534 */ void fadeIn(f32);
-    /* 80878558 */ void isFade();
-    /* 80878D10 */ void setFrameRate(u16);
-};
-
-struct daMP_THPReadBuffer {};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dDlst_base_c {
-    /* 80879014 */ dDlst_base_c();
-    /* 80879024 */ void draw();
-};
-
-struct dDlst_list_c {
-    /* 80056794 */ void set(dDlst_base_c**&, dDlst_base_c**&, dDlst_base_c*);
-    /* 80878E34 */ void set2DOpa(dDlst_base_c*);
-};
-
-struct dComIfG_play_c {
-    /* 80878A64 */ void getEvent();
-};
-
-struct THPVideoInfo {};
-
-struct THPAudioInfo {};
-
-struct JUTVideo {
-    /* 808788BC */ void getRenderMode() const;
-    /* 808788C4 */ void getManager();
-
-    static u8 sManager[4];
-};
-
-struct JFWDisplay {
-    /* 80878D44 */ void setFrameRate(u16);
-    /* 80878D54 */ void getManager();
-
-    static u8 sManager[4];
-};
-
-struct JASMixMode {};
+#include "m_Do/m_Do_graphic.h"
 
 //
 // Forward References:
@@ -220,7 +171,6 @@ extern "C" void free__7JKRHeapFPvP7JKRHeap();
 extern "C" void PPCMfhid2();
 extern "C" void LCEnable();
 extern "C" void LCDisable();
-extern "C" void VISetPostRetraceCallback();
 extern "C" void VIGetNextField();
 extern "C" void VIGetTvFormat();
 extern "C" void AIGetDSPSampleRate();
@@ -247,7 +197,6 @@ extern "C" void sprintf();
 extern "C" void strcmp();
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" extern u8 g_clearColor[4];
-extern "C" extern u8 mBlureFlag__13mDoGph_gInf_c[4];
 extern "C" u8 m_myObj__6daMP_c[4];
 extern "C" u8 sManager__10JFWDisplay[4];
 extern "C" u8 sManager__8JUTVideo[4];
@@ -1741,7 +1690,8 @@ static asm void daMP_THPPlayerDrawCurrentFrame(_GXRenderModeObj const* param_0, 
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoGph_gInf_c::fadeIn(f32 param_0) {
+// asm void mDoGph_gInf_c::fadeIn(f32 param_0) {
+extern "C" asm void fadeIn__13mDoGph_gInf_cFf() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/fadeIn__13mDoGph_gInf_cFf.s"
 }
@@ -1751,7 +1701,8 @@ asm void mDoGph_gInf_c::fadeIn(f32 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoGph_gInf_c::isFade() {
+// asm void mDoGph_gInf_c::isFade() {
+extern "C" asm void isFade__13mDoGph_gInf_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/isFade__13mDoGph_gInf_cFv.s"
 }
@@ -1832,7 +1783,8 @@ static asm void daMP_ActivePlayer_Init(char const* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void JUTVideo::getRenderMode() const {
+// asm void JUTVideo::getRenderMode() const {
+extern "C" asm void getRenderMode__8JUTVideoCFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/getRenderMode__8JUTVideoCFv.s"
 }
@@ -1842,7 +1794,8 @@ asm void JUTVideo::getRenderMode() const {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void JUTVideo::getManager() {
+// asm void JUTVideo::getManager() {
+extern "C" asm void getManager__8JUTVideoFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/getManager__8JUTVideoFv.s"
 }
@@ -1928,7 +1881,8 @@ static asm void dComIfGp_event_reset() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dComIfG_play_c::getEvent() {
+// asm void dComIfG_play_c::getEvent() {
+extern "C" asm void getEvent__14dComIfG_play_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/getEvent__14dComIfG_play_cFv.s"
 }
@@ -2022,7 +1976,8 @@ asm void daMP_c::daMP_c_Init() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoGph_gInf_c::setFrameRate(u16 param_0) {
+// asm void mDoGph_gInf_c::setFrameRate(u16 param_0) {
+extern "C" asm void setFrameRate__13mDoGph_gInf_cFUs() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/setFrameRate__13mDoGph_gInf_cFUs.s"
 }
@@ -2032,7 +1987,8 @@ asm void mDoGph_gInf_c::setFrameRate(u16 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void JFWDisplay::setFrameRate(u16 param_0) {
+// asm void JFWDisplay::setFrameRate(u16 param_0) {
+extern "C" asm void setFrameRate__10JFWDisplayFUs() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/setFrameRate__10JFWDisplayFUs.s"
 }
@@ -2042,7 +1998,8 @@ asm void JFWDisplay::setFrameRate(u16 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void JFWDisplay::getManager() {
+// asm void JFWDisplay::getManager() {
+extern "C" asm void getManager__10JFWDisplayFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/getManager__10JFWDisplayFv.s"
 }
@@ -2107,7 +2064,8 @@ static asm void dComIfGd_set2DOpa(dDlst_base_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dDlst_list_c::set2DOpa(dDlst_base_c* param_0) {
+// asm void dDlst_list_c::set2DOpa(dDlst_base_c* param_0) {
+extern "C" asm void set2DOpa__12dDlst_list_cFP12dDlst_base_c() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/set2DOpa__12dDlst_list_cFP12dDlst_base_c.s"
 }
@@ -2265,14 +2223,16 @@ SECTION_DATA extern void* __vt__12dDlst_base_c[3] = {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dDlst_base_c::dDlst_base_c() {
+// asm dDlst_base_c::dDlst_base_c() {
+extern "C" asm void __ct__12dDlst_base_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_movie_player/d_a_movie_player/__ct__12dDlst_base_cFv.s"
 }
 #pragma pop
 
 /* 80879024-80879028 006944 0004+00 1/0 0/0 0/0 .text            draw__12dDlst_base_cFv */
-void dDlst_base_c::draw() {
+// void dDlst_base_c::draw() {
+extern "C" asm void draw__12dDlst_base_cFv() {
     /* empty function */
 }
 

@@ -7,41 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct J3DMaterial {};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dStage_roomControl_c {
-    static u8 mDemoArcName[10 + 2 /* padding */];
-};
-
-struct dMsgObject_c {
-    /* 802383A4 */ void isMouthCheck();
-};
-
-struct dDemo_object_c {
-    /* 80039088 */ void getActor(u8);
-};
-
-struct dDemo_c {
-    static u8 m_object[4];
-};
-
-struct dDemo_actor_c {
-    /* 8003819C */ void getPrm_Morf();
-    /* 80038338 */ void getDemoIDData(int*, int*, int*, u16*, u8*);
-};
-
-struct JKRArchive {
-    /* 802D5ECC */ void readIdxResource(void*, u32, u32);
-};
-
-//
 // Forward References:
 //
 

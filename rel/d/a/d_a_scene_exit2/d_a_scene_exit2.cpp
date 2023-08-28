@@ -1,6 +1,6 @@
 /**
- * d_a_scene_exit2.cpp
- * Grotto Scene Exit trigger
+ * @file d_a_scene_exit2.cpp
+ * @brief Grotto Scene Exit trigger
  */
 
 #include "rel/d/a/d_a_scene_exit2/d_a_scene_exit2.h"

@@ -10,61 +10,8 @@
 // Types:
 //
 
-struct mDoHIO_entry_c {
-    /* 80655404 */ ~mDoHIO_entry_c();
-};
-
-struct dMsgObject_c {
-    /* 8023822C */ void getStatus();
-};
-
-struct JMSMesgEntry_c {};
-
-struct dMeter2Info_c {
-    /* 8021C544 */ void getStringKanji(u32, char*, JMSMesgEntry_c*);
-};
-
 struct dDlst_base_c {
     /* 806553A4 */ void draw();
-};
-
-struct dDlst_list_c {
-    /* 80056794 */ void set(dDlst_base_c**&, dDlst_base_c**&, dDlst_base_c*);
-};
-
-struct ResTIMG {};
-
-struct JKRExpHeap {};
-
-struct JKRArchive {};
-
-struct J2DTextBox {
-    /* 80300658 */ void getStringPtr() const;
-    /* 8030074C */ void setString(s16, char const*, ...);
-};
-
-struct J2DGrafContext {};
-
-struct J2DScreen {
-    /* 802F8498 */ J2DScreen();
-    /* 802F8648 */ void setPriority(char const*, u32, JKRArchive*);
-    /* 802F8ED4 */ void draw(f32, f32, J2DGrafContext const*);
-};
-
-struct J2DPicture {
-    /* 802FC708 */ J2DPicture(ResTIMG const*);
-};
-
-struct CPaneMgrAlpha {
-    /* 802555C8 */ void show();
-    /* 80255608 */ void hide();
-    /* 802557D0 */ void setAlphaRate(f32);
-    /* 80255828 */ void getAlphaRate();
-};
-
-struct CPaneMgr {
-    /* 80253984 */ CPaneMgr(J2DScreen*, u64, u8, JKRExpHeap*);
-    /* 802545B0 */ void paneTrans(f32, f32);
 };
 
 //

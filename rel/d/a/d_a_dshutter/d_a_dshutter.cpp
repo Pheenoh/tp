@@ -1,6 +1,6 @@
 /**
- * d_a_dshutter.cpp
- * Gates that shutter open / close
+ * @file d_a_dshutter.cpp
+ * @brief Gates that shutter open / close
  */
 
 #include "rel/d/a/d_a_dshutter/d_a_dshutter.h"
@@ -24,10 +24,6 @@ extern "C" void executeCloseWait__7daDsh_cFv();
 extern "C" void initClose__7daDsh_cFv();
 extern "C" void executeClose__7daDsh_cFv();
 extern "C" s16 func_80467DF8(s16*);
-
-//
-// External References:
-//
 
 //
 // Declarations:

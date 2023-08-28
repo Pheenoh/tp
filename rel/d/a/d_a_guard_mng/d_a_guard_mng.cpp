@@ -1,6 +1,6 @@
 /**
- * d_a_guard_mng.cpp
- * Guard
+ * @file d_a_guard_mng.cpp
+ * @brief Guard
  */
 
 #include "rel/d/a/d_a_guard_mng/d_a_guard_mng.h"

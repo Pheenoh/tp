@@ -7,97 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dBgW_Base {};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 80D4B8D0 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F40 */ void SetWallR(f32);
-    /* 80D4B804 */ ~dBgS_AcchCir();
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct cBgS_GndChk {
-    /* 80267C1C */ cBgS_GndChk();
-    /* 80267C94 */ ~cBgS_GndChk();
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct J3DTexNoAnm {
-    /* 80D47548 */ ~J3DTexNoAnm();
-    /* 80D47590 */ J3DTexNoAnm();
-    /* 80D4AB90 */ void calc(u16*) const;
-};
-
-struct J3DTexMtxAnm {
-    /* 80D475B4 */ ~J3DTexMtxAnm();
-    /* 80D475F0 */ J3DTexMtxAnm();
-};
-
-struct J3DTevKColorAnm {
-    /* 80D474A0 */ ~J3DTevKColorAnm();
-    /* 80D474DC */ J3DTevKColorAnm();
-};
-
-struct J3DTevColorAnm {
-    /* 80D474F4 */ ~J3DTevColorAnm();
-    /* 80D47530 */ J3DTevColorAnm();
-};
-
-struct J3DMaterialAnm {
-    /* 8032C320 */ void initialize();
-};
-
-struct J3DMatColorAnm {
-    /* 80D47608 */ ~J3DMatColorAnm();
-    /* 80D47644 */ J3DMatColorAnm();
-};
-
-//
 // Forward References:
 //
 
@@ -981,7 +890,8 @@ extern "C" asm void __dt__15J3DTevKColorAnmFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::J3DTevKColorAnm() {
+extern "C" asm void __ct__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__15J3DTevKColorAnmFv.s"
 }
@@ -991,7 +901,8 @@ asm J3DTevKColorAnm::J3DTevKColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::~J3DTevColorAnm() {
+// asm J3DTevColorAnm::~J3DTevColorAnm() {
+extern "C" asm void __dt__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__14J3DTevColorAnmFv.s"
 }
@@ -1001,7 +912,8 @@ asm J3DTevColorAnm::~J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::J3DTevColorAnm() {
+// asm J3DTevColorAnm::J3DTevColorAnm() {
+extern "C" asm void __ct__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__14J3DTevColorAnmFv.s"
 }
@@ -1011,7 +923,8 @@ asm J3DTevColorAnm::J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::~J3DTexNoAnm() {
+// asm J3DTexNoAnm::~J3DTexNoAnm() {
+extern "C" asm void __dt__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__11J3DTexNoAnmFv.s"
 }
@@ -1021,7 +934,8 @@ asm J3DTexNoAnm::~J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::J3DTexNoAnm() {
+// asm J3DTexNoAnm::J3DTexNoAnm() {
+extern "C" asm void __ct__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__11J3DTexNoAnmFv.s"
 }
@@ -1031,7 +945,8 @@ asm J3DTexNoAnm::J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+extern "C" asm void __dt__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__12J3DTexMtxAnmFv.s"
 }
@@ -1041,7 +956,8 @@ asm J3DTexMtxAnm::~J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::J3DTexMtxAnm() {
+extern "C" asm void __ct__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__12J3DTexMtxAnmFv.s"
 }
@@ -1051,7 +967,8 @@ asm J3DTexMtxAnm::J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::~J3DMatColorAnm() {
+// asm J3DMatColorAnm::~J3DMatColorAnm() {
+extern "C" asm void __dt__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__14J3DMatColorAnmFv.s"
 }
@@ -1061,7 +978,8 @@ asm J3DMatColorAnm::~J3DMatColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::J3DMatColorAnm() {
+// asm J3DMatColorAnm::J3DMatColorAnm() {
+extern "C" asm void __ct__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__ct__14J3DMatColorAnmFv.s"
 }
@@ -1858,7 +1776,8 @@ static bool daPeru_IsDelete(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DTexNoAnm::calc(u16* param_0) const {
+// asm void J3DTexNoAnm::calc(u16* param_0) const {
+extern "C" asm void calc__11J3DTexNoAnmCFPUs() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/calc__11J3DTexNoAnmCFPUs.s"
 }
@@ -1879,7 +1798,8 @@ extern "C" asm void __dt__10cCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm daNpcT_c::~daNpcT_c() {
+// asm daNpcT_c::~daNpcT_c() {
+extern "C" asm void __dt__8daNpcT_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_peru/d_a_peru/__dt__8daNpcT_cFv.s"
 }

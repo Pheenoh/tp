@@ -7,28 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mant_j_s {
-    /* 80862AC0 */ ~mant_j_s();
-    /* 80862B3C */ mant_j_s();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct cBgS_GndChk {
-    /* 80267D0C */ void SetPos(Vec const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-//
 // Forward References:
 //
 

@@ -9,126 +9,6 @@
 #include "dolphin/types.h"
 
 //
-// Types:
-//
-
-struct mDoCPd_c {
-    static u8 m_cpadInfo[256];
-};
-
-struct daTagHstop_c {
-    static u8 m_top[4 + 4 /* padding */];
-};
-
-struct daHorse_hio_c0 {
-    static u8 const m[292];
-};
-
-struct daCow_c {
-    /* 8065CFBC */ void isAngry();
-    /* 8065D0B8 */ void setAngryHit();
-};
-
-struct daAlink_c {
-    struct daAlink_ANM {};
-
-    /* 8009DA60 */ void checkStageName(char const*);
-    /* 800A21E0 */ void getMoveBGActorName(cBgS_PolyInfo&, int);
-    /* 800AC558 */ void checkUnderMove0BckNoArc(daAlink_c::daAlink_ANM) const;
-    /* 800ECDC4 */ void checkHorseWaitLashAnime() const;
-    /* 800ECF04 */ void checkHorseLieAnime() const;
-    /* 800ECF5C */ void checkHorseSubjectivity() const;
-    /* 800ED0D4 */ void getHorseReinHandPos(cXyz*, cXyz*);
-
-    static u8 const m_handLeftInSidePos[12];
-    static u8 const m_handRightInSidePos[12];
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dPath {};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dPaPo_c {
-    /* 80050C9C */ void init(dBgS_Acch*, f32, f32);
-};
-
-struct dPaPoF_c {
-    /* 800512E8 */ void setEffectFour(dKy_tevstr_c const*, cXyz const*, u32, u32, cXyz const*,
-                                      cXyz const*, cXyz const*, cXyz const*, cXyz const*,
-                                      csXyz const*, cXyz const*, s8, f32, f32);
-
-    static u8 m_typeFourData[60];
-    static u8 m_emitterFourData[60 + 28 /* padding */];
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dEvent_manager_c {
-    /* 80047B1C */ void getMyStaffId(char const*, fopAc_ac_c*, int);
-    /* 80047F5C */ void getMyNowCutName(int);
-    /* 800480EC */ void getMySubstanceP(int, char const*, int);
-    /* 8004817C */ void cutEnd(int);
-    /* 800483E0 */ void getGoal();
-};
-
-struct dDemo_object_c {
-    /* 80039088 */ void getActor(u8);
-};
-
-struct dDemo_c {
-    static u8 m_object[4];
-};
-
-struct dDemo_actor_c {
-    /* 80038338 */ void getDemoIDData(int*, int*, int*, u16*, u8*);
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCcMassS_Mng {
-    /* 80085D98 */ void Set(cCcD_Obj*, u8);
-};
-
-struct dBgS_HorseAcch {
-    /* 80845274 */ ~dBgS_HorseAcch();
-};
-
-struct dAttention_c {
-    /* 80070844 */ void GetLockonList(s32);
-    /* 800737E4 */ void LockonTruth();
-};
-
-struct dAttList_c {
-    /* 80073864 */ void getActor();
-};
-
-struct camera_class {};
-
-struct cCcS {
-    /* 80264BA8 */ void Set(cCcD_Obj*);
-};
-
-//
 // Forward References:
 //
 
@@ -3310,7 +3190,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_HorseAcch::~dBgS_HorseAcch() {
+// asm dBgS_HorseAcch::~dBgS_HorseAcch() {
+extern "C" asm void __dt__14dBgS_HorseAcchFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_horse/d_a_horse/__dt__14dBgS_HorseAcchFv.s"
 }

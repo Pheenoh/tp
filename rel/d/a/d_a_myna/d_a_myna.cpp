@@ -7,43 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 8094A9BC */ ~mDoHIO_entry_c();
-};
-
-struct dSv_memBit_c {
-    /* 80034860 */ void isSwitch(int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-    /* 800349A4 */ void offEventBit(u16);
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dMsgObject_c {
-    /* 8023822C */ void getStatus();
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS {
-    /* 80075100 */ void GetRoomId(cBgS_PolyInfo const&);
-};
-
-struct cBgS_GndChk {
-    /* 80267C1C */ cBgS_GndChk();
-    /* 80267C94 */ ~cBgS_GndChk();
-};
-
-//
 // Forward References:
 //
 
