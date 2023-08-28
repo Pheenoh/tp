@@ -1,6 +1,6 @@
 /**
- * d_a_obj_suisya.cpp
- * Ordon Village Water Wheel
+ * @file d_a_obj_suisya.cpp
+ * @brief Ordon Village Water Wheel
  */
 
 #include "rel/d/a/obj/d_a_obj_suisya/d_a_obj_suisya.h"

@@ -8,86 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_memBit_c {
-    /* 80034934 */ void isDungeonItem(int) const;
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-    /* 800354E0 */ void onItem(int, int);
-    /* 80035590 */ void isItem(int, int) const;
-};
-
-struct dSv_event_c {
-    /* 800349E0 */ void setEventReg(u16, u8);
-    /* 80034A04 */ void getEventReg(u16) const;
-};
-
-struct dPa_levelEcallBack {
-    /* 804CD258 */ void cleanup();
-    /* 804CE33C */ ~dPa_levelEcallBack();
-};
-
-struct dPa_followEcallBack {
-    /* 80049580 */ dPa_followEcallBack(u8, u8);
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dItem_data {
-    static void* field_item_res[1020];
-    static u8 item_info[1020 + 4 /* padding */];
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 804CD3B8 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 804CD348 */ ~dBgS_AcchCir();
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct cBgS {
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-struct JPABaseEmitter {};
-
-struct JPAEmitterCallBack {
-    /* 8027E6A4 */ ~JPAEmitterCallBack();
-    /* 804CE3B0 */ void execute(JPABaseEmitter*);
-    /* 804CE3B4 */ void executeAfter(JPABaseEmitter*);
-    /* 804CE3B8 */ void draw(JPABaseEmitter*);
-    /* 804CE3BC */ void drawAfter(JPABaseEmitter*);
-};
-
-//
 // Forward References:
 //
 
@@ -665,7 +585,8 @@ asm void daObjLife_c::create() {
 #pragma pop
 
 /* 804CD258-804CD25C 000AF8 0004+00 1/0 0/0 0/0 .text            cleanup__18dPa_levelEcallBackFv */
-void dPa_levelEcallBack::cleanup() {
+// void dPa_levelEcallBack::cleanup() {
+extern "C" asm void cleanup__18dPa_levelEcallBackFv() {
     /* empty function */
 }
 
@@ -706,7 +627,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_life_container/d_a_obj_life_container/__dt__12dBgS_AcchCirFv.s"
 }
@@ -716,7 +638,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_life_container/d_a_obj_life_container/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -1041,7 +964,8 @@ extern "C" asm void __dt__10cCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+// asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+extern "C" asm void __dt__18dPa_levelEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_life_container/d_a_obj_life_container/__dt__18dPa_levelEcallBackFv.s"
 }
@@ -1049,25 +973,29 @@ asm dPa_levelEcallBack::~dPa_levelEcallBack() {
 
 /* 804CE3B0-804CE3B4 001C50 0004+00 1/0 0/0 0/0 .text
  * execute__18JPAEmitterCallBackFP14JPABaseEmitter              */
-void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+extern "C" asm void execute__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 804CE3B4-804CE3B8 001C54 0004+00 1/0 0/0 0/0 .text
  * executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter         */
-void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+extern "C" asm void executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 804CE3B8-804CE3BC 001C58 0004+00 1/0 0/0 0/0 .text draw__18JPAEmitterCallBackFP14JPABaseEmitter
  */
-void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+extern "C" asm void draw__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 804CE3BC-804CE3C0 001C5C 0004+00 1/0 0/0 0/0 .text
  * drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter            */
-void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+extern "C" asm void drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 

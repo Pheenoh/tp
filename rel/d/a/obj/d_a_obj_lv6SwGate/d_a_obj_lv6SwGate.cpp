@@ -10,66 +10,9 @@
 // Types:
 //
 
-struct mDoHIO_entry_c {
-    /* 80C73FBC */ ~mDoHIO_entry_c();
-};
-
-struct fOpAcm_HIO_entry_c {
-    /* 80C73F60 */ ~fOpAcm_HIO_entry_c();
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dBgW_Base {};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
     /* 8007B9C0 */ void Move();
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS_MoveBgActor {
-    /* 80078624 */ dBgS_MoveBgActor();
-    /* 80078690 */ bool Create();
-    /* 800786B0 */ bool IsDelete();
-    /* 800786B8 */ bool ToFore();
-    /* 800786C0 */ bool ToBack();
-    /* 800787BC */ void MoveBGCreate(char const*, int,
-                                     void (*)(dBgW*, void*, cBgS_PolyInfo const&, bool, cXyz*,
-                                              csXyz*, csXyz*),
-                                     u32, f32 (*)[3][4]);
-    /* 800788DC */ void MoveBGDelete();
-    /* 80078950 */ void MoveBGExecute();
-};
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgD_t {};
-
-struct cBgW {
-    /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
 };
 
 //
@@ -388,7 +331,8 @@ asm daLv6SwGate_HIO_c::daLv6SwGate_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+// // asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+extern "C" asm void __dt__18fOpAcm_HIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv6SwGate/d_a_obj_lv6SwGate/__dt__18fOpAcm_HIO_entry_cFv.s"
 }
@@ -398,7 +342,8 @@ asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv6SwGate/d_a_obj_lv6SwGate/__dt__14mDoHIO_entry_cFv.s"
 }

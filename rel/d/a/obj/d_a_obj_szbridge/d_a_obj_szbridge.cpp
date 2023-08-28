@@ -12,56 +12,6 @@
 
 struct dBgW {};
 
-struct dBgS_WtrChk {
-    /* 80079164 */ dBgS_WtrChk();
-    /* 80D047D4 */ ~dBgS_WtrChk();
-};
-
-struct dBgS_SplGrpChk {
-    /* 80078B90 */ void Set(cXyz&, f32);
-    /* 80078C78 */ ~dBgS_SplGrpChk();
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk {
-    /* 80D0484C */ ~dBgS_ObjGndChk();
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS_MoveBgActor {
-    /* 80078624 */ dBgS_MoveBgActor();
-    /* 800786B0 */ bool IsDelete();
-    /* 800786B8 */ bool ToFore();
-    /* 800786C0 */ bool ToBack();
-    /* 800787BC */ void MoveBGCreate(char const*, int,
-                                     void (*)(dBgW*, void*, cBgS_PolyInfo const&, bool, cXyz*,
-                                              csXyz*, csXyz*),
-                                     u32, f32 (*)[3][4]);
-    /* 800788DC */ void MoveBGDelete();
-    /* 80078950 */ void MoveBGExecute();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS {
-    /* 80075564 */ void SplGrpChk(dBgS_SplGrpChk*);
-};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
 //
 // Forward References:
 //
@@ -353,7 +303,8 @@ asm void daObjSZbridge_c::chkBg() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_WtrChk::~dBgS_WtrChk() {
+// asm dBgS_WtrChk::~dBgS_WtrChk() {
+extern "C" asm void __dt__11dBgS_WtrChkFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_szbridge/d_a_obj_szbridge/__dt__11dBgS_WtrChkFv.s"
 }
@@ -363,7 +314,8 @@ asm dBgS_WtrChk::~dBgS_WtrChk() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_szbridge/d_a_obj_szbridge/__dt__14dBgS_ObjGndChkFv.s"
 }

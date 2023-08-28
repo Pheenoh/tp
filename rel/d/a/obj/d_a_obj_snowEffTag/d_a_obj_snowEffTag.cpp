@@ -1,6 +1,6 @@
 /**
- * d_a_obj_snowEffTag.cpp
- * Snow Effect Generator Tag
+ * @file d_a_obj_snowEffTag.cpp
+ * @brief Snow Effect Generator Tag
  */
 
 #include "rel/d/a/obj/d_a_obj_snowEffTag/d_a_obj_snowEffTag.h"

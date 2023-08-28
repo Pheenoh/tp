@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class ep_hahen_s {
+struct ep_hahen_s {
     /* 8046ACC0 */ ~ep_hahen_s();
     /* 8046AD44 */ ep_hahen_s();
 };

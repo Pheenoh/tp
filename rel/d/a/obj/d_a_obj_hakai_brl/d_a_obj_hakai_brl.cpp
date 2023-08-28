@@ -7,28 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct JPABaseEmitter {};
-
-struct dPa_modelEcallBack {
-    /* 8004AC00 */ void setModel(JPABaseEmitter*, J3DModelData*, dKy_tevstr_c const&, u8, void*, u8,
-                                 u8);
-
-    static u8 mEcallback[4];
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-//
 // Forward References:
 //
 

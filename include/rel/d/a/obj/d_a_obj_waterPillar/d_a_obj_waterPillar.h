@@ -39,6 +39,7 @@ class daWtPillar_c : public fopAc_ac_c {
     /* 80D2DE84 */ void _delete();
     /* 80D2E054 */ daWtPillar_c();
     /* 80D2E430 */ ~daWtPillar_c();
+    void getPos();
 
     static u8 const mCcDObjInfo[48];
     static u8 const mCcDObjCoInfo[48];

@@ -8,27 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct daObj {
-    /* 80037900 */ void HitSeStart(cXyz const*, int, dCcD_GObjInf const*, u32);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dCcU_AtInfo {};
-
-struct cBgS_PolyInfo {};
-
-//
 // Forward References:
 //
 

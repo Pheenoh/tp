@@ -1,6 +1,6 @@
 /**
- * d_a_obj_lv4floor.cpp
- * Moving sand-floor in Stallord Arena
+ * @file d_a_obj_lv4floor.cpp
+ * @brief Moving sand-floor in Stallord Arena
  */
 
 #include "rel/d/a/obj/d_a_obj_lv4floor/d_a_obj_lv4floor.h"

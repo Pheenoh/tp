@@ -4,6 +4,8 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct ito_s {};
+
 class obj_ito_class : public fopAc_ac_c {};
 
 class daObj_Ito_HIO_c {

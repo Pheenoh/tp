@@ -1,6 +1,6 @@
 /**
- * d_a_obj_lv4HsTarget.cpp
- * Arbiter's Grounds Clawshot Target
+ * @file d_a_obj_lv4HsTarget.cpp
+ * @brief Arbiter's Grounds Clawshot Target
  */
 
 #include "rel/d/a/obj/d_a_obj_lv4HsTarget/d_a_obj_lv4HsTarget.h"

@@ -8,31 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct kh_chain_s {
-    /* 80C436A0 */ ~kh_chain_s();
-    /* 80C437A4 */ kh_chain_s();
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dComIfG_play_c {
-    /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
-    /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
-    /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct dCcU_AtInfo {};
-
-//
 // Forward References:
 //
 

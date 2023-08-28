@@ -10,57 +10,8 @@
 // Types:
 //
 
-struct dVibration_c {
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-    /* 8006FE5C */ void CheckQuake();
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dMdl_obj_c {};
-
-struct dMdl_mng_c {
-    /* 8009C8D8 */ void entry(J3DModelData*, u16, int);
-};
-
-struct dMdl_c {
-    /* 8009C668 */ void entryObj(dMdl_obj_c*);
-};
-
-struct dBgW_Base {};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
-};
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgD_t {};
-
-struct cBgW {
-    /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
 };
 
 //

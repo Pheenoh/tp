@@ -1,6 +1,6 @@
 /**
- * d_a_obj_stoneMark.cpp
- * Actor - Object Stone Mark
+ * @file d_a_obj_stoneMark.cpp
+ * @brief Actor - Object Stone Mark
  * 
  * Visual mark under the stone actor (d_a_obj_stone)
  * 

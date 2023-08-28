@@ -53,6 +53,4 @@ class daSCannon_c : public fopAc_ac_c {
     static u8 s_demoExeProc_FireSecond[96];
 };
 
-class camera_class : public fopAc_ac_c {};
-
 #endif /* D_A_OBJ_SCANNON_H */

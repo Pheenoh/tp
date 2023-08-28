@@ -38,8 +38,4 @@ class daObj_SSBase_c : public fopAc_ac_c {
     /* 8015E450 */ ~daObj_SSBase_c();
 };
 
-class daMyna_c : public fopAc_ac_c {
-    /* 809487EC */ void soldoutItem(unsigned int);
-};
-
 #endif /* D_A_OBJ_SS_ITEM_H */

@@ -22,8 +22,4 @@ class daObjIta_c : public fopAc_ac_c {
     /* 80C29150 */ void Delete();
 };
 
-class daE_YMB_c : public fopAc_ac_c {
-    /* 808172F8 */ void setHitBoardSe();
-};
-
 #endif /* D_A_OBJ_ITA_H */

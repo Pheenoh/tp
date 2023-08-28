@@ -1550,7 +1550,8 @@ extern "C" asm void __dt__12dBgS_AcchCirFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_tt/d_a_e_tt/__dt__14dBgS_ObjGndChkFv.s"
 }

@@ -1,6 +1,6 @@
 /**
- * d_a_obj_smoke.cpp
- * Object - Smoke
+ * @file d_a_obj_smoke.cpp
+ * @brief Object - Smoke
  */
 
 #include "rel/d/a/obj/d_a_obj_smoke/d_a_obj_smoke.h"

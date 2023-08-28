@@ -4,12 +4,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daPy_boomerangMove_c : public fopAc_ac_c {
-    /* 8015E5B0 */ void initOffset(cXyz const*);
-    /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
-    /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
-};
-
 class daObj_Pumpkin_c : public fopAc_ac_c {
     /* 80CB578C */ ~daObj_Pumpkin_c();
     /* 80CB5A04 */ void create();
@@ -35,14 +29,6 @@ class daObj_Pumpkin_Param_c {
     /* 80CB8304 */ ~daObj_Pumpkin_Param_c();
 
     static u8 const m[52];
-};
-
-class daNpc_Jagar_Param_c {
-    static u8 const m[160];
-};
-
-class daNpcT_c : public fopAc_ac_c {
-    /* 8014ACF0 */ void chkPointInArea(cXyz, cXyz, f32, f32, f32, s16);
 };
 
 #endif /* D_A_OBJ_PUMPKIN_H */

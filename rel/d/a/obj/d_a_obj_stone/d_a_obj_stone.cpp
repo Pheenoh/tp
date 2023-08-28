@@ -1,6 +1,6 @@
 /**
- * d_a_obj_stone.cpp
- * Actor - Object Stone
+ * @file d_a_obj_stone.cpp
+ * @brief Actor - Object Stone
  * 
  * Small and large rocks
  * 

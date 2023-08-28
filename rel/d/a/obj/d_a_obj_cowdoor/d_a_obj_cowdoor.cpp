@@ -1,6 +1,6 @@
 /**
- * d_a_obj_cowdoor.cpp
- * Cow Door
+ * @file d_a_obj_cowdoor.cpp
+ * @brief Cow Door
  */
 
 #include "rel/d/a/obj/d_a_obj_cowdoor/d_a_obj_cowdoor.h"

@@ -7,92 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 8057D1B0 */ ~mDoHIO_entry_c();
-};
-
-struct fOpAcm_HIO_entry_c {
-    /* 8057D154 */ ~fOpAcm_HIO_entry_c();
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct JPABaseEmitter {};
-
-struct dPa_modelEcallBack {
-    /* 8004AC00 */ void setModel(JPABaseEmitter*, J3DModelData*, dKy_tevstr_c const&, u8, void*, u8,
-                                 u8);
-
-    static u8 mEcallback[4];
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk {
-    /* 8057EB2C */ ~dBgS_ObjGndChk();
-};
-
-struct dBgS_ObjAcch {
-    /* 8057D75C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 8057D6EC */ ~dBgS_AcchCir();
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-//
 // Forward References:
 //
 
@@ -528,7 +442,8 @@ asm daGpTaru_HIO_c::daGpTaru_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+// asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+extern "C" asm void __dt__18fOpAcm_HIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gpTaru/d_a_obj_gpTaru/__dt__18fOpAcm_HIO_entry_cFv.s"
 }
@@ -538,7 +453,8 @@ asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gpTaru/d_a_obj_gpTaru/__dt__14mDoHIO_entry_cFv.s"
 }
@@ -668,7 +584,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gpTaru/d_a_obj_gpTaru/__dt__12dBgS_AcchCirFv.s"
 }
@@ -678,7 +595,8 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gpTaru/d_a_obj_gpTaru/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -1021,7 +939,8 @@ asm void daGpTaru_c::mode_proc_roll() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gpTaru/d_a_obj_gpTaru/__dt__14dBgS_ObjGndChkFv.s"
 }

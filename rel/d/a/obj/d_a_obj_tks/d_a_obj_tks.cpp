@@ -7,87 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dCamera_c {
-    /* 80088A7C */ void StartEventCamera(int, int, ...);
-    /* 80088BBC */ void EndEventCamera(int);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 80D125C8 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 80D124FC */ ~dBgS_AcchCir();
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct cBgS_GndChk {
-    /* 80267C1C */ cBgS_GndChk();
-    /* 80267C94 */ ~cBgS_GndChk();
-};
-
-struct J3DTexNoAnm {
-    /* 80D0FC20 */ ~J3DTexNoAnm();
-    /* 80D0FC68 */ J3DTexNoAnm();
-    /* 80D11640 */ void calc(u16*) const;
-};
-
-struct J3DTexMtxAnm {
-    /* 80D0FC8C */ ~J3DTexMtxAnm();
-    /* 80D0FCC8 */ J3DTexMtxAnm();
-};
-
-struct J3DTevKColorAnm {
-    /* 80D0FB78 */ ~J3DTevKColorAnm();
-    /* 80D0FBB4 */ J3DTevKColorAnm();
-};
-
-struct J3DTevColorAnm {
-    /* 80D0FBCC */ ~J3DTevColorAnm();
-    /* 80D0FC08 */ J3DTevColorAnm();
-};
-
-struct J3DMaterialAnm {
-    /* 8032C320 */ void initialize();
-};
-
-struct J3DMatColorAnm {
-    /* 80D0FCE0 */ ~J3DMatColorAnm();
-    /* 80D0FD1C */ J3DMatColorAnm();
-};
-
-//
 // Forward References:
 //
 
@@ -700,7 +619,8 @@ extern "C" asm void __dt__15J3DTevKColorAnmFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevKColorAnm::J3DTevKColorAnm() {
+// asm J3DTevKColorAnm::J3DTevKColorAnm() {
+extern "C" asm void __ct__15J3DTevKColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__ct__15J3DTevKColorAnmFv.s"
 }
@@ -710,7 +630,8 @@ asm J3DTevKColorAnm::J3DTevKColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::~J3DTevColorAnm() {
+// asm J3DTevColorAnm::~J3DTevColorAnm() {
+extern "C" asm void __dt__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__14J3DTevColorAnmFv.s"
 }
@@ -720,7 +641,8 @@ asm J3DTevColorAnm::~J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTevColorAnm::J3DTevColorAnm() {
+// asm J3DTevColorAnm::J3DTevColorAnm() {
+extern "C" asm void __ct__14J3DTevColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__ct__14J3DTevColorAnmFv.s"
 }
@@ -730,7 +652,8 @@ asm J3DTevColorAnm::J3DTevColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::~J3DTexNoAnm() {
+// asm J3DTexNoAnm::~J3DTexNoAnm() {
+extern "C" asm void __dt__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__11J3DTexNoAnmFv.s"
 }
@@ -740,7 +663,8 @@ asm J3DTexNoAnm::~J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexNoAnm::J3DTexNoAnm() {
+// asm J3DTexNoAnm::J3DTexNoAnm() {
+extern "C" asm void __ct__11J3DTexNoAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__ct__11J3DTexNoAnmFv.s"
 }
@@ -750,7 +674,8 @@ asm J3DTexNoAnm::J3DTexNoAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::~J3DTexMtxAnm() {
+extern "C" asm void __dt__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__12J3DTexMtxAnmFv.s"
 }
@@ -760,7 +685,8 @@ asm J3DTexMtxAnm::~J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DTexMtxAnm::J3DTexMtxAnm() {
+// asm J3DTexMtxAnm::J3DTexMtxAnm() {
+extern "C" asm void __ct__12J3DTexMtxAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__ct__12J3DTexMtxAnmFv.s"
 }
@@ -770,7 +696,8 @@ asm J3DTexMtxAnm::J3DTexMtxAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::~J3DMatColorAnm() {
+// asm J3DMatColorAnm::~J3DMatColorAnm() {
+extern "C" asm void __dt__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__14J3DMatColorAnmFv.s"
 }
@@ -780,7 +707,8 @@ asm J3DMatColorAnm::~J3DMatColorAnm() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm J3DMatColorAnm::J3DMatColorAnm() {
+// asm J3DMatColorAnm::J3DMatColorAnm() {
+extern "C" asm void __ct__14J3DMatColorAnmFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__ct__14J3DMatColorAnmFv.s"
 }
@@ -1269,7 +1197,8 @@ static bool daObjTks_IsDelete(void* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void J3DTexNoAnm::calc(u16* param_0) const {
+// asm void J3DTexNoAnm::calc(u16* param_0) const {
+extern "C" asm void calc__11J3DTexNoAnmCFPUs() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/calc__11J3DTexNoAnmCFPUs.s"
 }
@@ -1514,7 +1443,8 @@ extern "C" asm void __ct__18daNpcF_ActorMngr_cFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__12dBgS_AcchCirFv.s"
 }
@@ -1535,7 +1465,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_tks/d_a_obj_tks/__dt__12dBgS_ObjAcchFv.s"
 }

@@ -8,15 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct LaundJoint_c {
-    /* 80C51D2C */ ~LaundJoint_c();
-    /* 80C51EC0 */ LaundJoint_c();
-};
-
-//
 // Forward References:
 //
 

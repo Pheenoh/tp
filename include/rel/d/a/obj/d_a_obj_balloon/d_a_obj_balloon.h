@@ -21,10 +21,4 @@ class daObj_Balloon_HIO_c {
     /* 80BA8D64 */ ~daObj_Balloon_HIO_c();
 };
 
-class daBalloon2D_c : public fopAc_ac_c {
-    /* 80653F58 */ void setComboCount(u8, u8);
-    /* 80653FC0 */ void setScoreCount(u32);
-    /* 80653FEC */ void addScoreCount(cXyz*, u32, u8);
-};
-
 #endif /* D_A_OBJ_BALLOON_H */

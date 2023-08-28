@@ -4,6 +4,23 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class _ZraMark_Hahen_c {
+    /* 80D4347C */ void create(cXyz const&, s8, s8, s8, s8);
+    /* 80D434F8 */ void loadModel();
+    /* 80D4357C */ void init(cXyz const&, s8, s8, s8);
+    /* 80D43808 */ void calcSpeed();
+    /* 80D43864 */ void setMtx();
+    /* 80D438C8 */ void draw();
+    /* 80D43B48 */ ~_ZraMark_Hahen_c();
+    /* 80D43BB4 */ _ZraMark_Hahen_c();
+};
+
+class _ZraMark_Hahen_Mng_c {
+    /* 80D43968 */ void create(cXyz const&, s8, s8, s8, s8);
+    /* 80D439F8 */ void calc();
+    /* 80D43A74 */ void draw();
+};
+
 class daObjZraMark_c : public fopAc_ac_c {
     /* 80D42678 */ void Create();
     /* 80D4287C */ void CreateHeap();

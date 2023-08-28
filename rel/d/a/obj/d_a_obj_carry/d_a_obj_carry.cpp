@@ -16,14 +16,6 @@
 #include "JSystem/JKernel/JKRHeap.h"
 
 //
-// Types:
-//
-
-struct dTres_c {
-    /* 8009C3CC */ void setPosition(int, u8, Vec const*, int);
-};
-
-//
 // Forward References:
 //
 

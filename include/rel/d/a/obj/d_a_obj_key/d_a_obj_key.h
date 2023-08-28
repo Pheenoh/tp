@@ -11,8 +11,4 @@ class daObj_Key_HIO_c {
     /* 80C40F28 */ ~daObj_Key_HIO_c();
 };
 
-class daKey_c : public fopAc_ac_c {
-    /* 80C40FBC */ void setPos(cXyz);
-};
-
 #endif /* D_A_OBJ_KEY_H */

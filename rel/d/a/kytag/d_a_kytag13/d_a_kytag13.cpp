@@ -481,7 +481,8 @@ static asm void daKytag13_Execute_standard(kytag13_class* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/kytag/d_a_kytag13/d_a_kytag13/__dt__14dBgS_ObjGndChkFv.s"
 }

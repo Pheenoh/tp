@@ -11,44 +11,9 @@
 // Types:
 //
 
-struct ResTIMG {};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dCcU_AtInfo {};
-
-struct dBgW_Base {};
-
-struct cBgD_t {};
-
-struct dBgWSv {
-    /* 80082F98 */ void Set(cBgD_t*, u32);
-    /* 80083020 */ void CopyBackVtx();
-};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
     /* 8007B9C0 */ void Move();
-};
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
-};
-
-struct br_s {
-    /* 80BC1F54 */ ~br_s();
-    /* 80BC2000 */ br_s();
 };
 
 //

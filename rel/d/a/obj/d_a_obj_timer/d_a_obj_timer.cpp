@@ -7,55 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct fopAc_ac_c {
-    /* 80018B64 */ fopAc_ac_c();
-};
-
-struct daObjTimer {
-    struct Act_c {
-        struct Prm_e {};
-
-        /* 80485198 */ void _create();
-        /* 8048526C */ bool _delete();
-        /* 80485274 */ void mode_wait_init();
-        /* 80485284 */ void mode_wait();
-        /* 804852E0 */ void mode_count_init();
-        /* 80485324 */ void mode_count();
-        /* 804854BC */ void _execute();
-    };
-};
-
-struct daObj {
-    template <typename A1>
-    void PrmAbstract(/* ... */);
-    /* 8048561C */ /* daObj::PrmAbstract<daObjTimer::Act_c::Prm_e> */
-    void func_8048561C(void* _this, fopAc_ac_c const*, daObjTimer::Act_c::Prm_e,
-                       daObjTimer::Act_c::Prm_e);
-};
-
-struct dSv_info_c {
-    /* 800352B0 */ void offSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct create_tag_class {};
-
-struct JAISoundID {};
-
-struct Vec {};
-
-struct Z2SeMgr {
-    /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-};
-
-struct Z2AudioMgr {
-    static u8 mAudioMgrPtr[4 + 4 /* padding */];
-};
-
-//
 // Forward References:
 //
 
@@ -86,8 +37,6 @@ extern "C" void offSwitch__10dSv_info_cFii();
 extern "C" void isSwitch__10dSv_info_cCFii();
 extern "C" void seStart__7Z2SeMgrF10JAISoundIDPC3VecUlScffffUc();
 extern "C" void __ptmf_scall();
-extern "C" extern void* g_fopAc_Method[8];
-extern "C" extern void* g_fpcLf_Method[5 + 1 /* padding */];
 extern "C" extern u8 g_dComIfG_gameInfo[122384];
 extern "C" u8 mAudioMgrPtr__10Z2AudioMgr[4 + 4 /* padding */];
 extern "C" extern u8 data_804856E8[4];

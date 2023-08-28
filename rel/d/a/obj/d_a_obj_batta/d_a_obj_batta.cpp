@@ -4,73 +4,8 @@
 //
 
 #include "rel/d/a/obj/d_a_obj_batta/d_a_obj_batta.h"
+#include "d/d_insect.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dMenu_Insect_c {
-    /* 801D9F3C */ void isCatchNotGiveInsect(u8);
-};
-
-struct dInsect_c {
-    /* 8015E010 */ dInsect_c();
-    /* 8015E078 */ void Insect_GetDemoMain();
-    /* 8015E26C */ void CalcZBuffer(f32);
-    /* 80BAC908 */ void Insect_Release();
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 80BAC78C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 80BAC7FC */ ~dBgS_AcchCir();
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
 
 //
 // Forward References:
@@ -1151,7 +1086,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_batta/d_a_obj_batta/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -1161,7 +1097,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_batta/d_a_obj_batta/__dt__12dBgS_AcchCirFv.s"
 }
@@ -1221,7 +1158,8 @@ static asm void func_80BAC900() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dInsect_c::Insect_Release() {
+// asm void dInsect_c::Insect_Release() {
+extern "C" asm void Insect_Release__9dInsect_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_batta/d_a_obj_batta/Insect_Release__9dInsect_cFv.s"
 }

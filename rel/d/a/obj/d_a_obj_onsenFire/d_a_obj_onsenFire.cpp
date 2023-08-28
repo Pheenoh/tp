@@ -1,6 +1,6 @@
 /**
- * d_a_obj_onsenFire.cpp
- * Object - Hotspring Fire
+ * @file d_a_obj_onsenFire.cpp
+ * @brief Object - Hotspring Fire
  */
 
 #include "rel/d/a/obj/d_a_obj_onsenFire/d_a_obj_onsenFire.h"

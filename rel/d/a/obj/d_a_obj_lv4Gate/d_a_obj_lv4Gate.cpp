@@ -1,6 +1,6 @@
 /**
- * d_a_obj_lv4Gate.cpp
- * Arbiter's Grounds Generic Gate
+ * @file d_a_obj_lv4Gate.cpp
+ * @brief Arbiter's Grounds Generic Gate
  */
 
 #include "rel/d/a/obj/d_a_obj_lv4Gate/d_a_obj_lv4Gate.h"

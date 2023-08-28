@@ -7,27 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct _ZraMark_Hahen_c {
-    /* 80D4347C */ void create(cXyz const&, s8, s8, s8, s8);
-    /* 80D434F8 */ void loadModel();
-    /* 80D4357C */ void init(cXyz const&, s8, s8, s8);
-    /* 80D43808 */ void calcSpeed();
-    /* 80D43864 */ void setMtx();
-    /* 80D438C8 */ void draw();
-    /* 80D43B48 */ ~_ZraMark_Hahen_c();
-    /* 80D43BB4 */ _ZraMark_Hahen_c();
-};
-
-struct _ZraMark_Hahen_Mng_c {
-    /* 80D43968 */ void create(cXyz const&, s8, s8, s8, s8);
-    /* 80D439F8 */ void calc();
-    /* 80D43A74 */ void draw();
-};
-
-//
 // Forward References:
 //
 

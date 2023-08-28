@@ -17,8 +17,4 @@ class daObjCRVLH_UP_c : public fopAc_ac_c {
     /* 80BD59C0 */ void Delete();
 };
 
-class daObjCRVHAHEN_c : public fopAc_ac_c {
-    /* 80BD342C */ void HahenSet(cXyz, cXyz, cXyz, cXyz, f32);
-};
-
 #endif /* D_A_OBJ_CRVLH_UP_H */

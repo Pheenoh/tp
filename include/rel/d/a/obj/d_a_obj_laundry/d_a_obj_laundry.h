@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class LaundJoint_c {
+    /* 80C51D2C */ ~LaundJoint_c();
+    /* 80C51EC0 */ LaundJoint_c();
+};
+
 class daObjLdy_c : public fopAc_ac_c {
     /* 80C50F98 */ void create_init();
     /* 80C51088 */ void initBaseMtx();

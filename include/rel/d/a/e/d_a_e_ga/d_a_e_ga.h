@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class ga_s {
+struct ga_s {
     /* 804FBAB8 */ ~ga_s();
     /* 804FBAF4 */ ga_s();
 };

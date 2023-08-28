@@ -27,7 +27,7 @@ class daObj_Stick_Param_c {
     static u8 const m[16];
 };
 
-class daNpcT_c : public fopAc_ac_c {
+class daNpcT_c {
     static u8 const mCcDObjData[48];
 };
 

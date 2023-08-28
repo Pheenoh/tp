@@ -7,36 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct ResTIMG {};
-
-struct dComIfG_play_c {
-    /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
-    /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
-    /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct Sakuita_c {
-    /* 80CC5238 */ void setModelData(J3DModelData*);
-    /* 80CC527C */ void create(cXyz*, s16, s8);
-    /* 80CC5314 */ void execute(cXyz*, s16);
-    /* 80CC5354 */ void draw();
-    /* 80CC5390 */ void initBaseMtx();
-    /* 80CC53B0 */ void setBaseMtx();
-    /* 80CC5444 */ void setPlatePos(cXyz*);
-    /* 80CC5720 */ void calcAngle();
-    /* 80CC63E4 */ ~Sakuita_c();
-    /* 80CC6420 */ Sakuita_c();
-};
-
-struct RopeWork_c {
-    /* 80CC6424 */ ~RopeWork_c();
-    /* 80CC6460 */ RopeWork_c();
-};
-
-//
 // Forward References:
 //
 

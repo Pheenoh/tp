@@ -9,37 +9,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mesg_flow_node_branch {};
-
-struct dSv_player_collect_c {
-    /* 8003422C */ void onCollectCrystal(u8);
-    /* 80034270 */ void onCollectMirror(u8);
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-//
 // Forward References:
 //
 

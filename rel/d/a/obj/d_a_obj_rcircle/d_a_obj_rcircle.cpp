@@ -1,6 +1,6 @@
 /**
- * d_a_obj_rcircle.cpp
- * Object - River Circle
+ * @file d_a_obj_rcircle.cpp
+ * @brief Object - River Circle
  */
 
 #include "rel/d/a/obj/d_a_obj_rcircle/d_a_obj_rcircle.h"

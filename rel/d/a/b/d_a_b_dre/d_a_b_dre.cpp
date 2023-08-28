@@ -1402,7 +1402,8 @@ asm void daB_DRE_c::create() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_dre/d_a_b_dre/__dt__12dBgS_ObjAcchFv.s"
 }

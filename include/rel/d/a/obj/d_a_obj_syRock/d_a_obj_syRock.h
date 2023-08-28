@@ -4,11 +4,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daWtPillar_c : public fopAc_ac_c {
-    /* 80D03D90 */ void getPos();
-    /* 80D2DDB0 */ void getPillarHeight();
-};
-
 class daSyRock_c : public fopAc_ac_c {
     /* 80D0237C */ void setBaseMtx();
     /* 80D02454 */ void CreateHeap();

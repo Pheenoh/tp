@@ -7,18 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 80C44D30 */ ~mDoHIO_entry_c();
-};
-
-struct dAttCatch_c {
-    /* 80073A08 */ void request(fopAc_ac_c*, u8, f32, f32, f32, s16, int);
-};
-
-//
 // Forward References:
 //
 
@@ -127,7 +115,8 @@ asm daKiPot_HIO_c::daKiPot_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kiPot/d_a_obj_kiPot/__dt__14mDoHIO_entry_cFv.s"
 }

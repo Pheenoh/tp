@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daObjWchain_shape_c : public fopAc_ac_c {
+class daObjWchain_shape_c {
     /* 80D31418 */ void draw();
     /* 80D318C0 */ ~daObjWchain_shape_c();
 };

@@ -4,74 +4,9 @@
 //
 
 #include "rel/d/a/obj/d_a_obj_kag/d_a_obj_kag.h"
+#include "d/d_insect.h"
+#include "d/menu/d_menu_insect.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dMenu_Insect_c {
-    /* 801D9F3C */ void isCatchNotGiveInsect(u8);
-};
-
-struct dInsect_c {
-    /* 8015E010 */ dInsect_c();
-    /* 8015E078 */ void Insect_GetDemoMain();
-    /* 8015E26C */ void CalcZBuffer(f32);
-    /* 80C310E4 */ void Insect_Release();
-};
-
-struct dDlst_shadowControl_c {
-    static u8 mSimpleTexObj[32];
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-};
-
-struct cBgS_PolyInfo {};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
 
 //
 // Forward References:
@@ -1198,7 +1133,8 @@ REGISTER_CTORS(0x80C310A8, __sinit_d_a_obj_kag_cpp);
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dInsect_c::Insect_Release() {
+// asm void dInsect_c::Insect_Release() {
+extern "C" asm void Insect_Release__9dInsect_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_kag/d_a_obj_kag/Insect_Release__9dInsect_cFv.s"
 }

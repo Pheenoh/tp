@@ -7,25 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 80C55D38 */ ~mDoHIO_entry_c();
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 800352B0 */ void offSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_control_c {
-    /* 8004D1B8 */ void setSimple(u16, cXyz const*, dKy_tevstr_c const*, u8, _GXColor const&,
-                                  _GXColor const&, int, f32);
-};
-
-//
 // Forward References:
 //
 
@@ -189,7 +170,8 @@ asm daLv1Cdl00_HIO_c::daLv1Cdl00_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv1Candle00/d_a_obj_lv1Candle00/__dt__14mDoHIO_entry_cFv.s"
 }

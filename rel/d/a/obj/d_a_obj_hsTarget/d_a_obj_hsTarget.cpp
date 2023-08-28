@@ -1,6 +1,6 @@
 /**
- * d_a_obj_hsTarget.cpp
- * Object - Hookshot Target
+ * @file d_a_obj_hsTarget.cpp
+ * @brief Object - Hookshot Target
 */
 
 #include "rel/d/a/obj/d_a_obj_hsTarget/d_a_obj_hsTarget.h"

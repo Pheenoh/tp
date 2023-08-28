@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class nest_hahen_s {
+struct nest_hahen_s {
     /* 805044AC */ ~nest_hahen_s();
     /* 805044E8 */ nest_hahen_s();
 };

@@ -30,8 +30,4 @@ class daObj_Kago_Param_c {
     static u8 const m[44];
 };
 
-class daNpcT_c : public fopAc_ac_c {
-    static u8 const mCcDObjData[48];
-};
-
 #endif /* D_A_OBJ_KAGO_H */

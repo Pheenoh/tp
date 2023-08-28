@@ -27,8 +27,4 @@ class daObj_Nougu_Param_c {
     static u8 const m[16];
 };
 
-class daNpcT_c : public fopAc_ac_c {
-    static u8 const mCcDObjData[48];
-};
-
 #endif /* D_A_OBJ_NOUGU_H */

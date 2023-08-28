@@ -25,6 +25,7 @@ class daObjSwChain_c : public fopAc_ac_c {
     /* 80CFB464 */ void checkPlayerPull();
     /* 80CFB53C */ void draw();
     /* 80CFB5E8 */ void _delete();
+    void checkTight();
 };
 
 #endif /* D_A_OBJ_SWCHAIN_H */

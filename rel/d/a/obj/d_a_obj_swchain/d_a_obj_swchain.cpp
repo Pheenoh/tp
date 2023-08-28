@@ -8,58 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 800352B0 */ void offSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dMdl_obj_c {};
-
-struct dMdl_c {
-    /* 8009C650 */ void create(J3DModelData*, u16, dKy_tevstr_c*);
-    /* 8009C668 */ void entryObj(dMdl_obj_c*);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 80CF8DD0 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS {
-    /* 80074B40 */ void ChkMoveBG_NoDABg(cBgS_PolyInfo const&);
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cBgS {
-    /* 80074618 */ void GetActorPointer(int) const;
-    /* 80074660 */ void ChkPolySafe(cBgS_PolyInfo const&);
-};
-
-//
 // Forward References:
 //
 
@@ -384,7 +332,8 @@ asm void daObjSwChain_c::create1st() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_swchain/d_a_obj_swchain/__dt__12dBgS_ObjAcchFv.s"
 }

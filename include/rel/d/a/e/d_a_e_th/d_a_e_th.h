@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class th_ke_s {
+struct th_ke_s {
     /* 807B3B58 */ ~th_ke_s();
     /* 807B3BD4 */ th_ke_s();
 };

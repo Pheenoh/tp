@@ -1,6 +1,6 @@
 /**
- * d_a_obj_tgake.cpp
- * Howling Cliff
+ * @file d_a_obj_tgake.cpp
+ * @brief Howling Cliff
  */
 
 #include "rel/d/a/obj/d_a_obj_tgake/d_a_obj_tgake.h"

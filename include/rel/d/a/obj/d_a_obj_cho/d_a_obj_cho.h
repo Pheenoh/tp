@@ -4,12 +4,6 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daPy_boomerangMove_c : public fopAc_ac_c {
-    /* 8015E5B0 */ void initOffset(cXyz const*);
-    /* 8015E654 */ void posMove(cXyz*, s16*, fopAc_ac_c*, s16);
-    /* 8015E87C */ void bgCheckAfterOffset(cXyz const*);
-};
-
 class daObj_ChoHIO_c {
     /* 80BCA30C */ daObj_ChoHIO_c();
     /* 80BCC4D0 */ ~daObj_ChoHIO_c();

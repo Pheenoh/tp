@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct kita_s {
+    /* 80C45E44 */ ~kita_s();
+    /* 80C45E80 */ kita_s();
+};
+
 class obj_kita_class : public fopAc_ac_c {};
 
 class daObj_Kita_HIO_c {

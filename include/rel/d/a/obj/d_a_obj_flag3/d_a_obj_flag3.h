@@ -4,8 +4,14 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class daSetBgObj_c : public fopAc_ac_c {
-    /* 80031870 */ void getArcName(fopAc_ac_c*);
+class FlagCloth2_c {
+    /* 80BEEDE4 */ void execute();
+    /* 80BEEF74 */ void calcFlagNormal(cXyz*, int);
+    /* 80BEF278 */ void calcFlagFactor(cXyz*, cXyz*, cXyz*, int);
+    /* 80BEF790 */ ~FlagCloth2_c();
+    /* 80BEFD08 */ void initFlagPos(cXyz*, fopAc_ac_c*);
+    /* 80BF00A0 */ void draw();
+    /* 80BF0434 */ void getTargetPos();
 };
 
 class daObjFlag3_c : public fopAc_ac_c {

@@ -32,7 +32,7 @@ public:
         /* 0x8 */ TYPE_BALL_S,     // Light Ball A
         /* 0x9 */ TYPE_BALL_S_2,   // Light Ball B
         /* 0xA */ TYPE_AOTSUBO,    // Big Blue Pot
-        /* 0xB */ TYPE_LV8_BALL,   // Light Ball? Probably unused
+        /* 0xB */ TYPE_LV8_BALL,   // Sol
         /* 0xC */ TYPE_TSUBO_S,    // Small pot - Twilight
         /* 0xD */ TYPE_TSUBO_B,    // Big pot - Twilight
     };

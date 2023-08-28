@@ -1,6 +1,6 @@
 /**
- * d_a_obj_tmoon.cpp
- * Moon in Hidden Skill Scene
+ * @file d_a_obj_tmoon.cpp
+ * @brief Moon in Hidden Skill Scene
  */
 
 #include "rel/d/a/obj/d_a_obj_tmoon/d_a_obj_tmoon.h"

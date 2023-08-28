@@ -1610,7 +1610,8 @@ asm e_yrHIO_c::~e_yrHIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+// asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+extern "C" asm void __dt__18fOpAcm_HIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_yr/d_a_e_yr/__dt__18fOpAcm_HIO_entry_cFv.s"
 }
@@ -1620,7 +1621,8 @@ asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_yr/d_a_e_yr/__dt__14mDoHIO_entry_cFv.s"
 }

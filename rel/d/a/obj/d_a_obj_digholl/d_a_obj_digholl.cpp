@@ -1,6 +1,6 @@
 /**
- * d_a_obj_digholl.cpp
- * Object - Dig Hole
+ * @file d_a_obj_digholl.cpp
+ * @brief Object - Dig Hole
  */
 
 #include "rel/d/a/obj/d_a_obj_digholl/d_a_obj_digholl.h"

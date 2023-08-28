@@ -29,8 +29,4 @@ class daObj_Mie_Param_c {
     static u8 const m[44];
 };
 
-class daNpc_Pouya_c : public fopAc_ac_c {
-    /* 80AAE8E8 */ void getType();
-};
-
 #endif /* D_A_OBJ_MIE_H */

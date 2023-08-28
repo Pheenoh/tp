@@ -41,8 +41,4 @@ class daPoFire_HIO_c {
     /* 80CB3D24 */ ~daPoFire_HIO_c();
 };
 
-class daPoCandle_c : public fopAc_ac_c {
-    /* 80CB3E3C */ void getFirePos();
-};
-
 #endif /* D_A_OBJ_POFIRE_H */

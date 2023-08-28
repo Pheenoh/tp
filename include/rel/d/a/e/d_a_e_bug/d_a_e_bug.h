@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class bug_s {
+struct bug_s {
     /* 80697B4C */ ~bug_s();
     /* 80697BB8 */ bug_s();
 };

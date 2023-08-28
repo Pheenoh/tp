@@ -23,6 +23,4 @@ class daObjTobyHouse_c : public fopAc_ac_c {
     /* 80D174F8 */ void Delete();
 };
 
-class camera_class : public fopAc_ac_c {};
-
 #endif /* D_A_OBJ_TOBYHOUSE_H */

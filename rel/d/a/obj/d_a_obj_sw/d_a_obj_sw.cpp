@@ -7,38 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct obj_sc_s {
-    /* 80CF2F3C */ ~obj_sc_s();
-    /* 80CF2FA8 */ obj_sc_s();
-};
-
-struct ResTIMG {};
-
-struct mDoCPd_c {
-    static u8 m_cpadInfo[256];
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180BA0 */ void Reset(cXyz, cXyz, f32, s16);
-};
-
-//
 // Forward References:
 //
 

@@ -7,15 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct ClothJoint_c {
-    /* 80595B9C */ ~ClothJoint_c();
-    /* 80595CA8 */ ClothJoint_c();
-};
-
-//
 // Forward References:
 //
 

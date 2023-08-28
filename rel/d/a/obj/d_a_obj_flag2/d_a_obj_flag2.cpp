@@ -8,25 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-
-struct FlagCloth_c {
-    /* 80BEC658 */ void initFlagPos(cXyz*, fopAc_ac_c*);
-    /* 80BEC7CC */ void calcFlagFactor(cXyz*, cXyz*, cXyz*, int);
-    /* 80BEC928 */ void calcFlagFactorSub(cXyz*, cXyz*, cXyz*, f32);
-    /* 80BECAE0 */ void calcFlagNormal(cXyz*, int);
-    /* 80BECC34 */ void calcFlagNormalBack();
-    /* 80BECC78 */ void initCcSphere(fopAc_ac_c*);
-    /* 80BECCE4 */ void setCcSphere();
-    /* 80BECD98 */ void execute();
-    /* 80BECF30 */ void draw();
-    /* 80BED9C4 */ ~FlagCloth_c();
-    /* 80BEE0B8 */ void getTargetPos();
-};
-
-//
 // Forward References:
 //
 

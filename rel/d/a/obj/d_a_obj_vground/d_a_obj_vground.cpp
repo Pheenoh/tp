@@ -1,6 +1,6 @@
 /**
- * d_a_obj_vground.cpp
- * Object - Volcano Ground
+ * @file d_a_obj_vground.cpp
+ * @brief Object - Volcano Ground
  */
 
 #include "rel/d/a/obj/d_a_obj_vground/d_a_obj_vground.h"

@@ -1,6 +1,6 @@
 /**
- * d_a_obj_cboard.cpp
- * Clear (Invisible) Wall
+ * @file d_a_obj_cboard.cpp
+ * @brief Clear (Invisible) Wall
  */
 
 #include "rel/d/a/obj/d_a_obj_cboard/d_a_obj_cboard.h"

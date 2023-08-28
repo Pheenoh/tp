@@ -7,15 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct wf_tail_s {
-    /* 80D37720 */ ~wf_tail_s();
-    /* 80D377F0 */ wf_tail_s();
-};
-
-//
 // Forward References:
 //
 

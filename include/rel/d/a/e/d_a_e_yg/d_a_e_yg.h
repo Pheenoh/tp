@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class yg_ke_s {
+struct yg_ke_s {
     /* 807FBE70 */ ~yg_ke_s();
     /* 807FBEEC */ yg_ke_s();
 };

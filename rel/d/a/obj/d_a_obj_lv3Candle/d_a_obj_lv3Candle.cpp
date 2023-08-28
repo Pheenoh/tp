@@ -7,19 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoHIO_entry_c {
-    /* 80C57AF0 */ ~mDoHIO_entry_c();
-};
-
-struct dPa_control_c {
-    /* 8004D1B8 */ void setSimple(u16, cXyz const*, dKy_tevstr_c const*, u8, _GXColor const&,
-                                  _GXColor const&, int, f32);
-};
-
-//
 // Forward References:
 //
 
@@ -190,7 +177,8 @@ asm daLv3Candle_HIO_c::daLv3Candle_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_lv3Candle/d_a_obj_lv3Candle/__dt__14mDoHIO_entry_cFv.s"
 }

@@ -27,8 +27,4 @@ class daObjKznkarm_c : public fopAc_ac_c {
     static u8 ActionTable[96];
 };
 
-class daObjKazeNeko_c : public fopAc_ac_c {
-    /* 80C3CC40 */ void getFirstVec(cXyz*, int);
-};
-
 #endif /* D_A_OBJ_KZNKARM_H */

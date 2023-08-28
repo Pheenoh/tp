@@ -1,6 +1,6 @@
 /**
- * d_a_obj_digplace.cpp
- * Generic Wolf Digging Spots
+ * @file d_a_obj_digplace.cpp
+ * @brief Generic Wolf Digging Spots
  */
 
 #include "rel/d/a/obj/d_a_obj_digplace/d_a_obj_digplace.h"

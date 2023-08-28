@@ -2336,7 +2336,8 @@ asm daMyna_HIO_c::~daMyna_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/d_a_myna/d_a_myna/__dt__14mDoHIO_entry_cFv.s"
 }

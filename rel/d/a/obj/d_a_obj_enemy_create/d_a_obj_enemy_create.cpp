@@ -1,6 +1,6 @@
-/*
- * d_a_obj_enemy_create.cpp
- * Enemy spawner
+/**
+ * @file d_a_obj_enemy_create.cpp
+ * @brief Enemy spawner
  */
 
 #include "rel/d/a/obj/d_a_obj_enemy_create/d_a_obj_enemy_create.h"

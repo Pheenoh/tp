@@ -8,10 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-//
 // Forward References:
 //
 

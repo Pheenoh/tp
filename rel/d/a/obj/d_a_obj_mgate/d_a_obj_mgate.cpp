@@ -1,6 +1,6 @@
 /**
- * d_a_obj_mgate.cpp
- * Ordon Spring / Bridge Gates
+ * @file d_a_obj_mgate.cpp
+ * @brief Ordon Spring / Bridge Gates
  */
 
 #include "rel/d/a/obj/d_a_obj_mgate/d_a_obj_mgate.h"

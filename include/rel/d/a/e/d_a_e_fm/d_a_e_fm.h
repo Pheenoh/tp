@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
-class chain_s {
+struct chain_s {
     /* 804F9E14 */ ~chain_s();
     /* 804F9F14 */ chain_s();
 };

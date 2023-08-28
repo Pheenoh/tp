@@ -24,6 +24,7 @@ class daPoCandle_c : public fopAc_ac_c {
     /* 80CB2388 */ void Draw();
     /* 80CB242C */ void Delete();
     /* 80CB2610 */ ~daPoCandle_c();
+    void getFirePos();
 };
 
 class daPoCandle_HIO_c {

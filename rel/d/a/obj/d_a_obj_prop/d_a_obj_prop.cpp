@@ -1,6 +1,6 @@
 /**
- * d_a_obj_prop.cpp
- * Object - Propeller
+ * @file d_a_obj_prop.cpp
+ * @brief Object - Propeller
 */
 
 #include "rel/d/a/obj/d_a_obj_prop/d_a_obj_prop.h"

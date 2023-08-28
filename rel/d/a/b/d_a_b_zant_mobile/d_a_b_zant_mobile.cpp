@@ -505,7 +505,8 @@ asm void daB_ZANTZ_c::getGroundPos() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_zant_mobile/d_a_b_zant_mobile/__dt__14dBgS_ObjGndChkFv.s"
 }

@@ -4,34 +4,12 @@
 //
 
 #include "rel/d/a/obj/d_a_obj_poFire/d_a_obj_poFire.h"
+#include "rel/d/a/obj/d_a_obj_poCandle/d_a_obj_poCandle.h"
 #include "dol2asm.h"
 
 //
 // Types:
 //
-
-struct mDoHIO_entry_c {
-    /* 80CB29C4 */ ~mDoHIO_entry_c();
-};
-
-struct dSv_player_get_item_c {
-    /* 80033E94 */ void offFirstBit(u8);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B8B4 */ void forceOnEventMove(u32);
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-
-    static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
 
 struct dEvLib_callback_c {
     /* 8004886C */ void eventUpdate();
@@ -40,27 +18,6 @@ struct dEvLib_callback_c {
     /* 80CB3E24 */ bool eventStart();
     /* 80CB3E2C */ bool eventRun();
     /* 80CB3E34 */ bool eventEnd();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct dAttCatch_c {
-    /* 80073A08 */ void request(fopAc_ac_c*, u8, f32, f32, f32, s16, int);
-};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct JPABaseEmitter {
-    /* 8027EC60 */ void deleteAllParticle();
 };
 
 //
@@ -424,7 +381,8 @@ asm daPoFire_HIO_c::daPoFire_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_poFire/d_a_obj_poFire/__dt__14mDoHIO_entry_cFv.s"
 }

@@ -8,18 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_memBit_c {
-    /* 80034934 */ void isDungeonItem(int) const;
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-};
-
-//
 // Forward References:
 //
 

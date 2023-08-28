@@ -8,26 +8,6 @@
 #include "f_op/f_op_actor_mng.h"
 #include "d/com/d_com_inf_game.h"
 #include "d/d_item_data.h"
-#include "d/a/d_a_itembase_static.h"
-
-//
-// Types:
-//
-
-
-
-class daObjZCloth_c : public daItemBase_c {
-public:
-    /* 80D3EE18 */ void initBaseMtx();
-    /* 80D3EE54 */ void setBaseMtx();
-    /* 80D3EEC0 */ int Create();
-    /* 80D3EF0C */ int create();
-    /* 80D3F1AC */ int execute();
-    /* 80D3F1D0 */ int draw();
-    /* 80D3F200 */ int _delete();
-};  // Size: 0x92C
-
-
 
 //
 // Forward References:

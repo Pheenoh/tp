@@ -8,12 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct ResTIMG {};
-
-//
 // Forward References:
 //
 

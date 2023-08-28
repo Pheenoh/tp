@@ -5,11 +5,6 @@
 #include "f_op/f_op_actor_mng.h"
 #include "d/cc/d_cc_d.h"
 
-class daTag_EvtArea_c : public fopAc_ac_c {
-    /* 80CD5C88 */ void chkPointInArea(cXyz);
-    /* 8048C94C */ void chkPointInArea(cXyz, cXyz);
-};
-
 class daNpcT_faceMotionAnmData_c : public fopAc_ac_c {};
 
 class daNpcT_MotionSeqMngr_c : public fopAc_ac_c {

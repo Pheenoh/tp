@@ -6,7 +6,7 @@
 #include "d/cc/d_cc_uty.h"
 #include "f_op/f_op_actor_mng.h"
 
-class himo_s {
+struct himo_s {
     /* 807E1CCC */ ~himo_s();
     /* 807E1D2C */ himo_s();
 };

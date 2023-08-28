@@ -10,63 +10,11 @@
 // Types:
 //
 
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dScissorEnd_packet_c {
-    /* 80C96DE8 */ void draw();
-    /* 80C97F3C */ ~dScissorEnd_packet_c();
-};
-
-struct dScissorBegin_packet_c {
-    /* 80C96698 */ void draw();
-    /* 80C97F98 */ ~dScissorBegin_packet_c();
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dBgW_Base {};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
     /* 8007B9C0 */ void Move();
     /* 80C97CC4 */ ~dBgW();
 };
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgD_t {};
-
-struct cBgW {
-    /* 8007933C */ ~cBgW();
-    /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
-};
-
 
 //
 // Forward References:
@@ -236,7 +184,8 @@ static u8 l_scissor[16];
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dScissorBegin_packet_c::draw() {
+// asm void dScissorBegin_packet_c::draw() {
+extern "C" asm void draw__22dScissorBegin_packet_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/mirror/d_a_obj_mirror_chain/d_a_obj_mirror_chain/draw__22dScissorBegin_packet_cFv.s"
 }
@@ -257,7 +206,8 @@ extern "C" asm void __dt__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dScissorEnd_packet_c::draw() {
+// asm void dScissorEnd_packet_c::draw() {
+extern "C" asm void draw__20dScissorEnd_packet_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/mirror/d_a_obj_mirror_chain/d_a_obj_mirror_chain/draw__20dScissorEnd_packet_cFv.s"
 }
@@ -532,7 +482,8 @@ static asm void daObjMirrorChain_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dScissorEnd_packet_c::~dScissorEnd_packet_c() {
+// asm dScissorEnd_packet_c::~dScissorEnd_packet_c() {
+extern "C" asm void __dt__20dScissorEnd_packet_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/mirror/d_a_obj_mirror_chain/d_a_obj_mirror_chain/__dt__20dScissorEnd_packet_cFv.s"
 }
@@ -542,7 +493,8 @@ asm dScissorEnd_packet_c::~dScissorEnd_packet_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dScissorBegin_packet_c::~dScissorBegin_packet_c() {
+// asm dScissorBegin_packet_c::~dScissorBegin_packet_c() {
+extern "C" asm void __dt__22dScissorBegin_packet_cFv() {
     nofralloc
 #include "asm/rel/d/a/obj/mirror/d_a_obj_mirror_chain/d_a_obj_mirror_chain/__dt__22dScissorBegin_packet_cFv.s"
 }

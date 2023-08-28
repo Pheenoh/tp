@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct sq_cp_s {
+    /* 80C449F8 */ ~sq_cp_s();
+    /* 80C44A58 */ sq_cp_s();
+};
+
 class obj_ki_class : public fopAc_ac_c {};
 
 class daObj_Ki_HIO_c {

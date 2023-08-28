@@ -10,57 +10,7 @@
 // Types:
 //
 
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_levelEcallBack {
-    /* 80C9E788 */ void cleanup();
-    /* 80C9E820 */ ~dPa_levelEcallBack();
-};
-
-struct dPa_followEcallBack {
-    /* 80049580 */ dPa_followEcallBack(u8, u8);
-    /* 80C9E704 */ ~dPa_followEcallBack();
-    /* 80C9E78C */ void __defctor();
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
 struct dBgW {};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS_MoveBgActor {
-    /* 80078624 */ dBgS_MoveBgActor();
-    /* 800786B0 */ bool IsDelete();
-    /* 800786B8 */ bool ToFore();
-    /* 800786C0 */ bool ToBack();
-    /* 800787BC */ void MoveBGCreate(char const*, int,
-                                     void (*)(dBgW*, void*, cBgS_PolyInfo const&, bool, cXyz*,
-                                              csXyz*, csXyz*),
-                                     u32, f32 (*)[3][4]);
-    /* 800788DC */ void MoveBGDelete();
-    /* 80078950 */ void MoveBGExecute();
-};
-
-struct JPABaseEmitter {};
-
-struct JPAEmitterCallBack {
-    /* 8027E6A4 */ ~JPAEmitterCallBack();
-    /* 80C9E894 */ void execute(JPABaseEmitter*);
-    /* 80C9E898 */ void executeAfter(JPABaseEmitter*);
-    /* 80C9E89C */ void draw(JPABaseEmitter*);
-    /* 80C9E8A0 */ void drawAfter(JPABaseEmitter*);
-};
 
 //
 // Forward References:
@@ -722,14 +672,16 @@ extern "C" asm void __ct__4cXyzFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_followEcallBack::~dPa_followEcallBack() {
+// asm dPa_followEcallBack::~dPa_followEcallBack() {
+extern "C" asm void __dt__19dPa_followEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_mvstair/d_a_obj_mvstair/__dt__19dPa_followEcallBackFv.s"
 }
 #pragma pop
 
 /* 80C9E788-80C9E78C 001768 0004+00 1/0 0/0 0/0 .text            cleanup__18dPa_levelEcallBackFv */
-void dPa_levelEcallBack::cleanup() {
+// void dPa_levelEcallBack::cleanup() {
+extern "C" asm void cleanup__18dPa_levelEcallBackFv() {
     /* empty function */
 }
 
@@ -738,7 +690,8 @@ void dPa_levelEcallBack::cleanup() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dPa_followEcallBack::__defctor() {
+// asm void dPa_followEcallBack::__defctor() {
+extern "C" asm void __defctor__19dPa_followEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_mvstair/d_a_obj_mvstair/__defctor__19dPa_followEcallBackFv.s"
 }
@@ -779,7 +732,8 @@ static asm void daObjStair_MoveBGDraw(daObjStair_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+// asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+extern "C" asm void __dt__18dPa_levelEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_mvstair/d_a_obj_mvstair/__dt__18dPa_levelEcallBackFv.s"
 }
@@ -787,25 +741,29 @@ asm dPa_levelEcallBack::~dPa_levelEcallBack() {
 
 /* 80C9E894-80C9E898 001874 0004+00 1/0 0/0 0/0 .text
  * execute__18JPAEmitterCallBackFP14JPABaseEmitter              */
-void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+extern "C" asm void execute__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80C9E898-80C9E89C 001878 0004+00 1/0 0/0 0/0 .text
  * executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter         */
-void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+extern "C" asm void executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80C9E89C-80C9E8A0 00187C 0004+00 1/0 0/0 0/0 .text draw__18JPAEmitterCallBackFP14JPABaseEmitter
  */
-void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+extern "C" asm void draw__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80C9E8A0-80C9E8A4 001880 0004+00 1/0 0/0 0/0 .text
  * drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter            */
-void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+extern "C" asm void drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 

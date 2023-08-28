@@ -5,10 +5,6 @@
 #include "f_op/f_op_actor_mng.h"
 #include "d/d_model.h"
 
-class daObjSwChain_c : public fopAc_ac_c {
-    /* 80C665A4 */ void checkTight();
-};
-
 class daObjLv4Chan_c : public fopAc_ac_c {
     struct ChainPos {
         /* 80C66564 */ ~ChainPos();

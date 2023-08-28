@@ -811,7 +811,8 @@ asm daE_SM2_HIO_c::daE_SM2_HIO_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+// asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
+extern "C" asm void __dt__18fOpAcm_HIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_sm2/d_a_e_sm2/__dt__18fOpAcm_HIO_entry_cFv.s"
 }
@@ -821,7 +822,8 @@ asm fOpAcm_HIO_entry_c::~fOpAcm_HIO_entry_c() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+// asm mDoHIO_entry_c::~mDoHIO_entry_c() {
+extern "C" asm void __dt__14mDoHIO_entry_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_sm2/d_a_e_sm2/__dt__14mDoHIO_entry_cFv.s"
 }
@@ -1538,7 +1540,8 @@ static asm void action(e_sm2_class* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+// asm dBgS_ObjGndChk::~dBgS_ObjGndChk() {
+extern "C" asm void __dt__14dBgS_ObjGndChkFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_sm2/d_a_e_sm2/__dt__14dBgS_ObjGndChkFv.s"
 }
@@ -1860,7 +1863,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_sm2/d_a_e_sm2/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -1870,7 +1874,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_sm2/d_a_e_sm2/__dt__12dBgS_AcchCirFv.s"
 }

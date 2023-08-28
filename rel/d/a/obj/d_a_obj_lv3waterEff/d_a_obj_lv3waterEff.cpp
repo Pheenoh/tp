@@ -1,6 +1,6 @@
 /**
- * d_a_obj_lv3waterEff.cpp
- * Lakebed Temple Pre-Deku Toad Room Water Bubbles
+ * @file d_a_obj_lv3waterEff.cpp
+ * @brief Lakebed Temple Pre-Deku Toad Room Water Bubbles
  */
 
 #include "rel/d/a/obj/d_a_obj_lv3waterEff/d_a_obj_lv3waterEff.h"

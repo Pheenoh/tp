@@ -8,14 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct daObj {
-    /* 80037900 */ void HitSeStart(cXyz const*, int, dCcD_GObjInf const*, u32);
-};
-
-//
 // Forward References:
 //
 

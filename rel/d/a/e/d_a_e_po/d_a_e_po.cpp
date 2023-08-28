@@ -3182,7 +3182,8 @@ asm e_po_class::e_po_class() {
 #pragma pop
 
 /* 80756B00-80756B04 00A6A0 0004+00 1/0 0/0 0/0 .text            cleanup__18dPa_levelEcallBackFv */
-void dPa_levelEcallBack::cleanup() {
+// void dPa_levelEcallBack::cleanup() {
+extern "C" asm void cleanup__18dPa_levelEcallBackFv() {
     /* empty function */
 }
 
@@ -3190,7 +3191,8 @@ void dPa_levelEcallBack::cleanup() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+// asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+extern "C" asm void __dt__18dPa_levelEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_po/d_a_e_po/__dt__18dPa_levelEcallBackFv.s"
 }
@@ -3244,7 +3246,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_po/d_a_e_po/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -3254,7 +3257,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_po/d_a_e_po/__dt__12dBgS_AcchCirFv.s"
 }
@@ -3279,7 +3283,8 @@ extern "C" asm void __dt__10cCcD_GSttsFv() {
 
 /* 80756DD8-80756DDC 00A978 0004+00 2/0 0/0 0/0 .text
  * execute__18JPAEmitterCallBackFP14JPABaseEmitter              */
-void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) { 
+extern "C" asm void execute__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 

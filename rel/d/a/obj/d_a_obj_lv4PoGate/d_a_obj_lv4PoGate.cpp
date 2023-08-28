@@ -1,6 +1,6 @@
 /**
- * d_a_obj_lv4PoGate.cpp
- * Arbiter's Grounds Poe Gate
+ * @file d_a_obj_lv4PoGate.cpp
+ * @brief Arbiter's Grounds Poe Gate
  */
 
 #include "rel/d/a/obj/d_a_obj_lv4PoGate/d_a_obj_lv4PoGate.h"

@@ -16,8 +16,4 @@ class daObjKazeNeko_c : public fopAc_ac_c {
     static u8 const M_attr[44];
 };
 
-class daNPC_TK_c : public fopAc_ac_c {
-    /* 80B0A568 */ void endHawkCamera();
-};
-
 #endif /* D_A_OBJ_KAZENEKO_H */

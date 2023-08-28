@@ -10,76 +10,6 @@
 // Types:
 //
 
-// struct request_of_phase_process_class {};
-
-// struct mDoMtx_stack_c {
-//     /* 8000CD9C */ void transM(f32, f32, f32);
-
-//     static u8 now[48];
-// };
-
-// struct J3DMaterialTable {};
-
-// struct J3DAnmTextureSRTKey {};
-
-// struct mDoExt_btkAnm {
-//     /* 8000D63C */ void init(J3DMaterialTable*, J3DAnmTextureSRTKey*, int, int, f32, s16, s16);
-//     /* 8000D6D8 */ void entry(J3DMaterialTable*, f32);
-// };
-
-// struct mDoExt_baseAnm {
-//     /* 8000D428 */ void play();
-// };
-
-// struct fopAc_ac_c {
-//     /* 80018B64 */ fopAc_ac_c();
-//     /* 80018C8C */ ~fopAc_ac_c();
-// };
-
-// struct daObjSwBallB_c {
-//     /* 80CF466C */ void checkArea_sub(fopAc_ac_c*);
-//     /* 80CF47BC */ void search_ball();
-//     /* 80CF496C */ void initBaseMtx();
-//     /* 80CF498C */ void setBaseMtx();
-//     /* 80CF49F0 */ void Create();
-//     /* 80CF4B74 */ void CreateHeap();
-//     /* 80CF4CE8 */ void create();
-//     /* 80CF4E08 */ void execute();
-//     /* 80CF4EB8 */ void actionRun();
-//     /* 80CF5384 */ void actionStop();
-//     /* 80CF5388 */ void PutCrrPos();
-//     /* 80CF56A4 */ void draw();
-//     /* 80CF582C */ void _delete();
-//     /* 80CF5940 */ ~daObjSwBallB_c();
-// };
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 800352B0 */ void offSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-};
-
-// struct dKy_tevstr_c {};
-
-// struct J3DModelData {};
-
-// struct cXyz {};
-
-// struct dScnKy_env_light_c {
-//     /* 801A37C4 */ void settingTevStruct(int, cXyz*, dKy_tevstr_c*);
-//     /* 801A4DA0 */ void setLightTevColorType_MAJI(J3DModelData*, dKy_tevstr_c*);
-// };
-
-struct dRes_info_c {};
-
-struct dRes_control_c {
-    /* 8003C2EC */ void getRes(char const*, s32, dRes_info_c*, int);
-};
-
 struct dEvLib_callback_c {
     /* 8004886C */ void eventUpdate();
     /* 80048940 */ void orderEvent(int, int, int);
@@ -88,26 +18,6 @@ struct dEvLib_callback_c {
     /* 80CF5930 */ bool eventRun();
     /* 80CF5938 */ bool eventEnd();
 };
-
-// struct JAISoundID {};
-
-// struct Vec {};
-
-// struct Z2SeMgr {
-//     /* 802AB984 */ void seStart(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-//     /* 802AC50C */ void seStartLevel(JAISoundID, Vec const*, u32, s8, f32, f32, f32, f32, u8);
-// };
-
-// struct Z2AudioMgr {
-//     static u8 mAudioMgrPtr[4 + 4 /* padding */];
-// };
-
-// struct J3DModel {};
-
-// struct J3DFrameCtrl {
-//     /* 803283FC */ void init(s16);
-//     /* 80CF4CA0 */ ~J3DFrameCtrl();
-// };
 
 //
 // Forward References:

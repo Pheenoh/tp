@@ -1,6 +1,6 @@
-/*
- * d_a_obj_bombf.cpp
- * Bomb Flower
+/**
+ * @file d_a_obj_bombf.cpp
+ * @brief Bomb Flower
  */
 
 #include "rel/d/a/obj/d_a_obj_bombf/d_a_obj_bombf.h"

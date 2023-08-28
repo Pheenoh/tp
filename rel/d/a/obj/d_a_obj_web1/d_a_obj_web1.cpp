@@ -1,6 +1,6 @@
 /**
- * d_a_obj_web1.cpp
- * Spider Web (Floor)
+ * @file d_a_obj_web1.cpp
+ * @brief Spider Web (Floor)
  */
 
 #include "rel/d/a/obj/d_a_obj_web1/d_a_obj_web1.h"

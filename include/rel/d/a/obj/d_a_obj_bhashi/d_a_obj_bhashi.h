@@ -4,6 +4,16 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+class Hahen_c {
+    /* 80577794 */ Hahen_c();
+    /* 805777A4 */ void Wall_Check();
+    /* 80577868 */ void HahenMotion();
+    /* 80577C1C */ void CheckCull();
+    /* 80577DA4 */ void checkViewArea();
+    /* 80577FE0 */ void Roll_Set(cXyz*, f32, s16);
+    /* 80578744 */ ~Hahen_c();
+};
+
 class daObjBHASHI_c : public fopAc_ac_c {
     /* 80576A58 */ void initCcCylinder();
     /* 80576AC4 */ void setCcCylinder();

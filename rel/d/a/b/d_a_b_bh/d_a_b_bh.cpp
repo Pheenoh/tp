@@ -1144,7 +1144,8 @@ static asm void daB_BH_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bh/d_a_b_bh/__dt__12dBgS_ObjAcchFv.s"
 }

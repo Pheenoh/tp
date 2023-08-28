@@ -11,34 +11,7 @@
 // Types:
 //
 
-struct dMdl_obj_c {
-    /* 8058C32C */ dMdl_obj_c();
-};
-
-struct dMdl_mng_c {
-    /* 8009C8D8 */ void entry(J3DModelData*, u16, int);
-};
-
-struct dMdl_c {
-    /* 8009C668 */ void entryObj(dMdl_obj_c*);
-};
-
 struct dBgW {};
-
-struct cBgS_PolyInfo {};
-
-struct dBgS_MoveBgActor {
-    /* 80078624 */ dBgS_MoveBgActor();
-    /* 800786B0 */ bool IsDelete();
-    /* 800786B8 */ bool ToFore();
-    /* 800786C0 */ bool ToBack();
-    /* 800787BC */ void MoveBGCreate(char const*, int,
-                                     void (*)(dBgW*, void*, cBgS_PolyInfo const&, bool, cXyz*,
-                                              csXyz*, csXyz*),
-                                     u32, f32 (*)[3][4]);
-    /* 800788DC */ void MoveBGDelete();
-    /* 80078950 */ void MoveBGExecute();
-};
 
 //
 // Forward References:

@@ -8,97 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoGph_gInf_c {
-    /* 80008028 */ void fadeOut_f(f32, _GXColor&);
-};
-
-struct dTres_c {
-    /* 8009C3CC */ void setPosition(int, u8, Vec const*, int);
-};
-
-struct dSv_memBit_c {
-    /* 800347A0 */ void onTbox(int);
-    /* 800347E8 */ void isTbox(int) const;
-    /* 80034810 */ void onSwitch(int);
-};
-
-struct dSv_light_drop_c {
-    /* 80034320 */ void setLightDropNum(u8, u8);
-    /* 80034340 */ void getLightDropNum(u8) const;
-    /* 8003439C */ void isLightDropGetFlag(u8) const;
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-};
-
-struct dPa_levelEcallBack {
-    /* 80BE02AC */ void cleanup();
-    /* 80BE1E6C */ ~dPa_levelEcallBack();
-};
-
-struct dPa_followEcallBack {
-    /* 80049580 */ dPa_followEcallBack(u8, u8);
-    /* 80BE0228 */ ~dPa_followEcallBack();
-    /* 80BE02B0 */ void __defctor();
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dCamera_c {
-    /* 80163028 */ void SetTrimTypeForce(s32);
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 80BE0148 */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 80BE01B8 */ ~dBgS_AcchCir();
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct JPABaseEmitter {};
-
-struct JPAEmitterCallBack {
-    /* 8027E6A4 */ ~JPAEmitterCallBack();
-    /* 80BE1EE0 */ void execute(JPABaseEmitter*);
-    /* 80BE1EE4 */ void executeAfter(JPABaseEmitter*);
-    /* 80BE1EE8 */ void draw(JPABaseEmitter*);
-    /* 80BE1EEC */ void drawAfter(JPABaseEmitter*);
-};
-
-//
 // Forward References:
 //
 
@@ -557,7 +466,8 @@ extern "C" asm void __dt__10dCcD_GSttsFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+// asm dBgS_ObjAcch::~dBgS_ObjAcch() {
+extern "C" asm void __dt__12dBgS_ObjAcchFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__dt__12dBgS_ObjAcchFv.s"
 }
@@ -567,7 +477,8 @@ asm dBgS_ObjAcch::~dBgS_ObjAcch() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dBgS_AcchCir::~dBgS_AcchCir() {
+// asm dBgS_AcchCir::~dBgS_AcchCir() {
+extern "C" asm void __dt__12dBgS_AcchCirFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__dt__12dBgS_AcchCirFv.s"
 }
@@ -577,14 +488,16 @@ asm dBgS_AcchCir::~dBgS_AcchCir() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_followEcallBack::~dPa_followEcallBack() {
+// asm dPa_followEcallBack::~dPa_followEcallBack() {
+extern "C" asm void __dt__19dPa_followEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__dt__19dPa_followEcallBackFv.s"
 }
 #pragma pop
 
 /* 80BE02AC-80BE02B0 00064C 0004+00 1/0 0/0 0/0 .text            cleanup__18dPa_levelEcallBackFv */
-void dPa_levelEcallBack::cleanup() {
+// void dPa_levelEcallBack::cleanup() {
+extern "C" asm void cleanup__18dPa_levelEcallBackFv() {
     /* empty function */
 }
 
@@ -593,7 +506,8 @@ void dPa_levelEcallBack::cleanup() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dPa_followEcallBack::__defctor() {
+// asm void dPa_followEcallBack::__defctor() {
+extern "C" asm void __defctor__19dPa_followEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__defctor__19dPa_followEcallBackFv.s"
 }
@@ -1055,7 +969,8 @@ static asm void daObjDrop_Create(fopAc_ac_c* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+// asm dPa_levelEcallBack::~dPa_levelEcallBack() {
+extern "C" asm void __dt__18dPa_levelEcallBackFv() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_drop/d_a_obj_drop/__dt__18dPa_levelEcallBackFv.s"
 }
@@ -1063,25 +978,29 @@ asm dPa_levelEcallBack::~dPa_levelEcallBack() {
 
 /* 80BE1EE0-80BE1EE4 002280 0004+00 1/0 0/0 0/0 .text
  * execute__18JPAEmitterCallBackFP14JPABaseEmitter              */
-void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::execute(JPABaseEmitter* param_0) { 
+extern "C" asm void execute__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80BE1EE4-80BE1EE8 002284 0004+00 1/0 0/0 0/0 .text
  * executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter         */
-void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::executeAfter(JPABaseEmitter* param_0) {
+extern "C" asm void executeAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80BE1EE8-80BE1EEC 002288 0004+00 1/0 0/0 0/0 .text draw__18JPAEmitterCallBackFP14JPABaseEmitter
  */
-void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::draw(JPABaseEmitter* param_0) {
+extern "C" asm void draw__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 
 /* 80BE1EEC-80BE1EF0 00228C 0004+00 1/0 0/0 0/0 .text
  * drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter            */
-void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+// void JPAEmitterCallBack::drawAfter(JPABaseEmitter* param_0) {
+extern "C" asm void drawAfter__18JPAEmitterCallBackFP14JPABaseEmitter() {
     /* empty function */
 }
 

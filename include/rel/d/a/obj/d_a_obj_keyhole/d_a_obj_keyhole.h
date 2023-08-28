@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct kh_chain_s {
+    /* 80C436A0 */ ~kh_chain_s();
+    /* 80C437A4 */ kh_chain_s();
+};
+
 class obj_keyhole_class : public fopAc_ac_c {};
 
 class daObj_Keyhole_HIO_c {

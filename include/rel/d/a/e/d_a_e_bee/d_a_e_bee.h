@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-class bee_s {
+struct bee_s {
     /* 806852FC */ ~bee_s();
     /* 80685368 */ bee_s();
 };

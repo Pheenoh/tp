@@ -40,8 +40,4 @@ class daObjIceBlk_c : public fopAc_ac_c {
     /* 80C23DA8 */ void Delete();
 };
 
-class daMirror_c : public fopAc_ac_c {
-    /* 8003194C */ void entry(J3DModel*);
-};
-
 #endif /* D_A_OBJ_ICEBLOCK_H */

@@ -7,118 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-    /* 8006FE5C */ void CheckQuake();
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_danBit_c {
-    /* 80034B98 */ void onSwitch(int);
-    /* 80034BE8 */ void isSwitch(int) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-    /* 8004D6A4 */ void setPoly(u32, u16, cBgS_PolyInfo&, cXyz const*, dKy_tevstr_c const*,
-                                csXyz const*, cXyz const*, int, dPa_levelEcallBack*, s8,
-                                cXyz const*);
-};
-
-struct dBgS_AcchCir {
-    /* 80075F58 */ void SetWall(f32, f32);
-};
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct dBgS_Acch {
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct dPaPo_c {
-    /* 80050C9C */ void init(dBgS_Acch*, f32, f32);
-    /* 80051008 */ void setEffectCenter(dKy_tevstr_c const*, cXyz const*, u32, u32, cXyz const*,
-                                        csXyz const*, cXyz const*, s8, f32, f32);
-};
-
-struct dMsgObject_c {
-    /* 8023819C */ void getActor();
-    /* 802383A4 */ void isMouthCheck();
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180BA0 */ void Reset(cXyz, cXyz, f32, s16);
-    /* 80180C18 */ void Reset(cXyz, cXyz);
-    /* 80181E64 */ void Eye();
-    /* 80181E98 */ void Center();
-};
-
-struct dBgS_LinkLinChk {
-    /* 80078030 */ dBgS_LinkLinChk();
-    /* 8007808C */ ~dBgS_LinkLinChk();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dAttention_c {
-    /* 80C0F590 */ void getDistTable(int);
-
-    static u8 dist_table[6552];
-};
-
-struct cSGlobe {
-    /* 80271880 */ cSGlobe(cXyz const&);
-};
-
-struct cSAngle {
-    /* 80270F68 */ cSAngle(cSAngle const&);
-    /* 80270F98 */ cSAngle(s16);
-    /* 802710E8 */ void Inv() const;
-    /* 80271228 */ void operator-(s16) const;
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267C1C */ cBgS_GndChk();
-    /* 80267C94 */ ~cBgS_GndChk();
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 80074618 */ void GetActorPointer(int) const;
-};
-
-//
 // Forward References:
 //
 
@@ -4571,7 +4459,8 @@ asm void daObj_GrA_c::chkFindPlayer2(int param_0, s16 param_1) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dAttention_c::getDistTable(int param_0) {
+// asm void dAttention_c::getDistTable(int param_0) {
+extern "C" asm void getDistTable__12dAttention_cFi() {
     nofralloc
 #include "asm/rel/d/a/obj/d_a_obj_gra2/d_a_obj_gra2/getDistTable__12dAttention_cFi.s"
 }

@@ -8,18 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dBomb_c {
-    /* 80031FF4 */ void checkWaterBomb(fopAc_ac_c*);
-};
-
-//
 // Forward References:
 //
 

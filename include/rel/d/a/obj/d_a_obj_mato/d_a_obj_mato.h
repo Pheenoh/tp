@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
+struct MatoData_s {
+    /* 80C92924 */ ~MatoData_s();
+    /* 80C92A50 */ MatoData_s();
+};
+
 class daObjMATO_c : public fopAc_ac_c {
     /* 80C91B58 */ void setAction(void (daObjMATO_c::*)(int), int);
     /* 80C91D48 */ void action();

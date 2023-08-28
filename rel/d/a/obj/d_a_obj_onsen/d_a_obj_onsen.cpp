@@ -1,6 +1,6 @@
 /**
- * d_a_obj_onsen.cpp
- * Object - Hot Spring
+ * @file d_a_obj_onsen.cpp
+ * @brief Object - Hot Spring
  */
 
 #include "rel/d/a/obj/d_a_obj_onsen/d_a_obj_onsen.h"

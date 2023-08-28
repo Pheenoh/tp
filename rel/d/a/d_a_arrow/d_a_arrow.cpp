@@ -1273,7 +1273,8 @@ asm void daArrow_c::create() {
 #pragma pop
 
 /* 8049D808-8049D80C 003C88 0004+00 1/0 0/0 0/0 .text            cleanup__18dPa_levelEcallBackFv */
-void dPa_levelEcallBack::cleanup() {
+// void dPa_levelEcallBack::cleanup() {
+extern "C" asm void cleanup__18dPa_levelEcallBackFv() {
     /* empty function */
 }
 

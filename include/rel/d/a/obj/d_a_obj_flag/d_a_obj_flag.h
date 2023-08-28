@@ -4,7 +4,7 @@
 #include "dolphin/types.h"
 #include "f_op/f_op_actor_mng.h"
 
-struct FlagJoint_c {
+class FlagJoint_c {
     /* 80BEC3BC */ ~FlagJoint_c();
     /* 80BEC4E0 */ FlagJoint_c();
 };

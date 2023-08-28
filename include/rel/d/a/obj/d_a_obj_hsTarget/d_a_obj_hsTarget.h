@@ -4,6 +4,7 @@
 #include "d/bg/d_bg_s_movebg_actor.h"
 #include "f_op/f_op_actor_mng.h"
 #include "m_Do/m_Do_hostIO.h"
+
 class daHsTarget_c : public dBgS_MoveBgActor {
 public:
     /* 80C1F490 */ void setBaseMtx();

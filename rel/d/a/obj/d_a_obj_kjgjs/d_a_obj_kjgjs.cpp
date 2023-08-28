@@ -1,6 +1,6 @@
 /**
- * d_a_obj_kjgjs.cpp
- * Object - Kjgjs
+ * @file d_a_obj_kjgjs.cpp
+ * @brief Object - Kjgjs
  */
 
 #include "rel/d/a/obj/d_a_obj_kjgjs/d_a_obj_kjgjs.h"
