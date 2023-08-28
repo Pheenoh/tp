@@ -4,33 +4,8 @@
 //
 
 #include "rel/d/a/kytag/d_a_kytag03/d_a_kytag03.h"
+#include "d/d_path.h"
 #include "dol2asm.h"
-
-//
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPath {};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dCamera_c {
-    /* 80181E64 */ void Eye();
-};
-
-struct JPABaseEmitter {
-    /* 8027EC60 */ void deleteAllParticle();
-};
 
 //
 // Forward References:

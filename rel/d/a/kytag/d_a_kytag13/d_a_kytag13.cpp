@@ -7,39 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk_All {
-    /* 800778E8 */ ~dBgS_ObjGndChk_All();
-};
-
-struct dBgS_ObjGndChk {
-    /* 80860148 */ ~dBgS_ObjGndChk();
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-//
 // Forward References:
 //
 
