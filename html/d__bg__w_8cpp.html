@@ -89,10 +89,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="d__bg__w_8h_source.html">d/bg/d_bg_w.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__math_8h_source.html">SSystem/SComponent/c_math.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="c__bg__s__shdw__draw_8h_source.html">SSystem/SComponent/c_bg_s_shdw_draw.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__bg__s__sph__chk_8h_source.html">d/bg/d_bg_s_sph_chk.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__math_8h_source.html">SSystem/SComponent/c_math.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__bg__s__cap__poly_8h_source.html">d/bg/d_bg_s_cap_poly.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__s__sph__chk_8h_source.html">d/bg/d_bg_s_sph_chk.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__com__inf__game_8h_source.html">d/com/d_com_inf_game.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
@@ -506,8 +506,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3f61243ebf5cbb2ff90548d397b16772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abed5bd59c54272a132a5b4da4beff66d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#abed5bd59c54272a132a5b4da4beff66d">_restgpr_29</a> ()</td></tr>
 <tr class="separator:abed5bd59c54272a132a5b4da4beff66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0bb8c04167548ea735d0c496e6fc387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdBgW.html">dBgW</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#ab0bb8c04167548ea735d0c496e6fc387">dBgW_NewSet</a> (<a class="el" href="structcBgD__t.html">cBgD_t</a> *pbgd, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1, <a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> *pbase_mtx)</td></tr>
-<tr class="separator:ab0bb8c04167548ea735d0c496e6fc387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd2d501f4e90eae66199e5c61c98f32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classdBgW.html">dBgW</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__bg__w_8cpp.html#a1bd2d501f4e90eae66199e5c61c98f32">dBgW_NewSet</a> (<a class="el" href="structcBgD__t.html">cBgD_t</a> *pbgd, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> flags, <a class="el" href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a> *pbase_mtx)</td></tr>
+<tr class="separator:a1bd2d501f4e90eae66199e5c61c98f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -1894,8 +1894,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0bb8c04167548ea735d0c496e6fc387" name="ab0bb8c04167548ea735d0c496e6fc387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0bb8c04167548ea735d0c496e6fc387">&#9670;&#160;</a></span>dBgW_NewSet()</h2>
+<a id="a1bd2d501f4e90eae66199e5c61c98f32" name="a1bd2d501f4e90eae66199e5c61c98f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd2d501f4e90eae66199e5c61c98f32">&#9670;&#160;</a></span>dBgW_NewSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1910,7 +1910,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td>
-          <td class="paramname"><em>param_1</em>, </td>
+          <td class="paramname"><em>flags</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -3823,7 +3823,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__bg__w_8cpp_html_a9c0fb41037bfb8e5fb08c6f9b3225cb5"><div class="ttname"><a href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a></div><div class="ttdeci">void __dt__11cBgW_GrpElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:875</div></div>
+<div class="ttc" id="ad__bg__w_8cpp_html_a9c0fb41037bfb8e5fb08c6f9b3225cb5"><div class="ttname"><a href="d__bg__w_8cpp.html#a9c0fb41037bfb8e5fb08c6f9b3225cb5">__dt__11cBgW_GrpElmFv</a></div><div class="ttdeci">void __dt__11cBgW_GrpElmFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:880</div></div>
 <div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> stddef.h:12</div></div>
 </div><!-- fragment -->
 </div>
@@ -4026,7 +4026,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="ad__bg__w_8cpp_html_a9cbb9cdf4d72625aeb85146e4c7b1cb6"><div class="ttname"><a href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a></div><div class="ttdeci">void __dt__8cM3dGTriFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:932</div></div>
+<div class="ttc" id="ad__bg__w_8cpp_html_a9cbb9cdf4d72625aeb85146e4c7b1cb6"><div class="ttname"><a href="d__bg__w_8cpp.html#a9cbb9cdf4d72625aeb85146e4c7b1cb6">__dt__8cM3dGTriFv</a></div><div class="ttdeci">void __dt__8cM3dGTriFv()</div><div class="ttdef"><b>Definition:</b> d_bg_w.cpp:936</div></div>
 </div><!-- fragment -->
 </div>
 </div>

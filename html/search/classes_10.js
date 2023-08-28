@@ -7,7 +7,7 @@ var searchData=
   ['palette_5fe_4',['palette_e',['../structrenderingFmap__c_1_1palette__e.html',1,'renderingFmap_c']]],
   ['panvector_5',['PanVector',['../structJASChannel_1_1PanVector.html',1,'JASChannel']]],
   ['param_6',['param',['../structdaNpcAsh__Param__c_1_1param.html',1,'daNpcAsh_Param_c']]],
-  ['pathtrace_5fc_7',['PathTrace_c',['../structPathTrace__c.html',1,'']]],
+  ['pathtrace_5fc_7',['PathTrace_c',['../classPathTrace__c.html',1,'']]],
   ['phaseparam_5fc_8',['phaseParam_c',['../classphaseParam__c.html',1,'']]],
   ['pkcdata_9',['pkcdata',['../structpkcdata.html',1,'']]],
   ['plc_10',['PLC',['../structPLC.html',1,'']]],
