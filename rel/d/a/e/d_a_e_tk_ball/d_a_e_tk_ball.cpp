@@ -8,44 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-
-    static u8 mParticleTracePCB[4 + 4 /* padding */];
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dAttention_c {
-    /* 8007353C */ void LockonTarget(s32);
-    /* 800737E4 */ void LockonTruth();
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-//
 // Forward References:
 //
 

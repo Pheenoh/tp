@@ -7,41 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_control_c {
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-};
-
-struct dComIfG_play_c {
-    /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
-    /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
-    /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-struct Z2SoundObjBeeGroup {
-    /* 802C1D10 */ Z2SoundObjBeeGroup();
-    /* 802C1D6C */ void playBeeGroupSound(JAISoundID, u8);
-};
-
-//
 // Forward References:
 //
 

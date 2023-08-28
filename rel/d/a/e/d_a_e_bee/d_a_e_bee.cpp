@@ -8,51 +8,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dPa_control_c {
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-};
-
-struct dComIfG_play_c {
-    /* 8002CAF0 */ void addSimpleModel(J3DModelData*, int, u8);
-    /* 8002CB30 */ void removeSimpleModel(J3DModelData*, int);
-    /* 8002CB68 */ void entrySimpleModel(J3DModel*, int);
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_GndChk {
-    /* 8007757C */ dBgS_GndChk();
-    /* 800775F0 */ ~dBgS_GndChk();
-};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D28 */ void SetPos(cXyz const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-};
-
-struct Z2SoundObjBeeGroup {
-    /* 802C1D10 */ Z2SoundObjBeeGroup();
-    /* 802C1D6C */ void playBeeGroupSound(JAISoundID, u8);
-};
-
-//
 // Forward References:
 //
 

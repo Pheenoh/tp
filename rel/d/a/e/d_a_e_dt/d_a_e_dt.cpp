@@ -7,121 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoGph_gInf_c {
-    /* 80008078 */ void onBlure();
-};
-
-struct dVibration_c {
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_memBit_c {
-    /* 80034918 */ void onDungeonItem(int);
-    /* 80034934 */ void isDungeonItem(int) const;
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-    /* 800429A8 */ void onSkipFade();
-};
-
-struct dCcU_AtInfo {};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180AA8 */ void Set(cXyz, cXyz);
-    /* 80180BA0 */ void Reset(cXyz, cXyz, f32, s16);
-    /* 80180C18 */ void Reset(cXyz, cXyz);
-    /* 80181E64 */ void Eye();
-    /* 80181E98 */ void Center();
-    /* 806B5C8C */ void Bank();
-};
-
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjGndChk_Spl {
-    /* 800777B0 */ dBgS_ObjGndChk_Spl();
-    /* 80077848 */ ~dBgS_ObjGndChk_Spl();
-};
-
-struct dBgS_ObjAcch {
-    /* 806B5B0C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-};
-
-struct dBgS {};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cSAngle {
-    /* 80270F98 */ cSAngle(s16);
-    /* 80271174 */ void operator+(cSAngle const&) const;
-};
-
-struct cCcD_Obj {
-    /* 80263A48 */ void GetAc();
-};
-
-struct cBgS_PolyInfo {};
-
-struct cBgS_LinChk {};
-
-struct cBgS_GndChk {
-    /* 80267D0C */ void SetPos(Vec const*);
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-    /* 800744A0 */ void GroundCross(cBgS_GndChk*);
-    /* 80074744 */ void GetTriPla(cBgS_PolyInfo const&, cM3dGPla*) const;
-};
-
-//
 // Forward References:
 //
 
@@ -2507,7 +2392,8 @@ static asm void func_806B5C84() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dCamera_c::Bank() {
+// asm void dCamera_c::Bank() {
+extern "C" asm void Bank__9dCamera_cFv() {
     nofralloc
 #include "asm/rel/d/a/e/d_a_e_dt/d_a_e_dt/Bank__9dCamera_cFv.s"
 }

@@ -7,52 +7,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_info_c {
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dSv_event_flag_c {
-    static u8 saveBitLabels[1644 + 4 /* padding */];
-};
-
-struct dSv_event_c {
-    /* 8003498C */ void onEventBit(u16);
-    /* 800349BC */ void isEventBit(u16) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180B40 */ void Set(cXyz, cXyz, s16, f32);
-    /* 80180BA0 */ void Reset(cXyz, cXyz, f32, s16);
-};
-
-//
 // Forward References:
 //
 
