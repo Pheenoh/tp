@@ -11,116 +11,11 @@
 // Types:
 //
 
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-};
-
-struct dSv_restart_c {
-    /* 80034F80 */ void setRoom(cXyz const&, s16, s8);
-};
-
-struct dSv_player_status_b_c {
-    /* 80032BEC */ void isTransformLV(int) const;
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 80035360 */ void isSwitch(int, int) const;
-};
-
-struct dStage_roomControl_c {
-    /* 80024424 */ void setNextStayNo(int);
-    /* 800244E8 */ void checkRoomDisp(int) const;
-
-    static u8 mStatus[65792];
-};
-
-struct dPa_levelEcallBack {};
-
-struct cBgS_PolyInfo {
-    /* 802680B0 */ ~cBgS_PolyInfo();
-};
-
-struct dPa_control_c {
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D068 */ void setPoly(u16, cBgS_PolyInfo&, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                                cXyz const*, int, dPa_levelEcallBack*, s8, cXyz const*);
-};
-
-struct dMsgObject_c {
-    /* 80238098 */ void endFlowGroup();
-};
-
-struct dMapInfo_c {
-    static u32 mNextRoomNo;
-};
-
-struct dDoor_stop_c {
-    /* 804660F4 */ void calcMtx(daDoor20_c*);
-    /* 804661B0 */ void closeInit(daDoor20_c*);
-    /* 804662C0 */ void closeProc(daDoor20_c*);
-    /* 8046634C */ void openInit(daDoor20_c*);
-    /* 80466458 */ void openProc(daDoor20_c*);
-    /* 804664E8 */ void create(daDoor20_c*);
-    /* 80466538 */ void draw(daDoor20_c*);
-};
-
-struct dBgW_Base {};
-
 struct dBgW {
     /* 8007B970 */ dBgW();
     /* 8007B9C0 */ void Move();
 };
 
-struct dBgS_PolyPassChk {
-    /* 80078E68 */ void SetObj();
-};
-
-struct dBgS_ObjAcch {
-    /* 8046677C */ ~dBgS_ObjAcch();
-};
-
-struct dBgS_AcchCir {
-    /* 80075EAC */ dBgS_AcchCir();
-    /* 80075F58 */ void SetWall(f32, f32);
-    /* 8046670C */ ~dBgS_AcchCir();
-};
-
-struct dBgS {
-    /* 80074A08 */ void Regist(dBgW_Base*, fopAc_ac_c*);
-};
-
-struct dBgS_Acch {
-    /* 80075F94 */ ~dBgS_Acch();
-    /* 800760A0 */ dBgS_Acch();
-    /* 80076248 */ void Set(cXyz*, cXyz*, fopAc_ac_c*, int, dBgS_AcchCir*, cXyz*, csXyz*, csXyz*);
-    /* 80076AAC */ void CrrPos(dBgS&);
-};
-
-struct cSGlobe {
-    /* 80271880 */ cSGlobe(cXyz const&);
-};
-
-struct cSAngle {
-    /* 802710CC */ void Abs() const;
-    /* 80271228 */ void operator-(s16) const;
-};
-
-struct cBgW_BgId {
-    /* 802681D4 */ void ChkUsed() const;
-};
-
-struct cBgD_t {};
-
-struct cBgW {
-    /* 80079F38 */ void Set(cBgD_t*, u32, f32 (*)[3][4]);
-};
-
-struct cBgS {
-    /* 80074250 */ void Release(dBgW_Base*);
-};
 
 //
 // Forward References:

@@ -78,4 +78,14 @@ class daDoor20_c : public fopAc_ac_c {
     /* 8046609C */ void chkMakeKey();
 };
 
+class dDoor_stop_c {
+    /* 804660F4 */ void calcMtx(daDoor20_c*);
+    /* 804661B0 */ void closeInit(daDoor20_c*);
+    /* 804662C0 */ void closeProc(daDoor20_c*);
+    /* 8046634C */ void openInit(daDoor20_c*);
+    /* 80466458 */ void openProc(daDoor20_c*);
+    /* 804664E8 */ void create(daDoor20_c*);
+    /* 80466538 */ void draw(daDoor20_c*);
+};
+
 #endif /* D_A_DOOR_SHUTTER_H */
