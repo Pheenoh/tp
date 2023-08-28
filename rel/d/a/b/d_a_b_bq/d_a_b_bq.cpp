@@ -9,85 +9,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-namespace std {
-/* 805BA4D8 */ void fabsf(f32);
-};
-
-struct mDoGph_gInf_c {
-    /* 80008078 */ void onBlure();
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_memBit_c {
-    /* 80034918 */ void onDungeonItem(int);
-    /* 80034934 */ void isDungeonItem(int) const;
-};
-
-struct dSv_info_c {
-    /* 80035200 */ void onSwitch(int, int);
-    /* 800352B0 */ void offSwitch(int, int);
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B8B4 */ void forceOnEventMove(u32);
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-    /* 80042914 */ void setSkipProc(void*, int (*)(void*, int), int);
-    /* 805BA0C0 */ void checkSkipEdge();
-    /* 805BA4E4 */ void startCheckSkipEdge(void*);
-};
-
-struct dComIfG_play_c {
-    /* 8002C97C */ void getLayerNo(int);
-};
-
-struct dCcU_AtInfo {};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180B40 */ void Set(cXyz, cXyz, s16, f32);
-    /* 80180C18 */ void Reset(cXyz, cXyz);
-};
-
-struct dBgS_LinChk {
-    /* 80077C68 */ dBgS_LinChk();
-    /* 80077CDC */ ~dBgS_LinChk();
-    /* 80077D64 */ void Set(cXyz const*, cXyz const*, fopAc_ac_c const*);
-};
-
-struct cBgS_LinChk {
-    /* 805B8A04 */ void GetCross();
-};
-
-struct cBgS {
-    /* 800743B4 */ void LineCross(cBgS_LinChk*);
-};
-
-//
 // Forward References:
 //
 
@@ -1377,7 +1298,8 @@ static asm void demo_camera(b_bq_class* param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void cBgS_LinChk::GetCross() {
+// asm void cBgS_LinChk::GetCross() {
+extern "C" asm void GetCross__11cBgS_LinChkFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/GetCross__11cBgS_LinChkFv.s"
 }
@@ -2517,7 +2439,8 @@ static asm void dComIfGp_event_reset() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dEvt_control_c::checkSkipEdge() {
+// asm void dEvt_control_c::checkSkipEdge() {
+extern "C" asm void checkSkipEdge__14dEvt_control_cFv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/checkSkipEdge__14dEvt_control_cFv.s"
 }
@@ -2769,7 +2692,8 @@ extern "C" asm void abs__4cXyzCFv() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void std::fabsf(f32 param_0) {
+// asm void std::fabsf(f32 param_0) {
+extern "C" asm void fabsf__3stdFf() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/fabsf__3stdFf.s"
 }
@@ -2779,7 +2703,8 @@ asm void std::fabsf(f32 param_0) {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void dEvt_control_c::startCheckSkipEdge(void* param_0) {
+// asm void dEvt_control_c::startCheckSkipEdge(void* param_0) {
+extern "C" asm void startCheckSkipEdge__14dEvt_control_cFPv() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_bq/d_a_b_bq/startCheckSkipEdge__14dEvt_control_cFPv.s"
 }

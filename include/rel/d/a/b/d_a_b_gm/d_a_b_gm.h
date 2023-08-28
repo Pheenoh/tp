@@ -13,4 +13,9 @@ class b_gm_class : public fopEn_enemy_c {
     /* 805F38E4 */ b_gm_class();
 };
 
+struct b_gm_foot {
+    /* 805F3AC0 */ ~b_gm_foot();
+    /* 805F3AFC */ b_gm_foot();
+};
+
 #endif /* D_A_B_GM_H */

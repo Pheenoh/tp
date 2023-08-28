@@ -1,6 +1,12 @@
 #ifndef D_A_B_ZANT_H
 #define D_A_B_ZANT_H
 
+#include "f_op/f_op_actor_mng.h"
+#include "f_op/f_op_msg.h"
+#include "d/cc/d_cc_d.h"
+#include "d/cc/d_cc_uty.h"
+#include "Z2AudioLib/Z2Creature.h"
+#include "d/bg/d_bg_s_acch.h"
 
 class daB_ZANT_c : public fopAc_ac_c {
 public:
@@ -184,6 +190,17 @@ private:
     /* 0x38AC */ u32 field_0x38ac[2];
     /* 0x38B4 */ u32 field_0x38b4;
     /* 0x38B8 */ u8 field_0x38b8;
+};
+
+class daB_ZANT_HIO_c {
+    /* 8063E10C */ daB_ZANT_HIO_c();
+    /* 8064E994 */ ~daB_ZANT_HIO_c();
+};
+
+class daB_ZANTZ_c {
+    /* 80650854 */ void setSnortEffect(int);
+    /* 80650B7C */ void setMouthMode(u8);
+    /* 80650D0C */ void setAppearMode(u8);
 };
 
 #endif /* D_A_B_ZANT_H */

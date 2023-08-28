@@ -1,6 +1,6 @@
 /**
- * d_a_b_oh.cpp
- * Morpheel Tentacle
+ * @file d_a_b_oh.cpp
+ * @brief Morpheel Tentacle
  */
 
 #include "rel/d/a/b/d_a_b_oh/d_a_b_oh.h"

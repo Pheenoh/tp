@@ -10,14 +10,6 @@
 #include "m_Do/m_Do_graphic.h"
 
 //
-// Types:
-//
-
-namespace std {
-/* 8061AACC */ void fabsf(f32);
-};
-
-//
 // Forward References:
 //
 

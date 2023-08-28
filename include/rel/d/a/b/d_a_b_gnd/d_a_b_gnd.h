@@ -4,6 +4,11 @@
 #include "dolphin/types.h"
 #include "d/a/d_a_player.h"
 
+struct g_himo_s {
+    /* 80601D40 */ ~g_himo_s();
+    /* 80601DA0 */ g_himo_s();
+};
+
 class daB_GND_HIO_c {
     /* 805F4A4C */ daB_GND_HIO_c();
     /* 80602230 */ ~daB_GND_HIO_c();

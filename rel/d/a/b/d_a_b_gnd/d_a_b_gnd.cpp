@@ -9,69 +9,6 @@
 #include "dol2asm.h"
 
 //
-// Types:
-//
-
-struct mDoGph_gInf_c {
-    /* 80007FD8 */ void fadeOut(f32, _GXColor&);
-};
-
-struct ResTIMG {};
-
-struct mDoCPd_c {
-    /* 80602368 */ void getTrigA(u32);
-
-    static u8 m_cpadInfo[256];
-};
-
-struct g_himo_s {
-    /* 80601D40 */ ~g_himo_s();
-    /* 80601DA0 */ g_himo_s();
-};
-
-struct dVibration_c {
-    /* 8006FA24 */ void StartShock(int, int, cXyz);
-    /* 8006FB10 */ void StartQuake(int, int, cXyz);
-    /* 8006FD94 */ void StopQuake(int);
-};
-
-struct dSv_danBit_c {
-    /* 80034B98 */ void onSwitch(int);
-    /* 80034BE8 */ void isSwitch(int) const;
-};
-
-struct dPa_levelEcallBack {};
-
-struct dPa_control_c {
-    struct level_c {
-        /* 8004B8B4 */ void forceOnEventMove(u32);
-        /* 8004B918 */ void getEmitter(u32);
-    };
-
-    /* 8004C218 */ void setHitMark(u16, fopAc_ac_c*, cXyz const*, csXyz const*, cXyz const*, u32);
-    /* 8004D4CC */ void set(u32, u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*,
-                            cXyz const*, u8, dPa_levelEcallBack*, s8, _GXColor const*,
-                            _GXColor const*, cXyz const*, f32);
-    /* 8004CA90 */ void set(u8, u16, cXyz const*, dKy_tevstr_c const*, csXyz const*, cXyz const*,
-                            u8, dPa_levelEcallBack*, s8, _GXColor const*, _GXColor const*,
-                            cXyz const*, f32);
-};
-
-struct dEvt_control_c {
-    /* 80042468 */ void reset();
-};
-
-struct dCcU_AtInfo {};
-
-struct dCamera_c {
-    /* 801614AC */ void Start();
-    /* 801614D0 */ void Stop();
-    /* 8016300C */ void SetTrimSize(s32);
-    /* 80180AE0 */ void Set(cXyz, cXyz, f32, s16);
-    /* 80180C18 */ void Reset(cXyz, cXyz);
-};
-
-//
 // Forward References:
 //
 
@@ -3228,7 +3165,8 @@ extern "C" asm void __ct__4cXyzFRC4cXyz() {
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
-asm void mDoCPd_c::getTrigA(u32 param_0) {
+// asm void mDoCPd_c::getTrigA(u32 param_0) {
+extern "C" asm void getTrigA__8mDoCPd_cFUl() {
     nofralloc
 #include "asm/rel/d/a/b/d_a_b_gnd/d_a_b_gnd/getTrigA__8mDoCPd_cFUl.s"
 }
