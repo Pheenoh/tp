@@ -2,6 +2,8 @@
 #define D_A_OBJ_MASTER_SWORD_H
 
 #include "f_op/f_op_actor_mng.h"
+#include "d/cc/d_cc_d.h"
+#include "d/bg/d_bg_s.h"
 
 class daObjMasterSword_c;
 typedef void (daObjMasterSword_c::*actionFunc)();
