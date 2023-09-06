@@ -3,7 +3,7 @@ var searchData=
   ['no_5fcalc_5fvtx_5fe_0',['NO_CALC_VTX_e',['../classcBgW.html#a42938bf74683806ca89731e935eed652a00cf75d3341ead9ef86acbf0525ccfcd',1,'cBgW']]],
   ['no_5fdraw_5fwait_1',['NO_DRAW_WAIT',['../structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47faa3208064755de837ef458a91d60838fa',1,'daHorse_c']]],
   ['no_5fitem_2',['NO_ITEM',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2aa5731035b93d58a8a9288d85a487ed9b',1,'d_save.h']]],
-  ['no_5fmenu_3',['NO_MENU',['../structdMw__c.html#a9c12bf96930db318a3d8b6704985facea859033885f7c4f62426f21b2d7482b27',1,'dMw_c']]],
+  ['no_5fmenu_3',['NO_MENU',['../classdMw__c.html#a9c12bf96930db318a3d8b6704985facea859033885f7c4f62426f21b2d7482b27',1,'dMw_c']]],
   ['no_5fvtx_5ftbl_5fe_4',['NO_VTX_TBL_e',['../classcBgW.html#a42938bf74683806ca89731e935eed652a5b66def49d45c9f0fe4c804f0caedb6a',1,'cBgW']]],
   ['noentry1_5',['noentry1',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2a49bfc7cb7cde2422af29ea6d7c8543e1',1,'d_save.h']]],
   ['noentry10_6',['noentry10',['../d__save_8h.html#a0a48966e59817e2d4685d1f0b44b33f2af6051a8c2fafeadd19604b0741851e47',1,'d_save.h']]],

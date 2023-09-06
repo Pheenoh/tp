@@ -126,11 +126,40 @@ $(function() {
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_function" href="JPAFieldBlock_8cpp.html#a31aa4c5b0eade1dd98e4ec3def8cf4ba">PSMTXRotAxisRad</a>(m, axis, rad);</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>}</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>};</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#endif </span><span class="comment">/* MTX_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">/* When compiling in debug mode, use C implementations */</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define MTXIdentity C_MTXIdentity</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define MTXCopy C_MTXCopy</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define MTXConcat C_MTXConcat</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define MTXInverse C_MTXInverse</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define MTXRotRad C_MTXRotRad</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define MTXRotTrig C_MTXRotTrig</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define MTXRotAxisRad C_MTXRotAxisRad</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define MTXTrans C_MTXTrans</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define MTXTransApply C_MTXTransApply</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define MTXScale C_MTXScale</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define MTXScaleApply C_MTXScaleApply</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define MTXQuat C_MTXQuat</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="mtx_8h.html#ad9d076a2af1091bc359c73ff6b8fd9f0">   58</a></span><span class="preprocessor">#define MTXIdentity PSMTXIdentity</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="mtx_8h.html#abeefab06a4321dc6dee01a632eac80f4">   59</a></span><span class="preprocessor">#define MTXCopy PSMTXCopy</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="mtx_8h.html#a1a6c99923def60e65ace12e1860bbd57">   60</a></span><span class="preprocessor">#define MTXConcat PSMTXConcat</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="mtx_8h.html#a2fa20bb7213655a9097b935318330806">   61</a></span><span class="preprocessor">#define MTXInverse PSMTXInverse</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="mtx_8h.html#a5309cc100043f1d71c566d639a141855">   62</a></span><span class="preprocessor">#define MTXRotRad PSMTXRotRad</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="mtx_8h.html#a427284c4bb07084e216ab4269e526c06">   63</a></span><span class="preprocessor">#define MTXRotTrig PSMTXRotTrig</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="mtx_8h.html#a297d66f846f2cff8da8fd0c770184767">   64</a></span><span class="preprocessor">#define MTXRotAxisRad PSMTXRotAxisRad</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="mtx_8h.html#a0cbe33be9640cc0dbc3fe5555be600fc">   65</a></span><span class="preprocessor">#define MTXTrans PSMTXTrans</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="mtx_8h.html#aee5f1d94201a0dceefcac56e5298e75e">   66</a></span><span class="preprocessor">#define MTXTransApply PSMTXTransApply</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="mtx_8h.html#a6fda1ebdc85f9e65147ba32d7ebc6387">   67</a></span><span class="preprocessor">#define MTXScale PSMTXScale</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="mtx_8h.html#ac8e93fe55b60be6c2f61b2be5342a29e">   68</a></span><span class="preprocessor">#define MTXScaleApply PSMTXScaleApply</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="mtx_8h.html#a03608b49c8ab3a98dbecf0e627f18ed7">   69</a></span><span class="preprocessor">#define MTXQuat PSMTXQuat</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>};</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif </span><span class="comment">/* MTX_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aJPAFieldBlock_8cpp_html_a31aa4c5b0eade1dd98e4ec3def8cf4ba"><div class="ttname"><a href="JPAFieldBlock_8cpp.html#a31aa4c5b0eade1dd98e4ec3def8cf4ba">PSMTXRotAxisRad</a></div><div class="ttdeci">void PSMTXRotAxisRad()</div></div>
 <div class="ttc" id="ad__a__no__chg__room_8cpp_html_a0e84a3f7489b65f3d6432ac4aca0e118"><div class="ttname"><a href="d__a__no__chg__room_8cpp.html#a0e84a3f7489b65f3d6432ac4aca0e118">PSMTXInverse</a></div><div class="ttdeci">void PSMTXInverse()</div></div>
 <div class="ttc" id="ad__a__no__chg__room_8cpp_html_a71457f4c801a39c1b90e6c06e11d5550"><div class="ttname"><a href="d__a__no__chg__room_8cpp.html#a71457f4c801a39c1b90e6c06e11d5550">PSMTXTrans</a></div><div class="ttdeci">void PSMTXTrans()</div></div>

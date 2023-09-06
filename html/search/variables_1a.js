@@ -7,7 +7,7 @@ var searchData=
   ['z2soundmgr_5f_5fstringbase0_4',['Z2SoundMgr__stringBase0',['../Z2SoundMgr_8cpp.html#a4790f6955c417040cb6340e44a4e87ca',1,'Z2SoundMgr.cpp']]],
   ['z2statusmgr_5f_5fstringbase0_5',['Z2StatusMgr__stringBase0',['../Z2StatusMgr_8cpp.html#af51a69ce38b9b0cea652fe058c642533',1,'Z2StatusMgr.cpp']]],
   ['z_5ftag_6',['z_tag',['../d__meter2__draw_8cpp.html#a07887d493ee32aa27cce5b52fc329464',1,'d_meter2_draw.cpp']]],
-  ['z_5ftx_7',['z_tx',['../d__menu__option_8cpp.html#a464dd6c18b3dbaae67c031c1a25fac79',1,'d_menu_option.cpp']]],
+  ['z_5ftx_7',['z_tx',['../d__menu__option_8cpp.html#a3029cbe8f5c00bca6a6dbdee2c861156',1,'d_menu_option.cpp']]],
   ['zeldaheap_8',['zeldaHeap',['../m__Do__ext_8cpp.html#a73846de00e412e28f13ddc535529d3ad',1,'zeldaHeap():&#160;m_Do_ext.cpp'],['../m__Do__ext_8h.html#a73846de00e412e28f13ddc535529d3ad',1,'zeldaHeap():&#160;m_Do_ext.cpp']]],
   ['zeldaheapcheck_9',['ZeldaHeapCheck',['../m__Do__main_8cpp.html#a57b0c4588dae8f90d9d21c7e47234b7c',1,'m_Do_main.cpp']]],
   ['zeldaheaperrors_10',['zeldaHeapErrors',['../m__Do__machine_8cpp.html#abc27e2ca0185045c778f4707e2dd2500',1,'m_Do_machine.cpp']]],

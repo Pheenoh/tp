@@ -14,7 +14,6 @@ var searchData=
   ['blockheader_11',['BlockHeader',['../structBlockHeader.html',1,'']]],
   ['bloom_5fc_12',['bloom_c',['../classmDoGph__gInf__c_1_1bloom__c.html',1,'mDoGph_gInf_c']]],
   ['boss_5flight_13',['BOSS_LIGHT',['../structBOSS__LIGHT.html',1,'']]],
-  ['branchcondition_14',['BranchCondition',['../structJASSeqParser_1_1BranchCondition.html',1,'JASSeqParser']]],
-  ['btkgetparam_15',['btkGetParam',['../structbtkGetParam.html',1,'']]],
-  ['btpgetparam_16',['btpGetParam',['../structbtpGetParam.html',1,'']]]
+  ['btkgetparam_14',['btkGetParam',['../structbtkGetParam.html',1,'']]],
+  ['btpgetparam_15',['btpGetParam',['../structbtpGetParam.html',1,'']]]
 ];
