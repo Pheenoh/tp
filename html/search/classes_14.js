@@ -65,7 +65,7 @@ var searchData=
   ['tiddata_62',['TIDData',['../structJStudio_1_1object_1_1TIDData.html',1,'JStudio::object']]],
   ['timerkeeperdata_63',['TimerKeeperData',['../structdEvDtStaff__c_1_1TimerKeeperData.html',1,'dEvDtStaff_c']]],
   ['tindexdata_5f_64',['TIndexData_',['../structJStudio_1_1TFunctionValue__list_1_1TIndexData__.html',1,'JStudio::TFunctionValue_list']]],
-  ['tinner_65',['TInner',['../classJAISe_1_1TInner.html',1,'JAISe::TInner'],['../classJAISeq_1_1TInner.html',1,'JAISeq::TInner']]],
+  ['tinner_65',['TInner',['../classJAISe_1_1TInner.html',1,'JAISe::TInner'],['../classJAISeq_1_1TInner.html',1,'JAISeq::TInner'],['../structJAIStream_1_1TInner.html',1,'JAIStream::TInner']]],
   ['titerator_5fdata_5f_66',['TIterator_data_',['../structJStudio_1_1TFunctionValue__hermite_1_1TIterator__data__.html',1,'JStudio::TFunctionValue_hermite::TIterator_data_'],['../structJStudio_1_1TFunctionValue__list__parameter_1_1TIterator__data__.html',1,'JStudio::TFunctionValue_list_parameter::TIterator_data_']]],
   ['tjpacallback_5femitter_5f_67',['TJPACallback_emitter_',['../structJStudio__JParticle_1_1TAdaptor__particle_1_1TJPACallback__emitter__.html',1,'JStudio_JParticle::TAdaptor_particle']]],
   ['tkeymap_68',['TKeymap',['../structJASBasicInst_1_1TKeymap.html',1,'JASBasicInst']]],

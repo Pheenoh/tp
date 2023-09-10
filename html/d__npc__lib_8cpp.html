@@ -88,8 +88,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="d__npc__lib_8h_source.html">d/d_npc_lib.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c__math_8h_source.html">SSystem/SComponent/c_math.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;asm/d/d_npc_lib/init__16dNpcLib_lookat_cFP8J3DModelPiP5csXyzP5csXyz.s&quot;</code><br />
 <code>#include &quot;asm/d/d_npc_lib/action__16dNpcLib_lookat_cF4cXyz4cXyzP10fopAc_ac_cPA4_fi.s&quot;</code><br />
 <code>#include &quot;asm/d/d_npc_lib/setPrm__16dNpcLib_lookat_cFv.s&quot;</code><br />
 <code>#include &quot;asm/d/d_npc_lib/update__16dNpcLib_lookat_cFv.s&quot;</code><br />
@@ -171,8 +171,6 @@ Variables</h2></td></tr>
 <tr class="separator:af382f30e416d4a7b2528eacb2d7f1f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3712dc0e65c9f23fb061daef84c33f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__npc__lib_8cpp.html#a3712dc0e65c9f23fb061daef84c33f57">data_80451164</a> [4]</td></tr>
 <tr class="separator:a3712dc0e65c9f23fb061daef84c33f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1fdcfd137cea8b679680b3691011e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__npc__lib_8cpp.html#a9f1fdcfd137cea8b679680b3691011e9">__vt__16dNpcLib_lookat_c</a> [3+1]</td></tr>
-<tr class="separator:a9f1fdcfd137cea8b679680b3691011e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b4f7f791d500d31f5ec3e3f62a4f5a1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__npc__lib_8cpp.html#a7b4f7f791d500d31f5ec3e3f62a4f5a1">lit_3864</a> [4]</td></tr>
 <tr class="separator:a7b4f7f791d500d31f5ec3e3f62a4f5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad90ea887331a36141351e10252e6f2ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__npc__lib_8cpp.html#ad90ea887331a36141351e10252e6f2ea">lit_3865</a> = 1.0f</td></tr>
@@ -685,37 +683,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a9f1fdcfd137cea8b679680b3691011e9" name="a9f1fdcfd137cea8b679680b3691011e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f1fdcfd137cea8b679680b3691011e9">&#9670;&#160;</a></span>__vt__16dNpcLib_lookat_c</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void* __vt__16dNpcLib_lookat_c[3+1]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__npc__lib_8cpp.html#a6125e270cfe037f3bcfb748513e93029">__dt__16dNpcLib_lookat_cFv</a>,</div>
-<div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">}</div>
-<div class="ttc" id="ad__npc__lib_8cpp_html_a6125e270cfe037f3bcfb748513e93029"><div class="ttname"><a href="d__npc__lib_8cpp.html#a6125e270cfe037f3bcfb748513e93029">__dt__16dNpcLib_lookat_cFv</a></div><div class="ttdeci">void __dt__16dNpcLib_lookat_cFv()</div></div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> stddef.h:12</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a3712dc0e65c9f23fb061daef84c33f57" name="a3712dc0e65c9f23fb061daef84c33f57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3712dc0e65c9f23fb061daef84c33f57">&#9670;&#160;</a></span>data_80451164</h2>
 

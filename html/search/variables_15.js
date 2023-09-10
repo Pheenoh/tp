@@ -82,7 +82,7 @@ var searchData=
   ['unkval_79',['UnkVal',['../Pad_8c.html#a99f1ffa3b784c63a6f5c36e0b36c1601',1,'Pad.c']]],
   ['unlockcallback_80',['unlockCallback',['../structCARDControl.html#ad7a2ed23a3da4ed07053b7e54ec4c873',1,'CARDControl']]],
   ['unused_81',['unused',['../classdaTagCstaSw__c.html#a3ef4d777d4a349b1182937afffb9b6ba',1,'daTagCstaSw_c::unused()'],['../classdaObjE__CREATE__c.html#ad775abc14475bfd0cbb58ed96f08d8ac',1,'daObjE_CREATE_c::unused()'],['../classdaLv6CstaSw__c.html#a691eba532f6d0ae179cdff4a9fd75cdf',1,'daLv6CstaSw_c::unused()']]],
-  ['unused_5f0x568_82',['unused_0x568',['../structdaTagMist__c.html#aed3d9582bd0f2fa2a5f1cd7a0a874bbc',1,'daTagMist_c']]],
+  ['unused_5f0x568_82',['unused_0x568',['../classdaTagMist__c.html#aed3d9582bd0f2fa2a5f1cd7a0a874bbc',1,'daTagMist_c']]],
   ['unused_5f0x590_83',['unused_0x590',['../classdaObjWaterEff__c.html#aa3482ee090d93082ca9dd873d282d8fd',1,'daObjWaterEff_c']]],
   ['unused_5f0x5a4_84',['unused_0x5a4',['../classkytag09__class.html#af6e64a1a335f8eb28aca0bbdd0dbde50',1,'kytag09_class']]],
   ['upmc1_85',['UPMC1',['../structExtended1__PPC__6xx__7xx.html#af677144e8fb285df12217f874cae84a3',1,'Extended1_PPC_6xx_7xx']]],
