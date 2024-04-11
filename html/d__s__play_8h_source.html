@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/d/s/d_s_play.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d__s__play_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_cc3ad1aed4be3f446fdd7af78322f5bf.html">d</a></li><li class="navelem"><a class="el" href="dir_537a94bfac16f36021f172a9a054c873.html">s</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">d_s_play.h</div></div>
 </div><!--header-->
@@ -114,18 +173,18 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classdScnPly__reg__HIO__c.html#aa1a2687b4a7e6a0ce9ce585da36c3c62">   21</a></span>    <span class="comment">/* 0x4 */</span> <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_variable" href="classdScnPly__reg__HIO__c.html#aa1a2687b4a7e6a0ce9ce585da36c3c62">field_0x4</a>[0x8 - 0x4];</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">/* 0x8 */</span> <a class="code hl_class" href="classdScnPly__reg__childHIO__c.html">dScnPly_reg_childHIO_c</a> mChildReg[26];</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classdScnPly__reg__HIO__c.html#a0143f7a2ce1b7f2d96d9bf588d6a79ca">   23</a></span>    <span class="comment">/* 0x8 */</span> <a class="code hl_class" href="classdScnPly__reg__childHIO__c.html">dScnPly_reg_childHIO_c</a> <a class="code hl_variable" href="classdScnPly__reg__HIO__c.html#a0143f7a2ce1b7f2d96d9bf588d6a79ca">mChildReg</a>[26];</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>};</div>
 </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">class </span><a class="code hl_class" href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a> {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">class </span><a class="code hl_struct" href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a> {</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structmDoHIO__entry__c.html#a750a48fdf8903fbdf354f96170ce71a3">   29</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="structmDoHIO__entry__c.html#a750a48fdf8903fbdf354f96170ce71a3">~mDoHIO_entry_c</a>() {}</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="foldopen" id="foldopen00032" data-start="{" data-end="};">
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classdScnPly__preLoad__HIO__c.html">   32</a></span><span class="keyword">class </span><a class="code hl_class" href="classdScnPly__preLoad__HIO__c.html">dScnPly_preLoad_HIO_c</a> : <span class="keyword">public</span> <a class="code hl_class" href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a> {</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classdScnPly__preLoad__HIO__c.html">   32</a></span><span class="keyword">class </span><a class="code hl_class" href="classdScnPly__preLoad__HIO__c.html">dScnPly_preLoad_HIO_c</a> : <span class="keyword">public</span> <a class="code hl_struct" href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a> {</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classdScnPly__preLoad__HIO__c.html#a1088ff1954cd28cecdd1363f5f9922e6">   34</a></span>    <span class="comment">/* 8025ADC0 */</span> <span class="keyword">virtual</span> <a class="code hl_function" href="classdScnPly__preLoad__HIO__c.html#a1088ff1954cd28cecdd1363f5f9922e6">~dScnPly_preLoad_HIO_c</a>() {}</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>};</div>
@@ -176,7 +235,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="keyword">extern</span> <a class="code hl_typedef" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> <a class="code hl_variable" href="d__s__play_8h.html#ad86acb6e83beea6d4c572793343c1acd">nextPauseTimer__9dScnPly_c</a>;  <span class="comment">// sPauseTimer</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="foldopen" id="foldopen00075" data-start="{" data-end="};">
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classdScnPly__c.html">   75</a></span><span class="keyword">class </span><a class="code hl_class" href="classdScnPly__c.html">dScnPly_c</a> : <span class="keyword">public</span> <a class="code hl_class" href="classscene__class.html">scene_class</a> {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="classdScnPly__c.html">   75</a></span><span class="keyword">class </span><a class="code hl_class" href="classdScnPly__c.html">dScnPly_c</a> : <span class="keyword">public</span> <a class="code hl_struct" href="classscene__class.html">scene_class</a> {</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="comment">/* 80259400 */</span> <a class="code hl_typedef" href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a> <a class="code hl_function" href="classdScnPly__c.html#ac677c01b99c7ef6ce362567e26f40a09">calcPauseTimer</a>();</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="comment">/* 80259AC4 */</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="classdScnPly__c.html#ad1ed1d1a53c31670718d153a6d8e1847">resetGame</a>();</div>
@@ -304,112 +363,112 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">#define tREG_S(i) g_regHIO.mChildReg[25].mShortReg[i]</span></div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="comment">// Morita</span></div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a2c6fe86367401d0b144dcfaa9529e5fc">  210</a></span><span class="preprocessor">#define TREG_F(i) (0)</span></div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#aa90a53b50bd2fa4a018c0b15ddd8e8ba">  211</a></span><span class="preprocessor">#define TREG_S(i) (0)</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="preprocessor">#define TREG_F(i) (0)</span></div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span><span class="preprocessor">#define TREG_S(i) (0)</span></div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span><span class="comment">// Matsutani</span></div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a22b0e3f183515cedde90e9dff1a6b413">  214</a></span><span class="preprocessor">#define DREG_F(i) (0)</span></div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#aa6a477906aa0ed84db7beaf737df30c0">  215</a></span><span class="preprocessor">#define DREG_S(i) (0)</span></div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="preprocessor">#define DREG_F(i) (0)</span></div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="preprocessor">#define DREG_S(i) (0)</span></div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="comment">// Iwawaki</span></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a631115793e64e779cb1d33fffe7a7817">  218</a></span><span class="preprocessor">#define IREG_F(i) (0)</span></div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#ad0ed5f3b60f61234fb09853ca6e75c9c">  219</a></span><span class="preprocessor">#define IREG_S(i) (0)</span></div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="preprocessor">#define IREG_F(i) (0)</span></div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span><span class="preprocessor">#define IREG_S(i) (0)</span></div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span><span class="comment">// Sasa</span></div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#af602c728c06423c0d042db464aad0c76">  222</a></span><span class="preprocessor">#define SREG_F(i) (0)</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a1b6954b2eef33a0a789071d092bb660e">  223</a></span><span class="preprocessor">#define SREG_S(i) (0)</span></div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span><span class="preprocessor">#define SREG_F(i) (0)</span></div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="preprocessor">#define SREG_S(i) (0)</span></div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="comment">// Umemiya</span></div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a56ae161fb600a0beab79411f09b9c9ca">  226</a></span><span class="preprocessor">#define UREG_F(i) (0)</span></div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a85d332fa020cdead043e5409f6ccd3f1">  227</a></span><span class="preprocessor">#define UREG_S(i) (0)</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span><span class="preprocessor">#define UREG_F(i) (0)</span></div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="preprocessor">#define UREG_S(i) (0)</span></div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span><span class="comment">// Ogawa</span></div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a20654b2cf3400d38fd0a32f1b1f5d667">  230</a></span><span class="preprocessor">#define OREG_F(i) (0)</span></div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a0866446a2eda17c7bf88c94031fd1f2f">  231</a></span><span class="preprocessor">#define OREG_S(i) (0)</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="preprocessor">#define OREG_F(i) (0)</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span><span class="preprocessor">#define OREG_S(i) (0)</span></div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="comment">// Sakaguchi</span></div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a1d8b91f447d8a738cc5874636d8f7c2e">  234</a></span><span class="preprocessor">#define YREG_F(i) (0)</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a608523af322a2dc9f00326853174ee68">  235</a></span><span class="preprocessor">#define YREG_S(i) (0)</span></div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">#define YREG_F(i) (0)</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="preprocessor">#define YREG_S(i) (0)</span></div>
 <div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span><span class="comment">// Sakai</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a15d8fd119b9f9d439542c60069339baf">  238</a></span><span class="preprocessor">#define KREG_F(i) (0)</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#abc4e0072eddb86e475591e51f1d95a46">  239</a></span><span class="preprocessor">#define KREG_S(i) (0)</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="preprocessor">#define KREG_F(i) (0)</span></div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span><span class="preprocessor">#define KREG_S(i) (0)</span></div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span><span class="comment">// Hara</span></div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#ae2f5667a7cd5450967a065900f9ffa1a">  242</a></span><span class="preprocessor">#define BREG_F(i) (0)</span></div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a49111fa2a7ab182e4067f62fd9bc0bb8">  243</a></span><span class="preprocessor">#define BREG_S(i) (0)</span></div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#define BREG_F(i) (0)</span></div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span><span class="preprocessor">#define BREG_S(i) (0)</span></div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span> </div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="comment">// Sumiyoshi</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a9f75509a6f494c01fd83d116f54e369e">  246</a></span><span class="preprocessor">#define MREG_F(i) (0)</span></div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#ae2800f48b0fd96f3f68580c21bb1c1ae">  247</a></span><span class="preprocessor">#define MREG_S(i) (0)</span></div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span><span class="preprocessor">#define MREG_F(i) (0)</span></div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span><span class="preprocessor">#define MREG_S(i) (0)</span></div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span><span class="comment">// Takeshita</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#abd5715844f9abd8457559cc6ade6304c">  250</a></span><span class="preprocessor">#define AREG_F(i) (0)</span></div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a7693fd76f06172020ef21b6b3cc3482e">  251</a></span><span class="preprocessor">#define AREG_S(i) (0)</span></div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span><span class="preprocessor">#define AREG_F(i) (0)</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span><span class="preprocessor">#define AREG_S(i) (0)</span></div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span> </div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="comment">// Yoshida</span></div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a175ab904539ba5954ae3fd15807f66d1">  254</a></span><span class="preprocessor">#define PREG_F(i) (0)</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a30f5b53bcd9bb5cb7fd480a523dfef4b">  255</a></span><span class="preprocessor">#define PREG_S(i) (0)</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#define PREG_F(i) (0)</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#define PREG_S(i) (0)</span></div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="comment">// Noma</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a4a2aed48132ac13d741f8899b9442a35">  258</a></span><span class="preprocessor">#define NREG_F(i) (0)</span></div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#aa427bbf9541e941f9d61283d5a2e4507">  259</a></span><span class="preprocessor">#define NREG_S(i) (0)</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#define NREG_F(i) (0)</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#define NREG_S(i) (0)</span></div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="comment">// Nishiwaki</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#abff027382b7b75d6a8522bb17984b0ff">  262</a></span><span class="preprocessor">#define WREG_F(i) (0)</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a50b8f94ae89ce3b2e245821245f25e1f">  263</a></span><span class="preprocessor">#define WREG_S(i) (0)</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#define WREG_F(i) (0)</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">#define WREG_S(i) (0)</span></div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="comment">// Masaro</span></div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a625953100c802e523530b2df30debeb4">  266</a></span><span class="preprocessor">#define JREG_F(i) (0)</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#aaaee25f92b05158cb1167c0f06202ceb">  267</a></span><span class="preprocessor">#define JREG_S(i) (0)</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="preprocessor">#define JREG_F(i) (0)</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="preprocessor">#define JREG_S(i) (0)</span></div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="comment">// Hayakawa</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#ab2c9ecc25f77caa94ad97de517d4c901">  270</a></span><span class="preprocessor">#define HREG_F(i) (0)</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a1e8231841feb1b398b13ab75087cdfdd">  271</a></span><span class="preprocessor">#define HREG_S(i) (0)</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#define HREG_F(i) (0)</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="preprocessor">#define HREG_S(i) (0)</span></div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="comment">// Sadamoto</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a92dfbfafb794089bea70928aa22ae96d">  274</a></span><span class="preprocessor">#define VREG_F(i) (0)</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a9faf439692cfebfafb76d1d18b131b8b">  275</a></span><span class="preprocessor">#define VREG_S(i) (0)</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#define VREG_F(i) (0)</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#define VREG_S(i) (0)</span></div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span> </div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="comment">// Nishikawa</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a658be4e5a2f7d0cd44659d3545e519ea">  278</a></span><span class="preprocessor">#define XREG_F(i) (0)</span></div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a91ff8bd68879bce576517efc1c7f0163">  279</a></span><span class="preprocessor">#define XREG_S(i) (0)</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#define XREG_F(i) (0)</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="preprocessor">#define XREG_S(i) (0)</span></div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
 <div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="comment">// Suzuki</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a55532ef7ff9ffd9bb1fa5a4031be4c85">  282</a></span><span class="preprocessor">#define ZREG_F(i) (0)</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#af3579a8b05305f621acb50f6c3c40265">  283</a></span><span class="preprocessor">#define ZREG_S(i) (0)</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="preprocessor">#define ZREG_F(i) (0)</span></div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#define ZREG_S(i) (0)</span></div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span> </div>
 <div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="comment">// Nakanishi</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a406b503495f7a9e3b534c10e1a4e15fe">  286</a></span><span class="preprocessor">#define nREG_F(i) (0)</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a576fe7baf9e860619467338a77ff424a">  287</a></span><span class="preprocessor">#define nREG_S(i) (0)</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">#define nREG_F(i) (0)</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#define nREG_S(i) (0)</span></div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="comment">// Kuwajima</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#afa45ed39b630c2854cc31d669ca155bf">  290</a></span><span class="preprocessor">#define kREG_F(i) (0)</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a070d69c35f6ab9cdcfaf8712e6422be0">  291</a></span><span class="preprocessor">#define kREG_S(i) (0)</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#define kREG_F(i) (0)</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">#define kREG_S(i) (0)</span></div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="comment">// Okajima</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a250c1eaf9a0358349e0a28b5de197e86">  294</a></span><span class="preprocessor">#define oREG_F(i) (0)</span></div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a253c635d5008ad021539d2089fa35297">  295</a></span><span class="preprocessor">#define oREG_S(i) (0)</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="preprocessor">#define oREG_F(i) (0)</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#define oREG_S(i) (0)</span></div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span> </div>
 <div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="comment">// Yamazaki</span></div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a89322e146cf98da40d1129c5123d99c0">  298</a></span><span class="preprocessor">#define yREG_F(i) (0)</span></div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a46f2a32fb56ad85f4e19f53c423d8e3b">  299</a></span><span class="preprocessor">#define yREG_S(i) (0)</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">#define yREG_F(i) (0)</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#define yREG_S(i) (0)</span></div>
 <div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
 <div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><span class="comment">// Ashida</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#aff60c99fd31bb901f5d0249c9f83def6">  302</a></span><span class="preprocessor">#define aREG_F(i) (0)</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a76048d18403208554ee0f47ebde45413">  303</a></span><span class="preprocessor">#define aREG_S(i) (0)</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="preprocessor">#define aREG_F(i) (0)</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="preprocessor">#define aREG_S(i) (0)</span></div>
 <div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span> </div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span><span class="comment">// Okada</span></div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#afefbc98e7976f3a094f820414323f40e">  306</a></span><span class="preprocessor">#define hREG_F(i) (0)</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#ac8a6e1cf6b1f5108081d44eb96e15056">  307</a></span><span class="preprocessor">#define hREG_S(i) (0)</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#define hREG_F(i) (0)</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#define hREG_S(i) (0)</span></div>
 <div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
 <div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="comment">// Takahashi</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#a77b7b3b6d8e58e953c26609923b8d787">  310</a></span><span class="preprocessor">#define tREG_F(i) (0)</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="d__s__play_8h.html#affa22912e24ac702005d8396e265578e">  311</a></span><span class="preprocessor">#define tREG_S(i) (0)</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#define tREG_F(i) (0)</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="preprocessor">#define tREG_S(i) (0)</span></div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
 <div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="preprocessor">#endif </span><span class="comment">/* D_S_D_S_PLAY_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aGXInit_8c_html_aab60385ff6b38344b88c6f0be66e8703"><div class="ttname"><a href="GXInit_8c.html#aab60385ff6b38344b88c6f0be66e8703">time</a></div><div class="ttdeci">OSTime time</div><div class="ttdef"><b>Definition</b> GXInit.c:62</div></div>
+<div class="ttc" id="aGXInit_8c_html_aab60385ff6b38344b88c6f0be66e8703"><div class="ttname"><a href="GXInit_8c.html#aab60385ff6b38344b88c6f0be66e8703">time</a></div><div class="ttdeci">OSTime time</div><div class="ttdef"><b>Definition</b> GXInit.c:61</div></div>
 <div class="ttc" id="ac__xyz_8h_html"><div class="ttname"><a href="c__xyz_8h.html">c_xyz.h</a></div></div>
 <div class="ttc" id="aclassdScnPly__c_html"><div class="ttname"><a href="classdScnPly__c.html">dScnPly_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:75</div></div>
 <div class="ttc" id="aclassdScnPly__c_html_a236682a8587625919db5d35faa8d4219"><div class="ttname"><a href="classdScnPly__c.html#a236682a8587625919db5d35faa8d4219">dScnPly_c::nextPauseTimer</a></div><div class="ttdeci">static s8 nextPauseTimer</div><div class="ttdef"><b>Definition</b> d_s_play.h:85</div></div>
@@ -420,9 +479,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassdScnPly__c_html_a880fdb6463caf71e80d5183e1a44de37"><div class="ttname"><a href="classdScnPly__c.html#a880fdb6463caf71e80d5183e1a44de37">dScnPly_c::field_0x1d4</a></div><div class="ttdeci">u8 field_0x1d4</div><div class="ttdef"><b>Definition</b> d_s_play.h:90</div></div>
 <div class="ttc" id="aclassdScnPly__c_html_a8ac2a96ab62f48dc098da5e1cd7c54f0"><div class="ttname"><a href="classdScnPly__c.html#a8ac2a96ab62f48dc098da5e1cd7c54f0">dScnPly_c::field_0x1d0</a></div><div class="ttdeci">mDoDvdThd_mountXArchive_c * field_0x1d0</div><div class="ttdef"><b>Definition</b> d_s_play.h:89</div></div>
 <div class="ttc" id="aclassdScnPly__c_html_ac24b9da6508820fe47b37eacf796b522"><div class="ttname"><a href="classdScnPly__c.html#ac24b9da6508820fe47b37eacf796b522">dScnPly_c::pauseTimer</a></div><div class="ttdeci">static s8 pauseTimer</div><div class="ttdef"><b>Definition</b> d_s_play.h:84</div></div>
-<div class="ttc" id="aclassdScnPly__c_html_ac677c01b99c7ef6ce362567e26f40a09"><div class="ttname"><a href="classdScnPly__c.html#ac677c01b99c7ef6ce362567e26f40a09">dScnPly_c::calcPauseTimer</a></div><div class="ttdeci">s8 calcPauseTimer()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:77</div></div>
-<div class="ttc" id="aclassdScnPly__c_html_ad1ed1d1a53c31670718d153a6d8e1847"><div class="ttname"><a href="classdScnPly__c.html#ad1ed1d1a53c31670718d153a6d8e1847">dScnPly_c::resetGame</a></div><div class="ttdeci">bool resetGame()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:299</div></div>
-<div class="ttc" id="aclassdScnPly__c_html_af3b066d446a8bd62fcecd29149c4dbcf"><div class="ttname"><a href="classdScnPly__c.html#af3b066d446a8bd62fcecd29149c4dbcf">dScnPly_c::offReset</a></div><div class="ttdeci">void offReset()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:331</div></div>
+<div class="ttc" id="aclassdScnPly__c_html_ac677c01b99c7ef6ce362567e26f40a09"><div class="ttname"><a href="classdScnPly__c.html#ac677c01b99c7ef6ce362567e26f40a09">dScnPly_c::calcPauseTimer</a></div><div class="ttdeci">s8 calcPauseTimer()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:73</div></div>
+<div class="ttc" id="aclassdScnPly__c_html_ad1ed1d1a53c31670718d153a6d8e1847"><div class="ttname"><a href="classdScnPly__c.html#ad1ed1d1a53c31670718d153a6d8e1847">dScnPly_c::resetGame</a></div><div class="ttdeci">bool resetGame()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:295</div></div>
+<div class="ttc" id="aclassdScnPly__c_html_af3b066d446a8bd62fcecd29149c4dbcf"><div class="ttname"><a href="classdScnPly__c.html#af3b066d446a8bd62fcecd29149c4dbcf">dScnPly_c::offReset</a></div><div class="ttdeci">void offReset()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:327</div></div>
 <div class="ttc" id="aclassdScnPly__env__HIO__c_html"><div class="ttname"><a href="classdScnPly__env__HIO__c.html">dScnPly_env_HIO_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:63</div></div>
 <div class="ttc" id="aclassdScnPly__env__HIO__c_html_a0900c423b3bf83e3cd65773dd036595f"><div class="ttname"><a href="classdScnPly__env__HIO__c.html#a0900c423b3bf83e3cd65773dd036595f">dScnPly_env_HIO_c::mOther</a></div><div class="ttdeci">dScnPly_env_otherHIO_c mOther</div><div class="ttdef"><b>Definition</b> d_s_play.h:68</div></div>
 <div class="ttc" id="aclassdScnPly__env__HIO__c_html_a58c24537f38307c6f592839487a54d0c"><div class="ttname"><a href="classdScnPly__env__HIO__c.html#a58c24537f38307c6f592839487a54d0c">dScnPly_env_HIO_c::mDebug</a></div><div class="ttdeci">dScnPly_env_debugHIO_c mDebug</div><div class="ttdef"><b>Definition</b> d_s_play.h:69</div></div>
@@ -432,13 +491,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_a3951d5ab91a2cc6f9b6af9c4f49a81d0"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#a3951d5ab91a2cc6f9b6af9c4f49a81d0">dScnPly_env_debugHIO_c::field_0x4</a></div><div class="ttdeci">u8 field_0x4</div><div class="ttdef"><b>Definition</b> d_s_play.h:56</div></div>
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_a3d39a44552b09508b864088c8f590005"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#a3d39a44552b09508b864088c8f590005">dScnPly_env_debugHIO_c::mBoxCullMaxSize</a></div><div class="ttdeci">cXyz mBoxCullMaxSize</div><div class="ttdef"><b>Definition</b> d_s_play.h:58</div></div>
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_a6af7048ec59bfe465f58d6f1a52a5c47"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#a6af7048ec59bfe465f58d6f1a52a5c47">dScnPly_env_debugHIO_c::mSphereCullCenter</a></div><div class="ttdeci">cXyz mSphereCullCenter</div><div class="ttdef"><b>Definition</b> d_s_play.h:59</div></div>
-<div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_aaf16b2b66b030c34544b68116b28585b"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#aaf16b2b66b030c34544b68116b28585b">dScnPly_env_debugHIO_c::dScnPly_env_debugHIO_c</a></div><div class="ttdeci">dScnPly_env_debugHIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:100</div></div>
+<div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_aaf16b2b66b030c34544b68116b28585b"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#aaf16b2b66b030c34544b68116b28585b">dScnPly_env_debugHIO_c::dScnPly_env_debugHIO_c</a></div><div class="ttdeci">dScnPly_env_debugHIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:96</div></div>
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_ab8d14ba7c8a3f0e21fdd74ba9830dcee"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#ab8d14ba7c8a3f0e21fdd74ba9830dcee">dScnPly_env_debugHIO_c::mSphereCullRadius</a></div><div class="ttdeci">f32 mSphereCullRadius</div><div class="ttdef"><b>Definition</b> d_s_play.h:60</div></div>
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_acd3b2208b06de33a35451a4db3795fcc"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#acd3b2208b06de33a35451a4db3795fcc">dScnPly_env_debugHIO_c::mBoxCullMinSize</a></div><div class="ttdeci">cXyz mBoxCullMinSize</div><div class="ttdef"><b>Definition</b> d_s_play.h:57</div></div>
 <div class="ttc" id="aclassdScnPly__env__debugHIO__c_html_aec20e706ebbe45ec286fdb88dcdf1e5b"><div class="ttname"><a href="classdScnPly__env__debugHIO__c.html#aec20e706ebbe45ec286fdb88dcdf1e5b">dScnPly_env_debugHIO_c::~dScnPly_env_debugHIO_c</a></div><div class="ttdeci">virtual ~dScnPly_env_debugHIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.h:53</div></div>
 <div class="ttc" id="aclassdScnPly__env__otherHIO__c_html"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html">dScnPly_env_otherHIO_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:37</div></div>
 <div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a079a2a71676ec016b27f862a072832ff"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a079a2a71676ec016b27f862a072832ff">dScnPly_env_otherHIO_c::mShadowDensity</a></div><div class="ttdeci">f32 mShadowDensity</div><div class="ttdef"><b>Definition</b> d_s_play.h:43</div></div>
-<div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a081b699c7f193ba7b1a911c2506b4288"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a081b699c7f193ba7b1a911c2506b4288">dScnPly_env_otherHIO_c::dScnPly_env_otherHIO_c</a></div><div class="ttdeci">dScnPly_env_otherHIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:93</div></div>
+<div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a081b699c7f193ba7b1a911c2506b4288"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a081b699c7f193ba7b1a911c2506b4288">dScnPly_env_otherHIO_c::dScnPly_env_otherHIO_c</a></div><div class="ttdeci">dScnPly_env_otherHIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:89</div></div>
 <div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a2235d75417f0153fc1773f767d69f233"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a2235d75417f0153fc1773f767d69f233">dScnPly_env_otherHIO_c::field_0x9</a></div><div class="ttdeci">u8 field_0x9</div><div class="ttdef"><b>Definition</b> d_s_play.h:45</div></div>
 <div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a2357ba15543c06a08a69ce001fd6371c"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a2357ba15543c06a08a69ce001fd6371c">dScnPly_env_otherHIO_c::mLODBias</a></div><div class="ttdeci">u8 mLODBias</div><div class="ttdef"><b>Definition</b> d_s_play.h:44</div></div>
 <div class="ttc" id="aclassdScnPly__env__otherHIO__c_html_a40bff0be186bfd0c15decd3ae64b7620"><div class="ttname"><a href="classdScnPly__env__otherHIO__c.html#a40bff0be186bfd0c15decd3ae64b7620">dScnPly_env_otherHIO_c::mDispTransCylinder</a></div><div class="ttdeci">u8 mDispTransCylinder</div><div class="ttdef"><b>Definition</b> d_s_play.h:46</div></div>
@@ -446,6 +505,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassdScnPly__preLoad__HIO__c_html"><div class="ttname"><a href="classdScnPly__preLoad__HIO__c.html">dScnPly_preLoad_HIO_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:32</div></div>
 <div class="ttc" id="aclassdScnPly__preLoad__HIO__c_html_a1088ff1954cd28cecdd1363f5f9922e6"><div class="ttname"><a href="classdScnPly__preLoad__HIO__c.html#a1088ff1954cd28cecdd1363f5f9922e6">dScnPly_preLoad_HIO_c::~dScnPly_preLoad_HIO_c</a></div><div class="ttdeci">virtual ~dScnPly_preLoad_HIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.h:34</div></div>
 <div class="ttc" id="aclassdScnPly__reg__HIO__c_html"><div class="ttname"><a href="classdScnPly__reg__HIO__c.html">dScnPly_reg_HIO_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:17</div></div>
+<div class="ttc" id="aclassdScnPly__reg__HIO__c_html_a0143f7a2ce1b7f2d96d9bf588d6a79ca"><div class="ttname"><a href="classdScnPly__reg__HIO__c.html#a0143f7a2ce1b7f2d96d9bf588d6a79ca">dScnPly_reg_HIO_c::mChildReg</a></div><div class="ttdeci">dScnPly_reg_childHIO_c mChildReg[26]</div><div class="ttdef"><b>Definition</b> d_s_play.h:23</div></div>
 <div class="ttc" id="aclassdScnPly__reg__HIO__c_html_aa1a2687b4a7e6a0ce9ce585da36c3c62"><div class="ttname"><a href="classdScnPly__reg__HIO__c.html#aa1a2687b4a7e6a0ce9ce585da36c3c62">dScnPly_reg_HIO_c::field_0x4</a></div><div class="ttdeci">u8 field_0x4[0x8 - 0x4]</div><div class="ttdef"><b>Definition</b> d_s_play.h:21</div></div>
 <div class="ttc" id="aclassdScnPly__reg__HIO__c_html_ab2e4af4dd1ff1766e49fd00fde9ba1bd"><div class="ttname"><a href="classdScnPly__reg__HIO__c.html#ab2e4af4dd1ff1766e49fd00fde9ba1bd">dScnPly_reg_HIO_c::~dScnPly_reg_HIO_c</a></div><div class="ttdeci">virtual ~dScnPly_reg_HIO_c()</div><div class="ttdef"><b>Definition</b> d_s_play.h:19</div></div>
 <div class="ttc" id="aclassdScnPly__reg__childHIO__c_html"><div class="ttname"><a href="classdScnPly__reg__childHIO__c.html">dScnPly_reg_childHIO_c</a></div><div class="ttdef"><b>Definition</b> d_s_play.h:10</div></div>
@@ -454,14 +514,14 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aclassdScnPly__reg__childHIO__c_html_a8c21682b635820ab413683b017f2720b"><div class="ttname"><a href="classdScnPly__reg__childHIO__c.html#a8c21682b635820ab413683b017f2720b">dScnPly_reg_childHIO_c::mFloatReg</a></div><div class="ttdeci">f32 mFloatReg[30]</div><div class="ttdef"><b>Definition</b> d_s_play.h:13</div></div>
 <div class="ttc" id="aclassmDoDvdThd__mountXArchive__c_html"><div class="ttname"><a href="classmDoDvdThd__mountXArchive__c.html">mDoDvdThd_mountXArchive_c</a></div><div class="ttdef"><b>Definition</b> m_Do_dvd_thread.h:60</div></div>
 <div class="ttc" id="aclassmDoDvdThd__toMainRam__c_html"><div class="ttname"><a href="classmDoDvdThd__toMainRam__c.html">mDoDvdThd_toMainRam_c</a></div><div class="ttdef"><b>Definition</b> m_Do_dvd_thread.h:26</div></div>
-<div class="ttc" id="aclassscene__class_html"><div class="ttname"><a href="classscene__class.html">scene_class</a></div><div class="ttdef"><b>Definition</b> f_op_scene.h:16</div></div>
-<div class="ttc" id="ad__s__play_8h_html_a4adfcc968b6553e00c7491a4f4738671"><div class="ttname"><a href="d__s__play_8h.html#a4adfcc968b6553e00c7491a4f4738671">g_envHIO</a></div><div class="ttdeci">dScnPly_env_HIO_c g_envHIO</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:581</div></div>
-<div class="ttc" id="ad__s__play_8h_html_a75eb79af31e205d4076a8ba598cf5152"><div class="ttname"><a href="d__s__play_8h.html#a75eb79af31e205d4076a8ba598cf5152">g_regHIO</a></div><div class="ttdeci">dScnPly_reg_HIO_c g_regHIO</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:578</div></div>
+<div class="ttc" id="aclassscene__class_html"><div class="ttname"><a href="classscene__class.html">scene_class</a></div><div class="ttdef"><b>Definition</b> f_op_scene.h:15</div></div>
+<div class="ttc" id="ad__s__play_8h_html_a4adfcc968b6553e00c7491a4f4738671"><div class="ttname"><a href="d__s__play_8h.html#a4adfcc968b6553e00c7491a4f4738671">g_envHIO</a></div><div class="ttdeci">dScnPly_env_HIO_c g_envHIO</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:577</div></div>
+<div class="ttc" id="ad__s__play_8h_html_a75eb79af31e205d4076a8ba598cf5152"><div class="ttname"><a href="d__s__play_8h.html#a75eb79af31e205d4076a8ba598cf5152">g_regHIO</a></div><div class="ttdeci">dScnPly_reg_HIO_c g_regHIO</div><div class="ttdef"><b>Definition</b> d_s_play.cpp:574</div></div>
 <div class="ttc" id="ad__s__play_8h_html_a7ce750d5c6c94ab1f470fd68dba93a2d"><div class="ttname"><a href="d__s__play_8h.html#a7ce750d5c6c94ab1f470fd68dba93a2d">pauseTimer__9dScnPly_c</a></div><div class="ttdeci">s8 pauseTimer__9dScnPly_c</div></div>
 <div class="ttc" id="ad__s__play_8h_html_ad86acb6e83beea6d4c572793343c1acd"><div class="ttname"><a href="d__s__play_8h.html#ad86acb6e83beea6d4c572793343c1acd">nextPauseTimer__9dScnPly_c</a></div><div class="ttdeci">s8 nextPauseTimer__9dScnPly_c</div></div>
 <div class="ttc" id="af__op__scene_8h_html"><div class="ttname"><a href="f__op__scene_8h.html">f_op_scene.h</a></div></div>
 <div class="ttc" id="astructcXyz_html"><div class="ttname"><a href="structcXyz.html">cXyz</a></div><div class="ttdef"><b>Definition</b> d_cc_d.cpp:49</div></div>
-<div class="ttc" id="astructmDoHIO__entry__c_html"><div class="ttname"><a href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a></div><div class="ttdef"><b>Definition</b> d_a_npc_cd.cpp:14</div></div>
+<div class="ttc" id="astructmDoHIO__entry__c_html"><div class="ttname"><a href="structmDoHIO__entry__c.html">mDoHIO_entry_c</a></div><div class="ttdef"><b>Definition</b> d_a_npc_cd.cpp:13</div></div>
 <div class="ttc" id="astructmDoHIO__entry__c_html_a750a48fdf8903fbdf354f96170ce71a3"><div class="ttname"><a href="structmDoHIO__entry__c.html#a750a48fdf8903fbdf354f96170ce71a3">mDoHIO_entry_c::~mDoHIO_entry_c</a></div><div class="ttdeci">virtual ~mDoHIO_entry_c()</div><div class="ttdef"><b>Definition</b> d_s_play.h:29</div></div>
 <div class="ttc" id="astructrequest__of__phase__process__class_html"><div class="ttname"><a href="structrequest__of__phase__process__class.html">request_of_phase_process_class</a></div><div class="ttdef"><b>Definition</b> c_phase.h:17</div></div>
 <div class="ttc" id="atypes_8h_html_a151f780fb455885061d3b77ec1c90c03"><div class="ttname"><a href="types_8h.html#a151f780fb455885061d3b77ec1c90c03">s8</a></div><div class="ttdeci">signed char s8</div><div class="ttdef"><b>Definition</b> types.h:4</div></div>
@@ -469,9 +529,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_a5ffa4f640862b25ba6d4f635b78bdbe1"><div class="ttname"><a href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a></div><div class="ttdeci">signed short s16</div><div class="ttdef"><b>Definition</b> types.h:5</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_cc3ad1aed4be3f446fdd7af78322f5bf.html">d</a></li><li class="navelem"><a class="el" href="dir_537a94bfac16f36021f172a9a054c873.html">s</a></li><li class="navelem"><a class="el" href="d__s__play_8h.html">d_s_play.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: src/d/msg/d_msg_scrn_talk.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d__msg__scrn__talk_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,11 +139,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a921e71f3ef0b46ce159b4549017b167.html">d</a></li><li class="navelem"><a class="el" href="dir_1c39512378762c4b296a86a7048219c7.html">msg</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
@@ -88,39 +147,14 @@ $(function() {
   <div class="headertitle"><div class="title">d_msg_scrn_talk.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="d__msg__scrn__talk_8h_source.html">d/msg/d_msg_scrn_talk.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/__ct__14dMsgScrnTalk_cFUcUcP10JKRExpHeap.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/__dt__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/exec__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/drawSelf__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/arwAnimeInit__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/arwAnimeMove__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/dotAnimeInit__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/dotAnimeMove__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/setSelectString__14dMsgScrnTalk_cFPcPcPc.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/setSelectRubyString__14dMsgScrnTalk_cFPcPcPc.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/isSelect__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/selectAnimeInit__14dMsgScrnTalk_cFUcUcfUc.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/selectAnimeMove__14dMsgScrnTalk_cFUcUcb.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/selectAnimeEnd__14dMsgScrnTalk_cFv.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/fukiAlpha__14dMsgScrnTalk_cFf.s&quot;</code><br />
-<code>#include &quot;asm/msg/scrn/d_msg_scrn_talk/fukiPosCalc__14dMsgScrnTalk_cFUc.s&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_msg_scrn_talk.cpp:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__msg__scrn__talk_8cpp__incl.svg" width="100%" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRExpHeap.html">JKRExpHeap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnTalk__c.html">dMsgScrnTalk_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnLight__c.html">dMsgScrnLight_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnLight__c.html">dMsgScrnLight_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrnBase__c.html">dMsgScrnBase_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,7 +162,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgScrn3Select__c.html">dMsgScrn3Select_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgObject__c.html">dMsgObject_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdMsgObject__c.html">dMsgObject_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJUtility.html">JUtility</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,21 +174,21 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcXyz.html">cXyz</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRHeap.html">JKRHeap</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRHeap.html">JKRHeap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRArchive.html">JKRArchive</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJKRArchive.html">JKRArchive</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DTextBox.html">J2DTextBox</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DTextBox.html">J2DTextBox</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DGrafContext.html">J2DGrafContext</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DGrafContext.html">J2DGrafContext</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DScreen.html">J2DScreen</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DScreen.html">J2DScreen</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DPane.html">J2DPane</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structJ2DPane.html">J2DPane</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCPaneMgrAlpha.html">CPaneMgrAlpha</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCPaneMgrAlpha.html">CPaneMgrAlpha</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCPaneMgr.html">CPaneMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCPaneMgr.html">CPaneMgr</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -195,7 +229,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0fcd87ebca7325d16007473623662e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab304517525ca8bb088c17b7ec21d4036" id="r_ab304517525ca8bb088c17b7ec21d4036"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ab304517525ca8bb088c17b7ec21d4036">fukiPosCalc__14dMsgScrnTalk_cFUc</a> ()</td></tr>
 <tr class="separator:ab304517525ca8bb088c17b7ec21d4036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5483d4fbef9a528a3f56d30a4c5da3a" id="r_ae5483d4fbef9a528a3f56d30a4c5da3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#adc00f0d3ad529c0cb72985d54bfe7ccf">SECTION_INIT</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ae5483d4fbef9a528a3f56d30a4c5da3a">memset</a> ()</td></tr>
+<tr class="memitem:ae5483d4fbef9a528a3f56d30a4c5da3a" id="r_ae5483d4fbef9a528a3f56d30a4c5da3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_INIT</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ae5483d4fbef9a528a3f56d30a4c5da3a">memset</a> ()</td></tr>
 <tr class="separator:ae5483d4fbef9a528a3f56d30a4c5da3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85884d093974be3f84c88a504826f71" id="r_af85884d093974be3f84c88a504826f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#af85884d093974be3f84c88a504826f71">mDoExt_getMesgFont__Fv</a> ()</td></tr>
 <tr class="separator:af85884d093974be3f84c88a504826f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -342,57 +376,57 @@ Variables</h2></td></tr>
 <tr class="separator:a2fcce57da0213dbb9db2badf854fade0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca89e4e74031978bedf7b6c7347c66c8" id="r_aca89e4e74031978bedf7b6c7347c66c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aca89e4e74031978bedf7b6c7347c66c8">g_MsgObject_HIO_c</a> [1040]</td></tr>
 <tr class="separator:aca89e4e74031978bedf7b6c7347c66c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e3a0cdf645b9a54a1d0847c19db0b39" id="r_a2e3a0cdf645b9a54a1d0847c19db0b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a2e3a0cdf645b9a54a1d0847c19db0b39">stringBase_80399BB0</a> = &quot;zelda_message_window_new.blo&quot;</td></tr>
+<tr class="memitem:a2e3a0cdf645b9a54a1d0847c19db0b39" id="r_a2e3a0cdf645b9a54a1d0847c19db0b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a2e3a0cdf645b9a54a1d0847c19db0b39">stringBase_80399BB0</a> = &quot;zelda_message_window_new.blo&quot;</td></tr>
 <tr class="separator:a2e3a0cdf645b9a54a1d0847c19db0b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8c13fcfb956280e24eb33871f16123e" id="r_af8c13fcfb956280e24eb33871f16123e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#af8c13fcfb956280e24eb33871f16123e">stringBase_80399BCD</a> = &quot;zelda_message_window_text_seirei.blo&quot;</td></tr>
+<tr class="memitem:af8c13fcfb956280e24eb33871f16123e" id="r_af8c13fcfb956280e24eb33871f16123e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#af8c13fcfb956280e24eb33871f16123e">stringBase_80399BCD</a> = &quot;zelda_message_window_text_seirei.blo&quot;</td></tr>
 <tr class="separator:af8c13fcfb956280e24eb33871f16123e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77222c3fe452bac628bda6aceadd029d" id="r_a77222c3fe452bac628bda6aceadd029d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a77222c3fe452bac628bda6aceadd029d">stringBase_80399BF2</a> = &quot;zelda_message_window_text.blo&quot;</td></tr>
+<tr class="memitem:a77222c3fe452bac628bda6aceadd029d" id="r_a77222c3fe452bac628bda6aceadd029d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a77222c3fe452bac628bda6aceadd029d">stringBase_80399BF2</a> = &quot;zelda_message_window_text.blo&quot;</td></tr>
 <tr class="separator:a77222c3fe452bac628bda6aceadd029d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ec48ef41eb80fa8eb475bd5c073a35" id="r_a12ec48ef41eb80fa8eb475bd5c073a35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a12ec48ef41eb80fa8eb475bd5c073a35">stringBase_80399C10</a> = &quot;&quot;</td></tr>
+<tr class="memitem:a12ec48ef41eb80fa8eb475bd5c073a35" id="r_a12ec48ef41eb80fa8eb475bd5c073a35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a12ec48ef41eb80fa8eb475bd5c073a35">stringBase_80399C10</a> = &quot;&quot;</td></tr>
 <tr class="separator:a12ec48ef41eb80fa8eb475bd5c073a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d5eef367c176088b56903e96dce9e98" id="r_a5d5eef367c176088b56903e96dce9e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a5d5eef367c176088b56903e96dce9e98">pad_80399C11</a> = &quot;\0\0\0\0\0\0&quot;</td></tr>
+<tr class="memitem:a5d5eef367c176088b56903e96dce9e98" id="r_a5d5eef367c176088b56903e96dce9e98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>  *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a5d5eef367c176088b56903e96dce9e98">pad_80399C11</a> = &quot;\0\0\0\0\0\0&quot;</td></tr>
 <tr class="separator:a5d5eef367c176088b56903e96dce9e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a7fde952c934b36f4c1d8d6530d38fa" id="r_a1a7fde952c934b36f4c1d8d6530d38fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a1a7fde952c934b36f4c1d8d6530d38fa">__vt__14dMsgScrnTalk_c</a> [22]</td></tr>
+<tr class="memitem:a1a7fde952c934b36f4c1d8d6530d38fa" id="r_a1a7fde952c934b36f4c1d8d6530d38fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a1a7fde952c934b36f4c1d8d6530d38fa">__vt__14dMsgScrnTalk_c</a> [22]</td></tr>
 <tr class="separator:a1a7fde952c934b36f4c1d8d6530d38fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea02a167e2f90c4ea24ffce78683ddad" id="r_aea02a167e2f90c4ea24ffce78683ddad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aea02a167e2f90c4ea24ffce78683ddad">lit_4086</a> = 18.0f</td></tr>
+<tr class="memitem:aea02a167e2f90c4ea24ffce78683ddad" id="r_aea02a167e2f90c4ea24ffce78683ddad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aea02a167e2f90c4ea24ffce78683ddad">lit_4086</a> = 18.0f</td></tr>
 <tr class="separator:aea02a167e2f90c4ea24ffce78683ddad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa435d9a4e23d0a9573ec6361de90a93e" id="r_aa435d9a4e23d0a9573ec6361de90a93e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aa435d9a4e23d0a9573ec6361de90a93e">lit_4087</a> [4]</td></tr>
+<tr class="memitem:aa435d9a4e23d0a9573ec6361de90a93e" id="r_aa435d9a4e23d0a9573ec6361de90a93e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aa435d9a4e23d0a9573ec6361de90a93e">lit_4087</a> [4]</td></tr>
 <tr class="separator:aa435d9a4e23d0a9573ec6361de90a93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fac37e779543e99a094088259085df8" id="r_a0fac37e779543e99a094088259085df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a0fac37e779543e99a094088259085df8">lit_4088</a> = -10.0f</td></tr>
+<tr class="memitem:a0fac37e779543e99a094088259085df8" id="r_a0fac37e779543e99a094088259085df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a0fac37e779543e99a094088259085df8">lit_4088</a> = -10.0f</td></tr>
 <tr class="separator:a0fac37e779543e99a094088259085df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd873a967a8b436dc1f3c9db2ce650ba" id="r_acd873a967a8b436dc1f3c9db2ce650ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#acd873a967a8b436dc1f3c9db2ce650ba">lit_4089</a> = 6.0f / 5.0f</td></tr>
+<tr class="memitem:acd873a967a8b436dc1f3c9db2ce650ba" id="r_acd873a967a8b436dc1f3c9db2ce650ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#acd873a967a8b436dc1f3c9db2ce650ba">lit_4089</a> = 6.0f / 5.0f</td></tr>
 <tr class="separator:acd873a967a8b436dc1f3c9db2ce650ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9a1fa7bf85517e61731ec40dc3de3a6" id="r_ac9a1fa7bf85517e61731ec40dc3de3a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ac9a1fa7bf85517e61731ec40dc3de3a6">lit_4197</a> = 1.0f</td></tr>
+<tr class="memitem:ac9a1fa7bf85517e61731ec40dc3de3a6" id="r_ac9a1fa7bf85517e61731ec40dc3de3a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ac9a1fa7bf85517e61731ec40dc3de3a6">lit_4197</a> = 1.0f</td></tr>
 <tr class="separator:ac9a1fa7bf85517e61731ec40dc3de3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52af446ada37552a8f2318c1cfdf8ca1" id="r_a52af446ada37552a8f2318c1cfdf8ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a52af446ada37552a8f2318c1cfdf8ca1">lit_4278</a> = 4.0f / 5.0f</td></tr>
+<tr class="memitem:a52af446ada37552a8f2318c1cfdf8ca1" id="r_a52af446ada37552a8f2318c1cfdf8ca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a52af446ada37552a8f2318c1cfdf8ca1">lit_4278</a> = 4.0f / 5.0f</td></tr>
 <tr class="separator:a52af446ada37552a8f2318c1cfdf8ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa50e50e2b1e708cda33697e2b15169c3" id="r_aa50e50e2b1e708cda33697e2b15169c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aa50e50e2b1e708cda33697e2b15169c3">lit_4279</a> = -1.0f</td></tr>
+<tr class="memitem:aa50e50e2b1e708cda33697e2b15169c3" id="r_aa50e50e2b1e708cda33697e2b15169c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aa50e50e2b1e708cda33697e2b15169c3">lit_4279</a> = -1.0f</td></tr>
 <tr class="separator:aa50e50e2b1e708cda33697e2b15169c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e2a0b5b000d41557eabc8e107bb3eb" id="r_a09e2a0b5b000d41557eabc8e107bb3eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a09e2a0b5b000d41557eabc8e107bb3eb">lit_4489</a> = 608.0f</td></tr>
+<tr class="memitem:a09e2a0b5b000d41557eabc8e107bb3eb" id="r_a09e2a0b5b000d41557eabc8e107bb3eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a09e2a0b5b000d41557eabc8e107bb3eb">lit_4489</a> = 608.0f</td></tr>
 <tr class="separator:a09e2a0b5b000d41557eabc8e107bb3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335bdaf00a0c24dee4d105626684aaa7" id="r_a335bdaf00a0c24dee4d105626684aaa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a335bdaf00a0c24dee4d105626684aaa7">lit_4490</a> = 448.0f</td></tr>
+<tr class="memitem:a335bdaf00a0c24dee4d105626684aaa7" id="r_a335bdaf00a0c24dee4d105626684aaa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a335bdaf00a0c24dee4d105626684aaa7">lit_4490</a> = 448.0f</td></tr>
 <tr class="separator:a335bdaf00a0c24dee4d105626684aaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6aa576e1685482599e69bab8bf5057" id="r_aad6aa576e1685482599e69bab8bf5057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aad6aa576e1685482599e69bab8bf5057">lit_4491</a> = 0.5f</td></tr>
+<tr class="memitem:aad6aa576e1685482599e69bab8bf5057" id="r_aad6aa576e1685482599e69bab8bf5057"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aad6aa576e1685482599e69bab8bf5057">lit_4491</a> = 0.5f</td></tr>
 <tr class="separator:aad6aa576e1685482599e69bab8bf5057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e9f5392ada219b554ade187640f7c8" id="r_ac3e9f5392ada219b554ade187640f7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ac3e9f5392ada219b554ade187640f7c8">lit_4492</a> = 50.0f</td></tr>
+<tr class="memitem:ac3e9f5392ada219b554ade187640f7c8" id="r_ac3e9f5392ada219b554ade187640f7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ac3e9f5392ada219b554ade187640f7c8">lit_4492</a> = 50.0f</td></tr>
 <tr class="separator:ac3e9f5392ada219b554ade187640f7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1835ef910feddc622a206bc7132f29e2" id="r_a1835ef910feddc622a206bc7132f29e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a1835ef910feddc622a206bc7132f29e2">lit_4493</a> = 105.0f</td></tr>
+<tr class="memitem:a1835ef910feddc622a206bc7132f29e2" id="r_a1835ef910feddc622a206bc7132f29e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a1835ef910feddc622a206bc7132f29e2">lit_4493</a> = 105.0f</td></tr>
 <tr class="separator:a1835ef910feddc622a206bc7132f29e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b1346c2d64eaf55b4b4df94c69a738b" id="r_a2b1346c2d64eaf55b4b4df94c69a738b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a2b1346c2d64eaf55b4b4df94c69a738b">lit_4494</a> = 486.0f</td></tr>
+<tr class="memitem:a2b1346c2d64eaf55b4b4df94c69a738b" id="r_a2b1346c2d64eaf55b4b4df94c69a738b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a2b1346c2d64eaf55b4b4df94c69a738b">lit_4494</a> = 486.0f</td></tr>
 <tr class="separator:a2b1346c2d64eaf55b4b4df94c69a738b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc7be1e6ccc20347db25815a898f9215" id="r_afc7be1e6ccc20347db25815a898f9215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#afc7be1e6ccc20347db25815a898f9215">lit_4495</a> = 230.0f</td></tr>
+<tr class="memitem:afc7be1e6ccc20347db25815a898f9215" id="r_afc7be1e6ccc20347db25815a898f9215"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#afc7be1e6ccc20347db25815a898f9215">lit_4495</a> = 230.0f</td></tr>
 <tr class="separator:afc7be1e6ccc20347db25815a898f9215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140590782e4f5cc45e2e8d8dde9d6eb1" id="r_a140590782e4f5cc45e2e8d8dde9d6eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a140590782e4f5cc45e2e8d8dde9d6eb1">lit_4496</a> = 235.0f</td></tr>
+<tr class="memitem:a140590782e4f5cc45e2e8d8dde9d6eb1" id="r_a140590782e4f5cc45e2e8d8dde9d6eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a140590782e4f5cc45e2e8d8dde9d6eb1">lit_4496</a> = 235.0f</td></tr>
 <tr class="separator:a140590782e4f5cc45e2e8d8dde9d6eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14fc3f07942b723561dd477e9bd63391" id="r_a14fc3f07942b723561dd477e9bd63391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a14fc3f07942b723561dd477e9bd63391">lit_4497</a> = 355.0f</td></tr>
+<tr class="memitem:a14fc3f07942b723561dd477e9bd63391" id="r_a14fc3f07942b723561dd477e9bd63391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a14fc3f07942b723561dd477e9bd63391">lit_4497</a> = 355.0f</td></tr>
 <tr class="separator:a14fc3f07942b723561dd477e9bd63391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f51e67ecab921269d971a6ed6199a4" id="r_ab0f51e67ecab921269d971a6ed6199a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ab0f51e67ecab921269d971a6ed6199a4">lit_4498</a> = 209.0f</td></tr>
+<tr class="memitem:ab0f51e67ecab921269d971a6ed6199a4" id="r_ab0f51e67ecab921269d971a6ed6199a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ab0f51e67ecab921269d971a6ed6199a4">lit_4498</a> = 209.0f</td></tr>
 <tr class="separator:ab0f51e67ecab921269d971a6ed6199a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada510c2009ea6da412baa12d9c218141" id="r_ada510c2009ea6da412baa12d9c218141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ada510c2009ea6da412baa12d9c218141">lit_4499</a> = -190.0f</td></tr>
+<tr class="memitem:ada510c2009ea6da412baa12d9c218141" id="r_ada510c2009ea6da412baa12d9c218141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#ada510c2009ea6da412baa12d9c218141">lit_4499</a> = -190.0f</td></tr>
 <tr class="separator:ada510c2009ea6da412baa12d9c218141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff3e26e800f0b6cec1e8e929ad3ba7b6" id="r_aff3e26e800f0b6cec1e8e929ad3ba7b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aff3e26e800f0b6cec1e8e929ad3ba7b6">lit_4500</a> [1+1]</td></tr>
+<tr class="memitem:aff3e26e800f0b6cec1e8e929ad3ba7b6" id="r_aff3e26e800f0b6cec1e8e929ad3ba7b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#aff3e26e800f0b6cec1e8e929ad3ba7b6">lit_4500</a> [1+1]</td></tr>
 <tr class="separator:aff3e26e800f0b6cec1e8e929ad3ba7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84fc4791239d7cf32665b61025f1aadb" id="r_a84fc4791239d7cf32665b61025f1aadb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a84fc4791239d7cf32665b61025f1aadb">lit_4502</a> = 4503601774854144.0</td></tr>
+<tr class="memitem:a84fc4791239d7cf32665b61025f1aadb" id="r_a84fc4791239d7cf32665b61025f1aadb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__msg__scrn__talk_8cpp.html#a84fc4791239d7cf32665b61025f1aadb">lit_4502</a> = 4503601774854144.0</td></tr>
 <tr class="separator:a84fc4791239d7cf32665b61025f1aadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1542,7 +1576,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#adc00f0d3ad529c0cb72985d54bfe7ccf">SECTION_INIT</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> memset </td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_INIT</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> memset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1869,7 +1903,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14dMsgScrnTalk_c[22]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14dMsgScrnTalk_c[22]</td>
         </tr>
       </table>
   </td>
@@ -1879,8 +1913,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__scrn__talk_8cpp.html#ae76b0ebd7fb676172ffcd7aff988d2b9">draw__14dMsgScrnBase_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__scrn__talk_8cpp.html#ae68afef655d329b2c37547ae7d2274ea">__dt__14dMsgScrnTalk_cFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__scrn__talk_8cpp.html#a2d1d3808f2d96a91f16a660e099677b8">exec__14dMsgScrnTalk_cFv</a>,</div>
@@ -1902,6 +1936,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__scrn__talk_8cpp.html#a6a8e5b3599245922756d78f07ff78b58">fontAlpha__14dMsgScrnBase_cFf</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="d__msg__scrn__talk_8cpp.html#ab304517525ca8bb088c17b7ec21d4036">fukiPosCalc__14dMsgScrnTalk_cFUc</a>,</div>
 <div class="line">}</div>
+<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_a0dceedc134715c926e2463d2e0461a3c"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#a0dceedc134715c926e2463d2e0461a3c">setSelectString__14dMsgScrnTalk_cFPcPcPc</a></div><div class="ttdeci">void setSelectString__14dMsgScrnTalk_cFPcPcPc()</div></div>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_a0fcd87ebca7325d16007473623662e32"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#a0fcd87ebca7325d16007473623662e32">fukiAlpha__14dMsgScrnTalk_cFf</a></div><div class="ttdeci">void fukiAlpha__14dMsgScrnTalk_cFf()</div></div>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_a2d1d3808f2d96a91f16a660e099677b8"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#a2d1d3808f2d96a91f16a660e099677b8">exec__14dMsgScrnTalk_cFv</a></div><div class="ttdeci">void exec__14dMsgScrnTalk_cFv()</div></div>
@@ -1922,7 +1957,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_ae68afef655d329b2c37547ae7d2274ea"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#ae68afef655d329b2c37547ae7d2274ea">__dt__14dMsgScrnTalk_cFv</a></div><div class="ttdeci">void __dt__14dMsgScrnTalk_cFv()</div></div>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_ae76b0ebd7fb676172ffcd7aff988d2b9"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#ae76b0ebd7fb676172ffcd7aff988d2b9">draw__14dMsgScrnBase_cFv</a></div><div class="ttdeci">void draw__14dMsgScrnBase_cFv()</div></div>
 <div class="ttc" id="ad__msg__scrn__talk_8cpp_html_af15f9a0f7b72d37579d21fccc185c73c"><div class="ttname"><a href="d__msg__scrn__talk_8cpp.html#af15f9a0f7b72d37579d21fccc185c73c">selectAnimeEnd__14dMsgScrnTalk_cFv</a></div><div class="ttdeci">void selectAnimeEnd__14dMsgScrnTalk_cFv()</div></div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> stddef.h:19</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2003,7 +2037,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4086 = 18.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4086 = 18.0f</td>
         </tr>
       </table>
   </td>
@@ -2025,7 +2059,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lit_4087[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lit_4087[4]</td>
         </tr>
       </table>
   </td>
@@ -2053,7 +2087,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4088 = -10.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4088 = -10.0f</td>
         </tr>
       </table>
   </td>
@@ -2075,7 +2109,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4089 = 6.0f / 5.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4089 = 6.0f / 5.0f</td>
         </tr>
       </table>
   </td>
@@ -2097,7 +2131,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4197 = 1.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4197 = 1.0f</td>
         </tr>
       </table>
   </td>
@@ -2119,7 +2153,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4278 = 4.0f / 5.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4278 = 4.0f / 5.0f</td>
         </tr>
       </table>
   </td>
@@ -2141,7 +2175,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4279 = -1.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4279 = -1.0f</td>
         </tr>
       </table>
   </td>
@@ -2163,7 +2197,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4489 = 608.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4489 = 608.0f</td>
         </tr>
       </table>
   </td>
@@ -2185,7 +2219,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4490 = 448.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4490 = 448.0f</td>
         </tr>
       </table>
   </td>
@@ -2207,7 +2241,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4491 = 0.5f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4491 = 0.5f</td>
         </tr>
       </table>
   </td>
@@ -2229,7 +2263,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4492 = 50.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4492 = 50.0f</td>
         </tr>
       </table>
   </td>
@@ -2251,7 +2285,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4493 = 105.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4493 = 105.0f</td>
         </tr>
       </table>
   </td>
@@ -2273,7 +2307,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4494 = 486.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4494 = 486.0f</td>
         </tr>
       </table>
   </td>
@@ -2295,7 +2329,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4495 = 230.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4495 = 230.0f</td>
         </tr>
       </table>
   </td>
@@ -2317,7 +2351,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4496 = 235.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4496 = 235.0f</td>
         </tr>
       </table>
   </td>
@@ -2339,7 +2373,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4497 = 355.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4497 = 355.0f</td>
         </tr>
       </table>
   </td>
@@ -2361,7 +2395,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4498 = 209.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4498 = 209.0f</td>
         </tr>
       </table>
   </td>
@@ -2383,7 +2417,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4499 = -190.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4499 = -190.0f</td>
         </tr>
       </table>
   </td>
@@ -2405,7 +2439,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4500[1+1]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_4500[1+1]</td>
         </tr>
       </table>
   </td>
@@ -2432,7 +2466,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_4502 = 4503601774854144.0</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_4502 = 4503601774854144.0</td>
         </tr>
       </table>
   </td>
@@ -2476,7 +2510,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> pad_80399C11 = &quot;\0\0\0\0\0\0&quot;</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> pad_80399C11 = &quot;\0\0\0\0\0\0&quot;</td>
         </tr>
       </table>
   </td>
@@ -2498,7 +2532,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BB0 = &quot;zelda_message_window_new.blo&quot;</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BB0 = &quot;zelda_message_window_new.blo&quot;</td>
         </tr>
       </table>
   </td>
@@ -2520,7 +2554,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BCD = &quot;zelda_message_window_text_seirei.blo&quot;</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BCD = &quot;zelda_message_window_text_seirei.blo&quot;</td>
         </tr>
       </table>
   </td>
@@ -2542,7 +2576,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BF2 = &quot;zelda_message_window_text.blo&quot;</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399BF2 = &quot;zelda_message_window_text.blo&quot;</td>
         </tr>
       </table>
   </td>
@@ -2564,7 +2598,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a0c3c364808dd7c2796cc0eae538b63d7">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399C10 = &quot;&quot;</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DEAD</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a>* <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> stringBase_80399C10 = &quot;&quot;</td>
         </tr>
       </table>
   </td>
@@ -2577,9 +2611,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a921e71f3ef0b46ce159b4549017b167.html">d</a></li><li class="navelem"><a class="el" href="dir_1c39512378762c4b296a86a7048219c7.html">msg</a></li><li class="navelem"><a class="el" href="d__msg__scrn__talk_8cpp.html">d_msg_scrn_talk.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

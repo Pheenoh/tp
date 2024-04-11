@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/os.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('os_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">os.h</div></div>
 </div><!--header-->
@@ -122,34 +181,34 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">// Upper words of the masks, since UIMM is only 16 bits</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="os_8h.html#a4dcab82afa3ecd75261276f657c13bfe">   34</a></span><span class="preprocessor">#define OS_CACHED_REGION_PREFIX 0x8000</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="os_8h.html#ab5dc01ca9e017d2eaaa93b0226836a34">   35</a></span><span class="preprocessor">#define OS_UNCACHED_REGION_PREFIX 0xC000</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="os_8h.html#ad032897f7bdad7c584d285a0dfa2ebe3">   36</a></span><span class="preprocessor">#define OS_PHYSICAL_MASK 0x3FFF</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define OS_CACHED_REGION_PREFIX 0x8000</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define OS_UNCACHED_REGION_PREFIX 0xC000</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define OS_PHYSICAL_MASK 0x3FFF</span></div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="os_8h.html#a06b5c4f3585f639dcd888aa646e5f388">   38</a></span><span class="preprocessor">#define OS_BASE_CACHED (OS_CACHED_REGION_PREFIX &lt;&lt; 16)</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="os_8h.html#ac32adf0ad8140a03b5078cb34930c0bf">   39</a></span><span class="preprocessor">#define OS_BASE_UNCACHED (OS_UNCACHED_REGION_PREFIX &lt;&lt; 16)</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define OS_BASE_CACHED (OS_CACHED_REGION_PREFIX &lt;&lt; 16)</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define OS_BASE_UNCACHED (OS_UNCACHED_REGION_PREFIX &lt;&lt; 16)</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="os_8h.html#aa3c04edb1576ce901cbd01db92444eaa">   41</a></span><span class="preprocessor">#define OS_CONSOLE_MASK 0xf0000000</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="os_8h.html#a9035589c58a950adced59afe37a59f90">   42</a></span><span class="preprocessor">#define OS_CONSOLE_RETAIL 0x00000000</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="os_8h.html#a978f3c97b958fda3339f4e3c556440c9">   43</a></span><span class="preprocessor">#define OS_CONSOLE_DEVELOPMENT 0x10000000</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="os_8h.html#a7fa11f94af42eafc67fae2874469b9d6">   44</a></span><span class="preprocessor">#define OS_CONSOLE_TDEV 0x20000000</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define OS_CONSOLE_MASK 0xf0000000</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define OS_CONSOLE_RETAIL 0x00000000</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define OS_CONSOLE_DEVELOPMENT 0x10000000</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define OS_CONSOLE_TDEV 0x20000000</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="os_8h.html#a532f698ccc9bb5dcf07ebd14e70829e0">   46</a></span><span class="preprocessor">#define OS_CONSOLE_RETAIL4 0x00000004</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="os_8h.html#a2e8acac81f388076ae526f0868e51395">   47</a></span><span class="preprocessor">#define OS_CONSOLE_RETAIL3 0x00000003</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="os_8h.html#a7202cd1df38e5dae76266a5210d8e628">   48</a></span><span class="preprocessor">#define OS_CONSOLE_RETAIL2 0x00000002</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="os_8h.html#aa61b0a175ca5411b87f74f1e0faf6595">   49</a></span><span class="preprocessor">#define OS_CONSOLE_RETAIL1 0x00000001</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="os_8h.html#af2bf4373f16c6c1dc16fa20d25eb6fb1">   50</a></span><span class="preprocessor">#define OS_CONSOLE_TDEVHW4 0x20000007</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="os_8h.html#a0d04b8be62c5f4dcb637eb216ddbb558">   51</a></span><span class="preprocessor">#define OS_CONSOLE_TDEVHW3 0x20000006</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="os_8h.html#a99aa4787fcfb2945c0b5dbb02c7b023a">   52</a></span><span class="preprocessor">#define OS_CONSOLE_TDEVHW2 0x20000005</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="os_8h.html#a11969fd022a428a372578948cee45ac3">   53</a></span><span class="preprocessor">#define OS_CONSOLE_TDEVHW1 0x20000004</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="os_8h.html#a12d95d9c33cc4033a5fdd38ac5267938">   54</a></span><span class="preprocessor">#define OS_CONSOLE_DEVHW4 0x10000007</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="os_8h.html#a61e607814fd52b11b306456742ab7064">   55</a></span><span class="preprocessor">#define OS_CONSOLE_DEVHW3 0x10000006</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="os_8h.html#aff8f12c9624f05a51e06a322f4b868e6">   56</a></span><span class="preprocessor">#define OS_CONSOLE_DEVHW2 0x10000005</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="os_8h.html#afea4093082bc54b40ab678523d308fb0">   57</a></span><span class="preprocessor">#define OS_CONSOLE_DEVHW1 0x10000004</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="os_8h.html#af30ba17a660870f9c28b74070bb0b4bb">   58</a></span><span class="preprocessor">#define OS_CONSOLE_MINNOW 0x10000003</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="os_8h.html#a2d18f7d9863372f15fc02808e65d7a77">   59</a></span><span class="preprocessor">#define OS_CONSOLE_ARTHUR 0x10000002</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="os_8h.html#af1b606acbd273b00dafef2c5b4765d13">   60</a></span><span class="preprocessor">#define OS_CONSOLE_PC_EMULATOR 0x10000001</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="os_8h.html#a9f3100e7e717b11b23ccf82f011fbaec">   61</a></span><span class="preprocessor">#define OS_CONSOLE_EMULATOR 0x10000000</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define OS_CONSOLE_RETAIL4 0x00000004</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define OS_CONSOLE_RETAIL3 0x00000003</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define OS_CONSOLE_RETAIL2 0x00000002</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define OS_CONSOLE_RETAIL1 0x00000001</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define OS_CONSOLE_TDEVHW4 0x20000007</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define OS_CONSOLE_TDEVHW3 0x20000006</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define OS_CONSOLE_TDEVHW2 0x20000005</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define OS_CONSOLE_TDEVHW1 0x20000004</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define OS_CONSOLE_DEVHW4 0x10000007</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define OS_CONSOLE_DEVHW3 0x10000006</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define OS_CONSOLE_DEVHW2 0x10000005</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define OS_CONSOLE_DEVHW1 0x10000004</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define OS_CONSOLE_MINNOW 0x10000003</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define OS_CONSOLE_ARTHUR 0x10000002</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define OS_CONSOLE_PC_EMULATOR 0x10000001</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define OS_CONSOLE_EMULATOR 0x10000000</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="os_8h.html#a7a63928a0db26a9ba0879c2f35dd0d2f">   63</a></span><span class="keyword">volatile</span> <a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a> <a class="code hl_variable" href="os_8h.html#a7a63928a0db26a9ba0879c2f35dd0d2f">__OSDeviceCode</a> : 0x800030E6;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
@@ -172,7 +231,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#ac0e4a0877a17bc51ba76ccb9b2a1e591">OSAttention</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg, ...);</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a38132a4ad163cc0c18e71048f8d2c4cf">OSPanic</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* file, <a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> line, <span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keywordtype">void</span> <a class="code hl_function" href="J3DModelLoaderCalcSize_8cpp.html#ade4b47b8fab54c8f6a71bf594943c828">OSReport</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a7a1ab36015e0a1d48fa41ae524b0f122">OSReport_Error</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span><span class="keywordtype">void</span> <a class="code hl_function" href="d__a__door__shutter_8cpp.html#a29e2afc2697a3f0cd9cc84158c5d6452">OSReport_Error</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a19bd298d2a2b718427bfc49b44ca2c13">OSReport_FatalError</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a08bfbbcef4d786ec8d3e0334d9cea1c4">OSReport_System</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#ad1485851616ee42973a6e262ecafb437">OSReport_Warning</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, ...);</div>
@@ -180,8 +239,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a94220589ec98d4d8781083857b5e8abe">OSReportEnable</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a005f33ae90e85ef55cea634312d5c475">OSReportForceEnableOff</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a1b002c8008a1c76b698a2576312a4f7c">OSReportForceEnableOn</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a0fd35196ee918f283e85e97538fadf00">OSVReport</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* format, <a class="code hl_define" href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a> list);</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#aa8dea1b015db52473edc7846387b06f5">OSVAttention</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, <a class="code hl_define" href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a> args);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a0fd35196ee918f283e85e97538fadf00">OSVReport</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* format, va_list list);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#aa8dea1b015db52473edc7846387b06f5">OSVAttention</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fmt, va_list args);</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keywordtype">void</span> <a class="code hl_function" href="os_8h.html#a0bdc4b73078b3315007228cb407b9ff0">OSReportInit</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#ifdef DEBUG</span></div>
@@ -190,11 +249,11 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#define ASSERTMSG(exp, msg) (void)((exp) || (OSPanic(__FILE__, __LINE__, (msg)), 0))</span></div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span><span class="preprocessor">#define ASSERT(cond) ((cond) || (OSPanic(__FILE__, line, &quot;Failed assertion &quot; #cond), 0))</span></div>
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="os_8h.html#a4539209cbf74bcc6232a2a93eefd7caa">  102</a></span><span class="preprocessor">#define OS_REPORT(...)</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="os_8h.html#a295c0d373ae1b44a05b20cc93e6b9a4d">  103</a></span><span class="preprocessor">#define OS_REPORT_ERROR(...)</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="os_8h.html#a0ae565a4d64f02338ea6a0f550496b10">  104</a></span><span class="preprocessor">#define OS_PANIC(...)</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="os_8h.html#a349499d37b2be05fb1e41ae3e3ac2951">  105</a></span><span class="preprocessor">#define ASSERTMSG(exp, msg) ((void)0)</span></div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="os_8h.html#a0966b817b229d48e5ffc7feab19a0be6">  106</a></span><span class="preprocessor">#define ASSERT(cond) ((void)0)</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#define OS_REPORT(...)</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#define OS_REPORT_ERROR(...)</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#define OS_PANIC(...)</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#define ASSERTMSG(exp, msg) ((void)0)</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#define ASSERT(cond) ((void)0)</span></div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keyword">extern</span> <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_variable" href="os_8h.html#a98b58c165eacfc265404d698e5bc9525">__OSReport_disable</a>;</div>
@@ -408,14 +467,14 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>};</div>
 </div>
 <div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span> </div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno"><a class="line" href="os_8h.html#a24b1d8059dd9c28417f8ef31ec709410">  304</a></span><span class="preprocessor">#define OS_ASSERT(...)</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#define OS_ASSERT(...)</span></div>
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span> </div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="os_8h.html#ace957d040592a9519a208b27251be311">  306</a></span><span class="preprocessor">#define OSPhysicalToCached(paddr) ((void*)((u32)(paddr) + OS_BASE_CACHED))</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="os_8h.html#a1fef4b0a316568e8389ca1d13bf86d99">  307</a></span><span class="preprocessor">#define OSPhysicalToUncached(paddr) ((void*)((u32)(paddr) + OS_BASE_UNCACHED))</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno"><a class="line" href="os_8h.html#a1a7a79361df2aaa16638c67055927fdf">  308</a></span><span class="preprocessor">#define OSCachedToPhysical(caddr) ((u32)((u8*)(caddr)-OS_BASE_CACHED))</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="os_8h.html#ad8b64511cefdd9e10682cf7a0ff165c5">  309</a></span><span class="preprocessor">#define OSUncachedToPhysical(ucaddr) ((u32)((u8*)(ucaddr)-OS_BASE_UNCACHED))</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="os_8h.html#a7c28c4c457a90165757b614a59ebae2f">  310</a></span><span class="preprocessor">#define OSCachedToUncached(caddr) ((void*)((u8*)(caddr) + (OS_BASE_UNCACHED - OS_BASE_CACHED)))</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="os_8h.html#a136eb3e06622e1c8cf0e44723dfc9536">  311</a></span><span class="preprocessor">#define OSUncachedToCached(ucaddr) ((void*)((u8*)(ucaddr) - (OS_BASE_UNCACHED - OS_BASE_CACHED)))</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#define OSPhysicalToCached(paddr) ((void*)((u32)(paddr) + OS_BASE_CACHED))</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#define OSPhysicalToUncached(paddr) ((void*)((u32)(paddr) + OS_BASE_UNCACHED))</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span><span class="preprocessor">#define OSCachedToPhysical(caddr) ((u32)((u8*)(caddr)-OS_BASE_CACHED))</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#define OSUncachedToPhysical(ucaddr) ((u32)((u8*)(ucaddr)-OS_BASE_UNCACHED))</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#define OSCachedToUncached(caddr) ((void*)((u8*)(caddr) + (OS_BASE_UNCACHED - OS_BASE_CACHED)))</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="preprocessor">#define OSUncachedToCached(ucaddr) ((void*)((u8*)(ucaddr) - (OS_BASE_UNCACHED - OS_BASE_CACHED)))</span></div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span> </div>
 <div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="keyword">extern</span> <a class="code hl_typedef" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> <a class="code hl_variable" href="os_8h.html#a47ce9d73c0516c441c2e9b9248b83a76">__OSStartTime</a>;</div>
 <div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="keyword">extern</span> <a class="code hl_typedef" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> <a class="code hl_variable" href="os_8h.html#ac3d2c0faa507375774f595bc95dd466f">__OSInIPL</a>;</div>
@@ -426,7 +485,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aJ3DModelLoaderCalcSize_8cpp_html_ade4b47b8fab54c8f6a71bf594943c828"><div class="ttname"><a href="J3DModelLoaderCalcSize_8cpp.html#ade4b47b8fab54c8f6a71bf594943c828">OSReport</a></div><div class="ttdeci">void OSReport()</div></div>
-<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:235</div></div>
+<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:233</div></div>
 <div class="ttc" id="aOSAlarm_8h_html"><div class="ttname"><a href="OSAlarm_8h.html">OSAlarm.h</a></div></div>
 <div class="ttc" id="aOSAlloc_8h_html"><div class="ttname"><a href="OSAlloc_8h.html">OSAlloc.h</a></div></div>
 <div class="ttc" id="aOSArena_8h_html"><div class="ttname"><a href="OSArena_8h.html">OSArena.h</a></div></div>
@@ -451,67 +510,66 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aOSTime_8h_html"><div class="ttname"><a href="OSTime_8h.html">OSTime.h</a></div></div>
 <div class="ttc" id="aOSTime_8h_html_a3d32c840b403a8d37875867a7ea9b381"><div class="ttname"><a href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a></div><div class="ttdeci">s64 OSTime</div><div class="ttdef"><b>Definition</b> OSTime.h:10</div></div>
 <div class="ttc" id="a____va__arg_8h_html"><div class="ttname"><a href="____va__arg_8h.html">__va_arg.h</a></div></div>
-<div class="ttc" id="a____va__arg_8h_html_a6e6fde95f2a221e9bcd58fa102bd90ff"><div class="ttname"><a href="____va__arg_8h.html#a6e6fde95f2a221e9bcd58fa102bd90ff">va_list</a></div><div class="ttdeci">#define va_list</div><div class="ttdef"><b>Definition</b> __va_arg.h:35</div></div>
+<div class="ttc" id="ad__a__door__shutter_8cpp_html_a29e2afc2697a3f0cd9cc84158c5d6452"><div class="ttname"><a href="d__a__door__shutter_8cpp.html#a29e2afc2697a3f0cd9cc84158c5d6452">OSReport_Error</a></div><div class="ttdeci">void OSReport_Error()</div></div>
 <div class="ttc" id="advd_8h_html"><div class="ttname"><a href="dvd_8h.html">dvd.h</a></div></div>
-<div class="ttc" id="aos_8h_html_a005f33ae90e85ef55cea634312d5c475"><div class="ttname"><a href="os_8h.html#a005f33ae90e85ef55cea634312d5c475">OSReportForceEnableOff</a></div><div class="ttdeci">void OSReportForceEnableOff(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:70</div></div>
+<div class="ttc" id="aos_8h_html_a005f33ae90e85ef55cea634312d5c475"><div class="ttname"><a href="os_8h.html#a005f33ae90e85ef55cea634312d5c475">OSReportForceEnableOff</a></div><div class="ttdeci">void OSReportForceEnableOff(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:68</div></div>
 <div class="ttc" id="aos_8h_html_a0074df288baf29c18a7c823c258ba353"><div class="ttname"><a href="os_8h.html#a0074df288baf29c18a7c823c258ba353">OSIsThreadSuspended</a></div><div class="ttdeci">BOOL OSIsThreadSuspended(OSThread *thread)</div></div>
 <div class="ttc" id="aos_8h_html_a05a7fbffda081e6722e6dd462de07ffa"><div class="ttname"><a href="os_8h.html#a05a7fbffda081e6722e6dd462de07ffa">OSf32tos16</a></div><div class="ttdeci">void OSf32tos16(f32 *f, s16 *out)</div><div class="ttdef"><b>Definition</b> os.h:157</div></div>
-<div class="ttc" id="aos_8h_html_a08b2acf3c679e6dc2e5134018d1e96c9"><div class="ttname"><a href="os_8h.html#a08b2acf3c679e6dc2e5134018d1e96c9">__OSDBJump</a></div><div class="ttdeci">void __OSDBJump(void)</div><div class="ttdef"><b>Definition</b> OS.c:512</div></div>
-<div class="ttc" id="aos_8h_html_a08bfbbcef4d786ec8d3e0334d9cea1c4"><div class="ttname"><a href="os_8h.html#a08bfbbcef4d786ec8d3e0334d9cea1c4">OSReport_System</a></div><div class="ttdeci">void OSReport_System(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:218</div></div>
-<div class="ttc" id="aos_8h_html_a0ac6baf6233fe63c85a378a9cbdd5e15"><div class="ttname"><a href="os_8h.html#a0ac6baf6233fe63c85a378a9cbdd5e15">OSReportDisable</a></div><div class="ttdeci">void OSReportDisable(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:55</div></div>
-<div class="ttc" id="aos_8h_html_a0bdc4b73078b3315007228cb407b9ff0"><div class="ttname"><a href="os_8h.html#a0bdc4b73078b3315007228cb407b9ff0">OSReportInit</a></div><div class="ttdeci">void OSReportInit(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:96</div></div>
-<div class="ttc" id="aos_8h_html_a0fd35196ee918f283e85e97538fadf00"><div class="ttname"><a href="os_8h.html#a0fd35196ee918f283e85e97538fadf00">OSVReport</a></div><div class="ttdeci">void OSVReport(const char *format, va_list list)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:157</div></div>
+<div class="ttc" id="aos_8h_html_a08b2acf3c679e6dc2e5134018d1e96c9"><div class="ttname"><a href="os_8h.html#a08b2acf3c679e6dc2e5134018d1e96c9">__OSDBJump</a></div><div class="ttdeci">void __OSDBJump(void)</div><div class="ttdef"><b>Definition</b> OS.c:510</div></div>
+<div class="ttc" id="aos_8h_html_a08bfbbcef4d786ec8d3e0334d9cea1c4"><div class="ttname"><a href="os_8h.html#a08bfbbcef4d786ec8d3e0334d9cea1c4">OSReport_System</a></div><div class="ttdeci">void OSReport_System(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:216</div></div>
+<div class="ttc" id="aos_8h_html_a0ac6baf6233fe63c85a378a9cbdd5e15"><div class="ttname"><a href="os_8h.html#a0ac6baf6233fe63c85a378a9cbdd5e15">OSReportDisable</a></div><div class="ttdeci">void OSReportDisable(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:53</div></div>
+<div class="ttc" id="aos_8h_html_a0bdc4b73078b3315007228cb407b9ff0"><div class="ttname"><a href="os_8h.html#a0bdc4b73078b3315007228cb407b9ff0">OSReportInit</a></div><div class="ttdeci">void OSReportInit(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:94</div></div>
+<div class="ttc" id="aos_8h_html_a0fd35196ee918f283e85e97538fadf00"><div class="ttname"><a href="os_8h.html#a0fd35196ee918f283e85e97538fadf00">OSVReport</a></div><div class="ttdeci">void OSVReport(const char *format, va_list list)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:155</div></div>
 <div class="ttc" id="aos_8h_html_a1632643a792c6d50e661f4a286428143"><div class="ttname"><a href="os_8h.html#a1632643a792c6d50e661f4a286428143">OSReportInit__Fv</a></div><div class="ttdeci">void OSReportInit__Fv(void)</div></div>
-<div class="ttc" id="aos_8h_html_a19bd298d2a2b718427bfc49b44ca2c13"><div class="ttname"><a href="os_8h.html#a19bd298d2a2b718427bfc49b44ca2c13">OSReport_FatalError</a></div><div class="ttdeci">void OSReport_FatalError(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:170</div></div>
-<div class="ttc" id="aos_8h_html_a1b002c8008a1c76b698a2576312a4f7c"><div class="ttname"><a href="os_8h.html#a1b002c8008a1c76b698a2576312a4f7c">OSReportForceEnableOn</a></div><div class="ttdeci">void OSReportForceEnableOn(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:65</div></div>
+<div class="ttc" id="aos_8h_html_a19bd298d2a2b718427bfc49b44ca2c13"><div class="ttname"><a href="os_8h.html#a19bd298d2a2b718427bfc49b44ca2c13">OSReport_FatalError</a></div><div class="ttdeci">void OSReport_FatalError(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:168</div></div>
+<div class="ttc" id="aos_8h_html_a1b002c8008a1c76b698a2576312a4f7c"><div class="ttname"><a href="os_8h.html#a1b002c8008a1c76b698a2576312a4f7c">OSReportForceEnableOn</a></div><div class="ttdeci">void OSReportForceEnableOn(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:63</div></div>
 <div class="ttc" id="aos_8h_html_a1d539eaa2d779036ea0ac86cbacb25fe"><div class="ttname"><a href="os_8h.html#a1d539eaa2d779036ea0ac86cbacb25fe">OS_DSP_DMA_ADDR_HI</a></div><div class="ttdeci">volatile u16 OS_DSP_DMA_ADDR_HI</div><div class="ttdef"><b>Definition</b> os.h:70</div></div>
-<div class="ttc" id="aos_8h_html_a1f166eaad79e07e3829671d6c4bf4ed7"><div class="ttname"><a href="os_8h.html#a1f166eaad79e07e3829671d6c4bf4ed7">__OSPSInit</a></div><div class="ttdeci">void __OSPSInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:653</div></div>
+<div class="ttc" id="aos_8h_html_a1f166eaad79e07e3829671d6c4bf4ed7"><div class="ttname"><a href="os_8h.html#a1f166eaad79e07e3829671d6c4bf4ed7">__OSPSInit</a></div><div class="ttdeci">void __OSPSInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:651</div></div>
 <div class="ttc" id="aos_8h_html_a1fccb7cc1f2458f4214d6ff74b3e6c81"><div class="ttname"><a href="os_8h.html#a1fccb7cc1f2458f4214d6ff74b3e6c81">OS_PI_INTR_MASK</a></div><div class="ttdeci">volatile u32 OS_PI_INTR_MASK</div><div class="ttdef"><b>Definition</b> os.h:66</div></div>
 <div class="ttc" id="aos_8h_html_a30f94c72e9703a34133464c66d3b7f1f"><div class="ttname"><a href="os_8h.html#a30f94c72e9703a34133464c66d3b7f1f">OS_ARAM_DMA_ADDR_LO</a></div><div class="ttdeci">volatile u16 OS_ARAM_DMA_ADDR_LO</div><div class="ttdef"><b>Definition</b> os.h:75</div></div>
-<div class="ttc" id="aos_8h_html_a38132a4ad163cc0c18e71048f8d2c4cf"><div class="ttname"><a href="os_8h.html#a38132a4ad163cc0c18e71048f8d2c4cf">OSPanic</a></div><div class="ttdeci">void OSPanic(const char *file, s32 line, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:231</div></div>
-<div class="ttc" id="aos_8h_html_a3c87a6c27d94f7d934b559b856816b94"><div class="ttname"><a href="os_8h.html#a3c87a6c27d94f7d934b559b856816b94">__OSReport_System_disable</a></div><div class="ttdeci">u8 __OSReport_System_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:20</div></div>
-<div class="ttc" id="aos_8h_html_a3cc181329735e79019860cb2c445f40b"><div class="ttname"><a href="os_8h.html#a3cc181329735e79019860cb2c445f40b">OSRegisterVersion</a></div><div class="ttdeci">void OSRegisterVersion(const char *version)</div><div class="ttdef"><b>Definition</b> OS.c:693</div></div>
+<div class="ttc" id="aos_8h_html_a38132a4ad163cc0c18e71048f8d2c4cf"><div class="ttname"><a href="os_8h.html#a38132a4ad163cc0c18e71048f8d2c4cf">OSPanic</a></div><div class="ttdeci">void OSPanic(const char *file, s32 line, const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:229</div></div>
+<div class="ttc" id="aos_8h_html_a3c87a6c27d94f7d934b559b856816b94"><div class="ttname"><a href="os_8h.html#a3c87a6c27d94f7d934b559b856816b94">__OSReport_System_disable</a></div><div class="ttdeci">u8 __OSReport_System_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:18</div></div>
+<div class="ttc" id="aos_8h_html_a3cc181329735e79019860cb2c445f40b"><div class="ttname"><a href="os_8h.html#a3cc181329735e79019860cb2c445f40b">OSRegisterVersion</a></div><div class="ttdeci">void OSRegisterVersion(const char *version)</div><div class="ttdef"><b>Definition</b> OS.c:691</div></div>
 <div class="ttc" id="aos_8h_html_a3f143875e2dc31060524f9e1da8341ed"><div class="ttname"><a href="os_8h.html#a3f143875e2dc31060524f9e1da8341ed">OS_DSP_DMA_ADDR_LO</a></div><div class="ttdeci">volatile u16 OS_DSP_DMA_ADDR_LO</div><div class="ttdef"><b>Definition</b> os.h:71</div></div>
 <div class="ttc" id="aos_8h_html_a423871177fc1c412f94b3d5a835c1dad"><div class="ttname"><a href="os_8h.html#a423871177fc1c412f94b3d5a835c1dad">OSExceptionHandler</a></div><div class="ttdeci">void(* OSExceptionHandler)(__OSException, OSContext *)</div><div class="ttdef"><b>Definition</b> os.h:130</div></div>
 <div class="ttc" id="aos_8h_html_a44d059c1acab13f794cb602bff958c9d"><div class="ttname"><a href="os_8h.html#a44d059c1acab13f794cb602bff958c9d">OSExceptionInit</a></div><div class="ttdeci">static void OSExceptionInit(void)</div></div>
-<div class="ttc" id="aos_8h_html_a47ce9d73c0516c441c2e9b9248b83a76"><div class="ttname"><a href="os_8h.html#a47ce9d73c0516c441c2e9b9248b83a76">__OSStartTime</a></div><div class="ttdeci">OSTime __OSStartTime</div><div class="ttdef"><b>Definition</b> OS.c:44</div></div>
+<div class="ttc" id="aos_8h_html_a47ce9d73c0516c441c2e9b9248b83a76"><div class="ttname"><a href="os_8h.html#a47ce9d73c0516c441c2e9b9248b83a76">__OSStartTime</a></div><div class="ttdeci">OSTime __OSStartTime</div><div class="ttdef"><b>Definition</b> OS.c:42</div></div>
 <div class="ttc" id="aos_8h_html_a5c75907421dbf846200aab236f99bf8c"><div class="ttname"><a href="os_8h.html#a5c75907421dbf846200aab236f99bf8c">__DBVECTOR</a></div><div class="ttdeci">void __DBVECTOR()</div></div>
-<div class="ttc" id="aos_8h_html_a5ec48f081d3c33dd5f51dfc4b75941d2"><div class="ttname"><a href="os_8h.html#a5ec48f081d3c33dd5f51dfc4b75941d2">__OSDBIntegrator</a></div><div class="ttdeci">void __OSDBIntegrator(void)</div><div class="ttdef"><b>Definition</b> OS.c:493</div></div>
+<div class="ttc" id="aos_8h_html_a5ec48f081d3c33dd5f51dfc4b75941d2"><div class="ttname"><a href="os_8h.html#a5ec48f081d3c33dd5f51dfc4b75941d2">__OSDBIntegrator</a></div><div class="ttdeci">void __OSDBIntegrator(void)</div><div class="ttdef"><b>Definition</b> OS.c:491</div></div>
 <div class="ttc" id="aos_8h_html_a6e396bfadc18b2899493ba03b421d71e"><div class="ttname"><a href="os_8h.html#a6e396bfadc18b2899493ba03b421d71e">__OSEVSetNumber</a></div><div class="ttdeci">void __OSEVSetNumber()</div></div>
 <div class="ttc" id="aos_8h_html_a76a925b48a043aba19561d180a3e14d3"><div class="ttname"><a href="os_8h.html#a76a925b48a043aba19561d180a3e14d3">OS_DSP_INTR_MASK</a></div><div class="ttdeci">volatile u16 OS_DSP_INTR_MASK</div><div class="ttdef"><b>Definition</b> os.h:72</div></div>
 <div class="ttc" id="aos_8h_html_a774a52b3dfeaf2ab623999ccb30dd398"><div class="ttname"><a href="os_8h.html#a774a52b3dfeaf2ab623999ccb30dd398">OS_MI_INTR_MASK</a></div><div class="ttdeci">volatile u16 OS_MI_INTR_MASK</div><div class="ttdef"><b>Definition</b> os.h:68</div></div>
-<div class="ttc" id="aos_8h_html_a7a1ab36015e0a1d48fa41ae524b0f122"><div class="ttname"><a href="os_8h.html#a7a1ab36015e0a1d48fa41ae524b0f122">OSReport_Error</a></div><div class="ttdeci">void OSReport_Error(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:186</div></div>
 <div class="ttc" id="aos_8h_html_a7a63928a0db26a9ba0879c2f35dd0d2f"><div class="ttname"><a href="os_8h.html#a7a63928a0db26a9ba0879c2f35dd0d2f">__OSDeviceCode</a></div><div class="ttdeci">volatile u16 __OSDeviceCode</div><div class="ttdef"><b>Definition</b> os.h:63</div></div>
 <div class="ttc" id="aos_8h_html_a8474f41438e1bd908eddeaf151d0c9cf"><div class="ttname"><a href="os_8h.html#a8474f41438e1bd908eddeaf151d0c9cf">__OSf32tou8</a></div><div class="ttdeci">u8 __OSf32tou8(register f32 inF)</div><div class="ttdef"><b>Definition</b> os.h:161</div></div>
 <div class="ttc" id="aos_8h_html_a8c73daafaf27cae606b9721e5681055e"><div class="ttname"><a href="os_8h.html#a8c73daafaf27cae606b9721e5681055e">OSExceptionVector</a></div><div class="ttdeci">static void OSExceptionVector(void)</div></div>
-<div class="ttc" id="aos_8h_html_a8dda9f8fe06f0b851f417e963525dbbf"><div class="ttname"><a href="os_8h.html#a8dda9f8fe06f0b851f417e963525dbbf">__OSGetExceptionHandler</a></div><div class="ttdeci">OSExceptionHandler __OSGetExceptionHandler(__OSException exception)</div><div class="ttdef"><b>Definition</b> OS.c:530</div></div>
-<div class="ttc" id="aos_8h_html_a94220589ec98d4d8781083857b5e8abe"><div class="ttname"><a href="os_8h.html#a94220589ec98d4d8781083857b5e8abe">OSReportEnable</a></div><div class="ttdeci">void OSReportEnable(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:60</div></div>
+<div class="ttc" id="aos_8h_html_a8dda9f8fe06f0b851f417e963525dbbf"><div class="ttname"><a href="os_8h.html#a8dda9f8fe06f0b851f417e963525dbbf">__OSGetExceptionHandler</a></div><div class="ttdeci">OSExceptionHandler __OSGetExceptionHandler(__OSException exception)</div><div class="ttdef"><b>Definition</b> OS.c:528</div></div>
+<div class="ttc" id="aos_8h_html_a94220589ec98d4d8781083857b5e8abe"><div class="ttname"><a href="os_8h.html#a94220589ec98d4d8781083857b5e8abe">OSReportEnable</a></div><div class="ttdeci">void OSReportEnable(void)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:58</div></div>
 <div class="ttc" id="aos_8h_html_a982f0034f80234c687a227289a768202"><div class="ttname"><a href="os_8h.html#a982f0034f80234c687a227289a768202">BOOT_REGION_START</a></div><div class="ttdeci">u32 BOOT_REGION_START</div></div>
-<div class="ttc" id="aos_8h_html_a987eda785d68a4914545825467a7e5e1"><div class="ttname"><a href="os_8h.html#a987eda785d68a4914545825467a7e5e1">__OSReport_Warning_disable</a></div><div class="ttdeci">u8 __OSReport_Warning_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:18</div></div>
-<div class="ttc" id="aos_8h_html_a988661e094fa03279aa43f09a8d075b7"><div class="ttname"><a href="os_8h.html#a988661e094fa03279aa43f09a8d075b7">__OSSetExceptionHandler</a></div><div class="ttdeci">OSExceptionHandler __OSSetExceptionHandler(__OSException exception, OSExceptionHandler handler)</div><div class="ttdef"><b>Definition</b> OS.c:523</div></div>
-<div class="ttc" id="aos_8h_html_a98b58c165eacfc265404d698e5bc9525"><div class="ttname"><a href="os_8h.html#a98b58c165eacfc265404d698e5bc9525">__OSReport_disable</a></div><div class="ttdeci">u8 __OSReport_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:14</div></div>
-<div class="ttc" id="aos_8h_html_a9fb9f4407385969fabc148845959a657"><div class="ttname"><a href="os_8h.html#a9fb9f4407385969fabc148845959a657">__OSFPRInit</a></div><div class="ttdeci">void __OSFPRInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:69</div></div>
+<div class="ttc" id="aos_8h_html_a987eda785d68a4914545825467a7e5e1"><div class="ttname"><a href="os_8h.html#a987eda785d68a4914545825467a7e5e1">__OSReport_Warning_disable</a></div><div class="ttdeci">u8 __OSReport_Warning_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:16</div></div>
+<div class="ttc" id="aos_8h_html_a988661e094fa03279aa43f09a8d075b7"><div class="ttname"><a href="os_8h.html#a988661e094fa03279aa43f09a8d075b7">__OSSetExceptionHandler</a></div><div class="ttdeci">OSExceptionHandler __OSSetExceptionHandler(__OSException exception, OSExceptionHandler handler)</div><div class="ttdef"><b>Definition</b> OS.c:521</div></div>
+<div class="ttc" id="aos_8h_html_a98b58c165eacfc265404d698e5bc9525"><div class="ttname"><a href="os_8h.html#a98b58c165eacfc265404d698e5bc9525">__OSReport_disable</a></div><div class="ttdeci">u8 __OSReport_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:12</div></div>
+<div class="ttc" id="aos_8h_html_a9fb9f4407385969fabc148845959a657"><div class="ttname"><a href="os_8h.html#a9fb9f4407385969fabc148845959a657">__OSFPRInit</a></div><div class="ttdeci">void __OSFPRInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:67</div></div>
 <div class="ttc" id="aos_8h_html_aa2cf10448b16a548c2fab57956fc88ab"><div class="ttname"><a href="os_8h.html#aa2cf10448b16a548c2fab57956fc88ab">OSDefaultExceptionHandler</a></div><div class="ttdeci">static void OSDefaultExceptionHandler(__OSException exception, OSContext *context)</div></div>
-<div class="ttc" id="aos_8h_html_aa8dea1b015db52473edc7846387b06f5"><div class="ttname"><a href="os_8h.html#aa8dea1b015db52473edc7846387b06f5">OSVAttention</a></div><div class="ttdeci">void OSVAttention(const char *fmt, va_list args)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:42</div></div>
+<div class="ttc" id="aos_8h_html_aa8dea1b015db52473edc7846387b06f5"><div class="ttname"><a href="os_8h.html#aa8dea1b015db52473edc7846387b06f5">OSVAttention</a></div><div class="ttdeci">void OSVAttention(const char *fmt, va_list args)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:40</div></div>
 <div class="ttc" id="aos_8h_html_ab2a571b4403d0d9abdd3c88edcead972"><div class="ttname"><a href="os_8h.html#ab2a571b4403d0d9abdd3c88edcead972">OS_PI_INTR_CAUSE</a></div><div class="ttdeci">volatile u32 OS_PI_INTR_CAUSE</div><div class="ttdef"><b>Definition</b> os.h:65</div></div>
-<div class="ttc" id="aos_8h_html_ab627a752b6b5e8afe02e484738cad7fd"><div class="ttname"><a href="os_8h.html#ab627a752b6b5e8afe02e484738cad7fd">OSGetConsoleType</a></div><div class="ttdeci">u32 OSGetConsoleType(void)</div><div class="ttdef"><b>Definition</b> OS.c:156</div></div>
+<div class="ttc" id="aos_8h_html_ab627a752b6b5e8afe02e484738cad7fd"><div class="ttname"><a href="os_8h.html#ab627a752b6b5e8afe02e484738cad7fd">OSGetConsoleType</a></div><div class="ttdeci">u32 OSGetConsoleType(void)</div><div class="ttdef"><b>Definition</b> OS.c:154</div></div>
 <div class="ttc" id="aos_8h_html_ab7197dba26522a84db727acbabfe7a57"><div class="ttname"><a href="os_8h.html#ab7197dba26522a84db727acbabfe7a57">__OSf32tos16</a></div><div class="ttdeci">s16 __OSf32tos16(register f32 inF)</div><div class="ttdef"><b>Definition</b> os.h:143</div></div>
-<div class="ttc" id="aos_8h_html_abe3789d8c76b00c7bdac1ecedac48368"><div class="ttname"><a href="os_8h.html#abe3789d8c76b00c7bdac1ecedac48368">OSSwitchFiberEx</a></div><div class="ttdeci">void OSSwitchFiberEx(u32, u32, u32, u32, u32, u32)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:29</div></div>
-<div class="ttc" id="aos_8h_html_ac0e4a0877a17bc51ba76ccb9b2a1e591"><div class="ttname"><a href="os_8h.html#ac0e4a0877a17bc51ba76ccb9b2a1e591">OSAttention</a></div><div class="ttdeci">void OSAttention(const char *msg,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:47</div></div>
-<div class="ttc" id="aos_8h_html_ac3d2c0faa507375774f595bc95dd466f"><div class="ttname"><a href="os_8h.html#ac3d2c0faa507375774f595bc95dd466f">__OSInIPL</a></div><div class="ttdeci">BOOL __OSInIPL</div><div class="ttdef"><b>Definition</b> OS.c:47</div></div>
-<div class="ttc" id="aos_8h_html_ac660cdae1a3187533221fc03a9874ddd"><div class="ttname"><a href="os_8h.html#ac660cdae1a3187533221fc03a9874ddd">__OSIsGcam</a></div><div class="ttdeci">BOOL __OSIsGcam</div><div class="ttdef"><b>Definition</b> OS.c:66</div></div>
+<div class="ttc" id="aos_8h_html_abe3789d8c76b00c7bdac1ecedac48368"><div class="ttname"><a href="os_8h.html#abe3789d8c76b00c7bdac1ecedac48368">OSSwitchFiberEx</a></div><div class="ttdeci">void OSSwitchFiberEx(u32, u32, u32, u32, u32, u32)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:27</div></div>
+<div class="ttc" id="aos_8h_html_ac0e4a0877a17bc51ba76ccb9b2a1e591"><div class="ttname"><a href="os_8h.html#ac0e4a0877a17bc51ba76ccb9b2a1e591">OSAttention</a></div><div class="ttdeci">void OSAttention(const char *msg,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:45</div></div>
+<div class="ttc" id="aos_8h_html_ac3d2c0faa507375774f595bc95dd466f"><div class="ttname"><a href="os_8h.html#ac3d2c0faa507375774f595bc95dd466f">__OSInIPL</a></div><div class="ttdeci">BOOL __OSInIPL</div><div class="ttdef"><b>Definition</b> OS.c:45</div></div>
+<div class="ttc" id="aos_8h_html_ac660cdae1a3187533221fc03a9874ddd"><div class="ttname"><a href="os_8h.html#ac660cdae1a3187533221fc03a9874ddd">__OSIsGcam</a></div><div class="ttdeci">BOOL __OSIsGcam</div><div class="ttdef"><b>Definition</b> OS.c:64</div></div>
 <div class="ttc" id="aos_8h_html_acad53d9087fd2e0bd6cfa4080246f4e2"><div class="ttname"><a href="os_8h.html#acad53d9087fd2e0bd6cfa4080246f4e2">__OSEVEnd</a></div><div class="ttdeci">void __OSEVEnd()</div></div>
 <div class="ttc" id="aos_8h_html_acc2b58c6fc66e14288de5291961c7d37"><div class="ttname"><a href="os_8h.html#acc2b58c6fc66e14288de5291961c7d37">InquiryCallback</a></div><div class="ttdeci">static void InquiryCallback(s32 param_0, DVDCommandBlock *param_1)</div></div>
-<div class="ttc" id="aos_8h_html_ad1485851616ee42973a6e262ecafb437"><div class="ttname"><a href="os_8h.html#ad1485851616ee42973a6e262ecafb437">OSReport_Warning</a></div><div class="ttdeci">void OSReport_Warning(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:202</div></div>
-<div class="ttc" id="aos_8h_html_ad3e947630e1ed95d8e60dc8aea05ee63"><div class="ttname"><a href="os_8h.html#ad3e947630e1ed95d8e60dc8aea05ee63">__OSReport_enable</a></div><div class="ttdeci">u8 __OSReport_enable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:23</div></div>
+<div class="ttc" id="aos_8h_html_ad1485851616ee42973a6e262ecafb437"><div class="ttname"><a href="os_8h.html#ad1485851616ee42973a6e262ecafb437">OSReport_Warning</a></div><div class="ttdeci">void OSReport_Warning(const char *fmt,...)</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:200</div></div>
+<div class="ttc" id="aos_8h_html_ad3e947630e1ed95d8e60dc8aea05ee63"><div class="ttname"><a href="os_8h.html#ad3e947630e1ed95d8e60dc8aea05ee63">__OSReport_enable</a></div><div class="ttdeci">u8 __OSReport_enable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:21</div></div>
 <div class="ttc" id="aos_8h_html_ad7824d0e3b0cb1d8b566ffe80e9305a2"><div class="ttname"><a href="os_8h.html#ad7824d0e3b0cb1d8b566ffe80e9305a2">OSGetStackPointer</a></div><div class="ttdeci">u8 * OSGetStackPointer(void)</div><div class="ttdef"><b>Definition</b> OSContext.c:344</div></div>
-<div class="ttc" id="aos_8h_html_adc5b96d57d9d41cbd8044117b3bce620"><div class="ttname"><a href="os_8h.html#adc5b96d57d9d41cbd8044117b3bce620">__OSGetDIConfig</a></div><div class="ttdeci">u32 __OSGetDIConfig(void)</div><div class="ttdef"><b>Definition</b> OS.c:688</div></div>
+<div class="ttc" id="aos_8h_html_adc5b96d57d9d41cbd8044117b3bce620"><div class="ttname"><a href="os_8h.html#adc5b96d57d9d41cbd8044117b3bce620">__OSGetDIConfig</a></div><div class="ttdeci">u32 __OSGetDIConfig(void)</div><div class="ttdef"><b>Definition</b> OS.c:686</div></div>
 <div class="ttc" id="aos_8h_html_ae51b00d909193ce08cf34e4919dbaf9c"><div class="ttname"><a href="os_8h.html#ae51b00d909193ce08cf34e4919dbaf9c">OSf32tou8</a></div><div class="ttdeci">void OSf32tou8(f32 *f, u8 *out)</div><div class="ttdef"><b>Definition</b> os.h:175</div></div>
 <div class="ttc" id="aos_8h_html_aeafd538a6ea70d1d45cbfb661d7771d0"><div class="ttname"><a href="os_8h.html#aeafd538a6ea70d1d45cbfb661d7771d0">BOOT_REGION_END</a></div><div class="ttdeci">u32 BOOT_REGION_END</div></div>
 <div class="ttc" id="aos_8h_html_aee342ccd1c6cbd47cc3ac5cf10351c6b"><div class="ttname"><a href="os_8h.html#aee342ccd1c6cbd47cc3ac5cf10351c6b">OS_ARAM_DMA_ADDR_HI</a></div><div class="ttdeci">volatile u16 OS_ARAM_DMA_ADDR_HI</div><div class="ttdef"><b>Definition</b> os.h:74</div></div>
 <div class="ttc" id="aos_8h_html_af1e885a47dc2f9b747ec08796c33c3a8"><div class="ttname"><a href="os_8h.html#af1e885a47dc2f9b747ec08796c33c3a8">OSInitFastCast</a></div><div class="ttdeci">static void OSInitFastCast(void)</div><div class="ttdef"><b>Definition</b> os.h:179</div></div>
-<div class="ttc" id="aos_8h_html_af486c17dfbd66ce16f180e44ad86736b"><div class="ttname"><a href="os_8h.html#af486c17dfbd66ce16f180e44ad86736b">__OSReport_Error_disable</a></div><div class="ttdeci">u8 __OSReport_Error_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:16</div></div>
-<div class="ttc" id="aos_8h_html_afefd47bb79544cf1414a3c6954d71258"><div class="ttname"><a href="os_8h.html#afefd47bb79544cf1414a3c6954d71258">OSInit</a></div><div class="ttdeci">void OSInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:233</div></div>
+<div class="ttc" id="aos_8h_html_af486c17dfbd66ce16f180e44ad86736b"><div class="ttname"><a href="os_8h.html#af486c17dfbd66ce16f180e44ad86736b">__OSReport_Error_disable</a></div><div class="ttdeci">u8 __OSReport_Error_disable</div><div class="ttdef"><b>Definition</b> m_Do_printf.cpp:14</div></div>
+<div class="ttc" id="aos_8h_html_afefd47bb79544cf1414a3c6954d71258"><div class="ttname"><a href="os_8h.html#afefd47bb79544cf1414a3c6954d71258">OSInit</a></div><div class="ttdeci">void OSInit(void)</div><div class="ttdef"><b>Definition</b> OS.c:231</div></div>
 <div class="ttc" id="astructBI2Debug_html"><div class="ttname"><a href="structBI2Debug.html">BI2Debug</a></div><div class="ttdef"><b>Definition</b> os.h:210</div></div>
 <div class="ttc" id="astructBI2Debug_html_a10244909ce466ea581ed6005f9998981"><div class="ttname"><a href="structBI2Debug.html#a10244909ce466ea581ed6005f9998981">BI2Debug::simMemSize</a></div><div class="ttdeci">s32 simMemSize</div><div class="ttdef"><b>Definition</b> os.h:212</div></div>
 <div class="ttc" id="astructBI2Debug_html_a153b890b9b133539539cac816e7858f4"><div class="ttname"><a href="structBI2Debug.html#a153b890b9b133539539cac816e7858f4">BI2Debug::debugFlag</a></div><div class="ttdeci">u32 debugFlag</div><div class="ttdef"><b>Definition</b> os.h:214</div></div>
@@ -615,9 +673,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition</b> types.h:6</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="os_8h.html">os.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

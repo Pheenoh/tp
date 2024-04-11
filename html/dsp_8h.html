@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/dsp.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('dsp_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,99 +139,22 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">dsp.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="OSTime_8h_source.html">dolphin/os/OSTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="OSInterrupt_8h_source.html">dolphin/os/OSInterrupt.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for dsp.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="dsp_8h__incl.svg" width="339" height="258"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="dsp_8h__dep__incl.svg" width="100%" height="460"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="dsp_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structDSPTaskInfo.html">DSPTaskInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a27bc7845795fc6cfea1f953a87dce68e" id="r_a27bc7845795fc6cfea1f953a87dce68e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a27bc7845795fc6cfea1f953a87dce68e">DSP_TASK_FLAG_CLEARALL</a>&#160;&#160;&#160;0x00000000</td></tr>
-<tr class="separator:a27bc7845795fc6cfea1f953a87dce68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c7f5898204498392aa26267da7272cd" id="r_a5c7f5898204498392aa26267da7272cd"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a5c7f5898204498392aa26267da7272cd">DSP_TASK_FLAG_ATTACHED</a>&#160;&#160;&#160;0x00000001</td></tr>
-<tr class="separator:a5c7f5898204498392aa26267da7272cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04ef831bd70967b09c465b6bfe660fc6" id="r_a04ef831bd70967b09c465b6bfe660fc6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a04ef831bd70967b09c465b6bfe660fc6">DSP_TASK_FLAG_CANCEL</a>&#160;&#160;&#160;0x00000002</td></tr>
-<tr class="separator:a04ef831bd70967b09c465b6bfe660fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27aafbc7835861b74999e8ca0b9c456e" id="r_a27aafbc7835861b74999e8ca0b9c456e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a27aafbc7835861b74999e8ca0b9c456e">DSP_TASK_STATE_INIT</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a27aafbc7835861b74999e8ca0b9c456e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0aa2aa9921782be6e8e7e60055e18dc" id="r_ab0aa2aa9921782be6e8e7e60055e18dc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ab0aa2aa9921782be6e8e7e60055e18dc">DSP_TASK_STATE_RUN</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ab0aa2aa9921782be6e8e7e60055e18dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bae122d770cf99251e0a9171ced3eb0" id="r_a1bae122d770cf99251e0a9171ced3eb0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a1bae122d770cf99251e0a9171ced3eb0">DSP_TASK_STATE_YIELD</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a1bae122d770cf99251e0a9171ced3eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f69334f7978d061e71a7a92b1be7e28" id="r_a3f69334f7978d061e71a7a92b1be7e28"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a3f69334f7978d061e71a7a92b1be7e28">DSP_TASK_STATE_DONE</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a3f69334f7978d061e71a7a92b1be7e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2228560f255197823d513eaa8ce4ab44" id="r_a2228560f255197823d513eaa8ce4ab44"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a2228560f255197823d513eaa8ce4ab44">DSP_MAILBOX_IN_HI</a>&#160;&#160;&#160;(0)</td></tr>
-<tr class="separator:a2228560f255197823d513eaa8ce4ab44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abedc0b60715c81808f3050a4e218724d" id="r_abedc0b60715c81808f3050a4e218724d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#abedc0b60715c81808f3050a4e218724d">DSP_MAILBOX_IN_LO</a>&#160;&#160;&#160;(1)</td></tr>
-<tr class="separator:abedc0b60715c81808f3050a4e218724d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e71abb7c5b52780366f11374dea3600" id="r_a8e71abb7c5b52780366f11374dea3600"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a8e71abb7c5b52780366f11374dea3600">DSP_MAILBOX_OUT_HI</a>&#160;&#160;&#160;(2)</td></tr>
-<tr class="separator:a8e71abb7c5b52780366f11374dea3600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dee0e226c852ecd2e3669293e0c6c1b" id="r_a3dee0e226c852ecd2e3669293e0c6c1b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a3dee0e226c852ecd2e3669293e0c6c1b">DSP_MAILBOX_OUT_LO</a>&#160;&#160;&#160;(3)</td></tr>
-<tr class="separator:a3dee0e226c852ecd2e3669293e0c6c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad1e32ba95b57bded4cc9d08c9f11fc7" id="r_aad1e32ba95b57bded4cc9d08c9f11fc7"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#aad1e32ba95b57bded4cc9d08c9f11fc7">DSP_CONTROL_STATUS</a>&#160;&#160;&#160;(5)</td></tr>
-<tr class="separator:aad1e32ba95b57bded4cc9d08c9f11fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d7991ce91a6fb5bdea127d25b08dc25" id="r_a0d7991ce91a6fb5bdea127d25b08dc25"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a0d7991ce91a6fb5bdea127d25b08dc25">DSP_ARAM_SIZE</a>&#160;&#160;&#160;(9)</td></tr>
-<tr class="separator:a0d7991ce91a6fb5bdea127d25b08dc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9b41a82108ef394f1150a1d56d42314" id="r_ac9b41a82108ef394f1150a1d56d42314"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ac9b41a82108ef394f1150a1d56d42314">DSP_ARAM_MODE</a>&#160;&#160;&#160;(11)</td></tr>
-<tr class="separator:ac9b41a82108ef394f1150a1d56d42314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73e6006a51679a67c33e802e954da434" id="r_a73e6006a51679a67c33e802e954da434"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a73e6006a51679a67c33e802e954da434">DSP_ARAM_REFRESH</a>&#160;&#160;&#160;(13)</td></tr>
-<tr class="separator:a73e6006a51679a67c33e802e954da434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64ff4f30ce659b4e376b24c8b49de8ab" id="r_a64ff4f30ce659b4e376b24c8b49de8ab"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a64ff4f30ce659b4e376b24c8b49de8ab">DSP_ARAM_DMA_MM_HI</a>&#160;&#160;&#160;(16)</td></tr>
-<tr class="separator:a64ff4f30ce659b4e376b24c8b49de8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f6ae7155ef46e27a5a1a680bffea1b6" id="r_a6f6ae7155ef46e27a5a1a680bffea1b6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a6f6ae7155ef46e27a5a1a680bffea1b6">DSP_ARAM_DMA_MM_LO</a>&#160;&#160;&#160;(17)</td></tr>
-<tr class="separator:a6f6ae7155ef46e27a5a1a680bffea1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad875e4726093d09537708ab91cf58348" id="r_ad875e4726093d09537708ab91cf58348"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ad875e4726093d09537708ab91cf58348">DSP_ARAM_DMA_ARAM_HI</a>&#160;&#160;&#160;(18)</td></tr>
-<tr class="separator:ad875e4726093d09537708ab91cf58348"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d5f50ec91c9cff153504eb832ff864" id="r_ae9d5f50ec91c9cff153504eb832ff864"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ae9d5f50ec91c9cff153504eb832ff864">DSP_ARAM_DMA_ARAM_LO</a>&#160;&#160;&#160;(19)</td></tr>
-<tr class="separator:ae9d5f50ec91c9cff153504eb832ff864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1015d82d6160d993e96c4c3d824f63d9" id="r_a1015d82d6160d993e96c4c3d824f63d9"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a1015d82d6160d993e96c4c3d824f63d9">DSP_ARAM_DMA_SIZE_HI</a>&#160;&#160;&#160;(20)</td></tr>
-<tr class="separator:a1015d82d6160d993e96c4c3d824f63d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada50ab8112ef96685f42d1cce550cf41" id="r_ada50ab8112ef96685f42d1cce550cf41"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ada50ab8112ef96685f42d1cce550cf41">DSP_ARAM_DMA_SIZE_LO</a>&#160;&#160;&#160;(21)</td></tr>
-<tr class="separator:ada50ab8112ef96685f42d1cce550cf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae05efcd9aed998b1c9dd11d4e454a1ca" id="r_ae05efcd9aed998b1c9dd11d4e454a1ca"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#ae05efcd9aed998b1c9dd11d4e454a1ca">DSP_DMA_START_HI</a>&#160;&#160;&#160;(24)</td></tr>
-<tr class="separator:ae05efcd9aed998b1c9dd11d4e454a1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a288688f6fa88ed4e0060455bc42edc04" id="r_a288688f6fa88ed4e0060455bc42edc04"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a288688f6fa88ed4e0060455bc42edc04">DSP_DMA_START_LO</a>&#160;&#160;&#160;(25)</td></tr>
-<tr class="separator:a288688f6fa88ed4e0060455bc42edc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add524d1fd116fd12a466edc982b94ee3" id="r_add524d1fd116fd12a466edc982b94ee3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#add524d1fd116fd12a466edc982b94ee3">DSP_DMA_CONTROL_LEN</a>&#160;&#160;&#160;(27)</td></tr>
-<tr class="separator:add524d1fd116fd12a466edc982b94ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adefceb11514614e1e19b830e3567b76c" id="r_adefceb11514614e1e19b830e3567b76c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#adefceb11514614e1e19b830e3567b76c">DSP_DMA_BYTES_LEFT</a>&#160;&#160;&#160;(29)</td></tr>
-<tr class="separator:adefceb11514614e1e19b830e3567b76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42007830f4438c35064a6a513c3b9c83" id="r_a42007830f4438c35064a6a513c3b9c83"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#a42007830f4438c35064a6a513c3b9c83">DSP_DMA_START_FLAG</a>&#160;&#160;&#160;(0x8000)</td></tr>
-<tr class="separator:a42007830f4438c35064a6a513c3b9c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -210,371 +197,6 @@ Variables</h2></td></tr>
 <tr class="memitem:aeee3fb94d6443a4e7508517a285a1fa2" id="r_aeee3fb94d6443a4e7508517a285a1fa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">volatile</a> <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="dsp_8h.html#aeee3fb94d6443a4e7508517a285a1fa2">__AIRegs</a> [8]</td></tr>
 <tr class="separator:aeee3fb94d6443a4e7508517a285a1fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad875e4726093d09537708ab91cf58348" name="ad875e4726093d09537708ab91cf58348"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad875e4726093d09537708ab91cf58348">&#9670;&#160;</a></span>DSP_ARAM_DMA_ARAM_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_ARAM_HI&#160;&#160;&#160;(18)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9d5f50ec91c9cff153504eb832ff864" name="ae9d5f50ec91c9cff153504eb832ff864"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d5f50ec91c9cff153504eb832ff864">&#9670;&#160;</a></span>DSP_ARAM_DMA_ARAM_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_ARAM_LO&#160;&#160;&#160;(19)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a64ff4f30ce659b4e376b24c8b49de8ab" name="a64ff4f30ce659b4e376b24c8b49de8ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64ff4f30ce659b4e376b24c8b49de8ab">&#9670;&#160;</a></span>DSP_ARAM_DMA_MM_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_MM_HI&#160;&#160;&#160;(16)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6f6ae7155ef46e27a5a1a680bffea1b6" name="a6f6ae7155ef46e27a5a1a680bffea1b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f6ae7155ef46e27a5a1a680bffea1b6">&#9670;&#160;</a></span>DSP_ARAM_DMA_MM_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_MM_LO&#160;&#160;&#160;(17)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1015d82d6160d993e96c4c3d824f63d9" name="a1015d82d6160d993e96c4c3d824f63d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1015d82d6160d993e96c4c3d824f63d9">&#9670;&#160;</a></span>DSP_ARAM_DMA_SIZE_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_SIZE_HI&#160;&#160;&#160;(20)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada50ab8112ef96685f42d1cce550cf41" name="ada50ab8112ef96685f42d1cce550cf41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada50ab8112ef96685f42d1cce550cf41">&#9670;&#160;</a></span>DSP_ARAM_DMA_SIZE_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_DMA_SIZE_LO&#160;&#160;&#160;(21)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac9b41a82108ef394f1150a1d56d42314" name="ac9b41a82108ef394f1150a1d56d42314"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9b41a82108ef394f1150a1d56d42314">&#9670;&#160;</a></span>DSP_ARAM_MODE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_MODE&#160;&#160;&#160;(11)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a73e6006a51679a67c33e802e954da434" name="a73e6006a51679a67c33e802e954da434"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73e6006a51679a67c33e802e954da434">&#9670;&#160;</a></span>DSP_ARAM_REFRESH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_REFRESH&#160;&#160;&#160;(13)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d7991ce91a6fb5bdea127d25b08dc25" name="a0d7991ce91a6fb5bdea127d25b08dc25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d7991ce91a6fb5bdea127d25b08dc25">&#9670;&#160;</a></span>DSP_ARAM_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_ARAM_SIZE&#160;&#160;&#160;(9)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad1e32ba95b57bded4cc9d08c9f11fc7" name="aad1e32ba95b57bded4cc9d08c9f11fc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad1e32ba95b57bded4cc9d08c9f11fc7">&#9670;&#160;</a></span>DSP_CONTROL_STATUS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_CONTROL_STATUS&#160;&#160;&#160;(5)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adefceb11514614e1e19b830e3567b76c" name="adefceb11514614e1e19b830e3567b76c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adefceb11514614e1e19b830e3567b76c">&#9670;&#160;</a></span>DSP_DMA_BYTES_LEFT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_DMA_BYTES_LEFT&#160;&#160;&#160;(29)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="add524d1fd116fd12a466edc982b94ee3" name="add524d1fd116fd12a466edc982b94ee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add524d1fd116fd12a466edc982b94ee3">&#9670;&#160;</a></span>DSP_DMA_CONTROL_LEN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_DMA_CONTROL_LEN&#160;&#160;&#160;(27)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a42007830f4438c35064a6a513c3b9c83" name="a42007830f4438c35064a6a513c3b9c83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42007830f4438c35064a6a513c3b9c83">&#9670;&#160;</a></span>DSP_DMA_START_FLAG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_DMA_START_FLAG&#160;&#160;&#160;(0x8000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae05efcd9aed998b1c9dd11d4e454a1ca" name="ae05efcd9aed998b1c9dd11d4e454a1ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05efcd9aed998b1c9dd11d4e454a1ca">&#9670;&#160;</a></span>DSP_DMA_START_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_DMA_START_HI&#160;&#160;&#160;(24)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a288688f6fa88ed4e0060455bc42edc04" name="a288688f6fa88ed4e0060455bc42edc04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a288688f6fa88ed4e0060455bc42edc04">&#9670;&#160;</a></span>DSP_DMA_START_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_DMA_START_LO&#160;&#160;&#160;(25)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2228560f255197823d513eaa8ce4ab44" name="a2228560f255197823d513eaa8ce4ab44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2228560f255197823d513eaa8ce4ab44">&#9670;&#160;</a></span>DSP_MAILBOX_IN_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_MAILBOX_IN_HI&#160;&#160;&#160;(0)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abedc0b60715c81808f3050a4e218724d" name="abedc0b60715c81808f3050a4e218724d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abedc0b60715c81808f3050a4e218724d">&#9670;&#160;</a></span>DSP_MAILBOX_IN_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_MAILBOX_IN_LO&#160;&#160;&#160;(1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8e71abb7c5b52780366f11374dea3600" name="a8e71abb7c5b52780366f11374dea3600"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e71abb7c5b52780366f11374dea3600">&#9670;&#160;</a></span>DSP_MAILBOX_OUT_HI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_MAILBOX_OUT_HI&#160;&#160;&#160;(2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3dee0e226c852ecd2e3669293e0c6c1b" name="a3dee0e226c852ecd2e3669293e0c6c1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dee0e226c852ecd2e3669293e0c6c1b">&#9670;&#160;</a></span>DSP_MAILBOX_OUT_LO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_MAILBOX_OUT_LO&#160;&#160;&#160;(3)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5c7f5898204498392aa26267da7272cd" name="a5c7f5898204498392aa26267da7272cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c7f5898204498392aa26267da7272cd">&#9670;&#160;</a></span>DSP_TASK_FLAG_ATTACHED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_FLAG_ATTACHED&#160;&#160;&#160;0x00000001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04ef831bd70967b09c465b6bfe660fc6" name="a04ef831bd70967b09c465b6bfe660fc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ef831bd70967b09c465b6bfe660fc6">&#9670;&#160;</a></span>DSP_TASK_FLAG_CANCEL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_FLAG_CANCEL&#160;&#160;&#160;0x00000002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a27bc7845795fc6cfea1f953a87dce68e" name="a27bc7845795fc6cfea1f953a87dce68e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27bc7845795fc6cfea1f953a87dce68e">&#9670;&#160;</a></span>DSP_TASK_FLAG_CLEARALL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_FLAG_CLEARALL&#160;&#160;&#160;0x00000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3f69334f7978d061e71a7a92b1be7e28" name="a3f69334f7978d061e71a7a92b1be7e28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f69334f7978d061e71a7a92b1be7e28">&#9670;&#160;</a></span>DSP_TASK_STATE_DONE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_STATE_DONE&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a27aafbc7835861b74999e8ca0b9c456e" name="a27aafbc7835861b74999e8ca0b9c456e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27aafbc7835861b74999e8ca0b9c456e">&#9670;&#160;</a></span>DSP_TASK_STATE_INIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_STATE_INIT&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab0aa2aa9921782be6e8e7e60055e18dc" name="ab0aa2aa9921782be6e8e7e60055e18dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0aa2aa9921782be6e8e7e60055e18dc">&#9670;&#160;</a></span>DSP_TASK_STATE_RUN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_STATE_RUN&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1bae122d770cf99251e0a9171ced3eb0" name="a1bae122d770cf99251e0a9171ced3eb0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bae122d770cf99251e0a9171ced3eb0">&#9670;&#160;</a></span>DSP_TASK_STATE_YIELD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSP_TASK_STATE_YIELD&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a31fa3e6a3ea63013f1e5e9074960eedb" name="a31fa3e6a3ea63013f1e5e9074960eedb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31fa3e6a3ea63013f1e5e9074960eedb">&#9670;&#160;</a></span>DSPCallback</h2>
@@ -904,9 +526,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dsp_8h.html">dsp.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

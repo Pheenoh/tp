@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/gx/GXInit.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('GXInit_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,71 +139,22 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_0a946831413905238e39a80608042579.html">gx</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">GXInit.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="GXTexture_8h_source.html">dolphin/gx/GXTexture.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="mtx_8h_source.html">dolphin/mtx.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for GXInit.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="GXInit_8h__incl.svg" width="610" height="420"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="GXInit_8h__dep__incl.svg" width="100%" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="GXInit_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct__GXData.html">_GXData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9fd25f0d9e5ad443e27b86989c9f00ac" id="r_a9fd25f0d9e5ad443e27b86989c9f00ac"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a9fd25f0d9e5ad443e27b86989c9f00ac">GX_CP_ADDR</a>&#160;&#160;&#160;(0x0C000000)</td></tr>
-<tr class="separator:a9fd25f0d9e5ad443e27b86989c9f00ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fdef809357347c7d6f1538ce7696adb" id="r_a5fdef809357347c7d6f1538ce7696adb"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a5fdef809357347c7d6f1538ce7696adb">GX_PE_ADDR</a>&#160;&#160;&#160;(0x0C001000)</td></tr>
-<tr class="separator:a5fdef809357347c7d6f1538ce7696adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad8ecba0cbab11a000a112b7ec3ad27" id="r_a6ad8ecba0cbab11a000a112b7ec3ad27"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a6ad8ecba0cbab11a000a112b7ec3ad27">GX_PI_ADDR</a>&#160;&#160;&#160;(0x0C003000)</td></tr>
-<tr class="separator:a6ad8ecba0cbab11a000a112b7ec3ad27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a8d78fc3c54e23ce6b1b945e9b8533a" id="r_a6a8d78fc3c54e23ce6b1b945e9b8533a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a6a8d78fc3c54e23ce6b1b945e9b8533a">GX_MEM_ADDR</a>&#160;&#160;&#160;(0x0C004000)</td></tr>
-<tr class="separator:a6a8d78fc3c54e23ce6b1b945e9b8533a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fdc9d8415ba9bc2233a4affb9c62ec6" id="r_a2fdc9d8415ba9bc2233a4affb9c62ec6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a2fdc9d8415ba9bc2233a4affb9c62ec6">GX_GET_MEM_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a0f417623da38fef804b36f8a58959747">__memReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td></tr>
-<tr class="separator:a2fdc9d8415ba9bc2233a4affb9c62ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b7b32561a9f56cb8ee7a6e65a16c75" id="r_ae4b7b32561a9f56cb8ee7a6e65a16c75"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#ae4b7b32561a9f56cb8ee7a6e65a16c75">GX_GET_CP_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a5c44a96044c83afdb405a82fc607eb27">__cpReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td></tr>
-<tr class="separator:ae4b7b32561a9f56cb8ee7a6e65a16c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3438e68b7b4c5a1b029562e21f6bbc" id="r_a1f3438e68b7b4c5a1b029562e21f6bbc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a1f3438e68b7b4c5a1b029562e21f6bbc">GX_GET_PE_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a3fd92bb2026ec3134ffc55a20e5aa245">__peReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td></tr>
-<tr class="separator:a1f3438e68b7b4c5a1b029562e21f6bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98d5d90bb46303ea3e0269e2329bc438" id="r_a98d5d90bb46303ea3e0269e2329bc438"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a98d5d90bb46303ea3e0269e2329bc438">GX_GET_PI_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)((<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)(<a class="el" href="GXInit_8c.html#af2ade8bc947673e5c565431e4f2ed4fa">__piReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td></tr>
-<tr class="separator:a98d5d90bb46303ea3e0269e2329bc438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36ba8ff891001eff24bff75028faa6e4" id="r_a36ba8ff891001eff24bff75028faa6e4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a36ba8ff891001eff24bff75028faa6e4">GX_SET_MEM_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>,  <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a0f417623da38fef804b36f8a58959747">__memReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td></tr>
-<tr class="separator:a36ba8ff891001eff24bff75028faa6e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e9e4dd113b89ef266a66d18f5a91214" id="r_a1e9e4dd113b89ef266a66d18f5a91214"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a1e9e4dd113b89ef266a66d18f5a91214">GX_SET_CP_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>,  <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a5c44a96044c83afdb405a82fc607eb27">__cpReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td></tr>
-<tr class="separator:a1e9e4dd113b89ef266a66d18f5a91214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f21ced9a0b721120c7cedc76339ea98" id="r_a0f21ced9a0b721120c7cedc76339ea98"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a0f21ced9a0b721120c7cedc76339ea98">GX_SET_PE_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>,  <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a3fd92bb2026ec3134ffc55a20e5aa245">__peReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td></tr>
-<tr class="separator:a0f21ced9a0b721120c7cedc76339ea98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a098a530054c7f830aa0f6ff58a2f7b74" id="r_a098a530054c7f830aa0f6ff58a2f7b74"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a098a530054c7f830aa0f6ff58a2f7b74">GX_SET_PI_REG</a>(<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>,  <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)((<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)(<a class="el" href="GXInit_8c.html#af2ade8bc947673e5c565431e4f2ed4fa">__piReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td></tr>
-<tr class="separator:a098a530054c7f830aa0f6ff58a2f7b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -182,247 +197,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a0f417623da38fef804b36f8a58959747" id="r_a0f417623da38fef804b36f8a58959747"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="GXInit_8h.html#a0f417623da38fef804b36f8a58959747">__memReg</a></td></tr>
 <tr class="separator:a0f417623da38fef804b36f8a58959747"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a9fd25f0d9e5ad443e27b86989c9f00ac" name="a9fd25f0d9e5ad443e27b86989c9f00ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fd25f0d9e5ad443e27b86989c9f00ac">&#9670;&#160;</a></span>GX_CP_ADDR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_CP_ADDR&#160;&#160;&#160;(0x0C000000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4b7b32561a9f56cb8ee7a6e65a16c75" name="ae4b7b32561a9f56cb8ee7a6e65a16c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4b7b32561a9f56cb8ee7a6e65a16c75">&#9670;&#160;</a></span>GX_GET_CP_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_GET_CP_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a5c44a96044c83afdb405a82fc607eb27">__cpReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2fdc9d8415ba9bc2233a4affb9c62ec6" name="a2fdc9d8415ba9bc2233a4affb9c62ec6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fdc9d8415ba9bc2233a4affb9c62ec6">&#9670;&#160;</a></span>GX_GET_MEM_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_GET_MEM_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a0f417623da38fef804b36f8a58959747">__memReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1f3438e68b7b4c5a1b029562e21f6bbc" name="a1f3438e68b7b4c5a1b029562e21f6bbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3438e68b7b4c5a1b029562e21f6bbc">&#9670;&#160;</a></span>GX_GET_PE_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_GET_PE_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a3fd92bb2026ec3134ffc55a20e5aa245">__peReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a98d5d90bb46303ea3e0269e2329bc438" name="a98d5d90bb46303ea3e0269e2329bc438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98d5d90bb46303ea3e0269e2329bc438">&#9670;&#160;</a></span>GX_GET_PI_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_GET_PI_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)((<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)(<a class="el" href="GXInit_8c.html#af2ade8bc947673e5c565431e4f2ed4fa">__piReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a8d78fc3c54e23ce6b1b945e9b8533a" name="a6a8d78fc3c54e23ce6b1b945e9b8533a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a8d78fc3c54e23ce6b1b945e9b8533a">&#9670;&#160;</a></span>GX_MEM_ADDR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_MEM_ADDR&#160;&#160;&#160;(0x0C004000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5fdef809357347c7d6f1538ce7696adb" name="a5fdef809357347c7d6f1538ce7696adb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fdef809357347c7d6f1538ce7696adb">&#9670;&#160;</a></span>GX_PE_ADDR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_PE_ADDR&#160;&#160;&#160;(0x0C001000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ad8ecba0cbab11a000a112b7ec3ad27" name="a6ad8ecba0cbab11a000a112b7ec3ad27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ad8ecba0cbab11a000a112b7ec3ad27">&#9670;&#160;</a></span>GX_PI_ADDR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_PI_ADDR&#160;&#160;&#160;(0x0C003000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1e9e4dd113b89ef266a66d18f5a91214" name="a1e9e4dd113b89ef266a66d18f5a91214"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e9e4dd113b89ef266a66d18f5a91214">&#9670;&#160;</a></span>GX_SET_CP_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_SET_CP_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a5c44a96044c83afdb405a82fc607eb27">__cpReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36ba8ff891001eff24bff75028faa6e4" name="a36ba8ff891001eff24bff75028faa6e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36ba8ff891001eff24bff75028faa6e4">&#9670;&#160;</a></span>GX_SET_MEM_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_SET_MEM_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a0f417623da38fef804b36f8a58959747">__memReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f21ced9a0b721120c7cedc76339ea98" name="a0f21ced9a0b721120c7cedc76339ea98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f21ced9a0b721120c7cedc76339ea98">&#9670;&#160;</a></span>GX_SET_PE_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_SET_PE_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)((<a class="el" href="types_8h.html#a677aa1edce4bbb53741b1cc24eb4c035">vu16</a>*)(<a class="el" href="GXInit_8c.html#a3fd92bb2026ec3134ffc55a20e5aa245">__peReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a098a530054c7f830aa0f6ff58a2f7b74" name="a098a530054c7f830aa0f6ff58a2f7b74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a098a530054c7f830aa0f6ff58a2f7b74">&#9670;&#160;</a></span>GX_SET_PI_REG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GX_SET_PI_REG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)((<a class="el" href="types_8h.html#abcdd5d61f51cb4c472ac6637916cf72a">vu32</a>*)(<a class="el" href="GXInit_8c.html#af2ade8bc947673e5c565431e4f2ed4fa">__piReg</a>) + (<a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)) = <a class="el" href="init_8h.html#aa0ccb5ee6d882ee3605ff47745c6467b">val</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a6f1be31bdf6491074a13f515ab26f2bc" name="a6f1be31bdf6491074a13f515ab26f2bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f1be31bdf6491074a13f515ab26f2bc">&#9670;&#160;</a></span>GXData</h2>
@@ -784,9 +558,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_0a946831413905238e39a80608042579.html">gx</a></li><li class="navelem"><a class="el" href="GXInit_8h.html">GXInit.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

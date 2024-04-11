@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: libs/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/Src/alloc.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('alloc_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,32 +139,16 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_db1709413e4853dbf382363385ab04a7.html">PowerPC_EABI_Support</a></li><li class="navelem"><a class="el" href="dir_0e4db8b1a28362b634df487c2f26278a.html">MSL</a></li><li class="navelem"><a class="el" href="dir_0d37b77abbd65600f5660cf0deb652c9.html">MSL_C</a></li><li class="navelem"><a class="el" href="dir_d08bb430d409ef9a6cb3f55d9a9cbc2f.html">MSL_Common</a></li><li class="navelem"><a class="el" href="dir_3b2a9a4903bbf3c90164c10fb8e9358a.html">Src</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">alloc.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="alloc_8h_source.html">alloc.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="critical__regions_8h_source.html">critical_regions.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="string_8h_source.html">string.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for alloc.c:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="alloc_8c__incl.svg" width="300" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structBlock.html">Block</a></td></tr>
@@ -127,37 +175,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmem__pool__obj.html">mem_pool_obj</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ae4468c8542af76e3b6d1029ae992dd9d" id="r_ae4468c8542af76e3b6d1029ae992dd9d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#ae4468c8542af76e3b6d1029ae992dd9d">SubBlock_size</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 0xFFFFFFF8)</td></tr>
-<tr class="separator:ae4468c8542af76e3b6d1029ae992dd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bdf14b4a9bd996fde5adc5b200e4093" id="r_a4bdf14b4a9bd996fde5adc5b200e4093"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a4bdf14b4a9bd996fde5adc5b200e4093">SubBlock_block</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;((<a class="el" href="structBlock.html">Block</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;<a class="el" href="fstload_8c.html#a0a77fcc63b2130d6926350d37888d7a4">block</a>) &amp; ~0x1))</td></tr>
-<tr class="separator:a4bdf14b4a9bd996fde5adc5b200e4093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a859f655f08a7893d35a7ba2534d88431" id="r_a859f655f08a7893d35a7ba2534d88431"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a859f655f08a7893d35a7ba2534d88431">Block_size</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 0xFFFFFFF8)</td></tr>
-<tr class="separator:a859f655f08a7893d35a7ba2534d88431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa20cd1ccec47fbd475df7344fc10df0f" id="r_aa20cd1ccec47fbd475df7344fc10df0f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#aa20cd1ccec47fbd475df7344fc10df0f">Block_start</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;(*(<a class="el" href="structSubBlock.html">SubBlock</a>**)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + <a class="el" href="alloc_8c.html#a859f655f08a7893d35a7ba2534d88431">Block_size</a>((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)) - <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sizeof</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)))</td></tr>
-<tr class="separator:aa20cd1ccec47fbd475df7344fc10df0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8891c4d662c17324bbf38c0b63f816d0" id="r_a8891c4d662c17324bbf38c0b63f816d0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a8891c4d662c17324bbf38c0b63f816d0">SubBlock_set_free</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)</td></tr>
-<tr class="separator:a8891c4d662c17324bbf38c0b63f816d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c010f0e8bd11cf2f1249d3b79dc78f" id="r_a96c010f0e8bd11cf2f1249d3b79dc78f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a96c010f0e8bd11cf2f1249d3b79dc78f">SubBlock_is_free</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;!((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 2)</td></tr>
-<tr class="separator:a96c010f0e8bd11cf2f1249d3b79dc78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cfdea68309aaa901f365bda61c67c53" id="r_a0cfdea68309aaa901f365bda61c67c53"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a0cfdea68309aaa901f365bda61c67c53">SubBlock_set_size</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>,  <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sz</a>)</td></tr>
-<tr class="separator:a0cfdea68309aaa901f365bda61c67c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37d24bc607d94b2f329663fb7e74ab83" id="r_a37d24bc607d94b2f329663fb7e74ab83"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a37d24bc607d94b2f329663fb7e74ab83">SubBlock_from_pointer</a>(ptr)&#160;&#160;&#160;((<a class="el" href="structSubBlock.html">SubBlock</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr)-8))</td></tr>
-<tr class="separator:a37d24bc607d94b2f329663fb7e74ab83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc27a7edad69792b11fbf83c5e596994" id="r_afc27a7edad69792b11fbf83c5e596994"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#afc27a7edad69792b11fbf83c5e596994">FixSubBlock_from_pointer</a>(ptr)&#160;&#160;&#160;((<a class="el" href="structFixSubBlock.html">FixSubBlock</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr)-4))</td></tr>
-<tr class="separator:afc27a7edad69792b11fbf83c5e596994"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab570d3528dd0d4abf3937945f6d98066" id="r_ab570d3528dd0d4abf3937945f6d98066"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#ab570d3528dd0d4abf3937945f6d98066">FixBlock_client_size</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;client_size_)</td></tr>
-<tr class="separator:ab570d3528dd0d4abf3937945f6d98066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6025f325685ad6c3d27d5cb24dc7191a" id="r_a6025f325685ad6c3d27d5cb24dc7191a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a6025f325685ad6c3d27d5cb24dc7191a">FixSubBlock_size</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)&#160;&#160;&#160;(<a class="el" href="alloc_8c.html#ab570d3528dd0d4abf3937945f6d98066">FixBlock_client_size</a>((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;block_))</td></tr>
-<tr class="separator:a6025f325685ad6c3d27d5cb24dc7191a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674f3ee29c51be006513c5b6d8242274" id="r_a674f3ee29c51be006513c5b6d8242274"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a674f3ee29c51be006513c5b6d8242274">classify</a>(ptr)&#160;&#160;&#160;(*(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr) - <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sizeof</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)) &amp; 1)</td></tr>
-<tr class="separator:a674f3ee29c51be006513c5b6d8242274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63445ca2252f57237e4d8c8cad1b4f8d" id="r_a63445ca2252f57237e4d8c8cad1b4f8d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a63445ca2252f57237e4d8c8cad1b4f8d">__msize_inline</a>(ptr)</td></tr>
-<tr class="separator:a63445ca2252f57237e4d8c8cad1b4f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6052cfd2afc5c91b8dbdfc1b0b85ddf6" id="r_a6052cfd2afc5c91b8dbdfc1b0b85ddf6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a6052cfd2afc5c91b8dbdfc1b0b85ddf6">Block_empty</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)</td></tr>
-<tr class="separator:a6052cfd2afc5c91b8dbdfc1b0b85ddf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -202,7 +219,7 @@ Functions</h2></td></tr>
 <tr class="separator:ac70a70bfa544fbe9695179c4b83a5391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afae48ce37d3d9bf7656313f1fe283958" id="r_afae48ce37d3d9bf7656313f1fe283958"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#afae48ce37d3d9bf7656313f1fe283958">Block_link</a> (<a class="el" href="structBlock.html">Block</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>, <a class="el" href="structSubBlock.html">SubBlock</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sb</a>)</td></tr>
 <tr class="separator:afae48ce37d3d9bf7656313f1fe283958"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4356885592a59a60a10bbab92cca496b" id="r_a4356885592a59a60a10bbab92cca496b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="structBlock.html">Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a4356885592a59a60a10bbab92cca496b">__unlink</a> (<a class="el" href="struct____mem__pool__obj.html">__mem_pool_obj</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">pool_obj</a>, <a class="el" href="structBlock.html">Block</a> *<a class="el" href="e__pow_8c.html#a6f5f564556d4faf1309873e550085504">bp</a>)</td></tr>
+<tr class="memitem:a4356885592a59a60a10bbab92cca496b" id="r_a4356885592a59a60a10bbab92cca496b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="structBlock.html">Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#a4356885592a59a60a10bbab92cca496b">__unlink</a> (<a class="el" href="struct____mem__pool__obj.html">__mem_pool_obj</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">pool_obj</a>, <a class="el" href="structBlock.html">Block</a> *<a class="el" href="e__pow_8c.html#a6e7ef6854ced1bbafad4f950176aafa1">bp</a>)</td></tr>
 <tr class="separator:a4356885592a59a60a10bbab92cca496b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa665e8aa8704f37f8352d218050cc94d" id="r_aa665e8aa8704f37f8352d218050cc94d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#aa665e8aa8704f37f8352d218050cc94d">deallocate_from_var_pools</a> (<a class="el" href="struct____mem__pool__obj.html">__mem_pool_obj</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">pool_obj</a>, <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *ptr)</td></tr>
 <tr class="separator:aa665e8aa8704f37f8352d218050cc94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,290 +243,6 @@ Variables</h2></td></tr>
 <tr class="memitem:abde12fb813a4bdf641748ca6afa929aa" id="r_abde12fb813a4bdf641748ca6afa929aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="alloc_8c.html#abde12fb813a4bdf641748ca6afa929aa">fix_pool_sizes</a> [] = {4, 12, 20, 36, 52, 68}</td></tr>
 <tr class="separator:abde12fb813a4bdf641748ca6afa929aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a63445ca2252f57237e4d8c8cad1b4f8d" name="a63445ca2252f57237e4d8c8cad1b4f8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63445ca2252f57237e4d8c8cad1b4f8d">&#9670;&#160;</a></span>__msize_inline</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> __msize_inline</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    (!<a class="code hl_define" href="alloc_8c.html#a674f3ee29c51be006513c5b6d8242274">classify</a>(ptr) ? <a class="code hl_define" href="alloc_8c.html#a6025f325685ad6c3d27d5cb24dc7191a">FixSubBlock_size</a>(<a class="code hl_define" href="alloc_8c.html#afc27a7edad69792b11fbf83c5e596994">FixSubBlock_from_pointer</a>(ptr)) :                            \</div>
-<div class="line">                      <a class="code hl_define" href="alloc_8c.html#ae4468c8542af76e3b6d1029ae992dd9d">SubBlock_size</a>(<a class="code hl_define" href="alloc_8c.html#a37d24bc607d94b2f329663fb7e74ab83">SubBlock_from_pointer</a>(ptr)) - 8)</div>
-<div class="ttc" id="aalloc_8c_html_a37d24bc607d94b2f329663fb7e74ab83"><div class="ttname"><a href="alloc_8c.html#a37d24bc607d94b2f329663fb7e74ab83">SubBlock_from_pointer</a></div><div class="ttdeci">#define SubBlock_from_pointer(ptr)</div><div class="ttdef"><b>Definition</b> alloc.c:111</div></div>
-<div class="ttc" id="aalloc_8c_html_a6025f325685ad6c3d27d5cb24dc7191a"><div class="ttname"><a href="alloc_8c.html#a6025f325685ad6c3d27d5cb24dc7191a">FixSubBlock_size</a></div><div class="ttdeci">#define FixSubBlock_size(ths)</div><div class="ttdef"><b>Definition</b> alloc.c:115</div></div>
-<div class="ttc" id="aalloc_8c_html_a674f3ee29c51be006513c5b6d8242274"><div class="ttname"><a href="alloc_8c.html#a674f3ee29c51be006513c5b6d8242274">classify</a></div><div class="ttdeci">#define classify(ptr)</div><div class="ttdef"><b>Definition</b> alloc.c:117</div></div>
-<div class="ttc" id="aalloc_8c_html_ae4468c8542af76e3b6d1029ae992dd9d"><div class="ttname"><a href="alloc_8c.html#ae4468c8542af76e3b6d1029ae992dd9d">SubBlock_size</a></div><div class="ttdeci">#define SubBlock_size(ths)</div><div class="ttdef"><b>Definition</b> alloc.c:93</div></div>
-<div class="ttc" id="aalloc_8c_html_afc27a7edad69792b11fbf83c5e596994"><div class="ttname"><a href="alloc_8c.html#afc27a7edad69792b11fbf83c5e596994">FixSubBlock_from_pointer</a></div><div class="ttdeci">#define FixSubBlock_from_pointer(ptr)</div><div class="ttdef"><b>Definition</b> alloc.c:112</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6052cfd2afc5c91b8dbdfc1b0b85ddf6" name="a6052cfd2afc5c91b8dbdfc1b0b85ddf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6052cfd2afc5c91b8dbdfc1b0b85ddf6">&#9670;&#160;</a></span>Block_empty</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> Block_empty</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">_sb</a> = (<a class="code hl_struct" href="structSubBlock.html">SubBlock</a>*)((<span class="keywordtype">char</span>*)(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + 16)),                                                        \</div>
-<div class="line">        <a class="code hl_define" href="alloc_8c.html#a96c010f0e8bd11cf2f1249d3b79dc78f">SubBlock_is_free</a>(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">_sb</a>) &amp;&amp; <a class="code hl_define" href="alloc_8c.html#ae4468c8542af76e3b6d1029ae992dd9d">SubBlock_size</a>(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">_sb</a>) == <a class="code hl_define" href="alloc_8c.html#a859f655f08a7893d35a7ba2534d88431">Block_size</a>((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)) - 24</div>
-<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
-<div class="ttc" id="aalloc_8c_html_a859f655f08a7893d35a7ba2534d88431"><div class="ttname"><a href="alloc_8c.html#a859f655f08a7893d35a7ba2534d88431">Block_size</a></div><div class="ttdeci">#define Block_size(ths)</div><div class="ttdef"><b>Definition</b> alloc.c:95</div></div>
-<div class="ttc" id="aalloc_8c_html_a96c010f0e8bd11cf2f1249d3b79dc78f"><div class="ttname"><a href="alloc_8c.html#a96c010f0e8bd11cf2f1249d3b79dc78f">SubBlock_is_free</a></div><div class="ttdeci">#define SubBlock_is_free(ths)</div><div class="ttdef"><b>Definition</b> alloc.c:104</div></div>
-<div class="ttc" id="astructSubBlock_html"><div class="ttname"><a href="structSubBlock.html">SubBlock</a></div><div class="ttdef"><b>Definition</b> alloc.c:12</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a859f655f08a7893d35a7ba2534d88431" name="a859f655f08a7893d35a7ba2534d88431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a859f655f08a7893d35a7ba2534d88431">&#9670;&#160;</a></span>Block_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> Block_size</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 0xFFFFFFF8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa20cd1ccec47fbd475df7344fc10df0f" name="aa20cd1ccec47fbd475df7344fc10df0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa20cd1ccec47fbd475df7344fc10df0f">&#9670;&#160;</a></span>Block_start</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> Block_start</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="structSubBlock.html">SubBlock</a>**)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + <a class="el" href="alloc_8c.html#a859f655f08a7893d35a7ba2534d88431">Block_size</a>((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)) - <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sizeof</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a674f3ee29c51be006513c5b6d8242274" name="a674f3ee29c51be006513c5b6d8242274"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a674f3ee29c51be006513c5b6d8242274">&#9670;&#160;</a></span>classify</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> classify</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td>&#160;&#160;&#160;(*(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr) - <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sizeof</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)) &amp; 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab570d3528dd0d4abf3937945f6d98066" name="ab570d3528dd0d4abf3937945f6d98066"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab570d3528dd0d4abf3937945f6d98066">&#9670;&#160;</a></span>FixBlock_client_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> FixBlock_client_size</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;client_size_)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afc27a7edad69792b11fbf83c5e596994" name="afc27a7edad69792b11fbf83c5e596994"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc27a7edad69792b11fbf83c5e596994">&#9670;&#160;</a></span>FixSubBlock_from_pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> FixSubBlock_from_pointer</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="structFixSubBlock.html">FixSubBlock</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr)-4))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6025f325685ad6c3d27d5cb24dc7191a" name="a6025f325685ad6c3d27d5cb24dc7191a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6025f325685ad6c3d27d5cb24dc7191a">&#9670;&#160;</a></span>FixSubBlock_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> FixSubBlock_size</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="alloc_8c.html#ab570d3528dd0d4abf3937945f6d98066">FixBlock_client_size</a>((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;block_))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4bdf14b4a9bd996fde5adc5b200e4093" name="a4bdf14b4a9bd996fde5adc5b200e4093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bdf14b4a9bd996fde5adc5b200e4093">&#9670;&#160;</a></span>SubBlock_block</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_block</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="structBlock.html">Block</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">unsigned</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;<a class="el" href="fstload_8c.html#a0a77fcc63b2130d6926350d37888d7a4">block</a>) &amp; ~0x1))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37d24bc607d94b2f329663fb7e74ab83" name="a37d24bc607d94b2f329663fb7e74ab83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37d24bc607d94b2f329663fb7e74ab83">&#9670;&#160;</a></span>SubBlock_from_pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_from_pointer</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">ptr</td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="structSubBlock.html">SubBlock</a>*)((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">char</a>*)(ptr)-8))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a96c010f0e8bd11cf2f1249d3b79dc78f" name="a96c010f0e8bd11cf2f1249d3b79dc78f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96c010f0e8bd11cf2f1249d3b79dc78f">&#9670;&#160;</a></span>SubBlock_is_free</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_is_free</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;!((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8891c4d662c17324bbf38c0b63f816d0" name="a8891c4d662c17324bbf38c0b63f816d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8891c4d662c17324bbf38c0b63f816d0">&#9670;&#160;</a></span>SubBlock_set_free</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_set_free</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">this_size</a> = <a class="code hl_define" href="alloc_8c.html#ae4468c8542af76e3b6d1029ae992dd9d">SubBlock_size</a>((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>));                                                \</div>
-<div class="line">    (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp;= ~0x2;                                                                           \</div>
-<div class="line">    *(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>*)((<span class="keywordtype">char</span>*)(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">this_size</a>) &amp;= ~0x4;                                           \</div>
-<div class="line">    *(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>*)((<span class="keywordtype">char</span>*)(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">this_size</a> - <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)) = <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">this_size</a></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0cfdea68309aaa901f365bda61c67c53" name="a0cfdea68309aaa901f365bda61c67c53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cfdea68309aaa901f365bda61c67c53">&#9670;&#160;</a></span>SubBlock_set_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_set_size</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sz</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp;= ~0xFFFFFFF8;                                                                    \</div>
-<div class="line">    (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size |= (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sz</a>) &amp; 0xFFFFFFF8;                                                              <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">\</a></div>
-<div class="line"><a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">    if</a> (<a class="code hl_define" href="alloc_8c.html#a96c010f0e8bd11cf2f1249d3b79dc78f">SubBlock_is_free</a>((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)))                                                                   \</div>
-<div class="line">    *(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>*)((<span class="keywordtype">char</span>*)(<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>) + (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sz</a>) - <span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">long</a>)) = (<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sz</a>)</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae4468c8542af76e3b6d1029ae992dd9d" name="ae4468c8542af76e3b6d1029ae992dd9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4468c8542af76e3b6d1029ae992dd9d">&#9670;&#160;</a></span>SubBlock_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SubBlock_size</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ths</a>)-&gt;size &amp; 0xFFFFFFF8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a9f172c43501f8b2a5f38792cd0186b8b" name="a9f172c43501f8b2a5f38792cd0186b8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f172c43501f8b2a5f38792cd0186b8b">&#9670;&#160;</a></span>__mem_pool</h2>
@@ -1111,9 +844,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_db1709413e4853dbf382363385ab04a7.html">PowerPC_EABI_Support</a></li><li class="navelem"><a class="el" href="dir_0e4db8b1a28362b634df487c2f26278a.html">MSL</a></li><li class="navelem"><a class="el" href="dir_0d37b77abbd65600f5660cf0deb652c9.html">MSL_C</a></li><li class="navelem"><a class="el" href="dir_d08bb430d409ef9a6cb3f55d9a9cbc2f.html">MSL_Common</a></li><li class="navelem"><a class="el" href="dir_3b2a9a4903bbf3c90164c10fb8e9358a.html">Src</a></li><li class="navelem"><a class="el" href="alloc_8c.html">alloc.c</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

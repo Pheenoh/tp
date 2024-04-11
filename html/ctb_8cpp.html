@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: libs/JSystem/JStudio/JStudio/ctb.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('ctb_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,11 +139,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_6e60ebe3b72e807d548811095c868195.html">JStudio</a></li><li class="navelem"><a class="el" href="dir_015895483b0abc772cd48360b13328c8.html">JStudio</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
@@ -88,26 +147,7 @@ $(function() {
   <div class="headertitle"><div class="title">ctb.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ctb_8h_source.html">JSystem/JStudio/JStudio/ctb.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="algorithm_8h_source.html">algorithm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="iterator_8h_source.html">iterator.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="string_8h_source.html">string.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/__dt__Q37JStudio3ctb8TControlFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/getObject__Q37JStudio3ctb8TControlFPCvUl.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/__dt__Q37JStudio3ctb8TFactoryFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/__ct__Q37JStudio3ctb6TParseFPQ37JStudio3ctb8TControl.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/__dt__Q37JStudio3ctb6TParseFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/__dt__Q37JStudio3ctb14TObject_TxyzRyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/JStudio/JStudio/ctb/func_802815B4.s&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for ctb.cpp:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="ctb_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacestd" id="r_namespacestd"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacestd.html">std</a></td></tr>
@@ -180,17 +220,17 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a10d88263c733ff8d34b85fd6162394a4" id="r_a10d88263c733ff8d34b85fd6162394a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#a10d88263c733ff8d34b85fd6162394a4">ga4cSignature__Q37JStudio3ctb4data</a> [1+1]</td></tr>
 <tr class="separator:a10d88263c733ff8d34b85fd6162394a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf05aa13b49bc03478171fdceb3270d7" id="r_acf05aa13b49bc03478171fdceb3270d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#acf05aa13b49bc03478171fdceb3270d7">__vt__Q37JStudio3ctb6TParse</a> [5]</td></tr>
+<tr class="memitem:acf05aa13b49bc03478171fdceb3270d7" id="r_acf05aa13b49bc03478171fdceb3270d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#acf05aa13b49bc03478171fdceb3270d7">__vt__Q37JStudio3ctb6TParse</a> [5]</td></tr>
 <tr class="separator:acf05aa13b49bc03478171fdceb3270d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2ffb87dcdbca67189bb21d4845d77fb" id="r_ab2ffb87dcdbca67189bb21d4845d77fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#ab2ffb87dcdbca67189bb21d4845d77fb">__vt__Q37JGadget6binary19TParse_header_block</a> [5]</td></tr>
+<tr class="memitem:ab2ffb87dcdbca67189bb21d4845d77fb" id="r_ab2ffb87dcdbca67189bb21d4845d77fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#ab2ffb87dcdbca67189bb21d4845d77fb">__vt__Q37JGadget6binary19TParse_header_block</a> [5]</td></tr>
 <tr class="separator:ab2ffb87dcdbca67189bb21d4845d77fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03963a24ac255a3999c783e244a9ba0" id="r_ae03963a24ac255a3999c783e244a9ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#ae03963a24ac255a3999c783e244a9ba0">__vt__Q37JStudio3ctb8TFactory</a> [5]</td></tr>
+<tr class="memitem:ae03963a24ac255a3999c783e244a9ba0" id="r_ae03963a24ac255a3999c783e244a9ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#ae03963a24ac255a3999c783e244a9ba0">__vt__Q37JStudio3ctb8TFactory</a> [5]</td></tr>
 <tr class="separator:ae03963a24ac255a3999c783e244a9ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af468889d97520d614f391d5a440ac6df" id="r_af468889d97520d614f391d5a440ac6df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#af468889d97520d614f391d5a440ac6df">__vt__Q37JStudio3ctb8TControl</a> [3]</td></tr>
+<tr class="memitem:af468889d97520d614f391d5a440ac6df" id="r_af468889d97520d614f391d5a440ac6df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#af468889d97520d614f391d5a440ac6df">__vt__Q37JStudio3ctb8TControl</a> [3]</td></tr>
 <tr class="separator:af468889d97520d614f391d5a440ac6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4fe666a23996674016f83238ab8e84" id="r_a9c4fe666a23996674016f83238ab8e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#a9c4fe666a23996674016f83238ab8e84">__vt__Q37JStudio3ctb14TObject_TxyzRy</a> [4]</td></tr>
+<tr class="memitem:a9c4fe666a23996674016f83238ab8e84" id="r_a9c4fe666a23996674016f83238ab8e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#a9c4fe666a23996674016f83238ab8e84">__vt__Q37JStudio3ctb14TObject_TxyzRy</a> [4]</td></tr>
 <tr class="separator:a9c4fe666a23996674016f83238ab8e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a35e8160f46ff09c8b856627e3684a2" id="r_a5a35e8160f46ff09c8b856627e3684a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#a5a35e8160f46ff09c8b856627e3684a2">__vt__Q37JStudio3ctb7TObject</a> [4]</td></tr>
+<tr class="memitem:a5a35e8160f46ff09c8b856627e3684a2" id="r_a5a35e8160f46ff09c8b856627e3684a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ctb_8cpp.html#a5a35e8160f46ff09c8b856627e3684a2">__vt__Q37JStudio3ctb7TObject</a> [4]</td></tr>
 <tr class="separator:a5a35e8160f46ff09c8b856627e3684a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -721,7 +761,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JGadget6binary19TParse_header_block[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JGadget6binary19TParse_header_block[5]</td>
         </tr>
       </table>
   </td>
@@ -731,9 +771,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> , (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> , (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>, (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> stddef.h:19</div></div>
+<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -747,7 +787,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb14TObject_TxyzRy[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb14TObject_TxyzRy[4]</td>
         </tr>
       </table>
   </td>
@@ -757,13 +797,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#ad9193aab1920a4d242cbc77053652bf4">__dt__Q37JStudio3ctb14TObject_TxyzRyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#a6c8cd99673b23e2163ae74d3b95fc3f3">getScheme__Q37JStudio3ctb14TObject_TxyzRyCFv</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="actb_8cpp_html_a6c8cd99673b23e2163ae74d3b95fc3f3"><div class="ttname"><a href="ctb_8cpp.html#a6c8cd99673b23e2163ae74d3b95fc3f3">getScheme__Q37JStudio3ctb14TObject_TxyzRyCFv</a></div><div class="ttdeci">bool getScheme__Q37JStudio3ctb14TObject_TxyzRyCFv()</div></div>
-<div class="ttc" id="actb_8cpp_html_ad9193aab1920a4d242cbc77053652bf4"><div class="ttname"><a href="ctb_8cpp.html#ad9193aab1920a4d242cbc77053652bf4">__dt__Q37JStudio3ctb14TObject_TxyzRyFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb14TObject_TxyzRyFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:323</div></div>
+<div class="ttc" id="actb_8cpp_html_ad9193aab1920a4d242cbc77053652bf4"><div class="ttname"><a href="ctb_8cpp.html#ad9193aab1920a4d242cbc77053652bf4">__dt__Q37JStudio3ctb14TObject_TxyzRyFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb14TObject_TxyzRyFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:322</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -777,7 +817,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb6TParse[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb6TParse[5]</td>
         </tr>
       </table>
   </td>
@@ -787,15 +827,15 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#ad8129a23c15035749042a6e28304b475">__dt__Q37JStudio3ctb6TParseFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#ac9c42140341b890c222adea586121dd4">parseHeader_next__Q37JStudio3ctb6TParseFPPCvPUlUl</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#a30a7f6f9902b19791a3b8b3478dff873">parseBlock_next__Q37JStudio3ctb6TParseFPPCvPUlUl</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="actb_8cpp_html_a30a7f6f9902b19791a3b8b3478dff873"><div class="ttname"><a href="ctb_8cpp.html#a30a7f6f9902b19791a3b8b3478dff873">parseBlock_next__Q37JStudio3ctb6TParseFPPCvPUlUl</a></div><div class="ttdeci">void parseBlock_next__Q37JStudio3ctb6TParseFPPCvPUlUl()</div></div>
 <div class="ttc" id="actb_8cpp_html_ac9c42140341b890c222adea586121dd4"><div class="ttname"><a href="ctb_8cpp.html#ac9c42140341b890c222adea586121dd4">parseHeader_next__Q37JStudio3ctb6TParseFPPCvPUlUl</a></div><div class="ttdeci">void parseHeader_next__Q37JStudio3ctb6TParseFPPCvPUlUl()</div></div>
-<div class="ttc" id="actb_8cpp_html_ad8129a23c15035749042a6e28304b475"><div class="ttname"><a href="ctb_8cpp.html#ad8129a23c15035749042a6e28304b475">__dt__Q37JStudio3ctb6TParseFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb6TParseFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:252</div></div>
+<div class="ttc" id="actb_8cpp_html_ad8129a23c15035749042a6e28304b475"><div class="ttname"><a href="ctb_8cpp.html#ad8129a23c15035749042a6e28304b475">__dt__Q37JStudio3ctb6TParseFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb6TParseFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:251</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -809,7 +849,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb7TObject[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb7TObject[4]</td>
         </tr>
       </table>
   </td>
@@ -819,10 +859,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">}</div>
 </div><!-- fragment -->
 </div>
@@ -837,7 +877,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb8TControl[3]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb8TControl[3]</td>
         </tr>
       </table>
   </td>
@@ -847,11 +887,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#ac8086ed19e892367b5857d00fc5ee8b8">__dt__Q37JStudio3ctb8TControlFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="actb_8cpp_html_ac8086ed19e892367b5857d00fc5ee8b8"><div class="ttname"><a href="ctb_8cpp.html#ac8086ed19e892367b5857d00fc5ee8b8">__dt__Q37JStudio3ctb8TControlFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb8TControlFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:141</div></div>
+<div class="ttc" id="actb_8cpp_html_ac8086ed19e892367b5857d00fc5ee8b8"><div class="ttname"><a href="ctb_8cpp.html#ac8086ed19e892367b5857d00fc5ee8b8">__dt__Q37JStudio3ctb8TControlFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb8TControlFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:140</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -865,7 +905,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb8TFactory[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__Q37JStudio3ctb8TFactory[5]</td>
         </tr>
       </table>
   </td>
@@ -875,15 +915,15 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#aafbb96e41b542a12faafa8b0f90c0702">__dt__Q37JStudio3ctb8TFactoryFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#a184966d209e3872ed2acd9b90fa2dfb4">create__Q37JStudio3ctb8TFactoryFRCQ47JStudio3ctb4data13TParse_TBlock</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="ctb_8cpp.html#a7f0ed03bc22133dfbe5f3b589b4d08c1">destroy__Q37JStudio3ctb8TFactoryFPQ37JStudio3ctb7TObject</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="actb_8cpp_html_a184966d209e3872ed2acd9b90fa2dfb4"><div class="ttname"><a href="ctb_8cpp.html#a184966d209e3872ed2acd9b90fa2dfb4">create__Q37JStudio3ctb8TFactoryFRCQ47JStudio3ctb4data13TParse_TBlock</a></div><div class="ttdeci">void create__Q37JStudio3ctb8TFactoryFRCQ47JStudio3ctb4data13TParse_TBlock()</div></div>
 <div class="ttc" id="actb_8cpp_html_a7f0ed03bc22133dfbe5f3b589b4d08c1"><div class="ttname"><a href="ctb_8cpp.html#a7f0ed03bc22133dfbe5f3b589b4d08c1">destroy__Q37JStudio3ctb8TFactoryFPQ37JStudio3ctb7TObject</a></div><div class="ttdeci">void destroy__Q37JStudio3ctb8TFactoryFPQ37JStudio3ctb7TObject()</div></div>
-<div class="ttc" id="actb_8cpp_html_aafbb96e41b542a12faafa8b0f90c0702"><div class="ttname"><a href="ctb_8cpp.html#aafbb96e41b542a12faafa8b0f90c0702">__dt__Q37JStudio3ctb8TFactoryFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb8TFactoryFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:213</div></div>
+<div class="ttc" id="actb_8cpp_html_aafbb96e41b542a12faafa8b0f90c0702"><div class="ttname"><a href="ctb_8cpp.html#aafbb96e41b542a12faafa8b0f90c0702">__dt__Q37JStudio3ctb8TFactoryFv</a></div><div class="ttdeci">void __dt__Q37JStudio3ctb8TFactoryFv()</div><div class="ttdef"><b>Definition</b> ctb.cpp:212</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -902,9 +942,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_6e60ebe3b72e807d548811095c868195.html">JStudio</a></li><li class="navelem"><a class="el" href="dir_015895483b0abc772cd48360b13328c8.html">JStudio</a></li><li class="navelem"><a class="el" href="ctb_8cpp.html">ctb.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

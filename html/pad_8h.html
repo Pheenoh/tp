@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/pad.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('pad_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,106 +139,22 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">pad.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for pad.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="pad_8h__incl.svg" width="154" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="pad_8h__dep__incl.svg" width="100%" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="pad_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structPADStatus.html">PADStatus</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a174cb169a646843ecba0c867ddb70e8a" id="r_a174cb169a646843ecba0c867ddb70e8a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a174cb169a646843ecba0c867ddb70e8a">PAD_CHAN0_BIT</a>&#160;&#160;&#160;0x80000000</td></tr>
-<tr class="separator:a174cb169a646843ecba0c867ddb70e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58653948a26a60103cd99e4a94a93c2a" id="r_a58653948a26a60103cd99e4a94a93c2a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a58653948a26a60103cd99e4a94a93c2a">PAD_CHAN1_BIT</a>&#160;&#160;&#160;0x40000000</td></tr>
-<tr class="separator:a58653948a26a60103cd99e4a94a93c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212ade249f6c6c504ea560803e2bec2d" id="r_a212ade249f6c6c504ea560803e2bec2d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a212ade249f6c6c504ea560803e2bec2d">PAD_CHAN2_BIT</a>&#160;&#160;&#160;0x20000000</td></tr>
-<tr class="separator:a212ade249f6c6c504ea560803e2bec2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a546fa4770c44c492e0e6f2029745bad6" id="r_a546fa4770c44c492e0e6f2029745bad6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a546fa4770c44c492e0e6f2029745bad6">PAD_CHAN3_BIT</a>&#160;&#160;&#160;0x10000000</td></tr>
-<tr class="separator:a546fa4770c44c492e0e6f2029745bad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2499f3045568c5d3a33f0d4b54829dda" id="r_a2499f3045568c5d3a33f0d4b54829dda"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a2499f3045568c5d3a33f0d4b54829dda">PAD_SPEC_0</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a2499f3045568c5d3a33f0d4b54829dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61990f33ee2aa411f84c58cee9adc0a1" id="r_a61990f33ee2aa411f84c58cee9adc0a1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a61990f33ee2aa411f84c58cee9adc0a1">PAD_SPEC_1</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a61990f33ee2aa411f84c58cee9adc0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad85f32eaec472288d1f51237ce8dab18" id="r_ad85f32eaec472288d1f51237ce8dab18"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ad85f32eaec472288d1f51237ce8dab18">PAD_SPEC_2</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ad85f32eaec472288d1f51237ce8dab18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a284ff15220b789d556127d35c2df77" id="r_a8a284ff15220b789d556127d35c2df77"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a8a284ff15220b789d556127d35c2df77">PAD_SPEC_3</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a8a284ff15220b789d556127d35c2df77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c448c6d75a60cb5b2b657b6fb65f82e" id="r_a8c448c6d75a60cb5b2b657b6fb65f82e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a8c448c6d75a60cb5b2b657b6fb65f82e">PAD_SPEC_4</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a8c448c6d75a60cb5b2b657b6fb65f82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2d05e44e88a9342ce9440e31e25c146" id="r_ac2d05e44e88a9342ce9440e31e25c146"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ac2d05e44e88a9342ce9440e31e25c146">PAD_SPEC_5</a>&#160;&#160;&#160;5</td></tr>
-<tr class="separator:ac2d05e44e88a9342ce9440e31e25c146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc61161041788d4f9e2c787c68b38b31" id="r_adc61161041788d4f9e2c787c68b38b31"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#adc61161041788d4f9e2c787c68b38b31">PAD_MOTOR_STOP</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:adc61161041788d4f9e2c787c68b38b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3c5566d059b2e4d7b82a34eae5360b" id="r_a1f3c5566d059b2e4d7b82a34eae5360b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a1f3c5566d059b2e4d7b82a34eae5360b">PAD_MOTOR_RUMBLE</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a1f3c5566d059b2e4d7b82a34eae5360b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad584c49ac57e7266a909b8dbb08550d9" id="r_ad584c49ac57e7266a909b8dbb08550d9"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ad584c49ac57e7266a909b8dbb08550d9">PAD_MOTOR_STOP_HARD</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ad584c49ac57e7266a909b8dbb08550d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac729e0a00c531a7ae0219f024d1a35c9" id="r_ac729e0a00c531a7ae0219f024d1a35c9"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ac729e0a00c531a7ae0219f024d1a35c9">PAD_ERR_NONE</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ac729e0a00c531a7ae0219f024d1a35c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef313d194fc7a7cc968d0840dcd704fd" id="r_aef313d194fc7a7cc968d0840dcd704fd"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#aef313d194fc7a7cc968d0840dcd704fd">PAD_ERR_NO_CONTROLLER</a>&#160;&#160;&#160;-1</td></tr>
-<tr class="separator:aef313d194fc7a7cc968d0840dcd704fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4bce5b33e7b9a2e5bac74997056cf2" id="r_a7c4bce5b33e7b9a2e5bac74997056cf2"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a7c4bce5b33e7b9a2e5bac74997056cf2">PAD_ERR_NOT_READY</a>&#160;&#160;&#160;-2</td></tr>
-<tr class="separator:a7c4bce5b33e7b9a2e5bac74997056cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac702725d566ff2f6c38c4fd330b69c6a" id="r_ac702725d566ff2f6c38c4fd330b69c6a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ac702725d566ff2f6c38c4fd330b69c6a">PAD_ERR_TRANSFER</a>&#160;&#160;&#160;-3</td></tr>
-<tr class="separator:ac702725d566ff2f6c38c4fd330b69c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6ec116b0bc8154e39e40d4be67a696" id="r_acb6ec116b0bc8154e39e40d4be67a696"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#acb6ec116b0bc8154e39e40d4be67a696">PAD_BUTTON_LEFT</a>&#160;&#160;&#160;0x0001</td></tr>
-<tr class="separator:acb6ec116b0bc8154e39e40d4be67a696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b383d85bb3335991cbccbcd4a64c2d" id="r_af2b383d85bb3335991cbccbcd4a64c2d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#af2b383d85bb3335991cbccbcd4a64c2d">PAD_BUTTON_RIGHT</a>&#160;&#160;&#160;0x0002</td></tr>
-<tr class="separator:af2b383d85bb3335991cbccbcd4a64c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae48097e87ec8365ec349992b79523291" id="r_ae48097e87ec8365ec349992b79523291"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ae48097e87ec8365ec349992b79523291">PAD_BUTTON_DOWN</a>&#160;&#160;&#160;0x0004</td></tr>
-<tr class="separator:ae48097e87ec8365ec349992b79523291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d1abce63bb9f1f3a2eb27e52755d0df" id="r_a2d1abce63bb9f1f3a2eb27e52755d0df"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a2d1abce63bb9f1f3a2eb27e52755d0df">PAD_BUTTON_UP</a>&#160;&#160;&#160;0x0008</td></tr>
-<tr class="separator:a2d1abce63bb9f1f3a2eb27e52755d0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654eb66f90979f4cb95309a3ad40d2e3" id="r_a654eb66f90979f4cb95309a3ad40d2e3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a654eb66f90979f4cb95309a3ad40d2e3">PAD_TRIGGER_Z</a>&#160;&#160;&#160;0x0010</td></tr>
-<tr class="separator:a654eb66f90979f4cb95309a3ad40d2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae173d902987dcc04e51b8a49de48329c" id="r_ae173d902987dcc04e51b8a49de48329c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ae173d902987dcc04e51b8a49de48329c">PAD_TRIGGER_R</a>&#160;&#160;&#160;0x0020</td></tr>
-<tr class="separator:ae173d902987dcc04e51b8a49de48329c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad82cf53a825b6346e69e21a5bde77ad4" id="r_ad82cf53a825b6346e69e21a5bde77ad4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ad82cf53a825b6346e69e21a5bde77ad4">PAD_TRIGGER_L</a>&#160;&#160;&#160;0x0040</td></tr>
-<tr class="separator:ad82cf53a825b6346e69e21a5bde77ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9e920d1d324e1174efd9714d5d0875" id="r_a8c9e920d1d324e1174efd9714d5d0875"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a8c9e920d1d324e1174efd9714d5d0875">PAD_BUTTON_A</a>&#160;&#160;&#160;0x0100</td></tr>
-<tr class="separator:a8c9e920d1d324e1174efd9714d5d0875"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a330b5c13b79007155039104e999802" id="r_a4a330b5c13b79007155039104e999802"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a4a330b5c13b79007155039104e999802">PAD_BUTTON_B</a>&#160;&#160;&#160;0x0200</td></tr>
-<tr class="separator:a4a330b5c13b79007155039104e999802"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ed8aea160e9ccd981e38b9404345718" id="r_a5ed8aea160e9ccd981e38b9404345718"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a5ed8aea160e9ccd981e38b9404345718">PAD_BUTTON_X</a>&#160;&#160;&#160;0x0400</td></tr>
-<tr class="separator:a5ed8aea160e9ccd981e38b9404345718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65d018cdd34b0e74b58bec7c3ad1fd13" id="r_a65d018cdd34b0e74b58bec7c3ad1fd13"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a65d018cdd34b0e74b58bec7c3ad1fd13">PAD_BUTTON_Y</a>&#160;&#160;&#160;0x0800</td></tr>
-<tr class="separator:a65d018cdd34b0e74b58bec7c3ad1fd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac20f6fc48d8e4ce713def71bcd747012" id="r_ac20f6fc48d8e4ce713def71bcd747012"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#ac20f6fc48d8e4ce713def71bcd747012">PAD_BUTTON_MENU</a>&#160;&#160;&#160;0x1000</td></tr>
-<tr class="separator:ac20f6fc48d8e4ce713def71bcd747012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a421f31e19792cf29643ca4cc9a30ce18" id="r_a421f31e19792cf29643ca4cc9a30ce18"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a421f31e19792cf29643ca4cc9a30ce18">PAD_BUTTON_START</a>&#160;&#160;&#160;0x1000</td></tr>
-<tr class="separator:a421f31e19792cf29643ca4cc9a30ce18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -211,427 +191,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a08c97a8fc449ca2a51cf6867e7613944" id="r_a08c97a8fc449ca2a51cf6867e7613944"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pad_8h.html#a08c97a8fc449ca2a51cf6867e7613944">__PADSpec</a></td></tr>
 <tr class="separator:a08c97a8fc449ca2a51cf6867e7613944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8c9e920d1d324e1174efd9714d5d0875" name="a8c9e920d1d324e1174efd9714d5d0875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c9e920d1d324e1174efd9714d5d0875">&#9670;&#160;</a></span>PAD_BUTTON_A</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_A&#160;&#160;&#160;0x0100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a330b5c13b79007155039104e999802" name="a4a330b5c13b79007155039104e999802"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a330b5c13b79007155039104e999802">&#9670;&#160;</a></span>PAD_BUTTON_B</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_B&#160;&#160;&#160;0x0200</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae48097e87ec8365ec349992b79523291" name="ae48097e87ec8365ec349992b79523291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae48097e87ec8365ec349992b79523291">&#9670;&#160;</a></span>PAD_BUTTON_DOWN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_DOWN&#160;&#160;&#160;0x0004</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acb6ec116b0bc8154e39e40d4be67a696" name="acb6ec116b0bc8154e39e40d4be67a696"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6ec116b0bc8154e39e40d4be67a696">&#9670;&#160;</a></span>PAD_BUTTON_LEFT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_LEFT&#160;&#160;&#160;0x0001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac20f6fc48d8e4ce713def71bcd747012" name="ac20f6fc48d8e4ce713def71bcd747012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac20f6fc48d8e4ce713def71bcd747012">&#9670;&#160;</a></span>PAD_BUTTON_MENU</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_MENU&#160;&#160;&#160;0x1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af2b383d85bb3335991cbccbcd4a64c2d" name="af2b383d85bb3335991cbccbcd4a64c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b383d85bb3335991cbccbcd4a64c2d">&#9670;&#160;</a></span>PAD_BUTTON_RIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_RIGHT&#160;&#160;&#160;0x0002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a421f31e19792cf29643ca4cc9a30ce18" name="a421f31e19792cf29643ca4cc9a30ce18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a421f31e19792cf29643ca4cc9a30ce18">&#9670;&#160;</a></span>PAD_BUTTON_START</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_START&#160;&#160;&#160;0x1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d1abce63bb9f1f3a2eb27e52755d0df" name="a2d1abce63bb9f1f3a2eb27e52755d0df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d1abce63bb9f1f3a2eb27e52755d0df">&#9670;&#160;</a></span>PAD_BUTTON_UP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_UP&#160;&#160;&#160;0x0008</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5ed8aea160e9ccd981e38b9404345718" name="a5ed8aea160e9ccd981e38b9404345718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ed8aea160e9ccd981e38b9404345718">&#9670;&#160;</a></span>PAD_BUTTON_X</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_X&#160;&#160;&#160;0x0400</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a65d018cdd34b0e74b58bec7c3ad1fd13" name="a65d018cdd34b0e74b58bec7c3ad1fd13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65d018cdd34b0e74b58bec7c3ad1fd13">&#9670;&#160;</a></span>PAD_BUTTON_Y</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_BUTTON_Y&#160;&#160;&#160;0x0800</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a174cb169a646843ecba0c867ddb70e8a" name="a174cb169a646843ecba0c867ddb70e8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a174cb169a646843ecba0c867ddb70e8a">&#9670;&#160;</a></span>PAD_CHAN0_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_CHAN0_BIT&#160;&#160;&#160;0x80000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a58653948a26a60103cd99e4a94a93c2a" name="a58653948a26a60103cd99e4a94a93c2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58653948a26a60103cd99e4a94a93c2a">&#9670;&#160;</a></span>PAD_CHAN1_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_CHAN1_BIT&#160;&#160;&#160;0x40000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a212ade249f6c6c504ea560803e2bec2d" name="a212ade249f6c6c504ea560803e2bec2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a212ade249f6c6c504ea560803e2bec2d">&#9670;&#160;</a></span>PAD_CHAN2_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_CHAN2_BIT&#160;&#160;&#160;0x20000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a546fa4770c44c492e0e6f2029745bad6" name="a546fa4770c44c492e0e6f2029745bad6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a546fa4770c44c492e0e6f2029745bad6">&#9670;&#160;</a></span>PAD_CHAN3_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_CHAN3_BIT&#160;&#160;&#160;0x10000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aef313d194fc7a7cc968d0840dcd704fd" name="aef313d194fc7a7cc968d0840dcd704fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef313d194fc7a7cc968d0840dcd704fd">&#9670;&#160;</a></span>PAD_ERR_NO_CONTROLLER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_ERR_NO_CONTROLLER&#160;&#160;&#160;-1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac729e0a00c531a7ae0219f024d1a35c9" name="ac729e0a00c531a7ae0219f024d1a35c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac729e0a00c531a7ae0219f024d1a35c9">&#9670;&#160;</a></span>PAD_ERR_NONE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_ERR_NONE&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7c4bce5b33e7b9a2e5bac74997056cf2" name="a7c4bce5b33e7b9a2e5bac74997056cf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c4bce5b33e7b9a2e5bac74997056cf2">&#9670;&#160;</a></span>PAD_ERR_NOT_READY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_ERR_NOT_READY&#160;&#160;&#160;-2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac702725d566ff2f6c38c4fd330b69c6a" name="ac702725d566ff2f6c38c4fd330b69c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac702725d566ff2f6c38c4fd330b69c6a">&#9670;&#160;</a></span>PAD_ERR_TRANSFER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_ERR_TRANSFER&#160;&#160;&#160;-3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1f3c5566d059b2e4d7b82a34eae5360b" name="a1f3c5566d059b2e4d7b82a34eae5360b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3c5566d059b2e4d7b82a34eae5360b">&#9670;&#160;</a></span>PAD_MOTOR_RUMBLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_MOTOR_RUMBLE&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc61161041788d4f9e2c787c68b38b31" name="adc61161041788d4f9e2c787c68b38b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc61161041788d4f9e2c787c68b38b31">&#9670;&#160;</a></span>PAD_MOTOR_STOP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_MOTOR_STOP&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad584c49ac57e7266a909b8dbb08550d9" name="ad584c49ac57e7266a909b8dbb08550d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad584c49ac57e7266a909b8dbb08550d9">&#9670;&#160;</a></span>PAD_MOTOR_STOP_HARD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_MOTOR_STOP_HARD&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2499f3045568c5d3a33f0d4b54829dda" name="a2499f3045568c5d3a33f0d4b54829dda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2499f3045568c5d3a33f0d4b54829dda">&#9670;&#160;</a></span>PAD_SPEC_0</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_0&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a61990f33ee2aa411f84c58cee9adc0a1" name="a61990f33ee2aa411f84c58cee9adc0a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61990f33ee2aa411f84c58cee9adc0a1">&#9670;&#160;</a></span>PAD_SPEC_1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_1&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad85f32eaec472288d1f51237ce8dab18" name="ad85f32eaec472288d1f51237ce8dab18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad85f32eaec472288d1f51237ce8dab18">&#9670;&#160;</a></span>PAD_SPEC_2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_2&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a284ff15220b789d556127d35c2df77" name="a8a284ff15220b789d556127d35c2df77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a284ff15220b789d556127d35c2df77">&#9670;&#160;</a></span>PAD_SPEC_3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_3&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8c448c6d75a60cb5b2b657b6fb65f82e" name="a8c448c6d75a60cb5b2b657b6fb65f82e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c448c6d75a60cb5b2b657b6fb65f82e">&#9670;&#160;</a></span>PAD_SPEC_4</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_4&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac2d05e44e88a9342ce9440e31e25c146" name="ac2d05e44e88a9342ce9440e31e25c146"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2d05e44e88a9342ce9440e31e25c146">&#9670;&#160;</a></span>PAD_SPEC_5</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_SPEC_5&#160;&#160;&#160;5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad82cf53a825b6346e69e21a5bde77ad4" name="ad82cf53a825b6346e69e21a5bde77ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad82cf53a825b6346e69e21a5bde77ad4">&#9670;&#160;</a></span>PAD_TRIGGER_L</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_TRIGGER_L&#160;&#160;&#160;0x0040</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae173d902987dcc04e51b8a49de48329c" name="ae173d902987dcc04e51b8a49de48329c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae173d902987dcc04e51b8a49de48329c">&#9670;&#160;</a></span>PAD_TRIGGER_R</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_TRIGGER_R&#160;&#160;&#160;0x0020</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a654eb66f90979f4cb95309a3ad40d2e3" name="a654eb66f90979f4cb95309a3ad40d2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654eb66f90979f4cb95309a3ad40d2e3">&#9670;&#160;</a></span>PAD_TRIGGER_Z</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> PAD_TRIGGER_Z&#160;&#160;&#160;0x0010</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a924296baf430a531adb5135a5cd54207" name="a924296baf430a531adb5135a5cd54207"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a924296baf430a531adb5135a5cd54207">&#9670;&#160;</a></span>OSContext</h2>
@@ -872,9 +431,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="pad_8h.html">pad.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

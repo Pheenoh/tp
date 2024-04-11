@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: libs/PowerPC_EABI_Support/MetroTRK/trk.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('trk_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_db1709413e4853dbf382363385ab04a7.html">PowerPC_EABI_Support</a></li><li class="navelem"><a class="el" href="dir_d0c6b9239c52c1da1fbeb5576216eda4.html">MetroTRK</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">trk.h</div></div>
 </div><!--header-->
@@ -315,7 +374,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="trk_8h.html#aa4a440a620f8e1d4ec05d1084d98ef0a">  199</a></span><span class="keyword">typedef</span> <span class="keywordtype">int</span> <a class="code hl_typedef" href="trk_8h.html#aa4a440a620f8e1d4ec05d1084d98ef0a">MessageBufferID</a>;</div>
 <div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno"><a class="line" href="trk_8h.html#a802a5a5dcebd62d1817581ad032269c4">  201</a></span><span class="preprocessor">#define TRKMSGBUF_SIZE (0x800 + 0x80)</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="preprocessor">#define TRKMSGBUF_SIZE (0x800 + 0x80)</span></div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span> </div>
 <div class="foldopen" id="foldopen00203" data-start="{" data-end="};">
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno"><a class="line" href="structTRKBuffer.html">  203</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structTRKBuffer.html">TRKBuffer</a> {</div>
@@ -323,7 +382,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="structTRKBuffer.html#a21a902bbf8973928f66c8fe23b071714">  205</a></span>    <span class="comment">/* 0x04 */</span> <a class="code hl_typedef" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> <a class="code hl_variable" href="structTRKBuffer.html#a21a902bbf8973928f66c8fe23b071714">isInUse</a>;</div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno"><a class="line" href="structTRKBuffer.html#a636451d15b425d9ad84e5bc2fa6cfb95">  206</a></span>    <span class="comment">/* 0x08 */</span> <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structTRKBuffer.html#a636451d15b425d9ad84e5bc2fa6cfb95">length</a>;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="structTRKBuffer.html#a9a9f46519a8ce5141bb4cd621a5a9267">  207</a></span>    <span class="comment">/* 0x0C */</span> <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structTRKBuffer.html#a9a9f46519a8ce5141bb4cd621a5a9267">position</a>;</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="structTRKBuffer.html#a90a2062daa68abca2ff1cbf3cbee361c">  208</a></span>    <span class="comment">/* 0x10 */</span> <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_variable" href="structTRKBuffer.html#a90a2062daa68abca2ff1cbf3cbee361c">data</a>[<a class="code hl_define" href="trk_8h.html#a802a5a5dcebd62d1817581ad032269c4">TRKMSGBUF_SIZE</a>];</div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno"><a class="line" href="structTRKBuffer.html#a90a2062daa68abca2ff1cbf3cbee361c">  208</a></span>    <span class="comment">/* 0x10 */</span> <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_variable" href="structTRKBuffer.html#a90a2062daa68abca2ff1cbf3cbee361c">data</a>[<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">TRKMSGBUF_SIZE</a>];</div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno"><a class="line" href="trk_8h.html#a652b973667176a46ca72b1202b3bd678">  209</a></span>} <a class="code hl_struct" href="structTRKBuffer.html">TRKBuffer</a>;</div>
 </div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
@@ -378,131 +437,132 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span> </div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="keywordtype">void</span> <a class="code hl_function" href="trk_8h.html#a9b0b6af4fd78fab6f6992c5946219663">TRKSaveExtended1Block</a>();</div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="trk_8h.html#ac86d7bbf6141f9d7d6632d260a2ed64d">  254</a></span><span class="preprocessor">#define SPR_XER    1</span></div>
-<div class="line"><a id="l00255" name="l00255"></a><span class="lineno"><a class="line" href="trk_8h.html#a10bf9d4046b46400ba8aa504ad7aa871">  255</a></span><span class="preprocessor">#define SPR_LR     8</span></div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno"><a class="line" href="trk_8h.html#a6d7d2d46fe4e0941bfab8a564d9f2566">  256</a></span><span class="preprocessor">#define SPR_CTR    9</span></div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="trk_8h.html#a527a5a627634c14e323477261c7ef331">  257</a></span><span class="preprocessor">#define SPR_DSISR  18</span></div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno"><a class="line" href="trk_8h.html#a964470f48d20463ccf068ead18685bf1">  258</a></span><span class="preprocessor">#define SPR_DAR    19</span></div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="trk_8h.html#af34fb74c3d2b383fe13de8bbc1c33848">  259</a></span><span class="preprocessor">#define SPR_DEC    22</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno"><a class="line" href="trk_8h.html#a64587e05c3cb39548ea847bdada55185">  260</a></span><span class="preprocessor">#define SPR_SDR1   25</span></div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno"><a class="line" href="trk_8h.html#a1c57abb6957f8fd75ba94c8207f04598">  261</a></span><span class="preprocessor">#define SPR_SRR0   26</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno"><a class="line" href="trk_8h.html#a9ee4c5d5e9f008dbf134e83da290822c">  262</a></span><span class="preprocessor">#define SPR_SRR1   27</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="trk_8h.html#a3a37b0e6f0780ef16c808f289b0ee327">  263</a></span><span class="preprocessor">#define SPR_SPRG0  272</span></div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno"><a class="line" href="trk_8h.html#ab09d01f2ff163655bf4bc0dbfa1d3b57">  264</a></span><span class="preprocessor">#define SPR_SPRG1  273</span></div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="trk_8h.html#a2ee8d624883e3d16596982a65993281b">  265</a></span><span class="preprocessor">#define SPR_SPRG2  274</span></div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno"><a class="line" href="trk_8h.html#ac6c12814914d9f2568a221ff7b6db9fc">  266</a></span><span class="preprocessor">#define SPR_SPRG3  275</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno"><a class="line" href="trk_8h.html#a39106933d6f7bdbca6823ac34317eef9">  267</a></span><span class="preprocessor">#define SPR_EAR    282</span></div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno"><a class="line" href="trk_8h.html#af5a3dffa2cdce33be00bb3ea338ef64d">  268</a></span><span class="preprocessor">#define SPR_TBL    284</span></div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="trk_8h.html#a6f628c530b9ddeb837966f2907cfeed7">  269</a></span><span class="preprocessor">#define SPR_TBU    285</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="trk_8h.html#a912adaaf5ab1a3522222100703a3af79">  270</a></span><span class="preprocessor">#define SPR_PVR    287</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="trk_8h.html#a5ca31be69be3cf7970bbadb28c29c66e">  271</a></span><span class="preprocessor">#define SPR_IBAT0U 528</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno"><a class="line" href="trk_8h.html#adad50c55f409adb983996ee4820781ac">  272</a></span><span class="preprocessor">#define SPR_IBAT0L 529</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno"><a class="line" href="trk_8h.html#a5a0f0199659083e8cbccd5ab460f395d">  273</a></span><span class="preprocessor">#define SPR_IBAT1U 530</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno"><a class="line" href="trk_8h.html#afb073265443f303f9f718d84fa06d5bb">  274</a></span><span class="preprocessor">#define SPR_IBAT1L 531</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno"><a class="line" href="trk_8h.html#abcc6ebdffc4e6eeca14ddd11dcd02549">  275</a></span><span class="preprocessor">#define SPR_IBAT2U 532</span></div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno"><a class="line" href="trk_8h.html#afe61063aa7563fd280f81a88f7c24ecc">  276</a></span><span class="preprocessor">#define SPR_IBAT2L 533</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno"><a class="line" href="trk_8h.html#a80ee4cf84c1a91e1d0c6b59590644874">  277</a></span><span class="preprocessor">#define SPR_IBAT3U 534</span></div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno"><a class="line" href="trk_8h.html#a5ade00abd4d012e60929c437ae5a3562">  278</a></span><span class="preprocessor">#define SPR_IBAT3L 535</span></div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="trk_8h.html#ac7646dc26acbba00def702417c34af1c">  279</a></span><span class="preprocessor">#define SPR_IBAT4U 560</span></div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno"><a class="line" href="trk_8h.html#ac26502893df0da5c39b74cc1bceb4b9c">  280</a></span><span class="preprocessor">#define SPR_IBAT4L 561</span></div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno"><a class="line" href="trk_8h.html#afc8bb816fa876389be7ff5619e02a603">  281</a></span><span class="preprocessor">#define SPR_IBAT5U 562</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno"><a class="line" href="trk_8h.html#ae6321795ee9b84b3726103227585b204">  282</a></span><span class="preprocessor">#define SPR_IBAT5L 563</span></div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="trk_8h.html#ac410e9e2353e0864aab9f5b32d14d442">  283</a></span><span class="preprocessor">#define SPR_IBAT6U 564</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno"><a class="line" href="trk_8h.html#ab3b39df54125343a2026cfbecdc6796d">  284</a></span><span class="preprocessor">#define SPR_IBAT6L 565</span></div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno"><a class="line" href="trk_8h.html#a24be8268c2130ab569652d5a9a77ab3c">  285</a></span><span class="preprocessor">#define SPR_IBAT7U 566</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno"><a class="line" href="trk_8h.html#affd09ad712381a7e2f32d30d47ad8c90">  286</a></span><span class="preprocessor">#define SPR_IBAT7L 567</span></div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno"><a class="line" href="trk_8h.html#ac6eefbba86752906bee60d9b3d87cf11">  287</a></span><span class="preprocessor">#define SPR_DBAT0U 536</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno"><a class="line" href="trk_8h.html#a71a2874f7440c160ba2b7c1ff50dc943">  288</a></span><span class="preprocessor">#define SPR_DBAT0L 537</span></div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno"><a class="line" href="trk_8h.html#ac691a80bad4ddb9fa5082d5c7f37f60a">  289</a></span><span class="preprocessor">#define SPR_DBAT1U 538</span></div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno"><a class="line" href="trk_8h.html#a60e96c5e08a64d841855fc5b48557c52">  290</a></span><span class="preprocessor">#define SPR_DBAT1L 539</span></div>
-<div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="trk_8h.html#ab8265ea60a09d1ba10962cc5df49f47d">  291</a></span><span class="preprocessor">#define SPR_DBAT2U 540</span></div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="trk_8h.html#a66359d58dfcd185f9c52b0fdb9cb57a9">  292</a></span><span class="preprocessor">#define SPR_DBAT2L 541</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno"><a class="line" href="trk_8h.html#a9a53755345149939a61721cb5eb08f01">  293</a></span><span class="preprocessor">#define SPR_DBAT3U 542</span></div>
-<div class="line"><a id="l00294" name="l00294"></a><span class="lineno"><a class="line" href="trk_8h.html#ab5908c7a039f2c51c91441cc3c2ed7cf">  294</a></span><span class="preprocessor">#define SPR_DBAT3L 543</span></div>
-<div class="line"><a id="l00295" name="l00295"></a><span class="lineno"><a class="line" href="trk_8h.html#a743d0019b32c2bb3ea904cf9c1e05e80">  295</a></span><span class="preprocessor">#define SPR_DBAT4U 568</span></div>
-<div class="line"><a id="l00296" name="l00296"></a><span class="lineno"><a class="line" href="trk_8h.html#a19d4c0a4dbf427abfcf29e37a5f80d33">  296</a></span><span class="preprocessor">#define SPR_DBAT4L 569</span></div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno"><a class="line" href="trk_8h.html#a0f1c9721062bc6fadfb8d93b3a0b5842">  297</a></span><span class="preprocessor">#define SPR_DBAT5U 570</span></div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno"><a class="line" href="trk_8h.html#a54e6dd49a6ab612a75ec2964e0415690">  298</a></span><span class="preprocessor">#define SPR_DBAT5L 571</span></div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="trk_8h.html#a67eb2c66ae9b7874c5fb92b62440b508">  299</a></span><span class="preprocessor">#define SPR_DBAT6U 572</span></div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno"><a class="line" href="trk_8h.html#ab6d24dda7552cc80fdaab7185a783788">  300</a></span><span class="preprocessor">#define SPR_DBAT6L 573</span></div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno"><a class="line" href="trk_8h.html#aa6e02b1bbe58bef0525db8f08a3e3c66">  301</a></span><span class="preprocessor">#define SPR_DBAT7U 574</span></div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno"><a class="line" href="trk_8h.html#a13b3d8972e52f9c32800ab263367fae9">  302</a></span><span class="preprocessor">#define SPR_DBAT7L 575</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno"><a class="line" href="trk_8h.html#a5d104a7f6832876fdd175a1a517a4c9e">  303</a></span><span class="preprocessor">#define SPR_GQR0   912</span></div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno"><a class="line" href="trk_8h.html#aa8b977d3dcd7d3277daae8673db4c520">  304</a></span><span class="preprocessor">#define SPR_GQR1   913</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno"><a class="line" href="trk_8h.html#a018965558376dedb9c3683db16e4e465">  305</a></span><span class="preprocessor">#define SPR_GQR2   914</span></div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno"><a class="line" href="trk_8h.html#aca62e6963124d4a406d67badda408ebe">  306</a></span><span class="preprocessor">#define SPR_GQR3   915</span></div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno"><a class="line" href="trk_8h.html#a84d636b6c51d414bfa4e60eccb3b0324">  307</a></span><span class="preprocessor">#define SPR_GQR4   916</span></div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno"><a class="line" href="trk_8h.html#aa31af16d11a76e4e0dd7cbcf8841c596">  308</a></span><span class="preprocessor">#define SPR_GQR5   917</span></div>
-<div class="line"><a id="l00309" name="l00309"></a><span class="lineno"><a class="line" href="trk_8h.html#a03f347d1756e22abc0ca044cba75fb67">  309</a></span><span class="preprocessor">#define SPR_GQR6   918</span></div>
-<div class="line"><a id="l00310" name="l00310"></a><span class="lineno"><a class="line" href="trk_8h.html#aa7abf8e5b6bf54f13a0b158fb7ff2cb9">  310</a></span><span class="preprocessor">#define SPR_GQR7   919</span></div>
-<div class="line"><a id="l00311" name="l00311"></a><span class="lineno"><a class="line" href="trk_8h.html#a1a4496dfada1a8bd0f5d5e14fb7093fd">  311</a></span><span class="preprocessor">#define SPR_HID2   920</span></div>
-<div class="line"><a id="l00312" name="l00312"></a><span class="lineno"><a class="line" href="trk_8h.html#a39d795c85361f1e76a30a6512c2c5fd0">  312</a></span><span class="preprocessor">#define SPR_WPAR   921</span></div>
-<div class="line"><a id="l00313" name="l00313"></a><span class="lineno"><a class="line" href="trk_8h.html#a7d082eb404d979f5d6aa15dc98fb1cd1">  313</a></span><span class="preprocessor">#define SPR_DMA_U  922</span></div>
-<div class="line"><a id="l00314" name="l00314"></a><span class="lineno"><a class="line" href="trk_8h.html#a882f3df71c57a364b171f8c70c3c6093">  314</a></span><span class="preprocessor">#define SPR_DMA_L  923</span></div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno"><a class="line" href="trk_8h.html#ac87f7671d35066db0ce3d24c2b786d64">  315</a></span><span class="preprocessor">#define SPR_UMMCR0 936</span></div>
-<div class="line"><a id="l00316" name="l00316"></a><span class="lineno"><a class="line" href="trk_8h.html#ad7f0fbd6326b4ff1cf6869cf97f22665">  316</a></span><span class="preprocessor">#define SPR_UPMC1  937</span></div>
-<div class="line"><a id="l00317" name="l00317"></a><span class="lineno"><a class="line" href="trk_8h.html#a8a9af40d41f95989b41a6b15c195164c">  317</a></span><span class="preprocessor">#define SPR_UPMC2  938</span></div>
-<div class="line"><a id="l00318" name="l00318"></a><span class="lineno"><a class="line" href="trk_8h.html#a2c689d2b9ab3a5a01ded19ffc908b576">  318</a></span><span class="preprocessor">#define SPR_USIA   939</span></div>
-<div class="line"><a id="l00319" name="l00319"></a><span class="lineno"><a class="line" href="trk_8h.html#a7192caed7c6fa325511f403b1e134f3d">  319</a></span><span class="preprocessor">#define SPR_UMMCR1 940</span></div>
-<div class="line"><a id="l00320" name="l00320"></a><span class="lineno"><a class="line" href="trk_8h.html#abc65225bc9bd94a423964009fbe4dfbf">  320</a></span><span class="preprocessor">#define SPR_UPMC3  941</span></div>
-<div class="line"><a id="l00321" name="l00321"></a><span class="lineno"><a class="line" href="trk_8h.html#a4ed16180e8ad03fa066ca00a0aae1c4c">  321</a></span><span class="preprocessor">#define SPR_UPMC4  942</span></div>
-<div class="line"><a id="l00322" name="l00322"></a><span class="lineno"><a class="line" href="trk_8h.html#a110fd98b21658c63bb129b766ae121dd">  322</a></span><span class="preprocessor">#define SPR_USDA   943</span></div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno"><a class="line" href="trk_8h.html#af64041d038441c171be5635bb7acb927">  323</a></span><span class="preprocessor">#define SPR_MMCR0  952</span></div>
-<div class="line"><a id="l00324" name="l00324"></a><span class="lineno"><a class="line" href="trk_8h.html#a3b0937c8879209b00da2148a1a9e9249">  324</a></span><span class="preprocessor">#define SPR_PMC1   953</span></div>
-<div class="line"><a id="l00325" name="l00325"></a><span class="lineno"><a class="line" href="trk_8h.html#a59307ee85e6bc2d9b87f12457b4717ac">  325</a></span><span class="preprocessor">#define SPR_PMC2   954</span></div>
-<div class="line"><a id="l00326" name="l00326"></a><span class="lineno"><a class="line" href="trk_8h.html#aba01de5270328e1d7aa0d715f1e34997">  326</a></span><span class="preprocessor">#define SPR_SIA    955</span></div>
-<div class="line"><a id="l00327" name="l00327"></a><span class="lineno"><a class="line" href="trk_8h.html#a297b8293d96a11c0453efe672f5affbe">  327</a></span><span class="preprocessor">#define SPR_MMCR1  956</span></div>
-<div class="line"><a id="l00328" name="l00328"></a><span class="lineno"><a class="line" href="trk_8h.html#a5ce856b8daddadeeba1923ba8e1ed313">  328</a></span><span class="preprocessor">#define SPR_PMC3   957</span></div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno"><a class="line" href="trk_8h.html#a8c0ba3f9698846734acd57cef2d87906">  329</a></span><span class="preprocessor">#define SPR_PMC4   958</span></div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno"><a class="line" href="trk_8h.html#a6d4fdaa6b21818db641d570ad2698059">  330</a></span><span class="preprocessor">#define SPR_SDA    959</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno"><a class="line" href="trk_8h.html#a119ca9795445dffe67e11597ecbb9d91">  331</a></span><span class="preprocessor">#define SPR_HID0   1008</span></div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno"><a class="line" href="trk_8h.html#a2c969de10fd0314f005dae763f165bba">  332</a></span><span class="preprocessor">#define SPR_HID1   1009</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno"><a class="line" href="trk_8h.html#a16b1167d9f69f7299dea8a8d544b205b">  333</a></span><span class="preprocessor">#define SPR_IABR   1010</span></div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno"><a class="line" href="trk_8h.html#aa35d3a7eb015bd50e57de2fe56a2779f">  334</a></span><span class="preprocessor">#define SPR_HID4   1011</span></div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno"><a class="line" href="trk_8h.html#ab0c45bc51b379007a68a5a6df3b3a596">  335</a></span><span class="preprocessor">#define SPR_DABR   1013</span></div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno"><a class="line" href="trk_8h.html#ae31a96cf96aa2331645236027322c66b">  336</a></span><span class="preprocessor">#define SPR_L2CR   1017</span></div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno"><a class="line" href="trk_8h.html#a5a9c8dbf6b71e448bb2640fa4889e843">  337</a></span><span class="preprocessor">#define SPR_ICTC   1019</span></div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno"><a class="line" href="trk_8h.html#a6e5a52ff4cdf1731ac87734176202f91">  338</a></span><span class="preprocessor">#define SPR_THRM1  1020</span></div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno"><a class="line" href="trk_8h.html#afeac838a5fda06e526502c0737672be6">  339</a></span><span class="preprocessor">#define SPR_THRM2  1021</span></div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno"><a class="line" href="trk_8h.html#ade93f4d97875df2d9228f12ef1f82060">  340</a></span><span class="preprocessor">#define SPR_FPECR  1022</span></div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#define SPR_XER    1</span></div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="preprocessor">#define SPR_LR     8</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">#define SPR_CTR    9</span></div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#define SPR_DSISR  18</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">#define SPR_DAR    19</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span><span class="preprocessor">#define SPR_DEC    22</span></div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span><span class="preprocessor">#define SPR_SDR1   25</span></div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="preprocessor">#define SPR_SRR0   26</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span><span class="preprocessor">#define SPR_SRR1   27</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span><span class="preprocessor">#define SPR_SPRG0  272</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span><span class="preprocessor">#define SPR_SPRG1  273</span></div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span><span class="preprocessor">#define SPR_SPRG2  274</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="preprocessor">#define SPR_SPRG3  275</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="preprocessor">#define SPR_EAR    282</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span><span class="preprocessor">#define SPR_TBL    284</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="preprocessor">#define SPR_TBU    285</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#define SPR_PVR    287</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span><span class="preprocessor">#define SPR_IBAT0U 528</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="preprocessor">#define SPR_IBAT0L 529</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#define SPR_IBAT1U 530</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span><span class="preprocessor">#define SPR_IBAT1L 531</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#define SPR_IBAT2U 532</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#define SPR_IBAT2L 533</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span><span class="preprocessor">#define SPR_IBAT3U 534</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#define SPR_IBAT3L 535</span></div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span><span class="preprocessor">#define SPR_IBAT4U 560</span></div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span><span class="preprocessor">#define SPR_IBAT4L 561</span></div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="preprocessor">#define SPR_IBAT5U 562</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span><span class="preprocessor">#define SPR_IBAT5L 563</span></div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#define SPR_IBAT6U 564</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span><span class="preprocessor">#define SPR_IBAT6L 565</span></div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">#define SPR_IBAT7U 566</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span><span class="preprocessor">#define SPR_IBAT7L 567</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#define SPR_DBAT0U 536</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span><span class="preprocessor">#define SPR_DBAT0L 537</span></div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#define SPR_DBAT1U 538</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#define SPR_DBAT1L 539</span></div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span><span class="preprocessor">#define SPR_DBAT2U 540</span></div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span><span class="preprocessor">#define SPR_DBAT2L 541</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span><span class="preprocessor">#define SPR_DBAT3U 542</span></div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span><span class="preprocessor">#define SPR_DBAT3L 543</span></div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span><span class="preprocessor">#define SPR_DBAT4U 568</span></div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span><span class="preprocessor">#define SPR_DBAT4L 569</span></div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span><span class="preprocessor">#define SPR_DBAT5U 570</span></div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span><span class="preprocessor">#define SPR_DBAT5L 571</span></div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#define SPR_DBAT6U 572</span></div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span><span class="preprocessor">#define SPR_DBAT6L 573</span></div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><span class="preprocessor">#define SPR_DBAT7U 574</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="preprocessor">#define SPR_DBAT7L 575</span></div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span><span class="preprocessor">#define SPR_GQR0   912</span></div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#define SPR_GQR1   913</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span><span class="preprocessor">#define SPR_GQR2   914</span></div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#define SPR_GQR3   915</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#define SPR_GQR4   916</span></div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span><span class="preprocessor">#define SPR_GQR5   917</span></div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#define SPR_GQR6   918</span></div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span><span class="preprocessor">#define SPR_GQR7   919</span></div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span><span class="preprocessor">#define SPR_HID2   920</span></div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span><span class="preprocessor">#define SPR_WPAR   921</span></div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span><span class="preprocessor">#define SPR_DMA_U  922</span></div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span><span class="preprocessor">#define SPR_DMA_L  923</span></div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span><span class="preprocessor">#define SPR_UMMCR0 936</span></div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span><span class="preprocessor">#define SPR_UPMC1  937</span></div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span><span class="preprocessor">#define SPR_UPMC2  938</span></div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span><span class="preprocessor">#define SPR_USIA   939</span></div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span><span class="preprocessor">#define SPR_UMMCR1 940</span></div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="preprocessor">#define SPR_UPMC3  941</span></div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="preprocessor">#define SPR_UPMC4  942</span></div>
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="preprocessor">#define SPR_USDA   943</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">#define SPR_MMCR0  952</span></div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="preprocessor">#define SPR_PMC1   953</span></div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="preprocessor">#define SPR_PMC2   954</span></div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">#define SPR_SIA    955</span></div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="preprocessor">#define SPR_MMCR1  956</span></div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="preprocessor">#define SPR_PMC3   957</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span><span class="preprocessor">#define SPR_PMC4   958</span></div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="preprocessor">#define SPR_SDA    959</span></div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="preprocessor">#define SPR_HID0   1008</span></div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span><span class="preprocessor">#define SPR_HID1   1009</span></div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="preprocessor">#define SPR_IABR   1010</span></div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="preprocessor">#define SPR_HID4   1011</span></div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="preprocessor">#define SPR_DABR   1013</span></div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="preprocessor">#define SPR_L2CR   1017</span></div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span><span class="preprocessor">#define SPR_ICTC   1019</span></div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="preprocessor">#define SPR_THRM1  1020</span></div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="preprocessor">#define SPR_THRM2  1021</span></div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="preprocessor">#define SPR_FPECR  1022</span></div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
 <div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="comment">// PPC exceptions</span></div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="comment">// 0x000 is reserved</span></div>
-<div class="line"><a id="l00344" name="l00344"></a><span class="lineno"><a class="line" href="trk_8h.html#a2fd84779cea8256a238b78559c888a53">  344</a></span><span class="preprocessor">#define PPC_SystemReset             0x100</span></div>
-<div class="line"><a id="l00345" name="l00345"></a><span class="lineno"><a class="line" href="trk_8h.html#a5008264b6068382513ccafa7f7c4a0a7">  345</a></span><span class="preprocessor">#define PPC_MachineCheck            0x200</span></div>
-<div class="line"><a id="l00346" name="l00346"></a><span class="lineno"><a class="line" href="trk_8h.html#ad738b5f8f975443f4ddeed4bb6fec5fe">  346</a></span><span class="preprocessor">#define PPC_DataStorage             0x300</span></div>
-<div class="line"><a id="l00347" name="l00347"></a><span class="lineno"><a class="line" href="trk_8h.html#a2a74bae4d9dfb401746f553a78442604">  347</a></span><span class="preprocessor">#define PPC_InstructionStorage      0x400</span></div>
-<div class="line"><a id="l00348" name="l00348"></a><span class="lineno"><a class="line" href="trk_8h.html#aa27ee1d99c0b230d5db5df479f7bf744">  348</a></span><span class="preprocessor">#define PPC_ExternalInterrupt       0x500</span></div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno"><a class="line" href="trk_8h.html#a3a8ddbcd321dd05ae38c890af3fb68bc">  349</a></span><span class="preprocessor">#define PPC_Alignment               0x600</span></div>
-<div class="line"><a id="l00350" name="l00350"></a><span class="lineno"><a class="line" href="trk_8h.html#a04c2209c2396c4d8fdece352ca49cfdd">  350</a></span><span class="preprocessor">#define PPC_Program                 0x700</span></div>
-<div class="line"><a id="l00351" name="l00351"></a><span class="lineno"><a class="line" href="trk_8h.html#a3ee300a093318c5b8a52dac1818a86ed">  351</a></span><span class="preprocessor">#define PPC_FloatingPointUnavaiable 0x800</span></div>
-<div class="line"><a id="l00352" name="l00352"></a><span class="lineno"><a class="line" href="trk_8h.html#a58f2a8e59b978d8c3fd16f5e75c197b9">  352</a></span><span class="preprocessor">#define PPC_Decrementer             0x900</span></div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span><span class="preprocessor">#define PPC_SystemReset             0x100</span></div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span><span class="preprocessor">#define PPC_MachineCheck            0x200</span></div>
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span><span class="preprocessor">#define PPC_DataStorage             0x300</span></div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span><span class="preprocessor">#define PPC_InstructionStorage      0x400</span></div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span><span class="preprocessor">#define PPC_ExternalInterrupt       0x500</span></div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span><span class="preprocessor">#define PPC_Alignment               0x600</span></div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span><span class="preprocessor">#define PPC_Program                 0x700</span></div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span><span class="preprocessor">#define PPC_FloatingPointUnavaiable 0x800</span></div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span><span class="preprocessor">#define PPC_Decrementer             0x900</span></div>
 <div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span><span class="comment">// 0xA00-0xB00 are reserved</span></div>
-<div class="line"><a id="l00354" name="l00354"></a><span class="lineno"><a class="line" href="trk_8h.html#a80426ba404bdb261a20a1c94e0474161">  354</a></span><span class="preprocessor">#define PPC_SystemCall          0xC00</span></div>
-<div class="line"><a id="l00355" name="l00355"></a><span class="lineno"><a class="line" href="trk_8h.html#af5b1a0d7af42e65e3fafcd27a1c8f6b2">  355</a></span><span class="preprocessor">#define PPC_Trace               0xD00</span></div>
-<div class="line"><a id="l00356" name="l00356"></a><span class="lineno"><a class="line" href="trk_8h.html#a1c69d5266475bbed31b7f44a762d33fb">  356</a></span><span class="preprocessor">#define PPC_FloatingPointAssist 0xE00 </span><span class="comment">// unimplemented in 750CL</span></div>
-<div class="line"><a id="l00357" name="l00357"></a><span class="lineno"><a class="line" href="trk_8h.html#a8b4eb77a05e449f87acdb7507ec2f7a6">  357</a></span><span class="preprocessor">#define PPC_PerformanceMonitor  0xF00 </span><span class="comment">// Dolphin/Broadway specific</span></div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span><span class="preprocessor">#define PPC_SystemCall          0xC00</span></div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span><span class="preprocessor">#define PPC_Trace               0xD00</span></div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span><span class="preprocessor">#define PPC_FloatingPointAssist 0xE00 </span><span class="comment">// unimplemented in 750CL</span></div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span><span class="preprocessor">#define PPC_PerformanceMonitor  0xF00 </span><span class="comment">// Dolphin/Broadway specific</span></div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span><span class="comment">// 0x1000-0x1200 are unimplemented in 750CL</span></div>
-<div class="line"><a id="l00359" name="l00359"></a><span class="lineno"><a class="line" href="trk_8h.html#ae40f4878ab4295a1fe6f0ca51519dd90">  359</a></span><span class="preprocessor">#define PPC_InstructionAddressBreakpoint 0x1300 </span><span class="comment">// Dolphin/Broadway specific</span></div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span><span class="preprocessor">#define PPC_InstructionAddressBreakpoint 0x1300 </span><span class="comment">// Dolphin/Broadway specific</span></div>
 <div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span><span class="comment">// 0x1400-0x2F00 are reserved, but TRK uses some</span></div>
-<div class="line"><a id="l00361" name="l00361"></a><span class="lineno"><a class="line" href="trk_8h.html#a20d66cb7fc08e42ed5ea183fe0063a05">  361</a></span><span class="preprocessor">#define PPC_SystemManagementInterrupt 0x1400</span></div>
+<div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span><span class="preprocessor">#define PPC_SystemManagementInterrupt 0x1400</span></div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span><span class="comment">// 0x1500-0x1600 are unimplemented in 750CL</span></div>
-<div class="line"><a id="l00363" name="l00363"></a><span class="lineno"><a class="line" href="trk_8h.html#a7fb10f1f33f511cb5fbca3ad96cef3da">  363</a></span><span class="preprocessor">#define PPC_ThermalManagementInterrupt 0x1700</span></div>
-<div class="line"><a id="l00364" name="l00364"></a><span class="lineno"><a class="line" href="trk_8h.html#a2cefe6380fa21ce149c9fdb68e7eabe1">  364</a></span><span class="preprocessor">#define PPC_1800Exception              0x1800</span></div>
-<div class="line"><a id="l00365" name="l00365"></a><span class="lineno"><a class="line" href="trk_8h.html#a6c733a9f73ebc549f4fde1ffc9cf1398">  365</a></span><span class="preprocessor">#define PPC_1900Exception              0x1900</span></div>
-<div class="line"><a id="l00366" name="l00366"></a><span class="lineno"><a class="line" href="trk_8h.html#ab0a722b6861efdd75e21a1eee9638558">  366</a></span><span class="preprocessor">#define PPC_1A00Exception              0x1A00</span></div>
-<div class="line"><a id="l00367" name="l00367"></a><span class="lineno"><a class="line" href="trk_8h.html#a52ff2147feff21c040535d9fb848c20a">  367</a></span><span class="preprocessor">#define PPC_1B00Exception              0x1B00</span></div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno"><a class="line" href="trk_8h.html#afc037a787b7ff5a7d800444078f5f832">  368</a></span><span class="preprocessor">#define PPC_1C00Exception              0x1C00 </span><span class="comment">// Data breakpoint?</span></div>
-<div class="line"><a id="l00369" name="l00369"></a><span class="lineno"><a class="line" href="trk_8h.html#ae3d530c89f9dc132b2fb7b5c928af387">  369</a></span><span class="preprocessor">#define PPC_1D00Exception              0x1D00 </span><span class="comment">// Instruction breakpoint?</span></div>
-<div class="line"><a id="l00370" name="l00370"></a><span class="lineno"><a class="line" href="trk_8h.html#a33a895569e21821dc6fc235d5ec50c34">  370</a></span><span class="preprocessor">#define PPC_1E00Exception              0x1E00 </span><span class="comment">// Peripheral breakpoint?</span></div>
-<div class="line"><a id="l00371" name="l00371"></a><span class="lineno"><a class="line" href="trk_8h.html#ab47258fe6b4b124d9d6ea372665c32ca">  371</a></span><span class="preprocessor">#define PPC_1F00Exception              0x1F00 </span><span class="comment">// Non maskable development port?</span></div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno"><a class="line" href="trk_8h.html#ab4510585fa3ecdb422f3bab550d17c18">  372</a></span><span class="preprocessor">#define PPC_2000Exception              0x2000</span></div>
+<div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span><span class="preprocessor">#define PPC_ThermalManagementInterrupt 0x1700</span></div>
+<div class="line"><a id="l00364" name="l00364"></a><span class="lineno">  364</span><span class="preprocessor">#define PPC_1800Exception              0x1800</span></div>
+<div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span><span class="preprocessor">#define PPC_1900Exception              0x1900</span></div>
+<div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span><span class="preprocessor">#define PPC_1A00Exception              0x1A00</span></div>
+<div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span><span class="preprocessor">#define PPC_1B00Exception              0x1B00</span></div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span><span class="preprocessor">#define PPC_1C00Exception              0x1C00 </span><span class="comment">// Data breakpoint?</span></div>
+<div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span><span class="preprocessor">#define PPC_1D00Exception              0x1D00 </span><span class="comment">// Instruction breakpoint?</span></div>
+<div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span><span class="preprocessor">#define PPC_1E00Exception              0x1E00 </span><span class="comment">// Peripheral breakpoint?</span></div>
+<div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span><span class="preprocessor">#define PPC_1F00Exception              0x1F00 </span><span class="comment">// Non maskable development port?</span></div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span><span class="preprocessor">#define PPC_2000Exception              0x2000</span></div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span> </div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>}</div>
 <div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span> </div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span><span class="preprocessor">#endif </span><span class="comment">/* __METROTRK_TRK_H__ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
 <div class="ttc" id="astructCommandReply_html"><div class="ttname"><a href="structCommandReply.html">CommandReply</a></div><div class="ttdef"><b>Definition</b> trk.h:232</div></div>
 <div class="ttc" id="astructCommandReply_html_a0076e7caa6f7e2a2088b44d8f8866e7f"><div class="ttname"><a href="structCommandReply.html#a0076e7caa6f7e2a2088b44d8f8866e7f">CommandReply::commandID</a></div><div class="ttdeci">union CommandReply::@7 commandID</div></div>
 <div class="ttc" id="astructCommandReply_html_a2c45037f3e96dd5f3084bb3649e317fb"><div class="ttname"><a href="structCommandReply.html#a2c45037f3e96dd5f3084bb3649e317fb">CommandReply::_10</a></div><div class="ttdeci">u8 _10[0x30]</div><div class="ttdef"><b>Definition</b> trk.h:243</div></div>
@@ -611,7 +671,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atrk_8h_html_a726ca809ffd3d67ab4b8476646f26635a22d766b2763f40c41cc75de48b74c302"><div class="ttname"><a href="trk_8h.html#a726ca809ffd3d67ab4b8476646f26635a22d766b2763f40c41cc75de48b74c302">DSMSGMEMORY_Space_data</a></div><div class="ttdeci">@ DSMSGMEMORY_Space_data</div><div class="ttdef"><b>Definition</b> trk.h:145</div></div>
 <div class="ttc" id="atrk_8h_html_a726ca809ffd3d67ab4b8476646f26635a6161ee4159b150132d6c5828fedd8605"><div class="ttname"><a href="trk_8h.html#a726ca809ffd3d67ab4b8476646f26635a6161ee4159b150132d6c5828fedd8605">DSMSGMEMORY_Protected</a></div><div class="ttdeci">@ DSMSGMEMORY_Protected</div><div class="ttdef"><b>Definition</b> trk.h:142</div></div>
 <div class="ttc" id="atrk_8h_html_a726ca809ffd3d67ab4b8476646f26635a7b03347d1ddb900bb81fa15acface712"><div class="ttname"><a href="trk_8h.html#a726ca809ffd3d67ab4b8476646f26635a7b03347d1ddb900bb81fa15acface712">DSMSGMEMORY_Space_io</a></div><div class="ttdeci">@ DSMSGMEMORY_Space_io</div><div class="ttdef"><b>Definition</b> trk.h:146</div></div>
-<div class="ttc" id="atrk_8h_html_a802a5a5dcebd62d1817581ad032269c4"><div class="ttname"><a href="trk_8h.html#a802a5a5dcebd62d1817581ad032269c4">TRKMSGBUF_SIZE</a></div><div class="ttdeci">#define TRKMSGBUF_SIZE</div><div class="ttdef"><b>Definition</b> trk.h:201</div></div>
 <div class="ttc" id="atrk_8h_html_a88256575d7bc3e8d7fc9ec75628225f7"><div class="ttname"><a href="trk_8h.html#a88256575d7bc3e8d7fc9ec75628225f7">UARTError</a></div><div class="ttdeci">int UARTError</div><div class="ttdef"><b>Definition</b> trk.h:168</div></div>
 <div class="ttc" id="atrk_8h_html_a9b0b6af4fd78fab6f6992c5946219663"><div class="ttname"><a href="trk_8h.html#a9b0b6af4fd78fab6f6992c5946219663">TRKSaveExtended1Block</a></div><div class="ttdeci">void TRKSaveExtended1Block()</div><div class="ttdef"><b>Definition</b> mpc_7xx_603e.c:7</div></div>
 <div class="ttc" id="atrk_8h_html_aa4a440a620f8e1d4ec05d1084d98ef0a"><div class="ttname"><a href="trk_8h.html#aa4a440a620f8e1d4ec05d1084d98ef0a">MessageBufferID</a></div><div class="ttdeci">int MessageBufferID</div><div class="ttdef"><b>Definition</b> trk.h:199</div></div>
@@ -682,9 +741,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_a2caf5cd7bcdbe1eefa727f44ffb10bac"><div class="ttname"><a href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a></div><div class="ttdeci">unsigned long u32</div><div class="ttdef"><b>Definition</b> types.h:10</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_db1709413e4853dbf382363385ab04a7.html">PowerPC_EABI_Support</a></li><li class="navelem"><a class="el" href="dir_d0c6b9239c52c1da1fbeb5576216eda4.html">MetroTRK</a></li><li class="navelem"><a class="el" href="trk_8h.html">trk.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

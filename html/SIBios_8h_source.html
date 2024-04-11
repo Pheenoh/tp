@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/si/SIBios.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('SIBios_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_b02b9d991b880b57acc1b523a1a5973b.html">si</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">SIBios.h</div></div>
 </div><!--header-->
@@ -99,58 +158,56 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a98ade5148b74597b3e1306fbbec0a399">   11</a></span><span class="preprocessor">#define SI_MAX_CHAN 4</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a5163bff3acab3f4ee6b1158b7486b8e8">   12</a></span><span class="preprocessor">#define SI_MAX_COMCSR_INLNGTH 128</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="SIBios_8h.html#af4e9c0e68b5e4a7507e673d93b471842">   13</a></span><span class="preprocessor">#define SI_MAX_COMCSR_OUTLNGTH 128</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a64031247dc8dce73095badfcb6c3ceb6">   14</a></span><span class="preprocessor">#define SI_ERROR_UNDER_RUN 0x0001</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a505db38df70a0f55226918694cf080cf">   15</a></span><span class="preprocessor">#define SI_ERROR_OVER_RUN 0x0002</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a8c313d0f3d7d030af3f7d5fec1f6e881">   16</a></span><span class="preprocessor">#define SI_ERROR_COLLISION 0x0004</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a11c33d2fd2f5bc6814e01e165f7825a8">   17</a></span><span class="preprocessor">#define SI_ERROR_NO_RESPONSE 0x0008</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ab5d7ea7ac678aecd80374314df4e09e4">   18</a></span><span class="preprocessor">#define SI_ERROR_WRST 0x0010</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ac82f904bdeda48eb3db6d3ca19d7c9cf">   19</a></span><span class="preprocessor">#define SI_ERROR_RDST 0x0020</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a16352eb3e0dc2e1240e34f967b2ea4ea">   20</a></span><span class="preprocessor">#define SI_ERROR_UNKNOWN 0x0040</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a72146054bec1d825b13c19b6e9e36d80">   21</a></span><span class="preprocessor">#define SI_ERROR_BUSY 0x0080</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a9559956be0c4aacf39921868d59f469f">   22</a></span><span class="preprocessor">#define SI_CHAN0 0</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ac6e6d2a42f747eb44a609a907faeb3d0">   23</a></span><span class="preprocessor">#define SI_CHAN1 1</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a822247b8a22073c42dcb111d27a10ce1">   24</a></span><span class="preprocessor">#define SI_CHAN2 2</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a9234fde9e63a512295203da0f001a057">   25</a></span><span class="preprocessor">#define SI_CHAN3 3</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a838f80f5186c7bccb6e089f656e64f53">   26</a></span><span class="preprocessor">#define SI_CHAN0_BIT 0x80000000</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a9748a2be4c4b5247c608b79aac9e4bfb">   27</a></span><span class="preprocessor">#define SI_CHAN1_BIT 0x40000000</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="SIBios_8h.html#aff12c5be105691dab00868c54d7c223c">   28</a></span><span class="preprocessor">#define SI_CHAN2_BIT 0x20000000</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a1b767b6384fa101eabf51fa7a2c1f194">   29</a></span><span class="preprocessor">#define SI_CHAN3_BIT 0x10000000</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a10f71c5a96fb7ac9688aeadda1004bec">   30</a></span><span class="preprocessor">#define SI_CHAN_BIT(chan) (SI_CHAN0_BIT &gt;&gt; (chan))</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="SIBios_8h.html#abdadd58bdd8ec198bf2a969e30365a79">   31</a></span><span class="preprocessor">#define SI_TYPE_MASK 0x18000000u</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="SIBios_8h.html#aad99ec6aee24f5b234ea4bb7a6b3ee33">   32</a></span><span class="preprocessor">#define SI_TYPE_N64 0x00000000u</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="SIBios_8h.html#abb780f22df6b22fdab098b54dce9bf70">   33</a></span><span class="preprocessor">#define SI_TYPE_DOLPHIN 0x08000000u</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ac58c4ec465145fd3f6983e57c79470df">   34</a></span><span class="preprocessor">#define SI_TYPE_GC SI_TYPE_DOLPHIN</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ab2aa382d7b73f9b67d84476c3eb8a04b">   35</a></span><span class="preprocessor">#define SI_GC_WIRELESS 0x80000000</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ae4f4212dadaac0fdcd7eddcbb19b17e1">   36</a></span><span class="preprocessor">#define SI_GC_NOMOTOR 0x20000000</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ab89bbfdab0b75ef322ca3712a10a9d4a">   37</a></span><span class="preprocessor">#define SI_GC_STANDARD 0x01000000</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a961565d303a1f26d1d0d6d2ad9c02410">   38</a></span><span class="preprocessor">#define SI_WIRELESS_RECEIVED 0x40000000</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ad877b598d202d3df73f7741060cbbe3a">   39</a></span><span class="preprocessor">#define SI_WIRELESS_IR 0x04000000</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a6634dfb413f925dc4e3d847c12b3456d">   40</a></span><span class="preprocessor">#define SI_WIRELESS_STATE 0x02000000</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a2e3d05e4ca7ddba833b20d39394e5f05">   41</a></span><span class="preprocessor">#define SI_WIRELESS_ORIGIN 0x00200000</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="SIBios_8h.html#aef7f1c3cf0833069ecb01ce6856ab2fa">   42</a></span><span class="preprocessor">#define SI_WIRELESS_FIX_ID 0x00100000</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="SIBios_8h.html#aa11eb5e6d480de8198a39deaf99f38eb">   43</a></span><span class="preprocessor">#define SI_WIRELESS_TYPE 0x000f0000</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a6fd6dfa9c5ea835c0e80b593c1b663dd">   44</a></span><span class="preprocessor">#define SI_WIRELESS_LITE_MASK 0x000c0000</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a6982768d058727dd40e708179aa9ed4f">   45</a></span><span class="preprocessor">#define SI_WIRELESS_LITE 0x00040000</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ab6c709d529d6bdfea96d0bd95150c415">   46</a></span><span class="preprocessor">#define SI_WIRELESS_CONT_MASK 0x00080000</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a44a4f08567a85b4f0233eec85fc7abb2">   47</a></span><span class="preprocessor">#define SI_WIRELESS_CONT 0x00000000</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="SIBios_8h.html#adf2fb828a671e914ba4ab0fd9a077d8f">   48</a></span><span class="preprocessor">#define SI_WIRELESS_ID 0x00c0ff00</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a2f17093391bb7cb31272a5ffc42af26b">   49</a></span><span class="preprocessor">#define SI_WIRELESS_TYPE_ID (SI_WIRELESS_TYPE | SI_WIRELESS_ID)</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a2c4a2cf56ae13caae86e0fbe2c77f7b1">   50</a></span><span class="preprocessor">#define SI_N64_CONTROLLER (SI_TYPE_N64 | 0x05000000)</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a108e87272a10e932c99835ff719d0212">   51</a></span><span class="preprocessor">#define SI_N64_MIC (SI_TYPE_N64 | 0x00010000)</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a4e381d8a41a87f6c8ab2c6215085a75b">   52</a></span><span class="preprocessor">#define SI_N64_KEYBOARD (SI_TYPE_N64 | 0x00020000)</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a47f3eae1069018520919a7be8e8e2796">   53</a></span><span class="preprocessor">#define SI_N64_MOUSE (SI_TYPE_N64 | 0x02000000)</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a311edcce449d6a4e99123fae726a18ba">   54</a></span><span class="preprocessor">#define SI_GBA (SI_TYPE_N64 | 0x00040000)</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="SIBios_8h.html#af1d2934ccebe5124c08c182732d4c49c">   55</a></span><span class="preprocessor">#define SI_GC_CONTROLLER (SI_TYPE_GC | SI_GC_STANDARD)</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a7dbc28f57766f3a461d1a930b2ff8d97">   56</a></span><span class="preprocessor">#define SI_GC_RECEIVER (SI_TYPE_GC | SI_GC_WIRELESS)</span></div>
-<div class="foldopen" id="foldopen00057" data-start="" data-end="">
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="SIBios_8h.html#aeb46656d69b03985f396ac98d0fc70dc">   57</a></span><span class="preprocessor">#define SI_GC_WAVEBIRD                                                                             \</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define SI_MAX_CHAN 4</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define SI_MAX_COMCSR_INLNGTH 128</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define SI_MAX_COMCSR_OUTLNGTH 128</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define SI_ERROR_UNDER_RUN 0x0001</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define SI_ERROR_OVER_RUN 0x0002</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define SI_ERROR_COLLISION 0x0004</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define SI_ERROR_NO_RESPONSE 0x0008</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define SI_ERROR_WRST 0x0010</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define SI_ERROR_RDST 0x0020</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define SI_ERROR_UNKNOWN 0x0040</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define SI_ERROR_BUSY 0x0080</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define SI_CHAN0 0</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define SI_CHAN1 1</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define SI_CHAN2 2</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define SI_CHAN3 3</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define SI_CHAN0_BIT 0x80000000</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define SI_CHAN1_BIT 0x40000000</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define SI_CHAN2_BIT 0x20000000</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define SI_CHAN3_BIT 0x10000000</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define SI_CHAN_BIT(chan) (SI_CHAN0_BIT &gt;&gt; (chan))</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define SI_TYPE_MASK 0x18000000u</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define SI_TYPE_N64 0x00000000u</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define SI_TYPE_DOLPHIN 0x08000000u</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define SI_TYPE_GC SI_TYPE_DOLPHIN</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define SI_GC_WIRELESS 0x80000000</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define SI_GC_NOMOTOR 0x20000000</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define SI_GC_STANDARD 0x01000000</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define SI_WIRELESS_RECEIVED 0x40000000</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define SI_WIRELESS_IR 0x04000000</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define SI_WIRELESS_STATE 0x02000000</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define SI_WIRELESS_ORIGIN 0x00200000</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define SI_WIRELESS_FIX_ID 0x00100000</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define SI_WIRELESS_TYPE 0x000f0000</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define SI_WIRELESS_LITE_MASK 0x000c0000</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define SI_WIRELESS_LITE 0x00040000</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define SI_WIRELESS_CONT_MASK 0x00080000</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define SI_WIRELESS_CONT 0x00000000</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define SI_WIRELESS_ID 0x00c0ff00</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define SI_WIRELESS_TYPE_ID (SI_WIRELESS_TYPE | SI_WIRELESS_ID)</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define SI_N64_CONTROLLER (SI_TYPE_N64 | 0x05000000)</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define SI_N64_MIC (SI_TYPE_N64 | 0x00010000)</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define SI_N64_KEYBOARD (SI_TYPE_N64 | 0x00020000)</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define SI_N64_MOUSE (SI_TYPE_N64 | 0x02000000)</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define SI_GBA (SI_TYPE_N64 | 0x00040000)</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define SI_GC_CONTROLLER (SI_TYPE_GC | SI_GC_STANDARD)</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define SI_GC_RECEIVER (SI_TYPE_GC | SI_GC_WIRELESS)</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define SI_GC_WAVEBIRD                                                                             \</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">    (SI_TYPE_GC | SI_GC_WIRELESS | SI_GC_STANDARD | SI_WIRELESS_STATE | SI_WIRELESS_FIX_ID)</span></div>
-</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a83351af4c61490d1a7e84976c435360a">   59</a></span><span class="preprocessor">#define SI_GC_KEYBOARD (SI_TYPE_GC | 0x00200000)</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a2ac5b64cc0b0ac8619fb8a451a4840cf">   60</a></span><span class="preprocessor">#define SI_GC_STEERING (SI_TYPE_GC | 0x00000000)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define SI_GC_KEYBOARD (SI_TYPE_GC | 0x00200000)</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define SI_GC_STEERING (SI_TYPE_GC | 0x00000000)</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a8ede730d273d5d7fe6c7b726637dd387">   62</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="SIBios_8h.html#a8ede730d273d5d7fe6c7b726637dd387">SICallback</a>)(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> sr, <a class="code hl_struct" href="structOSContext.html">OSContext</a>* <a class="code hl_variable" href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a>);</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="SIBios_8h.html#a7a3a7fac08ddb4844f9c934eeedc914a">   63</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="SIBios_8h.html#a7a3a7fac08ddb4844f9c934eeedc914a">SITypeAndStatusCallback</a>)(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> type);</div>
@@ -211,7 +268,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="SIBios_8h.html#abe382e9a0cc6e1837c0a3f01a37dc9f2">SIGetStatus</a>(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan);</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keywordtype">void</span> <a class="code hl_function" href="SIBios_8h.html#afc2285e0060f6444306c30941c94a5b8">SISetCommand</a>(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> command);</div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keywordtype">void</span> <a class="code hl_function" href="SIBios_8h.html#afe599aadb0e7f1738021e008e7adc4bf">SITransferCommands</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="SIBios_8h.html#a4ab82129dd84be0bcfe2743e2d92f7bb">SISetXY</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> x, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> y);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="SIBios_8h.html#a4ab82129dd84be0bcfe2743e2d92f7bb">SISetXY</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="e__atan2_8c.html#a69bf0237253cf28a9de66969ab9b2fc2">x</a>, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="e__atan2_8c.html#ad0c8a89970b31aee1615bb4ef6710a45">y</a>);</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="SIBios_8h.html#a72819a9ed2641b810e4ae3b7ad1ded28">SIEnablePolling</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> poll);</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="SIBios_8h.html#a7da89bb1deb457edffbb021ec38758f8">SIDisablePolling</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> poll);</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="SIBios_8h.html#ad911252b8f8533062b05171e9786accc">  116</a></span><span class="keyword">static</span> <a class="code hl_typedef" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> <a class="code hl_function" href="SIBios_8h.html#ad911252b8f8533062b05171e9786accc">SIGetResponseRaw</a>(<a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan);</div>
@@ -228,34 +285,36 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#endif </span><span class="comment">/* SIBIOS_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:235</div></div>
+<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:233</div></div>
 <div class="ttc" id="aOSInterrupt_8h_html"><div class="ttname"><a href="OSInterrupt_8h.html">OSInterrupt.h</a></div></div>
 <div class="ttc" id="aOSInterrupt_8h_html_a1e286c7d5bce3836ed414887019ea4cd"><div class="ttname"><a href="OSInterrupt_8h.html#a1e286c7d5bce3836ed414887019ea4cd">__OSInterruptHandler</a></div><div class="ttdeci">void(* __OSInterruptHandler)(__OSInterrupt interrupt, OSContext *context)</div><div class="ttdef"><b>Definition</b> OSInterrupt.h:112</div></div>
 <div class="ttc" id="aOSInterrupt_8h_html_a76379944e82db7f08ce8b6adbac2b78b"><div class="ttname"><a href="OSInterrupt_8h.html#a76379944e82db7f08ce8b6adbac2b78b">__OSInterrupt</a></div><div class="ttdeci">s16 __OSInterrupt</div><div class="ttdef"><b>Definition</b> OSInterrupt.h:110</div></div>
 <div class="ttc" id="aOSTime_8h_html"><div class="ttname"><a href="OSTime_8h.html">OSTime.h</a></div></div>
 <div class="ttc" id="aOSTime_8h_html_a3d32c840b403a8d37875867a7ea9b381"><div class="ttname"><a href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a></div><div class="ttdeci">s64 OSTime</div><div class="ttdef"><b>Definition</b> OSTime.h:10</div></div>
 <div class="ttc" id="aSIBios_8h_html_a0c7619591fc5d5381bfa69ee8d2af533"><div class="ttname"><a href="SIBios_8h.html#a0c7619591fc5d5381bfa69ee8d2af533">SIInterruptHandler</a></div><div class="ttdeci">static void SIInterruptHandler(__OSInterrupt interrupt, OSContext *context)</div></div>
-<div class="ttc" id="aSIBios_8h_html_a26458ea13680f50e081bef6a70e11f23"><div class="ttname"><a href="SIBios_8h.html#a26458ea13680f50e081bef6a70e11f23">SIGetResponse</a></div><div class="ttdeci">BOOL SIGetResponse(s32 chan, void *data)</div><div class="ttdef"><b>Definition</b> SIBios.c:486</div></div>
-<div class="ttc" id="aSIBios_8h_html_a2f798a4cd1c13e7f777160ba9ba62417"><div class="ttname"><a href="SIBios_8h.html#a2f798a4cd1c13e7f777160ba9ba62417">SIRegisterPollingHandler</a></div><div class="ttdeci">BOOL SIRegisterPollingHandler(__OSInterruptHandler handler)</div><div class="ttdef"><b>Definition</b> SIBios.c:252</div></div>
-<div class="ttc" id="aSIBios_8h_html_a4ab82129dd84be0bcfe2743e2d92f7bb"><div class="ttname"><a href="SIBios_8h.html#a4ab82129dd84be0bcfe2743e2d92f7bb">SISetXY</a></div><div class="ttdeci">u32 SISetXY(u32 x, u32 y)</div><div class="ttdef"><b>Definition</b> SIBios.c:400</div></div>
-<div class="ttc" id="aSIBios_8h_html_a5554df5c35e119f94fb6e8777bca1e8d"><div class="ttname"><a href="SIBios_8h.html#a5554df5c35e119f94fb6e8777bca1e8d">SIInit</a></div><div class="ttdeci">void SIInit(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:302</div></div>
+<div class="ttc" id="aSIBios_8h_html_a26458ea13680f50e081bef6a70e11f23"><div class="ttname"><a href="SIBios_8h.html#a26458ea13680f50e081bef6a70e11f23">SIGetResponse</a></div><div class="ttdeci">BOOL SIGetResponse(s32 chan, void *data)</div><div class="ttdef"><b>Definition</b> SIBios.c:485</div></div>
+<div class="ttc" id="aSIBios_8h_html_a2f798a4cd1c13e7f777160ba9ba62417"><div class="ttname"><a href="SIBios_8h.html#a2f798a4cd1c13e7f777160ba9ba62417">SIRegisterPollingHandler</a></div><div class="ttdeci">BOOL SIRegisterPollingHandler(__OSInterruptHandler handler)</div><div class="ttdef"><b>Definition</b> SIBios.c:251</div></div>
+<div class="ttc" id="aSIBios_8h_html_a4ab82129dd84be0bcfe2743e2d92f7bb"><div class="ttname"><a href="SIBios_8h.html#a4ab82129dd84be0bcfe2743e2d92f7bb">SISetXY</a></div><div class="ttdeci">u32 SISetXY(u32 x, u32 y)</div><div class="ttdef"><b>Definition</b> SIBios.c:399</div></div>
+<div class="ttc" id="aSIBios_8h_html_a5554df5c35e119f94fb6e8777bca1e8d"><div class="ttname"><a href="SIBios_8h.html#a5554df5c35e119f94fb6e8777bca1e8d">SIInit</a></div><div class="ttdeci">void SIInit(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:301</div></div>
 <div class="ttc" id="aSIBios_8h_html_a5dfe5430c1c9c28edcfb913d7108d7c1"><div class="ttname"><a href="SIBios_8h.html#a5dfe5430c1c9c28edcfb913d7108d7c1">__SIRegs</a></div><div class="ttdeci">vu32 __SIRegs[64]</div><div class="ttdef"><b>Definition</b> SIBios.h:123</div></div>
-<div class="ttc" id="aSIBios_8h_html_a6d57d95fc79d606ef79f0a15459d110e"><div class="ttname"><a href="SIBios_8h.html#a6d57d95fc79d606ef79f0a15459d110e">SITransfer</a></div><div class="ttdeci">BOOL SITransfer(s32 chan, void *output, u32 outputBytes, void *input, u32 inputBytes, SICallback callback, OSTime delay)</div><div class="ttdef"><b>Definition</b> SIBios.c:519</div></div>
-<div class="ttc" id="aSIBios_8h_html_a72819a9ed2641b810e4ae3b7ad1ded28"><div class="ttname"><a href="SIBios_8h.html#a72819a9ed2641b810e4ae3b7ad1ded28">SIEnablePolling</a></div><div class="ttdeci">u32 SIEnablePolling(u32 poll)</div><div class="ttdef"><b>Definition</b> SIBios.c:417</div></div>
+<div class="ttc" id="aSIBios_8h_html_a6d57d95fc79d606ef79f0a15459d110e"><div class="ttname"><a href="SIBios_8h.html#a6d57d95fc79d606ef79f0a15459d110e">SITransfer</a></div><div class="ttdeci">BOOL SITransfer(s32 chan, void *output, u32 outputBytes, void *input, u32 inputBytes, SICallback callback, OSTime delay)</div><div class="ttdef"><b>Definition</b> SIBios.c:518</div></div>
+<div class="ttc" id="aSIBios_8h_html_a72819a9ed2641b810e4ae3b7ad1ded28"><div class="ttname"><a href="SIBios_8h.html#a72819a9ed2641b810e4ae3b7ad1ded28">SIEnablePolling</a></div><div class="ttdeci">u32 SIEnablePolling(u32 poll)</div><div class="ttdef"><b>Definition</b> SIBios.c:416</div></div>
 <div class="ttc" id="aSIBios_8h_html_a7a3a7fac08ddb4844f9c934eeedc914a"><div class="ttname"><a href="SIBios_8h.html#a7a3a7fac08ddb4844f9c934eeedc914a">SITypeAndStatusCallback</a></div><div class="ttdeci">void(* SITypeAndStatusCallback)(s32 chan, u32 type)</div><div class="ttdef"><b>Definition</b> SIBios.h:63</div></div>
-<div class="ttc" id="aSIBios_8h_html_a7da89bb1deb457edffbb021ec38758f8"><div class="ttname"><a href="SIBios_8h.html#a7da89bb1deb457edffbb021ec38758f8">SIDisablePolling</a></div><div class="ttdeci">u32 SIDisablePolling(u32 poll)</div><div class="ttdef"><b>Definition</b> SIBios.c:450</div></div>
+<div class="ttc" id="aSIBios_8h_html_a7da89bb1deb457edffbb021ec38758f8"><div class="ttname"><a href="SIBios_8h.html#a7da89bb1deb457edffbb021ec38758f8">SIDisablePolling</a></div><div class="ttdeci">u32 SIDisablePolling(u32 poll)</div><div class="ttdef"><b>Definition</b> SIBios.c:449</div></div>
 <div class="ttc" id="aSIBios_8h_html_a8318725e534a1f54a0d6ead2d3e6d8da"><div class="ttname"><a href="SIBios_8h.html#a8318725e534a1f54a0d6ead2d3e6d8da">SIEnablePollingInterrupt</a></div><div class="ttdeci">static BOOL SIEnablePollingInterrupt(BOOL enable)</div></div>
-<div class="ttc" id="aSIBios_8h_html_a86564cf0f5f7944da22e79267d000205"><div class="ttname"><a href="SIBios_8h.html#a86564cf0f5f7944da22e79267d000205">SIGetTypeAsync</a></div><div class="ttdeci">u32 SIGetTypeAsync(s32 chan, SITypeAndStatusCallback callback)</div><div class="ttdef"><b>Definition</b> SIBios.c:683</div></div>
+<div class="ttc" id="aSIBios_8h_html_a86564cf0f5f7944da22e79267d000205"><div class="ttname"><a href="SIBios_8h.html#a86564cf0f5f7944da22e79267d000205">SIGetTypeAsync</a></div><div class="ttdeci">u32 SIGetTypeAsync(s32 chan, SITypeAndStatusCallback callback)</div><div class="ttdef"><b>Definition</b> SIBios.c:682</div></div>
 <div class="ttc" id="aSIBios_8h_html_a8ede730d273d5d7fe6c7b726637dd387"><div class="ttname"><a href="SIBios_8h.html#a8ede730d273d5d7fe6c7b726637dd387">SICallback</a></div><div class="ttdeci">void(* SICallback)(s32 chan, u32 sr, OSContext *context)</div><div class="ttdef"><b>Definition</b> SIBios.h:62</div></div>
-<div class="ttc" id="aSIBios_8h_html_abe382e9a0cc6e1837c0a3f01a37dc9f2"><div class="ttname"><a href="SIBios_8h.html#abe382e9a0cc6e1837c0a3f01a37dc9f2">SIGetStatus</a></div><div class="ttdeci">u32 SIGetStatus(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:370</div></div>
-<div class="ttc" id="aSIBios_8h_html_acce90952c211ee4d7f08f013f1a4ef61"><div class="ttname"><a href="SIBios_8h.html#acce90952c211ee4d7f08f013f1a4ef61">SIGetType</a></div><div class="ttdeci">u32 SIGetType(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:647</div></div>
+<div class="ttc" id="aSIBios_8h_html_abe382e9a0cc6e1837c0a3f01a37dc9f2"><div class="ttname"><a href="SIBios_8h.html#abe382e9a0cc6e1837c0a3f01a37dc9f2">SIGetStatus</a></div><div class="ttdeci">u32 SIGetStatus(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:369</div></div>
+<div class="ttc" id="aSIBios_8h_html_acce90952c211ee4d7f08f013f1a4ef61"><div class="ttname"><a href="SIBios_8h.html#acce90952c211ee4d7f08f013f1a4ef61">SIGetType</a></div><div class="ttdeci">u32 SIGetType(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:646</div></div>
 <div class="ttc" id="aSIBios_8h_html_ad911252b8f8533062b05171e9786accc"><div class="ttname"><a href="SIBios_8h.html#ad911252b8f8533062b05171e9786accc">SIGetResponseRaw</a></div><div class="ttdeci">static BOOL SIGetResponseRaw(s32 chan)</div></div>
-<div class="ttc" id="aSIBios_8h_html_add12a15f38d0bda30464943150587d73"><div class="ttname"><a href="SIBios_8h.html#add12a15f38d0bda30464943150587d73">SIUnregisterPollingHandler</a></div><div class="ttdeci">BOOL SIUnregisterPollingHandler(__OSInterruptHandler handler)</div><div class="ttdef"><b>Definition</b> SIBios.c:276</div></div>
-<div class="ttc" id="aSIBios_8h_html_ae447368c681b79857bba3bd65ba0cfab"><div class="ttname"><a href="SIBios_8h.html#ae447368c681b79857bba3bd65ba0cfab">SIIsChanBusy</a></div><div class="ttdeci">BOOL SIIsChanBusy(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:39</div></div>
-<div class="ttc" id="aSIBios_8h_html_afbc232fcc7157f9721011e1739c46abd"><div class="ttname"><a href="SIBios_8h.html#afbc232fcc7157f9721011e1739c46abd">SIBusy</a></div><div class="ttdeci">BOOL SIBusy(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:31</div></div>
-<div class="ttc" id="aSIBios_8h_html_afc2285e0060f6444306c30941c94a5b8"><div class="ttname"><a href="SIBios_8h.html#afc2285e0060f6444306c30941c94a5b8">SISetCommand</a></div><div class="ttdeci">void SISetCommand(s32 chan, u32 command)</div><div class="ttdef"><b>Definition</b> SIBios.c:389</div></div>
-<div class="ttc" id="aSIBios_8h_html_afe599aadb0e7f1738021e008e7adc4bf"><div class="ttname"><a href="SIBios_8h.html#afe599aadb0e7f1738021e008e7adc4bf">SITransferCommands</a></div><div class="ttdeci">void SITransferCommands(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:394</div></div>
+<div class="ttc" id="aSIBios_8h_html_add12a15f38d0bda30464943150587d73"><div class="ttname"><a href="SIBios_8h.html#add12a15f38d0bda30464943150587d73">SIUnregisterPollingHandler</a></div><div class="ttdeci">BOOL SIUnregisterPollingHandler(__OSInterruptHandler handler)</div><div class="ttdef"><b>Definition</b> SIBios.c:275</div></div>
+<div class="ttc" id="aSIBios_8h_html_ae447368c681b79857bba3bd65ba0cfab"><div class="ttname"><a href="SIBios_8h.html#ae447368c681b79857bba3bd65ba0cfab">SIIsChanBusy</a></div><div class="ttdeci">BOOL SIIsChanBusy(s32 chan)</div><div class="ttdef"><b>Definition</b> SIBios.c:38</div></div>
+<div class="ttc" id="aSIBios_8h_html_afbc232fcc7157f9721011e1739c46abd"><div class="ttname"><a href="SIBios_8h.html#afbc232fcc7157f9721011e1739c46abd">SIBusy</a></div><div class="ttdeci">BOOL SIBusy(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:30</div></div>
+<div class="ttc" id="aSIBios_8h_html_afc2285e0060f6444306c30941c94a5b8"><div class="ttname"><a href="SIBios_8h.html#afc2285e0060f6444306c30941c94a5b8">SISetCommand</a></div><div class="ttdeci">void SISetCommand(s32 chan, u32 command)</div><div class="ttdef"><b>Definition</b> SIBios.c:388</div></div>
+<div class="ttc" id="aSIBios_8h_html_afe599aadb0e7f1738021e008e7adc4bf"><div class="ttname"><a href="SIBios_8h.html#afe599aadb0e7f1738021e008e7adc4bf">SITransferCommands</a></div><div class="ttdeci">void SITransferCommands(void)</div><div class="ttdef"><b>Definition</b> SIBios.c:393</div></div>
 <div class="ttc" id="ad__vibration_8cpp_html_a923e25734c61f5a7e48bbfcfbe0c2313"><div class="ttname"><a href="d__vibration_8cpp.html#a923e25734c61f5a7e48bbfcfbe0c2313">data</a></div><div class="ttdeci">static u16 data[4]</div><div class="ttdef"><b>Definition</b> d_vibration.cpp:114</div></div>
+<div class="ttc" id="ae__atan2_8c_html_a69bf0237253cf28a9de66969ab9b2fc2"><div class="ttname"><a href="e__atan2_8c.html#a69bf0237253cf28a9de66969ab9b2fc2">x</a></div><div class="ttdeci">double x double x</div><div class="ttdef"><b>Definition</b> e_atan2.c:59</div></div>
+<div class="ttc" id="ae__atan2_8c_html_ad0c8a89970b31aee1615bb4ef6710a45"><div class="ttname"><a href="e__atan2_8c.html#ad0c8a89970b31aee1615bb4ef6710a45">y</a></div><div class="ttdeci">double x double y</div><div class="ttdef"><b>Definition</b> e_atan2.c:59</div></div>
 <div class="ttc" id="astructOSContext_html"><div class="ttname"><a href="structOSContext.html">OSContext</a></div><div class="ttdef"><b>Definition</b> OSContext.h:137</div></div>
 <div class="ttc" id="astructSIComm__s_html"><div class="ttname"><a href="structSIComm__s.html">SIComm_s</a></div><div class="ttdef"><b>Definition</b> SIBios.h:83</div></div>
 <div class="ttc" id="astructSIComm__s_html_a00060fa96456776bb1d8193dab19a9d9"><div class="ttname"><a href="structSIComm__s.html#a00060fa96456776bb1d8193dab19a9d9">SIComm_s::inlngth</a></div><div class="ttdeci">u32 inlngth</div><div class="ttdef"><b>Definition</b> SIBios.h:92</div></div>
@@ -292,9 +351,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aunionSIComm__u_html_a077f5fc14ec4c133aa5442c911e7080c"><div class="ttname"><a href="unionSIComm__u.html#a077f5fc14ec4c133aa5442c911e7080c">SIComm_u::val</a></div><div class="ttdeci">u32 val</div><div class="ttdef"><b>Definition</b> SIBios.h:99</div></div>
 <div class="ttc" id="aunionSIComm__u_html_af3f99ed7dfc2495d285ea6635eacac06"><div class="ttname"><a href="unionSIComm__u.html#af3f99ed7dfc2495d285ea6635eacac06">SIComm_u::f</a></div><div class="ttdeci">SIComm_s f</div><div class="ttdef"><b>Definition</b> SIBios.h:100</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_b02b9d991b880b57acc1b523a1a5973b.html">si</a></li><li class="navelem"><a class="el" href="SIBios_8h.html">SIBios.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

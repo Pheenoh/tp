@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: libs/JSystem/J2DGraph/J2DMaterial.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('J2DMaterial_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,11 +139,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_7b07eaf1eff1d81099e5c080df7ca6dc.html">J2DGraph</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
@@ -87,32 +146,7 @@ $(function() {
   <div class="headertitle"><div class="title">J2DMaterial.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="J2DMaterial_8h_source.html">JSystem/J2DGraph/J2DMaterial.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="JKRHeap_8h_source.html">JSystem/JKernel/JKRHeap.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__11J2DMaterialFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/animation__11J2DMaterialFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__13J2DColorBlockFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__11J2DIndBlockFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__11J2DTevBlockFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/getType__15J2DIndBlockNullFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__15J2DIndBlockNullFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__ct__11J2DTexCoordFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__ct__12J2DColorChanFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__19J2DIndTexCoordScaleFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__ct__19J2DIndTexCoordScaleFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__dt__12J2DIndTexMtxFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__ct__12J2DIndTexMtxFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J2DGraph/J2DMaterial/__ct__14J2DIndTexOrderFv.s&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for J2DMaterial.cpp:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="J2DMaterial_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aae23c63cd4442d6f86d6ede855fb9984" id="r_aae23c63cd4442d6f86d6ede855fb9984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#aae23c63cd4442d6f86d6ede855fb9984">__ct__11J2DMaterialFv</a> ()</td></tr>
@@ -260,19 +294,19 @@ Variables</h2></td></tr>
 <tr class="separator:a0cfb6c425ea196b3138fe9a7904f1c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81cdcef263eb8f157d547f1b410452bd" id="r_a81cdcef263eb8f157d547f1b410452bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#a81cdcef263eb8f157d547f1b410452bd">__vt__14J2DTexGenBlock</a> [3+1]</td></tr>
 <tr class="separator:a81cdcef263eb8f157d547f1b410452bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c56bed6cfb6ecf155186871c5276026" id="r_a4c56bed6cfb6ecf155186871c5276026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#a4c56bed6cfb6ecf155186871c5276026">__vt__15J2DIndBlockNull</a> [14]</td></tr>
+<tr class="memitem:a4c56bed6cfb6ecf155186871c5276026" id="r_a4c56bed6cfb6ecf155186871c5276026"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#a4c56bed6cfb6ecf155186871c5276026">__vt__15J2DIndBlockNull</a> [14]</td></tr>
 <tr class="separator:a4c56bed6cfb6ecf155186871c5276026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabcc8498bef02e2898f009b288a1a3ef" id="r_aabcc8498bef02e2898f009b288a1a3ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#aabcc8498bef02e2898f009b288a1a3ef">__vt__11J2DIndBlock</a> [14]</td></tr>
+<tr class="memitem:aabcc8498bef02e2898f009b288a1a3ef" id="r_aabcc8498bef02e2898f009b288a1a3ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#aabcc8498bef02e2898f009b288a1a3ef">__vt__11J2DIndBlock</a> [14]</td></tr>
 <tr class="separator:aabcc8498bef02e2898f009b288a1a3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9ce597f89e1e9fc5cc08355e8ead0fc" id="r_aa9ce597f89e1e9fc5cc08355e8ead0fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#aa9ce597f89e1e9fc5cc08355e8ead0fc">__vt__11J2DMaterial</a> [3]</td></tr>
+<tr class="memitem:aa9ce597f89e1e9fc5cc08355e8ead0fc" id="r_aa9ce597f89e1e9fc5cc08355e8ead0fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#aa9ce597f89e1e9fc5cc08355e8ead0fc">__vt__11J2DMaterial</a> [3]</td></tr>
 <tr class="separator:aa9ce597f89e1e9fc5cc08355e8ead0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afacb1c85fd1e8f98f3119947a3cc6719" id="r_afacb1c85fd1e8f98f3119947a3cc6719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#afacb1c85fd1e8f98f3119947a3cc6719">__vt__13J2DColorBlock</a> [3]</td></tr>
+<tr class="memitem:afacb1c85fd1e8f98f3119947a3cc6719" id="r_afacb1c85fd1e8f98f3119947a3cc6719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#afacb1c85fd1e8f98f3119947a3cc6719">__vt__13J2DColorBlock</a> [3]</td></tr>
 <tr class="separator:afacb1c85fd1e8f98f3119947a3cc6719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2bf332e9c8206a1242fcbc142d98384" id="r_ac2bf332e9c8206a1242fcbc142d98384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#ac2bf332e9c8206a1242fcbc142d98384">lit_1943</a> = 360.0f</td></tr>
+<tr class="memitem:ac2bf332e9c8206a1242fcbc142d98384" id="r_ac2bf332e9c8206a1242fcbc142d98384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#ac2bf332e9c8206a1242fcbc142d98384">lit_1943</a> = 360.0f</td></tr>
 <tr class="separator:ac2bf332e9c8206a1242fcbc142d98384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1037b8af293d4c74d35b2dc8f963b8" id="r_ade1037b8af293d4c74d35b2dc8f963b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#ade1037b8af293d4c74d35b2dc8f963b8">lit_1944</a> = 65535.0f</td></tr>
+<tr class="memitem:ade1037b8af293d4c74d35b2dc8f963b8" id="r_ade1037b8af293d4c74d35b2dc8f963b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#ade1037b8af293d4c74d35b2dc8f963b8">lit_1944</a> = 65535.0f</td></tr>
 <tr class="separator:ade1037b8af293d4c74d35b2dc8f963b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc23369ef5a8dbe9664aca1c98eba2d2" id="r_afc23369ef5a8dbe9664aca1c98eba2d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#afc23369ef5a8dbe9664aca1c98eba2d2">lit_1946</a> = 4503599627370496.0</td></tr>
+<tr class="memitem:afc23369ef5a8dbe9664aca1c98eba2d2" id="r_afc23369ef5a8dbe9664aca1c98eba2d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J2DMaterial_8cpp.html#afc23369ef5a8dbe9664aca1c98eba2d2">lit_1946</a> = 4503599627370496.0</td></tr>
 <tr class="separator:afc23369ef5a8dbe9664aca1c98eba2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1443,7 +1477,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J2DIndBlock[14]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J2DIndBlock[14]</td>
         </tr>
       </table>
   </td>
@@ -1453,11 +1487,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#ac2394a28d2892dd7a9fe1c64e4f86e67">initialize__11J2DIndBlockFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a2a30d768eb3a8b7073a5f8be0e37abee">setGX__11J2DIndBlockFv</a>,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#acb0ab154d7871531a25ad0bce044154d">setIndTexStageNum__11J2DIndBlockFUc</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a5baf8e6bc143c0811635b21f53fb277f">getIndTexStageNum__11J2DIndBlockCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a28f7a797deefaf2cc39236e78f978286">setIndTexOrder__11J2DIndBlockFUl14J2DIndTexOrder</a>,</div>
@@ -1474,12 +1508,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a436c268c8ac04288411e8deb236cb58f"><div class="ttname"><a href="J2DMaterial_8cpp.html#a436c268c8ac04288411e8deb236cb58f">getIndTexOrder__11J2DIndBlockFUl</a></div><div class="ttdeci">bool getIndTexOrder__11J2DIndBlockFUl()</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a552b220ec6749cb780b63b5901ddc59c"><div class="ttname"><a href="J2DMaterial_8cpp.html#a552b220ec6749cb780b63b5901ddc59c">getIndTexCoordScale__11J2DIndBlockFUl</a></div><div class="ttdeci">bool getIndTexCoordScale__11J2DIndBlockFUl()</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a5baf8e6bc143c0811635b21f53fb277f"><div class="ttname"><a href="J2DMaterial_8cpp.html#a5baf8e6bc143c0811635b21f53fb277f">getIndTexStageNum__11J2DIndBlockCFv</a></div><div class="ttdeci">bool getIndTexStageNum__11J2DIndBlockCFv()</div></div>
-<div class="ttc" id="aJ2DMaterial_8cpp_html_a6371f66ca25138c38cb03373d3fc12d0"><div class="ttname"><a href="J2DMaterial_8cpp.html#a6371f66ca25138c38cb03373d3fc12d0">__dt__11J2DIndBlockFv</a></div><div class="ttdeci">void __dt__11J2DIndBlockFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:432</div></div>
+<div class="ttc" id="aJ2DMaterial_8cpp_html_a6371f66ca25138c38cb03373d3fc12d0"><div class="ttname"><a href="J2DMaterial_8cpp.html#a6371f66ca25138c38cb03373d3fc12d0">__dt__11J2DIndBlockFv</a></div><div class="ttdeci">void __dt__11J2DIndBlockFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:431</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a938de7528e6f6616660941ed6fed35b2"><div class="ttname"><a href="J2DMaterial_8cpp.html#a938de7528e6f6616660941ed6fed35b2">getIndTexMtx__11J2DIndBlockFUl</a></div><div class="ttdeci">bool getIndTexMtx__11J2DIndBlockFUl()</div></div>
-<div class="ttc" id="aJ2DMaterial_8cpp_html_ac2394a28d2892dd7a9fe1c64e4f86e67"><div class="ttname"><a href="J2DMaterial_8cpp.html#ac2394a28d2892dd7a9fe1c64e4f86e67">initialize__11J2DIndBlockFv</a></div><div class="ttdeci">void initialize__11J2DIndBlockFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:502</div></div>
+<div class="ttc" id="aJ2DMaterial_8cpp_html_ac2394a28d2892dd7a9fe1c64e4f86e67"><div class="ttname"><a href="J2DMaterial_8cpp.html#ac2394a28d2892dd7a9fe1c64e4f86e67">initialize__11J2DIndBlockFv</a></div><div class="ttdeci">void initialize__11J2DIndBlockFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:501</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_ac3c8f6884657747607429da80331313b"><div class="ttname"><a href="J2DMaterial_8cpp.html#ac3c8f6884657747607429da80331313b">setIndTexMtx__11J2DIndBlockFUl12J2DIndTexMtx</a></div><div class="ttdeci">void setIndTexMtx__11J2DIndBlockFUl12J2DIndTexMtx()</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_acb0ab154d7871531a25ad0bce044154d"><div class="ttname"><a href="J2DMaterial_8cpp.html#acb0ab154d7871531a25ad0bce044154d">setIndTexStageNum__11J2DIndBlockFUc</a></div><div class="ttdeci">void setIndTexStageNum__11J2DIndBlockFUc()</div></div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> stddef.h:19</div></div>
+<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1493,7 +1527,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J2DMaterial[3]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J2DMaterial[3]</td>
         </tr>
       </table>
   </td>
@@ -1503,11 +1537,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a2f958ca574407ebe085b99ba8581087f">__dt__11J2DMaterialFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ2DMaterial_8cpp_html_a2f958ca574407ebe085b99ba8581087f"><div class="ttname"><a href="J2DMaterial_8cpp.html#a2f958ca574407ebe085b99ba8581087f">__dt__11J2DMaterialFv</a></div><div class="ttdeci">void __dt__11J2DMaterialFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:162</div></div>
+<div class="ttc" id="aJ2DMaterial_8cpp_html_a2f958ca574407ebe085b99ba8581087f"><div class="ttname"><a href="J2DMaterial_8cpp.html#a2f958ca574407ebe085b99ba8581087f">__dt__11J2DMaterialFv</a></div><div class="ttdeci">void __dt__11J2DMaterialFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:161</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1543,7 +1577,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__13J2DColorBlock[3]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__13J2DColorBlock[3]</td>
         </tr>
       </table>
   </td>
@@ -1553,8 +1587,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a5ab71637f8e0fdd426978c2311af7ad1">__dt__13J2DColorBlockFv</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a5ab71637f8e0fdd426978c2311af7ad1"><div class="ttname"><a href="J2DMaterial_8cpp.html#a5ab71637f8e0fdd426978c2311af7ad1">__dt__13J2DColorBlockFv</a></div><div class="ttdeci">void __dt__13J2DColorBlockFv()</div></div>
@@ -1615,7 +1649,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J2DIndBlockNull[14]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J2DIndBlockNull[14]</td>
         </tr>
       </table>
   </td>
@@ -1625,8 +1659,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#ac2394a28d2892dd7a9fe1c64e4f86e67">initialize__11J2DIndBlockFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a1b977b9fde1671bb4f55a3831cbe63e8">setGX__15J2DIndBlockNullFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a37fd4562645f79b48af5f7867d48e2d2">getType__15J2DIndBlockNullFv</a>,</div>
@@ -1640,7 +1674,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#a552b220ec6749cb780b63b5901ddc59c">getIndTexCoordScale__11J2DIndBlockFUl</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J2DMaterial_8cpp.html#aea28d39e946efa8e4e8f57c557ecfdf5">__dt__15J2DIndBlockNullFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ2DMaterial_8cpp_html_a1b977b9fde1671bb4f55a3831cbe63e8"><div class="ttname"><a href="J2DMaterial_8cpp.html#a1b977b9fde1671bb4f55a3831cbe63e8">setGX__15J2DIndBlockNullFv</a></div><div class="ttdeci">void setGX__15J2DIndBlockNullFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:477</div></div>
+<div class="ttc" id="aJ2DMaterial_8cpp_html_a1b977b9fde1671bb4f55a3831cbe63e8"><div class="ttname"><a href="J2DMaterial_8cpp.html#a1b977b9fde1671bb4f55a3831cbe63e8">setGX__15J2DIndBlockNullFv</a></div><div class="ttdeci">void setGX__15J2DIndBlockNullFv()</div><div class="ttdef"><b>Definition</b> J2DMaterial.cpp:476</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_a37fd4562645f79b48af5f7867d48e2d2"><div class="ttname"><a href="J2DMaterial_8cpp.html#a37fd4562645f79b48af5f7867d48e2d2">getType__15J2DIndBlockNullFv</a></div><div class="ttdeci">void getType__15J2DIndBlockNullFv()</div></div>
 <div class="ttc" id="aJ2DMaterial_8cpp_html_aea28d39e946efa8e4e8f57c557ecfdf5"><div class="ttname"><a href="J2DMaterial_8cpp.html#aea28d39e946efa8e4e8f57c557ecfdf5">__dt__15J2DIndBlockNullFv</a></div><div class="ttdeci">void __dt__15J2DIndBlockNullFv()</div></div>
 </div><!-- fragment -->
@@ -1656,7 +1690,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1943 = 360.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1943 = 360.0f</td>
         </tr>
       </table>
   </td>
@@ -1678,7 +1712,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1944 = 65535.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1944 = 65535.0f</td>
         </tr>
       </table>
   </td>
@@ -1700,7 +1734,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_1946 = 4503599627370496.0</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_1946 = 4503599627370496.0</td>
         </tr>
       </table>
   </td>
@@ -1713,9 +1747,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_7b07eaf1eff1d81099e5c080df7ca6dc.html">J2DGraph</a></li><li class="navelem"><a class="el" href="J2DMaterial_8cpp.html">J2DMaterial.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

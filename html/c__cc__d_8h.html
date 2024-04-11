@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/SSystem/SComponent/c_cc_d.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('c__cc__d_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,11 +139,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_54283da8a0cf1311a88c964d76512876.html">SSystem</a></li><li class="navelem"><a class="el" href="dir_3827de488e3dc5670df2ba05bd5c1e8a.html">SComponent</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
@@ -89,26 +148,7 @@ $(function() {
   <div class="headertitle"><div class="title">c_cc_d.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="c__m3d__g__aab_8h_source.html">SSystem/SComponent/c_m3d_g_aab.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__m3d__g__cps_8h_source.html">SSystem/SComponent/c_m3d_g_cps.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__m3d__g__cyl_8h_source.html">SSystem/SComponent/c_m3d_g_cyl.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__m3d__g__sph_8h_source.html">SSystem/SComponent/c_m3d_g_sph.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__m3d__g__tri_8h_source.html">SSystem/SComponent/c_m3d_g_tri.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for c_cc_d.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="c__cc__d_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="c__cc__d_8h__dep__incl.svg" width="100%" height="549"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="c__cc__d_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -147,9 +187,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__SrcObj.html">cCcD_SrcObj</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__GStts.html">cCcD_GStts</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__GStts.html">cCcD_GStts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__Stts.html">cCcD_Stts</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__Stts.html">cCcD_Stts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__ObjCommonBase.html">cCcD_ObjCommonBase</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,11 +197,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__ObjTg.html">cCcD_ObjTg</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__ObjCo.html">cCcD_ObjCo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__ObjCo.html">cCcD_ObjCo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__ObjHitInf.html">cCcD_ObjHitInf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__Obj.html">cCcD_Obj</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__Obj.html">cCcD_Obj</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcCcD__GObjInf.html">cCcD_GObjInf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,39 +224,42 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:adedcf0d155f4726cd61f72352e137867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea8b37907a43d95917839ea058b446b" id="r_a7ea8b37907a43d95917839ea058b446b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446b">cCcD_ObjAtType</a> { <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343">AT_TYPE_NORMAL_SWORD</a> = (1 &lt;&lt; 1)
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba4e139b6c29a1b5f9919de3ed0baae581">AT_TYPE_0</a> = 0
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba5487345e2b234a2afdeb9f2e39667be1">AT_TYPE_1</a> = (1 &lt;&lt; 0)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343">AT_TYPE_NORMAL_SWORD</a> = (1 &lt;&lt; 1)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba2d6328f4cbb5123fbe9d7e9a1b4db6da">AT_TYPE_HORSE</a> = (1 &lt;&lt; 2)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac9ddbeed1178895da0a72611580d6d28">AT_TYPE_THROW_OBJ</a> = (1 &lt;&lt; 3)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac9ddbeed1178895da0a72611580d6d28">AT_TYPE_THROW_OBJ</a> = (1 &lt;&lt; 3)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba7ee42b119b1db4ac53344813196a061e">AT_TYPE_SHIELD_ATTACK</a> = (1 &lt;&lt; 4)
-, <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bacaac157f158af12b4172a17284b1812a">AT_TYPE_BOMB</a> = (1 &lt;&lt; 5)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bacaac157f158af12b4172a17284b1812a">AT_TYPE_BOMB</a> = (1 &lt;&lt; 5)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba84669cf32ba3a9d53a90edc795dbbbeb">AT_TYPE_40</a> = (1 &lt;&lt; 6)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac7be1f1924b1ac9c6e3111436b5ec32e">AT_TYPE_SLINGSHOT</a> = (1 &lt;&lt; 7)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac7be1f1924b1ac9c6e3111436b5ec32e">AT_TYPE_SLINGSHOT</a> = (1 &lt;&lt; 7)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba557cea47ca578a97e0542fde7b198712">AT_TYPE_LANTERN_SWING</a> = (1 &lt;&lt; 9)
-, <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba384d36a63a737e2a7df06ebf48deeb9f">AT_TYPE_CSTATUE_SWING</a> = (1 &lt;&lt; 10)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba384d36a63a737e2a7df06ebf48deeb9f">AT_TYPE_CSTATUE_SWING</a> = (1 &lt;&lt; 10)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba1b9a1de3c36f0459a04bd5366bda3982">AT_TYPE_800</a> = (1 &lt;&lt; 11)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba4131d45d234d40e13d21a9a304daa60e">AT_TYPE_1000</a> = (1 &lt;&lt; 12)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba4131d45d234d40e13d21a9a304daa60e">AT_TYPE_1000</a> = (1 &lt;&lt; 12)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba0cdca7437b7b778683e72185124bfce3">AT_TYPE_ARROW</a> = (1 &lt;&lt; 13)
-, <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baa14cf20b5bf2e819d245dd0d79b8731a">AT_TYPE_HOOKSHOT</a> = (1 &lt;&lt; 14)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baa14cf20b5bf2e819d245dd0d79b8731a">AT_TYPE_HOOKSHOT</a> = (1 &lt;&lt; 14)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba457d8434eff8af41ed34b712a6a94930">AT_TYPE_8000</a> = (1 &lt;&lt; 15)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bad87e18d111ebafcbc8d9145f99c23605">AT_TYPE_BOOMERANG</a> = (1 &lt;&lt; 16)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bad87e18d111ebafcbc8d9145f99c23605">AT_TYPE_BOOMERANG</a> = (1 &lt;&lt; 16)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba865dcf3e7f0b428036fe13ed0860fa4c">AT_TYPE_40000</a> = (1 &lt;&lt; 18)
-, <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba3b75bf322e5a97b9c852fa4e2d1ef069">AT_TYPE_SPINNER</a> = (1 &lt;&lt; 19)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba3b75bf322e5a97b9c852fa4e2d1ef069">AT_TYPE_SPINNER</a> = (1 &lt;&lt; 19)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba21408da2d40663c94b545bf3ee076ced">AT_TYPE_CSTATUE_BOSS_SWING</a> = (1 &lt;&lt; 20)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baaf7a2d67adaef0a9276e8ed3087d5e49">AT_TYPE_HEAVY_BOOTS</a> = (1 &lt;&lt; 21)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baaf7a2d67adaef0a9276e8ed3087d5e49">AT_TYPE_HEAVY_BOOTS</a> = (1 &lt;&lt; 21)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba5d703e3188da03d59731780a6564be54">AT_TYPE_IRON_BALL</a> = (1 &lt;&lt; 22)
-, <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446babefcef2176d39a360611799484c1e54b">AT_TYPE_COPY_ROD</a> = (1 &lt;&lt; 23)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446babefcef2176d39a360611799484c1e54b">AT_TYPE_COPY_ROD</a> = (1 &lt;&lt; 23)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba2c009bb1d16e10c2ee6464a6a627e74b">AT_TYPE_1000000</a> = (1 &lt;&lt; 24)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baf520f1a4ce6b47493bd7e0541a293093">AT_TYPE_MASTER_SWORD</a> = (1 &lt;&lt; 26)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba1b8414fc6f4e85b0d071258028c45a34">AT_TYPE_MIDNA_LOCK</a> = (1 &lt;&lt; 27)
 , <br />
-&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baa1756593f02ef99cf51778aa2948f3cf">AT_TYPE_10000000</a> = (1 &lt;&lt; 28)
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baf520f1a4ce6b47493bd7e0541a293093">AT_TYPE_MASTER_SWORD</a> = (1 &lt;&lt; 26)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba1b8414fc6f4e85b0d071258028c45a34">AT_TYPE_MIDNA_LOCK</a> = (1 &lt;&lt; 27)
+, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446baa1756593f02ef99cf51778aa2948f3cf">AT_TYPE_10000000</a> = (1 &lt;&lt; 28)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba48f5003bacd42aa36189e87fefa91f72">AT_TYPE_WOLF_CUT_TURN</a> = (1 &lt;&lt; 30)
-, <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba41af3ad7ade494109db521f4165623eb">AT_TYPE_WOLF_ATTACK</a> = (1 &lt;&lt; 31)
+, <br />
+&#160;&#160;<a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446ba41af3ad7ade494109db521f4165623eb">AT_TYPE_WOLF_ATTACK</a> = (1 &lt;&lt; 31)
 , <a class="el" href="c__cc__d_8h.html#a7ea8b37907a43d95917839ea058b446bac6fabb731c91c87bfc880dcb34fb9ba9">AT_TYPE_UNK</a> = 0xD8000000
 <br />
  }</td></tr>
@@ -271,7 +314,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343" name="a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343"></a>AT_TYPE_NORMAL_SWORD&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba4e139b6c29a1b5f9919de3ed0baae581" name="a7ea8b37907a43d95917839ea058b446ba4e139b6c29a1b5f9919de3ed0baae581"></a>AT_TYPE_0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba5487345e2b234a2afdeb9f2e39667be1" name="a7ea8b37907a43d95917839ea058b446ba5487345e2b234a2afdeb9f2e39667be1"></a>AT_TYPE_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343" name="a7ea8b37907a43d95917839ea058b446ba552d7bae9843d785b14e02468ac68343"></a>AT_TYPE_NORMAL_SWORD&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba2d6328f4cbb5123fbe9d7e9a1b4db6da" name="a7ea8b37907a43d95917839ea058b446ba2d6328f4cbb5123fbe9d7e9a1b4db6da"></a>AT_TYPE_HORSE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446bac9ddbeed1178895da0a72611580d6d28" name="a7ea8b37907a43d95917839ea058b446bac9ddbeed1178895da0a72611580d6d28"></a>AT_TYPE_THROW_OBJ&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7ea8b37907a43d95917839ea058b446ba7ee42b119b1db4ac53344813196a061e" name="a7ea8b37907a43d95917839ea058b446ba7ee42b119b1db4ac53344813196a061e"></a>AT_TYPE_SHIELD_ATTACK&#160;</td><td class="fielddoc"></td></tr>
@@ -488,9 +533,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_54283da8a0cf1311a88c964d76512876.html">SSystem</a></li><li class="navelem"><a class="el" href="dir_3827de488e3dc5670df2ba05bd5c1e8a.html">SComponent</a></li><li class="navelem"><a class="el" href="c__cc__d_8h.html">c_cc_d.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

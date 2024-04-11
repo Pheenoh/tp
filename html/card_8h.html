@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/card.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('card_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,36 +139,15 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">card.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for card.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="card_8h__incl.svg" width="158" height="184"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="card_8h__dep__incl.svg" width="100%" height="383"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="card_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -113,135 +156,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCARDStat.html">CARDStat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a6d20df621daea0550d229df6d780c17b" id="r_a6d20df621daea0550d229df6d780c17b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a6d20df621daea0550d229df6d780c17b">CARD_ENCODE_ANSI</a>&#160;&#160;&#160;0u</td></tr>
-<tr class="separator:a6d20df621daea0550d229df6d780c17b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63f8c89cc1cbd3469aa117afbd3b845b" id="r_a63f8c89cc1cbd3469aa117afbd3b845b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a63f8c89cc1cbd3469aa117afbd3b845b">CARD_ENCODE_SJIS</a>&#160;&#160;&#160;1u</td></tr>
-<tr class="separator:a63f8c89cc1cbd3469aa117afbd3b845b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8472a64ead239f16582552d0bffc768" id="r_af8472a64ead239f16582552d0bffc768"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#af8472a64ead239f16582552d0bffc768">CARD_WORKAREA_SIZE</a>&#160;&#160;&#160;(5 * 8 * 1024)</td></tr>
-<tr class="separator:af8472a64ead239f16582552d0bffc768"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45a2ffd0702b8a89e7e06762c34b732e" id="r_a45a2ffd0702b8a89e7e06762c34b732e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a45a2ffd0702b8a89e7e06762c34b732e">CARD_READ_SIZE</a>&#160;&#160;&#160;512</td></tr>
-<tr class="separator:a45a2ffd0702b8a89e7e06762c34b732e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af09abc947ee4aa230511bfadddc23b36" id="r_af09abc947ee4aa230511bfadddc23b36"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#af09abc947ee4aa230511bfadddc23b36">CARD_MAX_FILE</a>&#160;&#160;&#160;127</td></tr>
-<tr class="separator:af09abc947ee4aa230511bfadddc23b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9056d537b2b01e6ad049f8786eb244c" id="r_ac9056d537b2b01e6ad049f8786eb244c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ac9056d537b2b01e6ad049f8786eb244c">CARD_COMMENT_SIZE</a>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:ac9056d537b2b01e6ad049f8786eb244c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a474e81aef82e1c0244e0a9e97413b695" id="r_a474e81aef82e1c0244e0a9e97413b695"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a474e81aef82e1c0244e0a9e97413b695">CARD_FILENAME_MAX</a>&#160;&#160;&#160;32</td></tr>
-<tr class="separator:a474e81aef82e1c0244e0a9e97413b695"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83f58c28cc6831723e1d70c8615f857a" id="r_a83f58c28cc6831723e1d70c8615f857a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a83f58c28cc6831723e1d70c8615f857a">CARD_ICON_MAX</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a83f58c28cc6831723e1d70c8615f857a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8a7c34ab8fad037182576ed70858a8a" id="r_ae8a7c34ab8fad037182576ed70858a8a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae8a7c34ab8fad037182576ed70858a8a">CARD_ICON_WIDTH</a>&#160;&#160;&#160;32</td></tr>
-<tr class="separator:ae8a7c34ab8fad037182576ed70858a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad1ee2a1601f419ff93afc4f73589b9a" id="r_aad1ee2a1601f419ff93afc4f73589b9a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aad1ee2a1601f419ff93afc4f73589b9a">CARD_ICON_HEIGHT</a>&#160;&#160;&#160;32</td></tr>
-<tr class="separator:aad1ee2a1601f419ff93afc4f73589b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac00a012b2feacfe188066c60d07daa08" id="r_ac00a012b2feacfe188066c60d07daa08"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ac00a012b2feacfe188066c60d07daa08">CARD_BANNER_WIDTH</a>&#160;&#160;&#160;96</td></tr>
-<tr class="separator:ac00a012b2feacfe188066c60d07daa08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb793aefa7c0550af36b40802879ff05" id="r_abb793aefa7c0550af36b40802879ff05"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#abb793aefa7c0550af36b40802879ff05">CARD_BANNER_HEIGHT</a>&#160;&#160;&#160;32</td></tr>
-<tr class="separator:abb793aefa7c0550af36b40802879ff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bd1ac6374aa944430faca68a4fea9c1" id="r_a0bd1ac6374aa944430faca68a4fea9c1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0bd1ac6374aa944430faca68a4fea9c1">CARD_MODE_NORMAL</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a0bd1ac6374aa944430faca68a4fea9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67035fd0f49339b3ea533ce72beb202" id="r_ae67035fd0f49339b3ea533ce72beb202"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae67035fd0f49339b3ea533ce72beb202">CARD_MODE_FAST</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ae67035fd0f49339b3ea533ce72beb202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae850598f8eccd3502a4d07c737eef6ab" id="r_ae850598f8eccd3502a4d07c737eef6ab"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae850598f8eccd3502a4d07c737eef6ab">CARDGetBannerFormat</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat) &amp; <a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>)</td></tr>
-<tr class="separator:ae850598f8eccd3502a4d07c737eef6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9e1243cb938307319390e06b101026" id="r_a0c9e1243cb938307319390e06b101026"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0c9e1243cb938307319390e06b101026">CARDGetIconAnim</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat) &amp; <a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>)</td></tr>
-<tr class="separator:a0c9e1243cb938307319390e06b101026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3a27f8f2ed0933654973f23c1b9151" id="r_acf3a27f8f2ed0933654973f23c1b9151"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#acf3a27f8f2ed0933654973f23c1b9151">CARDGetIconFormat</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconFormat &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td></tr>
-<tr class="separator:acf3a27f8f2ed0933654973f23c1b9151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c9bf7876f86801ea2be26fc52e371f" id="r_a63c9bf7876f86801ea2be26fc52e371f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a63c9bf7876f86801ea2be26fc52e371f">CARDGetIconSpeed</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconSpeed &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td></tr>
-<tr class="separator:a63c9bf7876f86801ea2be26fc52e371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae336df7487cc6d5259fb7682f7335196" id="r_ae336df7487cc6d5259fb7682f7335196"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae336df7487cc6d5259fb7682f7335196">CARDSetBannerFormat</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  f)&#160;&#160;&#160;  ((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>) | (f)))</td></tr>
-<tr class="separator:ae336df7487cc6d5259fb7682f7335196"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a553bdaa563736714aaa9acabf4caf7c7" id="r_a553bdaa563736714aaa9acabf4caf7c7"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a553bdaa563736714aaa9acabf4caf7c7">CARDSetIconAnim</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  f)&#160;&#160;&#160;  ((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>) | (f)))</td></tr>
-<tr class="separator:a553bdaa563736714aaa9acabf4caf7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d327cf5613f0a4d3305555cc6503ab" id="r_a77d327cf5613f0a4d3305555cc6503ab"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a77d327cf5613f0a4d3305555cc6503ab">CARDSetIconFormat</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>,  f)</td></tr>
-<tr class="separator:a77d327cf5613f0a4d3305555cc6503ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32eb0417ca3305c9c9a53dd878de8703" id="r_a32eb0417ca3305c9c9a53dd878de8703"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a32eb0417ca3305c9c9a53dd878de8703">CARDSetIconSpeed</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>,  f)</td></tr>
-<tr class="separator:a32eb0417ca3305c9c9a53dd878de8703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d29b488df413d4cffe161f0c7121fbc" id="r_a2d29b488df413d4cffe161f0c7121fbc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a2d29b488df413d4cffe161f0c7121fbc">CARDSetIconAddress</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  addr)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconAddr = (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)(addr))</td></tr>
-<tr class="separator:a2d29b488df413d4cffe161f0c7121fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a100d24951135b11cd21fe32be25b9a80" id="r_a100d24951135b11cd21fe32be25b9a80"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a100d24951135b11cd21fe32be25b9a80">CARDSetCommentAddress</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>,  addr)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;commentAddr = (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)(addr))</td></tr>
-<tr class="separator:a100d24951135b11cd21fe32be25b9a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b78dbf7fae513e4db34d9dae4909aea" id="r_a9b78dbf7fae513e4db34d9dae4909aea"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a9b78dbf7fae513e4db34d9dae4909aea">CARDGetFileNo</a>(fileInfo)&#160;&#160;&#160;((fileInfo)-&gt;fileNo)</td></tr>
-<tr class="separator:a9b78dbf7fae513e4db34d9dae4909aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a385b991f750bf4118c4b1dbc56fbe892" id="r_a385b991f750bf4118c4b1dbc56fbe892"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a385b991f750bf4118c4b1dbc56fbe892">CARD_RESULT_UNLOCKED</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a385b991f750bf4118c4b1dbc56fbe892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1801cbb38a2949890a1585132617a2f" id="r_ae1801cbb38a2949890a1585132617a2f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae1801cbb38a2949890a1585132617a2f">CARD_RESULT_READY</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:ae1801cbb38a2949890a1585132617a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34041af0379dfee7dc4efe864964cc7b" id="r_a34041af0379dfee7dc4efe864964cc7b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a34041af0379dfee7dc4efe864964cc7b">CARD_RESULT_BUSY</a>&#160;&#160;&#160;-1</td></tr>
-<tr class="separator:a34041af0379dfee7dc4efe864964cc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a062d397f5606fc0df23340691012a0" id="r_a5a062d397f5606fc0df23340691012a0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a5a062d397f5606fc0df23340691012a0">CARD_RESULT_WRONGDEVICE</a>&#160;&#160;&#160;-2</td></tr>
-<tr class="separator:a5a062d397f5606fc0df23340691012a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bb587c18f066d73753cc22aedfaf241" id="r_a1bb587c18f066d73753cc22aedfaf241"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a1bb587c18f066d73753cc22aedfaf241">CARD_RESULT_NOCARD</a>&#160;&#160;&#160;-3</td></tr>
-<tr class="separator:a1bb587c18f066d73753cc22aedfaf241"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7bd94be95d5bd98cc3e2db5383622d" id="r_a5d7bd94be95d5bd98cc3e2db5383622d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a5d7bd94be95d5bd98cc3e2db5383622d">CARD_RESULT_NOFILE</a>&#160;&#160;&#160;-4</td></tr>
-<tr class="separator:a5d7bd94be95d5bd98cc3e2db5383622d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37fb26324ed3b26df3d63a4f962d70d5" id="r_a37fb26324ed3b26df3d63a4f962d70d5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a37fb26324ed3b26df3d63a4f962d70d5">CARD_RESULT_IOERROR</a>&#160;&#160;&#160;-5</td></tr>
-<tr class="separator:a37fb26324ed3b26df3d63a4f962d70d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade36d0f524a0e4cbfb28b13c5c0faeb3" id="r_ade36d0f524a0e4cbfb28b13c5c0faeb3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ade36d0f524a0e4cbfb28b13c5c0faeb3">CARD_RESULT_BROKEN</a>&#160;&#160;&#160;-6</td></tr>
-<tr class="separator:ade36d0f524a0e4cbfb28b13c5c0faeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a520da3f7a20f12b41cd58f0a8913ead4" id="r_a520da3f7a20f12b41cd58f0a8913ead4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a520da3f7a20f12b41cd58f0a8913ead4">CARD_RESULT_EXIST</a>&#160;&#160;&#160;-7</td></tr>
-<tr class="separator:a520da3f7a20f12b41cd58f0a8913ead4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c063ea7b3a1d43e73d3e9c8e62e69c4" id="r_a1c063ea7b3a1d43e73d3e9c8e62e69c4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a1c063ea7b3a1d43e73d3e9c8e62e69c4">CARD_RESULT_NOENT</a>&#160;&#160;&#160;-8</td></tr>
-<tr class="separator:a1c063ea7b3a1d43e73d3e9c8e62e69c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4568e6d13efa9f368aa262cfef09ddbd" id="r_a4568e6d13efa9f368aa262cfef09ddbd"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a4568e6d13efa9f368aa262cfef09ddbd">CARD_RESULT_INSSPACE</a>&#160;&#160;&#160;-9</td></tr>
-<tr class="separator:a4568e6d13efa9f368aa262cfef09ddbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6984c7e6ce75ce319a267fa73f26aa62" id="r_a6984c7e6ce75ce319a267fa73f26aa62"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a6984c7e6ce75ce319a267fa73f26aa62">CARD_RESULT_NOPERM</a>&#160;&#160;&#160;-10</td></tr>
-<tr class="separator:a6984c7e6ce75ce319a267fa73f26aa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8824e7bc29c65aae9d12f3a900e40bc6" id="r_a8824e7bc29c65aae9d12f3a900e40bc6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a8824e7bc29c65aae9d12f3a900e40bc6">CARD_RESULT_LIMIT</a>&#160;&#160;&#160;-11</td></tr>
-<tr class="separator:a8824e7bc29c65aae9d12f3a900e40bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f95dea18e935ede4318ae6e3b413781" id="r_a4f95dea18e935ede4318ae6e3b413781"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a4f95dea18e935ede4318ae6e3b413781">CARD_RESULT_NAMETOOLONG</a>&#160;&#160;&#160;-12</td></tr>
-<tr class="separator:a4f95dea18e935ede4318ae6e3b413781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a111de023e5c8fb89dba828f1a1339576" id="r_a111de023e5c8fb89dba828f1a1339576"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a111de023e5c8fb89dba828f1a1339576">CARD_RESULT_ENCODING</a>&#160;&#160;&#160;-13</td></tr>
-<tr class="separator:a111de023e5c8fb89dba828f1a1339576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f89011ef6698e9fd451c3572befec1d" id="r_a8f89011ef6698e9fd451c3572befec1d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a8f89011ef6698e9fd451c3572befec1d">CARD_RESULT_CANCELED</a>&#160;&#160;&#160;-14</td></tr>
-<tr class="separator:a8f89011ef6698e9fd451c3572befec1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3fac86ba93f99b25489dc23b5cb417" id="r_a9d3fac86ba93f99b25489dc23b5cb417"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a9d3fac86ba93f99b25489dc23b5cb417">CARD_RESULT_FATAL_ERROR</a>&#160;&#160;&#160;-128</td></tr>
-<tr class="separator:a9d3fac86ba93f99b25489dc23b5cb417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa5a0a81004d24d467b0dc8923950912" id="r_afa5a0a81004d24d467b0dc8923950912"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#afa5a0a81004d24d467b0dc8923950912">CARD_STAT_ICON_NONE</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:afa5a0a81004d24d467b0dc8923950912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8ef3e8337d3f8a112ff60ff69a5120" id="r_acd8ef3e8337d3f8a112ff60ff69a5120"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#acd8ef3e8337d3f8a112ff60ff69a5120">CARD_STAT_ICON_C8</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:acd8ef3e8337d3f8a112ff60ff69a5120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0561388798976b83e0a00ee8d985b3a6" id="r_a0561388798976b83e0a00ee8d985b3a6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0561388798976b83e0a00ee8d985b3a6">CARD_STAT_ICON_RGB5A3</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a0561388798976b83e0a00ee8d985b3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6a851e251673023b12c40300f4fee4f" id="r_aa6a851e251673023b12c40300f4fee4f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:aa6a851e251673023b12c40300f4fee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83ae1ed3ed7844fc12ad8fc6decf57b9" id="r_a83ae1ed3ed7844fc12ad8fc6decf57b9"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a83ae1ed3ed7844fc12ad8fc6decf57b9">CARD_STAT_BANNER_NONE</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a83ae1ed3ed7844fc12ad8fc6decf57b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62650cbb8596a28bb70680435c1d9d60" id="r_a62650cbb8596a28bb70680435c1d9d60"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a62650cbb8596a28bb70680435c1d9d60">CARD_STAT_BANNER_C8</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a62650cbb8596a28bb70680435c1d9d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d6a23e59f9f1e5944a01af095012674" id="r_a3d6a23e59f9f1e5944a01af095012674"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a3d6a23e59f9f1e5944a01af095012674">CARD_STAT_BANNER_RGB5A3</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a3d6a23e59f9f1e5944a01af095012674"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a7b74e527d1fdef8764018cccb8ca4" id="r_a44a7b74e527d1fdef8764018cccb8ca4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a44a7b74e527d1fdef8764018cccb8ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32c2e9ccc0f981b1fcd9bd09ca6d69bc" id="r_a32c2e9ccc0f981b1fcd9bd09ca6d69bc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a32c2e9ccc0f981b1fcd9bd09ca6d69bc">CARD_STAT_ANIM_LOOP</a>&#160;&#160;&#160;0x00</td></tr>
-<tr class="separator:a32c2e9ccc0f981b1fcd9bd09ca6d69bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86c222c0af4378450b8230c3738bdd73" id="r_a86c222c0af4378450b8230c3738bdd73"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a86c222c0af4378450b8230c3738bdd73">CARD_STAT_ANIM_BOUNCE</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:a86c222c0af4378450b8230c3738bdd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1ac762b417900df56cbca6a9f701b7d" id="r_ae1ac762b417900df56cbca6a9f701b7d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>&#160;&#160;&#160;0x04</td></tr>
-<tr class="separator:ae1ac762b417900df56cbca6a9f701b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6ab8eee865651e735f3dfdcc581b99c" id="r_af6ab8eee865651e735f3dfdcc581b99c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#af6ab8eee865651e735f3dfdcc581b99c">CARD_STAT_SPEED_END</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:af6ab8eee865651e735f3dfdcc581b99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4fb8e2bf371a5a1e3314d4050a31074" id="r_ac4fb8e2bf371a5a1e3314d4050a31074"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ac4fb8e2bf371a5a1e3314d4050a31074">CARD_STAT_SPEED_FAST</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ac4fb8e2bf371a5a1e3314d4050a31074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0691ab9e5ff2554e9f8dba16bf1705ec" id="r_a0691ab9e5ff2554e9f8dba16bf1705ec"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0691ab9e5ff2554e9f8dba16bf1705ec">CARD_STAT_SPEED_MIDDLE</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a0691ab9e5ff2554e9f8dba16bf1705ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff6a40f39c94865e8cc2d340153d23f" id="r_aaff6a40f39c94865e8cc2d340153d23f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aaff6a40f39c94865e8cc2d340153d23f">CARD_STAT_SPEED_SLOW</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:aaff6a40f39c94865e8cc2d340153d23f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa778bb0777183d7be32aac22008de161" id="r_aa778bb0777183d7be32aac22008de161"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:aa778bb0777183d7be32aac22008de161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5417d4e309530e08898a8d244584ff62" id="r_a5417d4e309530e08898a8d244584ff62"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a5417d4e309530e08898a8d244584ff62">CARD_ATTR_PUBLIC</a>&#160;&#160;&#160;0x04u</td></tr>
-<tr class="separator:a5417d4e309530e08898a8d244584ff62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2774a90bfa43bfea2628b2c14b834fba" id="r_a2774a90bfa43bfea2628b2c14b834fba"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a2774a90bfa43bfea2628b2c14b834fba">CARD_ATTR_NO_COPY</a>&#160;&#160;&#160;0x08u</td></tr>
-<tr class="separator:a2774a90bfa43bfea2628b2c14b834fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bd7fb393512507e73ed854c0ed58ec3" id="r_a2bd7fb393512507e73ed854c0ed58ec3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a2bd7fb393512507e73ed854c0ed58ec3">CARD_ATTR_NO_MOVE</a>&#160;&#160;&#160;0x10u</td></tr>
-<tr class="separator:a2bd7fb393512507e73ed854c0ed58ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d7fd76a1deafe756fae407f8811ea8c" id="r_a0d7fd76a1deafe756fae407f8811ea8c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0d7fd76a1deafe756fae407f8811ea8c">CARD_ATTR_GLOBAL</a>&#160;&#160;&#160;0x20u</td></tr>
-<tr class="separator:a0d7fd76a1deafe756fae407f8811ea8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c413b9695dd894fec2cedb24884a57b" id="r_a7c413b9695dd894fec2cedb24884a57b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a7c413b9695dd894fec2cedb24884a57b">CARD_ATTR_COMPANY</a>&#160;&#160;&#160;0x40u</td></tr>
-<tr class="separator:a7c413b9695dd894fec2cedb24884a57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -301,1034 +215,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4117538eea40285632b3996b6ecaa37a" id="r_a4117538eea40285632b3996b6ecaa37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a4117538eea40285632b3996b6ecaa37a">CARDWrite</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">buf</a>, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)</td></tr>
 <tr class="separator:a4117538eea40285632b3996b6ecaa37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a7c413b9695dd894fec2cedb24884a57b" name="a7c413b9695dd894fec2cedb24884a57b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c413b9695dd894fec2cedb24884a57b">&#9670;&#160;</a></span>CARD_ATTR_COMPANY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ATTR_COMPANY&#160;&#160;&#160;0x40u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d7fd76a1deafe756fae407f8811ea8c" name="a0d7fd76a1deafe756fae407f8811ea8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d7fd76a1deafe756fae407f8811ea8c">&#9670;&#160;</a></span>CARD_ATTR_GLOBAL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ATTR_GLOBAL&#160;&#160;&#160;0x20u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2774a90bfa43bfea2628b2c14b834fba" name="a2774a90bfa43bfea2628b2c14b834fba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2774a90bfa43bfea2628b2c14b834fba">&#9670;&#160;</a></span>CARD_ATTR_NO_COPY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ATTR_NO_COPY&#160;&#160;&#160;0x08u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2bd7fb393512507e73ed854c0ed58ec3" name="a2bd7fb393512507e73ed854c0ed58ec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bd7fb393512507e73ed854c0ed58ec3">&#9670;&#160;</a></span>CARD_ATTR_NO_MOVE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ATTR_NO_MOVE&#160;&#160;&#160;0x10u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5417d4e309530e08898a8d244584ff62" name="a5417d4e309530e08898a8d244584ff62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5417d4e309530e08898a8d244584ff62">&#9670;&#160;</a></span>CARD_ATTR_PUBLIC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ATTR_PUBLIC&#160;&#160;&#160;0x04u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abb793aefa7c0550af36b40802879ff05" name="abb793aefa7c0550af36b40802879ff05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb793aefa7c0550af36b40802879ff05">&#9670;&#160;</a></span>CARD_BANNER_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_BANNER_HEIGHT&#160;&#160;&#160;32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac00a012b2feacfe188066c60d07daa08" name="ac00a012b2feacfe188066c60d07daa08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac00a012b2feacfe188066c60d07daa08">&#9670;&#160;</a></span>CARD_BANNER_WIDTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_BANNER_WIDTH&#160;&#160;&#160;96</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac9056d537b2b01e6ad049f8786eb244c" name="ac9056d537b2b01e6ad049f8786eb244c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9056d537b2b01e6ad049f8786eb244c">&#9670;&#160;</a></span>CARD_COMMENT_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_COMMENT_SIZE&#160;&#160;&#160;64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d20df621daea0550d229df6d780c17b" name="a6d20df621daea0550d229df6d780c17b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d20df621daea0550d229df6d780c17b">&#9670;&#160;</a></span>CARD_ENCODE_ANSI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ENCODE_ANSI&#160;&#160;&#160;0u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a63f8c89cc1cbd3469aa117afbd3b845b" name="a63f8c89cc1cbd3469aa117afbd3b845b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63f8c89cc1cbd3469aa117afbd3b845b">&#9670;&#160;</a></span>CARD_ENCODE_SJIS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ENCODE_SJIS&#160;&#160;&#160;1u</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a474e81aef82e1c0244e0a9e97413b695" name="a474e81aef82e1c0244e0a9e97413b695"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a474e81aef82e1c0244e0a9e97413b695">&#9670;&#160;</a></span>CARD_FILENAME_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_FILENAME_MAX&#160;&#160;&#160;32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad1ee2a1601f419ff93afc4f73589b9a" name="aad1ee2a1601f419ff93afc4f73589b9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad1ee2a1601f419ff93afc4f73589b9a">&#9670;&#160;</a></span>CARD_ICON_HEIGHT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ICON_HEIGHT&#160;&#160;&#160;32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a83f58c28cc6831723e1d70c8615f857a" name="a83f58c28cc6831723e1d70c8615f857a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83f58c28cc6831723e1d70c8615f857a">&#9670;&#160;</a></span>CARD_ICON_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ICON_MAX&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae8a7c34ab8fad037182576ed70858a8a" name="ae8a7c34ab8fad037182576ed70858a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8a7c34ab8fad037182576ed70858a8a">&#9670;&#160;</a></span>CARD_ICON_WIDTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_ICON_WIDTH&#160;&#160;&#160;32</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af09abc947ee4aa230511bfadddc23b36" name="af09abc947ee4aa230511bfadddc23b36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af09abc947ee4aa230511bfadddc23b36">&#9670;&#160;</a></span>CARD_MAX_FILE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_MAX_FILE&#160;&#160;&#160;127</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae67035fd0f49339b3ea533ce72beb202" name="ae67035fd0f49339b3ea533ce72beb202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae67035fd0f49339b3ea533ce72beb202">&#9670;&#160;</a></span>CARD_MODE_FAST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_MODE_FAST&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0bd1ac6374aa944430faca68a4fea9c1" name="a0bd1ac6374aa944430faca68a4fea9c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bd1ac6374aa944430faca68a4fea9c1">&#9670;&#160;</a></span>CARD_MODE_NORMAL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_MODE_NORMAL&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45a2ffd0702b8a89e7e06762c34b732e" name="a45a2ffd0702b8a89e7e06762c34b732e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45a2ffd0702b8a89e7e06762c34b732e">&#9670;&#160;</a></span>CARD_READ_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_READ_SIZE&#160;&#160;&#160;512</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade36d0f524a0e4cbfb28b13c5c0faeb3" name="ade36d0f524a0e4cbfb28b13c5c0faeb3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade36d0f524a0e4cbfb28b13c5c0faeb3">&#9670;&#160;</a></span>CARD_RESULT_BROKEN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_BROKEN&#160;&#160;&#160;-6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a34041af0379dfee7dc4efe864964cc7b" name="a34041af0379dfee7dc4efe864964cc7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34041af0379dfee7dc4efe864964cc7b">&#9670;&#160;</a></span>CARD_RESULT_BUSY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_BUSY&#160;&#160;&#160;-1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8f89011ef6698e9fd451c3572befec1d" name="a8f89011ef6698e9fd451c3572befec1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f89011ef6698e9fd451c3572befec1d">&#9670;&#160;</a></span>CARD_RESULT_CANCELED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_CANCELED&#160;&#160;&#160;-14</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a111de023e5c8fb89dba828f1a1339576" name="a111de023e5c8fb89dba828f1a1339576"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a111de023e5c8fb89dba828f1a1339576">&#9670;&#160;</a></span>CARD_RESULT_ENCODING</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_ENCODING&#160;&#160;&#160;-13</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a520da3f7a20f12b41cd58f0a8913ead4" name="a520da3f7a20f12b41cd58f0a8913ead4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a520da3f7a20f12b41cd58f0a8913ead4">&#9670;&#160;</a></span>CARD_RESULT_EXIST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_EXIST&#160;&#160;&#160;-7</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9d3fac86ba93f99b25489dc23b5cb417" name="a9d3fac86ba93f99b25489dc23b5cb417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3fac86ba93f99b25489dc23b5cb417">&#9670;&#160;</a></span>CARD_RESULT_FATAL_ERROR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_FATAL_ERROR&#160;&#160;&#160;-128</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4568e6d13efa9f368aa262cfef09ddbd" name="a4568e6d13efa9f368aa262cfef09ddbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4568e6d13efa9f368aa262cfef09ddbd">&#9670;&#160;</a></span>CARD_RESULT_INSSPACE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_INSSPACE&#160;&#160;&#160;-9</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37fb26324ed3b26df3d63a4f962d70d5" name="a37fb26324ed3b26df3d63a4f962d70d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37fb26324ed3b26df3d63a4f962d70d5">&#9670;&#160;</a></span>CARD_RESULT_IOERROR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_IOERROR&#160;&#160;&#160;-5</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8824e7bc29c65aae9d12f3a900e40bc6" name="a8824e7bc29c65aae9d12f3a900e40bc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8824e7bc29c65aae9d12f3a900e40bc6">&#9670;&#160;</a></span>CARD_RESULT_LIMIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_LIMIT&#160;&#160;&#160;-11</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4f95dea18e935ede4318ae6e3b413781" name="a4f95dea18e935ede4318ae6e3b413781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f95dea18e935ede4318ae6e3b413781">&#9670;&#160;</a></span>CARD_RESULT_NAMETOOLONG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_NAMETOOLONG&#160;&#160;&#160;-12</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1bb587c18f066d73753cc22aedfaf241" name="a1bb587c18f066d73753cc22aedfaf241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bb587c18f066d73753cc22aedfaf241">&#9670;&#160;</a></span>CARD_RESULT_NOCARD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_NOCARD&#160;&#160;&#160;-3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1c063ea7b3a1d43e73d3e9c8e62e69c4" name="a1c063ea7b3a1d43e73d3e9c8e62e69c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c063ea7b3a1d43e73d3e9c8e62e69c4">&#9670;&#160;</a></span>CARD_RESULT_NOENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_NOENT&#160;&#160;&#160;-8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d7bd94be95d5bd98cc3e2db5383622d" name="a5d7bd94be95d5bd98cc3e2db5383622d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d7bd94be95d5bd98cc3e2db5383622d">&#9670;&#160;</a></span>CARD_RESULT_NOFILE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_NOFILE&#160;&#160;&#160;-4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6984c7e6ce75ce319a267fa73f26aa62" name="a6984c7e6ce75ce319a267fa73f26aa62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6984c7e6ce75ce319a267fa73f26aa62">&#9670;&#160;</a></span>CARD_RESULT_NOPERM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_NOPERM&#160;&#160;&#160;-10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1801cbb38a2949890a1585132617a2f" name="ae1801cbb38a2949890a1585132617a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1801cbb38a2949890a1585132617a2f">&#9670;&#160;</a></span>CARD_RESULT_READY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_READY&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a385b991f750bf4118c4b1dbc56fbe892" name="a385b991f750bf4118c4b1dbc56fbe892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a385b991f750bf4118c4b1dbc56fbe892">&#9670;&#160;</a></span>CARD_RESULT_UNLOCKED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_UNLOCKED&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a062d397f5606fc0df23340691012a0" name="a5a062d397f5606fc0df23340691012a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a062d397f5606fc0df23340691012a0">&#9670;&#160;</a></span>CARD_RESULT_WRONGDEVICE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_RESULT_WRONGDEVICE&#160;&#160;&#160;-2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86c222c0af4378450b8230c3738bdd73" name="a86c222c0af4378450b8230c3738bdd73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86c222c0af4378450b8230c3738bdd73">&#9670;&#160;</a></span>CARD_STAT_ANIM_BOUNCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ANIM_BOUNCE&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a32c2e9ccc0f981b1fcd9bd09ca6d69bc" name="a32c2e9ccc0f981b1fcd9bd09ca6d69bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32c2e9ccc0f981b1fcd9bd09ca6d69bc">&#9670;&#160;</a></span>CARD_STAT_ANIM_LOOP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ANIM_LOOP&#160;&#160;&#160;0x00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1ac762b417900df56cbca6a9f701b7d" name="ae1ac762b417900df56cbca6a9f701b7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1ac762b417900df56cbca6a9f701b7d">&#9670;&#160;</a></span>CARD_STAT_ANIM_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ANIM_MASK&#160;&#160;&#160;0x04</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62650cbb8596a28bb70680435c1d9d60" name="a62650cbb8596a28bb70680435c1d9d60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62650cbb8596a28bb70680435c1d9d60">&#9670;&#160;</a></span>CARD_STAT_BANNER_C8</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_BANNER_C8&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44a7b74e527d1fdef8764018cccb8ca4" name="a44a7b74e527d1fdef8764018cccb8ca4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a7b74e527d1fdef8764018cccb8ca4">&#9670;&#160;</a></span>CARD_STAT_BANNER_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_BANNER_MASK&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a83ae1ed3ed7844fc12ad8fc6decf57b9" name="a83ae1ed3ed7844fc12ad8fc6decf57b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83ae1ed3ed7844fc12ad8fc6decf57b9">&#9670;&#160;</a></span>CARD_STAT_BANNER_NONE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_BANNER_NONE&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3d6a23e59f9f1e5944a01af095012674" name="a3d6a23e59f9f1e5944a01af095012674"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d6a23e59f9f1e5944a01af095012674">&#9670;&#160;</a></span>CARD_STAT_BANNER_RGB5A3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_BANNER_RGB5A3&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd8ef3e8337d3f8a112ff60ff69a5120" name="acd8ef3e8337d3f8a112ff60ff69a5120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd8ef3e8337d3f8a112ff60ff69a5120">&#9670;&#160;</a></span>CARD_STAT_ICON_C8</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ICON_C8&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa6a851e251673023b12c40300f4fee4f" name="aa6a851e251673023b12c40300f4fee4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6a851e251673023b12c40300f4fee4f">&#9670;&#160;</a></span>CARD_STAT_ICON_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ICON_MASK&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afa5a0a81004d24d467b0dc8923950912" name="afa5a0a81004d24d467b0dc8923950912"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa5a0a81004d24d467b0dc8923950912">&#9670;&#160;</a></span>CARD_STAT_ICON_NONE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ICON_NONE&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0561388798976b83e0a00ee8d985b3a6" name="a0561388798976b83e0a00ee8d985b3a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0561388798976b83e0a00ee8d985b3a6">&#9670;&#160;</a></span>CARD_STAT_ICON_RGB5A3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_ICON_RGB5A3&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af6ab8eee865651e735f3dfdcc581b99c" name="af6ab8eee865651e735f3dfdcc581b99c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6ab8eee865651e735f3dfdcc581b99c">&#9670;&#160;</a></span>CARD_STAT_SPEED_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_SPEED_END&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4fb8e2bf371a5a1e3314d4050a31074" name="ac4fb8e2bf371a5a1e3314d4050a31074"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4fb8e2bf371a5a1e3314d4050a31074">&#9670;&#160;</a></span>CARD_STAT_SPEED_FAST</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_SPEED_FAST&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa778bb0777183d7be32aac22008de161" name="aa778bb0777183d7be32aac22008de161"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa778bb0777183d7be32aac22008de161">&#9670;&#160;</a></span>CARD_STAT_SPEED_MASK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_SPEED_MASK&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0691ab9e5ff2554e9f8dba16bf1705ec" name="a0691ab9e5ff2554e9f8dba16bf1705ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0691ab9e5ff2554e9f8dba16bf1705ec">&#9670;&#160;</a></span>CARD_STAT_SPEED_MIDDLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_SPEED_MIDDLE&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaff6a40f39c94865e8cc2d340153d23f" name="aaff6a40f39c94865e8cc2d340153d23f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaff6a40f39c94865e8cc2d340153d23f">&#9670;&#160;</a></span>CARD_STAT_SPEED_SLOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_STAT_SPEED_SLOW&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8472a64ead239f16582552d0bffc768" name="af8472a64ead239f16582552d0bffc768"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8472a64ead239f16582552d0bffc768">&#9670;&#160;</a></span>CARD_WORKAREA_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARD_WORKAREA_SIZE&#160;&#160;&#160;(5 * 8 * 1024)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae850598f8eccd3502a4d07c737eef6ab" name="ae850598f8eccd3502a4d07c737eef6ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae850598f8eccd3502a4d07c737eef6ab">&#9670;&#160;</a></span>CARDGetBannerFormat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDGetBannerFormat</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat) &amp; <a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9b78dbf7fae513e4db34d9dae4909aea" name="a9b78dbf7fae513e4db34d9dae4909aea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b78dbf7fae513e4db34d9dae4909aea">&#9670;&#160;</a></span>CARDGetFileNo</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDGetFileNo</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">fileInfo</td><td>)</td>
-          <td>&#160;&#160;&#160;((fileInfo)-&gt;fileNo)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c9e1243cb938307319390e06b101026" name="a0c9e1243cb938307319390e06b101026"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c9e1243cb938307319390e06b101026">&#9670;&#160;</a></span>CARDGetIconAnim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDGetIconAnim</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat) &amp; <a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acf3a27f8f2ed0933654973f23c1b9151" name="acf3a27f8f2ed0933654973f23c1b9151"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf3a27f8f2ed0933654973f23c1b9151">&#9670;&#160;</a></span>CARDGetIconFormat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDGetIconFormat</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconFormat &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a63c9bf7876f86801ea2be26fc52e371f" name="a63c9bf7876f86801ea2be26fc52e371f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63c9bf7876f86801ea2be26fc52e371f">&#9670;&#160;</a></span>CARDGetIconSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDGetIconSpeed</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconSpeed &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae336df7487cc6d5259fb7682f7335196" name="ae336df7487cc6d5259fb7682f7335196"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae336df7487cc6d5259fb7682f7335196">&#9670;&#160;</a></span>CARDSetBannerFormat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetBannerFormat</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">f&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  ((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>) | (f)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a100d24951135b11cd21fe32be25b9a80" name="a100d24951135b11cd21fe32be25b9a80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a100d24951135b11cd21fe32be25b9a80">&#9670;&#160;</a></span>CARDSetCommentAddress</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetCommentAddress</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">addr&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;commentAddr = (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)(addr))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d29b488df413d4cffe161f0c7121fbc" name="a2d29b488df413d4cffe161f0c7121fbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d29b488df413d4cffe161f0c7121fbc">&#9670;&#160;</a></span>CARDSetIconAddress</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetIconAddress</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">addr&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconAddr = (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)(addr))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a553bdaa563736714aaa9acabf4caf7c7" name="a553bdaa563736714aaa9acabf4caf7c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553bdaa563736714aaa9acabf4caf7c7">&#9670;&#160;</a></span>CARDSetIconAnim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetIconAnim</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">f&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  ((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>) | (f)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a77d327cf5613f0a4d3305555cc6503ab" name="a77d327cf5613f0a4d3305555cc6503ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d327cf5613f0a4d3305555cc6503ab">&#9670;&#160;</a></span>CARDSetIconFormat</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetIconFormat</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">f&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  ((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconFormat =                                                                            \</div>
-<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconFormat &amp; ~(<a class="code hl_define" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a> &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))) | ((f) &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))))</div>
-<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
-<div class="ttc" id="acard_8h_html_aa6a851e251673023b12c40300f4fee4f"><div class="ttname"><a href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a></div><div class="ttdeci">#define CARD_STAT_ICON_MASK</div><div class="ttdef"><b>Definition</b> card.h:68</div></div>
-<div class="ttc" id="ainit_8h_html_a7ff3cacc14747d630cb3e5b9426c9c6e"><div class="ttname"><a href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a></div><div class="ttdeci">int size_t n</div><div class="ttdef"><b>Definition</b> init.h:10</div></div>
-<div class="ttc" id="atypes_8h_html_a9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition</b> types.h:9</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a32eb0417ca3305c9c9a53dd878de8703" name="a32eb0417ca3305c9c9a53dd878de8703"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32eb0417ca3305c9c9a53dd878de8703">&#9670;&#160;</a></span>CARDSetIconSpeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> CARDSetIconSpeed</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">f&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  ((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconSpeed =                                                                             \</div>
-<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">stat</a>)-&gt;iconSpeed &amp; ~(<a class="code hl_define" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a> &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))) | ((f) &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))))</div>
-<div class="ttc" id="acard_8h_html_aa778bb0777183d7be32aac22008de161"><div class="ttname"><a href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a></div><div class="ttdeci">#define CARD_STAT_SPEED_MASK</div><div class="ttdef"><b>Definition</b> card.h:83</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a7e14558c66d616c768d3a6f73bd640a6" name="a7e14558c66d616c768d3a6f73bd640a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e14558c66d616c768d3a6f73bd640a6">&#9670;&#160;</a></span>CARDCallback</h2>
@@ -2152,9 +1038,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="card_8h.html">card.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

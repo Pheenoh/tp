@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/os/OSTime.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('OSTime_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,72 +139,22 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_cae10961887f0d641c054afc85dac474.html">os</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">OSTime.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for OSTime.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="OSTime_8h__incl.svg" width="136" height="199"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="OSTime_8h__dep__incl.svg" width="100%" height="538"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="OSTime_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOSCalendarTime.html">OSCalendarTime</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a86a02c5cd51c9719d4741048193bbb54" id="r_a86a02c5cd51c9719d4741048193bbb54"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a86a02c5cd51c9719d4741048193bbb54">OS_BUS_CLOCK</a>&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#a3a9d25ac9723844e113e9282e6ff8e27">__OSBusClock</a>)</td></tr>
-<tr class="separator:a86a02c5cd51c9719d4741048193bbb54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73ac22d5e2756eb8ebf89a603228206a" id="r_a73ac22d5e2756eb8ebf89a603228206a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a73ac22d5e2756eb8ebf89a603228206a">OS_CORE_CLOCK</a>&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>*)0x800000FC)</td></tr>
-<tr class="separator:a73ac22d5e2756eb8ebf89a603228206a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab825b9df03eb172646dc925c08b74ba6" id="r_ab825b9df03eb172646dc925c08b74ba6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#a86a02c5cd51c9719d4741048193bbb54">OS_BUS_CLOCK</a> / 4)</td></tr>
-<tr class="separator:ab825b9df03eb172646dc925c08b74ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d53af35fc6ee4d5283da485502ec584" id="r_a2d53af35fc6ee4d5283da485502ec584"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a2d53af35fc6ee4d5283da485502ec584">OS_TIMER_CLOCK_MS</a>&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000)</td></tr>
-<tr class="separator:a2d53af35fc6ee4d5283da485502ec584"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33c81c81d793a709ef2d5ffb56eb3b1c" id="r_a33c81c81d793a709ef2d5ffb56eb3b1c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a33c81c81d793a709ef2d5ffb56eb3b1c">OSTicksToCycles</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) * ((<a class="el" href="OSTime_8h.html#a73ac22d5e2756eb8ebf89a603228206a">OS_CORE_CLOCK</a> * 2) / <a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)) / 2)</td></tr>
-<tr class="separator:a33c81c81d793a709ef2d5ffb56eb3b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4ad4710edca1090a1d9cf64dae86209" id="r_ab4ad4710edca1090a1d9cf64dae86209"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#ab4ad4710edca1090a1d9cf64dae86209">OSTicksToSeconds</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) / <a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)</td></tr>
-<tr class="separator:ab4ad4710edca1090a1d9cf64dae86209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aaf8e898b79bd50c4c99ba39ff5a212" id="r_a3aaf8e898b79bd50c4c99ba39ff5a212"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a3aaf8e898b79bd50c4c99ba39ff5a212">OSTicksToMilliseconds</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000))</td></tr>
-<tr class="separator:a3aaf8e898b79bd50c4c99ba39ff5a212"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad40d99c102c0db19099f2b98ac8cb6bf" id="r_ad40d99c102c0db19099f2b98ac8cb6bf"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#ad40d99c102c0db19099f2b98ac8cb6bf">OSTicksToMicroseconds</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)*8) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000))</td></tr>
-<tr class="separator:ad40d99c102c0db19099f2b98ac8cb6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85492c74e9e0c92b092674c804c4a362" id="r_a85492c74e9e0c92b092674c804c4a362"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a85492c74e9e0c92b092674c804c4a362">OSTicksToNanoseconds</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)*8000) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000))</td></tr>
-<tr class="separator:a85492c74e9e0c92b092674c804c4a362"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee55c950df9feb2a1e298b629c7a7f84" id="r_aee55c950df9feb2a1e298b629c7a7f84"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#aee55c950df9feb2a1e298b629c7a7f84">OSSecondsToTicks</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sec</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sec</a>)*<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)</td></tr>
-<tr class="separator:aee55c950df9feb2a1e298b629c7a7f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde69beba66827e5d5c0922046bc6318" id="r_afde69beba66827e5d5c0922046bc6318"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#afde69beba66827e5d5c0922046bc6318">OSMillisecondsToTicks</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">msec</a>)&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">msec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000))</td></tr>
-<tr class="separator:afde69beba66827e5d5c0922046bc6318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75df5864dbe3bb0b1cd88ca7a0b8f0c0" id="r_a75df5864dbe3bb0b1cd88ca7a0b8f0c0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a75df5864dbe3bb0b1cd88ca7a0b8f0c0">OSMicrosecondsToTicks</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">usec</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">usec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000)) / 8)</td></tr>
-<tr class="separator:a75df5864dbe3bb0b1cd88ca7a0b8f0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3011cbc24e69d84b06c541ab5227f0a" id="r_aa3011cbc24e69d84b06c541ab5227f0a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#aa3011cbc24e69d84b06c541ab5227f0a">OSNanosecondsToTicks</a>(<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">nsec</a>)&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">nsec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000)) / 8000)</td></tr>
-<tr class="separator:aa3011cbc24e69d84b06c541ab5227f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -173,225 +187,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a3a9d25ac9723844e113e9282e6ff8e27" id="r_a3a9d25ac9723844e113e9282e6ff8e27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="OSTime_8h.html#a3a9d25ac9723844e113e9282e6ff8e27">__OSBusClock</a></td></tr>
 <tr class="separator:a3a9d25ac9723844e113e9282e6ff8e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a86a02c5cd51c9719d4741048193bbb54" name="a86a02c5cd51c9719d4741048193bbb54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a02c5cd51c9719d4741048193bbb54">&#9670;&#160;</a></span>OS_BUS_CLOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OS_BUS_CLOCK&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#a3a9d25ac9723844e113e9282e6ff8e27">__OSBusClock</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a73ac22d5e2756eb8ebf89a603228206a" name="a73ac22d5e2756eb8ebf89a603228206a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73ac22d5e2756eb8ebf89a603228206a">&#9670;&#160;</a></span>OS_CORE_CLOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OS_CORE_CLOCK&#160;&#160;&#160;(*(<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>*)0x800000FC)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab825b9df03eb172646dc925c08b74ba6" name="ab825b9df03eb172646dc925c08b74ba6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab825b9df03eb172646dc925c08b74ba6">&#9670;&#160;</a></span>OS_TIMER_CLOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OS_TIMER_CLOCK&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#a86a02c5cd51c9719d4741048193bbb54">OS_BUS_CLOCK</a> / 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d53af35fc6ee4d5283da485502ec584" name="a2d53af35fc6ee4d5283da485502ec584"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d53af35fc6ee4d5283da485502ec584">&#9670;&#160;</a></span>OS_TIMER_CLOCK_MS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OS_TIMER_CLOCK_MS&#160;&#160;&#160;(<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a75df5864dbe3bb0b1cd88ca7a0b8f0c0" name="a75df5864dbe3bb0b1cd88ca7a0b8f0c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75df5864dbe3bb0b1cd88ca7a0b8f0c0">&#9670;&#160;</a></span>OSMicrosecondsToTicks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSMicrosecondsToTicks</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">usec</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">usec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000)) / 8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afde69beba66827e5d5c0922046bc6318" name="afde69beba66827e5d5c0922046bc6318"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afde69beba66827e5d5c0922046bc6318">&#9670;&#160;</a></span>OSMillisecondsToTicks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSMillisecondsToTicks</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">msec</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">msec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3011cbc24e69d84b06c541ab5227f0a" name="aa3011cbc24e69d84b06c541ab5227f0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3011cbc24e69d84b06c541ab5227f0a">&#9670;&#160;</a></span>OSNanosecondsToTicks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSNanosecondsToTicks</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">nsec</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">nsec</a>) * (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000)) / 8000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aee55c950df9feb2a1e298b629c7a7f84" name="aee55c950df9feb2a1e298b629c7a7f84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee55c950df9feb2a1e298b629c7a7f84">&#9670;&#160;</a></span>OSSecondsToTicks</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSSecondsToTicks</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sec</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sec</a>)*<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a33c81c81d793a709ef2d5ffb56eb3b1c" name="a33c81c81d793a709ef2d5ffb56eb3b1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33c81c81d793a709ef2d5ffb56eb3b1c">&#9670;&#160;</a></span>OSTicksToCycles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSTicksToCycles</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) * ((<a class="el" href="OSTime_8h.html#a73ac22d5e2756eb8ebf89a603228206a">OS_CORE_CLOCK</a> * 2) / <a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)) / 2)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad40d99c102c0db19099f2b98ac8cb6bf" name="ad40d99c102c0db19099f2b98ac8cb6bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad40d99c102c0db19099f2b98ac8cb6bf">&#9670;&#160;</a></span>OSTicksToMicroseconds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSTicksToMicroseconds</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)*8) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3aaf8e898b79bd50c4c99ba39ff5a212" name="a3aaf8e898b79bd50c4c99ba39ff5a212"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aaf8e898b79bd50c4c99ba39ff5a212">&#9670;&#160;</a></span>OSTicksToMilliseconds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSTicksToMilliseconds</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 1000))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a85492c74e9e0c92b092674c804c4a362" name="a85492c74e9e0c92b092674c804c4a362"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85492c74e9e0c92b092674c804c4a362">&#9670;&#160;</a></span>OSTicksToNanoseconds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSTicksToNanoseconds</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>)*8000) / (<a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a> / 125000))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab4ad4710edca1090a1d9cf64dae86209" name="ab4ad4710edca1090a1d9cf64dae86209"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4ad4710edca1090a1d9cf64dae86209">&#9670;&#160;</a></span>OSTicksToSeconds</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> OSTicksToSeconds</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">ticks</a>) / <a class="el" href="OSTime_8h.html#ab825b9df03eb172646dc925c08b74ba6">OS_TIMER_CLOCK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a3d2dd4b82471f30d5bb6cd07898815d7" name="a3d2dd4b82471f30d5bb6cd07898815d7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d2dd4b82471f30d5bb6cd07898815d7">&#9670;&#160;</a></span>OSCalendarTime</h2>
@@ -602,9 +397,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_cae10961887f0d641c054afc85dac474.html">os</a></li><li class="navelem"><a class="el" href="OSTime_8h.html">OSTime.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

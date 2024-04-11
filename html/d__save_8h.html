@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/d/save/d_save.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d__save_8h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,48 +139,22 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_cc3ad1aed4be3f446fdd7af78322f5bf.html">d</a></li><li class="navelem"><a class="el" href="dir_f5c20fa067f9c0ab7f2aa79dd79c023a.html">save</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">d_save.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="string_8h_source.html">string.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="c__xyz_8h_source.html">SSystem/SComponent/c_xyz.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="OSTime_8h_source.html">dolphin/os/OSTime.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__save__bit__labels_8inc_source.html">d/save/d_save_bit_labels.inc</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__save__temp__bit__labels_8inc_source.html">d/save/d_save_temp_bit_labels.inc</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for d_save.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__save_8h__incl.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__save_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div>
+
 <p><a href="d__save_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__status__a__c.html">dSv_player_status_a_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__status__b__c.html">dSv_player_status_b_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__status__b__c.html">dSv_player_status_b_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__horse__place__c.html">dSv_horse_place_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,23 +164,23 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__last__mark__info__c.html">dSv_player_last_mark_info_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__c.html">dSv_player_item_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__c.html">dSv_player_item_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__get__item__c.html">dSv_player_get_item_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__get__item__c.html">dSv_player_get_item_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__record__c.html">dSv_player_item_record_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__record__c.html">dSv_player_item_record_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__max__c.html">dSv_player_item_max_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__item__max__c.html">dSv_player_item_max_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__collect__c.html">dSv_player_collect_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__collect__c.html">dSv_player_collect_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__wolf__c.html">dSv_player_wolf_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__light__drop__c.html">dSv_light_drop_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__light__drop__c.html">dSv_light_drop_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__letter__info__c.html">dSv_letter_info_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__fishing__info__c.html">dSv_fishing_info_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__fishing__info__c.html">dSv_fishing_info_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__info__c.html">dSv_player_info_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,9 +188,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__player__c.html">dSv_player_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__memBit__c.html">dSv_memBit_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__memBit__c.html">dSv_memBit_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__event__c.html">dSv_event_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__event__c.html">dSv_event_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__MiniGame__c.html">dSv_MiniGame_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,7 +198,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__memory2__c.html">dSv_memory2_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__danBit__c.html">dSv_danBit_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__danBit__c.html">dSv_danBit_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__zoneBit__c.html">dSv_zoneBit_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,7 +206,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__zone__c.html">dSv_zone_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__restart__c.html">dSv_restart_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__restart__c.html">dSv_restart_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__turnRestart__c.html">dSv_turnRestart_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,71 +216,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__save__c.html">dSv_save_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__info__c.html">dSv_info_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__info__c.html">dSv_info_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__event__flag__c.html">dSv_event_flag_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdSv__event__flag__c.html">dSv_event_flag_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__event__tmp__flag__c.html">dSv_event_tmp_flag_c</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdSv__event__tmp__flag__c.html">dSv_event_tmp_flag_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a3ff7f259e89fabcd2418a45b5b5cbce5" id="r_a3ff7f259e89fabcd2418a45b5b5cbce5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a3ff7f259e89fabcd2418a45b5b5cbce5">DEFAULT_SELECT_ITEM_INDEX</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a3ff7f259e89fabcd2418a45b5b5cbce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa81e4358e60fa5195668bfe07f7b5173" id="r_aa81e4358e60fa5195668bfe07f7b5173"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#aa81e4358e60fa5195668bfe07f7b5173">MAX_SELECT_ITEM</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:aa81e4358e60fa5195668bfe07f7b5173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4d0001337c980e4f9f3ed3b0d16cac6" id="r_af4d0001337c980e4f9f3ed3b0d16cac6"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#af4d0001337c980e4f9f3ed3b0d16cac6">SELECT_ITEM_NUM</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:af4d0001337c980e4f9f3ed3b0d16cac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecfd8e94de18446767548b7eba3d3b07" id="r_aecfd8e94de18446767548b7eba3d3b07"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#aecfd8e94de18446767548b7eba3d3b07">MAX_EQUIPMENT</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:aecfd8e94de18446767548b7eba3d3b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae42954bb8545d24e3e9dcde5920c9a0b" id="r_ae42954bb8545d24e3e9dcde5920c9a0b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ae42954bb8545d24e3e9dcde5920c9a0b">MAX_EVENTS</a>&#160;&#160;&#160;256</td></tr>
-<tr class="separator:ae42954bb8545d24e3e9dcde5920c9a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a729f4ffbd795db913bebb235882c1185" id="r_a729f4ffbd795db913bebb235882c1185"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a729f4ffbd795db913bebb235882c1185">MAX_ITEM_SLOTS</a>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:a729f4ffbd795db913bebb235882c1185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab33908adcf0731110db7e2c429a5693f" id="r_ab33908adcf0731110db7e2c429a5693f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ab33908adcf0731110db7e2c429a5693f">LIGHT_DROP_STAGE</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:ab33908adcf0731110db7e2c429a5693f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54347ceb85ca9ecbaad8b3f42bcca65a" id="r_a54347ceb85ca9ecbaad8b3f42bcca65a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a54347ceb85ca9ecbaad8b3f42bcca65a">LETTER_INFO_BIT</a>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:a54347ceb85ca9ecbaad8b3f42bcca65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a379ad9c8f409cb5bf4e41bebe584b6b2" id="r_a379ad9c8f409cb5bf4e41bebe584b6b2"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a379ad9c8f409cb5bf4e41bebe584b6b2">MAX_INSECT_NUM</a>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:a379ad9c8f409cb5bf4e41bebe584b6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b4b1d966fa07279de8b3b3066f163a1" id="r_a0b4b1d966fa07279de8b3b3066f163a1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a0b4b1d966fa07279de8b3b3066f163a1">MAX_VISIBLE_HEARTPIECES</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a0b4b1d966fa07279de8b3b3066f163a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac586b0f5ff458a51855aa8cd53cf97a4" id="r_ac586b0f5ff458a51855aa8cd53cf97a4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ac586b0f5ff458a51855aa8cd53cf97a4">MAX_POH_NUM</a>&#160;&#160;&#160;100</td></tr>
-<tr class="separator:ac586b0f5ff458a51855aa8cd53cf97a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbe1030412b516dea408c4e196e2e8c3" id="r_abbe1030412b516dea408c4e196e2e8c3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#abbe1030412b516dea408c4e196e2e8c3">BOMB_BAG_MAX</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:abbe1030412b516dea408c4e196e2e8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8050b007b8d2757090cd0d60314e4b5f" id="r_a8050b007b8d2757090cd0d60314e4b5f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a8050b007b8d2757090cd0d60314e4b5f">BOTTLE_MAX</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a8050b007b8d2757090cd0d60314e4b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64c057020835ff228b7e29600beac303" id="r_a64c057020835ff228b7e29600beac303"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a64c057020835ff228b7e29600beac303">TBOX_MAX</a>&#160;&#160;&#160;64</td></tr>
-<tr class="separator:a64c057020835ff228b7e29600beac303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7b5fb97f10ea213fa338b09bcbe7a39" id="r_ac7b5fb97f10ea213fa338b09bcbe7a39"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ac7b5fb97f10ea213fa338b09bcbe7a39">DSV_MEMBIT_ENUM_MAX</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:ac7b5fb97f10ea213fa338b09bcbe7a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c33a92a1febe1f6c6ba6dc6db58657" id="r_a31c33a92a1febe1f6c6ba6dc6db58657"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a31c33a92a1febe1f6c6ba6dc6db58657">ITEM_MAX_DAN</a>&#160;&#160;&#160;128</td></tr>
-<tr class="separator:a31c33a92a1febe1f6c6ba6dc6db58657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa7e509e088d22ea5a5ea0f13fca514" id="r_adfa7e509e088d22ea5a5ea0f13fca514"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#adfa7e509e088d22ea5a5ea0f13fca514">SWITCH_ZONE_MAX</a>&#160;&#160;&#160;0x20</td></tr>
-<tr class="separator:adfa7e509e088d22ea5a5ea0f13fca514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fe03e8759cb7a053d026d629e770f6c" id="r_a4fe03e8759cb7a053d026d629e770f6c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a4fe03e8759cb7a053d026d629e770f6c">SWITCH_ONE_ZONE_MAX</a>&#160;&#160;&#160;0x10</td></tr>
-<tr class="separator:a4fe03e8759cb7a053d026d629e770f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a6474994283a94bb331dd42b1f328c4" id="r_a9a6474994283a94bb331dd42b1f328c4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a9a6474994283a94bb331dd42b1f328c4">ITEM_ZONE_MAX</a>&#160;&#160;&#160;0x20</td></tr>
-<tr class="separator:a9a6474994283a94bb331dd42b1f328c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0ede3d22365de0551f58d6edf91351e" id="r_af0ede3d22365de0551f58d6edf91351e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#af0ede3d22365de0551f58d6edf91351e">ITEM_ONE_ZONE_MAX</a>&#160;&#160;&#160;0x10</td></tr>
-<tr class="separator:af0ede3d22365de0551f58d6edf91351e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f28642d970073645ad2a5c07306237a" id="r_a7f28642d970073645ad2a5c07306237a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a7f28642d970073645ad2a5c07306237a">QUEST_LOG_SIZE</a>&#160;&#160;&#160;0xA94</td></tr>
-<tr class="separator:a7f28642d970073645ad2a5c07306237a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc527526c793332a6166ba0cb6a016af" id="r_afc527526c793332a6166ba0cb6a016af"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#afc527526c793332a6166ba0cb6a016af">QUIVER_MAX</a>&#160;&#160;&#160;30</td></tr>
-<tr class="separator:afc527526c793332a6166ba0cb6a016af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac297d73a97218f6e5bd8bad460f0576c" id="r_ac297d73a97218f6e5bd8bad460f0576c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ac297d73a97218f6e5bd8bad460f0576c">BIG_QUIVER_MAX</a>&#160;&#160;&#160;60</td></tr>
-<tr class="separator:ac297d73a97218f6e5bd8bad460f0576c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac269fb96537ccd7e876afdbd30db9420" id="r_ac269fb96537ccd7e876afdbd30db9420"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ac269fb96537ccd7e876afdbd30db9420">GIANT_QUIVER_MAX</a>&#160;&#160;&#160;100</td></tr>
-<tr class="separator:ac269fb96537ccd7e876afdbd30db9420"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8510c3f5a82fa867b9e3dd1ac81cd0d" id="r_ad8510c3f5a82fa867b9e3dd1ac81cd0d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#ad8510c3f5a82fa867b9e3dd1ac81cd0d">WALLET_MAX</a>&#160;&#160;&#160;300</td></tr>
-<tr class="separator:ad8510c3f5a82fa867b9e3dd1ac81cd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1424fb0930950d7f2b68a0e7c94abd" id="r_a8d1424fb0930950d7f2b68a0e7c94abd"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a8d1424fb0930950d7f2b68a0e7c94abd">BIG_WALLET_MAX</a>&#160;&#160;&#160;600</td></tr>
-<tr class="separator:a8d1424fb0930950d7f2b68a0e7c94abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e5de3f7ca26aff0557672c9fcdec989" id="r_a4e5de3f7ca26aff0557672c9fcdec989"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a4e5de3f7ca26aff0557672c9fcdec989">GIANT_WALLET_MAX</a>&#160;&#160;&#160;1000</td></tr>
-<tr class="separator:a4e5de3f7ca26aff0557672c9fcdec989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaf3d3c2224e2103cd092ec01a5a0daa" id="r_aeaf3d3c2224e2103cd092ec01a5a0daa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#aeaf3d3c2224e2103cd092ec01a5a0daa">MAX_FINDABLE_FISHES</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:aeaf3d3c2224e2103cd092ec01a5a0daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -686,399 +665,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a14d08ee4e3d8eb1c54e22ac48f149bf1" id="r_a14d08ee4e3d8eb1c54e22ac48f149bf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__save_8h.html#a14d08ee4e3d8eb1c54e22ac48f149bf1">STATIC_ASSERT</a> (<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">sizeof</a>(<a class="el" href="classdSv__zone__c.html">dSv_zone_c</a>)==0x20)</td></tr>
 <tr class="separator:a14d08ee4e3d8eb1c54e22ac48f149bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac297d73a97218f6e5bd8bad460f0576c" name="ac297d73a97218f6e5bd8bad460f0576c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac297d73a97218f6e5bd8bad460f0576c">&#9670;&#160;</a></span>BIG_QUIVER_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> BIG_QUIVER_MAX&#160;&#160;&#160;60</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d1424fb0930950d7f2b68a0e7c94abd" name="a8d1424fb0930950d7f2b68a0e7c94abd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d1424fb0930950d7f2b68a0e7c94abd">&#9670;&#160;</a></span>BIG_WALLET_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> BIG_WALLET_MAX&#160;&#160;&#160;600</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abbe1030412b516dea408c4e196e2e8c3" name="abbe1030412b516dea408c4e196e2e8c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbe1030412b516dea408c4e196e2e8c3">&#9670;&#160;</a></span>BOMB_BAG_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> BOMB_BAG_MAX&#160;&#160;&#160;3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8050b007b8d2757090cd0d60314e4b5f" name="a8050b007b8d2757090cd0d60314e4b5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8050b007b8d2757090cd0d60314e4b5f">&#9670;&#160;</a></span>BOTTLE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> BOTTLE_MAX&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ff7f259e89fabcd2418a45b5b5cbce5" name="a3ff7f259e89fabcd2418a45b5b5cbce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ff7f259e89fabcd2418a45b5b5cbce5">&#9670;&#160;</a></span>DEFAULT_SELECT_ITEM_INDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DEFAULT_SELECT_ITEM_INDEX&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7b5fb97f10ea213fa338b09bcbe7a39" name="ac7b5fb97f10ea213fa338b09bcbe7a39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7b5fb97f10ea213fa338b09bcbe7a39">&#9670;&#160;</a></span>DSV_MEMBIT_ENUM_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> DSV_MEMBIT_ENUM_MAX&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac269fb96537ccd7e876afdbd30db9420" name="ac269fb96537ccd7e876afdbd30db9420"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac269fb96537ccd7e876afdbd30db9420">&#9670;&#160;</a></span>GIANT_QUIVER_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GIANT_QUIVER_MAX&#160;&#160;&#160;100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4e5de3f7ca26aff0557672c9fcdec989" name="a4e5de3f7ca26aff0557672c9fcdec989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e5de3f7ca26aff0557672c9fcdec989">&#9670;&#160;</a></span>GIANT_WALLET_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> GIANT_WALLET_MAX&#160;&#160;&#160;1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a31c33a92a1febe1f6c6ba6dc6db58657" name="a31c33a92a1febe1f6c6ba6dc6db58657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31c33a92a1febe1f6c6ba6dc6db58657">&#9670;&#160;</a></span>ITEM_MAX_DAN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> ITEM_MAX_DAN&#160;&#160;&#160;128</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af0ede3d22365de0551f58d6edf91351e" name="af0ede3d22365de0551f58d6edf91351e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0ede3d22365de0551f58d6edf91351e">&#9670;&#160;</a></span>ITEM_ONE_ZONE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> ITEM_ONE_ZONE_MAX&#160;&#160;&#160;0x10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9a6474994283a94bb331dd42b1f328c4" name="a9a6474994283a94bb331dd42b1f328c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a6474994283a94bb331dd42b1f328c4">&#9670;&#160;</a></span>ITEM_ZONE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> ITEM_ZONE_MAX&#160;&#160;&#160;0x20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54347ceb85ca9ecbaad8b3f42bcca65a" name="a54347ceb85ca9ecbaad8b3f42bcca65a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54347ceb85ca9ecbaad8b3f42bcca65a">&#9670;&#160;</a></span>LETTER_INFO_BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> LETTER_INFO_BIT&#160;&#160;&#160;64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab33908adcf0731110db7e2c429a5693f" name="ab33908adcf0731110db7e2c429a5693f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab33908adcf0731110db7e2c429a5693f">&#9670;&#160;</a></span>LIGHT_DROP_STAGE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> LIGHT_DROP_STAGE&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aecfd8e94de18446767548b7eba3d3b07" name="aecfd8e94de18446767548b7eba3d3b07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecfd8e94de18446767548b7eba3d3b07">&#9670;&#160;</a></span>MAX_EQUIPMENT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_EQUIPMENT&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae42954bb8545d24e3e9dcde5920c9a0b" name="ae42954bb8545d24e3e9dcde5920c9a0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae42954bb8545d24e3e9dcde5920c9a0b">&#9670;&#160;</a></span>MAX_EVENTS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_EVENTS&#160;&#160;&#160;256</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeaf3d3c2224e2103cd092ec01a5a0daa" name="aeaf3d3c2224e2103cd092ec01a5a0daa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaf3d3c2224e2103cd092ec01a5a0daa">&#9670;&#160;</a></span>MAX_FINDABLE_FISHES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_FINDABLE_FISHES&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a379ad9c8f409cb5bf4e41bebe584b6b2" name="a379ad9c8f409cb5bf4e41bebe584b6b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a379ad9c8f409cb5bf4e41bebe584b6b2">&#9670;&#160;</a></span>MAX_INSECT_NUM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_INSECT_NUM&#160;&#160;&#160;24</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a729f4ffbd795db913bebb235882c1185" name="a729f4ffbd795db913bebb235882c1185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a729f4ffbd795db913bebb235882c1185">&#9670;&#160;</a></span>MAX_ITEM_SLOTS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_ITEM_SLOTS&#160;&#160;&#160;24</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac586b0f5ff458a51855aa8cd53cf97a4" name="ac586b0f5ff458a51855aa8cd53cf97a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac586b0f5ff458a51855aa8cd53cf97a4">&#9670;&#160;</a></span>MAX_POH_NUM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_POH_NUM&#160;&#160;&#160;100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa81e4358e60fa5195668bfe07f7b5173" name="aa81e4358e60fa5195668bfe07f7b5173"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa81e4358e60fa5195668bfe07f7b5173">&#9670;&#160;</a></span>MAX_SELECT_ITEM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_SELECT_ITEM&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b4b1d966fa07279de8b3b3066f163a1" name="a0b4b1d966fa07279de8b3b3066f163a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b4b1d966fa07279de8b3b3066f163a1">&#9670;&#160;</a></span>MAX_VISIBLE_HEARTPIECES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> MAX_VISIBLE_HEARTPIECES&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f28642d970073645ad2a5c07306237a" name="a7f28642d970073645ad2a5c07306237a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f28642d970073645ad2a5c07306237a">&#9670;&#160;</a></span>QUEST_LOG_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> QUEST_LOG_SIZE&#160;&#160;&#160;0xA94</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afc527526c793332a6166ba0cb6a016af" name="afc527526c793332a6166ba0cb6a016af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc527526c793332a6166ba0cb6a016af">&#9670;&#160;</a></span>QUIVER_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> QUIVER_MAX&#160;&#160;&#160;30</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af4d0001337c980e4f9f3ed3b0d16cac6" name="af4d0001337c980e4f9f3ed3b0d16cac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4d0001337c980e4f9f3ed3b0d16cac6">&#9670;&#160;</a></span>SELECT_ITEM_NUM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SELECT_ITEM_NUM&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4fe03e8759cb7a053d026d629e770f6c" name="a4fe03e8759cb7a053d026d629e770f6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fe03e8759cb7a053d026d629e770f6c">&#9670;&#160;</a></span>SWITCH_ONE_ZONE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SWITCH_ONE_ZONE_MAX&#160;&#160;&#160;0x10</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adfa7e509e088d22ea5a5ea0f13fca514" name="adfa7e509e088d22ea5a5ea0f13fca514"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa7e509e088d22ea5a5ea0f13fca514">&#9670;&#160;</a></span>SWITCH_ZONE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> SWITCH_ZONE_MAX&#160;&#160;&#160;0x20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a64c057020835ff228b7e29600beac303" name="a64c057020835ff228b7e29600beac303"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64c057020835ff228b7e29600beac303">&#9670;&#160;</a></span>TBOX_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> TBOX_MAX&#160;&#160;&#160;64</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad8510c3f5a82fa867b9e3dd1ac81cd0d" name="ad8510c3f5a82fa867b9e3dd1ac81cd0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8510c3f5a82fa867b9e3dd1ac81cd0d">&#9670;&#160;</a></span>WALLET_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">define</a> WALLET_MAX&#160;&#160;&#160;300</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a9334a5b9057f32da96db9b5c6a045d67" name="a9334a5b9057f32da96db9b5c6a045d67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9334a5b9057f32da96db9b5c6a045d67">&#9670;&#160;</a></span>anonymous enum</h2>
@@ -1653,9 +1239,13 @@ Functions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_cc3ad1aed4be3f446fdd7af78322f5bf.html">d</a></li><li class="navelem"><a class="el" href="dir_f5c20fa067f9c0ab7f2aa79dd79c023a.html">save</a></li><li class="navelem"><a class="el" href="d__save_8h.html">d_save.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

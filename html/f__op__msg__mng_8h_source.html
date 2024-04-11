@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/f_op/f_op_msg_mng.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('f__op__msg__mng_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fbb29e8cafd745cbb7106b56de6b5377.html">f_op</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">f_op_msg_mng.h</div></div>
 </div><!--header-->
@@ -95,9 +154,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="c__xyz_8h.html">SSystem/SComponent/c_xyz.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="f__pc__leaf_8h.html">f_pc/f_pc_leaf.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span><a class="code hl_class" href="structJKRExpHeap.html">JKRExpHeap</a>;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_class" href="structJKRHeap.html">JKRHeap</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_class" href="structfopAc__ac__c.html">fopAc_ac_c</a>;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span><a class="code hl_struct" href="structJKRExpHeap.html">JKRExpHeap</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">class </span><a class="code hl_struct" href="structJKRHeap.html">JKRHeap</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">class </span><a class="code hl_struct" href="structfopAc__ac__c.html">fopAc_ac_c</a>;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">class </span><a class="code hl_class" href="classmsg__class.html">msg_class</a>;</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
@@ -109,7 +168,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="foldopen" id="foldopen00017" data-start="{" data-end="};">
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html">   17</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structfopMsg__prm__class.html">fopMsg_prm_class</a> {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html#a4a4b6dac227d2f718cdb2bf66e7b8262">   18</a></span>    <span class="comment">/* 0x00 */</span> <a class="code hl_class" href="structfopAc__ac__c.html">fopAc_ac_c</a>* <a class="code hl_variable" href="structfopMsg__prm__class.html#a4a4b6dac227d2f718cdb2bf66e7b8262">mpActor</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html#a4a4b6dac227d2f718cdb2bf66e7b8262">   18</a></span>    <span class="comment">/* 0x00 */</span> <a class="code hl_struct" href="structfopAc__ac__c.html">fopAc_ac_c</a>* <a class="code hl_variable" href="structfopMsg__prm__class.html#a4a4b6dac227d2f718cdb2bf66e7b8262">mpActor</a>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html#ae5370638bd44e518ee64e98b8ea82b8d">   19</a></span>    <span class="comment">/* 0x04 */</span> <a class="code hl_struct" href="structcXyz.html">cXyz</a> <a class="code hl_variable" href="structfopMsg__prm__class.html#ae5370638bd44e518ee64e98b8ea82b8d">mPos</a>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html#a8f0ccc712f81526f299cff01e9e92f3d">   20</a></span>    <span class="comment">/* 0x10 */</span> <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structfopMsg__prm__class.html#a8f0ccc712f81526f299cff01e9e92f3d">mMsgID</a>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structfopMsg__prm__class.html#a3e8009357863ac0c1891fa958dc4320b">   21</a></span>    <span class="comment">/* 0x14 */</span> <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structfopMsg__prm__class.html#a3e8009357863ac0c1891fa958dc4320b">field_0x14</a>;</div>
@@ -132,17 +191,17 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="f__op__msg__mng_8h.html#aad21030ae44b5149148f3c09ad3b8a5d">   36</a></span><span class="keyword">typedef</span> int (*<a class="code hl_typedef" href="f__op__msg__mng_8h.html#aad21030ae44b5149148f3c09ad3b8a5d">fopMsgCreateFunc</a>)(<span class="keywordtype">void</span>*);</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><a class="code hl_class" href="structJKRExpHeap.html">JKRExpHeap</a>* <a class="code hl_function" href="f__op__msg__mng_8h.html#a98d27601741e6fa57b43386969df2a02">fopMsgM_createExpHeap</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, <a class="code hl_class" href="structJKRHeap.html">JKRHeap</a>*);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><a class="code hl_struct" href="structJKRExpHeap.html">JKRExpHeap</a>* <a class="code hl_function" href="f__op__msg__mng_8h.html#a98d27601741e6fa57b43386969df2a02">fopMsgM_createExpHeap</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>, <a class="code hl_struct" href="structJKRHeap.html">JKRHeap</a>*);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_function" href="f__op__msg__mng_8h.html#a25cc415a7a5e91838559851994c35359">fopMsgM_Create</a>(<a class="code hl_typedef" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>, <a class="code hl_typedef" href="f__op__msg__mng_8h.html#aad21030ae44b5149148f3c09ad3b8a5d">fopMsgCreateFunc</a>, <span class="keywordtype">void</span>*);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="code hl_function" href="f__op__msg__mng_8h.html#a5f4c57a12176bc1d08d40fbdc259675b">fopMsgM_create</a>(<a class="code hl_typedef" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_0, <a class="code hl_class" href="structfopAc__ac__c.html">fopAc_ac_c</a>* param_1, <a class="code hl_struct" href="structcXyz.html">cXyz</a>* param_2, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>* param_3, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>* param_4,</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="code hl_function" href="f__op__msg__mng_8h.html#a5f4c57a12176bc1d08d40fbdc259675b">fopMsgM_create</a>(<a class="code hl_typedef" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> param_0, <a class="code hl_struct" href="structfopAc__ac__c.html">fopAc_ac_c</a>* param_1, <a class="code hl_struct" href="structcXyz.html">cXyz</a>* param_2, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>* param_3, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>* param_4,</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                   <a class="code hl_typedef" href="f__op__msg__mng_8h.html#aad21030ae44b5149148f3c09ad3b8a5d">fopMsgCreateFunc</a> <a class="code hl_typedef" href="f__op__actor__mng_8h.html#a0b41bbbca8c43cd70ec786a2a4314295">createFunc</a>);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">void</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#abb80384132425e62ba5c34e557d0f12c">fopMsgM_Delete</a>(<span class="keywordtype">void</span>* <a class="code hl_variable" href="d__menu__collect_8cpp.html#a8a725d5963fbbcaa6547d2fe05988992">process</a>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keywordtype">void</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#abb80384132425e62ba5c34e557d0f12c">fopMsgM_Delete</a>(<span class="keywordtype">void</span>* <a class="code hl_variable" href="d__menu__collect_8cpp.html#a0d7b414ba8858c5707a752ce5308fbf1">process</a>);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><a class="code hl_struct" href="structfopMsg__prm__class.html">fopMsg_prm_class</a>* <a class="code hl_function" href="f__op__msg__mng_8h.html#a7e122b4996394d96e8853ff59e02f6cb">fopMsgM_GetAppend</a>(<span class="keywordtype">void</span>* msg);</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">void</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#ae747de37567d0eba7d0ee11c490523f0">fopMsgM_setMessageID</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">void</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#ae4d289cd172081e37844fd21e39cf550">fopMsgM_destroyExpHeap</a>(<a class="code hl_class" href="structJKRExpHeap.html">JKRExpHeap</a>*);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keywordtype">void</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#ae4d289cd172081e37844fd21e39cf550">fopMsgM_destroyExpHeap</a>(<a class="code hl_struct" href="structJKRExpHeap.html">JKRExpHeap</a>*);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> <a class="code hl_function" href="f__op__msg__mng_8h.html#af27e8acb2bca2dc2b60ad1211e57aa2a">fopMsgM_valueIncrease</a>(<span class="keywordtype">int</span> param_0, <span class="keywordtype">int</span> param_1, <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> param_2);</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><a class="code hl_typedef" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="code hl_function" href="f__op__msg__mng_8h.html#a45c6ef8488524ffb437b5faedeb74bb2">fopMsgM_setStageLayer</a>(<span class="keywordtype">void</span>*);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">int</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#a63ef47f5610638884a81f9413b2994f8">fopMsgM_messageSet</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> i_msgIdx, <a class="code hl_class" href="structfopAc__ac__c.html">fopAc_ac_c</a>* i_actorP, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keywordtype">int</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#a63ef47f5610638884a81f9413b2994f8">fopMsgM_messageSet</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> i_msgIdx, <a class="code hl_struct" href="structfopAc__ac__c.html">fopAc_ac_c</a>* i_actorP, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_2);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">int</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#a63ef47f5610638884a81f9413b2994f8">fopMsgM_messageSet</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_0, <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_1);</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keywordtype">int</span> <a class="code hl_function" href="f__op__msg__mng_8h.html#a2be2b264d0f2863b1e81f174101f936c">fopMsgM_messageSetDemo</a>(<a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> param_0);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><a class="code hl_class" href="classmsg__class.html">msg_class</a>* <a class="code hl_function" href="f__op__msg__mng_8h.html#a38c4af79cfd5cc7c6e4dca8ca309b756">fopMsgM_SearchByID</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> param_0);</div>
@@ -162,24 +221,24 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="ac__xyz_8h_html"><div class="ttname"><a href="c__xyz_8h.html">c_xyz.h</a></div></div>
 <div class="ttc" id="aclassmsg__class_html"><div class="ttname"><a href="classmsg__class.html">msg_class</a></div><div class="ttdef"><b>Definition</b> f_op_msg.h:9</div></div>
-<div class="ttc" id="ad__menu__collect_8cpp_html_a8a725d5963fbbcaa6547d2fe05988992"><div class="ttname"><a href="d__menu__collect_8cpp.html#a8a725d5963fbbcaa6547d2fe05988992">process</a></div><div class="ttdeci">static SECTION_DATA u8 process[228]</div><div class="ttdef"><b>Definition</b> d_menu_collect.cpp:766</div></div>
-<div class="ttc" id="af__op__actor__mng_8h_html_a0b41bbbca8c43cd70ec786a2a4314295"><div class="ttname"><a href="f__op__actor__mng_8h.html#a0b41bbbca8c43cd70ec786a2a4314295">createFunc</a></div><div class="ttdeci">int(* createFunc)(void *)</div><div class="ttdef"><b>Definition</b> f_op_actor_mng.h:125</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a25cc415a7a5e91838559851994c35359"><div class="ttname"><a href="f__op__msg__mng_8h.html#a25cc415a7a5e91838559851994c35359">fopMsgM_Create</a></div><div class="ttdeci">u32 fopMsgM_Create(s16, fopMsgCreateFunc, void *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:294</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a2be2b264d0f2863b1e81f174101f936c"><div class="ttname"><a href="f__op__msg__mng_8h.html#a2be2b264d0f2863b1e81f174101f936c">fopMsgM_messageSetDemo</a></div><div class="ttdeci">int fopMsgM_messageSetDemo(u32 param_0)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:249</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a3427cf271349cdc46e3975224bb2fd93"><div class="ttname"><a href="f__op__msg__mng_8h.html#a3427cf271349cdc46e3975224bb2fd93">fop_Timer_create</a></div><div class="ttdeci">s32 fop_Timer_create(s16 param_0, u8 param_1, u32 param_2, u8 param_3, u8 param_4, f32 param_5, f32 param_6, f32 param_7, f32 param_8, fopMsgCreateFunc createFunc)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:145</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a38c4af79cfd5cc7c6e4dca8ca309b756"><div class="ttname"><a href="f__op__msg__mng_8h.html#a38c4af79cfd5cc7c6e4dca8ca309b756">fopMsgM_SearchByID</a></div><div class="ttdeci">msg_class * fopMsgM_SearchByID(unsigned int param_0)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:44</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a45c6ef8488524ffb437b5faedeb74bb2"><div class="ttname"><a href="f__op__msg__mng_8h.html#a45c6ef8488524ffb437b5faedeb74bb2">fopMsgM_setStageLayer</a></div><div class="ttdeci">s32 fopMsgM_setStageLayer(void *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:36</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a5f4c57a12176bc1d08d40fbdc259675b"><div class="ttname"><a href="f__op__msg__mng_8h.html#a5f4c57a12176bc1d08d40fbdc259675b">fopMsgM_create</a></div><div class="ttdeci">s32 fopMsgM_create(s16 param_0, fopAc_ac_c *param_1, cXyz *param_2, u32 *param_3, u32 *param_4, fopMsgCreateFunc createFunc)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:133</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a63ef47f5610638884a81f9413b2994f8"><div class="ttname"><a href="f__op__msg__mng_8h.html#a63ef47f5610638884a81f9413b2994f8">fopMsgM_messageSet</a></div><div class="ttdeci">int fopMsgM_messageSet(u32 i_msgIdx, fopAc_ac_c *i_actorP, u32 param_2)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:163</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a7e122b4996394d96e8853ff59e02f6cb"><div class="ttname"><a href="f__op__msg__mng_8h.html#a7e122b4996394d96e8853ff59e02f6cb">fopMsgM_GetAppend</a></div><div class="ttdeci">fopMsg_prm_class * fopMsgM_GetAppend(void *msg)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:49</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_a98d27601741e6fa57b43386969df2a02"><div class="ttname"><a href="f__op__msg__mng_8h.html#a98d27601741e6fa57b43386969df2a02">fopMsgM_createExpHeap</a></div><div class="ttdeci">JKRExpHeap * fopMsgM_createExpHeap(u32, JKRHeap *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:409</div></div>
+<div class="ttc" id="ad__menu__collect_8cpp_html_a0d7b414ba8858c5707a752ce5308fbf1"><div class="ttname"><a href="d__menu__collect_8cpp.html#a0d7b414ba8858c5707a752ce5308fbf1">process</a></div><div class="ttdeci">static processFunc process[]</div><div class="ttdef"><b>Definition</b> d_menu_collect.cpp:344</div></div>
+<div class="ttc" id="af__op__actor__mng_8h_html_a0b41bbbca8c43cd70ec786a2a4314295"><div class="ttname"><a href="f__op__actor__mng_8h.html#a0b41bbbca8c43cd70ec786a2a4314295">createFunc</a></div><div class="ttdeci">int(* createFunc)(void *)</div><div class="ttdef"><b>Definition</b> f_op_actor_mng.h:124</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a25cc415a7a5e91838559851994c35359"><div class="ttname"><a href="f__op__msg__mng_8h.html#a25cc415a7a5e91838559851994c35359">fopMsgM_Create</a></div><div class="ttdeci">u32 fopMsgM_Create(s16, fopMsgCreateFunc, void *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:292</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a2be2b264d0f2863b1e81f174101f936c"><div class="ttname"><a href="f__op__msg__mng_8h.html#a2be2b264d0f2863b1e81f174101f936c">fopMsgM_messageSetDemo</a></div><div class="ttdeci">int fopMsgM_messageSetDemo(u32 param_0)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:247</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a3427cf271349cdc46e3975224bb2fd93"><div class="ttname"><a href="f__op__msg__mng_8h.html#a3427cf271349cdc46e3975224bb2fd93">fop_Timer_create</a></div><div class="ttdeci">s32 fop_Timer_create(s16 param_0, u8 param_1, u32 param_2, u8 param_3, u8 param_4, f32 param_5, f32 param_6, f32 param_7, f32 param_8, fopMsgCreateFunc createFunc)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:143</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a38c4af79cfd5cc7c6e4dca8ca309b756"><div class="ttname"><a href="f__op__msg__mng_8h.html#a38c4af79cfd5cc7c6e4dca8ca309b756">fopMsgM_SearchByID</a></div><div class="ttdeci">msg_class * fopMsgM_SearchByID(unsigned int param_0)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:42</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a45c6ef8488524ffb437b5faedeb74bb2"><div class="ttname"><a href="f__op__msg__mng_8h.html#a45c6ef8488524ffb437b5faedeb74bb2">fopMsgM_setStageLayer</a></div><div class="ttdeci">s32 fopMsgM_setStageLayer(void *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:34</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a5f4c57a12176bc1d08d40fbdc259675b"><div class="ttname"><a href="f__op__msg__mng_8h.html#a5f4c57a12176bc1d08d40fbdc259675b">fopMsgM_create</a></div><div class="ttdeci">s32 fopMsgM_create(s16 param_0, fopAc_ac_c *param_1, cXyz *param_2, u32 *param_3, u32 *param_4, fopMsgCreateFunc createFunc)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:131</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a63ef47f5610638884a81f9413b2994f8"><div class="ttname"><a href="f__op__msg__mng_8h.html#a63ef47f5610638884a81f9413b2994f8">fopMsgM_messageSet</a></div><div class="ttdeci">int fopMsgM_messageSet(u32 i_msgIdx, fopAc_ac_c *i_actorP, u32 param_2)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:161</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a7e122b4996394d96e8853ff59e02f6cb"><div class="ttname"><a href="f__op__msg__mng_8h.html#a7e122b4996394d96e8853ff59e02f6cb">fopMsgM_GetAppend</a></div><div class="ttdeci">fopMsg_prm_class * fopMsgM_GetAppend(void *msg)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:47</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_a98d27601741e6fa57b43386969df2a02"><div class="ttname"><a href="f__op__msg__mng_8h.html#a98d27601741e6fa57b43386969df2a02">fopMsgM_createExpHeap</a></div><div class="ttdeci">JKRExpHeap * fopMsgM_createExpHeap(u32, JKRHeap *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:407</div></div>
 <div class="ttc" id="af__op__msg__mng_8h_html_aad21030ae44b5149148f3c09ad3b8a5d"><div class="ttname"><a href="f__op__msg__mng_8h.html#aad21030ae44b5149148f3c09ad3b8a5d">fopMsgCreateFunc</a></div><div class="ttdeci">int(* fopMsgCreateFunc)(void *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.h:36</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_abb80384132425e62ba5c34e557d0f12c"><div class="ttname"><a href="f__op__msg__mng_8h.html#abb80384132425e62ba5c34e557d0f12c">fopMsgM_Delete</a></div><div class="ttdeci">void fopMsgM_Delete(void *process)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:55</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_ac7d6b70af82e3e2edf5602df6f8f1965"><div class="ttname"><a href="f__op__msg__mng_8h.html#ac7d6b70af82e3e2edf5602df6f8f1965">fopMsgM_messageGet</a></div><div class="ttdeci">char * fopMsgM_messageGet(char *msg, u32 string_id)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:283</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_abb80384132425e62ba5c34e557d0f12c"><div class="ttname"><a href="f__op__msg__mng_8h.html#abb80384132425e62ba5c34e557d0f12c">fopMsgM_Delete</a></div><div class="ttdeci">void fopMsgM_Delete(void *process)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:53</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_ac7d6b70af82e3e2edf5602df6f8f1965"><div class="ttname"><a href="f__op__msg__mng_8h.html#ac7d6b70af82e3e2edf5602df6f8f1965">fopMsgM_messageGet</a></div><div class="ttdeci">char * fopMsgM_messageGet(char *msg, u32 string_id)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:281</div></div>
 <div class="ttc" id="af__op__msg__mng_8h_html_aced0a96b25f8167904dd8e741b9f9ddd"><div class="ttname"><a href="f__op__msg__mng_8h.html#aced0a96b25f8167904dd8e741b9f9ddd">fopMsgM_Timer_create</a></div><div class="ttdeci">s32 fopMsgM_Timer_create(s16 i_procName, u8 i_mode, u32 i_limitMs, u8 i_type, u8 param_4, f32 param_5, f32 param_6, f32 param_7, f32 param_8, fopMsgCreateFunc i_createFunc)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.h:56</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_ae4d289cd172081e37844fd21e39cf550"><div class="ttname"><a href="f__op__msg__mng_8h.html#ae4d289cd172081e37844fd21e39cf550">fopMsgM_destroyExpHeap</a></div><div class="ttdeci">void fopMsgM_destroyExpHeap(JKRExpHeap *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:418</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_ae747de37567d0eba7d0ee11c490523f0"><div class="ttname"><a href="f__op__msg__mng_8h.html#ae747de37567d0eba7d0ee11c490523f0">fopMsgM_setMessageID</a></div><div class="ttdeci">void fopMsgM_setMessageID(unsigned int)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:289</div></div>
-<div class="ttc" id="af__op__msg__mng_8h_html_af27e8acb2bca2dc2b60ad1211e57aa2a"><div class="ttname"><a href="f__op__msg__mng_8h.html#af27e8acb2bca2dc2b60ad1211e57aa2a">fopMsgM_valueIncrease</a></div><div class="ttdeci">f32 fopMsgM_valueIncrease(int param_0, int param_1, u8 param_2)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:394</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_ae4d289cd172081e37844fd21e39cf550"><div class="ttname"><a href="f__op__msg__mng_8h.html#ae4d289cd172081e37844fd21e39cf550">fopMsgM_destroyExpHeap</a></div><div class="ttdeci">void fopMsgM_destroyExpHeap(JKRExpHeap *)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:416</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_ae747de37567d0eba7d0ee11c490523f0"><div class="ttname"><a href="f__op__msg__mng_8h.html#ae747de37567d0eba7d0ee11c490523f0">fopMsgM_setMessageID</a></div><div class="ttdeci">void fopMsgM_setMessageID(unsigned int)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:287</div></div>
+<div class="ttc" id="af__op__msg__mng_8h_html_af27e8acb2bca2dc2b60ad1211e57aa2a"><div class="ttname"><a href="f__op__msg__mng_8h.html#af27e8acb2bca2dc2b60ad1211e57aa2a">fopMsgM_valueIncrease</a></div><div class="ttdeci">f32 fopMsgM_valueIncrease(int param_0, int param_1, u8 param_2)</div><div class="ttdef"><b>Definition</b> f_op_msg_mng.cpp:336</div></div>
 <div class="ttc" id="af__pc__leaf_8h_html"><div class="ttname"><a href="f__pc__leaf_8h.html">f_pc_leaf.h</a></div></div>
 <div class="ttc" id="astructJKRExpHeap_html"><div class="ttname"><a href="structJKRExpHeap.html">JKRExpHeap</a></div><div class="ttdef"><b>Definition</b> d_menu_fmap2D.cpp:58</div></div>
 <div class="ttc" id="astructJKRHeap_html"><div class="ttname"><a href="structJKRHeap.html">JKRHeap</a></div><div class="ttdef"><b>Definition</b> d_menu_fmap2D.cpp:218</div></div>
@@ -211,9 +270,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition</b> types.h:6</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fbb29e8cafd745cbb7106b56de6b5377.html">f_op</a></li><li class="navelem"><a class="el" href="f__op__msg__mng_8h.html">f_op_msg_mng.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

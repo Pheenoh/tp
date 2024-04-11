@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: libs/JSystem/J3DGraphAnimator/J3DAnimation.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -54,6 +101,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('J3DAnimation_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,11 +139,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_558ff2e7feface24a1ef570172adc5c9.html">J3DGraphAnimator</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a> &#124;
@@ -87,56 +146,7 @@ $(function() {
   <div class="headertitle"><div class="title">J3DAnimation.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="J3DAnimation_8h_source.html">JSystem/J3DGraphAnimator/J3DAnimation.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="global_8h_source.html">global.h</a>&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/checkPass__12J3DFrameCtrlFf.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/update__12J3DFrameCtrlFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__15J3DAnmTransformFsPfPsPf.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getTransform__19J3DAnmTransformFullCFUsP16J3DTransformInfo.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getTransform__27J3DAnmTransformFullWithLerpCFUsP16J3DTransformInfo.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/calcTransform__18J3DAnmTransformKeyCFfUsP16J3DTransformInfo.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__19J3DAnmTextureSRTKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/calcTransform__19J3DAnmTextureSRTKeyCFfUsP17J3DTextureSRTInfo.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getWeight__17J3DAnmClusterFullCFUs.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getWeight__16J3DAnmClusterKeyCFUs.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__14J3DAnmVtxColorFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getColor__18J3DAnmVtxColorFullCFUcUsP8_GXColor.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getColor__17J3DAnmVtxColorKeyCFUcUsP8_GXColor.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__11J3DAnmColorFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/searchUpdateMaterialID__11J3DAnmColorFP16J3DMaterialTable.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getColor__15J3DAnmColorFullCFUsP8_GXColor.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getColor__14J3DAnmColorKeyCFUsP8_GXColor.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__15J3DAnmTevRegKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__ct__16J3DAnmTexPatternFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getTexNo__16J3DAnmTexPatternCFUsPUs.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getTevColorReg__15J3DAnmTevRegKeyCFUsP11_GXColorS10.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/getTevKonstReg__15J3DAnmTevRegKeyCFUsP8_GXColor.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/searchUpdateMaterialID__15J3DAnmTevRegKeyFP16J3DMaterialTable.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/func_8032B8A0.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/func_8032BAD4.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__14J3DAnmVtxColorFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__11J3DAnmColorFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__16J3DAnmTexPatternFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__15J3DAnmTevRegKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__14J3DAnmColorKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__15J3DAnmColorFullFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__17J3DAnmVtxColorKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__18J3DAnmVtxColorFullFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__16J3DAnmClusterKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__13J3DAnmClusterFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__17J3DAnmClusterFullFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__19J3DAnmTextureSRTKeyFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__27J3DAnmTransformFullWithLerpFv.s&quot;</code><br />
-<code>#include &quot;asm/JSystem/J3DGraphAnimator/J3DAnimation/__dt__19J3DAnmTransformFullFv.s&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for J3DAnimation.cpp:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="J3DAnimation_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-</div><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aede93e9980b517c969b88b1b43446807" id="r_aede93e9980b517c969b88b1b43446807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aede93e9980b517c969b88b1b43446807">init__12J3DFrameCtrlFs</a> ()</td></tr>
@@ -306,51 +316,51 @@ Variables</h2></td></tr>
 <tr class="separator:a35a55d7d67d0b750786f59fd2f2e3151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a079228e66c7c7691058310c07547f80d" id="r_a079228e66c7c7691058310c07547f80d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a079228e66c7c7691058310c07547f80d">__vt__10JUTNameTab</a> [3]</td></tr>
 <tr class="separator:a079228e66c7c7691058310c07547f80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e519add8e1b0fd97f521f8c286bb6f0" id="r_a6e519add8e1b0fd97f521f8c286bb6f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a6e519add8e1b0fd97f521f8c286bb6f0">lit_852</a> = 1.0f</td></tr>
+<tr class="memitem:a6e519add8e1b0fd97f521f8c286bb6f0" id="r_a6e519add8e1b0fd97f521f8c286bb6f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a6e519add8e1b0fd97f521f8c286bb6f0">lit_852</a> = 1.0f</td></tr>
 <tr class="separator:a6e519add8e1b0fd97f521f8c286bb6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab16abff0032c29d28ef6e7c154f0f3c2" id="r_ab16abff0032c29d28ef6e7c154f0f3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab16abff0032c29d28ef6e7c154f0f3c2">lit_853</a> [4]</td></tr>
+<tr class="memitem:ab16abff0032c29d28ef6e7c154f0f3c2" id="r_ab16abff0032c29d28ef6e7c154f0f3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab16abff0032c29d28ef6e7c154f0f3c2">lit_853</a> [4]</td></tr>
 <tr class="separator:ab16abff0032c29d28ef6e7c154f0f3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9936287f26689242c9693613813892c" id="r_ab9936287f26689242c9693613813892c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab9936287f26689242c9693613813892c">lit_973</a> [1+1]</td></tr>
+<tr class="memitem:ab9936287f26689242c9693613813892c" id="r_ab9936287f26689242c9693613813892c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab9936287f26689242c9693613813892c">lit_973</a> [1+1]</td></tr>
 <tr class="separator:ab9936287f26689242c9693613813892c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3368bcbbaf16fe98b21168b70e75efc2" id="r_a3368bcbbaf16fe98b21168b70e75efc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a3368bcbbaf16fe98b21168b70e75efc2">lit_975</a> = 4503601774854144.0</td></tr>
+<tr class="memitem:a3368bcbbaf16fe98b21168b70e75efc2" id="r_a3368bcbbaf16fe98b21168b70e75efc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a3368bcbbaf16fe98b21168b70e75efc2">lit_975</a> = 4503601774854144.0</td></tr>
 <tr class="separator:a3368bcbbaf16fe98b21168b70e75efc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7856820c0b3d77bc47ecdde3da5ba82" id="r_ab7856820c0b3d77bc47ecdde3da5ba82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab7856820c0b3d77bc47ecdde3da5ba82">lit_1092</a> [1+1]</td></tr>
+<tr class="memitem:ab7856820c0b3d77bc47ecdde3da5ba82" id="r_ab7856820c0b3d77bc47ecdde3da5ba82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab7856820c0b3d77bc47ecdde3da5ba82">lit_1092</a> [1+1]</td></tr>
 <tr class="separator:ab7856820c0b3d77bc47ecdde3da5ba82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c72b88ce28f7ab32ee455513dd31b42" id="r_a0c72b88ce28f7ab32ee455513dd31b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a0c72b88ce28f7ab32ee455513dd31b42">lit_1223</a> = 4503599627370496.0</td></tr>
+<tr class="memitem:a0c72b88ce28f7ab32ee455513dd31b42" id="r_a0c72b88ce28f7ab32ee455513dd31b42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a0c72b88ce28f7ab32ee455513dd31b42">lit_1223</a> = 4503599627370496.0</td></tr>
 <tr class="separator:a0c72b88ce28f7ab32ee455513dd31b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd3c674ff8b66a71b6956059abf61a1" id="r_adfd3c674ff8b66a71b6956059abf61a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#adfd3c674ff8b66a71b6956059abf61a1">__vt__16J3DAnmTexPattern</a> [4]</td></tr>
+<tr class="memitem:adfd3c674ff8b66a71b6956059abf61a1" id="r_adfd3c674ff8b66a71b6956059abf61a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#adfd3c674ff8b66a71b6956059abf61a1">__vt__16J3DAnmTexPattern</a> [4]</td></tr>
 <tr class="separator:adfd3c674ff8b66a71b6956059abf61a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0694fd7d081002c0cc51689c6b144c2" id="r_ab0694fd7d081002c0cc51689c6b144c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab0694fd7d081002c0cc51689c6b144c2">__vt__15J3DAnmTevRegKey</a> [4]</td></tr>
+<tr class="memitem:ab0694fd7d081002c0cc51689c6b144c2" id="r_ab0694fd7d081002c0cc51689c6b144c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ab0694fd7d081002c0cc51689c6b144c2">__vt__15J3DAnmTevRegKey</a> [4]</td></tr>
 <tr class="separator:ab0694fd7d081002c0cc51689c6b144c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af43543c80746a3ee980553519b4da876" id="r_af43543c80746a3ee980553519b4da876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#af43543c80746a3ee980553519b4da876">__vt__14J3DAnmColorKey</a> [5]</td></tr>
+<tr class="memitem:af43543c80746a3ee980553519b4da876" id="r_af43543c80746a3ee980553519b4da876"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#af43543c80746a3ee980553519b4da876">__vt__14J3DAnmColorKey</a> [5]</td></tr>
 <tr class="separator:af43543c80746a3ee980553519b4da876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae021608d334fec133e918a15ccac7ca9" id="r_ae021608d334fec133e918a15ccac7ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ae021608d334fec133e918a15ccac7ca9">__vt__15J3DAnmColorFull</a> [5]</td></tr>
+<tr class="memitem:ae021608d334fec133e918a15ccac7ca9" id="r_ae021608d334fec133e918a15ccac7ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ae021608d334fec133e918a15ccac7ca9">__vt__15J3DAnmColorFull</a> [5]</td></tr>
 <tr class="separator:ae021608d334fec133e918a15ccac7ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75eed84ae38f4f5047a56019087db7fd" id="r_a75eed84ae38f4f5047a56019087db7fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a75eed84ae38f4f5047a56019087db7fd">__vt__11J3DAnmColor</a> [5]</td></tr>
+<tr class="memitem:a75eed84ae38f4f5047a56019087db7fd" id="r_a75eed84ae38f4f5047a56019087db7fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a75eed84ae38f4f5047a56019087db7fd">__vt__11J3DAnmColor</a> [5]</td></tr>
 <tr class="separator:a75eed84ae38f4f5047a56019087db7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa15a493135347f67837e9dcdaa43ef1b" id="r_aa15a493135347f67837e9dcdaa43ef1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aa15a493135347f67837e9dcdaa43ef1b">__vt__17J3DAnmVtxColorKey</a> [5]</td></tr>
+<tr class="memitem:aa15a493135347f67837e9dcdaa43ef1b" id="r_aa15a493135347f67837e9dcdaa43ef1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aa15a493135347f67837e9dcdaa43ef1b">__vt__17J3DAnmVtxColorKey</a> [5]</td></tr>
 <tr class="separator:aa15a493135347f67837e9dcdaa43ef1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17e955bbf1277543750c0431085ed6d7" id="r_a17e955bbf1277543750c0431085ed6d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a17e955bbf1277543750c0431085ed6d7">__vt__18J3DAnmVtxColorFull</a> [5]</td></tr>
+<tr class="memitem:a17e955bbf1277543750c0431085ed6d7" id="r_a17e955bbf1277543750c0431085ed6d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a17e955bbf1277543750c0431085ed6d7">__vt__18J3DAnmVtxColorFull</a> [5]</td></tr>
 <tr class="separator:a17e955bbf1277543750c0431085ed6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac808b4167fbe5921acc99ce115c5e451" id="r_ac808b4167fbe5921acc99ce115c5e451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac808b4167fbe5921acc99ce115c5e451">__vt__14J3DAnmVtxColor</a> [5]</td></tr>
+<tr class="memitem:ac808b4167fbe5921acc99ce115c5e451" id="r_ac808b4167fbe5921acc99ce115c5e451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac808b4167fbe5921acc99ce115c5e451">__vt__14J3DAnmVtxColor</a> [5]</td></tr>
 <tr class="separator:ac808b4167fbe5921acc99ce115c5e451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a2261db15b9a142fa5a585605a7840a" id="r_a1a2261db15b9a142fa5a585605a7840a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a1a2261db15b9a142fa5a585605a7840a">__vt__16J3DAnmClusterKey</a> [5]</td></tr>
+<tr class="memitem:a1a2261db15b9a142fa5a585605a7840a" id="r_a1a2261db15b9a142fa5a585605a7840a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a1a2261db15b9a142fa5a585605a7840a">__vt__16J3DAnmClusterKey</a> [5]</td></tr>
 <tr class="separator:a1a2261db15b9a142fa5a585605a7840a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa03bf268f41ad05b4460cbf9eb6e92cf" id="r_aa03bf268f41ad05b4460cbf9eb6e92cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aa03bf268f41ad05b4460cbf9eb6e92cf">__vt__13J3DAnmCluster</a> [5]</td></tr>
+<tr class="memitem:aa03bf268f41ad05b4460cbf9eb6e92cf" id="r_aa03bf268f41ad05b4460cbf9eb6e92cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aa03bf268f41ad05b4460cbf9eb6e92cf">__vt__13J3DAnmCluster</a> [5]</td></tr>
 <tr class="separator:aa03bf268f41ad05b4460cbf9eb6e92cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af94314ed1e3227c20b3910ca01d2847f" id="r_af94314ed1e3227c20b3910ca01d2847f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#af94314ed1e3227c20b3910ca01d2847f">__vt__17J3DAnmClusterFull</a> [5]</td></tr>
+<tr class="memitem:af94314ed1e3227c20b3910ca01d2847f" id="r_af94314ed1e3227c20b3910ca01d2847f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#af94314ed1e3227c20b3910ca01d2847f">__vt__17J3DAnmClusterFull</a> [5]</td></tr>
 <tr class="separator:af94314ed1e3227c20b3910ca01d2847f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb146e9206fd7f104c4da6da2b63c44" id="r_a0eb146e9206fd7f104c4da6da2b63c44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a0eb146e9206fd7f104c4da6da2b63c44">__vt__19J3DAnmTextureSRTKey</a> [4]</td></tr>
+<tr class="memitem:a0eb146e9206fd7f104c4da6da2b63c44" id="r_a0eb146e9206fd7f104c4da6da2b63c44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a0eb146e9206fd7f104c4da6da2b63c44">__vt__19J3DAnmTextureSRTKey</a> [4]</td></tr>
 <tr class="separator:a0eb146e9206fd7f104c4da6da2b63c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b04d96b567d9cdced3df2464a03ca44" id="r_a1b04d96b567d9cdced3df2464a03ca44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a1b04d96b567d9cdced3df2464a03ca44">lit_1499</a> = 255.0f</td></tr>
+<tr class="memitem:a1b04d96b567d9cdced3df2464a03ca44" id="r_a1b04d96b567d9cdced3df2464a03ca44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a1b04d96b567d9cdced3df2464a03ca44">lit_1499</a> = 255.0f</td></tr>
 <tr class="separator:a1b04d96b567d9cdced3df2464a03ca44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac08feda6167c5be8d16177e5a58a10b7" id="r_ac08feda6167c5be8d16177e5a58a10b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac08feda6167c5be8d16177e5a58a10b7">lit_1817</a> = -1024.0f</td></tr>
+<tr class="memitem:ac08feda6167c5be8d16177e5a58a10b7" id="r_ac08feda6167c5be8d16177e5a58a10b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac08feda6167c5be8d16177e5a58a10b7">lit_1817</a> = -1024.0f</td></tr>
 <tr class="separator:ac08feda6167c5be8d16177e5a58a10b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cfedc0a7c3c44cb76bbab17ef5d8467" id="r_a2cfedc0a7c3c44cb76bbab17ef5d8467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a2cfedc0a7c3c44cb76bbab17ef5d8467">lit_1818</a> [1+1]</td></tr>
+<tr class="memitem:a2cfedc0a7c3c44cb76bbab17ef5d8467" id="r_a2cfedc0a7c3c44cb76bbab17ef5d8467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">static</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#a2cfedc0a7c3c44cb76bbab17ef5d8467">lit_1818</a> [1+1]</td></tr>
 <tr class="separator:a2cfedc0a7c3c44cb76bbab17ef5d8467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac934c6578ac00c9230747514e55e23b7" id="r_ac934c6578ac00c9230747514e55e23b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac934c6578ac00c9230747514e55e23b7">__vt__27J3DAnmTransformFullWithLerp</a> [5]</td></tr>
+<tr class="memitem:ac934c6578ac00c9230747514e55e23b7" id="r_ac934c6578ac00c9230747514e55e23b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#ac934c6578ac00c9230747514e55e23b7">__vt__27J3DAnmTransformFullWithLerp</a> [5]</td></tr>
 <tr class="separator:ac934c6578ac00c9230747514e55e23b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed4e4bc2f7b4b2da7be09d8f8cdbdfaa" id="r_aed4e4bc2f7b4b2da7be09d8f8cdbdfaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aed4e4bc2f7b4b2da7be09d8f8cdbdfaa">__vt__19J3DAnmTransformFull</a> [5+1]</td></tr>
+<tr class="memitem:aed4e4bc2f7b4b2da7be09d8f8cdbdfaa" id="r_aed4e4bc2f7b4b2da7be09d8f8cdbdfaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="J3DAnimation_8cpp.html#aed4e4bc2f7b4b2da7be09d8f8cdbdfaa">__vt__19J3DAnmTransformFull</a> [5+1]</td></tr>
 <tr class="separator:aed4e4bc2f7b4b2da7be09d8f8cdbdfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -1798,7 +1808,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J3DAnmColor[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__11J3DAnmColor[5]</td>
         </tr>
       </table>
   </td>
@@ -1808,16 +1818,16 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ae400bdd6ebccdc1d9f83f86c9392d47f">__dt__11J3DAnmColorFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a491ca6f825bdf8436073535a9f1ec14b">getKind__11J3DAnmColorCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ab474fb54d2f45c2e212f4809a64a2095">getColor__11J3DAnmColorCFUsP8_GXColor</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a491ca6f825bdf8436073535a9f1ec14b"><div class="ttname"><a href="J3DAnimation_8cpp.html#a491ca6f825bdf8436073535a9f1ec14b">getKind__11J3DAnmColorCFv</a></div><div class="ttdeci">bool getKind__11J3DAnmColorCFv()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ab474fb54d2f45c2e212f4809a64a2095"><div class="ttname"><a href="J3DAnimation_8cpp.html#ab474fb54d2f45c2e212f4809a64a2095">getColor__11J3DAnmColorCFUsP8_GXColor</a></div><div class="ttdeci">void getColor__11J3DAnmColorCFUsP8_GXColor()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_ae400bdd6ebccdc1d9f83f86c9392d47f"><div class="ttname"><a href="J3DAnimation_8cpp.html#ae400bdd6ebccdc1d9f83f86c9392d47f">__dt__11J3DAnmColorFv</a></div><div class="ttdeci">void __dt__11J3DAnmColorFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:920</div></div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition</b> stddef.h:19</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_ae400bdd6ebccdc1d9f83f86c9392d47f"><div class="ttname"><a href="J3DAnimation_8cpp.html#ae400bdd6ebccdc1d9f83f86c9392d47f">__dt__11J3DAnmColorFv</a></div><div class="ttdeci">void __dt__11J3DAnmColorFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:919</div></div>
+<div class="ttc" id="aJSUInputStream_8h_html_a13fa7ef63a40072c7203b3da54a569a2"><div class="ttname"><a href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">JSUConvertOffsetToPtr</a></div><div class="ttdeci">T * JSUConvertOffsetToPtr(const void *, const void *)</div><div class="ttdef"><b>Definition</b> JSupport.h:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1831,7 +1841,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__13J3DAnmCluster[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__13J3DAnmCluster[5]</td>
         </tr>
       </table>
   </td>
@@ -1841,13 +1851,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a231e36673a7296e5f0d728fc13e23cd9">__dt__13J3DAnmClusterFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a8bedc2cdab365b4795ff202c20764f68">getKind__13J3DAnmClusterCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a7cd85e69726f71175bc25a76e29fe1be">getWeight__13J3DAnmClusterCFUs</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a231e36673a7296e5f0d728fc13e23cd9"><div class="ttname"><a href="J3DAnimation_8cpp.html#a231e36673a7296e5f0d728fc13e23cd9">__dt__13J3DAnmClusterFv</a></div><div class="ttdeci">void __dt__13J3DAnmClusterFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1064</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a231e36673a7296e5f0d728fc13e23cd9"><div class="ttname"><a href="J3DAnimation_8cpp.html#a231e36673a7296e5f0d728fc13e23cd9">__dt__13J3DAnmClusterFv</a></div><div class="ttdeci">void __dt__13J3DAnmClusterFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1063</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a7cd85e69726f71175bc25a76e29fe1be"><div class="ttname"><a href="J3DAnimation_8cpp.html#a7cd85e69726f71175bc25a76e29fe1be">getWeight__13J3DAnmClusterCFUs</a></div><div class="ttdeci">void getWeight__13J3DAnmClusterCFUs()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a8bedc2cdab365b4795ff202c20764f68"><div class="ttname"><a href="J3DAnimation_8cpp.html#a8bedc2cdab365b4795ff202c20764f68">getKind__13J3DAnmClusterCFv</a></div><div class="ttdeci">s32 getKind__13J3DAnmClusterCFv()</div></div>
 </div><!-- fragment -->
@@ -1863,7 +1873,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14J3DAnmColorKey[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14J3DAnmColorKey[5]</td>
         </tr>
       </table>
   </td>
@@ -1873,15 +1883,15 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a97e0caee5395e2f01c85a7201909fa78">__dt__14J3DAnmColorKeyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a6bf64df923e6bcd425d20c24134951c1">getKind__14J3DAnmColorKeyCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a09446c8a1bfc61f57f521534502db5bb">getColor__14J3DAnmColorKeyCFUsP8_GXColor</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a09446c8a1bfc61f57f521534502db5bb"><div class="ttname"><a href="J3DAnimation_8cpp.html#a09446c8a1bfc61f57f521534502db5bb">getColor__14J3DAnmColorKeyCFUsP8_GXColor</a></div><div class="ttdeci">void getColor__14J3DAnmColorKeyCFUsP8_GXColor()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a6bf64df923e6bcd425d20c24134951c1"><div class="ttname"><a href="J3DAnimation_8cpp.html#a6bf64df923e6bcd425d20c24134951c1">getKind__14J3DAnmColorKeyCFv</a></div><div class="ttdeci">s32 getKind__14J3DAnmColorKeyCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a97e0caee5395e2f01c85a7201909fa78"><div class="ttname"><a href="J3DAnimation_8cpp.html#a97e0caee5395e2f01c85a7201909fa78">__dt__14J3DAnmColorKeyFv</a></div><div class="ttdeci">void __dt__14J3DAnmColorKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:963</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a97e0caee5395e2f01c85a7201909fa78"><div class="ttname"><a href="J3DAnimation_8cpp.html#a97e0caee5395e2f01c85a7201909fa78">__dt__14J3DAnmColorKeyFv</a></div><div class="ttdeci">void __dt__14J3DAnmColorKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:962</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1895,7 +1905,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14J3DAnmVtxColor[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__14J3DAnmVtxColor[5]</td>
         </tr>
       </table>
   </td>
@@ -1905,14 +1915,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ac12ae109d4315265629d9a7667068cc8">__dt__14J3DAnmVtxColorFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a5f077b3e3cf3666b28acc07d65ce2da0">getKind__14J3DAnmVtxColorCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#adfda39a1fd39dd1ade3d1a663e74bd94">getColor__14J3DAnmVtxColorCFUcUsP8_GXColor</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a5f077b3e3cf3666b28acc07d65ce2da0"><div class="ttname"><a href="J3DAnimation_8cpp.html#a5f077b3e3cf3666b28acc07d65ce2da0">getKind__14J3DAnmVtxColorCFv</a></div><div class="ttdeci">s32 getKind__14J3DAnmVtxColorCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_ac12ae109d4315265629d9a7667068cc8"><div class="ttname"><a href="J3DAnimation_8cpp.html#ac12ae109d4315265629d9a7667068cc8">__dt__14J3DAnmVtxColorFv</a></div><div class="ttdeci">void __dt__14J3DAnmVtxColorFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:909</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_ac12ae109d4315265629d9a7667068cc8"><div class="ttname"><a href="J3DAnimation_8cpp.html#ac12ae109d4315265629d9a7667068cc8">__dt__14J3DAnmVtxColorFv</a></div><div class="ttdeci">void __dt__14J3DAnmVtxColorFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:908</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_adfda39a1fd39dd1ade3d1a663e74bd94"><div class="ttname"><a href="J3DAnimation_8cpp.html#adfda39a1fd39dd1ade3d1a663e74bd94">getColor__14J3DAnmVtxColorCFUcUsP8_GXColor</a></div><div class="ttdeci">void getColor__14J3DAnmVtxColorCFUcUsP8_GXColor()</div></div>
 </div><!-- fragment -->
 </div>
@@ -1927,7 +1937,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J3DAnmColorFull[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J3DAnmColorFull[5]</td>
         </tr>
       </table>
   </td>
@@ -1937,13 +1947,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a6229d5508d4a1c537337d99308a6d82e">__dt__15J3DAnmColorFullFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ae276e09af15beb74976b48bd154026c7">getKind__15J3DAnmColorFullCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ad3e63074551afc6c9042b452339f2c2b">getColor__15J3DAnmColorFullCFUsP8_GXColor</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a6229d5508d4a1c537337d99308a6d82e"><div class="ttname"><a href="J3DAnimation_8cpp.html#a6229d5508d4a1c537337d99308a6d82e">__dt__15J3DAnmColorFullFv</a></div><div class="ttdeci">void __dt__15J3DAnmColorFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:979</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a6229d5508d4a1c537337d99308a6d82e"><div class="ttname"><a href="J3DAnimation_8cpp.html#a6229d5508d4a1c537337d99308a6d82e">__dt__15J3DAnmColorFullFv</a></div><div class="ttdeci">void __dt__15J3DAnmColorFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:978</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ad3e63074551afc6c9042b452339f2c2b"><div class="ttname"><a href="J3DAnimation_8cpp.html#ad3e63074551afc6c9042b452339f2c2b">getColor__15J3DAnmColorFullCFUsP8_GXColor</a></div><div class="ttdeci">void getColor__15J3DAnmColorFullCFUsP8_GXColor()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ae276e09af15beb74976b48bd154026c7"><div class="ttname"><a href="J3DAnimation_8cpp.html#ae276e09af15beb74976b48bd154026c7">getKind__15J3DAnmColorFullCFv</a></div><div class="ttdeci">s32 getKind__15J3DAnmColorFullCFv()</div></div>
 </div><!-- fragment -->
@@ -1959,7 +1969,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J3DAnmTevRegKey[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__15J3DAnmTevRegKey[4]</td>
         </tr>
       </table>
   </td>
@@ -1969,12 +1979,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a1a7147061182df31dd7c305b6faca585">__dt__15J3DAnmTevRegKeyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#af9ff749f24e76d72e81f85e07fe4d352">getKind__15J3DAnmTevRegKeyCFv</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a1a7147061182df31dd7c305b6faca585"><div class="ttname"><a href="J3DAnimation_8cpp.html#a1a7147061182df31dd7c305b6faca585">__dt__15J3DAnmTevRegKeyFv</a></div><div class="ttdeci">void __dt__15J3DAnmTevRegKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:947</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a1a7147061182df31dd7c305b6faca585"><div class="ttname"><a href="J3DAnimation_8cpp.html#a1a7147061182df31dd7c305b6faca585">__dt__15J3DAnmTevRegKeyFv</a></div><div class="ttdeci">void __dt__15J3DAnmTevRegKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:946</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_af9ff749f24e76d72e81f85e07fe4d352"><div class="ttname"><a href="J3DAnimation_8cpp.html#af9ff749f24e76d72e81f85e07fe4d352">getKind__15J3DAnmTevRegKeyCFv</a></div><div class="ttdeci">s32 getKind__15J3DAnmTevRegKeyCFv()</div></div>
 </div><!-- fragment -->
 </div>
@@ -2011,7 +2021,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__16J3DAnmClusterKey[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__16J3DAnmClusterKey[5]</td>
         </tr>
       </table>
   </td>
@@ -2021,14 +2031,14 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ab720dd0f7308659346e77aa7a2455ece">__dt__16J3DAnmClusterKeyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a5ba0bd65ddb8b164af49b879d27f53f2">getKind__16J3DAnmClusterKeyCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ac5ecd831e5b1dc23e4cf05e28225012c">getWeight__16J3DAnmClusterKeyCFUs</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a5ba0bd65ddb8b164af49b879d27f53f2"><div class="ttname"><a href="J3DAnimation_8cpp.html#a5ba0bd65ddb8b164af49b879d27f53f2">getKind__16J3DAnmClusterKeyCFv</a></div><div class="ttdeci">s32 getKind__16J3DAnmClusterKeyCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_ab720dd0f7308659346e77aa7a2455ece"><div class="ttname"><a href="J3DAnimation_8cpp.html#ab720dd0f7308659346e77aa7a2455ece">__dt__16J3DAnmClusterKeyFv</a></div><div class="ttdeci">void __dt__16J3DAnmClusterKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1048</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_ab720dd0f7308659346e77aa7a2455ece"><div class="ttname"><a href="J3DAnimation_8cpp.html#ab720dd0f7308659346e77aa7a2455ece">__dt__16J3DAnmClusterKeyFv</a></div><div class="ttdeci">void __dt__16J3DAnmClusterKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1047</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ac5ecd831e5b1dc23e4cf05e28225012c"><div class="ttname"><a href="J3DAnimation_8cpp.html#ac5ecd831e5b1dc23e4cf05e28225012c">getWeight__16J3DAnmClusterKeyCFUs</a></div><div class="ttdeci">void getWeight__16J3DAnmClusterKeyCFUs()</div></div>
 </div><!-- fragment -->
 </div>
@@ -2043,7 +2053,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__16J3DAnmTexPattern[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__16J3DAnmTexPattern[4]</td>
         </tr>
       </table>
   </td>
@@ -2053,13 +2063,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a9e3c60150d46392a45ed823c966b903e">__dt__16J3DAnmTexPatternFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a9bd4972451786687817001b214f23de2">getKind__16J3DAnmTexPatternCFv</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a9bd4972451786687817001b214f23de2"><div class="ttname"><a href="J3DAnimation_8cpp.html#a9bd4972451786687817001b214f23de2">getKind__16J3DAnmTexPatternCFv</a></div><div class="ttdeci">s32 getKind__16J3DAnmTexPatternCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a9e3c60150d46392a45ed823c966b903e"><div class="ttname"><a href="J3DAnimation_8cpp.html#a9e3c60150d46392a45ed823c966b903e">__dt__16J3DAnmTexPatternFv</a></div><div class="ttdeci">void __dt__16J3DAnmTexPatternFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:931</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a9e3c60150d46392a45ed823c966b903e"><div class="ttname"><a href="J3DAnimation_8cpp.html#a9e3c60150d46392a45ed823c966b903e">__dt__16J3DAnmTexPatternFv</a></div><div class="ttdeci">void __dt__16J3DAnmTexPatternFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:930</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2073,7 +2083,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__17J3DAnmClusterFull[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__17J3DAnmClusterFull[5]</td>
         </tr>
       </table>
   </td>
@@ -2083,13 +2093,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a8926cdd6395ee31a11f739cb36ec9ada">__dt__17J3DAnmClusterFullFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ad68f0b4941d241463d52c4c3a587285e">getKind__17J3DAnmClusterFullCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#acaec98e4621d73fab5bf26c06503e0df">getWeight__17J3DAnmClusterFullCFUs</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a8926cdd6395ee31a11f739cb36ec9ada"><div class="ttname"><a href="J3DAnimation_8cpp.html#a8926cdd6395ee31a11f739cb36ec9ada">__dt__17J3DAnmClusterFullFv</a></div><div class="ttdeci">void __dt__17J3DAnmClusterFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1085</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a8926cdd6395ee31a11f739cb36ec9ada"><div class="ttname"><a href="J3DAnimation_8cpp.html#a8926cdd6395ee31a11f739cb36ec9ada">__dt__17J3DAnmClusterFullFv</a></div><div class="ttdeci">void __dt__17J3DAnmClusterFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1084</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_acaec98e4621d73fab5bf26c06503e0df"><div class="ttname"><a href="J3DAnimation_8cpp.html#acaec98e4621d73fab5bf26c06503e0df">getWeight__17J3DAnmClusterFullCFUs</a></div><div class="ttdeci">void getWeight__17J3DAnmClusterFullCFUs()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ad68f0b4941d241463d52c4c3a587285e"><div class="ttname"><a href="J3DAnimation_8cpp.html#ad68f0b4941d241463d52c4c3a587285e">getKind__17J3DAnmClusterFullCFv</a></div><div class="ttdeci">s32 getKind__17J3DAnmClusterFullCFv()</div></div>
 </div><!-- fragment -->
@@ -2105,7 +2115,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__17J3DAnmVtxColorKey[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__17J3DAnmVtxColorKey[5]</td>
         </tr>
       </table>
   </td>
@@ -2115,13 +2125,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a15c665c74f74012cc0e56163df0af815">__dt__17J3DAnmVtxColorKeyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#aff934979dbf72829c35dffc552b6320c">getKind__17J3DAnmVtxColorKeyCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ae4ea908c6230d74c7f2683ccdc0f8eb0">getColor__17J3DAnmVtxColorKeyCFUcUsP8_GXColor</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a15c665c74f74012cc0e56163df0af815"><div class="ttname"><a href="J3DAnimation_8cpp.html#a15c665c74f74012cc0e56163df0af815">__dt__17J3DAnmVtxColorKeyFv</a></div><div class="ttdeci">void __dt__17J3DAnmVtxColorKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1005</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a15c665c74f74012cc0e56163df0af815"><div class="ttname"><a href="J3DAnimation_8cpp.html#a15c665c74f74012cc0e56163df0af815">__dt__17J3DAnmVtxColorKeyFv</a></div><div class="ttdeci">void __dt__17J3DAnmVtxColorKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1004</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ae4ea908c6230d74c7f2683ccdc0f8eb0"><div class="ttname"><a href="J3DAnimation_8cpp.html#ae4ea908c6230d74c7f2683ccdc0f8eb0">getColor__17J3DAnmVtxColorKeyCFUcUsP8_GXColor</a></div><div class="ttdeci">void getColor__17J3DAnmVtxColorKeyCFUcUsP8_GXColor()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_aff934979dbf72829c35dffc552b6320c"><div class="ttname"><a href="J3DAnimation_8cpp.html#aff934979dbf72829c35dffc552b6320c">getKind__17J3DAnmVtxColorKeyCFv</a></div><div class="ttdeci">s32 getKind__17J3DAnmVtxColorKeyCFv()</div></div>
 </div><!-- fragment -->
@@ -2137,7 +2147,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__18J3DAnmVtxColorFull[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__18J3DAnmVtxColorFull[5]</td>
         </tr>
       </table>
   </td>
@@ -2147,13 +2157,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a27638b2c18e5aa03a629f14ca50bf3e4">__dt__18J3DAnmVtxColorFullFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ae92262971894a8d76fdbce520042b620">getKind__18J3DAnmVtxColorFullCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#ad6c49bdd6fddef3c1bb16add0a12d700">getColor__18J3DAnmVtxColorFullCFUcUsP8_GXColor</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a27638b2c18e5aa03a629f14ca50bf3e4"><div class="ttname"><a href="J3DAnimation_8cpp.html#a27638b2c18e5aa03a629f14ca50bf3e4">__dt__18J3DAnmVtxColorFullFv</a></div><div class="ttdeci">void __dt__18J3DAnmVtxColorFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1021</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a27638b2c18e5aa03a629f14ca50bf3e4"><div class="ttname"><a href="J3DAnimation_8cpp.html#a27638b2c18e5aa03a629f14ca50bf3e4">__dt__18J3DAnmVtxColorFullFv</a></div><div class="ttdeci">void __dt__18J3DAnmVtxColorFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1020</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ad6c49bdd6fddef3c1bb16add0a12d700"><div class="ttname"><a href="J3DAnimation_8cpp.html#ad6c49bdd6fddef3c1bb16add0a12d700">getColor__18J3DAnmVtxColorFullCFUcUsP8_GXColor</a></div><div class="ttdeci">void getColor__18J3DAnmVtxColorFullCFUcUsP8_GXColor()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_ae92262971894a8d76fdbce520042b620"><div class="ttname"><a href="J3DAnimation_8cpp.html#ae92262971894a8d76fdbce520042b620">getKind__18J3DAnmVtxColorFullCFv</a></div><div class="ttdeci">s32 getKind__18J3DAnmVtxColorFullCFv()</div></div>
 </div><!-- fragment -->
@@ -2169,7 +2179,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__19J3DAnmTextureSRTKey[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__19J3DAnmTextureSRTKey[4]</td>
         </tr>
       </table>
   </td>
@@ -2179,13 +2189,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a5bae1e57c7c084e8b6d42cb8d259d2c7">__dt__19J3DAnmTextureSRTKeyFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a3fa0d7bc34254e141619a49b68f80848">getKind__19J3DAnmTextureSRTKeyCFv</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a3fa0d7bc34254e141619a49b68f80848"><div class="ttname"><a href="J3DAnimation_8cpp.html#a3fa0d7bc34254e141619a49b68f80848">getKind__19J3DAnmTextureSRTKeyCFv</a></div><div class="ttdeci">s32 getKind__19J3DAnmTextureSRTKeyCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a5bae1e57c7c084e8b6d42cb8d259d2c7"><div class="ttname"><a href="J3DAnimation_8cpp.html#a5bae1e57c7c084e8b6d42cb8d259d2c7">__dt__19J3DAnmTextureSRTKeyFv</a></div><div class="ttdeci">void __dt__19J3DAnmTextureSRTKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1101</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a5bae1e57c7c084e8b6d42cb8d259d2c7"><div class="ttname"><a href="J3DAnimation_8cpp.html#a5bae1e57c7c084e8b6d42cb8d259d2c7">__dt__19J3DAnmTextureSRTKeyFv</a></div><div class="ttdeci">void __dt__19J3DAnmTextureSRTKeyFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1100</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2199,7 +2209,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__19J3DAnmTransformFull[5+1]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__19J3DAnmTransformFull[5+1]</td>
         </tr>
       </table>
   </td>
@@ -2209,17 +2219,17 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#aa5c4a971007a3c16761def822e4b62a3">__dt__19J3DAnmTransformFullFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a69d233059243ee5e8d657f8711999ce2">getKind__19J3DAnmTransformFullCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a452614a0832027276a81a9f10cf05b0d">getTransform__19J3DAnmTransformFullCFUsP16J3DTransformInfo</a>,</div>
 <div class="line">    </div>
-<div class="line">    <a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    <a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">}</div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a452614a0832027276a81a9f10cf05b0d"><div class="ttname"><a href="J3DAnimation_8cpp.html#a452614a0832027276a81a9f10cf05b0d">getTransform__19J3DAnmTransformFullCFUsP16J3DTransformInfo</a></div><div class="ttdeci">void getTransform__19J3DAnmTransformFullCFUsP16J3DTransformInfo()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a69d233059243ee5e8d657f8711999ce2"><div class="ttname"><a href="J3DAnimation_8cpp.html#a69d233059243ee5e8d657f8711999ce2">getKind__19J3DAnmTransformFullCFv</a></div><div class="ttdeci">s32 getKind__19J3DAnmTransformFullCFv()</div></div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_aa5c4a971007a3c16761def822e4b62a3"><div class="ttname"><a href="J3DAnimation_8cpp.html#aa5c4a971007a3c16761def822e4b62a3">__dt__19J3DAnmTransformFullFv</a></div><div class="ttdeci">void __dt__19J3DAnmTransformFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1156</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_aa5c4a971007a3c16761def822e4b62a3"><div class="ttname"><a href="J3DAnimation_8cpp.html#aa5c4a971007a3c16761def822e4b62a3">__dt__19J3DAnmTransformFullFv</a></div><div class="ttdeci">void __dt__19J3DAnmTransformFullFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1155</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -2233,7 +2243,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__27J3DAnmTransformFullWithLerp[5]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_DATA</a> <a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">void</a>* __vt__27J3DAnmTransformFullWithLerp[5]</td>
         </tr>
       </table>
   </td>
@@ -2243,13 +2253,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> ,</div>
-<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_define" href="stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a> ,</div>
+<div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">NULL</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a74c39f6292eca2f0c31e33ba4d6603d5">__dt__27J3DAnmTransformFullWithLerpFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#aeb04d10e23d93207217da49ac9242858">getKind__27J3DAnmTransformFullWithLerpCFv</a>,</div>
 <div class="line">    (<span class="keywordtype">void</span>*)<a class="code hl_function" href="J3DAnimation_8cpp.html#a818827aa909b09f5d9670c39f49b3a8a">getTransform__27J3DAnmTransformFullWithLerpCFUsP16J3DTransformInfo</a>,</div>
 <div class="line">}</div>
-<div class="ttc" id="aJ3DAnimation_8cpp_html_a74c39f6292eca2f0c31e33ba4d6603d5"><div class="ttname"><a href="J3DAnimation_8cpp.html#a74c39f6292eca2f0c31e33ba4d6603d5">__dt__27J3DAnmTransformFullWithLerpFv</a></div><div class="ttdeci">void __dt__27J3DAnmTransformFullWithLerpFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1140</div></div>
+<div class="ttc" id="aJ3DAnimation_8cpp_html_a74c39f6292eca2f0c31e33ba4d6603d5"><div class="ttname"><a href="J3DAnimation_8cpp.html#a74c39f6292eca2f0c31e33ba4d6603d5">__dt__27J3DAnmTransformFullWithLerpFv</a></div><div class="ttdeci">void __dt__27J3DAnmTransformFullWithLerpFv()</div><div class="ttdef"><b>Definition</b> J3DAnimation.cpp:1139</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_a818827aa909b09f5d9670c39f49b3a8a"><div class="ttname"><a href="J3DAnimation_8cpp.html#a818827aa909b09f5d9670c39f49b3a8a">getTransform__27J3DAnmTransformFullWithLerpCFUsP16J3DTransformInfo</a></div><div class="ttdeci">void getTransform__27J3DAnmTransformFullWithLerpCFUsP16J3DTransformInfo()</div></div>
 <div class="ttc" id="aJ3DAnimation_8cpp_html_aeb04d10e23d93207217da49ac9242858"><div class="ttname"><a href="J3DAnimation_8cpp.html#aeb04d10e23d93207217da49ac9242858">getKind__27J3DAnmTransformFullWithLerpCFv</a></div><div class="ttdeci">s32 getKind__27J3DAnmTransformFullWithLerpCFv()</div></div>
 </div><!-- fragment -->
@@ -2265,7 +2275,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1092[1+1]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1092[1+1]</td>
         </tr>
       </table>
   </td>
@@ -2292,7 +2302,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_1223 = 4503599627370496.0</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_1223 = 4503599627370496.0</td>
         </tr>
       </table>
   </td>
@@ -2314,7 +2324,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1499 = 255.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1499 = 255.0f</td>
         </tr>
       </table>
   </td>
@@ -2336,7 +2346,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1817 = -1024.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1817 = -1024.0f</td>
         </tr>
       </table>
   </td>
@@ -2358,7 +2368,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1818[1+1]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_1818[1+1]</td>
         </tr>
       </table>
   </td>
@@ -2385,7 +2395,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_852 = 1.0f</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_852 = 1.0f</td>
         </tr>
       </table>
   </td>
@@ -2407,7 +2417,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lit_853[4]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> lit_853[4]</td>
         </tr>
       </table>
   </td>
@@ -2435,7 +2445,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_973[1+1]</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> lit_973[1+1]</td>
         </tr>
       </table>
   </td>
@@ -2462,7 +2472,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a5c2a45e3895d11e22314dfe16ece0d10">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_975 = 4503601774854144.0</td>
+          <td class="memname"><a class="el" href="JSUInputStream_8h.html#a13fa7ef63a40072c7203b3da54a569a2">SECTION_SDATA2</a> <a class="el" href="types_8h.html#a94dab5770726ccbef8c7d026cfbdf8e5">f64</a> lit_975 = 4503601774854144.0</td>
         </tr>
       </table>
   </td>
@@ -2475,9 +2485,13 @@ Variables</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_003060a984452b2ac376c290647dff95.html">JSystem</a></li><li class="navelem"><a class="el" href="dir_558ff2e7feface24a1ef570172adc5c9.html">J3DGraphAnimator</a></li><li class="navelem"><a class="el" href="J3DAnimation_8cpp.html">J3DAnimation.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/os/OSContext.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('OSContext_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_cae10961887f0d641c054afc85dac474.html">os</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">OSContext.h</div></div>
 </div><!--header-->
@@ -98,132 +157,132 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad20c5a92a0f8292e5435e2f170125695">   10</a></span><span class="preprocessor">#define __OS_CONTEXT_FRAME 768</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define __OS_CONTEXT_FRAME 768</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a97fa92473e014aa0c4fa09733b7be467">   12</a></span><span class="preprocessor">#define OS_CONTEXT_R0 0</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae118274e8ea7e8ac530671cd2769e1b0">   13</a></span><span class="preprocessor">#define OS_CONTEXT_R1 4</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aa35c389a9f7e1a5fa84abe0cddce0ec4">   14</a></span><span class="preprocessor">#define OS_CONTEXT_R2 8</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a265a223769b18e0f203bddab59773949">   15</a></span><span class="preprocessor">#define OS_CONTEXT_R3 12</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ab0d7692068ac9e2bd964b2aa4e28952d">   16</a></span><span class="preprocessor">#define OS_CONTEXT_R4 16</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ac206bc225256578b10d3f06353b9e20d">   17</a></span><span class="preprocessor">#define OS_CONTEXT_R5 20</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a399a8bec83ff0860d8ff9bcfcf9dd944">   18</a></span><span class="preprocessor">#define OS_CONTEXT_R6 24</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aec5d4a9a224adc7576efdf9b2f5ec036">   19</a></span><span class="preprocessor">#define OS_CONTEXT_R7 28</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ac2df106ec99f49e708071dcdafb3ceea">   20</a></span><span class="preprocessor">#define OS_CONTEXT_R8 32</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a44d537dfd1851884adc697d5722bcfc7">   21</a></span><span class="preprocessor">#define OS_CONTEXT_R9 36</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a9c3c79dff696bfc7248e1fcf56c0d555">   22</a></span><span class="preprocessor">#define OS_CONTEXT_R10 40</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a9bd6ed73ede2039e4c31d3386bd8bfc1">   23</a></span><span class="preprocessor">#define OS_CONTEXT_R11 44</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a81e566c4267e3d11c1f53b842145d223">   24</a></span><span class="preprocessor">#define OS_CONTEXT_R12 48</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="OSContext_8h.html#afe41583444bdf54e2ab442ce3d1d0b87">   25</a></span><span class="preprocessor">#define OS_CONTEXT_R13 52</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad816f1f4af53924e20c8fcc3055711e0">   26</a></span><span class="preprocessor">#define OS_CONTEXT_R14 56</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ac2698f5f096a84718684e1ab64c57af1">   27</a></span><span class="preprocessor">#define OS_CONTEXT_R15 60</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a93b9358bd118a5ba329594712ec15fda">   28</a></span><span class="preprocessor">#define OS_CONTEXT_R16 64</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a64ff6e1f2be300fada5d2bce7aa009f1">   29</a></span><span class="preprocessor">#define OS_CONTEXT_R17 68</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abf9e9629ba485f688c7c762cc551fb95">   30</a></span><span class="preprocessor">#define OS_CONTEXT_R18 72</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a4b181da9bfd86c3918e387ef8c8a1a1d">   31</a></span><span class="preprocessor">#define OS_CONTEXT_R19 76</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ac0b8ed5510437cfd6790ee25c17f8791">   32</a></span><span class="preprocessor">#define OS_CONTEXT_R20 80</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae28fd5db35818fa488c1f84faa7b985c">   33</a></span><span class="preprocessor">#define OS_CONTEXT_R21 84</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abfd1754e1709e471d7182a95d1c950c7">   34</a></span><span class="preprocessor">#define OS_CONTEXT_R22 88</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a4d5c50fe17396e1e2a3c01c85dde97d6">   35</a></span><span class="preprocessor">#define OS_CONTEXT_R23 92</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="OSContext_8h.html#afe4b3800539889d41750002a3ab42ad5">   36</a></span><span class="preprocessor">#define OS_CONTEXT_R24 96</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a75261f26c8eac9dabe639248d463044d">   37</a></span><span class="preprocessor">#define OS_CONTEXT_R25 100</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5c0ec5f4de9e8c1b7a71647c16ec6ac5">   38</a></span><span class="preprocessor">#define OS_CONTEXT_R26 104</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a3cfa675d7c7fae714c6ba9453f4159e0">   39</a></span><span class="preprocessor">#define OS_CONTEXT_R27 108</span></div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="OSContext_8h.html#add0ceeb59907797e83f5953060726dd0">   40</a></span><span class="preprocessor">#define OS_CONTEXT_R28 112</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a642b907fb70b04354ae639ad9f1b34de">   41</a></span><span class="preprocessor">#define OS_CONTEXT_R29 116</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a330a38a8e3b2735792ed1ae229c273c0">   42</a></span><span class="preprocessor">#define OS_CONTEXT_R30 120</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a53b8992e6dcaf1396974747e962812fd">   43</a></span><span class="preprocessor">#define OS_CONTEXT_R31 124</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define OS_CONTEXT_R0 0</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define OS_CONTEXT_R1 4</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define OS_CONTEXT_R2 8</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define OS_CONTEXT_R3 12</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define OS_CONTEXT_R4 16</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define OS_CONTEXT_R5 20</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define OS_CONTEXT_R6 24</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define OS_CONTEXT_R7 28</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define OS_CONTEXT_R8 32</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define OS_CONTEXT_R9 36</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define OS_CONTEXT_R10 40</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define OS_CONTEXT_R11 44</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define OS_CONTEXT_R12 48</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define OS_CONTEXT_R13 52</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define OS_CONTEXT_R14 56</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define OS_CONTEXT_R15 60</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#define OS_CONTEXT_R16 64</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define OS_CONTEXT_R17 68</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define OS_CONTEXT_R18 72</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define OS_CONTEXT_R19 76</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define OS_CONTEXT_R20 80</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define OS_CONTEXT_R21 84</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#define OS_CONTEXT_R22 88</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define OS_CONTEXT_R23 92</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">#define OS_CONTEXT_R24 96</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define OS_CONTEXT_R25 100</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#define OS_CONTEXT_R26 104</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#define OS_CONTEXT_R27 108</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define OS_CONTEXT_R28 112</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#define OS_CONTEXT_R29 116</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#define OS_CONTEXT_R30 120</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define OS_CONTEXT_R31 124</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae749e098e60bcc0c7cd97886021473a0">   45</a></span><span class="preprocessor">#define OS_CONTEXT_CR 128</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad2534ed403a6588d74f867dea1a9e6c4">   46</a></span><span class="preprocessor">#define OS_CONTEXT_LR 132</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad33a47efbd111cd82d58d91535c6547f">   47</a></span><span class="preprocessor">#define OS_CONTEXT_CTR 136</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ab91e75871861c1546070e93f48138237">   48</a></span><span class="preprocessor">#define OS_CONTEXT_XER 140</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define OS_CONTEXT_CR 128</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#define OS_CONTEXT_LR 132</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define OS_CONTEXT_CTR 136</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define OS_CONTEXT_XER 140</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a55f6c50fc239701d38e1d4b82bd479f0">   50</a></span><span class="preprocessor">#define OS_CONTEXT_FPR0 144</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a76fc1e05a9d86233107c191e94a9fe11">   51</a></span><span class="preprocessor">#define OS_CONTEXT_FPR1 152</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a357194121caef06a736158e750f20e03">   52</a></span><span class="preprocessor">#define OS_CONTEXT_FPR2 160</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aed41412f63bedd2f78931b97868ae645">   53</a></span><span class="preprocessor">#define OS_CONTEXT_FPR3 168</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aadba0938ec7fc94bdddadc296049b834">   54</a></span><span class="preprocessor">#define OS_CONTEXT_FPR4 176</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ac12d6455361de00354d27670e890c0aa">   55</a></span><span class="preprocessor">#define OS_CONTEXT_FPR5 184</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aad3840a9bf21c7b08383ba5504653e82">   56</a></span><span class="preprocessor">#define OS_CONTEXT_FPR6 192</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abda6495da5ec7ed41aa9716bdf545a7b">   57</a></span><span class="preprocessor">#define OS_CONTEXT_FPR7 200</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad580eb4efdaff1735d5b0cea01a7c4ad">   58</a></span><span class="preprocessor">#define OS_CONTEXT_FPR8 208</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ab5a0a9189379f613f618c084aa053db7">   59</a></span><span class="preprocessor">#define OS_CONTEXT_FPR9 216</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a52044ec02e9ff60c0593885fdcf80b39">   60</a></span><span class="preprocessor">#define OS_CONTEXT_FPR10 224</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a0137709a66970cfdc53034639248d0bb">   61</a></span><span class="preprocessor">#define OS_CONTEXT_FPR11 232</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aaf4626f472cb86e258ce6b2ef0642df5">   62</a></span><span class="preprocessor">#define OS_CONTEXT_FPR12 240</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aae4318dcf24e527815575be0b0d6dffa">   63</a></span><span class="preprocessor">#define OS_CONTEXT_FPR13 248</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a870f9e4f326e9d6ac5517ee25a131f0b">   64</a></span><span class="preprocessor">#define OS_CONTEXT_FPR14 256</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae3a826d6f52ae83a19f346178d6e8cea">   65</a></span><span class="preprocessor">#define OS_CONTEXT_FPR15 264</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a9dca96380fee693ef21ea7c89383a258">   66</a></span><span class="preprocessor">#define OS_CONTEXT_FPR16 272</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a41c3c9658432f2ccd459030567a5804e">   67</a></span><span class="preprocessor">#define OS_CONTEXT_FPR17 280</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a0d174d2b6e874f412e68c1d08942ac2f">   68</a></span><span class="preprocessor">#define OS_CONTEXT_FPR18 288</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a1f207659041a326a4834e3e084777d5b">   69</a></span><span class="preprocessor">#define OS_CONTEXT_FPR19 296</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a52d3b66db26ca165ca5af717fd69bcc4">   70</a></span><span class="preprocessor">#define OS_CONTEXT_FPR20 304</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aaccc4760d500b5aedb2fc6d41486dd0f">   71</a></span><span class="preprocessor">#define OS_CONTEXT_FPR21 312</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abdb5a7f1ec1059fa8afff25ca2a79af1">   72</a></span><span class="preprocessor">#define OS_CONTEXT_FPR22 320</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5bb6b14b17002ff844c2f1cbefbd49a1">   73</a></span><span class="preprocessor">#define OS_CONTEXT_FPR23 328</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a812f481316d09145cc371b5906a80b03">   74</a></span><span class="preprocessor">#define OS_CONTEXT_FPR24 336</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a6e2d1ca1756f80253422727871922e62">   75</a></span><span class="preprocessor">#define OS_CONTEXT_FPR25 344</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abb787bcd847b9cc90c886391433f7d60">   76</a></span><span class="preprocessor">#define OS_CONTEXT_FPR26 352</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abafb40d966956bcfe28399dd249b2a6f">   77</a></span><span class="preprocessor">#define OS_CONTEXT_FPR27 360</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae7da37d54691644e237ab3b48fa8f171">   78</a></span><span class="preprocessor">#define OS_CONTEXT_FPR28 368</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a8c52255a5e0a2d53e23b6c9f65c97879">   79</a></span><span class="preprocessor">#define OS_CONTEXT_FPR29 376</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abe4f7133c55952ff7e95a65e71da32c1">   80</a></span><span class="preprocessor">#define OS_CONTEXT_FPR30 384</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a8881ae423e4841fbec45c782be72f17f">   81</a></span><span class="preprocessor">#define OS_CONTEXT_FPR31 392</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define OS_CONTEXT_FPR0 144</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define OS_CONTEXT_FPR1 152</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define OS_CONTEXT_FPR2 160</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define OS_CONTEXT_FPR3 168</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define OS_CONTEXT_FPR4 176</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define OS_CONTEXT_FPR5 184</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define OS_CONTEXT_FPR6 192</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define OS_CONTEXT_FPR7 200</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define OS_CONTEXT_FPR8 208</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define OS_CONTEXT_FPR9 216</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define OS_CONTEXT_FPR10 224</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define OS_CONTEXT_FPR11 232</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define OS_CONTEXT_FPR12 240</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define OS_CONTEXT_FPR13 248</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#define OS_CONTEXT_FPR14 256</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#define OS_CONTEXT_FPR15 264</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#define OS_CONTEXT_FPR16 272</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#define OS_CONTEXT_FPR17 280</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#define OS_CONTEXT_FPR18 288</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#define OS_CONTEXT_FPR19 296</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#define OS_CONTEXT_FPR20 304</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#define OS_CONTEXT_FPR21 312</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#define OS_CONTEXT_FPR22 320</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#define OS_CONTEXT_FPR23 328</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">#define OS_CONTEXT_FPR24 336</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define OS_CONTEXT_FPR25 344</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#define OS_CONTEXT_FPR26 352</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#define OS_CONTEXT_FPR27 360</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#define OS_CONTEXT_FPR28 368</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#define OS_CONTEXT_FPR29 376</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#define OS_CONTEXT_FPR30 384</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#define OS_CONTEXT_FPR31 392</span></div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a4483c22d27201dea77d19a68c50e1f7a">   83</a></span><span class="preprocessor">#define OS_CONTEXT_FPSCR 400</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#define OS_CONTEXT_FPSCR 400</span></div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae10489f571de5beb9187f0d3ad7f2068">   85</a></span><span class="preprocessor">#define OS_CONTEXT_SRR0 408</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a1023d44af6f9ea91c878f2e72bd98917">   86</a></span><span class="preprocessor">#define OS_CONTEXT_SRR1 412</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">#define OS_CONTEXT_SRR0 408</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#define OS_CONTEXT_SRR1 412</span></div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a77b65261477d6e96134c96015025e9ba">   88</a></span><span class="preprocessor">#define OS_CONTEXT_MODE 416</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a3fcdb5b18952e57d464d9266371db8be">   89</a></span><span class="preprocessor">#define OS_CONTEXT_STATE 418</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#define OS_CONTEXT_MODE 416</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#define OS_CONTEXT_STATE 418</span></div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ab3bac056e40b0a36501fb0578eef3d61">   91</a></span><span class="preprocessor">#define OS_CONTEXT_GQR0 420</span></div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae6d5f3feb3b8234738ca0ab2ea6062f9">   92</a></span><span class="preprocessor">#define OS_CONTEXT_GQR1 424</span></div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a1f48a7177b6488a2b1dc6000bf03ae8e">   93</a></span><span class="preprocessor">#define OS_CONTEXT_GQR2 428</span></div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2861768a3bb2132dd8e5272357e900f2">   94</a></span><span class="preprocessor">#define OS_CONTEXT_GQR3 432</span></div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="OSContext_8h.html#acfa045e2a5ab2756f2dae041364846d3">   95</a></span><span class="preprocessor">#define OS_CONTEXT_GQR4 436</span></div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a26015f83d3301aaac0afa36f8bc20313">   96</a></span><span class="preprocessor">#define OS_CONTEXT_GQR5 440</span></div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="OSContext_8h.html#abfe32daa03969f25f2738e5de3fa0984">   97</a></span><span class="preprocessor">#define OS_CONTEXT_GQR6 444</span></div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ad8c117ab66f543549426c48d6258839d">   98</a></span><span class="preprocessor">#define OS_CONTEXT_GQR7 448</span></div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a0c8f620af2ee8f79b9f2f3ecd1d16f9d">   99</a></span><span class="preprocessor">#define __OSCONTEXT_PADDING 452</span></div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#define OS_CONTEXT_GQR0 420</span></div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span><span class="preprocessor">#define OS_CONTEXT_GQR1 424</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="preprocessor">#define OS_CONTEXT_GQR2 428</span></div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="preprocessor">#define OS_CONTEXT_GQR3 432</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span><span class="preprocessor">#define OS_CONTEXT_GQR4 436</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span><span class="preprocessor">#define OS_CONTEXT_GQR5 440</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span><span class="preprocessor">#define OS_CONTEXT_GQR6 444</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span><span class="preprocessor">#define OS_CONTEXT_GQR7 448</span></div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span><span class="preprocessor">#define __OSCONTEXT_PADDING 452</span></div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a307d9e7faa3316cc7d02bf912fba87f0">  101</a></span><span class="preprocessor">#define OS_CONTEXT_PSF0 456</span></div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2ebff8045300967a96cbc7144d3919e7">  102</a></span><span class="preprocessor">#define OS_CONTEXT_PSF1 464</span></div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a373af7d11e1155c07e1538f7f5b48400">  103</a></span><span class="preprocessor">#define OS_CONTEXT_PSF2 472</span></div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5bb3200d699808cd578722b7852d6949">  104</a></span><span class="preprocessor">#define OS_CONTEXT_PSF3 480</span></div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a54ebd6fdf60199cb6a660dbeb4fd2eee">  105</a></span><span class="preprocessor">#define OS_CONTEXT_PSF4 488</span></div>
-<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="OSContext_8h.html#adc5870b3bc02905aeb2130727d6e0ccc">  106</a></span><span class="preprocessor">#define OS_CONTEXT_PSF5 496</span></div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno"><a class="line" href="OSContext_8h.html#ae2dd2b4665a9964c2662ddc7971ee951">  107</a></span><span class="preprocessor">#define OS_CONTEXT_PSF6 504</span></div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a4c3da820315e97156f25426e8770fc9f">  108</a></span><span class="preprocessor">#define OS_CONTEXT_PSF7 512</span></div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a516ac5f1f664f1b3ec68468e1f304904">  109</a></span><span class="preprocessor">#define OS_CONTEXT_PSF8 520</span></div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2ae313a328436995d296442325414074">  110</a></span><span class="preprocessor">#define OS_CONTEXT_PSF9 528</span></div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a8ed8cd8382c130b7a7a415dee3ca7a40">  111</a></span><span class="preprocessor">#define OS_CONTEXT_PSF10 536</span></div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5e4161751d874ce3c447d6fcb93b7e43">  112</a></span><span class="preprocessor">#define OS_CONTEXT_PSF11 544</span></div>
-<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a785777c79cf87a360119450c1676b8ab">  113</a></span><span class="preprocessor">#define OS_CONTEXT_PSF12 552</span></div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aae3b6f3db901a91d3093d1bdc437f5c9">  114</a></span><span class="preprocessor">#define OS_CONTEXT_PSF13 560</span></div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aa239adb470a0787672185c8b0cb1614f">  115</a></span><span class="preprocessor">#define OS_CONTEXT_PSF14 568</span></div>
-<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aaa771f096e6158c59da5ce64fc8409d9">  116</a></span><span class="preprocessor">#define OS_CONTEXT_PSF15 576</span></div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a042d745f5d3c44bd724abd77b8b23ac3">  117</a></span><span class="preprocessor">#define OS_CONTEXT_PSF16 584</span></div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aa6a0955656b24419136b158758fa1788">  118</a></span><span class="preprocessor">#define OS_CONTEXT_PSF17 592</span></div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5b425b9e39bb69fc38b792850d0b5732">  119</a></span><span class="preprocessor">#define OS_CONTEXT_PSF18 600</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a3ed01cca8c68c79fbe0204bdace93c8d">  120</a></span><span class="preprocessor">#define OS_CONTEXT_PSF19 608</span></div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2a03b240d6f907272144178c664a2f55">  121</a></span><span class="preprocessor">#define OS_CONTEXT_PSF20 616</span></div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2cdb72621689a3613c46e779a748493f">  122</a></span><span class="preprocessor">#define OS_CONTEXT_PSF21 624</span></div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a3a0c2a489dd138cc923bc0cd0dc7315a">  123</a></span><span class="preprocessor">#define OS_CONTEXT_PSF22 632</span></div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a9066fdc6a232aec6e6c48b93382abc75">  124</a></span><span class="preprocessor">#define OS_CONTEXT_PSF23 640</span></div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="OSContext_8h.html#aee18b96a0b693b716d290ce9f0ff5797">  125</a></span><span class="preprocessor">#define OS_CONTEXT_PSF24 648</span></div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a663c27ee63a275ee3018837178d5711a">  126</a></span><span class="preprocessor">#define OS_CONTEXT_PSF25 656</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a74fba6271d1112d17633f06293289d0f">  127</a></span><span class="preprocessor">#define OS_CONTEXT_PSF26 664</span></div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a89d20d72bc31f26840dc3ae54733cefa">  128</a></span><span class="preprocessor">#define OS_CONTEXT_PSF27 672</span></div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a14badc9f8e31763ed7eeeaf4dcbbd477">  129</a></span><span class="preprocessor">#define OS_CONTEXT_PSF28 680</span></div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a2114087d68086ea221aee6ea517436b8">  130</a></span><span class="preprocessor">#define OS_CONTEXT_PSF29 688</span></div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a75adb2b6e39d63bc78ddc54971e7cf1d">  131</a></span><span class="preprocessor">#define OS_CONTEXT_PSF30 696</span></div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a5705db1dd4ac3ffc590c97d2ef9aeb3a">  132</a></span><span class="preprocessor">#define OS_CONTEXT_PSF31 704</span></div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a8ca8b84a56cc646d1dad42f1a4a292fe">  133</a></span><span class="preprocessor">#define OS_CONTEXT_STATE_EXC 0x02u</span></div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span><span class="preprocessor">#define OS_CONTEXT_PSF0 456</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="preprocessor">#define OS_CONTEXT_PSF1 464</span></div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span><span class="preprocessor">#define OS_CONTEXT_PSF2 472</span></div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span><span class="preprocessor">#define OS_CONTEXT_PSF3 480</span></div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#define OS_CONTEXT_PSF4 488</span></div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span><span class="preprocessor">#define OS_CONTEXT_PSF5 496</span></div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="preprocessor">#define OS_CONTEXT_PSF6 504</span></div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span><span class="preprocessor">#define OS_CONTEXT_PSF7 512</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="preprocessor">#define OS_CONTEXT_PSF8 520</span></div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span><span class="preprocessor">#define OS_CONTEXT_PSF9 528</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="preprocessor">#define OS_CONTEXT_PSF10 536</span></div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="preprocessor">#define OS_CONTEXT_PSF11 544</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#define OS_CONTEXT_PSF12 552</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#define OS_CONTEXT_PSF13 560</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#define OS_CONTEXT_PSF14 568</span></div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="preprocessor">#define OS_CONTEXT_PSF15 576</span></div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span><span class="preprocessor">#define OS_CONTEXT_PSF16 584</span></div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span><span class="preprocessor">#define OS_CONTEXT_PSF17 592</span></div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span><span class="preprocessor">#define OS_CONTEXT_PSF18 600</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="preprocessor">#define OS_CONTEXT_PSF19 608</span></div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span><span class="preprocessor">#define OS_CONTEXT_PSF20 616</span></div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span><span class="preprocessor">#define OS_CONTEXT_PSF21 624</span></div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="preprocessor">#define OS_CONTEXT_PSF22 632</span></div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="preprocessor">#define OS_CONTEXT_PSF23 640</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#define OS_CONTEXT_PSF24 648</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="preprocessor">#define OS_CONTEXT_PSF25 656</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#define OS_CONTEXT_PSF26 664</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="preprocessor">#define OS_CONTEXT_PSF27 672</span></div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#define OS_CONTEXT_PSF28 680</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="preprocessor">#define OS_CONTEXT_PSF29 688</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#define OS_CONTEXT_PSF30 696</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span><span class="preprocessor">#define OS_CONTEXT_PSF31 704</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span><span class="preprocessor">#define OS_CONTEXT_STATE_EXC 0x02u</span></div>
 <div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="OSContext_8h.html#a850179b75a2e2cbfa6c3ff37735e107f">  135</a></span><span class="preprocessor">#define OS_CONTEXT_STATE_FPSAVED 0x01u</span></div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span><span class="preprocessor">#define OS_CONTEXT_STATE_FPSAVED 0x01u</span></div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
 <div class="foldopen" id="foldopen00137" data-start="{" data-end="};">
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="structOSContext.html">  137</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structOSContext.html">OSContext</a> {</div>
@@ -266,7 +325,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
 <div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#endif </span><span class="comment">/* OSCONTEXT_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:235</div></div>
+<div class="ttc" id="aJUTException_8cpp_html_ab690e765a841a6d0748e1d5e7146b093"><div class="ttname"><a href="JUTException_8cpp.html#ab690e765a841a6d0748e1d5e7146b093">context</a></div><div class="ttdeci">static OSContext context</div><div class="ttdef"><b>Definition</b> JUTException.cpp:233</div></div>
 <div class="ttc" id="aOSContext_8h_html_a0cf3992c00d9be25adccc83f470937f7"><div class="ttname"><a href="OSContext_8h.html#a0cf3992c00d9be25adccc83f470937f7">OSSetCurrentContext</a></div><div class="ttdeci">void OSSetCurrentContext(OSContext *context)</div></div>
 <div class="ttc" id="aOSContext_8h_html_a2227b17ee2ae6c1054787e41aaff9106"><div class="ttname"><a href="OSContext_8h.html#a2227b17ee2ae6c1054787e41aaff9106">OSFillFPUContext</a></div><div class="ttdeci">void OSFillFPUContext(OSContext *context)</div></div>
 <div class="ttc" id="aOSContext_8h_html_a233a0dcc5ea5614cf97f6b85eca54bec"><div class="ttname"><a href="OSContext_8h.html#a233a0dcc5ea5614cf97f6b85eca54bec">__OSLoadFPUContext</a></div><div class="ttdeci">void __OSLoadFPUContext(void)</div><div class="ttdef"><b>Definition</b> OSContext.c:9</div></div>
@@ -304,9 +363,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition</b> types.h:6</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="dir_cae10961887f0d641c054afc85dac474.html">os</a></li><li class="navelem"><a class="el" href="OSContext_8h.html">OSContext.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>

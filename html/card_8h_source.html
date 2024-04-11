@@ -1,14 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
 <title>Twilight Princess: include/dolphin/card.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -20,14 +49,32 @@ MathJax.Hub.Config({
 </script>
 <script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="overrides.css" rel="stylesheet" type="text/css"/>
+<!-- ... other metadata & script includes ... -->
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
 </head>
 <body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr id="projectrow">
-  <td id="projectalign">
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="midna.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Twilight Princess
    </div>
    <div id="projectbrief">Decompilation of The Legend of Zelda: Twilight Princess</div>
@@ -59,6 +106,23 @@ $(function() {
 $(document).ready(function() { init_codefold(0); });
 /* @license-end */
 </script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('card_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,11 +144,6 @@ $(document).ready(function() { init_codefold(0); });
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">card.h</div></div>
 </div><!--header-->
@@ -98,94 +157,86 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="card_8h.html#a6d20df621daea0550d229df6d780c17b">   10</a></span><span class="preprocessor">#define CARD_ENCODE_ANSI 0u</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="card_8h.html#a63f8c89cc1cbd3469aa117afbd3b845b">   11</a></span><span class="preprocessor">#define CARD_ENCODE_SJIS 1u</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define CARD_ENCODE_ANSI 0u</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define CARD_ENCODE_SJIS 1u</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">/* Sizes */</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="card_8h.html#af8472a64ead239f16582552d0bffc768">   14</a></span><span class="preprocessor">#define CARD_WORKAREA_SIZE (5 * 8 * 1024)</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="card_8h.html#a45a2ffd0702b8a89e7e06762c34b732e">   15</a></span><span class="preprocessor">#define CARD_READ_SIZE 512</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="card_8h.html#af09abc947ee4aa230511bfadddc23b36">   16</a></span><span class="preprocessor">#define CARD_MAX_FILE 127</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="card_8h.html#ac9056d537b2b01e6ad049f8786eb244c">   17</a></span><span class="preprocessor">#define CARD_COMMENT_SIZE 64</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="card_8h.html#a474e81aef82e1c0244e0a9e97413b695">   18</a></span><span class="preprocessor">#define CARD_FILENAME_MAX 32</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="card_8h.html#a83f58c28cc6831723e1d70c8615f857a">   19</a></span><span class="preprocessor">#define CARD_ICON_MAX 8</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="card_8h.html#ae8a7c34ab8fad037182576ed70858a8a">   20</a></span><span class="preprocessor">#define CARD_ICON_WIDTH 32</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="card_8h.html#aad1ee2a1601f419ff93afc4f73589b9a">   21</a></span><span class="preprocessor">#define CARD_ICON_HEIGHT 32</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="card_8h.html#ac00a012b2feacfe188066c60d07daa08">   22</a></span><span class="preprocessor">#define CARD_BANNER_WIDTH 96</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="card_8h.html#abb793aefa7c0550af36b40802879ff05">   23</a></span><span class="preprocessor">#define CARD_BANNER_HEIGHT 32</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define CARD_WORKAREA_SIZE (5 * 8 * 1024)</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define CARD_READ_SIZE 512</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define CARD_MAX_FILE 127</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define CARD_COMMENT_SIZE 64</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define CARD_FILENAME_MAX 32</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define CARD_ICON_MAX 8</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define CARD_ICON_WIDTH 32</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define CARD_ICON_HEIGHT 32</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define CARD_BANNER_WIDTH 96</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define CARD_BANNER_HEIGHT 32</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">/* Icon animation */</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="card_8h.html#a0bd1ac6374aa944430faca68a4fea9c1">   26</a></span><span class="preprocessor">#define CARD_MODE_NORMAL 0</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="card_8h.html#ae67035fd0f49339b3ea533ce72beb202">   27</a></span><span class="preprocessor">#define CARD_MODE_FAST 1</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define CARD_MODE_NORMAL 0</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#define CARD_MODE_FAST 1</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="card_8h.html#ae850598f8eccd3502a4d07c737eef6ab">   29</a></span><span class="preprocessor">#define CARDGetBannerFormat(stat) (((stat)-&gt;bannerFormat) &amp; CARD_STAT_BANNER_MASK)</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="card_8h.html#a0c9e1243cb938307319390e06b101026">   30</a></span><span class="preprocessor">#define CARDGetIconAnim(stat) (((stat)-&gt;bannerFormat) &amp; CARD_STAT_ANIM_MASK)</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="card_8h.html#acf3a27f8f2ed0933654973f23c1b9151">   31</a></span><span class="preprocessor">#define CARDGetIconFormat(stat, n) (((stat)-&gt;iconFormat &gt;&gt; (2 * (n))) &amp; CARD_STAT_ICON_MASK)</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="card_8h.html#a63c9bf7876f86801ea2be26fc52e371f">   32</a></span><span class="preprocessor">#define CARDGetIconSpeed(stat, n) (((stat)-&gt;iconSpeed &gt;&gt; (2 * (n))) &amp; CARD_STAT_SPEED_MASK)</span></div>
-<div class="foldopen" id="foldopen00033" data-start="" data-end="">
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="card_8h.html#ae336df7487cc6d5259fb7682f7335196">   33</a></span><span class="preprocessor">#define CARDSetBannerFormat(stat, f)                                                               \</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#define CARDGetBannerFormat(stat) (((stat)-&gt;bannerFormat) &amp; CARD_STAT_BANNER_MASK)</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#define CARDGetIconAnim(stat) (((stat)-&gt;bannerFormat) &amp; CARD_STAT_ANIM_MASK)</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="preprocessor">#define CARDGetIconFormat(stat, n) (((stat)-&gt;iconFormat &gt;&gt; (2 * (n))) &amp; CARD_STAT_ICON_MASK)</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#define CARDGetIconSpeed(stat, n) (((stat)-&gt;iconSpeed &gt;&gt; (2 * (n))) &amp; CARD_STAT_SPEED_MASK)</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define CARDSetBannerFormat(stat, f)                                                               \</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">  ((stat)-&gt;bannerFormat = (u8)(((stat)-&gt;bannerFormat &amp; ~CARD_STAT_BANNER_MASK) | (f)))</span></div>
-</div>
-<div class="foldopen" id="foldopen00035" data-start="" data-end="">
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="card_8h.html#a553bdaa563736714aaa9acabf4caf7c7">   35</a></span><span class="preprocessor">#define CARDSetIconAnim(stat, f)                                                                   \</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="preprocessor">#define CARDSetIconAnim(stat, f)                                                                   \</span></div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="preprocessor">  ((stat)-&gt;bannerFormat = (u8)(((stat)-&gt;bannerFormat &amp; ~CARD_STAT_ANIM_MASK) | (f)))</span></div>
-</div>
-<div class="foldopen" id="foldopen00037" data-start="" data-end="">
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="card_8h.html#a77d327cf5613f0a4d3305555cc6503ab">   37</a></span><span class="preprocessor">#define CARDSetIconFormat(stat, n, f)                                                              \</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="preprocessor">#define CARDSetIconFormat(stat, n, f)                                                              \</span></div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">  ((stat)-&gt;iconFormat =                                                                            \</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">       (u16)(((stat)-&gt;iconFormat &amp; ~(CARD_STAT_ICON_MASK &lt;&lt; (2 * (n)))) | ((f) &lt;&lt; (2 * (n)))))</span></div>
-</div>
-<div class="foldopen" id="foldopen00040" data-start="" data-end="">
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="card_8h.html#a32eb0417ca3305c9c9a53dd878de8703">   40</a></span><span class="preprocessor">#define CARDSetIconSpeed(stat, n, f)                                                               \</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#define CARDSetIconSpeed(stat, n, f)                                                               \</span></div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">  ((stat)-&gt;iconSpeed =                                                                             \</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">       (u16)(((stat)-&gt;iconSpeed &amp; ~(CARD_STAT_SPEED_MASK &lt;&lt; (2 * (n)))) | ((f) &lt;&lt; (2 * (n)))))</span></div>
-</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="card_8h.html#a2d29b488df413d4cffe161f0c7121fbc">   43</a></span><span class="preprocessor">#define CARDSetIconAddress(stat, addr) ((stat)-&gt;iconAddr = (u32)(addr))</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="card_8h.html#a100d24951135b11cd21fe32be25b9a80">   44</a></span><span class="preprocessor">#define CARDSetCommentAddress(stat, addr) ((stat)-&gt;commentAddr = (u32)(addr))</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="card_8h.html#a9b78dbf7fae513e4db34d9dae4909aea">   45</a></span><span class="preprocessor">#define CARDGetFileNo(fileInfo) ((fileInfo)-&gt;fileNo)</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#define CARDSetIconAddress(stat, addr) ((stat)-&gt;iconAddr = (u32)(addr))</span></div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#define CARDSetCommentAddress(stat, addr) ((stat)-&gt;commentAddr = (u32)(addr))</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#define CARDGetFileNo(fileInfo) ((fileInfo)-&gt;fileNo)</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="card_8h.html#a385b991f750bf4118c4b1dbc56fbe892">   47</a></span><span class="preprocessor">#define CARD_RESULT_UNLOCKED 1</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="card_8h.html#ae1801cbb38a2949890a1585132617a2f">   48</a></span><span class="preprocessor">#define CARD_RESULT_READY 0</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="card_8h.html#a34041af0379dfee7dc4efe864964cc7b">   49</a></span><span class="preprocessor">#define CARD_RESULT_BUSY -1</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="card_8h.html#a5a062d397f5606fc0df23340691012a0">   50</a></span><span class="preprocessor">#define CARD_RESULT_WRONGDEVICE -2</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="card_8h.html#a1bb587c18f066d73753cc22aedfaf241">   51</a></span><span class="preprocessor">#define CARD_RESULT_NOCARD -3</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="card_8h.html#a5d7bd94be95d5bd98cc3e2db5383622d">   52</a></span><span class="preprocessor">#define CARD_RESULT_NOFILE -4</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="card_8h.html#a37fb26324ed3b26df3d63a4f962d70d5">   53</a></span><span class="preprocessor">#define CARD_RESULT_IOERROR -5</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="card_8h.html#ade36d0f524a0e4cbfb28b13c5c0faeb3">   54</a></span><span class="preprocessor">#define CARD_RESULT_BROKEN -6</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="card_8h.html#a520da3f7a20f12b41cd58f0a8913ead4">   55</a></span><span class="preprocessor">#define CARD_RESULT_EXIST -7</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="card_8h.html#a1c063ea7b3a1d43e73d3e9c8e62e69c4">   56</a></span><span class="preprocessor">#define CARD_RESULT_NOENT -8</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="card_8h.html#a4568e6d13efa9f368aa262cfef09ddbd">   57</a></span><span class="preprocessor">#define CARD_RESULT_INSSPACE -9</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="card_8h.html#a6984c7e6ce75ce319a267fa73f26aa62">   58</a></span><span class="preprocessor">#define CARD_RESULT_NOPERM -10</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="card_8h.html#a8824e7bc29c65aae9d12f3a900e40bc6">   59</a></span><span class="preprocessor">#define CARD_RESULT_LIMIT -11</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="card_8h.html#a4f95dea18e935ede4318ae6e3b413781">   60</a></span><span class="preprocessor">#define CARD_RESULT_NAMETOOLONG -12</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="card_8h.html#a111de023e5c8fb89dba828f1a1339576">   61</a></span><span class="preprocessor">#define CARD_RESULT_ENCODING -13</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="card_8h.html#a8f89011ef6698e9fd451c3572befec1d">   62</a></span><span class="preprocessor">#define CARD_RESULT_CANCELED -14</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="card_8h.html#a9d3fac86ba93f99b25489dc23b5cb417">   63</a></span><span class="preprocessor">#define CARD_RESULT_FATAL_ERROR -128</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">#define CARD_RESULT_UNLOCKED 1</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#define CARD_RESULT_READY 0</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">#define CARD_RESULT_BUSY -1</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#define CARD_RESULT_WRONGDEVICE -2</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">#define CARD_RESULT_NOCARD -3</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#define CARD_RESULT_NOFILE -4</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">#define CARD_RESULT_IOERROR -5</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#define CARD_RESULT_BROKEN -6</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#define CARD_RESULT_EXIST -7</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define CARD_RESULT_NOENT -8</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define CARD_RESULT_INSSPACE -9</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#define CARD_RESULT_NOPERM -10</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#define CARD_RESULT_LIMIT -11</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#define CARD_RESULT_NAMETOOLONG -12</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#define CARD_RESULT_ENCODING -13</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define CARD_RESULT_CANCELED -14</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#define CARD_RESULT_FATAL_ERROR -128</span></div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="card_8h.html#afa5a0a81004d24d467b0dc8923950912">   65</a></span><span class="preprocessor">#define CARD_STAT_ICON_NONE 0</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="card_8h.html#acd8ef3e8337d3f8a112ff60ff69a5120">   66</a></span><span class="preprocessor">#define CARD_STAT_ICON_C8 1</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="card_8h.html#a0561388798976b83e0a00ee8d985b3a6">   67</a></span><span class="preprocessor">#define CARD_STAT_ICON_RGB5A3 2</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">   68</a></span><span class="preprocessor">#define CARD_STAT_ICON_MASK 3</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#define CARD_STAT_ICON_NONE 0</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#define CARD_STAT_ICON_C8 1</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#define CARD_STAT_ICON_RGB5A3 2</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#define CARD_STAT_ICON_MASK 3</span></div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="card_8h.html#a83ae1ed3ed7844fc12ad8fc6decf57b9">   70</a></span><span class="preprocessor">#define CARD_STAT_BANNER_NONE 0</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="card_8h.html#a62650cbb8596a28bb70680435c1d9d60">   71</a></span><span class="preprocessor">#define CARD_STAT_BANNER_C8 1</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="card_8h.html#a3d6a23e59f9f1e5944a01af095012674">   72</a></span><span class="preprocessor">#define CARD_STAT_BANNER_RGB5A3 2</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">   73</a></span><span class="preprocessor">#define CARD_STAT_BANNER_MASK 3</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#define CARD_STAT_BANNER_NONE 0</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#define CARD_STAT_BANNER_C8 1</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">#define CARD_STAT_BANNER_RGB5A3 2</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#define CARD_STAT_BANNER_MASK 3</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="card_8h.html#a32c2e9ccc0f981b1fcd9bd09ca6d69bc">   75</a></span><span class="preprocessor">#define CARD_STAT_ANIM_LOOP 0x00</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="card_8h.html#a86c222c0af4378450b8230c3738bdd73">   76</a></span><span class="preprocessor">#define CARD_STAT_ANIM_BOUNCE 0x04</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">   77</a></span><span class="preprocessor">#define CARD_STAT_ANIM_MASK 0x04</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#define CARD_STAT_ANIM_LOOP 0x00</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#define CARD_STAT_ANIM_BOUNCE 0x04</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#define CARD_STAT_ANIM_MASK 0x04</span></div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="card_8h.html#af6ab8eee865651e735f3dfdcc581b99c">   79</a></span><span class="preprocessor">#define CARD_STAT_SPEED_END 0</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="card_8h.html#ac4fb8e2bf371a5a1e3314d4050a31074">   80</a></span><span class="preprocessor">#define CARD_STAT_SPEED_FAST 1</span></div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="card_8h.html#a0691ab9e5ff2554e9f8dba16bf1705ec">   81</a></span><span class="preprocessor">#define CARD_STAT_SPEED_MIDDLE 2</span></div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="card_8h.html#aaff6a40f39c94865e8cc2d340153d23f">   82</a></span><span class="preprocessor">#define CARD_STAT_SPEED_SLOW 3</span></div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="card_8h.html#aa778bb0777183d7be32aac22008de161">   83</a></span><span class="preprocessor">#define CARD_STAT_SPEED_MASK 3</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="preprocessor">#define CARD_STAT_SPEED_END 0</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#define CARD_STAT_SPEED_FAST 1</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#define CARD_STAT_SPEED_MIDDLE 2</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#define CARD_STAT_SPEED_SLOW 3</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="preprocessor">#define CARD_STAT_SPEED_MASK 3</span></div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="card_8h.html#a5417d4e309530e08898a8d244584ff62">   85</a></span><span class="preprocessor">#define CARD_ATTR_PUBLIC 0x04u</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="card_8h.html#a2774a90bfa43bfea2628b2c14b834fba">   86</a></span><span class="preprocessor">#define CARD_ATTR_NO_COPY 0x08u</span></div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="card_8h.html#a2bd7fb393512507e73ed854c0ed58ec3">   87</a></span><span class="preprocessor">#define CARD_ATTR_NO_MOVE 0x10u</span></div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="card_8h.html#a0d7fd76a1deafe756fae407f8811ea8c">   88</a></span><span class="preprocessor">#define CARD_ATTR_GLOBAL 0x20u</span></div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="card_8h.html#a7c413b9695dd894fec2cedb24884a57b">   89</a></span><span class="preprocessor">#define CARD_ATTR_COMPANY 0x40u</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="preprocessor">#define CARD_ATTR_PUBLIC 0x04u</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="preprocessor">#define CARD_ATTR_NO_COPY 0x08u</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="preprocessor">#define CARD_ATTR_NO_MOVE 0x10u</span></div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="preprocessor">#define CARD_ATTR_GLOBAL 0x20u</span></div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span><span class="preprocessor">#define CARD_ATTR_COMPANY 0x40u</span></div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
 <div class="foldopen" id="foldopen00091" data-start="{" data-end="};">
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="structCARDFileInfo.html">   91</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCARDFileInfo.html">CARDFileInfo</a> {</div>
@@ -201,7 +252,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
 <div class="foldopen" id="foldopen00101" data-start="{" data-end="};">
 <div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="structCARDStat.html">  101</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structCARDStat.html">CARDStat</a> {</div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="structCARDStat.html#a85b1905ec1c15364e45907de62410732">  102</a></span>  <span class="keywordtype">char</span> <a class="code hl_variable" href="structCARDStat.html#a85b1905ec1c15364e45907de62410732">fileName</a>[<a class="code hl_define" href="card_8h.html#a474e81aef82e1c0244e0a9e97413b695">CARD_FILENAME_MAX</a>];</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="structCARDStat.html#a85b1905ec1c15364e45907de62410732">  102</a></span>  <span class="keywordtype">char</span> <a class="code hl_variable" href="structCARDStat.html#a85b1905ec1c15364e45907de62410732">fileName</a>[CARD_FILENAME_MAX];</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="structCARDStat.html#a18518a1d171f8cdea9bf22b020f71902">  103</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a18518a1d171f8cdea9bf22b020f71902">length</a>;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno"><a class="line" href="structCARDStat.html#a28b680075d1e7c2b02ce9f02fd23bedc">  104</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a28b680075d1e7c2b02ce9f02fd23bedc">time</a>; <span class="comment">// seconds since 01/01/2000 midnight</span></div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="structCARDStat.html#a351b18fba1c0372cc5eed8412eac871b">  105</a></span>  <a class="code hl_typedef" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> <a class="code hl_variable" href="structCARDStat.html#a351b18fba1c0372cc5eed8412eac871b">gameName</a>[4];</div>
@@ -216,7 +267,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="structCARDStat.html#aad77b00c75e9fb44eef3b572dd18b584">  115</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#aad77b00c75e9fb44eef3b572dd18b584">offsetBanner</a>;</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="structCARDStat.html#a140bca35a1bb1ddff3af79bcbf2cd7a3">  116</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a140bca35a1bb1ddff3af79bcbf2cd7a3">offsetBannerTlut</a>;</div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structCARDStat.html#a656afab3c86c83dba6bea375eb79ced8">  117</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a656afab3c86c83dba6bea375eb79ced8">offsetIcon</a>[<a class="code hl_define" href="card_8h.html#a83f58c28cc6831723e1d70c8615f857a">CARD_ICON_MAX</a>];</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="structCARDStat.html#a656afab3c86c83dba6bea375eb79ced8">  117</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a656afab3c86c83dba6bea375eb79ced8">offsetIcon</a>[CARD_ICON_MAX];</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="structCARDStat.html#a26d06b7655546aadf5fc291f7739a3fa">  118</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a26d06b7655546aadf5fc291f7739a3fa">offsetIconTlut</a>;</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="structCARDStat.html#a8b50a20d056245bde4c15c9194417c6b">  119</a></span>  <a class="code hl_typedef" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="code hl_variable" href="structCARDStat.html#a8b50a20d056245bde4c15c9194417c6b">offsetData</a>;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="card_8h.html#aaa535c101af24fe41355983c40a6eb6d">  120</a></span>} <a class="code hl_struct" href="structCARDStat.html">CARDStat</a>;</div>
@@ -275,33 +326,31 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="preprocessor">#endif </span><span class="comment">/* CARD_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="acard_8h_html_a02667ec4a0ab4dfe50a5a473fa9e6608"><div class="ttname"><a href="card_8h.html#a02667ec4a0ab4dfe50a5a473fa9e6608">CARDCreate</a></div><div class="ttdeci">s32 CARDCreate(s32 chan, const char *fileName, u32 size, CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDCreate.c:123</div></div>
-<div class="ttc" id="acard_8h_html_a0373f746bf885bf1a12f665790c1a215"><div class="ttname"><a href="card_8h.html#a0373f746bf885bf1a12f665790c1a215">CARDInit</a></div><div class="ttdeci">void CARDInit(void)</div><div class="ttdef"><b>Definition</b> CARDBios.c:506</div></div>
-<div class="ttc" id="acard_8h_html_a04f1fc1338a5e97c5460ba8b990b30dc"><div class="ttname"><a href="card_8h.html#a04f1fc1338a5e97c5460ba8b990b30dc">CARDProbeEx</a></div><div class="ttdeci">s32 CARDProbeEx(s32 chan, s32 *memSize, s32 *sectorSize)</div><div class="ttdef"><b>Definition</b> CARDMount.c:70</div></div>
-<div class="ttc" id="acard_8h_html_a0f327f5e861fe980309ce3bf529223c6"><div class="ttname"><a href="card_8h.html#a0f327f5e861fe980309ce3bf529223c6">CARDGetFastMode</a></div><div class="ttdeci">BOOL CARDGetFastMode(void)</div><div class="ttdef"><b>Definition</b> CARDBios.c:656</div></div>
-<div class="ttc" id="acard_8h_html_a154db1efb6f362c33a8a900402e88b1b"><div class="ttname"><a href="card_8h.html#a154db1efb6f362c33a8a900402e88b1b">CARDGetStatus</a></div><div class="ttdeci">s32 CARDGetStatus(s32 chan, s32 fileNo, CARDStat *stat)</div><div class="ttdef"><b>Definition</b> CARDStat.c:68</div></div>
-<div class="ttc" id="acard_8h_html_a2d50604b9ff860624c8521f764f3ec89"><div class="ttname"><a href="card_8h.html#a2d50604b9ff860624c8521f764f3ec89">CARDCheckExAsync</a></div><div class="ttdeci">static s32 CARDCheckExAsync(s32 chan, s32 *xferBytes, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDCheck.c:195</div></div>
-<div class="ttc" id="acard_8h_html_a30622381091886567bcee27d6520d777"><div class="ttname"><a href="card_8h.html#a30622381091886567bcee27d6520d777">CARDSetStatus</a></div><div class="ttdeci">s32 CARDSetStatus(s32 chan, s32 fileNo, CARDStat *stat)</div><div class="ttdef"><b>Definition</b> CARDStat.c:150</div></div>
-<div class="ttc" id="acard_8h_html_a326af802275bf6ee03e44227c611d9cd"><div class="ttname"><a href="card_8h.html#a326af802275bf6ee03e44227c611d9cd">CARDMount</a></div><div class="ttdeci">s32 CARDMount(s32 chan, void *workArea, CARDCallback attachCb)</div><div class="ttdef"><b>Definition</b> CARDMount.c:361</div></div>
-<div class="ttc" id="acard_8h_html_a4117538eea40285632b3996b6ecaa37a"><div class="ttname"><a href="card_8h.html#a4117538eea40285632b3996b6ecaa37a">CARDWrite</a></div><div class="ttdeci">s32 CARDWrite(CARDFileInfo *fileInfo, const void *buf, s32 length, s32 offset)</div><div class="ttdef"><b>Definition</b> CARDWrite.c:123</div></div>
-<div class="ttc" id="acard_8h_html_a4210d5a3feff92cc633b519dd8d593d2"><div class="ttname"><a href="card_8h.html#a4210d5a3feff92cc633b519dd8d593d2">CARDOpen</a></div><div class="ttdeci">s32 CARDOpen(s32 chan, const char *fileName, CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDOpen.c:133</div></div>
-<div class="ttc" id="acard_8h_html_a474e81aef82e1c0244e0a9e97413b695"><div class="ttname"><a href="card_8h.html#a474e81aef82e1c0244e0a9e97413b695">CARD_FILENAME_MAX</a></div><div class="ttdeci">#define CARD_FILENAME_MAX</div><div class="ttdef"><b>Definition</b> card.h:18</div></div>
-<div class="ttc" id="acard_8h_html_a52867ec62756a9aac2eb08b7d9c50a06"><div class="ttname"><a href="card_8h.html#a52867ec62756a9aac2eb08b7d9c50a06">CARDClose</a></div><div class="ttdeci">s32 CARDClose(CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDOpen.c:162</div></div>
-<div class="ttc" id="acard_8h_html_a57531f4d5e2f1fe600ac390d46d1983b"><div class="ttname"><a href="card_8h.html#a57531f4d5e2f1fe600ac390d46d1983b">CARDCheck</a></div><div class="ttdeci">s32 CARDCheck(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDCheck.c:327</div></div>
-<div class="ttc" id="acard_8h_html_a6b9049f6adccf8fc2056dfe8d8908762"><div class="ttname"><a href="card_8h.html#a6b9049f6adccf8fc2056dfe8d8908762">CARDCreateAsync</a></div><div class="ttdeci">static s32 CARDCreateAsync(s32 chan, const char *fileName, u32 size, CARDFileInfo *fileInfo, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDCreate.c:57</div></div>
-<div class="ttc" id="acard_8h_html_a6fbf75d206ccd361d4b56bf2b9d465d5"><div class="ttname"><a href="card_8h.html#a6fbf75d206ccd361d4b56bf2b9d465d5">CARDReadAsync</a></div><div class="ttdeci">static s32 CARDReadAsync(CARDFileInfo *fileInfo, void *buf, s32 length, s32 offset, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDRead.c:109</div></div>
-<div class="ttc" id="acard_8h_html_a76c378487c3b24f0b3e53f7a3524365d"><div class="ttname"><a href="card_8h.html#a76c378487c3b24f0b3e53f7a3524365d">CARDWriteAsync</a></div><div class="ttdeci">static s32 CARDWriteAsync(CARDFileInfo *fileInfo, const void *buf, s32 length, s32 offset, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDWrite.c:88</div></div>
+<div class="ttc" id="acard_8h_html_a02667ec4a0ab4dfe50a5a473fa9e6608"><div class="ttname"><a href="card_8h.html#a02667ec4a0ab4dfe50a5a473fa9e6608">CARDCreate</a></div><div class="ttdeci">s32 CARDCreate(s32 chan, const char *fileName, u32 size, CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDCreate.c:122</div></div>
+<div class="ttc" id="acard_8h_html_a0373f746bf885bf1a12f665790c1a215"><div class="ttname"><a href="card_8h.html#a0373f746bf885bf1a12f665790c1a215">CARDInit</a></div><div class="ttdeci">void CARDInit(void)</div><div class="ttdef"><b>Definition</b> CARDBios.c:505</div></div>
+<div class="ttc" id="acard_8h_html_a04f1fc1338a5e97c5460ba8b990b30dc"><div class="ttname"><a href="card_8h.html#a04f1fc1338a5e97c5460ba8b990b30dc">CARDProbeEx</a></div><div class="ttdeci">s32 CARDProbeEx(s32 chan, s32 *memSize, s32 *sectorSize)</div><div class="ttdef"><b>Definition</b> CARDMount.c:69</div></div>
+<div class="ttc" id="acard_8h_html_a0f327f5e861fe980309ce3bf529223c6"><div class="ttname"><a href="card_8h.html#a0f327f5e861fe980309ce3bf529223c6">CARDGetFastMode</a></div><div class="ttdeci">BOOL CARDGetFastMode(void)</div><div class="ttdef"><b>Definition</b> CARDBios.c:655</div></div>
+<div class="ttc" id="acard_8h_html_a154db1efb6f362c33a8a900402e88b1b"><div class="ttname"><a href="card_8h.html#a154db1efb6f362c33a8a900402e88b1b">CARDGetStatus</a></div><div class="ttdeci">s32 CARDGetStatus(s32 chan, s32 fileNo, CARDStat *stat)</div><div class="ttdef"><b>Definition</b> CARDStat.c:67</div></div>
+<div class="ttc" id="acard_8h_html_a2d50604b9ff860624c8521f764f3ec89"><div class="ttname"><a href="card_8h.html#a2d50604b9ff860624c8521f764f3ec89">CARDCheckExAsync</a></div><div class="ttdeci">static s32 CARDCheckExAsync(s32 chan, s32 *xferBytes, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDCheck.c:194</div></div>
+<div class="ttc" id="acard_8h_html_a30622381091886567bcee27d6520d777"><div class="ttname"><a href="card_8h.html#a30622381091886567bcee27d6520d777">CARDSetStatus</a></div><div class="ttdeci">s32 CARDSetStatus(s32 chan, s32 fileNo, CARDStat *stat)</div><div class="ttdef"><b>Definition</b> CARDStat.c:149</div></div>
+<div class="ttc" id="acard_8h_html_a326af802275bf6ee03e44227c611d9cd"><div class="ttname"><a href="card_8h.html#a326af802275bf6ee03e44227c611d9cd">CARDMount</a></div><div class="ttdeci">s32 CARDMount(s32 chan, void *workArea, CARDCallback attachCb)</div><div class="ttdef"><b>Definition</b> CARDMount.c:360</div></div>
+<div class="ttc" id="acard_8h_html_a4117538eea40285632b3996b6ecaa37a"><div class="ttname"><a href="card_8h.html#a4117538eea40285632b3996b6ecaa37a">CARDWrite</a></div><div class="ttdeci">s32 CARDWrite(CARDFileInfo *fileInfo, const void *buf, s32 length, s32 offset)</div><div class="ttdef"><b>Definition</b> CARDWrite.c:122</div></div>
+<div class="ttc" id="acard_8h_html_a4210d5a3feff92cc633b519dd8d593d2"><div class="ttname"><a href="card_8h.html#a4210d5a3feff92cc633b519dd8d593d2">CARDOpen</a></div><div class="ttdeci">s32 CARDOpen(s32 chan, const char *fileName, CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDOpen.c:132</div></div>
+<div class="ttc" id="acard_8h_html_a52867ec62756a9aac2eb08b7d9c50a06"><div class="ttname"><a href="card_8h.html#a52867ec62756a9aac2eb08b7d9c50a06">CARDClose</a></div><div class="ttdeci">s32 CARDClose(CARDFileInfo *fileInfo)</div><div class="ttdef"><b>Definition</b> CARDOpen.c:161</div></div>
+<div class="ttc" id="acard_8h_html_a57531f4d5e2f1fe600ac390d46d1983b"><div class="ttname"><a href="card_8h.html#a57531f4d5e2f1fe600ac390d46d1983b">CARDCheck</a></div><div class="ttdeci">s32 CARDCheck(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDCheck.c:326</div></div>
+<div class="ttc" id="acard_8h_html_a6b9049f6adccf8fc2056dfe8d8908762"><div class="ttname"><a href="card_8h.html#a6b9049f6adccf8fc2056dfe8d8908762">CARDCreateAsync</a></div><div class="ttdeci">static s32 CARDCreateAsync(s32 chan, const char *fileName, u32 size, CARDFileInfo *fileInfo, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDCreate.c:56</div></div>
+<div class="ttc" id="acard_8h_html_a6fbf75d206ccd361d4b56bf2b9d465d5"><div class="ttname"><a href="card_8h.html#a6fbf75d206ccd361d4b56bf2b9d465d5">CARDReadAsync</a></div><div class="ttdeci">static s32 CARDReadAsync(CARDFileInfo *fileInfo, void *buf, s32 length, s32 offset, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDRead.c:108</div></div>
+<div class="ttc" id="acard_8h_html_a76c378487c3b24f0b3e53f7a3524365d"><div class="ttname"><a href="card_8h.html#a76c378487c3b24f0b3e53f7a3524365d">CARDWriteAsync</a></div><div class="ttdeci">static s32 CARDWriteAsync(CARDFileInfo *fileInfo, const void *buf, s32 length, s32 offset, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDWrite.c:87</div></div>
 <div class="ttc" id="acard_8h_html_a7e14558c66d616c768d3a6f73bd640a6"><div class="ttname"><a href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a></div><div class="ttdeci">void(* CARDCallback)(s32 chan, s32 result)</div><div class="ttdef"><b>Definition</b> card.h:122</div></div>
-<div class="ttc" id="acard_8h_html_a83f58c28cc6831723e1d70c8615f857a"><div class="ttname"><a href="card_8h.html#a83f58c28cc6831723e1d70c8615f857a">CARD_ICON_MAX</a></div><div class="ttdeci">#define CARD_ICON_MAX</div><div class="ttdef"><b>Definition</b> card.h:19</div></div>
-<div class="ttc" id="acard_8h_html_a89c95613214573011d0d2e2501d04e4a"><div class="ttname"><a href="card_8h.html#a89c95613214573011d0d2e2501d04e4a">CARDProbe</a></div><div class="ttdeci">s32 CARDProbe(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDMount.c:57</div></div>
-<div class="ttc" id="acard_8h_html_a930dc990a205787a5200d405b670e7d2"><div class="ttname"><a href="card_8h.html#a930dc990a205787a5200d405b670e7d2">CARDMountAsync</a></div><div class="ttdeci">static s32 CARDMountAsync(s32 chan, void *workArea, CARDCallback detachCb, CARDCallback attachCb)</div><div class="ttdef"><b>Definition</b> CARDMount.c:303</div></div>
-<div class="ttc" id="acard_8h_html_aba30cd967f14b9b3482af83792e1e0da"><div class="ttname"><a href="card_8h.html#aba30cd967f14b9b3482af83792e1e0da">CARDFreeBlocks</a></div><div class="ttdeci">s32 CARDFreeBlocks(s32 chan, s32 *byteNotUsed, s32 *filesNotUsed)</div><div class="ttdef"><b>Definition</b> CARDBios.c:584</div></div>
-<div class="ttc" id="acard_8h_html_acdefadbb92924d8e43511e25040a21ab"><div class="ttname"><a href="card_8h.html#acdefadbb92924d8e43511e25040a21ab">CARDGetSerialNo</a></div><div class="ttdeci">s32 CARDGetSerialNo(s32 chan, u64 *serialNo)</div><div class="ttdef"><b>Definition</b> CARDNet.c:13</div></div>
-<div class="ttc" id="acard_8h_html_ace4e9ba37f04d178f812c2474b95d55b"><div class="ttname"><a href="card_8h.html#ace4e9ba37f04d178f812c2474b95d55b">CARDUnmount</a></div><div class="ttdeci">s32 CARDUnmount(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDMount.c:389</div></div>
-<div class="ttc" id="acard_8h_html_adfdf62c1658818b23e833826a73a393e"><div class="ttname"><a href="card_8h.html#adfdf62c1658818b23e833826a73a393e">CARDFormat</a></div><div class="ttdeci">s32 CARDFormat(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDFormat.c:128</div></div>
-<div class="ttc" id="acard_8h_html_ae470e3eba098d9e65417f9d11383ed5f"><div class="ttname"><a href="card_8h.html#ae470e3eba098d9e65417f9d11383ed5f">CARDSetStatusAsync</a></div><div class="ttdeci">static s32 CARDSetStatusAsync(s32 chan, s32 fileNo, CARDStat *stat, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDStat.c:105</div></div>
-<div class="ttc" id="acard_8h_html_aeff2d93ce202ad27c452a92381cd445f"><div class="ttname"><a href="card_8h.html#aeff2d93ce202ad27c452a92381cd445f">CARDRead</a></div><div class="ttdeci">s32 CARDRead(CARDFileInfo *fileInfo, void *buf, s32 length, s32 offset)</div><div class="ttdef"><b>Definition</b> CARDRead.c:146</div></div>
-<div class="ttc" id="ad__gameover_8cpp_html_a278744385c8918b3813d6136e5e37b30"><div class="ttname"><a href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></div><div class="ttdeci">static SECTION_DATA f32 offset[8]</div><div class="ttdef"><b>Definition</b> d_gameover.cpp:463</div></div>
+<div class="ttc" id="acard_8h_html_a89c95613214573011d0d2e2501d04e4a"><div class="ttname"><a href="card_8h.html#a89c95613214573011d0d2e2501d04e4a">CARDProbe</a></div><div class="ttdeci">s32 CARDProbe(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDMount.c:56</div></div>
+<div class="ttc" id="acard_8h_html_a930dc990a205787a5200d405b670e7d2"><div class="ttname"><a href="card_8h.html#a930dc990a205787a5200d405b670e7d2">CARDMountAsync</a></div><div class="ttdeci">static s32 CARDMountAsync(s32 chan, void *workArea, CARDCallback detachCb, CARDCallback attachCb)</div><div class="ttdef"><b>Definition</b> CARDMount.c:302</div></div>
+<div class="ttc" id="acard_8h_html_aba30cd967f14b9b3482af83792e1e0da"><div class="ttname"><a href="card_8h.html#aba30cd967f14b9b3482af83792e1e0da">CARDFreeBlocks</a></div><div class="ttdeci">s32 CARDFreeBlocks(s32 chan, s32 *byteNotUsed, s32 *filesNotUsed)</div><div class="ttdef"><b>Definition</b> CARDBios.c:583</div></div>
+<div class="ttc" id="acard_8h_html_acdefadbb92924d8e43511e25040a21ab"><div class="ttname"><a href="card_8h.html#acdefadbb92924d8e43511e25040a21ab">CARDGetSerialNo</a></div><div class="ttdeci">s32 CARDGetSerialNo(s32 chan, u64 *serialNo)</div><div class="ttdef"><b>Definition</b> CARDNet.c:12</div></div>
+<div class="ttc" id="acard_8h_html_ace4e9ba37f04d178f812c2474b95d55b"><div class="ttname"><a href="card_8h.html#ace4e9ba37f04d178f812c2474b95d55b">CARDUnmount</a></div><div class="ttdeci">s32 CARDUnmount(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDMount.c:388</div></div>
+<div class="ttc" id="acard_8h_html_adfdf62c1658818b23e833826a73a393e"><div class="ttname"><a href="card_8h.html#adfdf62c1658818b23e833826a73a393e">CARDFormat</a></div><div class="ttdeci">s32 CARDFormat(s32 chan)</div><div class="ttdef"><b>Definition</b> CARDFormat.c:127</div></div>
+<div class="ttc" id="acard_8h_html_ae470e3eba098d9e65417f9d11383ed5f"><div class="ttname"><a href="card_8h.html#ae470e3eba098d9e65417f9d11383ed5f">CARDSetStatusAsync</a></div><div class="ttdeci">static s32 CARDSetStatusAsync(s32 chan, s32 fileNo, CARDStat *stat, CARDCallback callback)</div><div class="ttdef"><b>Definition</b> CARDStat.c:104</div></div>
+<div class="ttc" id="acard_8h_html_aeff2d93ce202ad27c452a92381cd445f"><div class="ttname"><a href="card_8h.html#aeff2d93ce202ad27c452a92381cd445f">CARDRead</a></div><div class="ttdeci">s32 CARDRead(CARDFileInfo *fileInfo, void *buf, s32 length, s32 offset)</div><div class="ttdef"><b>Definition</b> CARDRead.c:145</div></div>
+<div class="ttc" id="ad__gameover_8cpp_html_a278744385c8918b3813d6136e5e37b30"><div class="ttname"><a href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a></div><div class="ttdeci">static SECTION_DATA f32 offset[8]</div><div class="ttdef"><b>Definition</b> d_gameover.cpp:461</div></div>
 <div class="ttc" id="astructCARDFileInfo_html"><div class="ttname"><a href="structCARDFileInfo.html">CARDFileInfo</a></div><div class="ttdef"><b>Definition</b> card.h:91</div></div>
 <div class="ttc" id="astructCARDFileInfo_html_a0a4ae19b3ad497a0f609ddc120df2a1a"><div class="ttname"><a href="structCARDFileInfo.html#a0a4ae19b3ad497a0f609ddc120df2a1a">CARDFileInfo::length</a></div><div class="ttdeci">s32 length</div><div class="ttdef"><b>Definition</b> card.h:96</div></div>
 <div class="ttc" id="astructCARDFileInfo_html_a1386c6e9628a166029865d4f496a2e57"><div class="ttname"><a href="structCARDFileInfo.html#a1386c6e9628a166029865d4f496a2e57">CARDFileInfo::offset</a></div><div class="ttdeci">s32 offset</div><div class="ttdef"><b>Definition</b> card.h:95</div></div>
@@ -334,9 +383,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="atypes_8h_html_adafe97a8e4be18b0198f234819016582"><div class="ttname"><a href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a></div><div class="ttdeci">signed long s32</div><div class="ttdef"><b>Definition</b> types.h:6</div></div>
 <div class="ttc" id="atypes_8h_html_aed742c436da53c1080638ce6ef7d13de"><div class="ttname"><a href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a></div><div class="ttdeci">unsigned char u8</div><div class="ttdef"><b>Definition</b> types.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_b778c3f297ab88300258a2935792c8cc.html">dolphin</a></li><li class="navelem"><a class="el" href="card_8h.html">card.h</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
 </body>
 </html>
