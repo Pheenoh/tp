@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Twilight Princess: include/std/cmath.h Source File</title>
+<title>Twilight Princess: libs/PowerPC_EABI_Support/MSL/MSL_C/MSL_Common/Include/cmath.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -82,7 +82,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_e0d81b93568b4756b3de33c83e93881b.html">std</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_db1709413e4853dbf382363385ab04a7.html">PowerPC_EABI_Support</a></li><li class="navelem"><a class="el" href="dir_0e4db8b1a28362b634df487c2f26278a.html">MSL</a></li><li class="navelem"><a class="el" href="dir_0d37b77abbd65600f5660cf0deb652c9.html">MSL_C</a></li><li class="navelem"><a class="el" href="dir_d08bb430d409ef9a6cb3f55d9a9cbc2f.html">MSL_Common</a></li><li class="navelem"><a class="el" href="dir_301d54b172c6477e4d03dccb06320e7f.html">Include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -92,26 +92,28 @@ $(document).ready(function() { init_codefold(0); });
 <a href="cmath_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef STD_CMATH_H_</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define STD_CMATH_H_</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a> {</div>
-<div class="foldopen" id="foldopen00006" data-start="{" data-end="}">
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="namespacestd.html#abab017e6a8d6af48c4e1bb82f99cd7fe">    6</a></span><span class="keywordtype">float</span> <a class="code hl_function" href="namespacestd.html#abab017e6a8d6af48c4e1bb82f99cd7fe">fabs</a>(<span class="keywordtype">float</span> num) {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacestd.html#a5e1a5f9b864268ded2e5aa972b800421">fabsf</a>(num);</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>}</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="math_8h.html">math.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacestd.html">std</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">/* float fabs(float num) {</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">    return ::fabsf(num);</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">} */</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="}">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="namespacestd.html#ad597fff9551b0e00a747bdb1ea300c24">   11</a></span><span class="keywordtype">float</span> <a class="code hl_function" href="namespacestd.html#ad597fff9551b0e00a747bdb1ea300c24">fabsf</a>(<span class="keywordtype">float</span> num) {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    return ::fabsf(num);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}</div>
 </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="namespacestd.html#a0ecf8509113d1b5c6c99d1176a0471cb">   10</a></span><span class="keywordtype">float</span> <a class="code hl_function" href="namespacestd.html#a0ecf8509113d1b5c6c99d1176a0471cb">abs</a>(<span class="keywordtype">float</span> num) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="namespacestd.html#a5e1a5f9b864268ded2e5aa972b800421">fabsf</a>(num);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>}</div>
-</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>}  <span class="comment">// namespace std</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">/* float abs(float num) {</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">    return ::fabsf(num);</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">} */</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>}  <span class="comment">// namespace std</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="amath_8h_html"><div class="ttname"><a href="math_8h.html">math.h</a></div></div>
 <div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> d_camera.cpp:18</div></div>
-<div class="ttc" id="anamespacestd_html_a0ecf8509113d1b5c6c99d1176a0471cb"><div class="ttname"><a href="namespacestd.html#a0ecf8509113d1b5c6c99d1176a0471cb">std::abs</a></div><div class="ttdeci">float abs(float num)</div><div class="ttdef"><b>Definition</b> cmath.h:10</div></div>
-<div class="ttc" id="anamespacestd_html_a5e1a5f9b864268ded2e5aa972b800421"><div class="ttname"><a href="namespacestd.html#a5e1a5f9b864268ded2e5aa972b800421">std::fabsf</a></div><div class="ttdeci">void fabsf(f32)</div><div class="ttdef"><b>Definition</b> d_camera.cpp:4087</div></div>
-<div class="ttc" id="anamespacestd_html_abab017e6a8d6af48c4e1bb82f99cd7fe"><div class="ttname"><a href="namespacestd.html#abab017e6a8d6af48c4e1bb82f99cd7fe">std::fabs</a></div><div class="ttdeci">void fabs(f32)</div><div class="ttdef"><b>Definition</b> cmath.h:6</div></div>
+<div class="ttc" id="anamespacestd_html_ad597fff9551b0e00a747bdb1ea300c24"><div class="ttname"><a href="namespacestd.html#ad597fff9551b0e00a747bdb1ea300c24">std::fabsf</a></div><div class="ttdeci">void fabsf(f32)</div><div class="ttdef"><b>Definition</b> cmath.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

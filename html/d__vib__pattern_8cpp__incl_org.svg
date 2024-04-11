@@ -120,9 +120,9 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="math_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="228.75,-129.75 183.5,-129.75 183.5,-110.5 228.75,-110.5 228.75,-129.75"/>
-<text text-anchor="middle" x="206.12" y="-116.25" font-family="Helvetica,sans-Serif" font-size="10.00">math.h</text>
+<g id="a_Node000007"><a xlink:href="vec_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="165,-129.75 73.25,-129.75 73.25,-110.5 165,-110.5 165,-129.75"/>
+<text text-anchor="middle" x="119.12" y="-116.25" font-family="Helvetica,sans-Serif" font-size="10.00">dolphin/mtx/vec.h</text>
 </a>
 </g>
 </g>
@@ -130,24 +130,6 @@
 <g id="edge6_Node000006_Node000007" class="edge">
 <title>Node6&#45;&gt;Node7</title>
 <g id="a_edge6_Node000006_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M176.01,-165.45C181.34,-157.6 187.97,-147.85 193.65,-139.49"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="196.38,-141.69 199.11,-131.45 190.59,-137.76 196.38,-141.69"/>
-</a>
-</g>
-</g>
-<!-- Node10 -->
-<g id="Node000010" class="node">
-<title>Node10</title>
-<g id="a_Node000010"><a xlink:href="vec_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="165,-129.75 73.25,-129.75 73.25,-110.5 165,-110.5 165,-129.75"/>
-<text text-anchor="middle" x="119.12" y="-116.25" font-family="Helvetica,sans-Serif" font-size="10.00">dolphin/mtx/vec.h</text>
-</a>
-</g>
-</g>
-<!-- Node6&#45;&gt;Node10 -->
-<g id="edge9_Node000006_Node000010" class="edge">
-<title>Node6&#45;&gt;Node10</title>
-<g id="a_edge9_Node000006_Node000010"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M154.51,-165.45C148.11,-157.43 140.11,-147.42 133.34,-138.94"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="136.29,-137.02 127.31,-131.38 130.82,-141.38 136.29,-137.02"/>
 </a>
@@ -156,45 +138,63 @@
 <!-- Node8 -->
 <g id="Node000008" class="node">
 <title>Node8</title>
-<g id="a_Node000008"><a xlink:href="float_8h.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="#666666" points="226.88,-74.5 185.38,-74.5 185.38,-55.25 226.88,-55.25 226.88,-74.5"/>
-<text text-anchor="middle" x="206.12" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">float.h</text>
+<g id="a_Node000008"><a xlink:href="math_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="228.75,-129.75 183.5,-129.75 183.5,-110.5 228.75,-110.5 228.75,-129.75"/>
+<text text-anchor="middle" x="206.12" y="-116.25" font-family="Helvetica,sans-Serif" font-size="10.00">math.h</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge7_Node000007_Node000008" class="edge">
-<title>Node7&#45;&gt;Node8</title>
-<g id="a_edge7_Node000007_Node000008"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M206.12,-110.33C206.12,-103.82 206.12,-94.67 206.12,-86.37"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="209.63,-86.37 206.13,-76.37 202.63,-86.37 209.63,-86.37"/>
+<!-- Node6&#45;&gt;Node8 -->
+<g id="edge8_Node000006_Node000008" class="edge">
+<title>Node6&#45;&gt;Node8</title>
+<g id="a_edge8_Node000006_Node000008"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M176.01,-165.45C181.34,-157.6 187.97,-147.85 193.65,-139.49"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="196.38,-141.69 199.11,-131.45 190.59,-137.76 196.38,-141.69"/>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node3 -->
+<g id="edge7_Node000007_Node000003" class="edge">
+<title>Node7&#45;&gt;Node3</title>
+<g id="a_edge7_Node000007_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M113.02,-110.33C108.06,-103.21 100.92,-92.93 94.75,-84.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="97.81,-82.32 89.23,-76.1 92.06,-86.31 97.81,-82.32"/>
 </a>
 </g>
 </g>
 <!-- Node9 -->
 <g id="Node000009" class="node">
 <title>Node9</title>
-<g id="a_Node000009"><a xlink:href="fdlibm_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000009"><a xlink:href="float_8h.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="#666666" points="226.88,-74.5 185.38,-74.5 185.38,-55.25 226.88,-55.25 226.88,-74.5"/>
+<text text-anchor="middle" x="206.12" y="-61" font-family="Helvetica,sans-Serif" font-size="10.00">float.h</text>
+</a>
+</g>
+</g>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge9_Node000008_Node000009" class="edge">
+<title>Node8&#45;&gt;Node9</title>
+<g id="a_edge9_Node000008_Node000009"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M206.12,-110.33C206.12,-103.82 206.12,-94.67 206.12,-86.37"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="209.63,-86.37 206.13,-76.37 202.63,-86.37 209.63,-86.37"/>
+</a>
+</g>
+</g>
+<!-- Node10 -->
+<g id="Node000010" class="node">
+<title>Node10</title>
+<g id="a_Node000010"><a xlink:href="fdlibm_8h.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="231,-19.25 181.25,-19.25 181.25,0 231,0 231,-19.25"/>
 <text text-anchor="middle" x="206.12" y="-5.75" font-family="Helvetica,sans-Serif" font-size="10.00">fdlibm.h</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8_Node000008_Node000009" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<g id="a_edge8_Node000008_Node000009"><a xlink:title=" ">
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge10_Node000009_Node000010" class="edge">
+<title>Node9&#45;&gt;Node10</title>
+<g id="a_edge10_Node000009_Node000010"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M206.12,-55.08C206.12,-48.57 206.12,-39.42 206.12,-31.12"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="209.63,-31.12 206.13,-21.12 202.63,-31.12 209.63,-31.12"/>
-</a>
-</g>
-</g>
-<!-- Node10&#45;&gt;Node3 -->
-<g id="edge10_Node000010_Node000003" class="edge">
-<title>Node10&#45;&gt;Node3</title>
-<g id="a_edge10_Node000010_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M113.02,-110.33C108.06,-103.21 100.92,-92.93 94.75,-84.05"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="97.81,-82.32 89.23,-76.1 92.06,-86.31 97.81,-82.32"/>
 </a>
 </g>
 </g>

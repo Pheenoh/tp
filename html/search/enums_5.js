@@ -20,9 +20,10 @@ var searchData=
   ['estatus_17',['EStatus',['../classJUTFader.html#a606d584eb413fdd3bae4105c7db0e35b',1,'JUTFader']]],
   ['estickdir_18',['EStickDir',['../structSTControl.html#aae5481b3246ccaf69c1d1f7e156a46bb',1,'STControl']]],
   ['estickmode_19',['EStickMode',['../structJUTGamePad.html#abca75dfff195b24734a99dea1527843b',1,'JUTGamePad']]],
-  ['eventmode_20',['EventMode',['../d__event_8h.html#a0a8ba9df0e4b60821889d34ab83e47fe',1,'d_event.h']]],
-  ['eventstatus_21',['EventStatus',['../d__event_8h.html#ac03f53915dd13820e0dfd3b3c93bed17',1,'d_event.h']]],
-  ['eventtype_22',['EventType',['../d__event_8h.html#a2628ea8d12e8b2563c32f05dc7fff6fa',1,'d_event.h']]],
-  ['ewhichstick_23',['EWhichStick',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6b',1,'JUTGamePad']]],
-  ['exfbnumber_24',['EXfbNumber',['../classJUTXfb.html#afdd1587f1b4b7c8868f78ac2065e6bc6',1,'JUTXfb']]]
+  ['eventact_5fe_20',['EventAct_e',['../classdaTbox2__c.html#a2055275c6a5242078f79fa657005ffd7',1,'daTbox2_c']]],
+  ['eventmode_21',['EventMode',['../d__event_8h.html#a0a8ba9df0e4b60821889d34ab83e47fe',1,'d_event.h']]],
+  ['eventstatus_22',['EventStatus',['../d__event_8h.html#ac03f53915dd13820e0dfd3b3c93bed17',1,'d_event.h']]],
+  ['eventtype_23',['EventType',['../d__event_8h.html#a2628ea8d12e8b2563c32f05dc7fff6fa',1,'d_event.h']]],
+  ['ewhichstick_24',['EWhichStick',['../structJUTGamePad.html#a4c483e23c50c5c317b979d7edd70ab6b',1,'JUTGamePad']]],
+  ['exfbnumber_25',['EXfbNumber',['../classJUTXfb.html#afdd1587f1b4b7c8868f78ac2065e6bc6',1,'JUTXfb']]]
 ];

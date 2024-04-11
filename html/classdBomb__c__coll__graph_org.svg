@@ -183,8 +183,8 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="477.54,-1039.83 468.76,-1045.76 479.32,-1046.6 477.54,-1039.83"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mAcTg</text>
-<text text-anchor="middle" x="531" y="-1038.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mDwTg</text>
+<text text-anchor="middle" x="531" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> actor_tag</text>
+<text text-anchor="middle" x="531" y="-1038.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">draw_tag</text>
 </g>
 <!-- Node11 -->
 <g id="Node000011" class="node">
@@ -233,7 +233,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="466.75,-989.52 458.7,-996.41 469.29,-996.05 466.75,-989.52"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-980.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mHeap</text>
+<text text-anchor="middle" x="531" y="-980.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> heap</text>
 </g>
 <!-- Node27 -->
 <g id="Node000027" class="node">
@@ -311,7 +311,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="467.13,-776.25 457.25,-780.08 467.36,-783.25 467.13,-776.25"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-784.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mEvtInfo</text>
+<text text-anchor="middle" x="531" y="-784.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> eventInfo</text>
 </g>
 <!-- Node45 -->
 <g id="Node000045" class="node">
@@ -330,7 +330,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="469.76,-810.86 460.15,-815.32 470.44,-817.83 469.76,-810.86"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-812.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mTevStr</text>
+<text text-anchor="middle" x="531" y="-812.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> tevStr</text>
 </g>
 <!-- Node46 -->
 <g id="Node000046" class="node">
@@ -369,8 +369,8 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="218.07,-602.49 208.42,-598.12 213.24,-607.56 218.07,-602.49"/>
 </a>
 </g>
-<text text-anchor="middle" x="421.75" y="-716.25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mEyePos</text>
-<text text-anchor="middle" x="421.75" y="-705" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mScale</text>
+<text text-anchor="middle" x="421.75" y="-716.25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> eyePos</text>
+<text text-anchor="middle" x="421.75" y="-705" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">scale</text>
 <text text-anchor="middle" x="421.75" y="-693.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">speed</text>
 </g>
 <!-- Node51&#45;&gt;Node45 -->
@@ -437,7 +437,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="213.39,-604.34 204.8,-598.15 207.66,-608.35 213.39,-604.34"/>
 </a>
 </g>
-<text text-anchor="middle" x="313.25" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mPosition</text>
+<text text-anchor="middle" x="313.25" y="-697.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> position</text>
 </g>
 <!-- Node51&#45;&gt;Node130 -->
 <g id="edge43_Node000130_Node000051" class="edge">
@@ -612,8 +612,8 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="26.55,-1162.87 21.86,-1153.37 19.61,-1163.73 26.55,-1162.87"/>
 </a>
 </g>
-<text text-anchor="middle" x="86.88" y="-1285" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mMax</text>
-<text text-anchor="middle" x="86.88" y="-1273.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mMin</text>
+<text text-anchor="middle" x="86.88" y="-1285" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> max</text>
+<text text-anchor="middle" x="86.88" y="-1273.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">min</text>
 </g>
 <!-- Node57 -->
 <g id="Node000057" class="node">
@@ -632,7 +632,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="39.22,-1158.41 30.03,-1153.13 33.92,-1162.99 39.22,-1158.41"/>
 </a>
 </g>
-<text text-anchor="middle" x="86.88" y="-1227.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mCenter</text>
+<text text-anchor="middle" x="86.88" y="-1227.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> center</text>
 </g>
 <!-- Node58 -->
 <g id="Node000058" class="node">
@@ -693,8 +693,8 @@
 </a>
 </g>
 <text text-anchor="middle" x="531" y="-610.25" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> current</text>
-<text text-anchor="middle" x="531" y="-599" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">next</text>
-<text text-anchor="middle" x="531" y="-587.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">orig</text>
+<text text-anchor="middle" x="531" y="-599" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">home</text>
+<text text-anchor="middle" x="531" y="-587.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">old</text>
 </g>
 <!-- Node54 -->
 <g id="Node000054" class="node">
@@ -772,7 +772,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="349.8,-1269.56 340.77,-1275.09 351.28,-1276.41 349.8,-1269.56"/>
 </a>
 </g>
-<text text-anchor="middle" x="421.75" y="-1269.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mBox</text>
+<text text-anchor="middle" x="421.75" y="-1269.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> box</text>
 </g>
 <!-- Node57&#45;&gt;Node3 -->
 <g id="edge31_Node000003_Node000057" class="edge">
@@ -782,7 +782,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="339.5,-1229.98 332.75,-1238.16 343.12,-1235.97 339.5,-1229.98"/>
 </a>
 </g>
-<text text-anchor="middle" x="421.75" y="-1216.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mSphere</text>
+<text text-anchor="middle" x="421.75" y="-1216.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sphere</text>
 </g>
 <!-- Node58&#45;&gt;Node3 -->
 <g id="edge33_Node000003_Node000058" class="edge">
@@ -831,7 +831,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="462.56,-915.76 453.34,-920.98 463.8,-922.65 462.56,-915.76"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-912.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mJntCol</text>
+<text text-anchor="middle" x="531" y="-912.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> jntCol</text>
 </g>
 <!-- Node129&#45;&gt;Node3 -->
 <g id="edge38_Node000003_Node000129" class="edge">
@@ -841,7 +841,7 @@
 <polygon fill="#9a32cd" stroke="#9a32cd" points="488.43,-744.2 478.16,-746.8 487.82,-751.17 488.43,-744.2"/>
 </a>
 </g>
-<text text-anchor="middle" x="531" y="-764.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mAttentionInfo</text>
+<text text-anchor="middle" x="531" y="-764.75" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> attention_info</text>
 </g>
 <!-- Node130&#45;&gt;Node2 -->
 <g id="edge40_Node000002_Node000130" class="edge">

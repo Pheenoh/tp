@@ -172,8 +172,8 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="492.88,-492.44 483.19,-496.74 493.44,-499.42 492.88,-492.44"/>
 </a>
 </g>
-<text text-anchor="middle" x="543.88" y="-526.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mAcTg</text>
-<text text-anchor="middle" x="543.88" y="-515.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mDwTg</text>
+<text text-anchor="middle" x="543.88" y="-526.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> actor_tag</text>
+<text text-anchor="middle" x="543.88" y="-515.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">draw_tag</text>
 </g>
 <!-- Node26 -->
 <g id="Node000026" class="node">
@@ -192,7 +192,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="487.47,-409.1 477.74,-413.28 487.96,-416.09 487.47,-409.1"/>
 </a>
 </g>
-<text text-anchor="middle" x="543.88" y="-441.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mHeap</text>
+<text text-anchor="middle" x="543.88" y="-441.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> heap</text>
 </g>
 <!-- Node44 -->
 <g id="Node000044" class="node">
@@ -211,7 +211,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="480.71,-369.82 471.34,-374.77 481.75,-376.74 480.71,-369.82"/>
 </a>
 </g>
-<text text-anchor="middle" x="543.88" y="-397.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mEvtInfo</text>
+<text text-anchor="middle" x="543.88" y="-397.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> eventInfo</text>
 </g>
 <!-- Node45 -->
 <g id="Node000045" class="node">
@@ -230,7 +230,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="483.48,-614.59 474.34,-619.94 484.82,-621.46 483.48,-614.59"/>
 </a>
 </g>
-<text text-anchor="middle" x="543.88" y="-615.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mTevStr</text>
+<text text-anchor="middle" x="543.88" y="-615.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> tevStr</text>
 </g>
 <!-- Node51 -->
 <g id="Node000051" class="node">
@@ -249,8 +249,8 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="250.92,-747.85 247.03,-757.7 256.22,-752.43 250.92,-747.85"/>
 </a>
 </g>
-<text text-anchor="middle" x="436.12" y="-698.88" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mEyePos</text>
-<text text-anchor="middle" x="436.12" y="-687.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mScale</text>
+<text text-anchor="middle" x="436.12" y="-698.88" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> eyePos</text>
+<text text-anchor="middle" x="436.12" y="-687.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">scale</text>
 <text text-anchor="middle" x="436.12" y="-676.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">speed</text>
 </g>
 <!-- Node51&#45;&gt;Node45 -->
@@ -360,7 +360,7 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 <text text-anchor="middle" x="733.12" y="-834.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mPos</text>
-<text text-anchor="middle" x="733.12" y="-823.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mScale</text>
+<text text-anchor="middle" x="733.12" y="-823.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">scale</text>
 </g>
 <!-- Node48 -->
 <g id="Node000048" class="node">
@@ -397,8 +397,8 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="73.24,-462.13 63.24,-465.63 73.24,-469.13 73.24,-462.13"/>
 </a>
 </g>
-<text text-anchor="middle" x="140.88" y="-478.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mMax</text>
-<text text-anchor="middle" x="140.88" y="-467.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">mMin</text>
+<text text-anchor="middle" x="140.88" y="-478.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> max</text>
+<text text-anchor="middle" x="140.88" y="-467.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">min</text>
 </g>
 <!-- Node57 -->
 <g id="Node000057" class="node">
@@ -417,7 +417,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="73.75,-475.74 63.22,-474.61 70.75,-482.06 73.75,-475.74"/>
 </a>
 </g>
-<text text-anchor="middle" x="140.88" y="-510.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mCenter</text>
+<text text-anchor="middle" x="140.88" y="-510.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> center</text>
 </g>
 <!-- Node58 -->
 <g id="Node000058" class="node">
@@ -466,8 +466,8 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 <text text-anchor="middle" x="543.88" y="-749.88" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> current</text>
-<text text-anchor="middle" x="543.88" y="-738.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">next</text>
-<text text-anchor="middle" x="543.88" y="-727.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">orig</text>
+<text text-anchor="middle" x="543.88" y="-738.62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">home</text>
+<text text-anchor="middle" x="543.88" y="-727.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey">old</text>
 </g>
 <!-- Node54 -->
 <g id="Node000054" class="node">
@@ -537,7 +537,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="372.73,-454.23 363.56,-459.53 374.03,-461.11 372.73,-454.23"/>
 </a>
 </g>
-<text text-anchor="middle" x="436.12" y="-455.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mBox</text>
+<text text-anchor="middle" x="436.12" y="-455.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> box</text>
 </g>
 <!-- Node57&#45;&gt;Node3 -->
 <g id="edge19_Node000003_Node000057" class="edge">
@@ -547,7 +547,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="381.17,-533.52 370.82,-535.77 380.31,-540.47 381.17,-533.52"/>
 </a>
 </g>
-<text text-anchor="middle" x="436.12" y="-550.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mSphere</text>
+<text text-anchor="middle" x="436.12" y="-550.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> sphere</text>
 </g>
 <!-- Node58&#45;&gt;Node1 -->
 <g id="edge42_Node000001_Node000058" class="edge">
@@ -827,7 +827,7 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="477.3,-249.19 467.78,-253.84 478.13,-256.14 477.3,-249.19"/>
 </a>
 </g>
-<text text-anchor="middle" x="543.88" y="-281.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> mJntCol</text>
+<text text-anchor="middle" x="543.88" y="-281.38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="grey"> jntCol</text>
 </g>
 <!-- Node130 -->
 <g id="Node000130" class="node">

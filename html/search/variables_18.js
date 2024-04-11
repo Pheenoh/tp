@@ -10,9 +10,8 @@ var searchData=
   ['xfertime_7',['XferTime',['../SIBios_8c.html#a0777189a976736b560f3690e3b19dd5b',1,'SIBios.c']]],
   ['xof_8',['xof',['../structVIPositionInfo.html#ac6d7ef7c0fa127b84a169911f0800e3a',1,'VIPositionInfo']]],
   ['xpatchbits_9',['XPatchBits',['../Pad_8c.html#a3fcca141798385a36c18011f23723e1f',1,'Pad.c']]],
-  ['xy_5ftext_10',['xy_text',['../d__menu__ring_8cpp.html#a50db3ad5f2c1552eca426f70a6d5f2b7',1,'d_menu_ring.cpp']]],
-  ['xyntsc_11',['XYNTSC',['../SISamplingRate_8c.html#a7f8e75b510ffdde6823597efd8c1af46',1,'SISamplingRate.c']]],
-  ['xypal_12',['XYPAL',['../SISamplingRate_8c.html#af0c5b6bec9a402be4834cf592e0b02b6',1,'SISamplingRate.c']]],
-  ['xystick_13',['xyStick',['../structPADClampRegion.html#a4c3fa20d75dd5adc60a07a79832df3b6',1,'PADClampRegion']]],
-  ['xysubstick_14',['xySubstick',['../structPADClampRegion.html#abeefa9d6b8065dd4425d77be66f1dd22',1,'PADClampRegion']]]
+  ['xyntsc_10',['XYNTSC',['../SISamplingRate_8c.html#a7f8e75b510ffdde6823597efd8c1af46',1,'SISamplingRate.c']]],
+  ['xypal_11',['XYPAL',['../SISamplingRate_8c.html#af0c5b6bec9a402be4834cf592e0b02b6',1,'SISamplingRate.c']]],
+  ['xystick_12',['xyStick',['../structPADClampRegion.html#a4c3fa20d75dd5adc60a07a79832df3b6',1,'PADClampRegion']]],
+  ['xysubstick_13',['xySubstick',['../structPADClampRegion.html#abeefa9d6b8065dd4425d77be66f1dd22',1,'PADClampRegion']]]
 ];
