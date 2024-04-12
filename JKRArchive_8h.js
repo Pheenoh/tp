@@ -1,8 +1,5 @@
 var JKRArchive_8h =
 [
-    [ "SArcHeader", "structSArcHeader.html", "structSArcHeader" ],
-    [ "SArcDataInfo", "structSArcDataInfo.html", "structSArcDataInfo" ],
-    [ "JKRArchive", "structJKRArchive.html", "structJKRArchive" ],
     [ "JKRArchive::SDirEntry", "structJKRArchive_1_1SDirEntry.html", "structJKRArchive_1_1SDirEntry" ],
     [ "JKRArchive::SDIDirEntry", "structJKRArchive_1_1SDIDirEntry.html", "structJKRArchive_1_1SDIDirEntry" ],
     [ "JKRArchive::SDIFileEntry", "structJKRArchive_1_1SDIFileEntry.html", "structJKRArchive_1_1SDIFileEntry" ],

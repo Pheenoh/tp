@@ -8,8 +8,6 @@ var d__a__obj__sakuita_8cpp =
     [ "daObjSakuita_c", "structdaObjSakuita__c.html", "structdaObjSakuita__c" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "dComIfG_play_c", "classdComIfG__play__c.html", "classdComIfG__play__c" ],
     [ "dCcD_GStts", "structdCcD__GStts.html", "structdCcD__GStts" ],
     [ "dCcD_GObjInf", "structdCcD__GObjInf.html", "structdCcD__GObjInf" ],

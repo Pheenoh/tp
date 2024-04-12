@@ -3034,7 +3034,7 @@ var annotated_dup =
     [ "obj_kage_class", "structobj__kage__class.html", null ],
     [ "obj_kbox_class", "structobj__kbox__class.html", null ],
     [ "obj_key_class", "structobj__key__class.html", null ],
-    [ "obj_keyhole_class", "structobj__keyhole__class.html", null ],
+    [ "obj_keyhole_class", "structobj__keyhole__class.html", "structobj__keyhole__class" ],
     [ "obj_ki_class", "classobj__ki__class.html", "classobj__ki__class" ],
     [ "obj_kita_class", "structobj__kita__class.html", null ],
     [ "obj_lbox_class", "classobj__lbox__class.html", "classobj__lbox__class" ],

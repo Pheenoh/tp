@@ -6,8 +6,6 @@ var d__a__npc__passer2_8cpp =
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "daNpcPasser2_c", "structdaNpcPasser2__c.html", "structdaNpcPasser2__c" ],
     [ "daNpcPasser2_c::Mode_e", "structdaNpcPasser2__c_1_1Mode__e.html", null ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DAnmTransformKey", "classJ3DAnmTransformKey.html", "classJ3DAnmTransformKey" ],
     [ "daNpcCd_c", "classdaNpcCd__c.html", "classdaNpcCd__c" ],
     [ "dCcD_Stts", "structdCcD__Stts.html", "structdCcD__Stts" ],
     [ "dCcD_SrcCyl", "structdCcD__SrcCyl.html", "structdCcD__SrcCyl" ],

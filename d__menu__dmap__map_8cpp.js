@@ -17,7 +17,6 @@ var d__menu__dmap__map_8cpp =
     [ "dSv_memBit_c", "structdSv__memBit__c.html", "structdSv__memBit__c" ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
     [ "dStage_roomControl_c", "structdStage__roomControl__c.html", "structdStage__roomControl__c" ],
-    [ "ResTIMG", "structResTIMG.html", "structResTIMG" ],
     [ "dRenderingMap_c", "structdRenderingMap__c.html", "structdRenderingMap__c" ],
     [ "dRenderingFDAmap_c", "structdRenderingFDAmap__c.html", "structdRenderingFDAmap__c" ],
     [ "dMpath_c", "structdMpath__c.html", "structdMpath__c" ],

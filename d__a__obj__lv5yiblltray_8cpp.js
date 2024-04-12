@@ -2,8 +2,6 @@ var d__a__obj__lv5yiblltray_8cpp =
 [
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "mDoExt_bckAnm", "classmDoExt__bckAnm.html", "classmDoExt__bckAnm" ],
     [ "mDoExt_baseAnm", "classmDoExt__baseAnm.html", "classmDoExt__baseAnm" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
@@ -23,8 +21,6 @@ var d__a__obj__lv5yiblltray_8cpp =
     [ "cBgW_BgId", "classcBgW__BgId.html", "classcBgW__BgId" ],
     [ "cBgS", "classcBgS.html", "classcBgS" ],
     [ "JMath", "structJMath.html", "structJMath" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DFrameCtrl", "classJ3DFrameCtrl.html", "classJ3DFrameCtrl" ],
     [ "__construct_array", "d__a__obj__lv5yiblltray_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__lv5yiblltray_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],
     [ "__ct__12dCcD_GObjInfFv", "d__a__obj__lv5yiblltray_8cpp.html#a82707767df95e61051b39c65057a3d59", null ],

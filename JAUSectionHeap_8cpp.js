@@ -1,6 +1,5 @@
 var JAUSectionHeap_8cpp =
 [
-    [ "JASWSParser", "structJASWSParser.html", "structJASWSParser" ],
     [ "__ct__10JAUSectionFP14JAUSectionHeapUll", "JAUSectionHeap_8cpp.html#a118de0bf1d6b1740d1a36287d55f918c", null ],
     [ "__ct__10JSUPtrLinkFPv", "JAUSectionHeap_8cpp.html#a00aa8fc59df1c41798b974d1c62d0278", null ],
     [ "__ct__11JKRDisposerFv", "JAUSectionHeap_8cpp.html#a73bf09333ba63a70136fb4bda9e256dd", null ],

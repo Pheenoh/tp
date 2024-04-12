@@ -1,9 +1,6 @@
 var JPAFieldBlock_8cpp =
 [
-    [ "JPAEmitterWorkData", "structJPAEmitterWorkData.html", "structJPAEmitterWorkData" ],
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
     [ "JPAFieldBlock", "structJPAFieldBlock.html", "structJPAFieldBlock" ],
-    [ "JPABaseParticle", "structJPABaseParticle.html", "structJPABaseParticle" ],
     [ "JPAFieldVortex", "structJPAFieldVortex.html", "structJPAFieldVortex" ],
     [ "JPAFieldSpin", "structJPAFieldSpin.html", "structJPAFieldSpin" ],
     [ "JPAFieldRandom", "structJPAFieldRandom.html", "structJPAFieldRandom" ],

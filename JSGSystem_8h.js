@@ -1,6 +1,5 @@
 var JSGSystem_8h =
 [
-    [ "JStage::TSystem", "structJStage_1_1TSystem.html", "structJStage_1_1TSystem" ],
     [ "TEObject", "JSGSystem_8h.html#a2a695cdc9daa5a246d897f5d3a65ffd5", [
       [ "TOBJ_ACTOR_UNK", "JSGSystem_8h.html#a2a695cdc9daa5a246d897f5d3a65ffd5a13aaf4145b462494384352252aee423d", null ],
       [ "TOBJ_UNK1", "JSGSystem_8h.html#a2a695cdc9daa5a246d897f5d3a65ffd5a8701df9e3833598626d7d34f5de1a5ab", null ],

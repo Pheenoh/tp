@@ -14,7 +14,6 @@ var d__a__kytag03_8cpp =
     [ "Vec", "structVec.html", "structVec" ],
     [ "cM3dGLin", "classcM3dGLin.html", "classcM3dGLin" ],
     [ "Z2EnvSeMgr", "structZ2EnvSeMgr.html", "structZ2EnvSeMgr" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
     [ "__ct__10fopAc_ac_cFv", "d__a__kytag03_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],
     [ "__dl__FPv", "d__a__kytag03_8cpp.html#a498e6440d5c316e2672169ee4ed92309", null ],
     [ "__dt__8cM3dGLinFv", "d__a__kytag03_8cpp.html#a6901bd8756ea0c4585f0b4cd2d7af265", null ],

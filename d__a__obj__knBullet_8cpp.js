@@ -10,7 +10,6 @@ var d__a__obj__knBullet_8cpp =
     [ "dPa_control_c", "classdPa__control__c.html", "classdPa__control__c" ],
     [ "dPa_control_c::level_c", "classdPa__control__c_1_1level__c.html", "classdPa__control__c_1_1level__c" ],
     [ "cCcS", "classcCcS.html", "classcCcS" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__knBullet_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],
     [ "__ct__10fopAc_ac_cFv", "d__a__obj__knBullet_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],
     [ "__ct__12dCcD_GObjInfFv", "d__a__obj__knBullet_8cpp.html#a82707767df95e61051b39c65057a3d59", null ],

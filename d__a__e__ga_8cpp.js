@@ -12,8 +12,6 @@ var d__a__e__ga_8cpp =
     [ "dScnKy_env_light_c", "classdScnKy__env__light__c.html", "classdScnKy__env__light__c" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "dComIfG_play_c", "classdComIfG__play__c.html", "classdComIfG__play__c" ],
     [ "JMath", "structJMath.html", "structJMath" ],
     [ "__construct_array", "d__a__e__ga_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],

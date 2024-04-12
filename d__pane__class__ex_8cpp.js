@@ -1,15 +1,5 @@
 var d__pane__class__ex_8cpp =
 [
-    [ "J2DAnmTransform", "structJ2DAnmTransform.html", "structJ2DAnmTransform" ],
-    [ "J2DWindowEx", "structJ2DWindowEx.html", "structJ2DWindowEx" ],
-    [ "J2DTextBoxEx", "structJ2DTextBoxEx.html", "structJ2DTextBoxEx" ],
-    [ "J2DTextBox", "structJ2DTextBox.html", "structJ2DTextBox" ],
-    [ "J2DPictureEx", "structJ2DPictureEx.html", "structJ2DPictureEx" ],
-    [ "J2DPicture", "structJ2DPicture.html", "structJ2DPicture" ],
-    [ "J2DAnmTexPattern", "structJ2DAnmTexPattern.html", "structJ2DAnmTexPattern" ],
-    [ "J2DAnmVisibilityFull", "structJ2DAnmVisibilityFull.html", "structJ2DAnmVisibilityFull" ],
-    [ "J2DAnmVtxColor", "structJ2DAnmVtxColor.html", "structJ2DAnmVtxColor" ],
-    [ "J2DPane", "structJ2DPane.html", "structJ2DPane" ],
     [ "getMaterial__10J2DPictureCFv", "d__pane__class__ex_8cpp.html#af6805d35c55aa0c9339091aa0e3cbe97", null ],
     [ "getMaterial__10J2DTextBoxCFv", "d__pane__class__ex_8cpp.html#ae6c7611bd55415630f0e185deb2c77c9", null ],
     [ "getMaterial__12J2DPictureExCFv", "d__pane__class__ex_8cpp.html#a4aaf5b37de20bb6cb49dda339980f6df", null ],

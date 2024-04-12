@@ -1,6 +1,5 @@
 var d__a__e__arrow_8h =
 [
-    [ "e_arrow_class", "classe__arrow__class.html", "classe__arrow__class" ],
     [ "e_arrow_action", "d__a__e__arrow_8h.html#a36d2415f3e61c75e4f630e837d0216c3", [
       [ "ACTION_ARROW_SHOT", "d__a__e__arrow_8h.html#a36d2415f3e61c75e4f630e837d0216c3a91f1d97e3cc343671af987b004a3dba8", null ],
       [ "ACTION_ARROW_BG", "d__a__e__arrow_8h.html#a36d2415f3e61c75e4f630e837d0216c3a0f02978b26f550b8be51ee0db2fc9b73", null ],

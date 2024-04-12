@@ -1,15 +1,9 @@
 var d__msg__scrn__jimaku_8cpp =
 [
     [ "dMsgScrnLight_c", "structdMsgScrnLight__c.html", "structdMsgScrnLight__c" ],
-    [ "JKRExpHeap", "structJKRExpHeap.html", "structJKRExpHeap" ],
     [ "dMsgScrnJimaku_c", "structdMsgScrnJimaku__c.html", "structdMsgScrnJimaku__c" ],
     [ "dMsgScrnBase_c", "structdMsgScrnBase__c.html", "structdMsgScrnBase__c" ],
     [ "JUtility", "structJUtility.html", null ],
-    [ "JUtility::TColor", "structJUtility_1_1TColor.html", "structJUtility_1_1TColor" ],
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JKRArchive", "structJKRArchive.html", "structJKRArchive" ],
-    [ "J2DTextBox", "structJ2DTextBox.html", "structJ2DTextBox" ],
-    [ "J2DScreen", "structJ2DScreen.html", "structJ2DScreen" ],
     [ "CPaneMgrAlpha", "structCPaneMgrAlpha.html", "structCPaneMgrAlpha" ],
     [ "CPaneMgr", "structCPaneMgr.html", "structCPaneMgr" ],
     [ "__ct__14dMsgScrnBase_cFv", "d__msg__scrn__jimaku_8cpp.html#aace9a1b3a643fbb85e4eac8e2ba0dec4", null ],

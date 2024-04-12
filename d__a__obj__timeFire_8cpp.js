@@ -12,7 +12,6 @@ var d__a__obj__timeFire_8cpp =
     [ "_GXColor", "struct__GXColor.html", "struct__GXColor" ],
     [ "cXyz", "structcXyz.html", "structcXyz" ],
     [ "dPa_control_c", "classdPa__control__c.html", "classdPa__control__c" ],
-    [ "JAISoundID", "structJAISoundID.html", "structJAISoundID" ],
     [ "Vec", "structVec.html", "structVec" ],
     [ "Z2SeMgr", "structZ2SeMgr.html", "structZ2SeMgr" ],
     [ "Z2AudioMgr", "structZ2AudioMgr.html", "structZ2AudioMgr" ],

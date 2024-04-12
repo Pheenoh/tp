@@ -1,11 +1,8 @@
 var JASAudioThread_8cpp =
 [
-    [ "JASProbe", "structJASProbe.html", "structJASProbe" ],
     [ "JASMemPool_MultiThreaded__template2", "structJASMemPool__MultiThreaded____template2.html", "structJASMemPool__MultiThreaded____template2" ],
     [ "JASDsp", "structJASDsp.html", "structJASDsp" ],
-    [ "JASDSPChannel", "structJASDSPChannel.html", "structJASDSPChannel" ],
     [ "Lock", "classLock.html", "classLock" ],
-    [ "JASChannel", "structJASChannel.html", "structJASChannel" ],
     [ "__ct__14JASAudioThreadFiiUl", "JASAudioThread_8cpp.html#a9f1332b1c5451d1a48761b9e534fc851", null ],
     [ "__ct__17JASGenericMemPoolFv", "JASAudioThread_8cpp.html#a26e0dbf5887045ca29aadd9660e3febe", null ],
     [ "__ct__9JKRThreadFP7JKRHeapUlii", "JASAudioThread_8cpp.html#a825b308224211d12d035860083796e2b", null ],

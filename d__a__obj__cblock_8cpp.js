@@ -15,7 +15,6 @@ var d__a__obj__cblock_8cpp =
     [ "csXyz", "classcsXyz.html", "classcsXyz" ],
     [ "dBgS_MoveBgActor", "classdBgS__MoveBgActor.html", "classdBgS__MoveBgActor" ],
     [ "JMath", "structJMath.html", "structJMath" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "__construct_array", "d__a__obj__cblock_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__construct_new_array", "d__a__obj__cblock_8cpp.html#a323591f74ddf6092f175dfa7e270e6fb", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__cblock_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],

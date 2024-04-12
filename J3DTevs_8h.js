@@ -1,14 +1,5 @@
 var J3DTevs_8h =
 [
-    [ "J3DTevStageInfo", "structJ3DTevStageInfo.html", "structJ3DTevStageInfo" ],
-    [ "J3DTevSwapModeTableInfo", "structJ3DTevSwapModeTableInfo.html", "structJ3DTevSwapModeTableInfo" ],
-    [ "J3DTevSwapModeInfo", "structJ3DTevSwapModeInfo.html", "structJ3DTevSwapModeInfo" ],
-    [ "J3DTevStage", "structJ3DTevStage.html", "structJ3DTevStage" ],
-    [ "J3DIndTevStageInfo", "structJ3DIndTevStageInfo.html", "structJ3DIndTevStageInfo" ],
-    [ "J3DIndTevStage", "structJ3DIndTevStage.html", "structJ3DIndTevStage" ],
-    [ "J3DTevOrderInfo", "structJ3DTevOrderInfo.html", "structJ3DTevOrderInfo" ],
-    [ "J3DTevOrder", "structJ3DTevOrder.html", "structJ3DTevOrder" ],
-    [ "J3DTevSwapModeTable", "structJ3DTevSwapModeTable.html", "structJ3DTevSwapModeTable" ],
     [ "loadNBTScale", "J3DTevs_8h.html#a248653e0bd003cacc992246f079d8c6d", null ],
     [ "loadTexCoordGens", "J3DTevs_8h.html#a569a39c97ffe765c80c8e2742a853256", null ],
     [ "j3dDefaultIndTevStageInfo", "J3DTevs_8h.html#ae395f0b848cb8c0e6b8a9c59f1c7f593", null ],

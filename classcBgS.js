@@ -374,7 +374,6 @@ var classcBgS =
     [ "Release", "classcBgS.html#a9712f6407e6c4f83550911ae5200f93c", null ],
     [ "Release", "classcBgS.html#a9712f6407e6c4f83550911ae5200f93c", null ],
     [ "Release", "classcBgS.html#a9712f6407e6c4f83550911ae5200f93c", null ],
-    [ "Release", "classcBgS.html#a9712f6407e6c4f83550911ae5200f93c", null ],
     [ "ShdwDraw", "classcBgS.html#a0a48cdb748cf066cc68dd05681d86d6d", null ],
     [ "m_chk_element", "classcBgS.html#ab9beb986f0d70429a8508538e5b08018", null ]
 ];

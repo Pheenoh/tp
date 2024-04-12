@@ -1,17 +1,10 @@
 var JASHeapCtrl_8h =
 [
-    [ "JASHeap", "classJASHeap.html", "classJASHeap" ],
-    [ "JASGenericMemPool", "structJASGenericMemPool.html", "structJASGenericMemPool" ],
     [ "JASThreadingModel::InterruptsDisable< A0 >", "structJASThreadingModel_1_1InterruptsDisable.html", "structJASThreadingModel_1_1InterruptsDisable" ],
     [ "JASThreadingModel::InterruptsDisable< A0 >::Lock", "structJASThreadingModel_1_1InterruptsDisable_1_1Lock.html", "structJASThreadingModel_1_1InterruptsDisable_1_1Lock" ],
     [ "JASThreadingModel::ObjectLevelLockable", "structJASThreadingModel_1_1ObjectLevelLockable.html", "structJASThreadingModel_1_1ObjectLevelLockable" ],
     [ "JASThreadingModel::ObjectLevelLockable::Lock", "structJASThreadingModel_1_1ObjectLevelLockable_1_1Lock.html", "structJASThreadingModel_1_1ObjectLevelLockable_1_1Lock" ],
-    [ "JASMemPool< T >", "classJASMemPool.html", "classJASMemPool" ],
-    [ "JASMemChunkPool< ChunkSize, T >", "classJASMemChunkPool.html", "classJASMemChunkPool" ],
     [ "JASMemChunkPool< ChunkSize, T >::MemoryChunk", "structJASMemChunkPool_1_1MemoryChunk.html", "structJASMemChunkPool_1_1MemoryChunk" ],
-    [ "JASPoolAllocObject< T >", "classJASPoolAllocObject.html", "classJASPoolAllocObject" ],
-    [ "JASMemPool_MultiThreaded< A0 >", "structJASMemPool__MultiThreaded.html", "structJASMemPool__MultiThreaded" ],
-    [ "JASPoolAllocObject_MultiThreaded< T >", "classJASPoolAllocObject__MultiThreaded.html", "classJASPoolAllocObject__MultiThreaded" ],
     [ "getAramHeap", "JASHeapCtrl_8h.html#afd5c681b084f9fa4c318b1e30c858f7d", null ],
     [ "getCommandHeap", "JASHeapCtrl_8h.html#ac19fc226f644dff1a76aa620d718db90", null ],
     [ "getSystemHeap", "JASHeapCtrl_8h.html#a8ee61af5d8d14ad5879b493d44831530", null ],

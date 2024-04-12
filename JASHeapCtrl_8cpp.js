@@ -1,6 +1,5 @@
 var JASHeapCtrl_8cpp =
 [
-    [ "JASDisposer", "structJASDisposer.html", "structJASDisposer" ],
     [ "__ct__10JSUPtrLinkFPv", "JASHeapCtrl_8cpp.html#a00aa8fc59df1c41798b974d1c62d0278", null ],
     [ "__ct__17JASGenericMemPoolFv", "JASHeapCtrl_8cpp.html#a26e0dbf5887045ca29aadd9660e3febe", null ],
     [ "__ct__7JASHeapFP11JASDisposer", "JASHeapCtrl_8cpp.html#a0fe63c3f45347671fbd6bfcffca90fab", null ],

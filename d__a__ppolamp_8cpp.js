@@ -2,8 +2,6 @@ var d__a__ppolamp_8cpp =
 [
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "mDoExt_bckAnm", "classmDoExt__bckAnm.html", "classmDoExt__bckAnm" ],
     [ "mDoExt_baseAnm", "classmDoExt__baseAnm.html", "classmDoExt__baseAnm" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
@@ -14,8 +12,6 @@ var d__a__ppolamp_8cpp =
     [ "dScnKy_env_light_c", "classdScnKy__env__light__c.html", "classdScnKy__env__light__c" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DFrameCtrl", "classJ3DFrameCtrl.html", "classJ3DFrameCtrl" ],
     [ "__ct__10fopAc_ac_cFv", "d__a__ppolamp_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],
     [ "__dl__FPv", "d__a__ppolamp_8cpp.html#a498e6440d5c316e2672169ee4ed92309", null ],
     [ "__dt__10fopAc_ac_cFv", "d__a__ppolamp_8cpp.html#ab1a74df26eb4aa16a70a18db4f451fbf", null ],

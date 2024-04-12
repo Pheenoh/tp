@@ -12,8 +12,6 @@ var d__a__obj__lp_8cpp =
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "dComIfG_play_c", "classdComIfG__play__c.html", "classdComIfG__play__c" ],
     [ "dBgS_ObjGndChk_Spl", "classdBgS__ObjGndChk__Spl.html", "classdBgS__ObjGndChk__Spl" ],
     [ "dBgS_GndChk", "classdBgS__GndChk.html", "classdBgS__GndChk" ],

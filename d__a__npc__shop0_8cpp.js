@@ -2,8 +2,6 @@ var d__a__npc__shop0_8cpp =
 [
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "mDoExt_bckAnm", "classmDoExt__bckAnm.html", "classmDoExt__bckAnm" ],
     [ "mDoExt_baseAnm", "classmDoExt__baseAnm.html", "classmDoExt__baseAnm" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
@@ -42,8 +40,6 @@ var d__a__npc__shop0_8cpp =
     [ "cCcD_GStts", "structcCcD__GStts.html", "structcCcD__GStts" ],
     [ "cBgS_GndChk", "classcBgS__GndChk.html", "classcBgS__GndChk" ],
     [ "cBgS", "classcBgS.html", "classcBgS" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DFrameCtrl", "classJ3DFrameCtrl.html", "classJ3DFrameCtrl" ],
     [ "__ct__10dCcD_GSttsFv", "d__a__npc__shop0_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],
     [ "__ct__10dMsgFlow_cFv", "d__a__npc__shop0_8cpp.html#adf6efa29e1556e386b88dccee61eff3e", null ],
     [ "__ct__10fopAc_ac_cFv", "d__a__npc__shop0_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],

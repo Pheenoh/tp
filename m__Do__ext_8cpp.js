@@ -1,10 +1,5 @@
 var m__Do__ext_8cpp =
 [
-    [ "J3DDrawBuffer", "structJ3DDrawBuffer.html", "structJ3DDrawBuffer" ],
-    [ "ResFONT", "structResFONT.html", "structResFONT" ],
-    [ "JUTResFont", "structJUTResFont.html", "structJUTResFont" ],
-    [ "JUTFont", "structJUTFont.html", "structJUTFont" ],
-    [ "JUTCacheFont", "structJUTCacheFont.html", "structJUTCacheFont" ],
     [ "J3DMtxCalcNoAnm__template0", "structJ3DMtxCalcNoAnm____template0.html", "structJ3DMtxCalcNoAnm____template0" ],
     [ "J3DMtxCalcAnimationAdaptorBase", "structJ3DMtxCalcAnimationAdaptorBase.html", "structJ3DMtxCalcAnimationAdaptorBase" ],
     [ "J3DMtxCalcAnimationAdaptorDefault< A0 >", "structJ3DMtxCalcAnimationAdaptorDefault.html", "structJ3DMtxCalcAnimationAdaptorDefault" ],

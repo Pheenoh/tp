@@ -1,6 +1,5 @@
 var JASWSParser_8h =
 [
-    [ "JASWSParser", "structJASWSParser.html", "structJASWSParser" ],
     [ "JASWSParser::TOffset< T >", "classJASWSParser_1_1TOffset.html", "classJASWSParser_1_1TOffset" ],
     [ "JASWSParser::THeader", "structJASWSParser_1_1THeader.html", "structJASWSParser_1_1THeader" ],
     [ "JASWSParser::TCtrlWave", "structJASWSParser_1_1TCtrlWave.html", "structJASWSParser_1_1TCtrlWave" ],

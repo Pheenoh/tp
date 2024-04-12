@@ -1,18 +1,5 @@
 var J3DModelLoaderCalcSize_8cpp =
 [
-    [ "J3DTextureBlock", "structJ3DTextureBlock.html", "structJ3DTextureBlock" ],
-    [ "J3DShapeBlock", "structJ3DShapeBlock.html", "structJ3DShapeBlock" ],
-    [ "J3DShapeFactory", "structJ3DShapeFactory.html", "structJ3DShapeFactory" ],
-    [ "J3DMaterialBlock", "structJ3DMaterialBlock.html", "structJ3DMaterialBlock" ],
-    [ "J3DModelLoader_v26", "structJ3DModelLoader__v26.html", "structJ3DModelLoader__v26" ],
-    [ "J3DDrawBlock", "structJ3DDrawBlock.html", "structJ3DDrawBlock" ],
-    [ "J3DMaterialDLBlock", "structJ3DMaterialDLBlock.html", "structJ3DMaterialDLBlock" ],
-    [ "J3DJointBlock", "structJ3DJointBlock.html", "structJ3DJointBlock" ],
-    [ "J3DEnvelopeBlock", "structJ3DEnvelopeBlock.html", "structJ3DEnvelopeBlock" ],
-    [ "J3DModelInfoBlock", "structJ3DModelInfoBlock.html", "structJ3DModelInfoBlock" ],
-    [ "J3DModelLoader", "structJ3DModelLoader.html", "structJ3DModelLoader" ],
-    [ "J3DMaterial", "structJ3DMaterial.html", "structJ3DMaterial" ],
-    [ "J3DMaterialFactory", "structJ3DMaterialFactory.html", "structJ3DMaterialFactory" ],
     [ "J3DMaterialFactory::MaterialType", "structJ3DMaterialFactory_1_1MaterialType.html", null ],
     [ "__ct__15J3DShapeFactoryFRC13J3DShapeBlock", "J3DModelLoaderCalcSize_8cpp.html#a33be6c291a7f8ca2e4d216ad1390a70d", null ],
     [ "__ct__18J3DMaterialFactoryFRC16J3DMaterialBlock", "J3DModelLoaderCalcSize_8cpp.html#a8a75f9ffd471b59be759a434cbd941f5", null ],

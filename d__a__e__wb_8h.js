@@ -1,6 +1,5 @@
 var d__a__e__wb_8h =
 [
-    [ "e_wb_class", "classe__wb__class.html", "classe__wb__class" ],
     [ "daE_wb_ACT", "d__a__e__wb_8h.html#ac92734af2008b14ee83567ed480517da", [
       [ "ACT_WAIT", "d__a__e__wb_8h.html#ac92734af2008b14ee83567ed480517daacf1d2dc142d62517c2d5c12f3102f98a", null ],
       [ "ACT_S_DAMAGE", "d__a__e__wb_8h.html#ac92734af2008b14ee83567ed480517daa06d3693bd528859919498aafbdb5c2c5", null ],

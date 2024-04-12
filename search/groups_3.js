@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['enemies_0',['Enemies',['../group__actors-enemies.html',1,'']]],
-  ['environment_20tags_1',['Environment Tags',['../group__actors-kytags.html',1,'']]]
+  ['items_0',['Items',['../group__actors-items.html',1,'']]]
 ];

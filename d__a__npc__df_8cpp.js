@@ -7,8 +7,6 @@ var d__a__npc__df_8cpp =
     [ "df_s", "structdf__s.html", "structdf__s" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "dComIfG_play_c", "classdComIfG__play__c.html", "classdComIfG__play__c" ],
     [ "dBgS_PolyPassChk", "classdBgS__PolyPassChk.html", "classdBgS__PolyPassChk" ],
     [ "dBgS_ObjGndChk", "classdBgS__ObjGndChk.html", "classdBgS__ObjGndChk" ],

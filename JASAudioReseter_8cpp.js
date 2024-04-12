@@ -1,6 +1,5 @@
 var JASAudioReseter_8cpp =
 [
-    [ "JASDSPChannel", "structJASDSPChannel.html", "structJASDSPChannel" ],
     [ "__ct__15JASAudioReseterFv", "JASAudioReseter_8cpp.html#ac43b747f19ddc3d343edfe32d6174908", null ],
     [ "__dl__FPv", "JASAudioReseter_8cpp.html#a498e6440d5c316e2672169ee4ed92309", null ],
     [ "__dt__15JASAudioReseterFv", "JASAudioReseter_8cpp.html#a4524f4ba353cc1c9e31af9d2bc09dc39", null ],

@@ -1,6 +1,5 @@
 var JPAResource_8cpp =
 [
-    [ "JPAKeyBlock", "structJPAKeyBlock.html", "structJPAKeyBlock" ],
     [ "JPAFieldBlock", "structJPAFieldBlock.html", "structJPAFieldBlock" ],
     [ "JPAFieldBase", "structJPAFieldBase.html", "structJPAFieldBase" ],
     [ "__ct__11JPAResourceFv", "JPAResource_8cpp.html#a91ee25dd851d270870fd052bb3f24c86", null ],

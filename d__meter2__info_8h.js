@@ -77,6 +77,7 @@ var d__meter2__info_8h =
     [ "dMeter2Info_offUseButton", "d__meter2__info_8h.html#ab2b48299112673d5024e57a1a127b4ef", null ],
     [ "dMeter2Info_onBlinkButton", "d__meter2__info_8h.html#adb7f919eb6c2bd3001925927652ae0d3", null ],
     [ "dMeter2Info_onDirectUseItem", "d__meter2__info_8h.html#a73ec73ef77cd49c65ad00ea69d242a90", null ],
+    [ "dMeter2Info_onGameStatus", "d__meter2__info_8h.html#ae20e446f15adb72748e58fff12440d8e", null ],
     [ "dMeter2Info_onLifeGaugeSE", "d__meter2__info_8h.html#ae8d240ac579c2e8d8356bcbafca9c2d1", null ],
     [ "dMeter2Info_onShopTalkFlag", "d__meter2__info_8h.html#af5a8dde65704217944b680923770092d", null ],
     [ "dMeter2Info_readItemTexture", "d__meter2__info_8h.html#aae116e182cb7d423befb56abaeb0c561", null ],

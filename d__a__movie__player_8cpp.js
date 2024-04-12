@@ -9,8 +9,6 @@ var d__a__movie__player_8cpp =
     [ "dComIfG_play_c", "classdComIfG__play__c.html", "classdComIfG__play__c" ],
     [ "THPVideoInfo", "structTHPVideoInfo.html", null ],
     [ "THPAudioInfo", "structTHPAudioInfo.html", null ],
-    [ "JUTVideo", "classJUTVideo.html", "classJUTVideo" ],
-    [ "JFWDisplay", "classJFWDisplay.html", "classJFWDisplay" ],
     [ "JASMixMode", "structJASMixMode.html", null ],
     [ "__ct__10fopAc_ac_cFv", "d__a__movie__player_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],
     [ "__ct__12dDlst_base_cFv", "d__a__movie__player_8cpp.html#aadd0dce8f778f15373d0d5bff75abf50", null ],

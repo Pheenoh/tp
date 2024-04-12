@@ -55,8 +55,6 @@ var classdBgS__AcchCir =
     [ "dBgS_AcchCir", "classdBgS__AcchCir.html#a067b85c0dbd14bd7746c64225ca555c1", null ],
     [ "~dBgS_AcchCir", "classdBgS__AcchCir.html#a1293aeeda71724cb2247d5f1d2c49540", null ],
     [ "dBgS_AcchCir", "classdBgS__AcchCir.html#a067b85c0dbd14bd7746c64225ca555c1", null ],
-    [ "~dBgS_AcchCir", "classdBgS__AcchCir.html#a1293aeeda71724cb2247d5f1d2c49540", null ],
-    [ "dBgS_AcchCir", "classdBgS__AcchCir.html#a067b85c0dbd14bd7746c64225ca555c1", null ],
     [ "dBgS_AcchCir", "classdBgS__AcchCir.html#a067b85c0dbd14bd7746c64225ca555c1", null ],
     [ "~dBgS_AcchCir", "classdBgS__AcchCir.html#a1293aeeda71724cb2247d5f1d2c49540", null ],
     [ "dBgS_AcchCir", "classdBgS__AcchCir.html#a067b85c0dbd14bd7746c64225ca555c1", null ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['objects_0',['Objects',['../group__actors-objects.html',1,'']]]
+  ['npcs_0',['NPCs',['../group__actors-npcs.html',1,'']]]
 ];

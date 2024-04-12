@@ -1,8 +1,6 @@
 var JKRDvdRipper_8h =
 [
     [ "SYaz0Header", "structSYaz0Header.html", "structSYaz0Header" ],
-    [ "JKRDMCommand", "classJKRDMCommand.html", "classJKRDMCommand" ],
-    [ "JKRDvdRipper", "classJKRDvdRipper.html", "classJKRDvdRipper" ],
     [ "JKRExpandSwitch", "JKRDvdRipper_8h.html#a3a81ab253efe80892d32be96b8a9dec2", [
       [ "EXPAND_SWITCH_UNKNOWN0", "JKRDvdRipper_8h.html#a3a81ab253efe80892d32be96b8a9dec2a4e41c4a2c13cbe13dab2125f20da9290", null ],
       [ "EXPAND_SWITCH_UNKNOWN1", "JKRDvdRipper_8h.html#a3a81ab253efe80892d32be96b8a9dec2a0bb811cb956d71c84b8f3a1b22ca611e", null ],

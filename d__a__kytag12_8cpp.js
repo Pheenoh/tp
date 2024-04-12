@@ -4,7 +4,6 @@ var d__a__kytag12_8cpp =
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "Vec", "structVec.html", "structVec" ],
     [ "cXyz", "structcXyz.html", "structcXyz" ],
-    [ "JAISoundID", "structJAISoundID.html", "structJAISoundID" ],
     [ "Z2SeMgr", "structZ2SeMgr.html", "structZ2SeMgr" ],
     [ "Z2AudioMgr", "structZ2AudioMgr.html", "structZ2AudioMgr" ],
     [ "JMath", "structJMath.html", "structJMath" ],

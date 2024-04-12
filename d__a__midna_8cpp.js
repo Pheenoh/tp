@@ -1,6 +1,5 @@
 var d__a__midna_8cpp =
 [
-    [ "J3DMaterial", "structJ3DMaterial.html", "structJ3DMaterial" ],
     [ "daMidna_matAnm_c", "structdaMidna__matAnm__c.html", "structdaMidna__matAnm__c" ],
     [ "daMidna_hio_c0", "structdaMidna__hio__c0.html", "structdaMidna__hio__c0" ],
     [ "daMidna_McaMorfCB1_c", "structdaMidna__McaMorfCB1__c.html", "structdaMidna__McaMorfCB1__c" ],
@@ -9,14 +8,7 @@ var d__a__midna_8cpp =
     [ "dDemo_object_c", "structdDemo__object__c.html", "structdDemo__object__c" ],
     [ "dDemo_c", "structdDemo__c.html", "structdDemo__c" ],
     [ "dDemo_actor_c", "classdDemo__actor__c.html", "classdDemo__actor__c" ],
-    [ "J3DTexNoAnm", "classJ3DTexNoAnm.html", "classJ3DTexNoAnm" ],
-    [ "J3DTexMtxAnm", "classJ3DTexMtxAnm.html", "classJ3DTexMtxAnm" ],
-    [ "J3DTevKColorAnm", "classJ3DTevKColorAnm.html", "classJ3DTevKColorAnm" ],
-    [ "J3DTevColorAnm", "classJ3DTevColorAnm.html", "classJ3DTevColorAnm" ],
-    [ "J3DMaterialAnm", "classJ3DMaterialAnm.html", "classJ3DMaterialAnm" ],
-    [ "J3DMatColorAnm", "classJ3DMatColorAnm.html", "classJ3DMatColorAnm" ],
     [ "J3DAnmLoaderDataBaseFlag", "structJ3DAnmLoaderDataBaseFlag.html", null ],
-    [ "J3DAnmLoaderDataBase", "structJ3DAnmLoaderDataBase.html", "structJ3DAnmLoaderDataBase" ],
     [ "__construct_array", "d__a__midna_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__ct__10dMsgFlow_cFv", "d__a__midna_8cpp.html#adf6efa29e1556e386b88dccee61eff3e", null ],
     [ "__ct__10fopAc_ac_cFv", "d__a__midna_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],

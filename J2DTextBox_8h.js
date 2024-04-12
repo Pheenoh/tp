@@ -1,8 +1,5 @@
 var J2DTextBox_8h =
 [
-    [ "J2DTbxBlockHeader", "structJ2DTbxBlockHeader.html", "structJ2DTbxBlockHeader" ],
-    [ "J2DTextBoxInfo", "structJ2DTextBoxInfo.html", "structJ2DTextBoxInfo" ],
-    [ "J2DTextBox", "structJ2DTextBox.html", "structJ2DTextBox" ],
     [ "J2DTextBox::TFontSize", "structJ2DTextBox_1_1TFontSize.html", "structJ2DTextBox_1_1TFontSize" ],
     [ "J2DTextBoxHBinding", "J2DTextBox_8h.html#ace2fe1d49637af193cc4e768d170d99c", [
       [ "HBIND_CENTER", "J2DTextBox_8h.html#ace2fe1d49637af193cc4e768d170d99ca4d9ed338beee660c09f05121644efede", null ],

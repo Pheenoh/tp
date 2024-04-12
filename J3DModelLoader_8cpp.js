@@ -1,6 +1,5 @@
 var J3DModelLoader_8cpp =
 [
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "__construct_new_array", "J3DModelLoader_8cpp.html#a323591f74ddf6092f175dfa7e270e6fb", null ],
     [ "__ct__10JUTNameTabFPC7ResNTAB", "J3DModelLoader_8cpp.html#a173b9c3935646494ffc3749070c5c3c4", null ],
     [ "__ct__11J3DMaterialFv", "J3DModelLoader_8cpp.html#a698adef40fcdc08b690c5884299e2aa8", null ],

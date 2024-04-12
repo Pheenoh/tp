@@ -1,15 +1,7 @@
 var JPAResourceLoader_8cpp =
 [
-    [ "JPATexture", "structJPATexture.html", "structJPATexture" ],
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JPAResource", "structJPAResource.html", "structJPAResource" ],
-    [ "JPAResourceManager", "structJPAResourceManager.html", "structJPAResourceManager" ],
     [ "JPAResourceLoader", "structJPAResourceLoader.html", "structJPAResourceLoader" ],
-    [ "JPAKeyBlock", "structJPAKeyBlock.html", "structJPAKeyBlock" ],
     [ "JPAFieldBlock", "structJPAFieldBlock.html", "structJPAFieldBlock" ],
-    [ "JPAExtraShape", "structJPAExtraShape.html", "structJPAExtraShape" ],
-    [ "JPADynamicsBlock", "structJPADynamicsBlock.html", "structJPADynamicsBlock" ],
-    [ "JPABaseShape", "structJPABaseShape.html", "structJPABaseShape" ],
     [ "__ct__10JPATextureFPCUc", "JPAResourceLoader_8cpp.html#a2d84c8233f5f282b232045e9dea172c6", null ],
     [ "__ct__11JPAKeyBlockFPCUc", "JPAResourceLoader_8cpp.html#a74415439d76b8d122b4c7eeb52dcc79c", null ],
     [ "__ct__11JPAResourceFv", "JPAResourceLoader_8cpp.html#a91ee25dd851d270870fd052bb3f24c86", null ],

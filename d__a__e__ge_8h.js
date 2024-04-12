@@ -1,5 +1,4 @@
 var d__a__e__ge_8h =
 [
-    [ "daE_GE_HIO_c", "structdaE__GE__HIO__c.html", "structdaE__GE__HIO__c" ],
-    [ "daE_GE_c", "classdaE__GE__c.html", "classdaE__GE__c" ]
+    [ "daE_GE_HIO_c", "structdaE__GE__HIO__c.html", "structdaE__GE__HIO__c" ]
 ];

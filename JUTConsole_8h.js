@@ -1,7 +1,5 @@
 var JUTConsole_8h =
 [
-    [ "JUTConsole", "classJUTConsole.html", "classJUTConsole" ],
-    [ "JUTConsoleManager", "classJUTConsoleManager.html", "classJUTConsoleManager" ],
     [ "JUTConsole_print_f_va_", "JUTConsole_8h.html#abb45328d3f171ba517c82b8c17bc8061", null ],
     [ "JUTGetReportConsole", "JUTConsole_8h.html#a62a1f3db86ab20d00738ed752f7b5b67", null ],
     [ "JUTGetWarningConsole", "JUTConsole_8h.html#a32031d278068b0c2f79df0293cbb740c", null ],

@@ -2,8 +2,6 @@ var d__a__obj__lv7bridge_8cpp =
 [
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "mDoExt_bckAnm", "classmDoExt__bckAnm.html", "classmDoExt__bckAnm" ],
     [ "mDoExt_baseAnm", "classmDoExt__baseAnm.html", "classmDoExt__baseAnm" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
@@ -33,8 +31,6 @@ var d__a__obj__lv7bridge_8cpp =
     [ "cBgD_t", "structcBgD__t.html", "structcBgD__t" ],
     [ "cBgW", "classcBgW.html", "classcBgW" ],
     [ "cBgS", "classcBgS.html", "classcBgS" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
-    [ "J3DFrameCtrl", "classJ3DFrameCtrl.html", "classJ3DFrameCtrl" ],
     [ "__construct_array", "d__a__obj__lv7bridge_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__lv7bridge_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],
     [ "__ct__12dBgS_AcchCirFv", "d__a__obj__lv7bridge_8cpp.html#a6a2beed7a63007db038e8f9f957b2c5c", null ],

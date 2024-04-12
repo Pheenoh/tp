@@ -6,8 +6,6 @@ var d__a__L7demo__dr_8cpp =
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
     [ "mDoExt_McaMorfCallBack2_c", "classmDoExt__McaMorfCallBack2__c.html", "classmDoExt__McaMorfCallBack2__c" ],
     [ "mDoExt_McaMorfCallBack1_c", "classmDoExt__McaMorfCallBack1__c.html", "classmDoExt__McaMorfCallBack1__c" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "Z2Creature", "classZ2Creature.html", "classZ2Creature" ],
     [ "mDoExt_McaMorfSO", "classmDoExt__McaMorfSO.html", "classmDoExt__McaMorfSO" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],

@@ -1,7 +1,5 @@
 var J2DPane_8h =
 [
-    [ "J2DPaneHeader", "structJ2DPaneHeader.html", "structJ2DPaneHeader" ],
-    [ "J2DPane", "structJ2DPane.html", "structJ2DPane" ],
     [ "J2DBasePosition", "J2DPane_8h.html#afafd1dbaf17cb41f7cbb8488b65e15c6", [
       [ "J2DBasePosition_0", "J2DPane_8h.html#afafd1dbaf17cb41f7cbb8488b65e15c6a7e01bd41e72caf16eb6be5e7dd0e75ed", null ],
       [ "J2DBasePosition_1", "J2DPane_8h.html#afafd1dbaf17cb41f7cbb8488b65e15c6a7199513c004a497de5a48db7bed4f316", null ],

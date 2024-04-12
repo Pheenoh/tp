@@ -1,10 +1,5 @@
 var J3DPacket_8h =
 [
-    [ "J3DDisplayListObj", "classJ3DDisplayListObj.html", "classJ3DDisplayListObj" ],
-    [ "J3DPacket", "classJ3DPacket.html", "classJ3DPacket" ],
-    [ "J3DDrawPacket", "classJ3DDrawPacket.html", "classJ3DDrawPacket" ],
-    [ "J3DShapePacket", "classJ3DShapePacket.html", "classJ3DShapePacket" ],
-    [ "J3DMatPacket", "classJ3DMatPacket.html", "classJ3DMatPacket" ],
     [ "calcDifferedBufferSize_TevStageDirectSize", "J3DPacket_8h.html#aebd611c37f34c605f04a9d9b00d0422e", null ],
     [ "calcDifferedBufferSize_TevStageSize", "J3DPacket_8h.html#acc600cff73b42e71bab0a4af59f4d3b9", null ],
     [ "calcDifferedBufferSize_TexGenSize", "J3DPacket_8h.html#a7c06a34597ceee9248b3277e936ef0db", null ],

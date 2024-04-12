@@ -7,7 +7,6 @@ var d__a__obj__timer_8cpp =
     [ "daObj", "structdaObj.html", "structdaObj" ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
     [ "create_tag_class", "structcreate__tag__class.html", "structcreate__tag__class" ],
-    [ "JAISoundID", "structJAISoundID.html", "structJAISoundID" ],
     [ "Vec", "structVec.html", "structVec" ],
     [ "Z2SeMgr", "structZ2SeMgr.html", "structZ2SeMgr" ],
     [ "Z2AudioMgr", "structZ2AudioMgr.html", "structZ2AudioMgr" ],

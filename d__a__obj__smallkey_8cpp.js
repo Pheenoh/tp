@@ -26,8 +26,6 @@ var d__a__obj__smallkey_8cpp =
     [ "cCcS", "classcCcS.html", "classcCcS" ],
     [ "cBgS_PolyInfo", "classcBgS__PolyInfo.html", "classcBgS__PolyInfo" ],
     [ "cBgS", "classcBgS.html", "classcBgS" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
-    [ "JPAEmitterCallBack", "classJPAEmitterCallBack.html", "classJPAEmitterCallBack" ],
     [ "__construct_array", "d__a__obj__smallkey_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__CreateHeap__7daKey_cFv", "d__a__obj__smallkey_8cpp.html#a7ed3f93beb153a773f772cdc6df08942", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__smallkey_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],

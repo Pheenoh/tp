@@ -21,7 +21,6 @@ var d__a__obj__ktOnFire_8cpp =
     [ "cM3dGAab", "classcM3dGAab.html", "classcM3dGAab" ],
     [ "cCcD_Obj", "structcCcD__Obj.html", "structcCcD__Obj" ],
     [ "cCcS", "classcCcS.html", "classcCcS" ],
-    [ "JAISoundID", "structJAISoundID.html", "structJAISoundID" ],
     [ "Vec", "structVec.html", "structVec" ],
     [ "Z2SeMgr", "structZ2SeMgr.html", "structZ2SeMgr" ],
     [ "Z2AudioMgr", "structZ2AudioMgr.html", "structZ2AudioMgr" ],

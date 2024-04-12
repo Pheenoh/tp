@@ -1,7 +1,5 @@
 var Z2FxLineMgr_8cpp =
 [
-    [ "JSUMemoryInputStream", "structJSUMemoryInputStream.html", "structJSUMemoryInputStream" ],
-    [ "JSUInputStream", "structJSUInputStream.html", "structJSUInputStream" ],
     [ "JASDsp", "structJASDsp.html", "structJASDsp" ],
     [ "JASDsp::FxlineConfig_", "structJASDsp_1_1FxlineConfig__.html", "structJASDsp_1_1FxlineConfig__" ],
     [ "__ct__11Z2FxLineMgrFv", "Z2FxLineMgr_8cpp.html#a01032f4a1cee4dd0a708db42f3439968", null ],

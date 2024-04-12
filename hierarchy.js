@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "std::__bitset_base< N >", "classstd_1_1____bitset__base.html", null ],
     [ "std::__bitset_base<(N - 1)/(sizeof(size_t) *8)+1 >", "classstd_1_1____bitset__base.html", [
       [ "std::bitset< A0 >", "classstd_1_1bitset.html", null ],
       [ "std::bitset< 255 >", "classstd_1_1bitset.html", null ],
@@ -43,21 +42,11 @@ var hierarchy =
     [ "_GXTlutRegion", "struct__GXTlutRegion.html", null ],
     [ "_GXVtxAttrFmtList", "struct__GXVtxAttrFmtList.html", null ],
     [ "_GXVtxDescList", "struct__GXVtxDescList.html", null ],
-    [ "daBkyRock_c::_pieceData", "structdaBkyRock__c_1_1__pieceData.html", null ],
-    [ "daNpcChin_c::_SpotLight_c", "structdaNpcChin__c_1_1__SpotLight__c.html", null ],
-    [ "dCamera_c::dCamera_pad_info::_stick", "structdCamera__c_1_1dCamera__pad__info_1_1__stick.html", null ],
     [ "_TRK_Msg", "struct__TRK__Msg.html", null ],
     [ "_ZraMark_Hahen_c", "struct__ZraMark__Hahen__c.html", null ],
     [ "_ZraMark_Hahen_Mng_c", "struct__ZraMark__Hahen__Mng__c.html", null ],
-    [ "daObjLadder::Act_c", "structdaObjLadder_1_1Act__c.html", null ],
-    [ "daObjMovebox::Act_c", "structdaObjMovebox_1_1Act__c.html", null ],
-    [ "daObjSwpush2::Act_c", "structdaObjSwpush2_1_1Act__c.html", null ],
-    [ "daObjSwpush::Act_c", "structdaObjSwpush_1_1Act__c.html", null ],
-    [ "daObjTimer::Act_c", "structdaObjTimer_1_1Act__c.html", null ],
-    [ "daDsh_c::action_c", "classdaDsh__c_1_1action__c.html", null ],
     [ "action_class< A0 >", "structaction__class.html", null ],
     [ "action_class< dEvLib_callback_c >", "structaction__class.html", null ],
-    [ "daObjYobikusa_c::actionFuncEntry", "structdaObjYobikusa__c_1_1actionFuncEntry.html", null ],
     [ "actor_attention_types", "structactor__attention__types.html", null ],
     [ "actor_method_class", "structactor__method__class.html", null ],
     [ "actor_place", "structactor__place.html", null ],
@@ -65,45 +54,28 @@ var hierarchy =
     [ "actor_process_profile_definition2", "structactor__process__profile__definition2.html", null ],
     [ "AppLoaderStruct", "structAppLoaderStruct.html", null ],
     [ "ARQRequest", "structARQRequest.html", null ],
-    [ "daObjMirrorScrew_c::attr", "structdaObjMirrorScrew__c_1_1attr.html", null ],
-    [ "daObjYobikusa_c::attributes", "structdaObjYobikusa__c_1_1attributes.html", null ],
     [ "b_bh_class", "structb__bh__class.html", null ],
     [ "b_gm_class", "structb__gm__class.html", null ],
     [ "b_gm_foot", "structb__gm__foot.html", null ],
     [ "b_gos_j_info", "structb__gos__j__info.html", null ],
-    [ "dStage_roomControl_c::bankData", "structdStage__roomControl__c_1_1bankData.html", null ],
-    [ "dStage_roomControl_c::bankDataEntry", "structdStage__roomControl__c_1_1bankDataEntry.html", null ],
     [ "base_process_class", "structbase__process__class.html", null ],
     [ "bd_class", "structbd__class.html", null ],
     [ "bee_s", "structbee__s.html", null ],
-    [ "dCamera_c::BG", "structdCamera__c_1_1BG.html", null ],
-    [ "daObjBm_c::Bgc_c", "structdaObjBm__c_1_1Bgc__c.html", null ],
-    [ "daObjMovebox::Bgc_c", "structdaObjMovebox_1_1Bgc__c.html", null ],
-    [ "daObjBm_c::BgcSrc_c", "structdaObjBm__c_1_1BgcSrc__c.html", null ],
-    [ "daObjMovebox::BgcSrc_c", "structdaObjMovebox_1_1BgcSrc__c.html", null ],
     [ "BI2Debug", "structBI2Debug.html", null ],
     [ "BinaryStreamFileTable", "structBinaryStreamFileTable.html", null ],
-    [ "J2DGrafContext::Blend", "structJ2DGrafContext_1_1Blend.html", null ],
-    [ "dMeter_fmapHIO_c::BlinkAnime", "structdMeter__fmapHIO__c_1_1BlinkAnime.html", null ],
     [ "Block", "structBlock.html", null ],
     [ "block_header", "structblock__header.html", null ],
     [ "BlockHeader", "structBlockHeader.html", null ],
-    [ "JASAramStream::BlockHeader", "structJASAramStream_1_1BlockHeader.html", null ],
-    [ "mDoGph_gInf_c::bloom_c", "classmDoGph__gInf__c_1_1bloom__c.html", null ],
     [ "bmg_header_t", "structbmg__header__t.html", null ],
     [ "bmg_section_t", "structbmg__section__t.html", null ],
     [ "BOSS_LIGHT", "structBOSS__LIGHT.html", null ],
     [ "br_s", "structbr__s.html", null ],
     [ "bug_s", "structbug__s.html", null ],
-    [ "JUTGamePad::C3ButtonReset", "structJUTGamePad_1_1C3ButtonReset.html", null ],
-    [ "daBalloon2D_c::c_list", "structdaBalloon2D__c_1_1c__list.html", null ],
-    [ "daCoach2D_c::c_list", "structdaCoach2D__c_1_1c__list.html", null ],
     [ "CallbackArgs", "structCallbackArgs.html", null ],
     [ "CallbackObject", "structCallbackObject.html", null ],
     [ "camera_process_profile_definition", "structcamera__process__profile__definition.html", null ],
     [ "cAngle", "structcAngle.html", null ],
     [ "cAPI_Interface", "structcAPI__Interface.html", null ],
-    [ "JKRArchive::CArcName", "classJKRArchive_1_1CArcName.html", null ],
     [ "CARDControl", "structCARDControl.html", null ],
     [ "CARDDir", "structCARDDir.html", null ],
     [ "CARDDirCheck", "structCARDDirCheck.html", null ],
@@ -208,8 +180,6 @@ var hierarchy =
     [ "cBgW_GrpElm", "classcBgW__GrpElm.html", null ],
     [ "cBgW_RwgElm", "classcBgW__RwgElm.html", null ],
     [ "cBgW_TriElm", "classcBgW__TriElm.html", null ],
-    [ "JUTGamePad::CButton", "structJUTGamePad_1_1CButton.html", null ],
-    [ "JKRFileCache::CCacheBlock", "classJKRFileCache_1_1CCacheBlock.html", null ],
     [ "cCcD_AabAttr", "structcCcD__AabAttr.html", null ],
     [ "cCcD_DivideInfo", "classcCcD__DivideInfo.html", null ],
     [ "cCcD_GStts", "structcCcD__GStts.html", [
@@ -249,6 +219,7 @@ var hierarchy =
         [ "dCcD_Tri", "structdCcD__Tri.html", null ]
       ] ]
     ] ],
+    [ "cCcD_ShapeAttr::Shape", "structcCcD__ShapeAttr_1_1Shape.html", null ],
     [ "cCcD_SrcCpsAttr", "structcCcD__SrcCpsAttr.html", null ],
     [ "cCcD_SrcObj", "structcCcD__SrcObj.html", null ],
     [ "cCcD_SrcObjAt", "structcCcD__SrcObjAt.html", null ],
@@ -267,14 +238,7 @@ var hierarchy =
     [ "cDegree", "classcDegree.html", null ],
     [ "cDylPhs", "structcDylPhs.html", null ],
     [ "chain_s", "structchain__s.html", null ],
-    [ "daObjCBlk_c::chain_s", "structdaObjCBlk__c_1_1chain__s.html", null ],
-    [ "daObjCwall_c::chain_s", "structdaObjCwall__c_1_1chain__s.html", null ],
-    [ "daObjSwChain_c::chain_s", "structdaObjSwChain__c_1_1chain__s.html", null ],
-    [ "daObjKLift00_c::ChainPos", "structdaObjKLift00__c_1_1ChainPos.html", null ],
-    [ "daObjLv4Chan_c::ChainPos", "structdaObjLv4Chan__c_1_1ChainPos.html", null ],
     [ "CharInfo_c", "structCharInfo__c.html", null ],
-    [ "daBalloon2D_c::CHeadScore", "structdaBalloon2D__c_1_1CHeadScore.html", null ],
-    [ "dCamBGChk_c::ChkInfo", "structdCamBGChk__c_1_1ChkInfo.html", null ],
     [ "ChrInfo_c", "classChrInfo__c.html", null ],
     [ "CircleBuffer", "structCircleBuffer.html", null ],
     [ "ClothJoint_c", "structClothJoint__c.html", null ],
@@ -308,13 +272,9 @@ var hierarchy =
     [ "cM3dGSphS", "structcM3dGSphS.html", null ],
     [ "cM3dGTriS", "structcM3dGTriS.html", null ],
     [ "cM_rnd_c", "classcM__rnd__c.html", null ],
-    [ "JASSeqParser::CmdInfo", "structJASSeqParser_1_1CmdInfo.html", null ],
-    [ "JKRExpHeap::CMemBlock", "classJKRExpHeap_1_1CMemBlock.html", null ],
     [ "cMl", "structcMl.html", null ],
     [ "color_RGB_class", "structcolor__RGB__class.html", null ],
     [ "CommandReply", "structCommandReply.html", null ],
-    [ "JGadget::TLinkList< T, I >::const_iterator", "structJGadget_1_1TLinkList_1_1const__iterator.html", null ],
-    [ "JGadget::TNodeLinkList::const_iterator", "structJGadget_1_1TNodeLinkList_1_1const__iterator.html", null ],
     [ "counter_class", "structcounter__class.html", null ],
     [ "COutFont_c", "classCOutFont__c.html", null ],
     [ "COutFontSet_c", "classCOutFontSet__c.html", null ],
@@ -322,24 +282,20 @@ var hierarchy =
       [ "CPaneMgr", "structCPaneMgr.html", null ],
       [ "CPaneMgrAlphaMorf", "structCPaneMgrAlphaMorf.html", null ]
     ] ],
-    [ "JUTProcBar::CParamSet", "classJUTProcBar_1_1CParamSet.html", null ],
     [ "create_request", "structcreate__request.html", null ],
     [ "create_request_method_class", "structcreate__request__method__class.html", null ],
     [ "create_tag", "structcreate__tag.html", null ],
     [ "create_tag_class", "structcreate__tag__class.html", null ],
-    [ "JUTGamePad::CRumble", "structJUTGamePad_1_1CRumble.html", null ],
     [ "cSAngle", "classcSAngle.html", null ],
-    [ "JFWSystem::CSetUpParam", "structJFWSystem_1_1CSetUpParam.html", null ],
     [ "cSGlobe", "classcSGlobe.html", null ],
     [ "cSPolar", "classcSPolar.html", null ],
-    [ "JUTGamePad::CStick", "structJUTGamePad_1_1CStick.html", null ],
-    [ "JUTProcBar::CTime", "classJUTProcBar_1_1CTime.html", null ],
     [ "cull_box", "structcull__box.html", null ],
     [ "cull_sphere", "structcull__sphere.html", null ],
     [ "d2DBSplinePath", "structd2DBSplinePath.html", null ],
-    [ "daAlink_c::daAlink_ANM", "structdaAlink__c_1_1daAlink__ANM.html", null ],
     [ "daAlink_AnmData", "structdaAlink__AnmData.html", null ],
     [ "daAlink_BckData", "structdaAlink__BckData.html", null ],
+    [ "daAlink_c::daAlink_ANM", "structdaAlink__c_1_1daAlink__ANM.html", null ],
+    [ "daAlink_c::firePointEff_c", "classdaAlink__c_1_1firePointEff__c.html", null ],
     [ "daAlink_cutParamTbl", "structdaAlink__cutParamTbl.html", null ],
     [ "daAlink_FaceTexData", "structdaAlink__FaceTexData.html", null ],
     [ "daAlink_footData_c", "classdaAlink__footData__c.html", null ],
@@ -587,18 +543,21 @@ var hierarchy =
     [ "daB_ZANTZ_c", "structdaB__ZANTZ__c.html", null ],
     [ "daB_ZANTZ_HIO_c", "structdaB__ZANTZ__HIO__c.html", null ],
     [ "daBalloon2D_c", "structdaBalloon2D__c.html", null ],
+    [ "daBalloon2D_c::c_list", "structdaBalloon2D__c_1_1c__list.html", null ],
+    [ "daBalloon2D_c::CHeadScore", "structdaBalloon2D__c_1_1CHeadScore.html", null ],
     [ "daBalloon2D_HIO_c", "structdaBalloon2D__HIO__c.html", null ],
     [ "daBaseNpc_acMngr_c", "classdaBaseNpc__acMngr__c.html", null ],
     [ "daBaseNpc_lookat_c", "classdaBaseNpc__lookat__c.html", null ],
     [ "daBaseNpc_matAnm_c", "structdaBaseNpc__matAnm__c.html", null ],
     [ "daBaseNpc_path_c", "classdaBaseNpc__path__c.html", null ],
     [ "daBd_HIO_c", "structdaBd__HIO__c.html", null ],
-    [ "daBdoorL1_c", "structdaBdoorL1__c.html", null ],
     [ "daBdoorL5_c", "structdaBdoorL5__c.html", null ],
     [ "daBg_brkAnm_c", "classdaBg__brkAnm__c.html", null ],
     [ "daBg_btkAnm_c", "classdaBg__btkAnm__c.html", null ],
     [ "daBg_unkData", "structdaBg__unkData.html", null ],
+    [ "daBgObj_c::spec_data_c", "classdaBgObj__c_1_1spec__data__c.html", null ],
     [ "daBkyRock_c", "structdaBkyRock__c.html", null ],
+    [ "daBkyRock_c::_pieceData", "structdaBkyRock__c_1_1__pieceData.html", null ],
     [ "daBmWindow_c", "structdaBmWindow__c.html", null ],
     [ "daBmWindow_HIO_c", "structdaBmWindow__HIO__c.html", null ],
     [ "daBoomerang_HIO_c0", "structdaBoomerang__HIO__c0.html", null ],
@@ -608,6 +567,7 @@ var hierarchy =
     [ "daBullet_c", "structdaBullet__c.html", null ],
     [ "daBullet_Param_c", "structdaBullet__Param__c.html", null ],
     [ "daCoach2D_c", "structdaCoach2D__c.html", null ],
+    [ "daCoach2D_c::c_list", "structdaCoach2D__c_1_1c__list.html", null ],
     [ "daCoach2D_HIO_c", "structdaCoach2D__HIO__c.html", null ],
     [ "daCoachFire_c", "structdaCoachFire__c.html", null ],
     [ "daDemo00_c", "structdaDemo00__c.html", null ],
@@ -618,6 +578,7 @@ var hierarchy =
     [ "daDo_HIO_tmp", "structdaDo__HIO__tmp.html", null ],
     [ "daDoor20_c", "structdaDoor20__c.html", null ],
     [ "daDr_c", "structdaDr__c.html", null ],
+    [ "daDsh_c::action_c", "classdaDsh__c_1_1action__c.html", null ],
     [ "daE_AI_HIO_c", "structdaE__AI__HIO__c.html", null ],
     [ "daE_BA_HIO_c", "structdaE__BA__HIO__c.html", null ],
     [ "daE_Bee_HIO_c", "classdaE__Bee__HIO__c.html", null ],
@@ -739,6 +700,7 @@ var hierarchy =
     [ "daGoGate_HIO_c", "structdaGoGate__HIO__c.html", null ],
     [ "daGpTaru_c", "structdaGpTaru__c.html", null ],
     [ "daGpTaru_HIO_c", "structdaGpTaru__HIO__c.html", null ],
+    [ "daGraveStone_c::daObj_GrvStn_prtclMngr_c", "classdaGraveStone__c_1_1daObj__GrvStn__prtclMngr__c.html", null ],
     [ "daGrdWater_c", "structdaGrdWater__c.html", null ],
     [ "daGrdWater_HIO_c", "structdaGrdWater__HIO__c.html", null ],
     [ "daHorse_hio_c0", "structdaHorse__hio__c0.html", null ],
@@ -821,8 +783,8 @@ var hierarchy =
     [ "daNpc_Gnd_c", "structdaNpc__Gnd__c.html", null ],
     [ "daNpc_Gnd_Param_c", "structdaNpc__Gnd__Param__c.html", null ],
     [ "daNpc_grA_c", "structdaNpc__grA__c.html", null ],
-    [ "daNpc_grA_Param_c", "structdaNpc__grA__Param__c.html", null ],
     [ "daNpc_grA_c::daNpc_GrA_prtclMngr_c", "structdaNpc__grA__c_1_1daNpc__GrA__prtclMngr__c.html", null ],
+    [ "daNpc_grA_Param_c", "structdaNpc__grA__Param__c.html", null ],
     [ "daNpc_grC_c", "structdaNpc__grC__c.html", null ],
     [ "daNpc_grC_Param_c", "structdaNpc__grC__Param__c.html", null ],
     [ "daNpc_Grd_c", "structdaNpc__Grd__c.html", null ],
@@ -838,8 +800,8 @@ var hierarchy =
     [ "daNpc_grS_c", "structdaNpc__grS__c.html", null ],
     [ "daNpc_grS_Param_c", "structdaNpc__grS__Param__c.html", null ],
     [ "daNpc_Grz_c", "structdaNpc__Grz__c.html", null ],
-    [ "daNpc_Grz_Param_c", "structdaNpc__Grz__Param__c.html", null ],
     [ "daNpc_Grz_c::daNpc_GrZ_prtclMngr_c", "structdaNpc__Grz__c_1_1daNpc__GrZ__prtclMngr__c.html", null ],
+    [ "daNpc_Grz_Param_c", "structdaNpc__Grz__Param__c.html", null ],
     [ "daNpc_GWolf_Param_c", "structdaNpc__GWolf__Param__c.html", null ],
     [ "daNpc_Hanjo_c", "structdaNpc__Hanjo__c.html", null ],
     [ "daNpc_Hanjo_Param_c", "structdaNpc__Hanjo__Param__c.html", null ],
@@ -854,8 +816,8 @@ var hierarchy =
     [ "daNpc_Kkri_c", "structdaNpc__Kkri__c.html", null ],
     [ "daNpc_Kkri_Param_c", "structdaNpc__Kkri__Param__c.html", null ],
     [ "daNpc_Kn_c", "structdaNpc__Kn__c.html", null ],
-    [ "daNpc_Kn_Param_c", "structdaNpc__Kn__Param__c.html", null ],
     [ "daNpc_Kn_c::daNpc_Kn_prtclMngr_c", "structdaNpc__Kn__c_1_1daNpc__Kn__prtclMngr__c.html", null ],
+    [ "daNpc_Kn_Param_c", "structdaNpc__Kn__Param__c.html", null ],
     [ "daNpc_Knj_c", "structdaNpc__Knj__c.html", null ],
     [ "daNpc_Knj_Param_c", "structdaNpc__Knj__Param__c.html", null ],
     [ "daNpc_Kolin_c", "structdaNpc__Kolin__c.html", null ],
@@ -957,6 +919,7 @@ var hierarchy =
     [ "daNpc_zrZ_c", "structdaNpc__zrZ__c.html", null ],
     [ "daNpc_zrZ_Param_c", "structdaNpc__zrZ__Param__c.html", null ],
     [ "daNpcAsh_Param_c", "classdaNpcAsh__Param__c.html", null ],
+    [ "daNpcAsh_Param_c::param", "structdaNpcAsh__Param__c_1_1param.html", null ],
     [ "daNpcAshB_c", "structdaNpcAshB__c.html", null ],
     [ "daNpcAshB_Param_c", "structdaNpcAshB__Param__c.html", null ],
     [ "daNpcBlueNS_c", "structdaNpcBlueNS__c.html", null ],
@@ -971,11 +934,13 @@ var hierarchy =
     [ "daNpcCd_HIO_Child_c", "structdaNpcCd__HIO__Child__c.html", null ],
     [ "daNpcCd_HIO_Jnt_c", "structdaNpcCd__HIO__Jnt__c.html", null ],
     [ "daNpcCdn3_c", "structdaNpcCdn3__c.html", null ],
+    [ "daNpcCdn3_c::Mode_e", "structdaNpcCdn3__c_1_1Mode__e.html", null ],
     [ "daNpcChat_c", "structdaNpcChat__c.html", null ],
     [ "daNpcChat_Param_c", "structdaNpcChat__Param__c.html", null ],
     [ "daNpcChCoach_c", "structdaNpcChCoach__c.html", null ],
     [ "daNpcChHarness_c", "structdaNpcChHarness__c.html", null ],
     [ "daNpcChin_c", "structdaNpcChin__c.html", null ],
+    [ "daNpcChin_c::_SpotLight_c", "structdaNpcChin__c_1_1__SpotLight__c.html", null ],
     [ "daNpcChin_Param_c", "structdaNpcChin__Param__c.html", null ],
     [ "daNpcClerkT_c", "structdaNpcClerkT__c.html", null ],
     [ "daNpcClerkt_Param_c", "structdaNpcClerkt__Param__c.html", null ],
@@ -993,6 +958,7 @@ var hierarchy =
     ] ],
     [ "daNpcF_SPCurve_c", "classdaNpcF__SPCurve__c.html", null ],
     [ "daNpcGuard_c", "structdaNpcGuard__c.html", null ],
+    [ "daNpcGuard_c::Mode_e", "structdaNpcGuard__c_1_1Mode__e.html", null ],
     [ "daNpcImpal_c", "structdaNpcImpal__c.html", null ],
     [ "daNpcImpal_Param_c", "structdaNpcImpal__Param__c.html", null ],
     [ "daNpcIns_c", "structdaNpcIns__c.html", null ],
@@ -1006,7 +972,9 @@ var hierarchy =
     [ "daNpcKasiMich_Param_c", "structdaNpcKasiMich__Param__c.html", null ],
     [ "daNpcMoiR_Param_c", "structdaNpcMoiR__Param__c.html", null ],
     [ "daNpcPasser2_c", "structdaNpcPasser2__c.html", null ],
+    [ "daNpcPasser2_c::Mode_e", "structdaNpcPasser2__c_1_1Mode__e.html", null ],
     [ "daNpcPasser_c", "structdaNpcPasser__c.html", null ],
+    [ "daNpcPasser_c::Mode_e", "structdaNpcPasser__c_1_1Mode__e.html", null ],
     [ "daNpcPray_c", "structdaNpcPray__c.html", null ],
     [ "daNpcPray_Param_c", "structdaNpcPray__Param__c.html", null ],
     [ "daNpcRafrel_c", "structdaNpcRafrel__c.html", null ],
@@ -1023,9 +991,11 @@ var hierarchy =
     [ "daNpcT_JntAnm_c", "classdaNpcT__JntAnm__c.html", null ],
     [ "daNpcT_motionAnmData_c", "structdaNpcT__motionAnmData__c.html", null ],
     [ "daNpcT_MotionSeqMngr_c", "classdaNpcT__MotionSeqMngr__c.html", null ],
+    [ "daNpcT_MotionSeqMngr_c::sequenceStepData_c", "classdaNpcT__MotionSeqMngr__c_1_1sequenceStepData__c.html", null ],
     [ "daNpcT_Path_c", "classdaNpcT__Path__c.html", null ],
     [ "daNpcT_pntData_c", "structdaNpcT__pntData__c.html", null ],
     [ "daNpcThe_Param_c", "classdaNpcThe__Param__c.html", null ],
+    [ "daNpcThe_Param_c::param", "structdaNpcThe__Param__c_1_1param.html", null ],
     [ "daNpcTheB_c", "structdaNpcTheB__c.html", null ],
     [ "daNpcTheB_Param_c", "structdaNpcTheB__Param__c.html", null ],
     [ "daNpcTkc_c", "structdaNpcTkc__c.html", null ],
@@ -1042,6 +1012,7 @@ var hierarchy =
     [ "daObj_Balloon_HIO_c", "structdaObj__Balloon__HIO__c.html", null ],
     [ "daObj_BattaHIO_c", "structdaObj__BattaHIO__c.html", null ],
     [ "daObj_Bed_Param_c", "classdaObj__Bed__Param__c.html", null ],
+    [ "daObj_Bed_Param_c::params", "structdaObj__Bed__Param__c_1_1params.html", null ],
     [ "daObj_BouMato_c", "structdaObj__BouMato__c.html", null ],
     [ "daObj_BouMato_Param_c", "structdaObj__BouMato__Param__c.html", null ],
     [ "daObj_Cb_HIO_c", "structdaObj__Cb__HIO__c.html", null ],
@@ -1053,9 +1024,8 @@ var hierarchy =
     [ "daObj_Gadget_Param_c", "structdaObj__Gadget__Param__c.html", null ],
     [ "daObj_Gm_HIO_c", "structdaObj__Gm__HIO__c.html", null ],
     [ "daObj_GrA_c", "structdaObj__GrA__c.html", null ],
-    [ "daObj_GrA_Param_c", "structdaObj__GrA__Param__c.html", null ],
     [ "daObj_GrA_c::daObj_GrA_prtclMngr_c", "structdaObj__GrA__c_1_1daObj__GrA__prtclMngr__c.html", null ],
-    [ "daGraveStone_c::daObj_GrvStn_prtclMngr_c", "classdaGraveStone__c_1_1daObj__GrvStn__prtclMngr__c.html", null ],
+    [ "daObj_GrA_Param_c", "structdaObj__GrA__Param__c.html", null ],
     [ "daOBJ_ICE_S_HIO_c", "structdaOBJ__ICE__S__HIO__c.html", null ],
     [ "daObj_ITA_HIO_c", "structdaObj__ITA__HIO__c.html", null ],
     [ "daObj_ItaMato_c", "structdaObj__ItaMato__c.html", null ],
@@ -1087,6 +1057,7 @@ var hierarchy =
     [ "daObj_Nougu_c", "structdaObj__Nougu__c.html", null ],
     [ "daObj_Nougu_Param_c", "structdaObj__Nougu__Param__c.html", null ],
     [ "daObj_Pleaf_Param_c", "classdaObj__Pleaf__Param__c.html", null ],
+    [ "daObj_Pleaf_Param_c::params", "structdaObj__Pleaf__Param__c_1_1params.html", null ],
     [ "daObj_Pumpkin_c", "structdaObj__Pumpkin__c.html", null ],
     [ "daObj_Pumpkin_Param_c", "structdaObj__Pumpkin__Param__c.html", null ],
     [ "daObj_Roten_c", "structdaObj__Roten__c.html", null ],
@@ -1114,11 +1085,14 @@ var hierarchy =
     [ "daObjBHASHI_c", "structdaObjBHASHI__c.html", null ],
     [ "daObjBhbridge_c", "structdaObjBhbridge__c.html", null ],
     [ "daObjBm_c", "structdaObjBm__c.html", null ],
+    [ "daObjBm_c::Bgc_c", "structdaObjBm__c_1_1Bgc__c.html", null ],
+    [ "daObjBm_c::BgcSrc_c", "structdaObjBm__c_1_1BgcSrc__c.html", null ],
     [ "daObjBmSh_c", "structdaObjBmSh__c.html", null ],
     [ "daObjBurnBox_c", "structdaObjBurnBox__c.html", null ],
     [ "daObjCarry_Data", "structdaObjCarry__Data.html", null ],
     [ "daObjCatDoor_Door_c", "structdaObjCatDoor__Door__c.html", null ],
     [ "daObjCBlk_c", "structdaObjCBlk__c.html", null ],
+    [ "daObjCBlk_c::chain_s", "structdaObjCBlk__c_1_1chain__s.html", null ],
     [ "daObjChest_c", "structdaObjChest__c.html", null ],
     [ "daObjCRVFENCE_c", "structdaObjCRVFENCE__c.html", null ],
     [ "daObjCRVGATE_c", "structdaObjCRVGATE__c.html", null ],
@@ -1127,6 +1101,7 @@ var hierarchy =
     [ "daObjCRVLH_UP_c", "structdaObjCRVLH__UP__c.html", null ],
     [ "daObjCRVSTEEL_c", "structdaObjCRVSTEEL__c.html", null ],
     [ "daObjCwall_c", "structdaObjCwall__c.html", null ],
+    [ "daObjCwall_c::chain_s", "structdaObjCwall__c_1_1chain__s.html", null ],
     [ "daObjDAN_c", "structdaObjDAN__c.html", null ],
     [ "daObjDrop_c", "structdaObjDrop__c.html", null ],
     [ "daObjDust_c", "structdaObjDust__c.html", null ],
@@ -1147,6 +1122,7 @@ var hierarchy =
     [ "daObjH_Saku_c", "structdaObjH__Saku__c.html", null ],
     [ "daObjHata_c", "structdaObjHata__c.html", null ],
     [ "daObjHBarrel_c", "structdaObjHBarrel__c.html", null ],
+    [ "daObjHBombkoya_c::PSetTbl", "structdaObjHBombkoya__c_1_1PSetTbl.html", null ],
     [ "daObjHFtr_c", "structdaObjHFtr__c.html", null ],
     [ "daObjHHASHI_c", "structdaObjHHASHI__c.html", null ],
     [ "daObjIBone_c", "structdaObjIBone__c.html", null ],
@@ -1162,20 +1138,25 @@ var hierarchy =
     [ "daObjKAT_c", "structdaObjKAT__c.html", null ],
     [ "daObjKazeNeko_c", "structdaObjKazeNeko__c.html", null ],
     [ "daObjKLift00_c", "structdaObjKLift00__c.html", null ],
+    [ "daObjKLift00_c::ChainPos", "structdaObjKLift00__c_1_1ChainPos.html", null ],
     [ "daObjKnBullet_c", "structdaObjKnBullet__c.html", null ],
     [ "daObjKshtr_c", "structdaObjKshtr__c.html", null ],
     [ "daObjKUW_c", "structdaObjKUW__c.html", null ],
     [ "daObjKWheel00_c", "structdaObjKWheel00__c.html", null ],
     [ "daObjKWheel01_c", "structdaObjKWheel01__c.html", null ],
     [ "daObjKznkarm_c", "structdaObjKznkarm__c.html", null ],
+    [ "daObjKznkarm_c::Mode_e", "structdaObjKznkarm__c_1_1Mode__e.html", null ],
     [ "daObjL4DigSand_c", "structdaObjL4DigSand__c.html", null ],
     [ "daObjL6Bm_c", "structdaObjL6Bm__c.html", null ],
     [ "daObjLadder", "structdaObjLadder.html", null ],
+    [ "daObjLadder::Act_c", "structdaObjLadder_1_1Act__c.html", null ],
+    [ "daObjLadder::Act_c::Prm_e", "structdaObjLadder_1_1Act__c_1_1Prm__e.html", null ],
     [ "daObjLdy_c", "structdaObjLdy__c.html", null ],
     [ "daObjLife_c", "structdaObjLife__c.html", null ],
     [ "daObjLndRope_c", "structdaObjLndRope__c.html", null ],
     [ "daObjLv4Brg_c", "structdaObjLv4Brg__c.html", null ],
     [ "daObjLv4Chan_c", "structdaObjLv4Chan__c.html", null ],
+    [ "daObjLv4Chan_c::ChainPos", "structdaObjLv4Chan__c_1_1ChainPos.html", null ],
     [ "daObjLv4PRwall_c", "structdaObjLv4PRwall__c.html", null ],
     [ "daObjLv4Sand_c", "structdaObjLv4Sand__c.html", null ],
     [ "daObjLv4Wall_c", "structdaObjLv4Wall__c.html", null ],
@@ -1188,9 +1169,13 @@ var hierarchy =
     [ "daObjMarm_c", "structdaObjMarm__c.html", null ],
     [ "daObjMATO_c", "structdaObjMATO__c.html", null ],
     [ "daObjMBox_c", "structdaObjMBox__c.html", null ],
-    [ "nObjMHasu::daObjMHasu_c", "structnObjMHasu_1_1daObjMHasu__c.html", null ],
     [ "daObjMHole_c", "structdaObjMHole__c.html", null ],
+    [ "daObjMirrorScrew_c::attr", "structdaObjMirrorScrew__c_1_1attr.html", null ],
     [ "daObjMovebox", "structdaObjMovebox.html", null ],
+    [ "daObjMovebox::Act_c", "structdaObjMovebox_1_1Act__c.html", null ],
+    [ "daObjMovebox::Act_c::Prm_e", "structdaObjMovebox_1_1Act__c_1_1Prm__e.html", null ],
+    [ "daObjMovebox::Bgc_c", "structdaObjMovebox_1_1Bgc__c.html", null ],
+    [ "daObjMovebox::BgcSrc_c", "structdaObjMovebox_1_1BgcSrc__c.html", null ],
     [ "daObjNagaisu_c", "structdaObjNagaisu__c.html", null ],
     [ "daObjNameplate_c", "structdaObjNameplate__c.html", null ],
     [ "daObjNAN_c", "structdaObjNAN__c.html", null ],
@@ -1213,20 +1198,29 @@ var hierarchy =
     [ "daObjStopper_c", "structdaObjStopper__c.html", null ],
     [ "daObjSw5_c", "structdaObjSw5__c.html", null ],
     [ "daObjSwChain_c", "structdaObjSwChain__c.html", null ],
+    [ "daObjSwChain_c::chain_s", "structdaObjSwChain__c_1_1chain__s.html", null ],
     [ "daObjSwLight_c", "structdaObjSwLight__c.html", null ],
     [ "daObjSword_c", "structdaObjSword__c.html", null ],
     [ "daObjSwpush", "structdaObjSwpush.html", null ],
     [ "daObjSwpush2", "structdaObjSwpush2.html", null ],
+    [ "daObjSwpush2::Act_c", "structdaObjSwpush2_1_1Act__c.html", null ],
+    [ "daObjSwpush2::Act_c::Prm_e", "structdaObjSwpush2_1_1Act__c_1_1Prm__e.html", null ],
+    [ "daObjSwpush::Act_c", "structdaObjSwpush_1_1Act__c.html", null ],
+    [ "daObjSwpush::Act_c::Prm_e", "structdaObjSwpush_1_1Act__c_1_1Prm__e.html", null ],
     [ "daObjSwTurn_c", "structdaObjSwTurn__c.html", null ],
     [ "daObjSZbridge_c", "structdaObjSZbridge__c.html", null ],
     [ "daObjTEN_c", "structdaObjTEN__c.html", null ],
     [ "daObjTHASHI_c", "structdaObjTHASHI__c.html", null ],
     [ "daObjThDoor_c", "structdaObjThDoor__c.html", null ],
     [ "daObjTimer", "structdaObjTimer.html", null ],
+    [ "daObjTimer::Act_c", "structdaObjTimer_1_1Act__c.html", null ],
+    [ "daObjTimer::Act_c::Prm_e", "structdaObjTimer_1_1Act__c_1_1Prm__e.html", null ],
     [ "daObjTks_c", "structdaObjTks__c.html", null ],
     [ "daObjTks_Param_c", "structdaObjTks__Param__c.html", null ],
     [ "daObjTobyHouse_c", "structdaObjTobyHouse__c.html", null ],
     [ "daObjTOMBO_c", "structdaObjTOMBO__c.html", null ],
+    [ "daObjVolcBall_c::vball_s", "structdaObjVolcBall__c_1_1vball__s.html", null ],
+    [ "daObjVolcBall_c::volc_param_c", "classdaObjVolcBall__c_1_1volc__param__c.html", null ],
     [ "daObjVolcBom_c", "classdaObjVolcBom__c.html", null ],
     [ "daObjWarpKBrg_c", "structdaObjWarpKBrg__c.html", null ],
     [ "daObjWarpOBrg_c", "structdaObjWarpOBrg__c.html", null ],
@@ -1234,6 +1228,8 @@ var hierarchy =
     [ "daObjWStatue_c", "structdaObjWStatue__c.html", null ],
     [ "daObjYchndlr_c", "structdaObjYchndlr__c.html", null ],
     [ "daObjYIblltray_c", "structdaObjYIblltray__c.html", null ],
+    [ "daObjYobikusa_c::actionFuncEntry", "structdaObjYobikusa__c_1_1actionFuncEntry.html", null ],
+    [ "daObjYobikusa_c::attributes", "structdaObjYobikusa__c_1_1attributes.html", null ],
     [ "daObjYOUSEI_c", "structdaObjYOUSEI__c.html", null ],
     [ "daObjYtaihou_c", "structdaObjYtaihou__c.html", null ],
     [ "daObjZraMark_c", "structdaObjZraMark__c.html", null ],
@@ -1274,6 +1270,8 @@ var hierarchy =
     [ "daSq_HIO_c", "classdaSq__HIO__c.html", null ],
     [ "daStairBlock_c", "structdaStairBlock__c.html", null ],
     [ "daStairBlock_HIO_c", "structdaStairBlock__HIO__c.html", null ],
+    [ "daSus_c::data_c", "classdaSus__c_1_1data__c.html", null ],
+    [ "daSus_c::room_c", "classdaSus__c_1_1room__c.html", null ],
     [ "daSwBall_c", "structdaSwBall__c.html", null ],
     [ "daSwhit0_c", "structdaSwhit0__c.html", null ],
     [ "daSwLBall_c", "structdaSwLBall__c.html", null ],
@@ -1281,14 +1279,6 @@ var hierarchy =
     [ "daSwShutter_HIO_c", "structdaSwShutter__HIO__c.html", null ],
     [ "daSyRock_c", "structdaSyRock__c.html", null ],
     [ "daSyRock_HIO_c", "structdaSyRock__HIO__c.html", null ],
-    [ "dMenuMapCommon_c::data", "structdMenuMapCommon__c_1_1data.html", null ],
-    [ "JASOscillator::Data", "structJASOscillator_1_1Data.html", null ],
-    [ "JMessage::data", "structJMessage_1_1data.html", null ],
-    [ "JStudio::ctb::data", "structJStudio_1_1ctb_1_1data.html", null ],
-    [ "daSus_c::data_c", "classdaSus__c_1_1data__c.html", null ],
-    [ "dTres_c::data_s", "structdTres__c_1_1data__s.html", [
-      [ "dTres_c::typeGroupData_c", "structdTres__c_1_1typeGroupData__c.html", null ]
-    ] ],
     [ "daTaFence_c", "structdaTaFence__c.html", null ],
     [ "daTaFence_HIO_c", "structdaTaFence__HIO__c.html", null ],
     [ "daTag_AllMato_c", "structdaTag__AllMato__c.html", null ],
@@ -1346,22 +1336,28 @@ var hierarchy =
     [ "dBgS_BombAcch", "structdBgS__BombAcch.html", null ],
     [ "dBgS_CamSphChk", "structdBgS__CamSphChk.html", null ],
     [ "dBgS_HorseAcch", "structdBgS__HorseAcch.html", null ],
+    [ "dBgW_Base::PushPullLabel", "structdBgW__Base_1_1PushPullLabel.html", null ],
     [ "DBInterface", "structDBInterface.html", null ],
     [ "dBrightCheck_c", "classdBrightCheck__c.html", null ],
     [ "dCamBGChk_c", "classdCamBGChk__c.html", null ],
+    [ "dCamBGChk_c::ChkInfo", "structdCamBGChk__c_1_1ChkInfo.html", null ],
     [ "dCamera_c", "classdCamera__c.html", null ],
+    [ "dCamera_c::BG", "structdCamera__c_1_1BG.html", null ],
+    [ "dCamera_c::dCamera_pad_info", "structdCamera__c_1_1dCamera__pad__info.html", null ],
+    [ "dCamera_c::dCamera_pad_info::_stick", "structdCamera__c_1_1dCamera__pad__info_1_1__stick.html", null ],
+    [ "dCamera_c::dCamInfo_c", "classdCamera__c_1_1dCamInfo__c.html", null ],
+    [ "dCamera_c::Shake", "structdCamera__c_1_1Shake.html", null ],
     [ "dCamera_event_data", "structdCamera__event__data.html", null ],
     [ "dCamera_event_param", "structdCamera__event__param.html", null ],
     [ "dCamera_FakeAngle_system", "structdCamera__FakeAngle__system.html", null ],
     [ "dCamera_monitoring_things", "structdCamera__monitoring__things.html", null ],
-    [ "dCamera_c::dCamera_pad_info", "structdCamera__c_1_1dCamera__pad__info.html", null ],
     [ "dCamera_type_data", "structdCamera__type__data.html", null ],
-    [ "dCamera_c::dCamInfo_c", "classdCamera__c_1_1dCamInfo__c.html", null ],
     [ "dCamMapToolData", "structdCamMapToolData.html", null ],
     [ "dCamMath", "structdCamMath.html", null ],
     [ "dCamParam_c", "classdCamParam__c.html", null ],
     [ "dCamSetup_c", "classdCamSetup__c.html", null ],
     [ "dCamStyleData", "structdCamStyleData.html", null ],
+    [ "dCamStyleData::StyleData", "structdCamStyleData_1_1StyleData.html", null ],
     [ "dCcD_GAtTgCoCommonBase", "structdCcD__GAtTgCoCommonBase.html", [
       [ "dCcD_GObjAt", "structdCcD__GObjAt.html", null ],
       [ "dCcD_GObjCo", "structdCcD__GObjCo.html", null ],
@@ -1483,9 +1479,15 @@ var hierarchy =
     [ "dDlst_shadowReal_c", "classdDlst__shadowReal__c.html", null ],
     [ "dDlst_shadowSimple_c", "classdDlst__shadowSimple__c.html", null ],
     [ "dDlst_shadowTri_c", "classdDlst__shadowTri__c.html", null ],
+    [ "dDlst_TimerScrnDraw_c::getin_info", "structdDlst__TimerScrnDraw__c_1_1getin__info.html", null ],
     [ "dDlst_window_c", "classdDlst__window__c.html", null ],
     [ "dDoor_stop2_c", "structdDoor__stop2__c.html", null ],
     [ "dDoor_stop_c", "structdDoor__stop__c.html", null ],
+    [ "dDrawPath_c::floor_class", "structdDrawPath__c_1_1floor__class.html", null ],
+    [ "dDrawPath_c::group_class", "structdDrawPath__c_1_1group__class.html", null ],
+    [ "dDrawPath_c::line_class", "structdDrawPath__c_1_1line__class.html", null ],
+    [ "dDrawPath_c::poly_class", "structdDrawPath__c_1_1poly__class.html", null ],
+    [ "dDrawPath_c::room_class", "structdDrawPath__c_1_1room__class.html", null ],
     [ "dDvdErrorMsg_c", "structdDvdErrorMsg__c.html", null ],
     [ "decform", "structdecform.html", null ],
     [ "decimal", "structdecimal.html", null ],
@@ -1503,6 +1505,12 @@ var hierarchy =
     [ "dEvDtEvent_c", "classdEvDtEvent__c.html", null ],
     [ "dEvDtFlag_c", "classdEvDtFlag__c.html", null ],
     [ "dEvDtStaff_c", "classdEvDtStaff__c.html", null ],
+    [ "dEvDtStaff_c::DirectorData", "structdEvDtStaff__c_1_1DirectorData.html", null ],
+    [ "dEvDtStaff_c::EffectData", "structdEvDtStaff__c_1_1EffectData.html", null ],
+    [ "dEvDtStaff_c::MessageData", "structdEvDtStaff__c_1_1MessageData.html", null ],
+    [ "dEvDtStaff_c::SoundData", "structdEvDtStaff__c_1_1SoundData.html", null ],
+    [ "dEvDtStaff_c::StaffWork", "structdEvDtStaff__c_1_1StaffWork.html", null ],
+    [ "dEvDtStaff_c::TimerKeeperData", "structdEvDtStaff__c_1_1TimerKeeperData.html", null ],
     [ "dEvent_exception_c", "classdEvent__exception__c.html", null ],
     [ "dEvent_manager_c", "classdEvent__manager__c.html", null ],
     [ "dEvLib_callback_c", "classdEvLib__callback__c.html", [
@@ -1529,7 +1537,6 @@ var hierarchy =
     [ "dGrass_data_c", "classdGrass__data__c.html", null ],
     [ "dGrass_room_c", "classdGrass__room__c.html", null ],
     [ "diff_model_c", "classdiff__model__c.html", null ],
-    [ "dEvDtStaff_c::DirectorData", "structdEvDtStaff__c_1_1DirectorData.html", null ],
     [ "dist_entry", "structdist__entry.html", null ],
     [ "dItem_data", "structdItem__data.html", null ],
     [ "dItem_fieldItemResource", "structdItem__fieldItemResource.html", null ],
@@ -1585,7 +1592,10 @@ var hierarchy =
     [ "dMenuFmapIconDisp_c", "structdMenuFmapIconDisp__c.html", null ],
     [ "dMenuFmapIconPointer_c", "structdMenuFmapIconPointer__c.html", null ],
     [ "dMenuMapCommon_c", "structdMenuMapCommon__c.html", null ],
+    [ "dMenuMapCommon_c::data", "structdMenuMapCommon__c_1_1data.html", null ],
+    [ "dMeter2Draw_c::item_params", "structdMeter2Draw__c_1_1item__params.html", null ],
     [ "dMeter2Info_c", "structdMeter2Info__c.html", null ],
+    [ "dMeter2Info_c::WarpInfo_c", "classdMeter2Info__c_1_1WarpInfo__c.html", null ],
     [ "dMeter_cursorHIO_c", "classdMeter__cursorHIO__c.html", null ],
     [ "dMeter_drawCalibrationHIO_c", "classdMeter__drawCalibrationHIO__c.html", null ],
     [ "dMeter_drawCollectHIO_c", "classdMeter__drawCollectHIO__c.html", null ],
@@ -1599,14 +1609,18 @@ var hierarchy =
     [ "dMeter_drawOptionHIO_c", "classdMeter__drawOptionHIO__c.html", null ],
     [ "dMeter_drawSkillHIO_c", "classdMeter__drawSkillHIO__c.html", null ],
     [ "dMeter_fmapHIO_c", "classdMeter__fmapHIO__c.html", null ],
+    [ "dMeter_fmapHIO_c::BlinkAnime", "structdMeter__fmapHIO__c_1_1BlinkAnime.html", null ],
+    [ "dMeter_fmapHIO_c::MapBlinkAnime", "structdMeter__fmapHIO__c_1_1MapBlinkAnime.html", null ],
     [ "dMeter_mapIconHIO_c", "classdMeter__mapIconHIO__c.html", null ],
     [ "dMeter_menuHIO_c", "classdMeter__menuHIO__c.html", null ],
     [ "dMeter_ringHIO_c", "classdMeter__ringHIO__c.html", null ],
+    [ "dMeterHakusha_c::hakusha_data", "structdMeterHakusha__c_1_1hakusha__data.html", null ],
     [ "dMf_HIO_c", "structdMf__HIO__c.html", null ],
     [ "dMfm_HIO_prm_res_src_s", "structdMfm__HIO__prm__res__src__s.html", null ],
     [ "dmg_rod_HIO_c", "structdmg__rod__HIO__c.html", null ],
     [ "dMpath_c", "structdMpath__c.html", null ],
     [ "dMpath_n", "structdMpath__n.html", null ],
+    [ "dMpath_n::dTexObjAggregate_c", "classdMpath__n_1_1dTexObjAggregate__c.html", null ],
     [ "dMpath_RGB5A3_palDt_s", "structdMpath__RGB5A3__palDt__s.html", null ],
     [ "dMpath_RGB5A3_s", "structdMpath__RGB5A3__s.html", null ],
     [ "dMs_HIO_c", "classdMs__HIO__c.html", null ],
@@ -1633,6 +1647,9 @@ var hierarchy =
     [ "door_param2_c", "classdoor__param2__c.html", null ],
     [ "DOUBLE_POS", "structDOUBLE__POS.html", null ],
     [ "dPa_control_c", "classdPa__control__c.html", null ],
+    [ "dPa_control_c::level_c", "classdPa__control__c_1_1level__c.html", null ],
+    [ "dPa_control_c::level_c::emitter_c", "classdPa__control__c_1_1level__c_1_1emitter__c.html", null ],
+    [ "dPa_modelEcallBack::model_c", "structdPa__modelEcallBack_1_1model__c.html", null ],
     [ "dPa_name", "structdPa__name.html", null ],
     [ "dPa_simpleData_c", "classdPa__simpleData__c.html", null ],
     [ "dPa_YkgrPcallBack", "structdPa__YkgrPcallBack.html", null ],
@@ -1687,6 +1704,10 @@ var hierarchy =
     [ "dStage_nodeHeader", "structdStage__nodeHeader.html", null ],
     [ "dStage_objectNameInf", "structdStage__objectNameInf.html", null ],
     [ "dStage_roomControl_c", "structdStage__roomControl__c.html", null ],
+    [ "dStage_roomControl_c::bankData", "structdStage__roomControl__c_1_1bankData.html", null ],
+    [ "dStage_roomControl_c::bankDataEntry", "structdStage__roomControl__c_1_1bankDataEntry.html", null ],
+    [ "dStage_roomControl_c::nameData", "structdStage__roomControl__c_1_1nameData.html", null ],
+    [ "dStage_roomControl_c::roomDzs_c", "classdStage__roomControl__c_1_1roomDzs__c.html", null ],
     [ "dStage_roomStatus_c", "classdStage__roomStatus__c.html", null ],
     [ "dStage_SoundInfo_c", "structdStage__SoundInfo__c.html", null ],
     [ "dStage_startStage_c", "classdStage__startStage__c.html", [
@@ -1743,9 +1764,13 @@ var hierarchy =
     [ "dSvBit_childTransformHIO_c", "classdSvBit__childTransformHIO__c.html", null ],
     [ "dSvBit_childTreasureHIO_c", "classdSvBit__childTreasureHIO__c.html", null ],
     [ "dSvBit_HIO_c", "classdSvBit__HIO__c.html", null ],
-    [ "dMpath_n::dTexObjAggregate_c", "classdMpath__n_1_1dTexObjAggregate__c.html", null ],
     [ "dThunder_modelInfo_c", "classdThunder__modelInfo__c.html", null ],
     [ "dTres_c", "structdTres__c.html", null ],
+    [ "dTres_c::data_s", "structdTres__c_1_1data__s.html", [
+      [ "dTres_c::typeGroupData_c", "structdTres__c_1_1typeGroupData__c.html", null ]
+    ] ],
+    [ "dTres_c::list_class", "structdTres__c_1_1list__class.html", null ],
+    [ "dTres_c::type_group_list", "structdTres__c_1_1type__group__list.html", null ],
     [ "DUNGEON_LIGHT", "structDUNGEON__LIGHT.html", null ],
     [ "DVDBB1", "structDVDBB1.html", null ],
     [ "DVDBB2", "structDVDBB2.html", null ],
@@ -1822,14 +1847,10 @@ var hierarchy =
     [ "EF_MUD_EFF", "structEF__MUD__EFF.html", null ],
     [ "EF_ODOUR_EFF", "structEF__ODOUR__EFF.html", null ],
     [ "EF_THUNDER", "structEF__THUNDER.html", null ],
-    [ "dEvDtStaff_c::EffectData", "structdEvDtStaff__c_1_1EffectData.html", null ],
-    [ "JASOscillator::EffectParams", "structJASOscillator_1_1EffectParams.html", null ],
     [ "EFLIGHT_PROC", "structEFLIGHT__PROC.html", null ],
-    [ "dPa_control_c::level_c::emitter_c", "classdPa__control__c_1_1level__c_1_1emitter__c.html", null ],
     [ "EnemyInfo", "structEnemyInfo.html", null ],
     [ "EnemyTable", "structEnemyTable.html", null ],
     [ "EnemyTableList", "structEnemyTableList.html", null ],
-    [ "ResNTAB::Entry", "structResNTAB_1_1Entry.html", null ],
     [ "ep_class", "structep__class.html", null ],
     [ "ep_hahen_s", "structep__hahen__s.html", null ],
     [ "event_binary_data_header", "structevent__binary__data__header.html", null ],
@@ -1842,7 +1863,6 @@ var hierarchy =
     [ "field_data", "structfield__data.html", null ],
     [ "field_data_header", "structfield__data__header.html", null ],
     [ "FindShtrCbPrms", "structFindShtrCbPrms.html", null ],
-    [ "daAlink_c::firePointEff_c", "classdaAlink__c_1_1firePointEff__c.html", null ],
     [ "fish_data_s", "structfish__data__s.html", null ],
     [ "fish_pos", "structfish__pos.html", null ],
     [ "FixBlock", "structFixBlock.html", null ],
@@ -1852,13 +1872,11 @@ var hierarchy =
     [ "FlagCloth_c", "structFlagCloth__c.html", null ],
     [ "FlagJoint_c", "structFlagJoint__c.html", null ],
     [ "Float_PPC", "structFloat__PPC.html", null ],
-    [ "dDrawPath_c::floor_class", "structdDrawPath__c_1_1floor__class.html", null ],
     [ "fmpTresTypeGroupData_c", "classfmpTresTypeGroupData__c.html", null ],
     [ "fmpTresTypeGroupDataList_c", "structfmpTresTypeGroupDataList__c.html", null ],
     [ "fmpTresTypeGroupDataListAll_c", "classfmpTresTypeGroupDataListAll__c.html", null ],
     [ "FmtMember_c", "structFmtMember__c.html", null ],
     [ "FmtMngAttributes", "structFmtMngAttributes.html", null ],
-    [ "Z2Calc::FNoise1f", "structZ2Calc_1_1FNoise1f.html", null ],
     [ "fopAcM_gc_c", "classfopAcM__gc__c.html", null ],
     [ "fOpAcm_HIO_entry_c", "structfOpAcm__HIO__entry__c.html", null ],
     [ "fopAcM_lc_c", "classfopAcM__lc__c.html", null ],
@@ -1882,35 +1900,22 @@ var hierarchy =
     [ "fs_weed_s", "structfs__weed__s.html", null ],
     [ "FSTEntry", "structFSTEntry.html", null ],
     [ "FuncTable", "structFuncTable.html", null ],
-    [ "JASDsp::FxBuf", "structJASDsp_1_1FxBuf.html", null ],
-    [ "JASDsp::FxlineConfig_", "structJASDsp_1_1FxlineConfig__.html", null ],
     [ "g_himo_s", "structg__himo__s.html", null ],
     [ "ga_s", "structga__s.html", null ],
     [ "GB_MAPLE_COL_CHANGE", "structGB__MAPLE__COL__CHANGE.html", null ],
     [ "GB_WIND_INFLUENCE", "structGB__WIND__INFLUENCE.html", null ],
     [ "GDLObj", "structGDLObj.html", null ],
-    [ "dDlst_TimerScrnDraw_c::getin_info", "structdDlst__TimerScrnDraw__c_1_1getin__info.html", null ],
     [ "GLOBAL_MEMORY", "structGLOBAL__MEMORY.html", null ],
-    [ "ResFONT::GLY1", "structResFONT_1_1GLY1.html", null ],
-    [ "dDrawPath_c::group_class", "structdDrawPath__c_1_1group__class.html", null ],
     [ "Hahen_c", "structHahen__c.html", null ],
-    [ "dMeterHakusha_c::hakusha_data", "structdMeterHakusha__c_1_1hakusha__data.html", null ],
-    [ "JASAramStream::Header", "structJASAramStream_1_1Header.html", null ],
     [ "heap_header", "structheap__header.html", null ],
     [ "HeapCheck", "classHeapCheck.html", null ],
     [ "himo_s", "structhimo__s.html", null ],
     [ "home_path_pnt", "structhome__path__pnt.html", null ],
     [ "HOUSI_EFF", "structHOUSI__EFF.html", null ],
-    [ "ResFONT::INF1", "structResFONT_1_1INF1.html", null ],
     [ "inf1_entry_t", "structinf1__entry__t.html", null ],
     [ "inf1_section_t", "structinf1__section__t.html", null ],
     [ "interface_of_controller_pad", "structinterface__of__controller__pad.html", null ],
-    [ "JASThreadingModel::InterruptsDisable< A0 >", "structJASThreadingModel_1_1InterruptsDisable.html", null ],
-    [ "dMeter2Draw_c::item_params", "structdMeter2Draw__c_1_1item__params.html", null ],
     [ "ItemTableList", "structItemTableList.html", null ],
-    [ "JGadget::TLinkList< T, I >::iterator", "structJGadget_1_1TLinkList_1_1iterator.html", null ],
-    [ "JGadget::TLinkList__template1::iterator", "structJGadget_1_1TLinkList____template1_1_1iterator.html", null ],
-    [ "JGadget::TNodeLinkList::iterator", "structJGadget_1_1TNodeLinkList_1_1iterator.html", null ],
     [ "ito_s", "structito__s.html", null ],
     [ "J2DAlphaComp", "structJ2DAlphaComp.html", null ],
     [ "J2DAlphaCompInfo", "structJ2DAlphaCompInfo.html", null ],
@@ -1950,6 +1955,7 @@ var hierarchy =
     [ "J2DGrafContext", "structJ2DGrafContext.html", [
       [ "J2DOrthoGraph", "structJ2DOrthoGraph.html", null ]
     ] ],
+    [ "J2DGrafContext::Blend", "structJ2DGrafContext_1_1Blend.html", null ],
     [ "J2DIndBlock", "classJ2DIndBlock.html", [
       [ "J2DIndBlockFull", "classJ2DIndBlockFull.html", null ],
       [ "J2DIndBlockNull", "classJ2DIndBlockNull.html", null ]
@@ -1985,6 +1991,7 @@ var hierarchy =
     [ "J2DPEBlock", "classJ2DPEBlock.html", null ],
     [ "J2DPicHeader", "structJ2DPicHeader.html", null ],
     [ "J2DPrint", "classJ2DPrint.html", null ],
+    [ "J2DPrint::TSize", "structJ2DPrint_1_1TSize.html", null ],
     [ "J2DResReference", "structJ2DResReference.html", null ],
     [ "J2DRotateAxis", "structJ2DRotateAxis.html", null ],
     [ "J2DScrnBlockHeader", "structJ2DScrnBlockHeader.html", null ],
@@ -2011,8 +2018,11 @@ var hierarchy =
     [ "J2DTexGenBlock", "classJ2DTexGenBlock.html", null ],
     [ "J2DTexMtx", "classJ2DTexMtx.html", null ],
     [ "J2DTexMtxInfo", "structJ2DTexMtxInfo.html", null ],
+    [ "J2DTextBox::TFontSize", "structJ2DTextBox_1_1TFontSize.html", null ],
     [ "J2DTextBoxInfo", "structJ2DTextBoxInfo.html", null ],
     [ "J2DTextureSRTInfo", "structJ2DTextureSRTInfo.html", null ],
+    [ "J2DWindow::TContentsColor", "structJ2DWindow_1_1TContentsColor.html", null ],
+    [ "J2DWindow::TMaterial", "structJ2DWindow_1_1TMaterial.html", null ],
     [ "J2DWindowData", "structJ2DWindowData.html", null ],
     [ "J2DWindowExDef", "structJ2DWindowExDef.html", null ],
     [ "J3DAlphaComp", "structJ3DAlphaComp.html", null ],
@@ -2144,6 +2154,7 @@ var hierarchy =
       [ "daNpcT_MatAnm_c", "classdaNpcT__MatAnm__c.html", null ]
     ] ],
     [ "J3DMaterialFactory", "structJ3DMaterialFactory.html", null ],
+    [ "J3DMaterialFactory::MaterialType", "structJ3DMaterialFactory_1_1MaterialType.html", null ],
     [ "J3DMaterialFactory_v21", "classJ3DMaterialFactory__v21.html", null ],
     [ "J3DMaterialInitData", "structJ3DMaterialInitData.html", null ],
     [ "J3DMaterialInitData_v21", "structJ3DMaterialInitData__v21.html", null ],
@@ -2309,8 +2320,10 @@ var hierarchy =
     [ "JAIAudience", "structJAIAudience.html", [
       [ "Z2Audience", "structZ2Audience.html", null ]
     ] ],
+    [ "JAISe::TInner", "classJAISe_1_1TInner.html", null ],
     [ "JAISeCategoryArrangement", "structJAISeCategoryArrangement.html", null ],
     [ "JAISeCategoryArrangementItem", "structJAISeCategoryArrangementItem.html", null ],
+    [ "JAISeq::TInner", "classJAISeq_1_1TInner.html", null ],
     [ "JAISeqData", "structJAISeqData.html", null ],
     [ "JAISeqDataMgr", "structJAISeqDataMgr.html", [
       [ "JAUSeqDataMgr_SeqCollection", "classJAUSeqDataMgr__SeqCollection.html", null ]
@@ -2340,6 +2353,7 @@ var hierarchy =
     [ "JAISoundParamsMove", "structJAISoundParamsMove.html", null ],
     [ "JAISoundParamsProperty", "structJAISoundParamsProperty.html", null ],
     [ "JAISoundParamsTransition", "structJAISoundParamsTransition.html", null ],
+    [ "JAISoundParamsTransition::TTransition", "structJAISoundParamsTransition_1_1TTransition.html", null ],
     [ "JAISoundStatus_", "structJAISoundStatus__.html", null ],
     [ "JAISoundStrategyMgr< A0 >", "structJAISoundStrategyMgr.html", null ],
     [ "JAISoundStrategyMgr< JAISe >", "structJAISoundStrategyMgr.html", null ],
@@ -2352,6 +2366,7 @@ var hierarchy =
     [ "JAISoundStrategyMgr__unknown< JAISe >", "structJAISoundStrategyMgr____unknown.html", null ],
     [ "JAISoundStrategyMgr__unknown< JAISeq >", "structJAISoundStrategyMgr____unknown.html", null ],
     [ "JAISoundStrategyMgr__unknown< JAIStream >", "structJAISoundStrategyMgr____unknown.html", null ],
+    [ "JAIStream::TInner", "structJAIStream_1_1TInner.html", null ],
     [ "JAIStreamAramMgr", "structJAIStreamAramMgr.html", [
       [ "JAUStreamAramMgrBase_< MAX_CHUNKS_ >", "classJAUStreamAramMgrBase__.html", [
         [ "JAUStreamStaticAramMgr_< MAX_CHUNKS_ >", "classJAUStreamStaticAramMgr__.html", null ]
@@ -2364,6 +2379,9 @@ var hierarchy =
     ] ],
     [ "JAITempoMgr", "classJAITempoMgr.html", null ],
     [ "JASAramStream", "classJASAramStream.html", null ],
+    [ "JASAramStream::BlockHeader", "structJASAramStream_1_1BlockHeader.html", null ],
+    [ "JASAramStream::Header", "structJASAramStream_1_1Header.html", null ],
+    [ "JASAramStream::TaskData", "structJASAramStream_1_1TaskData.html", null ],
     [ "JASAudioReseter", "structJASAudioReseter.html", null ],
     [ "JASBank", "structJASBank.html", [
       [ "JASVoiceBank", "classJASVoiceBank.html", null ]
@@ -2376,14 +2394,26 @@ var hierarchy =
     ] ],
     [ "JASBankTable__template0", "structJASBankTable____template0.html", null ],
     [ "JASBasicBank", "structJASBasicBank.html", null ],
+    [ "JASBasicInst::TKeymap", "structJASBasicInst_1_1TKeymap.html", null ],
+    [ "JASBasicWaveBank::TGroupWaveInfo", "structJASBasicWaveBank_1_1TGroupWaveInfo.html", null ],
+    [ "JASBasicWaveBank::TWaveGroup", "structJASBasicWaveBank_1_1TWaveGroup.html", null ],
+    [ "JASBNKParser::Ver0::THeader", "structJASBNKParser_1_1Ver0_1_1THeader.html", null ],
+    [ "JASBNKParser::Ver0::TOsc", "structJASBNKParser_1_1Ver0_1_1TOsc.html", null ],
     [ "JASCalc", "structJASCalc.html", null ],
     [ "JASCallbackMgr", "structJASCallbackMgr.html", null ],
+    [ "JASCallbackMgr::TCallback", "structJASCallbackMgr_1_1TCallback.html", null ],
+    [ "JASChannel::MixConfig", "unionJASChannel_1_1MixConfig.html", null ],
+    [ "JASChannel::PanVector", "structJASChannel_1_1PanVector.html", null ],
     [ "JASChannelParams", "classJASChannelParams.html", null ],
     [ "JASCriticalSection", "classJASCriticalSection.html", null ],
     [ "JASDisposer", "structJASDisposer.html", [
       [ "JASWaveArc", "structJASWaveArc.html", null ]
     ] ],
+    [ "JASDrumSet::TPerc", "structJASDrumSet_1_1TPerc.html", null ],
     [ "JASDsp", "structJASDsp.html", null ],
+    [ "JASDsp::FxBuf", "structJASDsp_1_1FxBuf.html", null ],
+    [ "JASDsp::FxlineConfig_", "structJASDsp_1_1FxlineConfig__.html", null ],
+    [ "JASDsp::TChannel", "structJASDsp_1_1TChannel.html", null ],
     [ "JASDSPChannel", "structJASDSPChannel.html", null ],
     [ "JASDvd", "classJASDvd.html", null ],
     [ "JASGenericMemPool", "structJASGenericMemPool.html", [
@@ -2493,6 +2523,7 @@ var hierarchy =
     ] ],
     [ "JASLfo", "structJASLfo.html", null ],
     [ "JASMemChunkPool< ChunkSize, T >", "classJASMemChunkPool.html", null ],
+    [ "JASMemChunkPool< ChunkSize, T >::MemoryChunk", "structJASMemChunkPool_1_1MemoryChunk.html", null ],
     [ "JASMemPool_MultiThreaded__template0", "structJASMemPool__MultiThreaded____template0.html", null ],
     [ "JASMemPool_MultiThreaded__template1", "structJASMemPool__MultiThreaded____template1.html", null ],
     [ "JASMemPool_MultiThreaded__template2", "structJASMemPool__MultiThreaded____template2.html", null ],
@@ -2500,6 +2531,9 @@ var hierarchy =
     [ "JASMutexLock", "structJASMutexLock.html", null ],
     [ "JASNonCopyable", "structJASNonCopyable.html", null ],
     [ "JASOscillator", "structJASOscillator.html", null ],
+    [ "JASOscillator::Data", "structJASOscillator_1_1Data.html", null ],
+    [ "JASOscillator::EffectParams", "structJASOscillator_1_1EffectParams.html", null ],
+    [ "JASOscillator::Point", "structJASOscillator_1_1Point.html", null ],
     [ "JASPoolAllocObject< T >", "classJASPoolAllocObject.html", null ],
     [ "JASPoolAllocObject< JAISeq >", "classJASPoolAllocObject.html", [
       [ "JAISeq", "classJAISeq.html", null ]
@@ -2534,13 +2568,21 @@ var hierarchy =
     [ "JASRegisterParam", "classJASRegisterParam.html", null ],
     [ "JASSeqCtrl", "classJASSeqCtrl.html", null ],
     [ "JASSeqParser", "classJASSeqParser.html", null ],
+    [ "JASSeqParser::CmdInfo", "structJASSeqParser_1_1CmdInfo.html", null ],
     [ "JASSeqReader", "classJASSeqReader.html", null ],
     [ "JASSimpleWaveBank", "structJASSimpleWaveBank.html", null ],
+    [ "JASSimpleWaveBank::TWaveHandle", "structJASSimpleWaveBank_1_1TWaveHandle.html", null ],
     [ "JASSoundParams", "structJASSoundParams.html", [
       [ "JASInstParam", "structJASInstParam.html", null ]
     ] ],
     [ "JASTaskThread::JASThreadCallStack", "structJASTaskThread_1_1JASThreadCallStack.html", null ],
+    [ "JASThreadingModel::InterruptsDisable< A0 >", "structJASThreadingModel_1_1InterruptsDisable.html", null ],
+    [ "JASThreadingModel::InterruptsDisable< A0 >::Lock", "structJASThreadingModel_1_1InterruptsDisable_1_1Lock.html", null ],
+    [ "JASThreadingModel::ObjectLevelLockable", "structJASThreadingModel_1_1ObjectLevelLockable.html", null ],
+    [ "JASThreadingModel::ObjectLevelLockable::Lock", "structJASThreadingModel_1_1ObjectLevelLockable_1_1Lock.html", null ],
+    [ "JASTrack::MoveParam_", "structJASTrack_1_1MoveParam__.html", null ],
     [ "JASTrackPort", "classJASTrackPort.html", null ],
+    [ "JASWaveArc::loadToAramCallbackParams", "structJASWaveArc_1_1loadToAramCallbackParams.html", null ],
     [ "JASWaveArcLoader", "structJASWaveArcLoader.html", null ],
     [ "JASWaveBank", "classJASWaveBank.html", [
       [ "JASBasicWaveBank", "structJASBasicWaveBank.html", null ]
@@ -2550,6 +2592,15 @@ var hierarchy =
     ] ],
     [ "JASWaveInfo", "structJASWaveInfo.html", null ],
     [ "JASWSParser", "structJASWSParser.html", null ],
+    [ "JASWSParser::TCtrl", "structJASWSParser_1_1TCtrl.html", null ],
+    [ "JASWSParser::TCtrlGroup", "structJASWSParser_1_1TCtrlGroup.html", null ],
+    [ "JASWSParser::TCtrlScene", "structJASWSParser_1_1TCtrlScene.html", null ],
+    [ "JASWSParser::TCtrlWave", "structJASWSParser_1_1TCtrlWave.html", null ],
+    [ "JASWSParser::THeader", "structJASWSParser_1_1THeader.html", null ],
+    [ "JASWSParser::TOffset< T >", "classJASWSParser_1_1TOffset.html", null ],
+    [ "JASWSParser::TWave", "structJASWSParser_1_1TWave.html", null ],
+    [ "JASWSParser::TWaveArchive", "structJASWSParser_1_1TWaveArchive.html", null ],
+    [ "JASWSParser::TWaveArchiveBank", "structJASWSParser_1_1TWaveArchiveBank.html", null ],
     [ "JAU_JAIInitializer", "classJAU__JAIInitializer.html", null ],
     [ "JAU_JASInitializer", "classJAU__JASInitializer.html", null ],
     [ "JAUAudibleParam", "structJAUAudibleParam.html", null ],
@@ -2563,7 +2614,9 @@ var hierarchy =
     ] ],
     [ "JAUDynamicSeqDataBlocks", "classJAUDynamicSeqDataBlocks.html", null ],
     [ "JAUSection", "classJAUSection.html", null ],
+    [ "JAUSection::TSectionData", "structJAUSection_1_1TSectionData.html", null ],
     [ "JAUSectionHeap", "classJAUSectionHeap.html", null ],
+    [ "JAUSectionHeap::TSectionHeapData", "structJAUSectionHeap_1_1TSectionHeapData.html", null ],
     [ "JAUSeqCollection", "classJAUSeqCollection.html", [
       [ "JAUSeqDataMgr_SeqCollection", "classJAUSeqDataMgr__SeqCollection.html", null ]
     ] ],
@@ -2583,17 +2636,104 @@ var hierarchy =
     [ "JAUSoundTableRoot", "structJAUSoundTableRoot.html", null ],
     [ "JAUSoundTableSection", "structJAUSoundTableSection.html", null ],
     [ "JAUStdSoundTableType", "structJAUStdSoundTableType.html", null ],
+    [ "JAUStdSoundTableType::StringOffset", "structJAUStdSoundTableType_1_1StringOffset.html", null ],
     [ "JAUStreamFileTable", "structJAUStreamFileTable.html", [
       [ "JAUStreamDataMgr_StreamFileTable", "structJAUStreamDataMgr__StreamFileTable.html", null ]
     ] ],
     [ "JFWDisplay", "classJFWDisplay.html", null ],
     [ "JFWSystem", "structJFWSystem.html", null ],
+    [ "JFWSystem::CSetUpParam", "structJFWSystem_1_1CSetUpParam.html", null ],
+    [ "JGadget::binary::TEBit", "structJGadget_1_1binary_1_1TEBit.html", null ],
+    [ "JGadget::binary::TParse_header_block", "structJGadget_1_1binary_1_1TParse__header__block.html", [
+      [ "JMessage::TParse", "structJMessage_1_1TParse.html", null ],
+      [ "JStudio::ctb::TParse", "structJStudio_1_1ctb_1_1TParse.html", null ]
+    ] ],
+    [ "JGadget::binary::TParseData", "structJGadget_1_1binary_1_1TParseData.html", [
+      [ "JGadget::binary::TParseData_aligned< 4 >", "structJGadget_1_1binary_1_1TParseData__aligned.html", [
+        [ "JMessage::data::TParse_TBlock", "structJMessage_1_1data_1_1TParse__TBlock.html", [
+          [ "JMessage::data::TParse_TBlock_color", "structJMessage_1_1data_1_1TParse__TBlock__color.html", null ],
+          [ "JMessage::data::TParse_TBlock_info", "structJMessage_1_1data_1_1TParse__TBlock__info.html", null ],
+          [ "JMessage::data::TParse_TBlock_messageID", "structJMessage_1_1data_1_1TParse__TBlock__messageID.html", null ]
+        ] ],
+        [ "JMessage::data::TParse_THeader", "structJMessage_1_1data_1_1TParse__THeader.html", null ],
+        [ "JStudio::ctb::data::TParse_TBlock", "structJStudio_1_1ctb_1_1data_1_1TParse__TBlock.html", null ],
+        [ "JStudio::ctb::data::TParse_THeader", "structJStudio_1_1ctb_1_1data_1_1TParse__THeader.html", null ],
+        [ "JStudio::fvb::data::TParse_TBlock", "classJStudio_1_1fvb_1_1data_1_1TParse__TBlock.html", null ],
+        [ "JStudio::fvb::data::TParse_THeader", "classJStudio_1_1fvb_1_1data_1_1TParse__THeader.html", null ],
+        [ "JStudio::fvb::data::TParse_TParagraph", "classJStudio_1_1fvb_1_1data_1_1TParse__TParagraph.html", null ],
+        [ "JStudio::stb::data::TParse_TBlock", "classJStudio_1_1stb_1_1data_1_1TParse__TBlock.html", [
+          [ "JStudio::stb::data::TParse_TBlock_object", "classJStudio_1_1stb_1_1data_1_1TParse__TBlock__object.html", null ]
+        ] ],
+        [ "JStudio::stb::data::TParse_THeader", "classJStudio_1_1stb_1_1data_1_1TParse__THeader.html", null ],
+        [ "JStudio::stb::data::TParse_TParagraph", "classJStudio_1_1stb_1_1data_1_1TParse__TParagraph.html", null ],
+        [ "JStudio::stb::data::TParse_TParagraph_data", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph__data.html", null ],
+        [ "JStudio::stb::data::TParse_TParagraph_dataID", "classJStudio_1_1stb_1_1data_1_1TParse__TParagraph__dataID.html", null ],
+        [ "JStudio::stb::data::TParse_TSequence", "classJStudio_1_1stb_1_1data_1_1TParse__TSequence.html", null ]
+      ] ],
+      [ "JGadget::binary::TParseData_aligned< T >", "structJGadget_1_1binary_1_1TParseData__aligned.html", null ]
+    ] ],
+    [ "JGadget::binary::TParseValue_raw_< T >", "structJGadget_1_1binary_1_1TParseValue__raw__.html", [
+      [ "JGadget::binary::TParseValue_endian_big_< T >", "structJGadget_1_1binary_1_1TParseValue__endian__big__.html", null ]
+    ] ],
+    [ "JGadget::TAllocator< T >", "structJGadget_1_1TAllocator.html", null ],
+    [ "JGadget::TAllocator__template0", "structJGadget_1_1TAllocator____template0.html", null ],
+    [ "JGadget::TEnumerator< T >", "structJGadget_1_1TEnumerator.html", null ],
+    [ "JGadget::TEnumerator2< Iterator, T >", "structJGadget_1_1TEnumerator2.html", null ],
+    [ "JGadget::TLinkList< T, I >::const_iterator", "structJGadget_1_1TLinkList_1_1const__iterator.html", null ],
+    [ "JGadget::TLinkList< T, I >::iterator", "structJGadget_1_1TLinkList_1_1iterator.html", null ],
+    [ "JGadget::TLinkList__template1", "structJGadget_1_1TLinkList____template1.html", null ],
+    [ "JGadget::TLinkList__template1::iterator", "structJGadget_1_1TLinkList____template1_1_1iterator.html", null ],
+    [ "JGadget::TLinkListNode", "structJGadget_1_1TLinkListNode.html", null ],
+    [ "JGadget::TNodeLinkList", "structJGadget_1_1TNodeLinkList.html", [
+      [ "JGadget::TLinkList< JASTrack, -0x240 >", "structJGadget_1_1TLinkList.html", [
+        [ "JASTrack::TList", "structJASTrack_1_1TList.html", null ]
+      ] ],
+      [ "JGadget::TLinkList< TResource, I >", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< JStudio::TCreateObject, -4 >", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< JStudio::ctb::TObject, -12 >", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< JStudio::fvb::TObject, 12 >", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< JStudio::stb::TObject, -12 >", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< JUTConsole, -offsetof(JUTConsole, mListNode)>", "structJGadget_1_1TLinkList.html", null ],
+      [ "JGadget::TLinkList< T, I >", "structJGadget_1_1TLinkList.html", [
+        [ "JGadget::TLinkList_factory< TResource, 0 >", "structJGadget_1_1TLinkList__factory.html", [
+          [ "JMessage::TResourceContainer::TCResource", "structJMessage_1_1TResourceContainer_1_1TCResource.html", null ]
+        ] ],
+        [ "JGadget::TLinkList_factory< T, I >", "structJGadget_1_1TLinkList__factory.html", null ]
+      ] ]
+    ] ],
+    [ "JGadget::TNodeLinkList::const_iterator", "structJGadget_1_1TNodeLinkList_1_1const__iterator.html", null ],
+    [ "JGadget::TNodeLinkList::iterator", "structJGadget_1_1TNodeLinkList_1_1iterator.html", null ],
+    [ "JGadget::TVector< T, Allocator >", "structJGadget_1_1TVector.html", null ],
+    [ "JGadget::TVector< T, Allocator >::TDestructed_deallocate_", "structJGadget_1_1TVector_1_1TDestructed__deallocate__.html", null ],
+    [ "JGadget::TVector__template0", "structJGadget_1_1TVector____template0.html", null ],
+    [ "JGadget::TVector_pointer__template0", "structJGadget_1_1TVector__pointer____template0.html", null ],
+    [ "JGadget::vector", "structJGadget_1_1vector.html", null ],
     [ "JGeometry", "structJGeometry.html", null ],
+    [ "JGeometry::SMatrix33C< T >", "structJGeometry_1_1SMatrix33C.html", null ],
+    [ "JGeometry::SMatrix34C< T >", "structJGeometry_1_1SMatrix34C.html", null ],
+    [ "JGeometry::SMatrix34C< f32 >", "structJGeometry_1_1SMatrix34C_3_01f32_01_4.html", null ],
+    [ "JGeometry::TBox< T >", "structJGeometry_1_1TBox.html", null ],
+    [ "JGeometry::TBox2__template0", "structJGeometry_1_1TBox2____template0.html", null ],
+    [ "JGeometry::TBox< TVec2< f32 > >", "structJGeometry_1_1TBox_3_01TVec2_3_01f32_01_4_01_4.html", null ],
+    [ "JGeometry::TUtil< T >", "structJGeometry_1_1TUtil.html", null ],
+    [ "JGeometry::TUtil< double >", "structJGeometry_1_1TUtil_3_01double_01_4.html", null ],
+    [ "JGeometry::TUtil< f32 >", "structJGeometry_1_1TUtil_3_01f32_01_4.html", null ],
+    [ "JGeometry::TVec2< T >", "structJGeometry_1_1TVec2.html", null ],
+    [ "JGeometry::TVec3< T >", "structJGeometry_1_1TVec3.html", null ],
+    [ "JGeometry::TVec3< double >", "structJGeometry_1_1TVec3_3_01double_01_4.html", null ],
+    [ "JGeometry::TVec3< f32 >", "structJGeometry_1_1TVec3_3_01f32_01_4.html", null ],
+    [ "JGeometry::TVec3< s16 >", "structJGeometry_1_1TVec3_3_01s16_01_4.html", null ],
+    [ "JGeometry::TVec3__template0", "structJGeometry_1_1TVec3____template0.html", null ],
     [ "JKRADCommand", "classJKRADCommand.html", null ],
     [ "JKRAMCommand", "classJKRAMCommand.html", null ],
     [ "JKRAramBlock", "classJKRAramBlock.html", null ],
     [ "JKRAramPiece", "classJKRAramPiece.html", null ],
+    [ "JKRAramPiece::Message", "structJKRAramPiece_1_1Message.html", null ],
     [ "JKRAramStreamCommand", "classJKRAramStreamCommand.html", null ],
+    [ "JKRArchive::CArcName", "classJKRArchive_1_1CArcName.html", null ],
+    [ "JKRArchive::SDIDirEntry", "structJKRArchive_1_1SDIDirEntry.html", null ],
+    [ "JKRArchive::SDIFileEntry", "structJKRArchive_1_1SDIFileEntry.html", null ],
+    [ "JKRArchive::SDirEntry", "structJKRArchive_1_1SDirEntry.html", null ],
     [ "JKRDecompCommand", "classJKRDecompCommand.html", null ],
     [ "JKRDisposer", "classJKRDisposer.html", [
       [ "JKRAramHeap", "classJKRAramHeap.html", null ],
@@ -2628,14 +2768,54 @@ var hierarchy =
     [ "JKRDMCommand", "classJKRDMCommand.html", null ],
     [ "JKRDvdAramRipper", "classJKRDvdAramRipper.html", null ],
     [ "JKRDvdRipper", "classJKRDvdRipper.html", null ],
+    [ "JKRExpHeap::CMemBlock", "classJKRExpHeap_1_1CMemBlock.html", null ],
+    [ "JKRFileCache::CCacheBlock", "classJKRFileCache_1_1CCacheBlock.html", null ],
     [ "JKRFileFinder", "classJKRFileFinder.html", [
       [ "JKRArcFinder", "classJKRArcFinder.html", null ],
       [ "JKRDvdFinder", "classJKRDvdFinder.html", null ]
     ] ],
+    [ "JKRHeap::TState", "classJKRHeap_1_1TState.html", null ],
+    [ "JKRSolidHeap::Unknown", "structJKRSolidHeap_1_1Unknown.html", null ],
     [ "JKRTask", "structJKRTask.html", null ],
+    [ "JKRThread::TLoad", "classJKRThread_1_1TLoad.html", null ],
     [ "JKRThreadName_", "structJKRThreadName__.html", null ],
     [ "JKRThreadSwitch", "classJKRThreadSwitch.html", null ],
     [ "JMath", "structJMath.html", null ],
+    [ "JMath::TRandom_fast_", "structJMath_1_1TRandom__fast__.html", null ],
+    [ "JMath::TSinCosTable< A1, B1 >", "structJMath_1_1TSinCosTable.html", null ],
+    [ "JMath::TSinCosTable__template0", "structJMath_1_1TSinCosTable____template0.html", null ],
+    [ "JMessage::data", "structJMessage_1_1data.html", null ],
+    [ "JMessage::locale", "structJMessage_1_1locale.html", null ],
+    [ "JMessage::TControl", "structJMessage_1_1TControl.html", [
+      [ "jmessage_string_tControl", "structjmessage__string__tControl.html", null ],
+      [ "jmessage_tControl", "structjmessage__tControl.html", null ]
+    ] ],
+    [ "JMessage::TProcessor", "structJMessage_1_1TProcessor.html", [
+      [ "JMessage::TRenderingProcessor", "structJMessage_1_1TRenderingProcessor.html", [
+        [ "jmessage_string_tMeasureProcessor", "structjmessage__string__tMeasureProcessor.html", [
+          [ "jmessage_string_tSequenceProcessor", "structjmessage__string__tSequenceProcessor.html", null ]
+        ] ],
+        [ "jmessage_string_tRenderingProcessor", "structjmessage__string__tRenderingProcessor.html", null ],
+        [ "jmessage_tMeasureProcessor", "structjmessage__tMeasureProcessor.html", [
+          [ "jmessage_tSequenceProcessor", "structjmessage__tSequenceProcessor.html", null ]
+        ] ],
+        [ "jmessage_tRenderingProcessor", "structjmessage__tRenderingProcessor.html", null ]
+      ] ],
+      [ "JMessage::TSequenceProcessor", "structJMessage_1_1TSequenceProcessor.html", [
+        [ "jmessage_string_tSequenceProcessor", "structjmessage__string__tSequenceProcessor.html", null ],
+        [ "jmessage_tSequenceProcessor", "structjmessage__tSequenceProcessor.html", null ]
+      ] ]
+    ] ],
+    [ "JMessage::TProcessor::TProcess_", "structJMessage_1_1TProcessor_1_1TProcess__.html", null ],
+    [ "JMessage::TProcessor::TStack_", "structJMessage_1_1TProcessor_1_1TStack__.html", null ],
+    [ "JMessage::TReference", "structJMessage_1_1TReference.html", [
+      [ "jmessage_string_tReference", "structjmessage__string__tReference.html", null ],
+      [ "jmessage_tReference", "structjmessage__tReference.html", null ]
+    ] ],
+    [ "JMessage::TResource", "structJMessage_1_1TResource.html", null ],
+    [ "JMessage::TResource_color", "structJMessage_1_1TResource__color.html", null ],
+    [ "JMessage::TResourceContainer", "structJMessage_1_1TResourceContainer.html", null ],
+    [ "JMessage::TSequenceProcessor::TProcess_", "structJMessage_1_1TSequenceProcessor_1_1TProcess__.html", null ],
     [ "JMSMesgEntry_c", "structJMSMesgEntry__c.html", null ],
     [ "JMSMesgHeader_c", "structJMSMesgHeader__c.html", null ],
     [ "JPABaseEmitter", "classJPABaseEmitter.html", null ],
@@ -2701,7 +2881,159 @@ var hierarchy =
     [ "JPATexture", "structJPATexture.html", null ],
     [ "JPATextureData", "structJPATextureData.html", null ],
     [ "JPTraceParticleCallBack4", "classJPTraceParticleCallBack4.html", null ],
+    [ "JStage::TECameraProjection", "structJStage_1_1TECameraProjection.html", null ],
+    [ "JStage::TECameraView", "structJStage_1_1TECameraView.html", null ],
+    [ "JStage::TObject", "structJStage_1_1TObject.html", [
+      [ "JStage::TActor", "structJStage_1_1TActor.html", [
+        [ "dDemo_actor_c", "classdDemo__actor__c.html", null ]
+      ] ],
+      [ "JStage::TAmbientLight", "structJStage_1_1TAmbientLight.html", [
+        [ "dDemo_ambient_c", "classdDemo__ambient__c.html", null ]
+      ] ],
+      [ "JStage::TCamera", "structJStage_1_1TCamera.html", [
+        [ "dDemo_camera_c", "classdDemo__camera__c.html", null ]
+      ] ],
+      [ "JStage::TFog", "structJStage_1_1TFog.html", [
+        [ "dDemo_fog_c", "classdDemo__fog__c.html", null ]
+      ] ],
+      [ "JStage::TLight", "structJStage_1_1TLight.html", [
+        [ "dDemo_light_c", "classdDemo__light__c.html", null ]
+      ] ],
+      [ "JStage::TSystem", "structJStage_1_1TSystem.html", [
+        [ "dDemo_system_c", "classdDemo__system__c.html", null ]
+      ] ]
+    ] ],
+    [ "JStudio::ctb::data", "structJStudio_1_1ctb_1_1data.html", null ],
+    [ "JStudio::ctb::data::TBlockData", "structJStudio_1_1ctb_1_1data_1_1TBlockData.html", null ],
+    [ "JStudio::ctb::data::THeaderData", "structJStudio_1_1ctb_1_1data_1_1THeaderData.html", null ],
+    [ "JStudio::ctb::TControl", "structJStudio_1_1ctb_1_1TControl.html", null ],
+    [ "JStudio::ctb::TFactory", "structJStudio_1_1ctb_1_1TFactory.html", null ],
+    [ "JStudio::fvb::data::TBlock", "structJStudio_1_1fvb_1_1data_1_1TBlock.html", null ],
+    [ "JStudio::fvb::data::THeader", "structJStudio_1_1fvb_1_1data_1_1THeader.html", null ],
+    [ "JStudio::fvb::data::TParse_TParagraph::TData", "structJStudio_1_1fvb_1_1data_1_1TParse__TParagraph_1_1TData.html", null ],
+    [ "JStudio::fvb::TControl", "classJStudio_1_1fvb_1_1TControl.html", null ],
+    [ "JStudio::fvb::TFactory", "classJStudio_1_1fvb_1_1TFactory.html", null ],
+    [ "JStudio::fvb::TObject_hermite::ListData", "structJStudio_1_1fvb_1_1TObject__hermite_1_1ListData.html", null ],
+    [ "JStudio::fvb::TObject_list::ListData", "structJStudio_1_1fvb_1_1TObject__list_1_1ListData.html", null ],
+    [ "JStudio::fvb::TObject_list_parameter::ListData", "structJStudio_1_1fvb_1_1TObject__list__parameter_1_1ListData.html", null ],
+    [ "JStudio::object::TIDData", "structJStudio_1_1object_1_1TIDData.html", [
+      [ "JStudio::object::TObject_ID", "structJStudio_1_1object_1_1TObject__ID.html", [
+        [ "JStudio::ctb::TObject", "structJStudio_1_1ctb_1_1TObject.html", [
+          [ "JStudio::ctb::TObject_TxyzRy", "structJStudio_1_1ctb_1_1TObject__TxyzRy.html", null ]
+        ] ],
+        [ "JStudio::fvb::TObject", "classJStudio_1_1fvb_1_1TObject.html", [
+          [ "JStudio::fvb::TObject_composite", "classJStudio_1_1fvb_1_1TObject__composite.html", null ],
+          [ "JStudio::fvb::TObject_constant", "classJStudio_1_1fvb_1_1TObject__constant.html", null ],
+          [ "JStudio::fvb::TObject_hermite", "structJStudio_1_1fvb_1_1TObject__hermite.html", null ],
+          [ "JStudio::fvb::TObject_list", "classJStudio_1_1fvb_1_1TObject__list.html", null ],
+          [ "JStudio::fvb::TObject_list_parameter", "classJStudio_1_1fvb_1_1TObject__list__parameter.html", null ],
+          [ "JStudio::fvb::TObject_transition", "classJStudio_1_1fvb_1_1TObject__transition.html", null ]
+        ] ],
+        [ "JStudio::stb::TObject", "classJStudio_1_1stb_1_1TObject.html", [
+          [ "JStudio::TObject", "classJStudio_1_1TObject.html", [
+            [ "JStudio::TObject_actor", "structJStudio_1_1TObject__actor.html", null ],
+            [ "JStudio::TObject_ambientLight", "structJStudio_1_1TObject__ambientLight.html", null ],
+            [ "JStudio::TObject_camera", "structJStudio_1_1TObject__camera.html", null ],
+            [ "JStudio::TObject_fog", "structJStudio_1_1TObject__fog.html", null ],
+            [ "JStudio::TObject_light", "structJStudio_1_1TObject__light.html", null ],
+            [ "JStudio::TObject_message", "structJStudio_1_1TObject__message.html", null ],
+            [ "JStudio::TObject_particle", "structJStudio_1_1TObject__particle.html", null ],
+            [ "JStudio::TObject_sound", "structJStudio_1_1TObject__sound.html", null ]
+          ] ],
+          [ "JStudio::stb::TObject_control", "classJStudio_1_1stb_1_1TObject__control.html", null ]
+        ] ]
+      ] ],
+      [ "JStudio::object::TPRObject_ID_equal", "structJStudio_1_1object_1_1TPRObject__ID__equal.html", null ]
+    ] ],
+    [ "JStudio::stb::data::TBlock", "structJStudio_1_1stb_1_1data_1_1TBlock.html", [
+      [ "JStudio::stb::data::TBlock_object", "structJStudio_1_1stb_1_1data_1_1TBlock__object.html", null ]
+    ] ],
+    [ "JStudio::stb::data::THeader", "structJStudio_1_1stb_1_1data_1_1THeader.html", null ],
+    [ "JStudio::stb::data::THeader::Target", "structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html", null ],
+    [ "JStudio::stb::data::TParagraph", "structJStudio_1_1stb_1_1data_1_1TParagraph.html", null ],
+    [ "JStudio::stb::data::TParse_TParagraph::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph_1_1TData.html", null ],
+    [ "JStudio::stb::data::TParse_TParagraph_data::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph__data_1_1TData.html", null ],
+    [ "JStudio::stb::data::TParse_TSequence::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TSequence_1_1TData.html", null ],
+    [ "JStudio::stb::TControl", "classJStudio_1_1stb_1_1TControl.html", [
+      [ "JStudio::TControl", "classJStudio_1_1TControl.html", null ]
+    ] ],
+    [ "JStudio::stb::TFactory", "classJStudio_1_1stb_1_1TFactory.html", [
+      [ "JStudio::TFactory", "structJStudio_1_1TFactory.html", null ]
+    ] ],
+    [ "JStudio::stb::TParseData< T >", "structJStudio_1_1stb_1_1TParseData.html", [
+      [ "JStudio::stb::TParseData_fixed< T >", "structJStudio_1_1stb_1_1TParseData__fixed.html", null ]
+    ] ],
+    [ "JStudio::TAdaptor", "structJStudio_1_1TAdaptor.html", [
+      [ "JStudio::TAdaptor_actor", "structJStudio_1_1TAdaptor__actor.html", [
+        [ "JStudio_JStage::TAdaptor_actor", "structJStudio__JStage_1_1TAdaptor__actor.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_ambientLight", "structJStudio_1_1TAdaptor__ambientLight.html", [
+        [ "JStudio_JStage::TAdaptor_ambientLight", "structJStudio__JStage_1_1TAdaptor__ambientLight.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_camera", "structJStudio_1_1TAdaptor__camera.html", [
+        [ "JStudio_JStage::TAdaptor_camera", "structJStudio__JStage_1_1TAdaptor__camera.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_fog", "structJStudio_1_1TAdaptor__fog.html", [
+        [ "JStudio_JStage::TAdaptor_fog", "structJStudio__JStage_1_1TAdaptor__fog.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_light", "structJStudio_1_1TAdaptor__light.html", [
+        [ "JStudio_JStage::TAdaptor_light", "structJStudio__JStage_1_1TAdaptor__light.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_message", "structJStudio_1_1TAdaptor__message.html", null ],
+      [ "JStudio::TAdaptor_particle", "structJStudio_1_1TAdaptor__particle.html", [
+        [ "JStudio_JParticle::TAdaptor_particle", "structJStudio__JParticle_1_1TAdaptor__particle.html", null ]
+      ] ],
+      [ "JStudio::TAdaptor_sound", "structJStudio_1_1TAdaptor__sound.html", [
+        [ "JStudio_JAudio2::TAdaptor_sound", "structJStudio__JAudio2_1_1TAdaptor__sound.html", null ]
+      ] ]
+    ] ],
+    [ "JStudio::TAdaptor::TSetVariableValue_immediate", "structJStudio_1_1TAdaptor_1_1TSetVariableValue__immediate.html", null ],
+    [ "JStudio::TControl::TTransform_position", "structJStudio_1_1TControl_1_1TTransform__position.html", null ],
+    [ "JStudio::TControl::TTransform_translation_rotation_scaling", "structJStudio_1_1TControl_1_1TTransform__translation__rotation__scaling.html", null ],
+    [ "JStudio::TCreateObject", "structJStudio_1_1TCreateObject.html", [
+      [ "JStudio_JAudio2::TCreateObject", "structJStudio__JAudio2_1_1TCreateObject.html", null ],
+      [ "JStudio_JParticle::TCreateObject", "structJStudio__JParticle_1_1TCreateObject.html", [
+        [ "dDemo_particle_c", "classdDemo__particle__c.html", null ]
+      ] ],
+      [ "JStudio_JStage::TCreateObject", "structJStudio__JStage_1_1TCreateObject.html", null ]
+    ] ],
+    [ "JStudio::TFunctionValue", "classJStudio_1_1TFunctionValue.html", [
+      [ "JStudio::TFunctionValue_composite", "classJStudio_1_1TFunctionValue__composite.html", null ],
+      [ "JStudio::TFunctionValue_constant", "classJStudio_1_1TFunctionValue__constant.html", null ],
+      [ "JStudio::TFunctionValue_hermite", "classJStudio_1_1TFunctionValue__hermite.html", null ],
+      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
+      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
+      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
+    ] ],
+    [ "JStudio::TFunctionValue_composite::TData", "structJStudio_1_1TFunctionValue__composite_1_1TData.html", null ],
+    [ "JStudio::TFunctionValue_hermite::TIterator_data_", "structJStudio_1_1TFunctionValue__hermite_1_1TIterator__data__.html", null ],
+    [ "JStudio::TFunctionValue_list::TIndexData_", "structJStudio_1_1TFunctionValue__list_1_1TIndexData__.html", null ],
+    [ "JStudio::TFunctionValue_list_parameter::TIterator_data_", "structJStudio_1_1TFunctionValue__list__parameter_1_1TIterator__data__.html", null ],
+    [ "JStudio::TFunctionValueAttribute_interpolate", "classJStudio_1_1TFunctionValueAttribute__interpolate.html", [
+      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
+      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
+      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
+    ] ],
+    [ "JStudio::TFunctionValueAttribute_range", "classJStudio_1_1TFunctionValueAttribute__range.html", [
+      [ "JStudio::TFunctionValue_hermite", "classJStudio_1_1TFunctionValue__hermite.html", null ],
+      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
+      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
+      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
+    ] ],
+    [ "JStudio::TFunctionValueAttributeSet_const", "classJStudio_1_1TFunctionValueAttributeSet__const.html", [
+      [ "JStudio::TFunctionValueAttributeSet", "classJStudio_1_1TFunctionValueAttributeSet.html", null ]
+    ] ],
+    [ "JStudio::TVariableValue", "structJStudio_1_1TVariableValue.html", null ],
+    [ "JStudio::TVariableValue::TOutput", "structJStudio_1_1TVariableValue_1_1TOutput.html", null ],
+    [ "JStudio::TVariableValue::TOutput_none_", "structJStudio_1_1TVariableValue_1_1TOutput__none__.html", null ],
+    [ "JStudio_JAudio2::TAdaptor_sound::TVVOSetValue_", "structJStudio__JAudio2_1_1TAdaptor__sound_1_1TVVOSetValue__.html", null ],
+    [ "JStudio_JParticle::TAdaptor_particle::TJPACallback_emitter_", "structJStudio__JParticle_1_1TAdaptor__particle_1_1TJPACallback__emitter__.html", null ],
     [ "JStudio_JStage", "structJStudio__JStage.html", null ],
+    [ "JStudio_JStage::TAdaptor_actor::TVVOutput_ANIMATION_FRAME_", "structJStudio__JStage_1_1TAdaptor__actor_1_1TVVOutput__ANIMATION__FRAME__.html", null ],
+    [ "JStudio_JStage::TAdaptor_light::TVVOutput_direction_", "structJStudio__JStage_1_1TAdaptor__light_1_1TVVOutput__direction__.html", null ],
+    [ "JStudio_JStage::TAdaptor_object_", "structJStudio__JStage_1_1TAdaptor__object__.html", [
+      [ "JStudio_JStage::TAdaptor_actor", "structJStudio__JStage_1_1TAdaptor__actor.html", null ]
+    ] ],
     [ "JSUIosBase", "classJSUIosBase.html", [
       [ "JSUInputStream", "structJSUInputStream.html", [
         [ "JSURandomInputStream", "classJSURandomInputStream.html", [
@@ -2822,6 +3154,9 @@ var hierarchy =
     ] ],
     [ "JSUTreeIterator< T >", "classJSUTreeIterator.html", null ],
     [ "judge_filter", "structjudge__filter.html", null ],
+    [ "JUTCacheFont::TGlyphCacheInfo", "structJUTCacheFont_1_1TGlyphCacheInfo.html", [
+      [ "JUTCacheFont::TCachePage", "structJUTCacheFont_1_1TCachePage.html", null ]
+    ] ],
     [ "JUTConsoleManager", "classJUTConsoleManager.html", null ],
     [ "JUTDataBlockHeader", "structJUTDataBlockHeader.html", [
       [ "J3DClusterBlock", "classJ3DClusterBlock.html", null ]
@@ -2838,6 +3173,11 @@ var hierarchy =
         [ "JUTCacheFont", "structJUTCacheFont.html", null ]
       ] ]
     ] ],
+    [ "JUTFont::TWidth", "structJUTFont_1_1TWidth.html", null ],
+    [ "JUTGamePad::C3ButtonReset", "structJUTGamePad_1_1C3ButtonReset.html", null ],
+    [ "JUTGamePad::CButton", "structJUTGamePad_1_1CButton.html", null ],
+    [ "JUTGamePad::CRumble", "structJUTGamePad_1_1CRumble.html", null ],
+    [ "JUTGamePad::CStick", "structJUTGamePad_1_1CStick.html", null ],
     [ "JUTGamePadLongPress", "structJUTGamePadLongPress.html", null ],
     [ "JUTGamePadRecordBase", "structJUTGamePadRecordBase.html", null ],
     [ "JUTGraphFifo", "classJUTGraphFifo.html", null ],
@@ -2845,6 +3185,8 @@ var hierarchy =
     [ "JUTNameTab", "structJUTNameTab.html", null ],
     [ "JUTPalette", "classJUTPalette.html", null ],
     [ "JUTProcBar", "classJUTProcBar.html", null ],
+    [ "JUTProcBar::CParamSet", "classJUTProcBar_1_1CParamSet.html", null ],
+    [ "JUTProcBar::CTime", "classJUTProcBar_1_1CTime.html", null ],
     [ "JUTResReference", "classJUTResReference.html", null ],
     [ "JUTTexture", "classJUTTexture.html", null ],
     [ "JUTVideo", "classJUTVideo.html", null ],
@@ -2935,6 +3277,7 @@ var hierarchy =
         [ "daBaseNpc_c", "classdaBaseNpc__c.html", [
           [ "daBaseNpc_moveBgActor_c", "classdaBaseNpc__moveBgActor__c.html", null ]
         ] ],
+        [ "daBdoorL1_c", "structdaBdoorL1__c.html", null ],
         [ "daBdoor_c", "classdaBdoor__c.html", null ],
         [ "daBg_c", "classdaBg__c.html", null ],
         [ "daBkLeaf_c", "classdaBkLeaf__c.html", null ],
@@ -3186,6 +3529,7 @@ var hierarchy =
         [ "npc_tr_class", "classnpc__tr__class.html", null ],
         [ "obj_fmobj_class", "classobj__fmobj__class.html", null ],
         [ "obj_fw_class", "classobj__fw__class.html", null ],
+        [ "obj_keyhole_class", "structobj__keyhole__class.html", null ],
         [ "obj_ki_class", "classobj__ki__class.html", null ],
         [ "obj_lbox_class", "classobj__lbox__class.html", null ],
         [ "obj_lv3WaterB_class", "classobj__lv3WaterB__class.html", null ],
@@ -3227,32 +3571,17 @@ var hierarchy =
       ] ]
     ] ],
     [ "leafdraw_method_class", "structleafdraw__method__class.html", null ],
-    [ "std::less< A1 >", "structstd_1_1less.html", null ],
-    [ "std::less__template0", "structstd_1_1less____template0.html", null ],
-    [ "dPa_control_c::level_c", "classdPa__control__c_1_1level__c.html", null ],
     [ "lf_s", "structlf__s.html", null ],
     [ "LIGHT_INFLUENCE", "structLIGHT__INFLUENCE.html", null ],
     [ "LightStatus", "structLightStatus.html", null ],
-    [ "dDrawPath_c::line_class", "structdDrawPath__c_1_1line__class.html", null ],
     [ "line_tag", "structline__tag.html", null ],
-    [ "dTres_c::list_class", "structdTres__c_1_1list__class.html", null ],
     [ "list_header", "structlist__header.html", null ],
-    [ "JStudio::fvb::TObject_hermite::ListData", "structJStudio_1_1fvb_1_1TObject__hermite_1_1ListData.html", null ],
-    [ "JStudio::fvb::TObject_list::ListData", "structJStudio_1_1fvb_1_1TObject__list_1_1ListData.html", null ],
-    [ "JStudio::fvb::TObject_list_parameter::ListData", "structJStudio_1_1fvb_1_1TObject__list__parameter_1_1ListData.html", null ],
-    [ "JASWaveArc::loadToAramCallbackParams", "structJASWaveArc_1_1loadToAramCallbackParams.html", null ],
-    [ "JMessage::locale", "structJMessage_1_1locale.html", null ],
-    [ "JASThreadingModel::InterruptsDisable< A0 >::Lock", "structJASThreadingModel_1_1InterruptsDisable_1_1Lock.html", null ],
-    [ "JASThreadingModel::ObjectLevelLockable::Lock", "structJASThreadingModel_1_1ObjectLevelLockable_1_1Lock.html", null ],
     [ "Lock", "classLock.html", null ],
     [ "lookat_class", "classlookat__class.html", null ],
     [ "mant_class", "structmant__class.html", null ],
     [ "mant_j_s", "structmant__j__s.html", null ],
-    [ "ResFONT::MAP1", "structResFONT_1_1MAP1.html", null ],
     [ "map_icon_size_t", "structmap__icon__size__t.html", null ],
     [ "map_path_class", "structmap__path__class.html", null ],
-    [ "dMeter_fmapHIO_c::MapBlinkAnime", "structdMeter__fmapHIO__c_1_1MapBlinkAnime.html", null ],
-    [ "J3DMaterialFactory::MaterialType", "structJ3DMaterialFactory_1_1MaterialType.html", null ],
     [ "MatoData_s", "structMatoData__s.html", null ],
     [ "mDoCPd_c", "classmDoCPd__c.html", null ],
     [ "mDoDvdThd", "structmDoDvdThd.html", null ],
@@ -3279,6 +3608,7 @@ var hierarchy =
     [ "mDoExt_McaMorfCallBack2_c", "classmDoExt__McaMorfCallBack2__c.html", null ],
     [ "mDoExt_MtxCalcOldFrame", "classmDoExt__MtxCalcOldFrame.html", null ],
     [ "mDoGph_gInf_c", "structmDoGph__gInf__c.html", null ],
+    [ "mDoGph_gInf_c::bloom_c", "classmDoGph__gInf__c_1_1bloom__c.html", null ],
     [ "mDoHIO_entry_c", "structmDoHIO__entry__c.html", [
       [ "dGov_HIO_c", "classdGov__HIO__c.html", null ],
       [ "dScnPly_preLoad_HIO_c", "classdScnPly__preLoad__HIO__c.html", null ],
@@ -3318,32 +3648,21 @@ var hierarchy =
     [ "mDoRst", "classmDoRst.html", null ],
     [ "mDoRstData", "structmDoRstData.html", null ],
     [ "mem_pool_obj", "structmem__pool__obj.html", null ],
-    [ "JASMemChunkPool< ChunkSize, T >::MemoryChunk", "structJASMemChunkPool_1_1MemoryChunk.html", null ],
     [ "memRange", "structmemRange.html", null ],
     [ "mesg_flow_node", "structmesg__flow__node.html", null ],
     [ "mesg_flow_node_branch", "structmesg__flow__node__branch.html", null ],
     [ "mesg_flow_node_event", "structmesg__flow__node__event.html", null ],
-    [ "JKRAramPiece::Message", "structJKRAramPiece_1_1Message.html", null ],
-    [ "dEvDtStaff_c::MessageData", "structdEvDtStaff__c_1_1MessageData.html", null ],
     [ "method_filter", "structmethod__filter.html", null ],
     [ "mf_ke_s", "structmf__ke__s.html", null ],
     [ "mg_hook_s", "structmg__hook__s.html", null ],
     [ "mg_line_s", "structmg__line__s.html", null ],
     [ "mg_rod_s", "structmg__rod__s.html", null ],
-    [ "JASChannel::MixConfig", "unionJASChannel_1_1MixConfig.html", null ],
-    [ "daNpcCdn3_c::Mode_e", "structdaNpcCdn3__c_1_1Mode__e.html", null ],
-    [ "daNpcGuard_c::Mode_e", "structdaNpcGuard__c_1_1Mode__e.html", null ],
-    [ "daNpcPasser2_c::Mode_e", "structdaNpcPasser2__c_1_1Mode__e.html", null ],
-    [ "daNpcPasser_c::Mode_e", "structdaNpcPasser__c_1_1Mode__e.html", null ],
-    [ "daObjKznkarm_c::Mode_e", "structdaObjKznkarm__c_1_1Mode__e.html", null ],
-    [ "dPa_modelEcallBack::model_c", "structdPa__modelEcallBack_1_1model__c.html", null ],
     [ "modelList_c", "classmodelList__c.html", null ],
-    [ "JASTrack::MoveParam_", "structJASTrack_1_1MoveParam__.html", null ],
     [ "ms_chain_s", "structms__chain__s.html", null ],
     [ "msg_process_profile_definition", "structmsg__process__profile__definition.html", null ],
-    [ "dStage_roomControl_c::nameData", "structdStage__roomControl__c_1_1nameData.html", null ],
     [ "nest_hahen_s", "structnest__hahen__s.html", null ],
     [ "nObjMHasu", "structnObjMHasu.html", null ],
+    [ "nObjMHasu::daObjMHasu_c", "structnObjMHasu_1_1daObjMHasu__c.html", null ],
     [ "node_class", "structnode__class.html", [
       [ "mDoDvdThd_command_c", "classmDoDvdThd__command__c.html", [
         [ "mDoDvdThd_callback_c", "classmDoDvdThd__callback__c.html", null ],
@@ -3368,15 +3687,6 @@ var hierarchy =
     [ "npc_lf_class", "structnpc__lf__class.html", null ],
     [ "npc_tkj2_class", "structnpc__tkj2__class.html", null ],
     [ "npc_worm_class", "structnpc__worm__class.html", null ],
-    [ "std::numeric_limits< T >", "classstd_1_1numeric__limits.html", null ],
-    [ "std::numeric_limits< char >", "classstd_1_1numeric__limits_3_01char_01_4.html", null ],
-    [ "std::numeric_limits< int >", "classstd_1_1numeric__limits_3_01int_01_4.html", null ],
-    [ "std::numeric_limits< long >", "classstd_1_1numeric__limits_3_01long_01_4.html", null ],
-    [ "std::numeric_limits< short >", "classstd_1_1numeric__limits_3_01short_01_4.html", null ],
-    [ "std::numeric_limits< unsigned char >", "classstd_1_1numeric__limits_3_01unsigned_01char_01_4.html", null ],
-    [ "std::numeric_limits< unsigned int >", "classstd_1_1numeric__limits_3_01unsigned_01int_01_4.html", null ],
-    [ "std::numeric_limits< unsigned long >", "classstd_1_1numeric__limits_3_01unsigned_01long_01_4.html", null ],
-    [ "std::numeric_limits< unsigned short >", "classstd_1_1numeric__limits_3_01unsigned_01short_01_4.html", null ],
     [ "ob_ke_s", "structob__ke__s.html", null ],
     [ "ob_part_s", "structob__part__s.html", null ],
     [ "obj_brakeeff_class", "structobj__brakeeff__class.html", null ],
@@ -3391,7 +3701,6 @@ var hierarchy =
     [ "obj_kage_class", "structobj__kage__class.html", null ],
     [ "obj_kbox_class", "structobj__kbox__class.html", null ],
     [ "obj_key_class", "structobj__key__class.html", null ],
-    [ "obj_keyhole_class", "structobj__keyhole__class.html", null ],
     [ "obj_kita_class", "structobj__kita__class.html", null ],
     [ "obj_lp_class", "structobj__lp__class.html", null ],
     [ "obj_maki_class", "structobj__maki__class.html", null ],
@@ -3405,7 +3714,6 @@ var hierarchy =
     [ "obj_toby_class", "structobj__toby__class.html", null ],
     [ "obj_tp_class", "structobj__tp__class.html", null ],
     [ "obj_udoor_class", "structobj__udoor__class.html", null ],
-    [ "JASThreadingModel::ObjectLevelLockable", "structJASThreadingModel_1_1ObjectLevelLockable.html", null ],
     [ "OSAlarm", "structOSAlarm.html", [
       [ "JFWAlarm", "classJFWAlarm.html", null ]
     ] ],
@@ -3441,15 +3749,8 @@ var hierarchy =
     [ "overlap_request_class", "classoverlap__request__class.html", null ],
     [ "PADClampRegion", "structPADClampRegion.html", null ],
     [ "PADStatus", "structPADStatus.html", null ],
-    [ "std::pair< A1, B1 >", "structstd_1_1pair.html", null ],
     [ "std::pair< f32, f32 >", "structstd_1_1pair.html", null ],
     [ "std::pair< T, T >", "structstd_1_1pair.html", null ],
-    [ "renderingFmap_c::palette_e", "structrenderingFmap__c_1_1palette__e.html", null ],
-    [ "JASChannel::PanVector", "structJASChannel_1_1PanVector.html", null ],
-    [ "daNpcAsh_Param_c::param", "structdaNpcAsh__Param__c_1_1param.html", null ],
-    [ "daNpcThe_Param_c::param", "structdaNpcThe__Param__c_1_1param.html", null ],
-    [ "daObj_Bed_Param_c::params", "structdaObj__Bed__Param__c_1_1params.html", null ],
-    [ "daObj_Pleaf_Param_c::params", "structdaObj__Pleaf__Param__c_1_1params.html", null ],
     [ "Parser", null, [
       [ "JGadget::binary::TParseValue< T, Parser >", "structJGadget_1_1binary_1_1TParseValue.html", null ]
     ] ],
@@ -3457,8 +3758,6 @@ var hierarchy =
     [ "phaseParam_c", "classphaseParam__c.html", null ],
     [ "pkcdata", "structpkcdata.html", null ],
     [ "PLC", "structPLC.html", null ],
-    [ "JASOscillator::Point", "structJASOscillator_1_1Point.html", null ],
-    [ "dDrawPath_c::poly_class", "structdDrawPath__c_1_1poly__class.html", null ],
     [ "pool_options", "structpool__options.html", null ],
     [ "PPC_DMA_L_t", "structPPC__DMA__L__t.html", null ],
     [ "PPC_DMA_L_u", "unionPPC__DMA__L__u.html", null ],
@@ -3469,11 +3768,6 @@ var hierarchy =
     [ "PPCWGPipe", "unionPPCWGPipe.html", null ],
     [ "PreLoadInfo", "structPreLoadInfo.html", null ],
     [ "print_format", "structprint__format.html", null ],
-    [ "daObjLadder::Act_c::Prm_e", "structdaObjLadder_1_1Act__c_1_1Prm__e.html", null ],
-    [ "daObjMovebox::Act_c::Prm_e", "structdaObjMovebox_1_1Act__c_1_1Prm__e.html", null ],
-    [ "daObjSwpush2::Act_c::Prm_e", "structdaObjSwpush2_1_1Act__c_1_1Prm__e.html", null ],
-    [ "daObjSwpush::Act_c::Prm_e", "structdaObjSwpush_1_1Act__c_1_1Prm__e.html", null ],
-    [ "daObjTimer::Act_c::Prm_e", "structdaObjTimer_1_1Act__c_1_1Prm__e.html", null ],
     [ "process_method_class", "structprocess__method__class.html", null ],
     [ "process_method_tag_class", "structprocess__method__tag__class.html", null ],
     [ "process_node_class", "structprocess__node__class.html", null ],
@@ -3482,12 +3776,11 @@ var hierarchy =
     [ "process_profile_definition", "structprocess__profile__definition.html", null ],
     [ "ProcessorRestoreFlags_PPC", "structProcessorRestoreFlags__PPC.html", null ],
     [ "ProcessorState_PPC_6xx_7xx", "structProcessorState__PPC__6xx__7xx.html", null ],
-    [ "daObjHBombkoya_c::PSetTbl", "structdaObjHBombkoya__c_1_1PSetTbl.html", null ],
-    [ "dBgW_Base::PushPullLabel", "structdBgW__Base_1_1PushPullLabel.html", null ],
     [ "Quaternion", "structQuaternion.html", null ],
     [ "RAIN_EFF", "structRAIN__EFF.html", null ],
     [ "renderingDmap_c", "structrenderingDmap__c.html", null ],
     [ "renderingFmap_c", "structrenderingFmap__c.html", null ],
+    [ "renderingFmap_c::palette_e", "structrenderingFmap__c_1_1palette__e.html", null ],
     [ "request_base_class", "structrequest__base__class.html", null ],
     [ "request_node_class", "structrequest__node__class.html", null ],
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", [
@@ -3503,14 +3796,16 @@ var hierarchy =
     ] ],
     [ "res_info", "structres__info.html", null ],
     [ "ResFONT", "structResFONT.html", null ],
+    [ "ResFONT::GLY1", "structResFONT_1_1GLY1.html", null ],
+    [ "ResFONT::INF1", "structResFONT_1_1INF1.html", null ],
+    [ "ResFONT::MAP1", "structResFONT_1_1MAP1.html", null ],
+    [ "ResFONT::WID1", "structResFONT_1_1WID1.html", null ],
     [ "ResNTAB", "structResNTAB.html", null ],
+    [ "ResNTAB::Entry", "structResNTAB_1_1Entry.html", null ],
     [ "ResourceData", "structResourceData.html", null ],
     [ "ResTIMG", "structResTIMG.html", null ],
     [ "ResTLUT", "structResTLUT.html", null ],
     [ "rock_ss", "structrock__ss.html", null ],
-    [ "daSus_c::room_c", "classdaSus__c_1_1room__c.html", null ],
-    [ "dDrawPath_c::room_class", "structdDrawPath__c_1_1room__class.html", null ],
-    [ "dStage_roomControl_c::roomDzs_c", "classdStage__roomControl__c_1_1roomDzs__c.html", null ],
     [ "roomRead_class", "structroomRead__class.html", null ],
     [ "roomRead_data_class", "structroomRead__data__class.html", null ],
     [ "RopeWork_c", "structRopeWork__c.html", null ],
@@ -3529,13 +3824,7 @@ var hierarchy =
     [ "scene_request_class", "classscene__request__class.html", null ],
     [ "scene_tag_class", "classscene__tag__class.html", null ],
     [ "scissor_class", "structscissor__class.html", null ],
-    [ "JKRArchive::SDIDirEntry", "structJKRArchive_1_1SDIDirEntry.html", null ],
-    [ "JKRArchive::SDIFileEntry", "structJKRArchive_1_1SDIFileEntry.html", null ],
-    [ "JKRArchive::SDirEntry", "structJKRArchive_1_1SDirEntry.html", null ],
     [ "SeiraCam", "structSeiraCam.html", null ],
-    [ "daNpcT_MotionSeqMngr_c::sequenceStepData_c", "classdaNpcT__MotionSeqMngr__c_1_1sequenceStepData__c.html", null ],
-    [ "dCamera_c::Shake", "structdCamera__c_1_1Shake.html", null ],
-    [ "cCcD_ShapeAttr::Shape", "structcCcD__ShapeAttr_1_1Shape.html", null ],
     [ "shop_item_data", "structshop__item__data.html", null ],
     [ "ShopCam_action_c", "structShopCam__action__c.html", null ],
     [ "ShopItem", "structShopItem.html", null ],
@@ -3543,20 +3832,14 @@ var hierarchy =
     [ "SIComm_u", "unionSIComm__u.html", null ],
     [ "SIControl", "structSIControl.html", null ],
     [ "SIPacket", "structSIPacket.html", null ],
-    [ "JGeometry::SMatrix33C< T >", "structJGeometry_1_1SMatrix33C.html", null ],
-    [ "JGeometry::SMatrix34C< T >", "structJGeometry_1_1SMatrix34C.html", null ],
-    [ "JGeometry::SMatrix34C< f32 >", "structJGeometry_1_1SMatrix34C_3_01f32_01_4.html", null ],
     [ "SND_INFLUENCE", "structSND__INFLUENCE.html", null ],
     [ "SNOW_EFF", "structSNOW__EFF.html", null ],
     [ "SongNote", "structSongNote.html", null ],
-    [ "dEvDtStaff_c::SoundData", "structdEvDtStaff__c_1_1SoundData.html", null ],
     [ "spec_dat", "structspec__dat.html", null ],
-    [ "daBgObj_c::spec_data_c", "classdaBgObj__c_1_1spec__data__c.html", null ],
     [ "sPrmStruct", "structsPrmStruct.html", null ],
     [ "sq_cp_s", "structsq__cp__s.html", null ],
     [ "SramControlBlock", "structSramControlBlock.html", null ],
     [ "st_foot", "structst__foot.html", null ],
-    [ "dEvDtStaff_c::StaffWork", "structdEvDtStaff__c_1_1StaffWork.html", null ],
     [ "stage_actor_class", "classstage__actor__class.html", null ],
     [ "stage_actor_data_class", "classstage__actor__data__class.html", [
       [ "stage_tgsc_data_class", "structstage__tgsc__data__class.html", null ]
@@ -3585,12 +3868,23 @@ var hierarchy =
     [ "STControl", "structSTControl.html", [
       [ "CSTControl", "structCSTControl.html", null ]
     ] ],
+    [ "std::__bitset_base< N >", "classstd_1_1____bitset__base.html", null ],
+    [ "std::less< A1 >", "structstd_1_1less.html", null ],
+    [ "std::less__template0", "structstd_1_1less____template0.html", null ],
+    [ "std::numeric_limits< T >", "classstd_1_1numeric__limits.html", null ],
+    [ "std::numeric_limits< char >", "classstd_1_1numeric__limits_3_01char_01_4.html", null ],
+    [ "std::numeric_limits< int >", "classstd_1_1numeric__limits_3_01int_01_4.html", null ],
+    [ "std::numeric_limits< long >", "classstd_1_1numeric__limits_3_01long_01_4.html", null ],
+    [ "std::numeric_limits< short >", "classstd_1_1numeric__limits_3_01short_01_4.html", null ],
+    [ "std::numeric_limits< unsigned char >", "classstd_1_1numeric__limits_3_01unsigned_01char_01_4.html", null ],
+    [ "std::numeric_limits< unsigned int >", "classstd_1_1numeric__limits_3_01unsigned_01int_01_4.html", null ],
+    [ "std::numeric_limits< unsigned long >", "classstd_1_1numeric__limits_3_01unsigned_01long_01_4.html", null ],
+    [ "std::numeric_limits< unsigned short >", "classstd_1_1numeric__limits_3_01unsigned_01short_01_4.html", null ],
+    [ "std::pair< A1, B1 >", "structstd_1_1pair.html", null ],
     [ "StopInfo_PPC", "structStopInfo__PPC.html", null ],
     [ "str1_entry_t", "structstr1__entry__t.html", null ],
     [ "str1_section_t", "structstr1__section__t.html", null ],
-    [ "JAUStdSoundTableType::StringOffset", "structJAUStdSoundTableType_1_1StringOffset.html", null ],
     [ "STRUCT_DSP_TASK", "structSTRUCT__DSP__TASK.html", null ],
-    [ "dCamStyleData::StyleData", "structdCamStyleData_1_1StyleData.html", null ],
     [ "sub_kankyo__class", "structsub__kankyo____class.html", null ],
     [ "SubBlock", "structSubBlock.html", null ],
     [ "SVec", "structSVec.html", [
@@ -3602,95 +3896,22 @@ var hierarchy =
       [ "JGeometry::TPosition3< T >", "structJGeometry_1_1TPosition3.html", null ],
       [ "JGeometry::TRotation3< T >", "structJGeometry_1_1TRotation3.html", null ]
     ] ],
-    [ "JStudio::TAdaptor", "structJStudio_1_1TAdaptor.html", [
-      [ "JStudio::TAdaptor_actor", "structJStudio_1_1TAdaptor__actor.html", [
-        [ "JStudio_JStage::TAdaptor_actor", "structJStudio__JStage_1_1TAdaptor__actor.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_ambientLight", "structJStudio_1_1TAdaptor__ambientLight.html", [
-        [ "JStudio_JStage::TAdaptor_ambientLight", "structJStudio__JStage_1_1TAdaptor__ambientLight.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_camera", "structJStudio_1_1TAdaptor__camera.html", [
-        [ "JStudio_JStage::TAdaptor_camera", "structJStudio__JStage_1_1TAdaptor__camera.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_fog", "structJStudio_1_1TAdaptor__fog.html", [
-        [ "JStudio_JStage::TAdaptor_fog", "structJStudio__JStage_1_1TAdaptor__fog.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_light", "structJStudio_1_1TAdaptor__light.html", [
-        [ "JStudio_JStage::TAdaptor_light", "structJStudio__JStage_1_1TAdaptor__light.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_message", "structJStudio_1_1TAdaptor__message.html", null ],
-      [ "JStudio::TAdaptor_particle", "structJStudio_1_1TAdaptor__particle.html", [
-        [ "JStudio_JParticle::TAdaptor_particle", "structJStudio__JParticle_1_1TAdaptor__particle.html", null ]
-      ] ],
-      [ "JStudio::TAdaptor_sound", "structJStudio_1_1TAdaptor__sound.html", [
-        [ "JStudio_JAudio2::TAdaptor_sound", "structJStudio__JAudio2_1_1TAdaptor__sound.html", null ]
-      ] ]
-    ] ],
-    [ "JStudio_JStage::TAdaptor_object_", "structJStudio__JStage_1_1TAdaptor__object__.html", [
-      [ "JStudio_JStage::TAdaptor_actor", "structJStudio__JStage_1_1TAdaptor__actor.html", null ]
-    ] ],
     [ "Tag_FWall_n", "structTag__FWall__n.html", null ],
-    [ "JGadget::TAllocator< T >", "structJGadget_1_1TAllocator.html", null ],
     [ "JGadget::TAllocator< void * >", "structJGadget_1_1TAllocator.html", null ],
-    [ "JGadget::TAllocator__template0", "structJGadget_1_1TAllocator____template0.html", null ],
     [ "TAngleConstant_< T >", "structTAngleConstant__.html", null ],
     [ "TAngleConstant_< f32 >", "structTAngleConstant___3_01f32_01_4.html", null ],
-    [ "JStudio::stb::data::THeader::Target", "structJStudio_1_1stb_1_1data_1_1THeader_1_1Target.html", null ],
     [ "TAsinAcosTable", "structTAsinAcosTable.html", null ],
-    [ "JASAramStream::TaskData", "structJASAramStream_1_1TaskData.html", null ],
     [ "TaskWorkStruct", "structTaskWorkStruct.html", null ],
     [ "TAtanTable", "structTAtanTable.html", null ],
     [ "tbl_entry", "structtbl__entry.html", null ],
-    [ "JStudio::fvb::data::TBlock", "structJStudio_1_1fvb_1_1data_1_1TBlock.html", null ],
-    [ "JStudio::stb::data::TBlock", "structJStudio_1_1stb_1_1data_1_1TBlock.html", [
-      [ "JStudio::stb::data::TBlock_object", "structJStudio_1_1stb_1_1data_1_1TBlock__object.html", null ]
-    ] ],
-    [ "JStudio::ctb::data::TBlockData", "structJStudio_1_1ctb_1_1data_1_1TBlockData.html", null ],
-    [ "JGeometry::TBox< T >", "structJGeometry_1_1TBox.html", null ],
-    [ "JGeometry::TBox2__template0", "structJGeometry_1_1TBox2____template0.html", null ],
-    [ "JGeometry::TBox< TVec2< f32 > >", "structJGeometry_1_1TBox_3_01TVec2_3_01f32_01_4_01_4.html", null ],
     [ "JGeometry::TBox< TVec2< T > >", "structJGeometry_1_1TBox.html", [
       [ "JGeometry::TBox2< f32 >", "structJGeometry_1_1TBox2.html", null ],
       [ "JGeometry::TBox2< A1 >", "structJGeometry_1_1TBox2.html", null ]
     ] ],
-    [ "JASCallbackMgr::TCallback", "structJASCallbackMgr_1_1TCallback.html", null ],
-    [ "JASDsp::TChannel", "structJASDsp_1_1TChannel.html", null ],
-    [ "J2DWindow::TContentsColor", "structJ2DWindow_1_1TContentsColor.html", null ],
-    [ "JMessage::TControl", "structJMessage_1_1TControl.html", [
-      [ "jmessage_string_tControl", "structjmessage__string__tControl.html", null ],
-      [ "jmessage_tControl", "structjmessage__tControl.html", null ]
-    ] ],
-    [ "JStudio::ctb::TControl", "structJStudio_1_1ctb_1_1TControl.html", null ],
-    [ "JStudio::fvb::TControl", "classJStudio_1_1fvb_1_1TControl.html", null ],
-    [ "JStudio::stb::TControl", "classJStudio_1_1stb_1_1TControl.html", [
-      [ "JStudio::TControl", "classJStudio_1_1TControl.html", null ]
-    ] ],
-    [ "JStudio::TCreateObject", "structJStudio_1_1TCreateObject.html", [
-      [ "JStudio_JAudio2::TCreateObject", "structJStudio__JAudio2_1_1TCreateObject.html", null ],
-      [ "JStudio_JParticle::TCreateObject", "structJStudio__JParticle_1_1TCreateObject.html", [
-        [ "dDemo_particle_c", "classdDemo__particle__c.html", null ]
-      ] ],
-      [ "JStudio_JStage::TCreateObject", "structJStudio__JStage_1_1TCreateObject.html", null ]
-    ] ],
-    [ "JASWSParser::TCtrl", "structJASWSParser_1_1TCtrl.html", null ],
-    [ "JASWSParser::TCtrlGroup", "structJASWSParser_1_1TCtrlGroup.html", null ],
-    [ "JASWSParser::TCtrlScene", "structJASWSParser_1_1TCtrlScene.html", null ],
-    [ "JASWSParser::TCtrlWave", "structJASWSParser_1_1TCtrlWave.html", null ],
-    [ "JStudio::fvb::data::TParse_TParagraph::TData", "structJStudio_1_1fvb_1_1data_1_1TParse__TParagraph_1_1TData.html", null ],
-    [ "JStudio::stb::data::TParse_TParagraph::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph_1_1TData.html", null ],
-    [ "JStudio::stb::data::TParse_TParagraph_data::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph__data_1_1TData.html", null ],
-    [ "JStudio::stb::data::TParse_TSequence::TData", "structJStudio_1_1stb_1_1data_1_1TParse__TSequence_1_1TData.html", null ],
-    [ "JStudio::TFunctionValue_composite::TData", "structJStudio_1_1TFunctionValue__composite_1_1TData.html", null ],
-    [ "JGadget::TVector< T, Allocator >::TDestructed_deallocate_", "structJGadget_1_1TVector_1_1TDestructed__deallocate__.html", null ],
-    [ "JGadget::binary::TEBit", "structJGadget_1_1binary_1_1TEBit.html", null ],
-    [ "JStage::TECameraProjection", "structJStage_1_1TECameraProjection.html", null ],
-    [ "JStage::TECameraView", "structJStage_1_1TECameraView.html", null ],
     [ "TelopDataStruct", "structTelopDataStruct.html", null ],
     [ "temp", "structtemp.html", [
       [ "dalv4CandleDemoTag_c", "classdalv4CandleDemoTag__c.html", null ]
     ] ],
-    [ "JGadget::TEnumerator< T >", "structJGadget_1_1TEnumerator.html", null ],
-    [ "JGadget::TEnumerator2< Iterator, T >", "structJGadget_1_1TEnumerator2.html", null ],
     [ "JGadget::TEnumerator2< TLinkList< T, I >::const_iterator, const T >", "structJGadget_1_1TEnumerator2.html", [
       [ "JGadget::TContainerEnumerator_const< T, I >", "structJGadget_1_1TContainerEnumerator__const.html", null ]
     ] ],
@@ -3700,201 +3921,19 @@ var hierarchy =
     [ "JGadget::TEnumerator< const T * >", "structJGadget_1_1TEnumerator.html", [
       [ "JStudio::TContainerEnumerator_const_TVector< T >", "structJStudio_1_1TContainerEnumerator__const__TVector.html", null ]
     ] ],
-    [ "JStudio::ctb::TFactory", "structJStudio_1_1ctb_1_1TFactory.html", null ],
-    [ "JStudio::fvb::TFactory", "classJStudio_1_1fvb_1_1TFactory.html", null ],
-    [ "JStudio::stb::TFactory", "classJStudio_1_1stb_1_1TFactory.html", [
-      [ "JStudio::TFactory", "structJStudio_1_1TFactory.html", null ]
-    ] ],
-    [ "J2DTextBox::TFontSize", "structJ2DTextBox_1_1TFontSize.html", null ],
-    [ "JStudio::TFunctionValue", "classJStudio_1_1TFunctionValue.html", [
-      [ "JStudio::TFunctionValue_composite", "classJStudio_1_1TFunctionValue__composite.html", null ],
-      [ "JStudio::TFunctionValue_constant", "classJStudio_1_1TFunctionValue__constant.html", null ],
-      [ "JStudio::TFunctionValue_hermite", "classJStudio_1_1TFunctionValue__hermite.html", null ],
-      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
-      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
-      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
-    ] ],
-    [ "JStudio::TFunctionValueAttribute_interpolate", "classJStudio_1_1TFunctionValueAttribute__interpolate.html", [
-      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
-      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
-      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
-    ] ],
-    [ "JStudio::TFunctionValueAttribute_range", "classJStudio_1_1TFunctionValueAttribute__range.html", [
-      [ "JStudio::TFunctionValue_hermite", "classJStudio_1_1TFunctionValue__hermite.html", null ],
-      [ "JStudio::TFunctionValue_list", "classJStudio_1_1TFunctionValue__list.html", null ],
-      [ "JStudio::TFunctionValue_list_parameter", "classJStudio_1_1TFunctionValue__list__parameter.html", null ],
-      [ "JStudio::TFunctionValue_transition", "classJStudio_1_1TFunctionValue__transition.html", null ]
-    ] ],
-    [ "JStudio::TFunctionValueAttributeSet_const", "classJStudio_1_1TFunctionValueAttributeSet__const.html", [
-      [ "JStudio::TFunctionValueAttributeSet", "classJStudio_1_1TFunctionValueAttributeSet.html", null ]
-    ] ],
     [ "tg_ss", "structtg__ss.html", null ],
-    [ "JUTCacheFont::TGlyphCacheInfo", "structJUTCacheFont_1_1TGlyphCacheInfo.html", [
-      [ "JUTCacheFont::TCachePage", "structJUTCacheFont_1_1TCachePage.html", null ]
-    ] ],
-    [ "JASBasicWaveBank::TGroupWaveInfo", "structJASBasicWaveBank_1_1TGroupWaveInfo.html", null ],
     [ "th_ke_s", "structth__ke__s.html", null ],
-    [ "JASBNKParser::Ver0::THeader", "structJASBNKParser_1_1Ver0_1_1THeader.html", null ],
-    [ "JASWSParser::THeader", "structJASWSParser_1_1THeader.html", null ],
-    [ "JStudio::fvb::data::THeader", "structJStudio_1_1fvb_1_1data_1_1THeader.html", null ],
-    [ "JStudio::stb::data::THeader", "structJStudio_1_1stb_1_1data_1_1THeader.html", null ],
-    [ "JStudio::ctb::data::THeaderData", "structJStudio_1_1ctb_1_1data_1_1THeaderData.html", null ],
     [ "THPAudioInfo", "structTHPAudioInfo.html", null ],
     [ "THPVideoInfo", "structTHPVideoInfo.html", null ],
-    [ "JStudio::object::TIDData", "structJStudio_1_1object_1_1TIDData.html", [
-      [ "JStudio::object::TObject_ID", "structJStudio_1_1object_1_1TObject__ID.html", [
-        [ "JStudio::ctb::TObject", "structJStudio_1_1ctb_1_1TObject.html", [
-          [ "JStudio::ctb::TObject_TxyzRy", "structJStudio_1_1ctb_1_1TObject__TxyzRy.html", null ]
-        ] ],
-        [ "JStudio::fvb::TObject", "classJStudio_1_1fvb_1_1TObject.html", [
-          [ "JStudio::fvb::TObject_composite", "classJStudio_1_1fvb_1_1TObject__composite.html", null ],
-          [ "JStudio::fvb::TObject_constant", "classJStudio_1_1fvb_1_1TObject__constant.html", null ],
-          [ "JStudio::fvb::TObject_hermite", "structJStudio_1_1fvb_1_1TObject__hermite.html", null ],
-          [ "JStudio::fvb::TObject_list", "classJStudio_1_1fvb_1_1TObject__list.html", null ],
-          [ "JStudio::fvb::TObject_list_parameter", "classJStudio_1_1fvb_1_1TObject__list__parameter.html", null ],
-          [ "JStudio::fvb::TObject_transition", "classJStudio_1_1fvb_1_1TObject__transition.html", null ]
-        ] ],
-        [ "JStudio::stb::TObject", "classJStudio_1_1stb_1_1TObject.html", [
-          [ "JStudio::TObject", "classJStudio_1_1TObject.html", [
-            [ "JStudio::TObject_actor", "structJStudio_1_1TObject__actor.html", null ],
-            [ "JStudio::TObject_ambientLight", "structJStudio_1_1TObject__ambientLight.html", null ],
-            [ "JStudio::TObject_camera", "structJStudio_1_1TObject__camera.html", null ],
-            [ "JStudio::TObject_fog", "structJStudio_1_1TObject__fog.html", null ],
-            [ "JStudio::TObject_light", "structJStudio_1_1TObject__light.html", null ],
-            [ "JStudio::TObject_message", "structJStudio_1_1TObject__message.html", null ],
-            [ "JStudio::TObject_particle", "structJStudio_1_1TObject__particle.html", null ],
-            [ "JStudio::TObject_sound", "structJStudio_1_1TObject__sound.html", null ]
-          ] ],
-          [ "JStudio::stb::TObject_control", "classJStudio_1_1stb_1_1TObject__control.html", null ]
-        ] ]
-      ] ],
-      [ "JStudio::object::TPRObject_ID_equal", "structJStudio_1_1object_1_1TPRObject__ID__equal.html", null ]
-    ] ],
     [ "timer_info", "structtimer__info.html", null ],
-    [ "dEvDtStaff_c::TimerKeeperData", "structdEvDtStaff__c_1_1TimerKeeperData.html", null ],
-    [ "JStudio::TFunctionValue_list::TIndexData_", "structJStudio_1_1TFunctionValue__list_1_1TIndexData__.html", null ],
-    [ "JAISe::TInner", "classJAISe_1_1TInner.html", null ],
-    [ "JAISeq::TInner", "classJAISeq_1_1TInner.html", null ],
-    [ "JAIStream::TInner", "structJAIStream_1_1TInner.html", null ],
-    [ "JStudio::TFunctionValue_hermite::TIterator_data_", "structJStudio_1_1TFunctionValue__hermite_1_1TIterator__data__.html", null ],
-    [ "JStudio::TFunctionValue_list_parameter::TIterator_data_", "structJStudio_1_1TFunctionValue__list__parameter_1_1TIterator__data__.html", null ],
-    [ "JStudio_JParticle::TAdaptor_particle::TJPACallback_emitter_", "structJStudio__JParticle_1_1TAdaptor__particle_1_1TJPACallback__emitter__.html", null ],
-    [ "JASBasicInst::TKeymap", "structJASBasicInst_1_1TKeymap.html", null ],
-    [ "JGadget::TLinkList__template1", "structJGadget_1_1TLinkList____template1.html", null ],
-    [ "JGadget::TLinkListNode", "structJGadget_1_1TLinkListNode.html", null ],
-    [ "JKRThread::TLoad", "classJKRThread_1_1TLoad.html", null ],
-    [ "J2DWindow::TMaterial", "structJ2DWindow_1_1TMaterial.html", null ],
-    [ "JGadget::TNodeLinkList", "structJGadget_1_1TNodeLinkList.html", [
-      [ "JGadget::TLinkList< JASTrack, -0x240 >", "structJGadget_1_1TLinkList.html", [
-        [ "JASTrack::TList", "structJASTrack_1_1TList.html", null ]
-      ] ],
-      [ "JGadget::TLinkList< TResource, I >", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< JStudio::TCreateObject, -4 >", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< JStudio::ctb::TObject, -12 >", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< JStudio::fvb::TObject, 12 >", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< JStudio::stb::TObject, -12 >", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< JUTConsole, -offsetof(JUTConsole, mListNode)>", "structJGadget_1_1TLinkList.html", null ],
-      [ "JGadget::TLinkList< T, I >", "structJGadget_1_1TLinkList.html", [
-        [ "JGadget::TLinkList_factory< TResource, 0 >", "structJGadget_1_1TLinkList__factory.html", [
-          [ "JMessage::TResourceContainer::TCResource", "structJMessage_1_1TResourceContainer_1_1TCResource.html", null ]
-        ] ],
-        [ "JGadget::TLinkList_factory< T, I >", "structJGadget_1_1TLinkList__factory.html", null ]
-      ] ]
-    ] ],
-    [ "JStage::TObject", "structJStage_1_1TObject.html", [
-      [ "JStage::TActor", "structJStage_1_1TActor.html", [
-        [ "dDemo_actor_c", "classdDemo__actor__c.html", null ]
-      ] ],
-      [ "JStage::TAmbientLight", "structJStage_1_1TAmbientLight.html", [
-        [ "dDemo_ambient_c", "classdDemo__ambient__c.html", null ]
-      ] ],
-      [ "JStage::TCamera", "structJStage_1_1TCamera.html", [
-        [ "dDemo_camera_c", "classdDemo__camera__c.html", null ]
-      ] ],
-      [ "JStage::TFog", "structJStage_1_1TFog.html", [
-        [ "dDemo_fog_c", "classdDemo__fog__c.html", null ]
-      ] ],
-      [ "JStage::TLight", "structJStage_1_1TLight.html", [
-        [ "dDemo_light_c", "classdDemo__light__c.html", null ]
-      ] ],
-      [ "JStage::TSystem", "structJStage_1_1TSystem.html", [
-        [ "dDemo_system_c", "classdDemo__system__c.html", null ]
-      ] ]
-    ] ],
-    [ "JASWSParser::TOffset< T >", "classJASWSParser_1_1TOffset.html", null ],
-    [ "JASBNKParser::Ver0::TOsc", "structJASBNKParser_1_1Ver0_1_1TOsc.html", null ],
-    [ "JStudio::TVariableValue::TOutput", "structJStudio_1_1TVariableValue_1_1TOutput.html", null ],
-    [ "JStudio::TVariableValue::TOutput_none_", "structJStudio_1_1TVariableValue_1_1TOutput__none__.html", null ],
-    [ "JStudio::stb::data::TParagraph", "structJStudio_1_1stb_1_1data_1_1TParagraph.html", null ],
-    [ "JGadget::binary::TParse_header_block", "structJGadget_1_1binary_1_1TParse__header__block.html", [
-      [ "JMessage::TParse", "structJMessage_1_1TParse.html", null ],
-      [ "JStudio::ctb::TParse", "structJStudio_1_1ctb_1_1TParse.html", null ]
-    ] ],
     [ "TParse_header_block", null, [
       [ "JStudio::fvb::TParse", "classJStudio_1_1fvb_1_1TParse.html", null ],
       [ "JStudio::stb::TParse", "classJStudio_1_1stb_1_1TParse.html", [
         [ "JStudio::TParse", "structJStudio_1_1TParse.html", null ]
       ] ]
     ] ],
-    [ "JGadget::binary::TParseData", "structJGadget_1_1binary_1_1TParseData.html", [
-      [ "JGadget::binary::TParseData_aligned< 4 >", "structJGadget_1_1binary_1_1TParseData__aligned.html", [
-        [ "JMessage::data::TParse_TBlock", "structJMessage_1_1data_1_1TParse__TBlock.html", [
-          [ "JMessage::data::TParse_TBlock_color", "structJMessage_1_1data_1_1TParse__TBlock__color.html", null ],
-          [ "JMessage::data::TParse_TBlock_info", "structJMessage_1_1data_1_1TParse__TBlock__info.html", null ],
-          [ "JMessage::data::TParse_TBlock_messageID", "structJMessage_1_1data_1_1TParse__TBlock__messageID.html", null ]
-        ] ],
-        [ "JMessage::data::TParse_THeader", "structJMessage_1_1data_1_1TParse__THeader.html", null ],
-        [ "JStudio::ctb::data::TParse_TBlock", "structJStudio_1_1ctb_1_1data_1_1TParse__TBlock.html", null ],
-        [ "JStudio::ctb::data::TParse_THeader", "structJStudio_1_1ctb_1_1data_1_1TParse__THeader.html", null ],
-        [ "JStudio::fvb::data::TParse_TBlock", "classJStudio_1_1fvb_1_1data_1_1TParse__TBlock.html", null ],
-        [ "JStudio::fvb::data::TParse_THeader", "classJStudio_1_1fvb_1_1data_1_1TParse__THeader.html", null ],
-        [ "JStudio::fvb::data::TParse_TParagraph", "classJStudio_1_1fvb_1_1data_1_1TParse__TParagraph.html", null ],
-        [ "JStudio::stb::data::TParse_TBlock", "classJStudio_1_1stb_1_1data_1_1TParse__TBlock.html", [
-          [ "JStudio::stb::data::TParse_TBlock_object", "classJStudio_1_1stb_1_1data_1_1TParse__TBlock__object.html", null ]
-        ] ],
-        [ "JStudio::stb::data::TParse_THeader", "classJStudio_1_1stb_1_1data_1_1TParse__THeader.html", null ],
-        [ "JStudio::stb::data::TParse_TParagraph", "classJStudio_1_1stb_1_1data_1_1TParse__TParagraph.html", null ],
-        [ "JStudio::stb::data::TParse_TParagraph_data", "structJStudio_1_1stb_1_1data_1_1TParse__TParagraph__data.html", null ],
-        [ "JStudio::stb::data::TParse_TParagraph_dataID", "classJStudio_1_1stb_1_1data_1_1TParse__TParagraph__dataID.html", null ],
-        [ "JStudio::stb::data::TParse_TSequence", "classJStudio_1_1stb_1_1data_1_1TParse__TSequence.html", null ]
-      ] ],
-      [ "JGadget::binary::TParseData_aligned< T >", "structJGadget_1_1binary_1_1TParseData__aligned.html", null ]
-    ] ],
-    [ "JStudio::stb::TParseData< T >", "structJStudio_1_1stb_1_1TParseData.html", [
-      [ "JStudio::stb::TParseData_fixed< T >", "structJStudio_1_1stb_1_1TParseData__fixed.html", null ]
-    ] ],
-    [ "JGadget::binary::TParseValue_raw_< T >", "structJGadget_1_1binary_1_1TParseValue__raw__.html", [
-      [ "JGadget::binary::TParseValue_endian_big_< T >", "structJGadget_1_1binary_1_1TParseValue__endian__big__.html", null ]
-    ] ],
-    [ "JASDrumSet::TPerc", "structJASDrumSet_1_1TPerc.html", null ],
     [ "TPRIsEqual_pointer_< T >", "classTPRIsEqual__pointer__.html", null ],
-    [ "JMessage::TProcessor::TProcess_", "structJMessage_1_1TProcessor_1_1TProcess__.html", null ],
-    [ "JMessage::TSequenceProcessor::TProcess_", "structJMessage_1_1TSequenceProcessor_1_1TProcess__.html", null ],
-    [ "JMessage::TProcessor", "structJMessage_1_1TProcessor.html", [
-      [ "JMessage::TRenderingProcessor", "structJMessage_1_1TRenderingProcessor.html", [
-        [ "jmessage_string_tMeasureProcessor", "structjmessage__string__tMeasureProcessor.html", [
-          [ "jmessage_string_tSequenceProcessor", "structjmessage__string__tSequenceProcessor.html", null ]
-        ] ],
-        [ "jmessage_string_tRenderingProcessor", "structjmessage__string__tRenderingProcessor.html", null ],
-        [ "jmessage_tMeasureProcessor", "structjmessage__tMeasureProcessor.html", [
-          [ "jmessage_tSequenceProcessor", "structjmessage__tSequenceProcessor.html", null ]
-        ] ],
-        [ "jmessage_tRenderingProcessor", "structjmessage__tRenderingProcessor.html", null ]
-      ] ],
-      [ "JMessage::TSequenceProcessor", "structJMessage_1_1TSequenceProcessor.html", [
-        [ "jmessage_string_tSequenceProcessor", "structjmessage__string__tSequenceProcessor.html", null ],
-        [ "jmessage_tSequenceProcessor", "structjmessage__tSequenceProcessor.html", null ]
-      ] ]
-    ] ],
-    [ "JMath::TRandom_fast_", "structJMath_1_1TRandom__fast__.html", null ],
     [ "treasureDispData", "structtreasureDispData.html", null ],
-    [ "JMessage::TReference", "structJMessage_1_1TReference.html", [
-      [ "jmessage_string_tReference", "structjmessage__string__tReference.html", null ],
-      [ "jmessage_tReference", "structjmessage__tReference.html", null ]
-    ] ],
-    [ "JMessage::TResource", "structJMessage_1_1TResource.html", null ],
-    [ "JMessage::TResource_color", "structJMessage_1_1TResource__color.html", null ],
-    [ "JMessage::TResourceContainer", "structJMessage_1_1TResourceContainer.html", null ],
     [ "TRKBuffer", "structTRKBuffer.html", null ],
     [ "TRKEvent", "structTRKEvent.html", null ],
     [ "TRKEventQueue", "structTRKEventQueue.html", null ],
@@ -3903,33 +3942,11 @@ var hierarchy =
     [ "TRKState", "structTRKState.html", null ],
     [ "TRKState_PPC", "structTRKState__PPC.html", null ],
     [ "TRKStepStatus", "structTRKStepStatus.html", null ],
-    [ "JAUSection::TSectionData", "structJAUSection_1_1TSectionData.html", null ],
-    [ "JAUSectionHeap::TSectionHeapData", "structJAUSectionHeap_1_1TSectionHeapData.html", null ],
-    [ "JStudio::TAdaptor::TSetVariableValue_immediate", "structJStudio_1_1TAdaptor_1_1TSetVariableValue__immediate.html", null ],
-    [ "JMath::TSinCosTable< A1, B1 >", "structJMath_1_1TSinCosTable.html", null ],
     [ "TSinCosTable< N, T >", "structTSinCosTable.html", null ],
     [ "TSinCosTable< 13, f32 >", "structTSinCosTable.html", null ],
-    [ "JMath::TSinCosTable__template0", "structJMath_1_1TSinCosTable____template0.html", null ],
-    [ "J2DPrint::TSize", "structJ2DPrint_1_1TSize.html", null ],
-    [ "JMessage::TProcessor::TStack_", "structJMessage_1_1TProcessor_1_1TStack__.html", null ],
-    [ "JKRHeap::TState", "classJKRHeap_1_1TState.html", null ],
-    [ "JStudio::TControl::TTransform_position", "structJStudio_1_1TControl_1_1TTransform__position.html", null ],
-    [ "JStudio::TControl::TTransform_translation_rotation_scaling", "structJStudio_1_1TControl_1_1TTransform__translation__rotation__scaling.html", null ],
-    [ "JAISoundParamsTransition::TTransition", "structJAISoundParamsTransition_1_1TTransition.html", null ],
-    [ "JGeometry::TUtil< T >", "structJGeometry_1_1TUtil.html", null ],
-    [ "JGeometry::TUtil< double >", "structJGeometry_1_1TUtil_3_01double_01_4.html", null ],
-    [ "JGeometry::TUtil< f32 >", "structJGeometry_1_1TUtil_3_01f32_01_4.html", null ],
-    [ "JStudio::TVariableValue", "structJStudio_1_1TVariableValue.html", null ],
-    [ "JGeometry::TVec2< T >", "structJGeometry_1_1TVec2.html", null ],
     [ "JGeometry::TVec2< f32 >", "structJGeometry_1_1TVec2.html", null ],
     [ "JGeometry::TVec2< s16 >", "structJGeometry_1_1TVec2.html", null ],
-    [ "JGeometry::TVec3< T >", "structJGeometry_1_1TVec3.html", null ],
-    [ "JGeometry::TVec3< double >", "structJGeometry_1_1TVec3_3_01double_01_4.html", null ],
-    [ "JGeometry::TVec3< f32 >", "structJGeometry_1_1TVec3_3_01f32_01_4.html", null ],
     [ "JGeometry::TVec3< float >", "structJGeometry_1_1TVec3.html", null ],
-    [ "JGeometry::TVec3< s16 >", "structJGeometry_1_1TVec3_3_01s16_01_4.html", null ],
-    [ "JGeometry::TVec3__template0", "structJGeometry_1_1TVec3____template0.html", null ],
-    [ "JGadget::TVector< T, Allocator >", "structJGadget_1_1TVector.html", null ],
     [ "JGadget::TVector< void * >", "structJGadget_1_1TVector.html", [
       [ "JGadget::TVector_pointer_void", "structJGadget_1_1TVector__pointer__void.html", [
         [ "JGadget::TVector_pointer< TFunctionValue * >", "structJGadget_1_1TVector__pointer.html", [
@@ -3943,41 +3960,23 @@ var hierarchy =
     [ "JGadget::TVector< void *, TAllocator >", "structJGadget_1_1TVector.html", [
       [ "JGadget::TVector_pointer_void", "structJGadget_1_1TVector__pointer__void.html", null ]
     ] ],
-    [ "JGadget::TVector__template0", "structJGadget_1_1TVector____template0.html", null ],
-    [ "JGadget::TVector_pointer__template0", "structJGadget_1_1TVector__pointer____template0.html", null ],
-    [ "JStudio_JAudio2::TAdaptor_sound::TVVOSetValue_", "structJStudio__JAudio2_1_1TAdaptor__sound_1_1TVVOSetValue__.html", null ],
-    [ "JStudio_JStage::TAdaptor_actor::TVVOutput_ANIMATION_FRAME_", "structJStudio__JStage_1_1TAdaptor__actor_1_1TVVOutput__ANIMATION__FRAME__.html", null ],
-    [ "JStudio_JStage::TAdaptor_light::TVVOutput_direction_", "structJStudio__JStage_1_1TAdaptor__light_1_1TVVOutput__direction__.html", null ],
-    [ "JASWSParser::TWave", "structJASWSParser_1_1TWave.html", null ],
-    [ "JASWSParser::TWaveArchive", "structJASWSParser_1_1TWaveArchive.html", null ],
-    [ "JASWSParser::TWaveArchiveBank", "structJASWSParser_1_1TWaveArchiveBank.html", null ],
-    [ "JASBasicWaveBank::TWaveGroup", "structJASBasicWaveBank_1_1TWaveGroup.html", null ],
-    [ "JASSimpleWaveBank::TWaveHandle", "structJASSimpleWaveBank_1_1TWaveHandle.html", null ],
-    [ "JUTFont::TWidth", "structJUTFont_1_1TWidth.html", null ],
-    [ "dTres_c::type_group_list", "structdTres__c_1_1type__group__list.html", null ],
     [ "type_tbl_entry", "structtype__tbl__entry.html", null ],
     [ "unk_print", "structunk__print.html", null ],
     [ "unk_process_node_class", "structunk__process__node__class.html", null ],
-    [ "JKRSolidHeap::Unknown", "structJKRSolidHeap_1_1Unknown.html", null ],
     [ "unknown", "structunknown.html", null ],
-    [ "daObjVolcBall_c::vball_s", "structdaObjVolcBall__c_1_1vball__s.html", null ],
     [ "Vec", "structVec.html", [
       [ "cBgD_Vtx_t", "structcBgD__Vtx__t.html", null ],
       [ "cXyz", "structcXyz.html", null ]
     ] ],
-    [ "JGadget::vector", "structJGadget_1_1vector.html", null ],
     [ "VertexNormal", "structVertexNormal.html", null ],
     [ "view_port_class", "structview__port__class.html", null ],
     [ "view_process_profile_definition", "structview__process__profile__definition.html", null ],
     [ "VIPositionInfo", "structVIPositionInfo.html", null ],
     [ "VITimingInfo", "structVITimingInfo.html", null ],
-    [ "daObjVolcBall_c::volc_param_c", "classdaObjVolcBall__c_1_1volc__param__c.html", null ],
     [ "VRKUMO_EFF", "structVRKUMO__EFF.html", null ],
-    [ "dMeter2Info_c::WarpInfo_c", "classdMeter2Info__c_1_1WarpInfo__c.html", null ],
     [ "wcs_data", "structwcs__data.html", null ],
     [ "wd_ss", "structwd__ss.html", null ],
     [ "wf_tail_s", "structwf__tail__s.html", null ],
-    [ "ResFONT::WID1", "structResFONT_1_1WID1.html", null ],
     [ "WIND_INF_ENTITY", "structWIND__INF__ENTITY.html", null ],
     [ "WIND_INFLUENCE", "structWIND__INFLUENCE.html", null ],
     [ "XY", "structXY.html", null ],
@@ -3988,6 +3987,7 @@ var hierarchy =
     [ "Z2AudibleRelPos", "structZ2AudibleRelPos.html", null ],
     [ "Z2Audience3DSetting", "structZ2Audience3DSetting.html", null ],
     [ "Z2AudioCamera", "structZ2AudioCamera.html", null ],
+    [ "Z2Calc::FNoise1f", "structZ2Calc_1_1FNoise1f.html", null ],
     [ "Z2ConnectCost", "structZ2ConnectCost.html", null ],
     [ "Z2Creature", "classZ2Creature.html", [
       [ "Z2CreatureCitizen", "classZ2CreatureCitizen.html", null ],

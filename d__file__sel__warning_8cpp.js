@@ -3,7 +3,6 @@ var d__file__sel__warning_8cpp =
     [ "dFile_warning_c", "classdFile__warning__c.html", "classdFile__warning__c" ],
     [ "dMsgString_c", "structdMsgString__c.html", "structdMsgString__c" ],
     [ "dDlst_FileWarn_c", "structdDlst__FileWarn__c.html", "structdDlst__FileWarn__c" ],
-    [ "J2DAnmLoaderDataBase", "structJ2DAnmLoaderDataBase.html", "structJ2DAnmLoaderDataBase" ],
     [ "__ct__12dMsgString_cFv", "d__file__sel__warning_8cpp.html#aedf53238d8914e81a04cb432ea9e6395", null ],
     [ "__ct__15dFile_warning_cFP10JKRArchiveUc", "d__file__sel__warning_8cpp.html#a4711f93feba6561b93e234249391b032", null ],
     [ "__ct__8CPaneMgrFP9J2DScreenUxUcP10JKRExpHeap", "d__file__sel__warning_8cpp.html#a316f2976e756e28215407d8752d87a7d", null ],

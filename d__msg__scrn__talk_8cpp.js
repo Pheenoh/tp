@@ -1,6 +1,5 @@
 var d__msg__scrn__talk_8cpp =
 [
-    [ "JKRExpHeap", "structJKRExpHeap.html", "structJKRExpHeap" ],
     [ "dMsgScrnTalk_c", "structdMsgScrnTalk__c.html", "structdMsgScrnTalk__c" ],
     [ "dMsgScrnLight_c", "structdMsgScrnLight__c.html", "structdMsgScrnLight__c" ],
     [ "dMsgScrnBase_c", "structdMsgScrnBase__c.html", "structdMsgScrnBase__c" ],
@@ -8,16 +7,9 @@ var d__msg__scrn__talk_8cpp =
     [ "dMsgScrn3Select_c", "structdMsgScrn3Select__c.html", "structdMsgScrn3Select__c" ],
     [ "dMsgObject_c", "structdMsgObject__c.html", "structdMsgObject__c" ],
     [ "JUtility", "structJUtility.html", null ],
-    [ "JUtility::TColor", "structJUtility_1_1TColor.html", "structJUtility_1_1TColor" ],
     [ "dMeter2Draw_c", "structdMeter2Draw__c.html", "structdMeter2Draw__c" ],
     [ "Vec", "structVec.html", "structVec" ],
     [ "cXyz", "structcXyz.html", "structcXyz" ],
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JKRArchive", "structJKRArchive.html", "structJKRArchive" ],
-    [ "J2DTextBox", "structJ2DTextBox.html", "structJ2DTextBox" ],
-    [ "J2DGrafContext", "structJ2DGrafContext.html", "structJ2DGrafContext" ],
-    [ "J2DScreen", "structJ2DScreen.html", "structJ2DScreen" ],
-    [ "J2DPane", "structJ2DPane.html", "structJ2DPane" ],
     [ "CPaneMgrAlpha", "structCPaneMgrAlpha.html", "structCPaneMgrAlpha" ],
     [ "CPaneMgr", "structCPaneMgr.html", "structCPaneMgr" ],
     [ "__ct__14dMsgScrnBase_cFv", "d__msg__scrn__talk_8cpp.html#aace9a1b3a643fbb85e4eac8e2ba0dec4", null ],

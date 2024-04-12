@@ -1,9 +1,5 @@
 var JMATrigonometric_8h =
 [
-    [ "TAngleConstant_< f32 >", "structTAngleConstant___3_01f32_01_4.html", "structTAngleConstant___3_01f32_01_4" ],
-    [ "TSinCosTable< N, T >", "structTSinCosTable.html", "structTSinCosTable" ],
-    [ "TAtanTable", "structTAtanTable.html", "structTAtanTable" ],
-    [ "TAsinAcosTable", "structTAsinAcosTable.html", "structTAsinAcosTable" ],
     [ "JMACosDegree", "JMATrigonometric_8h.html#a5f4d064521b6117723778c78e133ef5c", null ],
     [ "JMASCos", "JMATrigonometric_8h.html#ae25d6f7fbcc8887f8aefd09cae43c909", null ],
     [ "JMASCosShort", "JMATrigonometric_8h.html#ad531c5a564c1be05d62b0534d848c519", null ],

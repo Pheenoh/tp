@@ -1,8 +1,5 @@
 var JASAiCtrl_8cpp =
 [
-    [ "JASPortCmd", "structJASPortCmd.html", "structJASPortCmd" ],
-    [ "JASDSPChannel", "structJASDSPChannel.html", "structJASDSPChannel" ],
-    [ "JASChannel", "structJASChannel.html", "structJASChannel" ],
     [ "__nwa__FUlP7JKRHeapi", "JASAiCtrl_8cpp.html#a705148c8961d58e1331fd2c53e823e37", null ],
     [ "_restgpr_25", "JASAiCtrl_8cpp.html#a07802390ec789d585ab9991a261e4ee5", null ],
     [ "_restgpr_27", "JASAiCtrl_8cpp.html#afdca0eb87578e0952b66387b093d81f3", null ],

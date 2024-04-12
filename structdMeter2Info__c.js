@@ -75,6 +75,7 @@ var structdMeter2Info__c =
     [ "offUseButton", "structdMeter2Info__c.html#afb540c53d25e501804b8f5cf18a7bf5a", null ],
     [ "onBlinkButton", "structdMeter2Info__c.html#aedc86f292a44207c08944575cf339f58", null ],
     [ "onDirectUseItem", "structdMeter2Info__c.html#a0f3c8003d0f89ea6a583f8859ad93a78", null ],
+    [ "onGameStatus", "structdMeter2Info__c.html#a4536a17a4e3db21bd440bcce975a7743", null ],
     [ "onLifeGaugeSE", "structdMeter2Info__c.html#a1aa610cb53a01f4b4fef5d156bbe80a9", null ],
     [ "onShopTalkFlag", "structdMeter2Info__c.html#a1204966eba6cda99cf3196f07d2b78b4", null ],
     [ "readItemTexture", "structdMeter2Info__c.html#a967e328708eb2a6a5c06c62f195e3b62", null ],

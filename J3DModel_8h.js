@@ -1,8 +1,5 @@
 var J3DModel_8h =
 [
-    [ "J3DUnkCalc1", "structJ3DUnkCalc1.html", "structJ3DUnkCalc1" ],
-    [ "J3DUnkCalc2", "structJ3DUnkCalc2.html", "structJ3DUnkCalc2" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
     [ "J3DCalcCallBack", "J3DModel_8h.html#a235c16f5a7160d5ab5fd1789119bdad5", null ],
     [ "J3DMdlFlag", "J3DModel_8h.html#a3ecb7261816b0d7c134baaee78846a0b", [
       [ "J3DMdlFlag_Unk00001", "J3DModel_8h.html#a3ecb7261816b0d7c134baaee78846a0ba3225e1e9744f5f1fd1a985ca7af7931a", null ],

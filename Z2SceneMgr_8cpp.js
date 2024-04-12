@@ -7,8 +7,6 @@ var Z2SceneMgr_8cpp =
     [ "Z2SoundObjMgr", "structZ2SoundObjMgr.html", "structZ2SoundObjMgr" ],
     [ "Z2FxLineMgr", "structZ2FxLineMgr.html", "structZ2FxLineMgr" ],
     [ "Z2EnvSeMgr", "structZ2EnvSeMgr.html", "structZ2EnvSeMgr" ],
-    [ "JAUSoundTable", "structJAUSoundTable.html", "structJAUSoundTable" ],
-    [ "JASWaveArc", "structJASWaveArc.html", "structJASWaveArc" ],
     [ "__as__10JAISoundIDFRC10JAISoundID", "Z2SceneMgr_8cpp.html#ade29ffe5427e3c2a02448bcc9bc77ebf", null ],
     [ "__ct__10JAISoundIDFRC10JAISoundID", "Z2SceneMgr_8cpp.html#a389187f5a9235935b4fd0fa41394a0af", null ],
     [ "__ct__10JAISoundIDFUl", "Z2SceneMgr_8cpp.html#a24aa61d527d653af399b64f8b5641e2a", null ],

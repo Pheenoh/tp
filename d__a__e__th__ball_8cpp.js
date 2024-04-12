@@ -2,7 +2,6 @@ var d__a__e__th__ball_8cpp =
 [
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
-    [ "J3DAnmTransform", "structJ3DAnmTransform.html", "structJ3DAnmTransform" ],
     [ "mDoExt_McaMorfSO", "classmDoExt__McaMorfSO.html", "classmDoExt__McaMorfSO" ],
     [ "mDoCPd_c", "classmDoCPd__c.html", "classmDoCPd__c" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
@@ -11,7 +10,6 @@ var d__a__e__th__ball_8cpp =
     [ "dVibration_c", "classdVibration__c.html", "classdVibration__c" ],
     [ "dSv_memBit_c", "structdSv__memBit__c.html", "structdSv__memBit__c" ],
     [ "dKy_tevstr_c", "classdKy__tevstr__c.html", "classdKy__tevstr__c" ],
-    [ "J3DModelData", "classJ3DModelData.html", "classJ3DModelData" ],
     [ "dScnKy_env_light_c", "classdScnKy__env__light__c.html", "classdScnKy__env__light__c" ],
     [ "dRes_info_c", "classdRes__info__c.html", "classdRes__info__c" ],
     [ "dRes_control_c", "classdRes__control__c.html", "classdRes__control__c" ],
@@ -32,7 +30,6 @@ var d__a__e__th__ball_8cpp =
     [ "_GXTexObj", "struct__GXTexObj.html", "struct__GXTexObj" ],
     [ "Z2Creature", "classZ2Creature.html", "classZ2Creature" ],
     [ "JMath", "structJMath.html", "structJMath" ],
-    [ "J3DModel", "classJ3DModel.html", "classJ3DModel" ],
     [ "__construct_array", "d__a__e__th__ball_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__e__th__ball_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],
     [ "__ct__10fopAc_ac_cFv", "d__a__e__th__ball_8cpp.html#a085f3a34ce186ab6e202a97581a1f68a", null ],

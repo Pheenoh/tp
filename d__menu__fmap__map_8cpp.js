@@ -10,7 +10,6 @@ var d__menu__fmap__map_8cpp =
     [ "renderingFmap_c", "structrenderingFmap__c.html", "structrenderingFmap__c" ],
     [ "renderingFmap_c::palette_e", "structrenderingFmap__c_1_1palette__e.html", null ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
-    [ "ResTIMG", "structResTIMG.html", "structResTIMG" ],
     [ "dRenderingMap_c", "structdRenderingMap__c.html", "structdRenderingMap__c" ],
     [ "dRenderingFDAmap_c", "structdRenderingFDAmap__c.html", "structdRenderingFDAmap__c" ],
     [ "dMfm_HIO_prm_res_src_s", "structdMfm__HIO__prm__res__src__s.html", "structdMfm__HIO__prm__res__src__s" ],

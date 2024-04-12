@@ -1,8 +1,5 @@
 var J3DShape_8h =
 [
-    [ "J3DCurrentMtxInfo", "classJ3DCurrentMtxInfo.html", "classJ3DCurrentMtxInfo" ],
-    [ "J3DCurrentMtx", "classJ3DCurrentMtx.html", "classJ3DCurrentMtx" ],
-    [ "J3DShape", "classJ3DShape.html", "classJ3DShape" ],
     [ "J3DShpFlag", "J3DShape_8h.html#ad9cff334cc916c839a76377035ca005f", [
       [ "J3DShpFlag_Visible", "J3DShape_8h.html#ad9cff334cc916c839a76377035ca005fa50f862cc44f695e82f222154d2ac501e", null ],
       [ "J3DShpFlag_SkinPosCpu", "J3DShape_8h.html#ad9cff334cc916c839a76377035ca005fa8e98275a3380d50b10d821182bea6884", null ],

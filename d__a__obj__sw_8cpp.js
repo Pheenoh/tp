@@ -3,7 +3,6 @@ var d__a__obj__sw_8cpp =
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "obj_sw_class", "structobj__sw__class.html", null ],
     [ "obj_sc_s", "structobj__sc__s.html", "structobj__sc__s" ],
-    [ "ResTIMG", "structResTIMG.html", "structResTIMG" ],
     [ "dKy_tevstr_c", "classdKy__tevstr__c.html", "classdKy__tevstr__c" ],
     [ "mDoCPd_c", "classmDoCPd__c.html", "classmDoCPd__c" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],

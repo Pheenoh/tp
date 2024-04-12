@@ -1,7 +1,5 @@
 var JFWDisplay_8h =
 [
-    [ "JFWAlarm", "classJFWAlarm.html", "classJFWAlarm" ],
-    [ "JFWDisplay", "classJFWDisplay.html", "classJFWDisplay" ],
     [ "GXColor", "JFWDisplay_8h.html#a0419d171f4d66c2b2a77bd299ddbdcdc", null ],
     [ "GXRenderModeObj", "JFWDisplay_8h.html#a1e9a66640aae9a5e9fc045dac21369a4", null ],
     [ "JFWDisplayUnkFunc", "JFWDisplay_8h.html#a0adbe410e14c946f385c50918447c8b1", null ],

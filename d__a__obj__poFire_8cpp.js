@@ -23,7 +23,6 @@ var d__a__obj__poFire_8cpp =
     [ "dAttCatch_c", "classdAttCatch__c.html", "classdAttCatch__c" ],
     [ "cBgS_GndChk", "classcBgS__GndChk.html", "classcBgS__GndChk" ],
     [ "cBgS", "classcBgS.html", "classcBgS" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
     [ "JMath", "structJMath.html", "structJMath" ],
     [ "JGeometry", "structJGeometry.html", "structJGeometry" ],
     [ "JGeometry::TVec3< T >", "structJGeometry_1_1TVec3.html", "structJGeometry_1_1TVec3" ],

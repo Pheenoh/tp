@@ -28,8 +28,6 @@ var d__a__obj__life__container_8cpp =
     [ "cBgS", "classcBgS.html", "classcBgS" ],
     [ "Z2SoundObjSimple", "classZ2SoundObjSimple.html", "classZ2SoundObjSimple" ],
     [ "Z2SoundObjBase", "classZ2SoundObjBase.html", "classZ2SoundObjBase" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
-    [ "JPAEmitterCallBack", "classJPAEmitterCallBack.html", "classJPAEmitterCallBack" ],
     [ "JMath", "structJMath.html", "structJMath" ],
     [ "__CreateHeap__11daObjLife_cFv", "d__a__obj__life__container_8cpp.html#ac5c8d7b490bb4c0cba9f7c4f048e85b8", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__life__container_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],

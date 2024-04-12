@@ -3,7 +3,6 @@ var d__a__obj__crope_8cpp =
     [ "request_of_phase_process_class", "structrequest__of__phase__process__class.html", "structrequest__of__phase__process__class" ],
     [ "mDoExt_3DlineMat_c", "classmDoExt__3DlineMat__c.html", "classmDoExt__3DlineMat__c" ],
     [ "mDoExt_3DlineMatSortPacket", "classmDoExt__3DlineMatSortPacket.html", "classmDoExt__3DlineMatSortPacket" ],
-    [ "ResTIMG", "structResTIMG.html", "structResTIMG" ],
     [ "_GXColor", "struct__GXColor.html", "struct__GXColor" ],
     [ "dKy_tevstr_c", "classdKy__tevstr__c.html", "classdKy__tevstr__c" ],
     [ "mDoExt_3DlineMat1_c", "classmDoExt__3DlineMat1__c.html", "classmDoExt__3DlineMat1__c" ],

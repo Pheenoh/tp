@@ -24,7 +24,6 @@ var d__menu__fmap_8cpp =
     [ "dMenuFmapIconPointer_c", "structdMenuFmapIconPointer__c.html", "structdMenuFmapIconPointer__c" ],
     [ "dMenuFmapIconDisp_c", "structdMenuFmapIconDisp__c.html", "structdMenuFmapIconDisp__c" ],
     [ "dMapInfo_n", "structdMapInfo__n.html", "structdMapInfo__n" ],
-    [ "JKRAramArchive", "structJKRAramArchive.html", "structJKRAramArchive" ],
     [ "__ct__10dMsgFlow_cFv", "d__menu__fmap_8cpp.html#adf6efa29e1556e386b88dccee61eff3e", null ],
     [ "__ct__12dMenu_Fmap_cFP10JKRExpHeapP9STControlP10CSTControlUcUcUcffUc", "d__menu__fmap_8cpp.html#a4fbf009574b4ae9a85320a38d70d04a6", null ],
     [ "__ct__15dMenu_FmapMap_cFv", "d__menu__fmap_8cpp.html#a956f1f3461050ced5444a624c1ca92f0", null ],

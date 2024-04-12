@@ -1,8 +1,5 @@
 var J2DPicture_8h =
 [
-    [ "J2DPicHeader", "structJ2DPicHeader.html", "structJ2DPicHeader" ],
-    [ "J2DScrnBlockPictureParameter", "structJ2DScrnBlockPictureParameter.html", "structJ2DScrnBlockPictureParameter" ],
-    [ "J2DPicture", "structJ2DPicture.html", "structJ2DPicture" ],
     [ "J2DBinding", "J2DPicture_8h.html#a96fb4ec02521f5de85b6d87e225dc3a2", [
       [ "J2DBind_Bottom", "J2DPicture_8h.html#a96fb4ec02521f5de85b6d87e225dc3a2aa90df4b78972f48bccbfa251fdbcb937", null ],
       [ "J2DBind_Top", "J2DPicture_8h.html#a96fb4ec02521f5de85b6d87e225dc3a2af077e7012c960d2031b28e1bfd0e32f0", null ],

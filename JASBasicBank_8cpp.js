@@ -1,11 +1,6 @@
 var JASBasicBank_8cpp =
 [
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JASInstParam", "structJASInstParam.html", "structJASInstParam" ],
-    [ "JASInst", "structJASInst.html", "structJASInst" ],
-    [ "JASCalc", "structJASCalc.html", "structJASCalc" ],
     [ "JASBasicBank", "structJASBasicBank.html", "structJASBasicBank" ],
-    [ "JASBank", "structJASBank.html", "structJASBank" ],
     [ "__ct__12JASBasicBankFv", "JASBasicBank_8cpp.html#a7d4c57345876a442186b85785338c03f", null ],
     [ "__dl__FPv", "JASBasicBank_8cpp.html#a498e6440d5c316e2672169ee4ed92309", null ],
     [ "__dt__12JASBasicBankFv", "JASBasicBank_8cpp.html#a99ab74bc5d19c49fe5ff2ddba9b3090c", null ],

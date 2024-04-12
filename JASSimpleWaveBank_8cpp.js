@@ -1,8 +1,5 @@
 var JASSimpleWaveBank_8cpp =
 [
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JASWaveInfo", "structJASWaveInfo.html", "structJASWaveInfo" ],
-    [ "JASWaveArc", "structJASWaveArc.html", "structJASWaveArc" ],
     [ "JASSimpleWaveBank", "structJASSimpleWaveBank.html", "structJASSimpleWaveBank" ],
     [ "JASSimpleWaveBank::TWaveHandle", "structJASSimpleWaveBank_1_1TWaveHandle.html", "structJASSimpleWaveBank_1_1TWaveHandle" ],
     [ "__construct_new_array", "JASSimpleWaveBank_8cpp.html#a323591f74ddf6092f175dfa7e270e6fb", null ],

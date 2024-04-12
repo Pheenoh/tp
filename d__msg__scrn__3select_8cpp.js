@@ -1,14 +1,6 @@
 var d__msg__scrn__3select_8cpp =
 [
-    [ "JKRArchive", "structJKRArchive.html", "structJKRArchive" ],
     [ "dSelect_cursor_c", "structdSelect__cursor__c.html", "structdSelect__cursor__c" ],
-    [ "JKRFileLoader", "structJKRFileLoader.html", "structJKRFileLoader" ],
-    [ "JKRExpHeap", "structJKRExpHeap.html", "structJKRExpHeap" ],
-    [ "J2DTextBox", "structJ2DTextBox.html", "structJ2DTextBox" ],
-    [ "J2DGrafContext", "structJ2DGrafContext.html", "structJ2DGrafContext" ],
-    [ "J2DScreen", "structJ2DScreen.html", "structJ2DScreen" ],
-    [ "J2DAnmLoaderDataBase", "structJ2DAnmLoaderDataBase.html", "structJ2DAnmLoaderDataBase" ],
-    [ "J2DAnmColorKey", "structJ2DAnmColorKey.html", "structJ2DAnmColorKey" ],
     [ "CPaneMgrAlpha", "structCPaneMgrAlpha.html", "structCPaneMgrAlpha" ],
     [ "CPaneMgr", "structCPaneMgr.html", "structCPaneMgr" ],
     [ "__ct__16dSelect_cursor_cFUcfP10JKRArchive", "d__msg__scrn__3select_8cpp.html#a63b47231a5abdcdf055a3b70e6cca6da", null ],

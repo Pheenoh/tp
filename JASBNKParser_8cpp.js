@@ -1,14 +1,7 @@
 var JASBNKParser_8cpp =
 [
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
-    [ "JASMemPool_MultiThreaded< A0 >", "structJASMemPool__MultiThreaded.html", "structJASMemPool__MultiThreaded" ],
     [ "JASMemPool_MultiThreaded__template2", "structJASMemPool__MultiThreaded____template2.html", "structJASMemPool__MultiThreaded____template2" ],
-    [ "JASInst", "structJASInst.html", "structJASInst" ],
-    [ "JASGenericMemPool", "structJASGenericMemPool.html", "structJASGenericMemPool" ],
-    [ "JASDrumSet", "structJASDrumSet.html", "structJASDrumSet" ],
     [ "JASDrumSet::TPerc", "structJASDrumSet_1_1TPerc.html", "structJASDrumSet_1_1TPerc" ],
-    [ "JASCalc", "structJASCalc.html", "structJASCalc" ],
-    [ "JASBasicInst", "structJASBasicInst.html", "structJASBasicInst" ],
     [ "JASBasicBank", "structJASBasicBank.html", "structJASBasicBank" ],
     [ "__ct__10JASDrumSetFv", "JASBNKParser_8cpp.html#ae204b4d4e3b62a7dfd36180c53cecbcc", null ],
     [ "__ct__12JASBasicBankFv", "JASBNKParser_8cpp.html#a7d4c57345876a442186b85785338c03f", null ],

@@ -1,6 +1,5 @@
 var JKRHeap_8h =
 [
-    [ "JKRHeap", "structJKRHeap.html", "structJKRHeap" ],
     [ "JKRHeap::TState", "classJKRHeap_1_1TState.html", "classJKRHeap_1_1TState" ],
     [ "JKRErrorHandler", "JKRHeap_8h.html#a2e55ce63de02b1e205874219e4f65119", null ],
     [ "JKRAlloc", "JKRHeap_8h.html#a9b99aa6964e7e599f61c5692733cc26c", null ],

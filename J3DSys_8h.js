@@ -1,7 +1,5 @@
 var J3DSys_8h =
 [
-    [ "J3DTexCoordScaleInfo", "structJ3DTexCoordScaleInfo.html", "structJ3DTexCoordScaleInfo" ],
-    [ "J3DSys", "structJ3DSys.html", "structJ3DSys" ],
     [ "J3DError", "J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125", [
       [ "kJ3DError_Success", "J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a0a335659e4756d79211cfd67b9b7d2e6", null ],
       [ "kJ3DError_Alloc", "J3DSys_8h.html#ac80cca76e4c0a8b5d26b0835bbda4125a42330217f356068a0d66dfc3bae798fa", null ]

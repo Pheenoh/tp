@@ -28,8 +28,6 @@ var d__a__obj__drop_8cpp =
     [ "cBgS_PolyInfo", "classcBgS__PolyInfo.html", "classcBgS__PolyInfo" ],
     [ "Z2SoundObjSimple", "classZ2SoundObjSimple.html", "classZ2SoundObjSimple" ],
     [ "Z2SoundObjBase", "classZ2SoundObjBase.html", "classZ2SoundObjBase" ],
-    [ "JPABaseEmitter", "classJPABaseEmitter.html", "classJPABaseEmitter" ],
-    [ "JPAEmitterCallBack", "classJPAEmitterCallBack.html", "classJPAEmitterCallBack" ],
     [ "JMath", "structJMath.html", "structJMath" ],
     [ "__construct_array", "d__a__obj__drop_8cpp.html#a58dbf4d2335fdc0e2065200543f5e4ea", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__obj__drop_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],

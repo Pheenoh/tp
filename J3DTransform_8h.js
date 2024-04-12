@@ -1,6 +1,5 @@
 var J3DTransform_8h =
 [
-    [ "J3DTransformInfo", "structJ3DTransformInfo.html", "structJ3DTransformInfo" ],
     [ "J3DCalcBBoardMtx", "J3DTransform_8h.html#ae59dbdb2d597f00e8ed700dc42af22c9", null ],
     [ "J3DCalcYBBoardMtx", "J3DTransform_8h.html#a64e9a19bb658bb302a5c65d589de8098", null ],
     [ "J3DGetTextureMtx", "J3DTransform_8h.html#a6b2c6730bee6326225c2e99dcd5d1e0d", null ],
