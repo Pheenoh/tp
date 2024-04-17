@@ -1595,7 +1595,7 @@ var group__jsystem_jaudio =
       [ "mDirectRelease", "structJASTrack.html#ae9a57698366824757ee20883949e0270", null ],
       [ "mFilterMode", "structJASTrack.html#ad1d664c4dc68f95934f3fce1fd92196a", null ],
       [ "mFIR", "structJASTrack.html#a10f0f8d1be0ef6c0b1fa5064c02906aa", null ],
-      [ "mFlags", "structJASTrack.html#a509692600d49d7d2115a7462af307b33", null ],
+      [ "mFlags", "structJASTrack.html#a85c3e0cc28b236815510c7be90500bfb", null ],
       [ "mGateRate", "structJASTrack.html#a317b83f9a65bfa7a6dfa766354e3c7b8", null ],
       [ "mIIR", "structJASTrack.html#aa4aed9ccaf0c55908a9dd5f983d9ab34", null ],
       [ "mMixConfig", "structJASTrack.html#a37948e222ae80a2719d26333b5367488", null ],
@@ -1789,11 +1789,11 @@ var group__jsystem_jaudio =
       [ "b1_2_7", "structJAUAudibleParam.html#aa525d7eb9f0168c13d658816bf373745", null ],
       [ "b2", "structJAUAudibleParam.html#afab80fded1a560451175d37a735003dd", null ],
       [ "b3", "structJAUAudibleParam.html#a4d24f103d546dcc9ee3c0ea1b5f5aaa0", null ],
-      [ "bytes", "structJAUAudibleParam.html#afd4a7d2c2b9cee3da96e64263d9ecb40", null ],
+      [ "bytes", "structJAUAudibleParam.html#ac78e981eb1a83f49790cfc5d9f59e93c", null ],
       [ "f0", "structJAUAudibleParam.html#a02c74b42a568c265d12b4b619eb6288f", null ],
       [ "f1", "structJAUAudibleParam.html#a036182d2336051a8c15d0585db1c34dc", null ],
-      [ "field_0x0", "structJAUAudibleParam.html#a60783986f39db24c8c33c0ad116e922d", null ],
-      [ "half", "structJAUAudibleParam.html#a3ee0a89bc464b509ebcf92f7f57675b7", null ],
+      [ "field_0x0", "structJAUAudibleParam.html#a625a759c8c4a4b4e5aeefc4b81ac7906", null ],
+      [ "half", "structJAUAudibleParam.html#aa4a2727a9c0fa5559b4c3503983cfefd", null ],
       [ "raw", "structJAUAudibleParam.html#a27d9250572d599df237d0b2688e991d9", null ]
     ] ],
     [ "JAUAudioArcInterpreter", "classJAUAudioArcInterpreter.html", [

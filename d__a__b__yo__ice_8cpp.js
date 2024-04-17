@@ -6,7 +6,6 @@ var d__a__b__yo__ice_8cpp =
     [ "mDoMtx_stack_c", "classmDoMtx__stack__c.html", "classmDoMtx__stack__c" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "daMirror_c", "classdaMirror__c.html", "classdaMirror__c" ],
-    [ "daB_YO_c", "classdaB__YO__c.html", "classdaB__YO__c" ],
     [ "daB_YOI_c", "structdaB__YOI__c.html", "structdaB__YOI__c" ],
     [ "daB_YOI_HIO_c", "structdaB__YOI__HIO__c.html", "structdaB__YOI__HIO__c" ],
     [ "dVibration_c", "classdVibration__c.html", "classdVibration__c" ],

@@ -6,7 +6,7 @@ var searchData=
   ['obj_5fbrg_5fclass_3',['obj_brg_class',['../structobj__brg__class.html',1,'']]],
   ['obj_5fcb_5fclass_4',['obj_cb_class',['../structobj__cb__class.html',1,'']]],
   ['obj_5ffmobj_5fclass_5',['obj_fmobj_class',['../classobj__fmobj__class.html',1,'']]],
-  ['obj_5ffood_5fclass_6',['obj_food_class',['../structobj__food__class.html',1,'']]],
+  ['obj_5ffood_5fclass_6',['obj_food_class',['../classobj__food__class.html',1,'']]],
   ['obj_5ffw_5fclass_7',['obj_fw_class',['../classobj__fw__class.html',1,'']]],
   ['obj_5fgb_5fclass_8',['obj_gb_class',['../structobj__gb__class.html',1,'']]],
   ['obj_5fgm_5fclass_9',['obj_gm_class',['../structobj__gm__class.html',1,'']]],

@@ -1,6 +1,7 @@
 var classmDoExt__baseAnm =
 [
     [ "mDoExt_baseAnm", "classmDoExt__baseAnm.html#a9f5db30cfd2035b2c706fae1a3945d3c", null ],
+    [ "checkFrame", "classmDoExt__baseAnm.html#aa8c34f4e4398d02b8656da650cc6efc9", null ],
     [ "getEndFrame", "classmDoExt__baseAnm.html#ac64e97227bf5fa415bc978400e50b705", null ],
     [ "getFrame", "classmDoExt__baseAnm.html#af71caab4ee8865222fb19b286fa4e3f9", null ],
     [ "getFrameCtrl", "classmDoExt__baseAnm.html#a1968df6374359825d51c663da77c1449", null ],
@@ -8,9 +9,6 @@ var classmDoExt__baseAnm =
     [ "initPlay", "classmDoExt__baseAnm.html#a62dcf11e6a9b64d1d98a41f107da5096", null ],
     [ "isStop", "classmDoExt__baseAnm.html#a4a76bf24be02c84df32e0be2b2df4456", null ],
     [ "play", "classmDoExt__baseAnm.html#a511cab2ca88f987ce91f8ad22f9dffd3", null ],
-    [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],
-    [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],
-    [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],
     [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],
     [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],
     [ "play", "classmDoExt__baseAnm.html#a7c2af9530a843ec5b060306d206aef29", null ],

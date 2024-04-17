@@ -177,6 +177,7 @@ var d__com__inf__game_8h =
     [ "dComIfGp_event_getPt2", "d__com__inf__game_8h.html#a8513b394aaa913c2b54045abe8dfb622", null ],
     [ "dComIfGp_event_getTalkPartner", "d__com__inf__game_8h.html#ae408b7598cca9e76988b901470729033", null ],
     [ "dComIfGp_event_moveApproval", "d__com__inf__game_8h.html#a6c55f78cd0ae52640f18b5d8bd6f80d6", null ],
+    [ "dComIfGp_event_offHindFlag", "d__com__inf__game_8h.html#a595d77c5c9aa4371e8eb046ce34da9bc", null ],
     [ "dComIfGp_event_onEventFlag", "d__com__inf__game_8h.html#a4e0c228b067072ef8b1d9fa36db786c0", null ],
     [ "dComIfGp_event_onHindFlag", "d__com__inf__game_8h.html#a2f5076311a515e5ff280ddd30a7f6f57", null ],
     [ "dComIfGp_event_order", "d__com__inf__game_8h.html#af3f8c0dccc99952f8990c9a85c7c2289", null ],

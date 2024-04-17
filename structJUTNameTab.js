@@ -6,7 +6,6 @@ var structJUTNameTab =
     [ "~JUTNameTab", "structJUTNameTab.html#af035921d4cbd6deb7a617b4e7d65f32e", null ],
     [ "calcKeyCode", "structJUTNameTab.html#a7b693e3f088999f93d1a43ca7393ff20", null ],
     [ "getIndex", "structJUTNameTab.html#a8197cb746021b553979184403e1adcfc", null ],
-    [ "getIndex", "structJUTNameTab.html#a1055c8631f07470954de739198de00ca", null ],
     [ "getName", "structJUTNameTab.html#accdc77a3c740462c3da8662f3c7afa4f", null ],
     [ "getName", "structJUTNameTab.html#a55c3d8e084a60f34cd4a30401ef60dd8", null ],
     [ "getName", "structJUTNameTab.html#a55c3d8e084a60f34cd4a30401ef60dd8", null ],

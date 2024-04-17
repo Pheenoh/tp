@@ -49,7 +49,6 @@ var classZ2SoundObjBase =
     [ "deleteObject", "classZ2SoundObjBase.html#a45d6e187bdd3f74e54ae2e1c71d8ec46", null ],
     [ "deleteObject", "classZ2SoundObjBase.html#a45d6e187bdd3f74e54ae2e1c71d8ec46", null ],
     [ "deleteObject", "classZ2SoundObjBase.html#a45d6e187bdd3f74e54ae2e1c71d8ec46", null ],
-    [ "deleteObject", "classZ2SoundObjBase.html#a45d6e187bdd3f74e54ae2e1c71d8ec46", null ],
     [ "dispose", "classZ2SoundObjBase.html#a89aef217d2d5b0c4139ca4dd500f5517", null ],
     [ "framework", "classZ2SoundObjBase.html#a58e29e2c064428fc8b901bfc46da7042", null ],
     [ "init", "classZ2SoundObjBase.html#af5712113456e7d2d1e7bc088ee15601f", null ],

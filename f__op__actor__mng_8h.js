@@ -22,6 +22,14 @@ var f__op__actor__mng_8h =
       [ "fopAcM_CARRY_UNK_30", "f__op__actor__mng_8h.html#a9a8f0caf5338c590123da43b40d903aba2bc192ea31676580f658582661798be3", null ],
       [ "fopAcM_CARRY_CHICKEN", "f__op__actor__mng_8h.html#a9a8f0caf5338c590123da43b40d903aba7c6ceba288c3a45296e01b1fa0a59668", null ]
     ] ],
+    [ "fopAcM_FOOD", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8", [
+      [ "fopAcM_FOOD_0", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8add41f09800a42d61f75e7812eb878d2d", null ],
+      [ "fopAcM_FOOD_1", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8ae70ec502bbfac4933e88a797caa0d4c9", null ],
+      [ "fopAcM_FOOD_2", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8ab2405dcb3f09e4d4b069acfad2becb05", null ],
+      [ "fopAcM_FOOD_3", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8a69528ec812c4e56ccb75821a2984b64f", null ],
+      [ "fopAcM_FOOD_4", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8a6b732364de33e76939d31eae90238d9a", null ],
+      [ "fopAcM_FOOD_5", "f__op__actor__mng_8h.html#adee8c453d9de18fc3a6b38e727c35bd8a320bafd23918f1408744250fb66f42e5", null ]
+    ] ],
     [ "fopAcM_STATUS", "f__op__actor__mng_8h.html#aa2570a5610d9720402ffc51ebe82fdc3", [
       [ "fopAcM_STATUS_UNK_000001", "f__op__actor__mng_8h.html#aa2570a5610d9720402ffc51ebe82fdc3a9479ea84b5191ab2c041c29420a646b3", null ],
       [ "fopAcM_STATUS_UNK_000002", "f__op__actor__mng_8h.html#aa2570a5610d9720402ffc51ebe82fdc3a967b1e2db6ed87905c84c8de1b9a182e", null ],
@@ -67,6 +75,7 @@ var f__op__actor__mng_8h =
     [ "fopAcM_CheckCarryType", "f__op__actor__mng_8h.html#ab39c01c341c5c1838d21f48fd91b67e8", null ],
     [ "fopAcM_CheckCondition", "f__op__actor__mng_8h.html#ae04f369129df519ebcf4a9109d3ee24a", null ],
     [ "fopAcM_checkCullingBox", "f__op__actor__mng_8h.html#a4aeea8e45067336e6d327ba33b3484fd", null ],
+    [ "fopAcM_CheckFoodStatus", "f__op__actor__mng_8h.html#a310712cb5163f0bc25b642fb0d7ed028", null ],
     [ "fopAcM_checkHookCarryNow", "f__op__actor__mng_8h.html#aab2f46e1158b4673f0ba5d6731519a84", null ],
     [ "fopAcM_checkStatus", "f__op__actor__mng_8h.html#a9bcd0e3204063c9edd8690887b641054", null ],
     [ "fopAcM_create", "f__op__actor__mng_8h.html#a1f688e5f21e16f57af86caeac4e9ecac", null ],
@@ -210,6 +219,7 @@ var f__op__actor__mng_8h =
     [ "fopAcM_setCullSizeFar", "f__op__actor__mng_8h.html#acf6f418d883d30032a70022037474991", null ],
     [ "fopAcM_setCullSizeSphere", "f__op__actor__mng_8h.html#ac652d2fa283bc088f84802d5cce412a2", null ],
     [ "fopAcM_setEffectMtx", "f__op__actor__mng_8h.html#a7de66a59b07a7bc37e30fb23ba42d716", null ],
+    [ "fopAcM_SetFoodStatus", "f__op__actor__mng_8h.html#a47f1c1f6b3c1a6fde99ef6ce63f7dbd6", null ],
     [ "fopAcM_SetGravity", "f__op__actor__mng_8h.html#a9a9d5d33edde8e4f415869486d8fdcee", null ],
     [ "fopAcM_SetGroup", "f__op__actor__mng_8h.html#ad971049dd16c8b70db75093153f8f531", null ],
     [ "fopAcM_setHookCarryNow", "f__op__actor__mng_8h.html#a48fad6331514edc5cb5384757d96b0d4", null ],

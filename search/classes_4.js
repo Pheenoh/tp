@@ -1156,7 +1156,7 @@ var searchData=
   ['datag_5fbottleitem_5fc_1153',['daTag_BottleItem_c',['../classdaTag__BottleItem__c.html',1,'']]],
   ['datag_5fcam_5fc_1154',['daTag_Cam_c',['../structdaTag__Cam__c.html',1,'']]],
   ['datag_5fchk_5fc_1155',['daTag_Chk_c',['../classdaTag__Chk__c.html',1,'']]],
-  ['datag_5fevent_5fc_1156',['daTag_Event_c',['../structdaTag__Event__c.html',1,'']]],
+  ['datag_5fevent_5fc_1156',['daTag_Event_c',['../classdaTag__Event__c.html',1,'']]],
   ['datag_5fevt_5fc_1157',['daTag_Evt_c',['../classdaTag__Evt__c.html',1,'']]],
   ['datag_5fevtarea_5fc_1158',['daTag_EvtArea_c',['../classdaTag__EvtArea__c.html',1,'']]],
   ['datag_5fevtmsg_5fc_1159',['daTag_EvtMsg_c',['../classdaTag__EvtMsg__c.html',1,'']]],

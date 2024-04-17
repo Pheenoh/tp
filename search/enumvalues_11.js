@@ -66,12 +66,11 @@ var searchData=
   ['ring_5fmove_63',['RING_MOVE',['../classdMw__c.html#a9c12bf96930db318a3d8b6704985faceaab1b3b1e17a26791b03b9598e756e762',1,'dMw_c']]],
   ['ring_5fopen_64',['RING_OPEN',['../classdMw__c.html#a9c12bf96930db318a3d8b6704985faceacca2e748b63abc1b70faa17d0d3771af',1,'dMw_c']]],
   ['rodeo_5fleft_65',['RODEO_LEFT',['../structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fae967d170416079992c0f3ff1142cbb07',1,'daHorse_c']]],
-  ['rodeo_5fmode_66',['RODEO_MODE',['../structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fa80fd36f0f1af5176eb78257c49823e49',1,'daHorse_c']]],
-  ['roof_5fhit_67',['ROOF_HIT',['../classdBgS__Acch.html#af4388ece8172f0ccb95126d88afae64ea0e9ba083a7b752de39667b31ee68b19d',1,'dBgS_Acch']]],
-  ['roof_5fnone_68',['ROOF_NONE',['../classdBgS__Acch.html#af4388ece8172f0ccb95126d88afae64ea8ce3e1862da392651feee668b120c468',1,'dBgS_Acch']]],
-  ['rotate_69',['ROTATE',['../classdMeter__ringHIO__c.html#ada384faf65a4729030b4666684efaca6ae435300e6206cb61397b9c6677f054f2',1,'dMeter_ringHIO_c']]],
-  ['rotate_5fx_70',['ROTATE_X',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58a848520103bbbecf475e6ae7ed750c05c',1,'J2DPane.h']]],
-  ['rotate_5fy_71',['ROTATE_Y',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58ac5f3c17f2b8dfededf7a6d6eaf6ff2c8',1,'J2DPane.h']]],
-  ['rotate_5fz_72',['ROTATE_Z',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58ac2f3432570bcb705380b02ffe4eb4662',1,'J2DPane.h']]],
-  ['rumble_73',['RUMBLE',['../classdMeter__drawOptionHIO__c.html#addce8d063f373db43de7dd258c94754dad4cea6065464e42c3cd78983f49223fa',1,'dMeter_drawOptionHIO_c']]]
+  ['roof_5fhit_66',['ROOF_HIT',['../classdBgS__Acch.html#af4388ece8172f0ccb95126d88afae64ea0e9ba083a7b752de39667b31ee68b19d',1,'dBgS_Acch']]],
+  ['roof_5fnone_67',['ROOF_NONE',['../classdBgS__Acch.html#af4388ece8172f0ccb95126d88afae64ea8ce3e1862da392651feee668b120c468',1,'dBgS_Acch']]],
+  ['rotate_68',['ROTATE',['../classdMeter__ringHIO__c.html#ada384faf65a4729030b4666684efaca6ae435300e6206cb61397b9c6677f054f2',1,'dMeter_ringHIO_c']]],
+  ['rotate_5fx_69',['ROTATE_X',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58a848520103bbbecf475e6ae7ed750c05c',1,'J2DPane.h']]],
+  ['rotate_5fy_70',['ROTATE_Y',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58ac5f3c17f2b8dfededf7a6d6eaf6ff2c8',1,'J2DPane.h']]],
+  ['rotate_5fz_71',['ROTATE_Z',['../J2DPane_8h.html#a568654c26104cd8c9ccd4aae037a0e58ac2f3432570bcb705380b02ffe4eb4662',1,'J2DPane.h']]],
+  ['rumble_72',['RUMBLE',['../classdMeter__drawOptionHIO__c.html#addce8d063f373db43de7dd258c94754dad4cea6065464e42c3cd78983f49223fa',1,'dMeter_drawOptionHIO_c']]]
 ];

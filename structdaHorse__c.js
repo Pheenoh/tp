@@ -13,7 +13,7 @@ var structdaHorse__c =
       [ "NO_DRAW_WAIT", "structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47faa3208064755de837ef458a91d60838fa", null ],
       [ "PLAYER_BACK_RIDE_LASH", "structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fa347d710ea870c1dc26e1323a39420eb5", null ],
       [ "TURN_CANCEL_KEEP", "structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fade0cf5d30006f542336be2cb084a0247", null ],
-      [ "RODEO_MODE", "structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fa80fd36f0f1af5176eb78257c49823e49", null ]
+      [ "FLG0_RODEO_MODE", "structdaHorse__c.html#a778b41d40876155c5fac639fbd8cc47fa14041490d506c4dfd0ee9de2f8fcbb1f", null ]
     ] ],
     [ "daHorse_RFLG0", "structdaHorse__c.html#a5d60376e8ded592ecc284c26104cb377", [
       [ "ENEMY_SEARCH", "structdaHorse__c.html#a5d60376e8ded592ecc284c26104cb377a4f6e614cd1a7cb677e5a476164c6c158", null ],
@@ -103,6 +103,7 @@ var structdaHorse__c =
     [ "onPlayerLash", "structdaHorse__c.html#a40ec295333c0e196e8b4f8f7e45210d5", null ],
     [ "onRideFlg", "structdaHorse__c.html#a072d3fa9fe4a7aada8260add4c723629", null ],
     [ "onRideFlgSubstance", "structdaHorse__c.html#ad81752dd83cb737e5b857f4477984de5", null ],
+    [ "onRodeoMode", "structdaHorse__c.html#a0ec1e0e0f447a3250b6c7028912c555d", null ],
     [ "onStateFlg0", "structdaHorse__c.html#ad806e5337113ba94205ece76ee96b70f", null ],
     [ "onTagJump", "structdaHorse__c.html#a1e0152ec2ffc5209f467b4f8533e05a8", null ],
     [ "procJump", "structdaHorse__c.html#ab8fcd7c22ddf5c05975a06427a5cdafb", null ],

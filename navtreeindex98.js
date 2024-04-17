@@ -1,16 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"classJUTConsoleManager.html#a66520abcb4495c8aae7eee770a3ff8fb":[1,1,12,2,11],
-"classJUTConsoleManager.html#a6bc0dcc054e3aa879ea22c9476e7ce8b":[1,1,12,2,1],
-"classJUTConsoleManager.html#a7850fc65f9e6cafe6649e78366e3618b":[1,1,12,2,0],
-"classJUTConsoleManager.html#a99b65999881c632dcc4e28d180335c87":[1,1,12,2,6],
-"classJUTConsoleManager.html#aaceb32a4007a023d02ef478868904010":[1,1,12,2,12],
-"classJUTConsoleManager.html#ab6241f5c00b2179f2e7552b5e97ae1d7":[1,1,12,2,13],
-"classJUTConsoleManager.html#abeb88a84c578b3b438eaaafdd4ef1195":[1,1,12,2,7],
-"classJUTConsoleManager.html#ad3cd95279b2b3ed9d3a467cf8114b37c":[1,1,12,2,3],
-"classJUTConsoleManager.html#ad9319c1674539864e6c1fb73ba4d95ad":[1,1,12,2,4],
-"classJUTConsoleManager.html#addc04c902bc507052758ed5bb16a58db":[1,1,12,2,10],
-"classJUTConsoleManager.html#af99a1398700b4f66756166748c1078c4":[1,1,12,2,2],
 "classJUTDbPrint.html":[1,1,12,4],
 "classJUTDbPrint.html#a10bf267bd8d121276db65a409eaf0208":[1,1,12,4,6],
 "classJUTDbPrint.html#a208e53f7ec286aa5d23c309104f5c926":[1,1,12,4,9],
@@ -249,5 +238,16 @@ var NAVTREEINDEX98 =
 "classJUTProcBar_1_1CTime.html#a3ea2f9e623e1bb5297528303ca5484fc":[1,1,12,21,1,10],
 "classJUTProcBar_1_1CTime.html#a5cbb28f4924d5db604f1e21e4e0ed06e":[1,1,12,21,1,6],
 "classJUTProcBar_1_1CTime.html#a6de64d1be2d36d2f5b03874ddc6a0c48":[1,1,12,21,1,2],
-"classJUTProcBar_1_1CTime.html#a74b7211a153b643eb2a7bb8cf5df2cfb":[1,1,12,21,1,0]
+"classJUTProcBar_1_1CTime.html#a74b7211a153b643eb2a7bb8cf5df2cfb":[1,1,12,21,1,0],
+"classJUTProcBar_1_1CTime.html#a940c10f80c4d1573e150a092981ee835":[1,1,12,21,1,12],
+"classJUTProcBar_1_1CTime.html#aa43f4f0c630b3000eb8a0d334b609ebd":[1,1,12,21,1,8],
+"classJUTProcBar_1_1CTime.html#ac78e455df55d8f1976e78cfc285e476f":[1,1,12,21,1,3],
+"classJUTProcBar_1_1CTime.html#ac9f815bedc8b62a8443b35f7241474c1":[1,1,12,21,1,9],
+"classJUTProcBar_1_1CTime.html#ad2100a970960e582faab7366a82f75ba":[1,1,12,21,1,4],
+"classJUTProcBar_1_1CTime.html#af767b9a67004a2d9dc854cf389740283":[1,1,12,21,1,5],
+"classJUTProcBar_1_1CTime.html#afae5f4d9e1345f6315fb5bac106e5d35":[1,1,12,21,1,11],
+"classJUTProcBar_1_1CTime.html#afcfccb5c20fcc3b59a6d322e1ee801ca":[1,1,12,21,1,1],
+"classJUTResReference.html":[1,1,12,24],
+"classJUTResReference.html#a179eca94097e5000a84875da5b8e607e":[1,1,12,24,0],
+"classJUTResReference.html#a179eca94097e5000a84875da5b8e607ea4780f259bbd9fe0ff8dd19d023a78a87":[1,1,12,24,0,3]
 };

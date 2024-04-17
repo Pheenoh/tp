@@ -65,7 +65,6 @@ var structdSv__event__c =
     [ "isEventBit", "structdSv__event__c.html#ab246d9b2b4b2b65b99e9972a8c6a9b90", null ],
     [ "isEventBit", "structdSv__event__c.html#ab246d9b2b4b2b65b99e9972a8c6a9b90", null ],
     [ "isEventBit", "structdSv__event__c.html#ab246d9b2b4b2b65b99e9972a8c6a9b90", null ],
-    [ "isEventBit", "structdSv__event__c.html#ab246d9b2b4b2b65b99e9972a8c6a9b90", null ],
     [ "isEventBit", "structdSv__event__c.html#a31898c1f9370108b20a70a204849410b", null ],
     [ "isEventBit", "structdSv__event__c.html#ab246d9b2b4b2b65b99e9972a8c6a9b90", null ],
     [ "offEventBit", "structdSv__event__c.html#a390db381e99bc1bdcce9a6101f025120", null ],

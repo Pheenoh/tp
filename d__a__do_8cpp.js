@@ -11,7 +11,7 @@ var d__a__do_8cpp =
     [ "__ct__14mDoExt_McaMorfFP12J3DModelDataP25mDoExt_McaMorfCallBack1_cP25mDoExt_McaMorfCallBack2_cP15J3DAnmTransformifiiiPvUlUl", "d__a__do_8cpp.html#afd9f2e00ea4dc236cd8bb8df309a2029", null ],
     [ "__ct__16Z2SoundObjSimpleFv", "d__a__do_8cpp.html#aa9e33f8f2d565627116b6fb2aa947601", null ],
     [ "__ct__18dBgS_ObjGndChk_SplFv", "d__a__do_8cpp.html#a22bed3f62d5649619672b62b5b226b25", null ],
-    [ "__ct__8do_classFv", "d__a__do_8cpp.html#adc99d98af7931d38165e105c829ac6c7", null ],
+    [ "__ct__8do_classFv", "d__a__do_8cpp.html#acb0bfe982f538ba4ca185c50e409121e", null ],
     [ "__ct__9dBgS_AcchFv", "d__a__do_8cpp.html#af7d62ddefe327c5b77a1b16277891867", null ],
     [ "__dl__FPv", "d__a__do_8cpp.html#a498e6440d5c316e2672169ee4ed92309", null ],
     [ "__dt__10daDo_HIO_cFv", "d__a__do_8cpp.html#a57ae54ab3b5f8ba38c55f84eedfd2405", null ],

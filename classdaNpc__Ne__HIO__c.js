@@ -6,8 +6,8 @@ var classdaNpc__Ne__HIO__c =
     [ "field_0x04", "classdaNpc__Ne__HIO__c.html#a984db085b5b8964bde4909a105f9c38e", null ],
     [ "field_0x18", "classdaNpc__Ne__HIO__c.html#ae693d3faf19872bcac0afdfaea4fe6d5", null ],
     [ "mRunSpeed", "classdaNpc__Ne__HIO__c.html#a5b84d7abaed8d4d34cd65d2bc8170ff4", null ],
+    [ "mScale", "classdaNpc__Ne__HIO__c.html#a3eba189bb3d723411c5f381e86c6b086", null ],
     [ "mSwimSpeed", "classdaNpc__Ne__HIO__c.html#a74cb0bdfe7461f457a740cd934315c87", null ],
     [ "mWalkSpeed", "classdaNpc__Ne__HIO__c.html#af62d4b8272d8a75590e6958ed4aeba30", null ],
-    [ "scale", "classdaNpc__Ne__HIO__c.html#a1cfff66c6048c85c8cba15d8963fb8ad", null ],
     [ "vtable", "classdaNpc__Ne__HIO__c.html#a91901eabdbda661c41e5fdcb383c69ce", null ]
 ];
