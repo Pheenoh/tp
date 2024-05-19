@@ -10,7 +10,7 @@ var classdJntCol__c =
     [ "dJntCol_c", "classdJntCol__c.html#ae5acabfbcccc5845fa7b15891ed15175", null ],
     [ "checkPassNum", "classdJntCol__c.html#a5b477ab2eef8ace81d0e9f2d796786ef", null ],
     [ "checkShieldType", "classdJntCol__c.html#a6d6030654ad75548db7bfb304be09353", null ],
-    [ "getArrowOffsetPosAndAngle", "classdJntCol__c.html#ae67131e2d4d29bd47d57e752026baff8", null ],
+    [ "getArrowOffsetPosAndAngle", "classdJntCol__c.html#aa3ebb9a3cab2e49e00fcb7f76a0080e3", null ],
     [ "getHitmarkPosAndAngle", "classdJntCol__c.html#af9b121b73e4e60f866a4e88995d1292b", null ],
     [ "getType", "classdJntCol__c.html#aa7bf850884929dc167a42d2e3748a5d9", null ],
     [ "init", "classdJntCol__c.html#ace98acb65010fa052bdc854c4fa08050", null ],

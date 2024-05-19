@@ -1,11 +1,17 @@
 var structdDoor__stop2__c =
 [
-    [ "calcMtx", "structdDoor__stop2__c.html#a895b58bac14813e776202679f1b6450d", null ],
+    [ "calcMtx", "structdDoor__stop2__c.html#ab5a6976d3789345bc9a76218c3935b9d", null ],
     [ "closeInit", "structdDoor__stop2__c.html#a359951258b21029d3349d49e32823dff", null ],
-    [ "closeProc", "structdDoor__stop2__c.html#a1b5ebb8a8039d1045d2ad1b03b93d14c", null ],
-    [ "create", "structdDoor__stop2__c.html#af4f6123c578be526c9c178b0dc313172", null ],
-    [ "draw", "structdDoor__stop2__c.html#aa2a67e4c0ec83f14aae7d09d1b42f63b", null ],
-    [ "getHeight", "structdDoor__stop2__c.html#a362889f81bc6d3ece0bdd3cf2b0aa6e0", null ],
+    [ "closeProc", "structdDoor__stop2__c.html#a9086b5e9d1713910b833699677776fe9", null ],
+    [ "create", "structdDoor__stop2__c.html#aacb5a8b34e286abd1b0b7c341ed01331", null ],
+    [ "draw", "structdDoor__stop2__c.html#afd9bfede8c84d7f4f01757a0fd70c202", null ],
+    [ "getHeight", "structdDoor__stop2__c.html#a6591f76be0bff128f301e1b5d824f7a7", null ],
     [ "openInit", "structdDoor__stop2__c.html#aab5c8a9e66f7aa5610d347c5e7e14e9b", null ],
-    [ "openProc", "structdDoor__stop2__c.html#aa2da32154c9553897b625420c2b7d310", null ]
+    [ "openProc", "structdDoor__stop2__c.html#a198154a092e379c1cb07b335c0d0d05b", null ],
+    [ "field_0x4", "structdDoor__stop2__c.html#aef431234388c7cda1edc9973676f4c52", null ],
+    [ "field_0x8", "structdDoor__stop2__c.html#a5ea1cc7b8349cac98fe38c7f6d24a0b5", null ],
+    [ "field_0x9", "structdDoor__stop2__c.html#ad399579f3f4905983b4584dc9de31430", null ],
+    [ "field_0xa", "structdDoor__stop2__c.html#a304225ba99584e09cfa19a6330944e07", null ],
+    [ "field_0xb", "structdDoor__stop2__c.html#a68a721c1032551e15173383b954d1c0f", null ],
+    [ "mModel", "structdDoor__stop2__c.html#aa94f481f177c7967e5c0cc838c392ac6", null ]
 ];

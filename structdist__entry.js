@@ -1,10 +1,10 @@
 var structdist__entry =
 [
-    [ "field_0x0", "structdist__entry.html#a4fe02fc64b06ad11f98b55adc258e94d", null ],
-    [ "field_0x10", "structdist__entry.html#ac51ba2ac61730111b5f5ec1a51b80980", null ],
-    [ "field_0x14", "structdist__entry.html#a1f368584a0a1a31458f1ad593144737d", null ],
-    [ "field_0x18", "structdist__entry.html#a4e4c13df1a16a24249dcf76956af7ff5", null ],
-    [ "field_0x4", "structdist__entry.html#a98f34faeac3795dd7ceb79697d5f0005", null ],
-    [ "field_0x8", "structdist__entry.html#ae890188899873b29ca04756a330704f1", null ],
-    [ "field_0xc", "structdist__entry.html#a29a2abdf8f4af74d2cf6bc26bc6b2c27", null ]
+    [ "mAngleSelect", "structdist__entry.html#a9a89f86e71890af2e77373906b4783db", null ],
+    [ "mDistanceAdjust", "structdist__entry.html#ab3414eeb1cc4d72e84daf86c4bb22fa6", null ],
+    [ "mDistMax", "structdist__entry.html#af0489a08de64be7204a908080eda9112", null ],
+    [ "mDistMaxRelease", "structdist__entry.html#ac4035c3d7c1838aec64613883768eb1d", null ],
+    [ "mLowerY", "structdist__entry.html#a0bbb8b78d2036099cb683557b147bdef", null ],
+    [ "mUpperY", "structdist__entry.html#a23f72c36f02fc148893ef90fef0a6c60", null ],
+    [ "mWeight", "structdist__entry.html#a2a76668ad5939c6943dd4a7faecb91db", null ]
 ];

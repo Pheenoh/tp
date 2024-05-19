@@ -16,7 +16,6 @@ var d__a__e__pz_8cpp =
     [ "Vec", "structVec.html", "structVec" ],
     [ "cXyz", "structcXyz.html", "structcXyz" ],
     [ "daPy_py_c", "structdaPy__py__c.html", "structdaPy__py__c" ],
-    [ "daE_PZ_c", "structdaE__PZ__c.html", "structdaE__PZ__c" ],
     [ "daE_PZ_HIO_c", "structdaE__PZ__HIO__c.html", "structdaE__PZ__HIO__c" ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
     [ "dSv_danBit_c", "classdSv__danBit__c.html", "classdSv__danBit__c" ],

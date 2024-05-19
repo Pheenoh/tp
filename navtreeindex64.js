@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"Z2SpeechMgr2_8cpp.html#a6b5eee666e3d761659089b4daf94fc50":[4,0,2,5,18,17],
+"Z2SpeechMgr2_8cpp.html#a6b7bb3c7f427fe31bcbc964d42ae67fa":[4,0,2,5,18,29],
 "Z2SpeechMgr2_8cpp.html#a6d7307cf2ac391c2138a741fef4e7fe8":[4,0,2,5,18,69],
 "Z2SpeechMgr2_8cpp.html#a729f9ed4c552fced3fbb4f51587cb09c":[4,0,2,5,18,34],
 "Z2SpeechMgr2_8cpp.html#a73bb3923635d6650ceebe52dc7f7d596":[4,0,2,5,18,83],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "ai_8c.html#a08f82c0fa88a74da87daebf0a1f9b3fa":[4,0,2,0,0,0,18],
 "ai_8c.html#a0c68549613f106b2b8a43b91f587efff":[4,0,2,0,0,0,4],
 "ai_8c.html#a195b516fd532567977de7a764aaa7399":[4,0,2,0,0,0,5],
-"ai_8c.html#a1b8eb163bf8e4a74c4a069a4d847de58":[4,0,2,0,0,0,2],
-"ai_8c.html#a21fa81ad025b4574d13f8b2089941d42":[4,0,2,0,0,0,3],
-"ai_8c.html#a26dda765da51e8c4faea6a7382ded8f7":[4,0,2,0,0,0,1]
+"ai_8c.html#a1b8eb163bf8e4a74c4a069a4d847de58":[4,0,2,0,0,0,2]
 };

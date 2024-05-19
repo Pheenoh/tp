@@ -8,8 +8,6 @@ var classdSv__danBit__c =
     [ "isSwitch", "classdSv__danBit__c.html#a7d3ca28fd171ff16b6f81fd53a2ae1cb", null ],
     [ "isSwitch", "classdSv__danBit__c.html#a7d3ca28fd171ff16b6f81fd53a2ae1cb", null ],
     [ "isSwitch", "classdSv__danBit__c.html#a7d3ca28fd171ff16b6f81fd53a2ae1cb", null ],
-    [ "isSwitch", "classdSv__danBit__c.html#a7d3ca28fd171ff16b6f81fd53a2ae1cb", null ],
-    [ "isSwitch", "classdSv__danBit__c.html#a7d3ca28fd171ff16b6f81fd53a2ae1cb", null ],
     [ "offSwitch", "classdSv__danBit__c.html#a664227ef994b60b35064a4e865bdc8ac", null ],
     [ "offSwitch", "classdSv__danBit__c.html#a1c7e3f7df437407b9f52bc8b612ead60", null ],
     [ "offSwitch", "classdSv__danBit__c.html#a1c7e3f7df437407b9f52bc8b612ead60", null ],

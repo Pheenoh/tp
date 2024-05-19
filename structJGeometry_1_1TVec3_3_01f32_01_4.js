@@ -1,5 +1,8 @@
 var structJGeometry_1_1TVec3_3_01f32_01_4 =
 [
+    [ "TVec3", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a6712c85257d9df50f2ea3a07b6ff36f9", null ],
+    [ "TVec3", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a333800cf87e080e3436d5d8496480836", null ],
+    [ "TVec3", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a3ed4d206717f3622f0414fd97d0c957f", null ],
     [ "add", "structJGeometry_1_1TVec3_3_01f32_01_4.html#af90927af3c6b6efb7d953422a85bb4d0", null ],
     [ "cross", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a21c87b830b3676e96ee364c0952ddc8d", null ],
     [ "dot", "structJGeometry_1_1TVec3_3_01f32_01_4.html#ad9a7162c12ae2968ef5664b545ca9360", null ],
@@ -23,8 +26,5 @@ var structJGeometry_1_1TVec3_3_01f32_01_4 =
     [ "squared", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a1eb8e656446d58b37198b27835076a5e", null ],
     [ "sub", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a963da0f9c16250baff8f0cf795281926", null ],
     [ "sub", "structJGeometry_1_1TVec3_3_01f32_01_4.html#aadaec9d24392509d8f7ab3f64d41a808", null ],
-    [ "zero", "structJGeometry_1_1TVec3_3_01f32_01_4.html#ab9fe898e43ab4959740e5c13ce6e8cca", null ],
-    [ "x", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a1b07dac9fca507449dfb12ffb0430a53", null ],
-    [ "y", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a8196d9ad7e3844ff827f4b9dc08b8e67", null ],
-    [ "z", "structJGeometry_1_1TVec3_3_01f32_01_4.html#a1586b3b8ed2c5ad2dd476543e7a1c116", null ]
+    [ "zero", "structJGeometry_1_1TVec3_3_01f32_01_4.html#ab9fe898e43ab4959740e5c13ce6e8cca", null ]
 ];

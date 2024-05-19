@@ -17,6 +17,7 @@ var classdaHoZelda__c =
     [ "draw", "classdaHoZelda__c.html#ab5e24dc6aafd15b37d72f10fa9aaba28", null ],
     [ "execute", "classdaHoZelda__c.html#a6a117754b8d864cc0bfe7999c6551c0b", null ],
     [ "execute", "classdaHoZelda__c.html#ab2bd62275ee5bad2a815a885c3db8849", null ],
+    [ "getRightHandMtx", "classdaHoZelda__c.html#aa95de210e76a39e8f2309b3c728f491f", null ],
     [ "modelCallBack", "classdaHoZelda__c.html#a0dbb8727daff337f2fcfd146dbd2fad3", null ],
     [ "modelCallBack", "classdaHoZelda__c.html#a1230133bdc6c45a6d5f199c63fb5c55c", null ],
     [ "resetUpperAnime", "classdaHoZelda__c.html#a04eed84edcddbeebe405fe7d0f18af6c", null ],

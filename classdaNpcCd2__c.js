@@ -19,7 +19,7 @@ var classdaNpcCd2__c =
     [ "drawNpc", "classdaNpcCd2__c.html#aa66bf23dff015940285304d7c4b01b03", null ],
     [ "drawNpc", "classdaNpcCd2__c.html#aa66bf23dff015940285304d7c4b01b03", null ],
     [ "drawNpc", "classdaNpcCd2__c.html#aa66bf23dff015940285304d7c4b01b03", null ],
-    [ "drawObj", "classdaNpcCd2__c.html#a5cfe16099e5d2f8b68ea64ef647c1fb0", null ],
+    [ "drawObj", "classdaNpcCd2__c.html#a4dbd84cd1c3a39955885f2b24f5ff911", null ],
     [ "drawObj", "classdaNpcCd2__c.html#adce40f93f1ccc0828ead149554c8704c", null ],
     [ "drawObj", "classdaNpcCd2__c.html#adce40f93f1ccc0828ead149554c8704c", null ],
     [ "drawObj", "classdaNpcCd2__c.html#adce40f93f1ccc0828ead149554c8704c", null ],

@@ -5,6 +5,7 @@ var structdCcD__GObjTg =
     [ "GetHitMark", "structdCcD__GObjTg.html#a868528dc0212ef1c8d7b55b1030ba971", null ],
     [ "GetHitPosP", "structdCcD__GObjTg.html#a1fe6584e17ac3fcd15c2ffd2449120c0", null ],
     [ "GetMtrl", "structdCcD__GObjTg.html#a104c0383ae257f1b5d3ac3b050566d7e", null ],
+    [ "GetRVecP", "structdCcD__GObjTg.html#a3ea9a3116613d2f015b4ae7d478163f3", null ],
     [ "GetShieldFrontRangeYAngle", "structdCcD__GObjTg.html#a67ab6c0abb94f0a55e1d6d4e6ffb99b9", null ],
     [ "GetShieldRange", "structdCcD__GObjTg.html#a4a9b0914a39cf5406dbc24247d85d690", null ],
     [ "GetSpl", "structdCcD__GObjTg.html#ad4183a8c99d7eebf54603b8ada0e262c", null ],

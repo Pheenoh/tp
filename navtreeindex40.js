@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"Padclamp_8c.html#abebde887f3eb6f0f6d68549267ef5768":[4,0,2,0,16,1,4],
+"Padclamp_8h.html":[4,0,1,2,12,0],
 "Padclamp_8h.html#a3cb10ccc0d9af86a1b4f4c1029e64688":[4,0,1,2,12,0,1],
 "Padclamp_8h.html#aa5f59ba84c9d0a0141f4d57e922bf7a0":[4,0,1,2,12,0,3],
 "Padclamp_8h.html#abebde887f3eb6f0f6d68549267ef5768":[4,0,1,2,12,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "Z2Audience_8h.html#a63450d8bdf4f01125e0a9d21f294d9fc":[4,0,1,11,0,9],
 "Z2Audience_8h.html#ac1b10a0028030ebbea1006cb3dacbb56":[4,0,1,11,0,8],
 "Z2Audience_8h.html#acc06cd64e1dcbac7df15fbd551119d4c":[4,0,1,11,0,10],
-"Z2Audience_8h_source.html":[4,0,1,11,0],
-"Z2AudioArcLoader_8cpp.html":[4,0,2,5,1],
-"Z2AudioArcLoader_8cpp.html#a138d0ac78523fceb68c0e5b94d4b3702":[4,0,2,5,1,13]
+"Z2Audience_8h_source.html":[4,0,1,11,0]
 };

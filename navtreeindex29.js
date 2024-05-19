@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"JASTaskThread_8cpp.html#a7ba5e7f8cf9e8fa83ddd9cd6d17e8403":[4,0,2,1,5,48,16],
+"JASTaskThread_8cpp.html#a825b308224211d12d035860083796e2b":[4,0,2,1,5,48,1],
 "JASTaskThread_8cpp.html#a96be8c79baacd021a226016df5297c51":[4,0,2,1,5,48,11],
 "JASTaskThread_8cpp.html#aa8b2b992407cf48ba98905b417420685":[4,0,2,1,5,48,10],
 "JASTaskThread_8cpp.html#ab2560338b58a7b440b0e94ea6217fef7":[4,0,2,1,5,48,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "JAUAudioArcInterpreter_8h.html":[4,0,1,6,5,61],
 "JAUAudioArcInterpreter_8h_source.html":[4,0,1,6,5,61],
 "JAUAudioArcLoader_8cpp.html":[4,0,2,1,5,55],
-"JAUAudioArcLoader_8h.html":[4,0,1,6,5,62],
-"JAUAudioArcLoader_8h_source.html":[4,0,1,6,5,62],
-"JAUAudioMgr_8cpp.html":[4,0,2,1,5,56]
+"JAUAudioArcLoader_8h.html":[4,0,1,6,5,62]
 };

@@ -60,7 +60,7 @@ var d__kankyo_8cpp =
     [ "checkNowWolfEyeUp__9daPy_py_cFv", "d__kankyo_8cpp.html#a7d8dfa7d2f7aad6171fe9b4f9244d77c", null ],
     [ "checkZoraWearFlg", "d__kankyo_8cpp.html#a7bfc1edfba308effabb4e094e9e93081", null ],
     [ "cLib_addCalc__FPfffff", "d__kankyo_8cpp.html#a4e86a1af5f89fa8d7c77a84fa8aea4f3", null ],
-    [ "cLib_addCalcU8", "d__kankyo_8cpp.html#abd35601c98af60f65ef58e8244643691", null ],
+    [ "cLib_addCalcU8", "d__kankyo_8cpp.html#a0b528bfd207e025823fe88ca0aaefe0b", null ],
     [ "cLib_addCalcU8__FPUcUcss", "d__kankyo_8cpp.html#af52dee87133347352283b28c071c84f7", null ],
     [ "cM3d_VectorProduct2d__Fffffff", "d__kankyo_8cpp.html#af9c7a9b5c4675105e00a692445e995d1", null ],
     [ "cM_atan2s__Fff", "d__kankyo_8cpp.html#a33354112e6320761e0ab05a0f5972770", null ],

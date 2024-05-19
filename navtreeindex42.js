@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"Z2Creature_8cpp.html#af6291aea35fd3b966c53fbf188f6b700":[4,0,2,5,4,38],
+"Z2Creature_8cpp.html#afa1b45756d673ed39164c1ccc3b265d3":[4,0,2,5,4,29],
 "Z2Creature_8cpp.html#afafc2caff26b357a1fb00ccb4cc83dc6":[4,0,2,5,4,57],
 "Z2Creature_8cpp.html#afb3f941c8b68dbebe2e8e329e7bf29bb":[4,0,2,5,4,80],
 "Z2Creature_8cpp.html#afeee1b9ddca4130124e797e00df17727":[4,0,2,5,4,50],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "Z2LinkMgr_8cpp.html#a1e3ced9c737d8129433cd28d083ed621":[4,0,2,5,7,40],
 "Z2LinkMgr_8cpp.html#a1fb67694826a01a531eadc4be73a41a0":[4,0,2,5,7,130],
 "Z2LinkMgr_8cpp.html#a211ca9224a2158db9b6bec7b1ad313bf":[4,0,2,5,7,76],
-"Z2LinkMgr_8cpp.html#a228b4990ab51353c2892a5174e4eac41":[4,0,2,5,7,114],
-"Z2LinkMgr_8cpp.html#a27ed72047767c2467078608296d2aafa":[4,0,2,5,7,129],
-"Z2LinkMgr_8cpp.html#a2a0ad40b82e5b134be74074775c12939":[4,0,2,5,7,89]
+"Z2LinkMgr_8cpp.html#a228b4990ab51353c2892a5174e4eac41":[4,0,2,5,7,114]
 };

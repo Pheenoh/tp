@@ -26,6 +26,9 @@ var structdaE__PZ__c =
     [ "mPzScaleSet", "structdaE__PZ__c.html#aa0002d746072cf9484a0ae15428e3b87", null ],
     [ "mSetFirePos", "structdaE__PZ__c.html#ace9f876fe9da4cf6b7de4243e6718c37", null ],
     [ "mtx_set", "structdaE__PZ__c.html#a910d5273e52af0f0a4d29d512f89510f", null ],
+    [ "onBombArrowHit", "structdaE__PZ__c.html#a4cd7485abbcd9a4dc36b17cd93b9cfee", null ],
     [ "setActionMode", "structdaE__PZ__c.html#aac7b2551a7b2ebe4f311c8a7774bd7d2", null ],
-    [ "setBck", "structdaE__PZ__c.html#ac11316d92d49722ebc34b333325de467", null ]
+    [ "setBck", "structdaE__PZ__c.html#ac11316d92d49722ebc34b333325de467", null ],
+    [ "base", "structdaE__PZ__c.html#a19c1c44d7c0aec5d6cdb1407f4b55d8c", null ],
+    [ "field_0x845", "structdaE__PZ__c.html#ade90be0830664245f7705fd09bb051b8", null ]
 ];

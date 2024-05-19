@@ -15,7 +15,7 @@ var structSTControl =
     [ "checkDownTrigger", "structSTControl.html#a310726ee3abeec6e93df249209d36d19", null ],
     [ "checkLeftTrigger", "structSTControl.html#a1ca3bd4c8d4288c5e5debaf06ba2e670", null ],
     [ "checkRightTrigger", "structSTControl.html#af7b6e2e1cb99b609fb2caeba726adb44", null ],
-    [ "checkTrigger", "structSTControl.html#a0301afa8c152591ab92adc89c40d2fc2", null ],
+    [ "checkTrigger", "structSTControl.html#ac88f05ea8f8fb14251d8c45372080e4f", null ],
     [ "checkUpTrigger", "structSTControl.html#a2d90951345c731a4455fbcfbb0852cb7", null ],
     [ "getAngleStick", "structSTControl.html#a70862da90c58fa2ed4e19ebc70368b6a", null ],
     [ "getValueStick", "structSTControl.html#a62300b5cb0b69785221c6df00d505b5e", null ],

@@ -24,7 +24,6 @@ var classdaNpcF__MatAnm__c =
     [ "initialize", "classdaNpcF__MatAnm__c.html#a4889244a60ed32fef17356c2290eed39", null ],
     [ "initialize", "classdaNpcF__MatAnm__c.html#a4889244a60ed32fef17356c2290eed39", null ],
     [ "initialize", "classdaNpcF__MatAnm__c.html#a4889244a60ed32fef17356c2290eed39", null ],
-    [ "initialize", "classdaNpcF__MatAnm__c.html#a4889244a60ed32fef17356c2290eed39", null ],
     [ "offEyeMoveFlag", "classdaNpcF__MatAnm__c.html#a57ea19064f6171b65e266548000f0166", null ],
     [ "onEyeMoveFlag", "classdaNpcF__MatAnm__c.html#aa67987aa20d1c967d3f5f169eeca2aa5", null ],
     [ "setNowOffsetX", "classdaNpcF__MatAnm__c.html#a8d3422837bcb481a2b1b18f0ce8d80bc", null ],

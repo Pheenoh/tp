@@ -7,7 +7,7 @@ var classdaZraFreeze__c =
     [ "Draw", "classdaZraFreeze__c.html#a5c349365da2b89c973a418ca7d7107ad", null ],
     [ "Execute", "classdaZraFreeze__c.html#a4821cb40859df4c45e54612350ed20af", null ],
     [ "setBaseMtx", "classdaZraFreeze__c.html#a9582364c495b6af93daf278765c3bbc5", null ],
-    [ "setHitodamaPrtcl", "classdaZraFreeze__c.html#a7e2290ba6b4e23d11802845bddf528d5", null ],
+    [ "setHitodamaPrtcl", "classdaZraFreeze__c.html#ac33743093270c06cc8fa1a631826f38d", null ],
     [ "field_0x5b0", "classdaZraFreeze__c.html#ab1ca34954873804382a68d4310fb3617", null ],
     [ "field_0x5b1", "classdaZraFreeze__c.html#a10d7c37d503424b96eb413b4b4aadb94", null ],
     [ "field_0x5b2", "classdaZraFreeze__c.html#ae5b8c710d08465204a718f86172416a7", null ],

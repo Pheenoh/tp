@@ -44,7 +44,6 @@ var classdDlst__shadowControl__c =
     [ "addReal", "classdDlst__shadowControl__c.html#af0d423caa75aeade180cfd5331c83cfa", null ],
     [ "addReal", "classdDlst__shadowControl__c.html#af0d423caa75aeade180cfd5331c83cfa", null ],
     [ "addReal", "classdDlst__shadowControl__c.html#af0d423caa75aeade180cfd5331c83cfa", null ],
-    [ "addReal", "classdDlst__shadowControl__c.html#af0d423caa75aeade180cfd5331c83cfa", null ],
     [ "draw", "classdDlst__shadowControl__c.html#a7a6f6a4b2ede3651e1f137f254ef837e", null ],
     [ "getSimpleTex", "classdDlst__shadowControl__c.html#ad7319859d62a8d4efc9326f3dc7ba2a2", null ],
     [ "imageDraw", "classdDlst__shadowControl__c.html#abfcede527b58091535d66b77ee793d26", null ],

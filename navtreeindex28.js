@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"JASHeapCtrl_8cpp.html#abed5bd59c54272a132a5b4da4beff66d":[4,0,2,1,5,36,16],
+"JASHeapCtrl_8cpp.html#ac74c79eb7e1bd5ec802794f8f8435e59":[4,0,2,1,5,36,4],
 "JASHeapCtrl_8cpp.html#ad169dce2c1d6d6192840f04eef6a7359":[4,0,2,1,5,36,6],
 "JASHeapCtrl_8cpp.html#adde7f81a8ec6294cf4a2177c6bbb2044":[4,0,2,1,5,36,39],
 "JASHeapCtrl_8cpp.html#ae11bdd42afd572025eea91d3374245b2":[4,0,2,1,5,36,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "JASTaskThread_8cpp.html#a3f61243ebf5cbb2ff90548d397b16772":[4,0,2,1,5,48,8],
 "JASTaskThread_8cpp.html#a40bac1356e0a354035dac545542bfddc":[4,0,2,1,5,48,18],
 "JASTaskThread_8cpp.html#a498e6440d5c316e2672169ee4ed92309":[4,0,2,1,5,48,2],
-"JASTaskThread_8cpp.html#a555313105babad25e2d7b7270d73697a":[4,0,2,1,5,48,15],
-"JASTaskThread_8cpp.html#a7ba5e7f8cf9e8fa83ddd9cd6d17e8403":[4,0,2,1,5,48,16],
-"JASTaskThread_8cpp.html#a825b308224211d12d035860083796e2b":[4,0,2,1,5,48,1]
+"JASTaskThread_8cpp.html#a555313105babad25e2d7b7270d73697a":[4,0,2,1,5,48,15]
 };

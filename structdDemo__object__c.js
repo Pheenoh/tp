@@ -21,7 +21,6 @@ var structdDemo__object__c =
     [ "mpActors", "structdDemo__object__c.html#ae24f12888893e6d89d7757a6a772dd09", null ],
     [ "mpAmbient", "structdDemo__object__c.html#a845db13997fff4e90e1bc4d484204b60", null ],
     [ "mpCamera", "structdDemo__object__c.html#a47ead27fec6c095db41f7367e797d97e", null ],
-    [ "mpEditorCamera", "structdDemo__object__c.html#a54cb1e12c274f6ff461e1d8660dbb3ad", null ],
     [ "mpFog", "structdDemo__object__c.html#ad10a1e27efd2b8688dae9763e2d1185d", null ],
     [ "mpLights", "structdDemo__object__c.html#a5bb9f8b3580f4fb59fa1d691f5958147", null ]
 ];

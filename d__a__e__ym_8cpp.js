@@ -1,6 +1,6 @@
 var d__a__e__ym_8cpp =
 [
-    [ "daTag_FWall_c", "structdaTag__FWall__c.html", "structdaTag__FWall__c" ],
+    [ "daTag_FWall_c", "classdaTag__FWall__c.html", "classdaTag__FWall__c" ],
     [ "E_YM_n", "structE__YM__n.html", "structE__YM__n" ],
     [ "__construct_new_array", "d__a__e__ym_8cpp.html#a323591f74ddf6092f175dfa7e270e6fb", null ],
     [ "__ct__10dCcD_GSttsFv", "d__a__e__ym_8cpp.html#ae4cd09eb67ed2fb9bc6e87d5cea71757", null ],

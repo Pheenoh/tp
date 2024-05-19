@@ -91,7 +91,9 @@ var NAVTREEINDEX16 =
 "J3DGD_8h.html#afb5606113429afb808cd26f5e880e929":[4,0,1,6,2,1,33],
 "J3DGD_8h_source.html":[4,0,1,6,2,1],
 "J3DJointFactory_8cpp.html":[4,0,2,1,3,2],
-"J3DJointFactory_8cpp.html#a8915a2fbf8af31c975207f4400bf6d7a":[4,0,2,1,3,2,0],
+"J3DJointFactory_8cpp.html#a2b05986531107cde8783fde25a9a7413":[4,0,2,1,3,2,1],
+"J3DJointFactory_8cpp.html#a43f4ea484e3e33592889e33f2ff78a06":[4,0,2,1,3,2,0],
+"J3DJointFactory_8cpp.html#a8915a2fbf8af31c975207f4400bf6d7a":[4,0,2,1,3,2,2],
 "J3DJointFactory_8h.html":[4,0,1,6,3,2],
 "J3DJointFactory_8h_source.html":[4,0,1,6,3,2],
 "J3DJointTree_8cpp.html":[4,0,2,1,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "J3DMatBlock_8cpp.html#a367f9a3b2b846b7526bd3153726cba2b":[4,0,2,1,2,2,114],
 "J3DMatBlock_8cpp.html#a3737cf732c2ff6eac8b3a064ed7563e6":[4,0,2,1,2,2,284],
 "J3DMatBlock_8cpp.html#a378d465e15c2f0794fc02a42bdc8bc00":[4,0,2,1,2,2,332],
-"J3DMatBlock_8cpp.html#a38999383227d759da9a59034e1a5bc15":[4,0,2,1,2,2,43],
-"J3DMatBlock_8cpp.html#a389c67b2746f8e92b23f9c557849364f":[4,0,2,1,2,2,317],
-"J3DMatBlock_8cpp.html#a389c99f05756a34c555a0ec305aa47bf":[4,0,2,1,2,2,47]
+"J3DMatBlock_8cpp.html#a38999383227d759da9a59034e1a5bc15":[4,0,2,1,2,2,43]
 };

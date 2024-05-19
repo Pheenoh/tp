@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"Z2LinkMgr_8cpp.html#a27ed72047767c2467078608296d2aafa":[4,0,2,5,7,129],
+"Z2LinkMgr_8cpp.html#a2a0ad40b82e5b134be74074775c12939":[4,0,2,5,7,89],
 "Z2LinkMgr_8cpp.html#a2ca633c0bea8a0799d849a0a975c9378":[4,0,2,5,7,53],
 "Z2LinkMgr_8cpp.html#a2d3b53b7aea06f2d58c9c05efaba06ec":[4,0,2,5,7,38],
 "Z2LinkMgr_8cpp.html#a2f8c22341bfe653ee83af9e5c17566c0":[4,0,2,5,7,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "Z2SceneMgr_8cpp.html#a81350ab53fae1067dadffbca42bb4b3f":[4,0,2,5,9,164],
 "Z2SceneMgr_8cpp.html#a81d46d3f87a63afcdff60d7f8f197478":[4,0,2,5,9,68],
 "Z2SceneMgr_8cpp.html#a85078da6592f3e9c3a40e580274164df":[4,0,2,5,9,73],
-"Z2SceneMgr_8cpp.html#a85cfd5fa949776d8bdb723f774cc89b0":[4,0,2,5,9,55],
-"Z2SceneMgr_8cpp.html#a869268a9a3a99e2b477737c504f581d8":[4,0,2,5,9,175],
-"Z2SceneMgr_8cpp.html#a876a3062e3700996f05afdec12877994":[4,0,2,5,9,168]
+"Z2SceneMgr_8cpp.html#a85cfd5fa949776d8bdb723f774cc89b0":[4,0,2,5,9,55]
 };

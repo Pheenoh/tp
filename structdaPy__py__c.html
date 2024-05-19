@@ -260,9 +260,9 @@ Public Types</h2></td></tr>
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a0a254be62bf07b219ba30ed63e3a14f8">FLG2_UNK_100000</a> = 0x100000
 , <br />
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7aee294d55e168a55482d4d9bbec9ea5c2">FLG2_UNK_80000</a> = 0x80000
-, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a5b4729c710a9437b67c8d3c20abae688">FLG2_UNK_40000</a> = 0x40000
+, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a535258d5208f96ce0b3c3b49c6b4cb67">FLG2_FORCE_GAMEOVER</a> = 0x40000
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a332327cbd23fc59f37c8dcbc60b2ccce">FLG2_UNK_20000</a> = 0x20000
-, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a683d74fe947a2b5ae9f2f478fbf507b4">FLG2_UNK_10000</a> = 0x10000
+, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a147d5e39fb0bfc7f0837df247ae0f8ba">FLG2_WOLF_DASH_AUTO_JUMP</a> = 0x10000
 , <br />
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a30d22d42b4fd768e20c7f2ab4fdf7736">FLG2_SCN_CHG_START</a> = 0x8000
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a05e71f50e80969472b1f6181a4f79565">FLG2_UNK_4000</a> = 0x4000
@@ -272,7 +272,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7ac29bf5ad91582996283add082f47e016">FLG2_PLAYER_SHADOW</a> = 0x400
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7aa9e03993188c4961d8dbc16bbf8de2b2">FLG2_UNK_200</a> = 0x200
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7abe4fae8a96d69dca822597fd7633572c">FLG2_UNK_80</a> = 0x80
-, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7afd8b5971be46408f46b29288f93beeb7">FLG2_UNK_40</a> = 0x40
+, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a57914de9bafb07697507454fb30fedc2">FLG2_WOLF_ENEMY_HANG_BITE</a> = 0x40
 , <br />
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a1de2077399d1304e50bc67efd90e18ce">FLG2_WOLF_ENEMY_LEFT_THROW</a> = 0x20
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a6c6c4a04143ea70baa85d40e370a3c40">FLG2_UNK_10</a> = 0x10
@@ -280,7 +280,7 @@ Public Types</h2></td></tr>
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a1836cd63f5a7ce8a1c256a620115665b">FLG2_UNK_2</a> = 2
 , <br />
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7aa48df7965a2af96f89ef53f7878c44fc">FLG2_UNK_1</a> = 1
-, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a907499ee887d27963421b3a822a9bff3">FLG2_UNK_58</a> = FLG2_UNK_40 | FLG2_UNK_10 | FLG2_UNK_8
+, <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7a907499ee887d27963421b3a822a9bff3">FLG2_UNK_58</a> = FLG2_WOLF_ENEMY_HANG_BITE | FLG2_UNK_10 | FLG2_UNK_8
 , <a class="el" href="structdaPy__py__c.html#a0ee90a17835d8cd481919fe9d57982c7ace906aefda347852807012a60f669728">FLG2_UNK_10000001</a> = FLG2_UNK_10000000 | FLG2_UNK_1
 <br />
  }</td></tr>
@@ -429,17 +429,17 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a090dfb4feadeaed07d68da71093b648f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcb798e95ee36249988087b7c5efc9d8" id="r_afcb798e95ee36249988087b7c5efc9d8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8a02a176713191ffe931716e969055c9bf">SMODE_SUMO_READY</a> = 1
-, <a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8ac2e1dd328761dbfb5c556313764369dd">SMODE_SUMO_LOSE</a> = 37
-, <a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8ad97477def88ba3d8ad2056911587691b">SMODE_WOLF_PUZZLE</a> = 39
-, <a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8acda225ecf3c8808005ce8216c82546f2">SMODE_GOAT_STOP</a> = 42
+<tr class="memitem:a0cfffd5fa76787d43f0f8531d92ca1cf" id="r_a0cfffd5fa76787d43f0f8531d92ca1cf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfa02a176713191ffe931716e969055c9bf">SMODE_SUMO_READY</a> = 1
+, <a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfac2e1dd328761dbfb5c556313764369dd">SMODE_SUMO_LOSE</a> = 37
+, <a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfad97477def88ba3d8ad2056911587691b">SMODE_WOLF_PUZZLE</a> = 39
+, <a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfacda225ecf3c8808005ce8216c82546f2">SMODE_GOAT_STOP</a> = 42
 , <br />
-&#160;&#160;<a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8a38cae17f2e916f6ee99ffa07bdc9f6d2">SMODE_GORON_THROW</a>
-, <a class="el" href="structdaPy__py__c.html#afcb798e95ee36249988087b7c5efc9d8a0a8ddcb04a6a5accda43d281adc5a8ae">SMODE_CARGO_CARRY</a>
+&#160;&#160;<a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfa38cae17f2e916f6ee99ffa07bdc9f6d2">SMODE_GORON_THROW</a>
+, <a class="el" href="structdaPy__py__c.html#a0cfffd5fa76787d43f0f8531d92ca1cfa0a8ddcb04a6a5accda43d281adc5a8ae">SMODE_CARGO_CARRY</a>
 <br />
  }</td></tr>
-<tr class="separator:afcb798e95ee36249988087b7c5efc9d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a0cfffd5fa76787d43f0f8531d92ca1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a020d44aa8d44e132f8511d7741121a1c" id="r_a020d44aa8d44e132f8511d7741121a1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a020d44aa8d44e132f8511d7741121a1c">CutType</a> { <br />
 &#160;&#160;<a class="el" href="structdaPy__py__c.html#a020d44aa8d44e132f8511d7741121a1ca7a63d500831847eb4961924025af7648">CUT_TYPE_NM_VERTICAL</a> = 1
 , <a class="el" href="structdaPy__py__c.html#a020d44aa8d44e132f8511d7741121a1ca7d56c8bb46bc24dd5615a35c9ed812b2">CUT_TYPE_NM_STAB</a>
@@ -533,10 +533,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2b9fd5485bd2c6d235146052a69323cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cad9a5037c47f5ebb13b93724cfdb8f" id="r_a1cad9a5037c47f5ebb13b93724cfdb8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a1cad9a5037c47f5ebb13b93724cfdb8f">getRightHandPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
 <tr class="separator:a1cad9a5037c47f5ebb13b93724cfdb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8248475457c4802d4419bdfd2ffd9f21" id="r_a8248475457c4802d4419bdfd2ffd9f21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a8248475457c4802d4419bdfd2ffd9f21">getItemPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
-<tr class="separator:a8248475457c4802d4419bdfd2ffd9f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4bd892a6652a13aa5fb2a0ecd683c6c" id="r_ad4bd892a6652a13aa5fb2a0ecd683c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ad4bd892a6652a13aa5fb2a0ecd683c6c">getLeftHandPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
+<tr class="memitem:ad4bd892a6652a13aa5fb2a0ecd683c6c" id="r_ad4bd892a6652a13aa5fb2a0ecd683c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ad4bd892a6652a13aa5fb2a0ecd683c6c">getLeftHandPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
 <tr class="separator:ad4bd892a6652a13aa5fb2a0ecd683c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904ffd00ee116d607a6e80c55892ce91" id="r_a904ffd00ee116d607a6e80c55892ce91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a904ffd00ee116d607a6e80c55892ce91">getItemPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
+<tr class="separator:a904ffd00ee116d607a6e80c55892ce91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa82ed2ba86050eafe5c30f2374fd3381" id="r_aa82ed2ba86050eafe5c30f2374fd3381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">virtual</a> <a class="el" href="structcXyz.html">cXyz</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#aa82ed2ba86050eafe5c30f2374fd3381">getMidnaAtnPos</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
 <tr class="separator:aa82ed2ba86050eafe5c30f2374fd3381"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab28de51cc50933a4e5928b4ccff560e1" id="r_ab28de51cc50933a4e5928b4ccff560e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">virtual</a> <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ab28de51cc50933a4e5928b4ccff560e1">setMidnaMsgNum</a> (<a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *, <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)</td></tr>
@@ -939,8 +939,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a35fd583562a333439cc2e4e3b08be584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53ea1846650830192cbf039ec3ee2538" id="r_a53ea1846650830192cbf039ec3ee2538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a53ea1846650830192cbf039ec3ee2538">checkStickArrowReset</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
 <tr class="separator:a53ea1846650830192cbf039ec3ee2538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0763cdf6cd8f72b134a93da1cc723b5" id="r_ac0763cdf6cd8f72b134a93da1cc723b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ac0763cdf6cd8f72b134a93da1cc723b5">offWolfEnemyHangBite</a> ()</td></tr>
+<tr class="separator:ac0763cdf6cd8f72b134a93da1cc723b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b05a26247b482dd2366c287088a7c5" id="r_a55b05a26247b482dd2366c287088a7c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a55b05a26247b482dd2366c287088a7c5">setCanoeSlider</a> ()</td></tr>
+<tr class="separator:a55b05a26247b482dd2366c287088a7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0773291d65b848fada7949207fadff28" id="r_a0773291d65b848fada7949207fadff28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a0773291d65b848fada7949207fadff28">offCanoeSlider</a> ()</td></tr>
+<tr class="separator:a0773291d65b848fada7949207fadff28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c92e338e0ad8815faeba08686dd8d95" id="r_a0c92e338e0ad8815faeba08686dd8d95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a0c92e338e0ad8815faeba08686dd8d95">offCargoCarry</a> ()</td></tr>
 <tr class="separator:a0c92e338e0ad8815faeba08686dd8d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5731348acd6f90de3d1f64fd07fdce" id="r_a5d5731348acd6f90de3d1f64fd07fdce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a5d5731348acd6f90de3d1f64fd07fdce">onWolfEnemyCatch</a> (<a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *<a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">i_actor</a>)</td></tr>
+<tr class="separator:a5d5731348acd6f90de3d1f64fd07fdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae65a8a76bdf2bc9eb8d0489b65eae815" id="r_ae65a8a76bdf2bc9eb8d0489b65eae815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ae65a8a76bdf2bc9eb8d0489b65eae815">offGoronSideMove</a> ()</td></tr>
 <tr class="separator:ae65a8a76bdf2bc9eb8d0489b65eae815"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab382493b8f86aeab3b976a98fbbfda3e" id="r_ab382493b8f86aeab3b976a98fbbfda3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ab382493b8f86aeab3b976a98fbbfda3e">getBodyAngleX</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
@@ -1027,8 +1035,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac849a4cca831e089db4298a60edcf6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac355095011723ef798c01dc739c4e54d" id="r_ac355095011723ef798c01dc739c4e54d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ac355095011723ef798c01dc739c4e54d">onLightSwordGetEffect</a> ()</td></tr>
 <tr class="separator:ac355095011723ef798c01dc739c4e54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f970e9a5543d2dcfa17cf2a76636fdb" id="r_a6f970e9a5543d2dcfa17cf2a76636fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a6f970e9a5543d2dcfa17cf2a76636fdb">onForceGameOver</a> ()</td></tr>
+<tr class="separator:a6f970e9a5543d2dcfa17cf2a76636fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3ca06c3c841245d2609eca703b62cb" id="r_afd3ca06c3c841245d2609eca703b62cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#afd3ca06c3c841245d2609eca703b62cb">onForceWolfChange</a> ()</td></tr>
+<tr class="separator:afd3ca06c3c841245d2609eca703b62cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71ee08868fa6b0f90ba233239bcfc7be" id="r_a71ee08868fa6b0f90ba233239bcfc7be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a71ee08868fa6b0f90ba233239bcfc7be">checkBoarSingleBattle</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
 <tr class="separator:a71ee08868fa6b0f90ba233239bcfc7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a353b8d00b2b790dd412784bade75d1f9" id="r_a353b8d00b2b790dd412784bade75d1f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a353b8d00b2b790dd412784bade75d1f9">checkWolfDashAutoJump</a> () <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a></td></tr>
+<tr class="separator:a353b8d00b2b790dd412784bade75d1f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aef8becdca16c8a545a1514072559c6" id="r_a9aef8becdca16c8a545a1514072559c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a9aef8becdca16c8a545a1514072559c6">changeOriginalDemo</a> ()</td></tr>
 <tr class="separator:a9aef8becdca16c8a545a1514072559c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5480295b5c0ae376af09c52ebac439db" id="r_a5480295b5c0ae376af09c52ebac439db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a5480295b5c0ae376af09c52ebac439db">changeDemoMode</a> (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">i_demoMode</a>, <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">int</a> <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">i_param0</a>, <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">int</a> <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">i_param1</a>, <a class="el" href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a> <a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">i_param2</a>)</td></tr>
@@ -1103,8 +1117,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0ef0bb15739f512b2b08a07cf301f28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae375cb703a1770c676594331f396b432" id="r_ae375cb703a1770c676594331f396b432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ae375cb703a1770c676594331f396b432">checkNowWolf</a> ()</td></tr>
 <tr class="separator:ae375cb703a1770c676594331f396b432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ef0bb15739f512b2b08a07cf301f28a" id="r_a0ef0bb15739f512b2b08a07cf301f28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a0ef0bb15739f512b2b08a07cf301f28a">checkBoomerangCharge</a> ()</td></tr>
-<tr class="separator:a0ef0bb15739f512b2b08a07cf301f28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ef0bb15739f512b2b08a07cf301f28a" id="r_a0ef0bb15739f512b2b08a07cf301f28a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a0ef0bb15739f512b2b08a07cf301f28a">checkBoomerangCharge</a> ()</td></tr>
 <tr class="separator:a0ef0bb15739f512b2b08a07cf301f28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de55c6034ac08a63617413060de3686" id="r_a2de55c6034ac08a63617413060de3686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a2de55c6034ac08a63617413060de3686">setLookPos</a> (<a class="el" href="structcXyz.html">cXyz</a> *)</td></tr>
@@ -1187,8 +1199,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac41458f475a39865060075e4b046c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac41458f475a39865060075e4b046c85e" id="r_ac41458f475a39865060075e4b046c85e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ac41458f475a39865060075e4b046c85e">checkNowWolfEyeUp</a> ()</td></tr>
 <tr class="separator:ac41458f475a39865060075e4b046c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41458f475a39865060075e4b046c85e" id="r_ac41458f475a39865060075e4b046c85e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ac41458f475a39865060075e4b046c85e">checkNowWolfEyeUp</a> ()</td></tr>
-<tr class="separator:ac41458f475a39865060075e4b046c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de55c6034ac08a63617413060de3686" id="r_a2de55c6034ac08a63617413060de3686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a2de55c6034ac08a63617413060de3686">setLookPos</a> (<a class="el" href="structcXyz.html">cXyz</a> *)</td></tr>
 <tr class="separator:a2de55c6034ac08a63617413060de3686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f323c4a2bb79746acb9bda5b810d130" id="r_a5f323c4a2bb79746acb9bda5b810d130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a5f323c4a2bb79746acb9bda5b810d130">cancelOriginalDemo</a> ()</td></tr>
@@ -1201,8 +1211,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:addd099b25292f7e7458e45615e7cb6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeecd652d059c18d00817fc5461c7277b" id="r_aeecd652d059c18d00817fc5461c7277b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#aeecd652d059c18d00817fc5461c7277b">changeOriginalDemo</a> ()</td></tr>
 <tr class="separator:aeecd652d059c18d00817fc5461c7277b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41458f475a39865060075e4b046c85e" id="r_ac41458f475a39865060075e4b046c85e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#ac41458f475a39865060075e4b046c85e">checkNowWolfEyeUp</a> ()</td></tr>
-<tr class="separator:ac41458f475a39865060075e4b046c85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de55c6034ac08a63617413060de3686" id="r_a2de55c6034ac08a63617413060de3686"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#a2de55c6034ac08a63617413060de3686">setLookPos</a> (<a class="el" href="structcXyz.html">cXyz</a> *)</td></tr>
 <tr class="separator:a2de55c6034ac08a63617413060de3686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa38a158571cabd8239d316c92bb59bfe" id="r_aa38a158571cabd8239d316c92bb59bfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaPy__py__c.html#aa38a158571cabd8239d316c92bb59bfe">getAttentionOffsetY</a> ()</td></tr>
@@ -1294,12 +1302,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
@@ -1356,28 +1360,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
@@ -1662,12 +1644,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
@@ -1860,12 +1838,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
@@ -1942,8 +1916,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
@@ -2092,8 +2064,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
@@ -2254,8 +2224,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
@@ -2266,12 +2234,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
-<tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c" id="r_a150acf531845cb2c19af23714e3fd0fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a150acf531845cb2c19af23714e3fd0fc">fopAc_ac_c</a> ()</td></tr>
 <tr class="separator:a150acf531845cb2c19af23714e3fd0fc inherit pub_methods_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03db26d33e83a0e8ab8e922585fcdf1c inherit pub_methods_structfopAc__ac__c" id="r_a03db26d33e83a0e8ab8e922585fcdf1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfopAc__ac__c.html#a03db26d33e83a0e8ab8e922585fcdf1c">~fopAc_ac_c</a> ()</td></tr>
@@ -2534,8 +2496,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:af8a1fb73d0e5d083cb3a90baceee1f41 inherit pub_static_attribs_structfopAc__ac__c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="afcb798e95ee36249988087b7c5efc9d8" name="afcb798e95ee36249988087b7c5efc9d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcb798e95ee36249988087b7c5efc9d8">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a0cfffd5fa76787d43f0f8531d92ca1cf" name="a0cfffd5fa76787d43f0f8531d92ca1cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cfffd5fa76787d43f0f8531d92ca1cf">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2546,12 +2508,12 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8a02a176713191ffe931716e969055c9bf" name="afcb798e95ee36249988087b7c5efc9d8a02a176713191ffe931716e969055c9bf"></a>SMODE_SUMO_READY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8ac2e1dd328761dbfb5c556313764369dd" name="afcb798e95ee36249988087b7c5efc9d8ac2e1dd328761dbfb5c556313764369dd"></a>SMODE_SUMO_LOSE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8ad97477def88ba3d8ad2056911587691b" name="afcb798e95ee36249988087b7c5efc9d8ad97477def88ba3d8ad2056911587691b"></a>SMODE_WOLF_PUZZLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8acda225ecf3c8808005ce8216c82546f2" name="afcb798e95ee36249988087b7c5efc9d8acda225ecf3c8808005ce8216c82546f2"></a>SMODE_GOAT_STOP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8a38cae17f2e916f6ee99ffa07bdc9f6d2" name="afcb798e95ee36249988087b7c5efc9d8a38cae17f2e916f6ee99ffa07bdc9f6d2"></a>SMODE_GORON_THROW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="afcb798e95ee36249988087b7c5efc9d8a0a8ddcb04a6a5accda43d281adc5a8ae" name="afcb798e95ee36249988087b7c5efc9d8a0a8ddcb04a6a5accda43d281adc5a8ae"></a>SMODE_CARGO_CARRY&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfa02a176713191ffe931716e969055c9bf" name="a0cfffd5fa76787d43f0f8531d92ca1cfa02a176713191ffe931716e969055c9bf"></a>SMODE_SUMO_READY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfac2e1dd328761dbfb5c556313764369dd" name="a0cfffd5fa76787d43f0f8531d92ca1cfac2e1dd328761dbfb5c556313764369dd"></a>SMODE_SUMO_LOSE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfad97477def88ba3d8ad2056911587691b" name="a0cfffd5fa76787d43f0f8531d92ca1cfad97477def88ba3d8ad2056911587691b"></a>SMODE_WOLF_PUZZLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfacda225ecf3c8808005ce8216c82546f2" name="a0cfffd5fa76787d43f0f8531d92ca1cfacda225ecf3c8808005ce8216c82546f2"></a>SMODE_GOAT_STOP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfa38cae17f2e916f6ee99ffa07bdc9f6d2" name="a0cfffd5fa76787d43f0f8531d92ca1cfa38cae17f2e916f6ee99ffa07bdc9f6d2"></a>SMODE_GORON_THROW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cfffd5fa76787d43f0f8531d92ca1cfa0a8ddcb04a6a5accda43d281adc5a8ae" name="a0cfffd5fa76787d43f0f8531d92ca1cfa0a8ddcb04a6a5accda43d281adc5a8ae"></a>SMODE_CARGO_CARRY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2826,9 +2788,9 @@ Static Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7ae890d6daf7f5134e916d0022f1f91ed2" name="a0ee90a17835d8cd481919fe9d57982c7ae890d6daf7f5134e916d0022f1f91ed2"></a>FLG2_UNK_200000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a0a254be62bf07b219ba30ed63e3a14f8" name="a0ee90a17835d8cd481919fe9d57982c7a0a254be62bf07b219ba30ed63e3a14f8"></a>FLG2_UNK_100000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7aee294d55e168a55482d4d9bbec9ea5c2" name="a0ee90a17835d8cd481919fe9d57982c7aee294d55e168a55482d4d9bbec9ea5c2"></a>FLG2_UNK_80000&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a5b4729c710a9437b67c8d3c20abae688" name="a0ee90a17835d8cd481919fe9d57982c7a5b4729c710a9437b67c8d3c20abae688"></a>FLG2_UNK_40000&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a535258d5208f96ce0b3c3b49c6b4cb67" name="a0ee90a17835d8cd481919fe9d57982c7a535258d5208f96ce0b3c3b49c6b4cb67"></a>FLG2_FORCE_GAMEOVER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a332327cbd23fc59f37c8dcbc60b2ccce" name="a0ee90a17835d8cd481919fe9d57982c7a332327cbd23fc59f37c8dcbc60b2ccce"></a>FLG2_UNK_20000&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a683d74fe947a2b5ae9f2f478fbf507b4" name="a0ee90a17835d8cd481919fe9d57982c7a683d74fe947a2b5ae9f2f478fbf507b4"></a>FLG2_UNK_10000&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a147d5e39fb0bfc7f0837df247ae0f8ba" name="a0ee90a17835d8cd481919fe9d57982c7a147d5e39fb0bfc7f0837df247ae0f8ba"></a>FLG2_WOLF_DASH_AUTO_JUMP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a30d22d42b4fd768e20c7f2ab4fdf7736" name="a0ee90a17835d8cd481919fe9d57982c7a30d22d42b4fd768e20c7f2ab4fdf7736"></a>FLG2_SCN_CHG_START&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a05e71f50e80969472b1f6181a4f79565" name="a0ee90a17835d8cd481919fe9d57982c7a05e71f50e80969472b1f6181a4f79565"></a>FLG2_UNK_4000&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7ab2abb14b292ead37f64f4a0d765a53df" name="a0ee90a17835d8cd481919fe9d57982c7ab2abb14b292ead37f64f4a0d765a53df"></a>FLG2_UNK_2000&#160;</td><td class="fielddoc"></td></tr>
@@ -2836,7 +2798,7 @@ Static Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7ac29bf5ad91582996283add082f47e016" name="a0ee90a17835d8cd481919fe9d57982c7ac29bf5ad91582996283add082f47e016"></a>FLG2_PLAYER_SHADOW&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7aa9e03993188c4961d8dbc16bbf8de2b2" name="a0ee90a17835d8cd481919fe9d57982c7aa9e03993188c4961d8dbc16bbf8de2b2"></a>FLG2_UNK_200&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7abe4fae8a96d69dca822597fd7633572c" name="a0ee90a17835d8cd481919fe9d57982c7abe4fae8a96d69dca822597fd7633572c"></a>FLG2_UNK_80&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7afd8b5971be46408f46b29288f93beeb7" name="a0ee90a17835d8cd481919fe9d57982c7afd8b5971be46408f46b29288f93beeb7"></a>FLG2_UNK_40&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a57914de9bafb07697507454fb30fedc2" name="a0ee90a17835d8cd481919fe9d57982c7a57914de9bafb07697507454fb30fedc2"></a>FLG2_WOLF_ENEMY_HANG_BITE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a1de2077399d1304e50bc67efd90e18ce" name="a0ee90a17835d8cd481919fe9d57982c7a1de2077399d1304e50bc67efd90e18ce"></a>FLG2_WOLF_ENEMY_LEFT_THROW&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7a6c6c4a04143ea70baa85d40e370a3c40" name="a0ee90a17835d8cd481919fe9d57982c7a6c6c4a04143ea70baa85d40e370a3c40"></a>FLG2_UNK_10&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0ee90a17835d8cd481919fe9d57982c7aa9e7a42a22d087eb5718cf11716ee8fe" name="a0ee90a17835d8cd481919fe9d57982c7aa9e7a42a22d087eb5718cf11716ee8fe"></a>FLG2_UNK_8&#160;</td><td class="fielddoc"></td></tr>
@@ -4460,7 +4422,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a56830dd4b2a67d526e7a3e0ec3c42120" name="a56830dd4b2a67d526e7a3e0ec3c42120"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56830dd4b2a67d526e7a3e0ec3c42120">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a56830dd4b2a67d526e7a3e0ec3c42120">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4485,7 +4447,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0ef0bb15739f512b2b08a07cf301f28a" name="a0ef0bb15739f512b2b08a07cf301f28a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4502,7 +4464,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0ef0bb15739f512b2b08a07cf301f28a" name="a0ef0bb15739f512b2b08a07cf301f28a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4519,7 +4481,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0ef0bb15739f512b2b08a07cf301f28a" name="a0ef0bb15739f512b2b08a07cf301f28a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4536,24 +4498,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a0ef0bb15739f512b2b08a07cf301f28a" name="a0ef0bb15739f512b2b08a07cf301f28a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::checkBoomerangCharge </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0ef0bb15739f512b2b08a07cf301f28a" name="a0ef0bb15739f512b2b08a07cf301f28a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ef0bb15739f512b2b08a07cf301f28a">&#9670;&#160;</a></span>checkBoomerangCharge() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6879,7 +6824,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="aa49f67c0ae881c492f6a57ee5163c184" name="aa49f67c0ae881c492f6a57ee5163c184"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa49f67c0ae881c492f6a57ee5163c184">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[1/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49f67c0ae881c492f6a57ee5163c184">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6904,7 +6849,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[2/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6921,7 +6866,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[3/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[3/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6938,7 +6883,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[4/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6955,7 +6900,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[5/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6972,7 +6917,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[6/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6989,7 +6934,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[7/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7006,7 +6951,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[8/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7023,7 +6968,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[9/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7040,41 +6985,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[10/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::checkNowWolfEyeUp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[11/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::checkNowWolfEyeUp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac41458f475a39865060075e4b046c85e" name="ac41458f475a39865060075e4b046c85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[12/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41458f475a39865060075e4b046c85e">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7091,7 +7002,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a071c65dcf75e640a1ba1d38780d96d4d" name="a071c65dcf75e640a1ba1d38780d96d4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a071c65dcf75e640a1ba1d38780d96d4d">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[13/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a071c65dcf75e640a1ba1d38780d96d4d">&#9670;&#160;</a></span>checkNowWolfEyeUp() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8133,6 +8044,31 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classdaAlink__c.html#a344a6584ab6ad01701d7b7579aa04ade">daAlink_c</a>.</p>
+
+</div>
+</div>
+<a id="a353b8d00b2b790dd412784bade75d1f9" name="a353b8d00b2b790dd412784bade75d1f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a353b8d00b2b790dd412784bade75d1f9">&#9670;&#160;</a></span>checkWolfDashAutoJump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> daPy_py_c::checkWolfDashAutoJump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -9531,8 +9467,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8248475457c4802d4419bdfd2ffd9f21" name="a8248475457c4802d4419bdfd2ffd9f21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8248475457c4802d4419bdfd2ffd9f21">&#9670;&#160;</a></span>getItemPos()</h2>
+<a id="a904ffd00ee116d607a6e80c55892ce91" name="a904ffd00ee116d607a6e80c55892ce91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904ffd00ee116d607a6e80c55892ce91">&#9670;&#160;</a></span>getItemPos()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9541,7 +9477,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a> * daPy_py_c::getItemPos </td>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">const</a> <a class="el" href="structcXyz.html">cXyz</a> daPy_py_c::getItemPos </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -10890,6 +10826,31 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0773291d65b848fada7949207fadff28" name="a0773291d65b848fada7949207fadff28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0773291d65b848fada7949207fadff28">&#9670;&#160;</a></span>offCanoeSlider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::offCanoeSlider </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0c92e338e0ad8815faeba08686dd8d95" name="a0c92e338e0ad8815faeba08686dd8d95"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c92e338e0ad8815faeba08686dd8d95">&#9670;&#160;</a></span>offCargoCarry()</h2>
 
@@ -11214,6 +11175,31 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac0763cdf6cd8f72b134a93da1cc723b5" name="ac0763cdf6cd8f72b134a93da1cc723b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0763cdf6cd8f72b134a93da1cc723b5">&#9670;&#160;</a></span>offWolfEnemyHangBite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::offWolfEnemyHangBite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae46ce79d8d6b786bee256703dd3ee3fc" name="ae46ce79d8d6b786bee256703dd3ee3fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae46ce79d8d6b786bee256703dd3ee3fc">&#9670;&#160;</a></span>onBeeFollow()</h2>
 
@@ -11378,6 +11364,56 @@ Static Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::onForceAutoJump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f970e9a5543d2dcfa17cf2a76636fdb" name="a6f970e9a5543d2dcfa17cf2a76636fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f970e9a5543d2dcfa17cf2a76636fdb">&#9670;&#160;</a></span>onForceGameOver()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::onForceGameOver </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd3ca06c3c841245d2609eca703b62cb" name="afd3ca06c3c841245d2609eca703b62cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3ca06c3c841245d2609eca703b62cb">&#9670;&#160;</a></span>onForceWolfChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::onForceWolfChange </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -12043,6 +12079,32 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5d5731348acd6f90de3d1f64fd07fdce" name="a5d5731348acd6f90de3d1f64fd07fdce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d5731348acd6f90de3d1f64fd07fdce">&#9670;&#160;</a></span>onWolfEnemyCatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">bool</a> daPy_py_c::onWolfEnemyCatch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td>
+          <td class="paramname"><em>i_actor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a50bb5105d4e4802158a58d15c8b3e7d8" name="a50bb5105d4e4802158a58d15c8b3e7d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50bb5105d4e4802158a58d15c8b3e7d8">&#9670;&#160;</a></span>onWolfEyeKeep()</h2>
 
@@ -12187,6 +12249,31 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classdaAlink__c.html#a60e9e4520068358cd6efaf43aec80b8c">daAlink_c</a>.</p>
+
+</div>
+</div>
+<a id="a55b05a26247b482dd2366c287088a7c5" name="a55b05a26247b482dd2366c287088a7c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b05a26247b482dd2366c287088a7c5">&#9670;&#160;</a></span>setCanoeSlider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__jsystem-jsupport.html#ga13fa7ef63a40072c7203b3da54a569a2">void</a> daPy_py_c::setCanoeSlider </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -14102,7 +14189,6 @@ Static Public Attributes</h2></td></tr>
 <li>rel/d/a/d_a_kago/<a class="el" href="d__a__kago_8cpp.html">d_a_kago.cpp</a></li>
 <li>rel/d/a/d_a_tbox/<a class="el" href="d__a__tbox_8cpp.html">d_a_tbox.cpp</a></li>
 <li>rel/d/a/e/d_a_e_ai/<a class="el" href="d__a__e__ai_8cpp.html">d_a_e_ai.cpp</a></li>
-<li>rel/d/a/e/d_a_e_ba/<a class="el" href="d__a__e__ba_8cpp.html">d_a_e_ba.cpp</a></li>
 <li>rel/d/a/e/d_a_e_bi/<a class="el" href="d__a__e__bi_8cpp.html">d_a_e_bi.cpp</a></li>
 <li>rel/d/a/e/d_a_e_bs/<a class="el" href="d__a__e__bs_8cpp.html">d_a_e_bs.cpp</a></li>
 <li>rel/d/a/e/d_a_e_bu/<a class="el" href="d__a__e__bu_8cpp.html">d_a_e_bu.cpp</a></li>
@@ -14151,7 +14237,6 @@ Static Public Attributes</h2></td></tr>
 <li>rel/d/a/e/d_a_e_yd/<a class="el" href="d__a__e__yd_8cpp.html">d_a_e_yd.cpp</a></li>
 <li>rel/d/a/e/d_a_e_yg/<a class="el" href="d__a__e__yg_8cpp.html">d_a_e_yg.cpp</a></li>
 <li>rel/d/a/e/d_a_e_yh/<a class="el" href="d__a__e__yh_8cpp.html">d_a_e_yh.cpp</a></li>
-<li>rel/d/a/e/d_a_e_ymb/<a class="el" href="d__a__e__ymb_8cpp.html">d_a_e_ymb.cpp</a></li>
 <li>rel/d/a/e/d_a_e_yr/<a class="el" href="d__a__e__yr_8cpp.html">d_a_e_yr.cpp</a></li>
 <li>rel/d/a/e/d_a_e_zm/<a class="el" href="d__a__e__zm_8cpp.html">d_a_e_zm.cpp</a></li>
 <li>rel/d/a/e/d_a_e_zs/<a class="el" href="d__a__e__zs_8cpp.html">d_a_e_zs.cpp</a></li>
@@ -14183,7 +14268,6 @@ Static Public Attributes</h2></td></tr>
 <li>rel/d/a/npc/d_a_npc_cdn3/<a class="el" href="d__a__npc__cdn3_8cpp.html">d_a_npc_cdn3.cpp</a></li>
 <li>rel/d/a/npc/d_a_npc_drainSol/<a class="el" href="d__a__npc__drainSol_8cpp.html">d_a_npc_drainSol.cpp</a></li>
 <li>rel/d/a/npc/d_a_npc_henna/<a class="el" href="d__a__npc__henna_8cpp.html">d_a_npc_henna.cpp</a></li>
-<li>rel/d/a/npc/d_a_npc_hoz/<a class="el" href="d__a__npc__hoz_8cpp.html">d_a_npc_hoz.cpp</a></li>
 <li>rel/d/a/npc/d_a_npc_inko/<a class="el" href="d__a__npc__inko_8cpp.html">d_a_npc_inko.cpp</a></li>
 <li>rel/d/a/npc/d_a_npc_kn/<a class="el" href="d__a__npc__kn_8cpp.html">d_a_npc_kn.cpp</a></li>
 <li>rel/d/a/npc/d_a_npc_len/<a class="el" href="d__a__npc__len_8cpp.html">d_a_npc_len.cpp</a></li>
