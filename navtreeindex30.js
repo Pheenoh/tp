@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"JAUAudioArcLoader_8h.html":[4,0,1,6,5,62],
 "JAUAudioArcLoader_8h_source.html":[4,0,1,6,5,62],
 "JAUAudioMgr_8cpp.html":[4,0,2,1,5,56],
 "JAUAudioMgr_8cpp.html#a049c73a91c78fe3bd5529b6c67e441f2":[4,0,2,1,5,56,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "JFWSystem_8cpp.html#a4b84a3690c60a860f47920de4abe41fc":[4,0,2,1,6,1,17],
 "JFWSystem_8cpp.html#a53059e8b7352419ee077cd513eb1c974":[4,0,2,1,6,1,23],
 "JFWSystem_8cpp.html#a56fdc312a3923829ec2f88f1e28abafc":[4,0,2,1,6,1,2],
-"JFWSystem_8cpp.html#a6343a1a522f7ab0aa2cabe134adc15b7":[4,0,2,1,6,1,10],
-"JFWSystem_8cpp.html#a65695e29ab0d60aedb4016d1249db5fb":[4,0,2,1,6,1,0]
+"JFWSystem_8cpp.html#a6343a1a522f7ab0aa2cabe134adc15b7":[4,0,2,1,6,1,10]
 };

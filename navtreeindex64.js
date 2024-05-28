@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"Z2SpeechMgr2_8cpp.html#a6b40843aaa030ed44e5af091435d0b6c":[4,0,2,5,18,94],
 "Z2SpeechMgr2_8cpp.html#a6b5eee666e3d761659089b4daf94fc50":[4,0,2,5,18,17],
 "Z2SpeechMgr2_8cpp.html#a6b7bb3c7f427fe31bcbc964d42ae67fa":[4,0,2,5,18,29],
 "Z2SpeechMgr2_8cpp.html#a6d7307cf2ac391c2138a741fef4e7fe8":[4,0,2,5,18,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "ai_8c.html":[4,0,2,0,0,0],
 "ai_8c.html#a08f82c0fa88a74da87daebf0a1f9b3fa":[4,0,2,0,0,0,18],
 "ai_8c.html#a0c68549613f106b2b8a43b91f587efff":[4,0,2,0,0,0,4],
-"ai_8c.html#a195b516fd532567977de7a764aaa7399":[4,0,2,0,0,0,5],
-"ai_8c.html#a1b8eb163bf8e4a74c4a069a4d847de58":[4,0,2,0,0,0,2]
+"ai_8c.html#a195b516fd532567977de7a764aaa7399":[4,0,2,0,0,0,5]
 };

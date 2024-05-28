@@ -7,7 +7,6 @@ var d__a__obj__toby_8cpp =
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "daPy_py_c", "structdaPy__py__c.html", "structdaPy__py__c" ],
     [ "daObj_Toby_HIO_c", "structdaObj__Toby__HIO__c.html", "structdaObj__Toby__HIO__c" ],
-    [ "daE_HZ_c", "structdaE__HZ__c.html", "structdaE__HZ__c" ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
     [ "dKy_tevstr_c", "classdKy__tevstr__c.html", "classdKy__tevstr__c" ],
     [ "Vec", "structVec.html", "structVec" ],

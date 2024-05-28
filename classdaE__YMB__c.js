@@ -63,5 +63,6 @@ var classdaE__YMB__c =
     [ "setRockDamageEffect", "classdaE__YMB__c.html#ab39fc641cd26200f91749d42b823f325", null ],
     [ "setWaterEffect1", "classdaE__YMB__c.html#ab461c624eb00db552c5d880d9eb79b5e", null ],
     [ "setWaterEffect2", "classdaE__YMB__c.html#af6f7bdd35dec2b8c44592dd24903eb3e", null ],
-    [ "setWolfLockEffect", "classdaE__YMB__c.html#a5e527f79530ca0c56b953fa5a90b655a", null ]
+    [ "setWolfLockEffect", "classdaE__YMB__c.html#a5e527f79530ca0c56b953fa5a90b655a", null ],
+    [ "field_0x5ac", "classdaE__YMB__c.html#ab2c4ac311cd587030dbf7746362c3e8f", null ]
 ];

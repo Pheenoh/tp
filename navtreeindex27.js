@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"JASBank_8h.html":[4,0,1,6,5,22],
 "JASBank_8h_source.html":[4,0,1,6,5,22],
 "JASBasicBank_8cpp.html":[4,0,2,1,5,23],
 "JASBasicBank_8cpp.html#a1c5e740f9a462baf870b2a3bfaeb8b06":[4,0,2,1,5,23,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "JASHeapCtrl_8cpp.html#aaa8305d90e3c82414cad12c28d26aaf7":[4,0,2,1,5,36,46],
 "JASHeapCtrl_8cpp.html#aae1e984cdea388196f07d99e76d20095":[4,0,2,1,5,36,40],
 "JASHeapCtrl_8cpp.html#ab2560338b58a7b440b0e94ea6217fef7":[4,0,2,1,5,36,48],
-"JASHeapCtrl_8cpp.html#ab4ea0984d59ed1f3074078cdba2fa41e":[4,0,2,1,5,36,5],
-"JASHeapCtrl_8cpp.html#ab65d1ca4a81acbb27e20678fc07f6894":[4,0,2,1,5,36,23]
+"JASHeapCtrl_8cpp.html#ab4ea0984d59ed1f3074078cdba2fa41e":[4,0,2,1,5,36,5]
 };

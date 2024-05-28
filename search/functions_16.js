@@ -27,7 +27,7 @@ var searchData=
   ['vib_5fland_5f_5fq212daobjmovebox5act_5fcfv_24',['vib_land__Q212daObjMovebox5Act_cFv',['../d__a__obj__movebox_8cpp.html#a1d89a51a8c8580fe4e74cacc0ca8435b',1,'d_a_obj_movebox.cpp']]],
   ['vib_5fmove_25',['vib_move',['../classdMenu__Option__c.html#ab0b8b6522ce772deb8727bec1171e864',1,'dMenu_Option_c']]],
   ['vib_5fmove_5f_5f14dmenu_5foption_5fcfv_26',['vib_move__14dMenu_Option_cFv',['../d__menu__option_8cpp.html#a2539c80277e46d77167ee9f87449164e',1,'d_menu_option.cpp']]],
-  ['vibaction_27',['VibAction',['../structdaE__MD__c.html#a2c30708123d9871444a2a623bc55cf33',1,'daE_MD_c']]],
+  ['vibaction_27',['VibAction',['../classdaE__MD__c.html#a2c30708123d9871444a2a623bc55cf33',1,'daE_MD_c']]],
   ['vibaction_5f_5f8dae_5fmd_5fcfv_28',['VibAction__8daE_MD_cFv',['../d__a__e__md_8cpp.html#a2c69dc9c5b533e3c1d553489b7d91634',1,'d_a_e_md.cpp']]],
   ['vibstop_29',['VibStop',['../structdaObjCRVGATE__c.html#a6b64e361abfd6f22e4ad9cb0e87d9443',1,'daObjCRVGATE_c']]],
   ['vibstop_5f_5f14daobjcrvgate_5fcfv_30',['VibStop__14daObjCRVGATE_cFv',['../d__a__obj__crvgate_8cpp.html#a4865f78fd2f033811ebbf3e63a9d952b',1,'d_a_obj_crvgate.cpp']]],

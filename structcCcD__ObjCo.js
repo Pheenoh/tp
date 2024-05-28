@@ -17,6 +17,5 @@ var structcCcD__ObjCo =
     [ "SetIGrp", "structcCcD__ObjCo.html#ae9d8e7ca86a7b85e20c681e8d20fc1dc", null ],
     [ "SetIGrp", "structcCcD__ObjCo.html#ae9d8e7ca86a7b85e20c681e8d20fc1dc", null ],
     [ "SetVsGrp", "structcCcD__ObjCo.html#ae02b753a890d00d7779499ec05b95de8", null ],
-    [ "SetVsGrp", "structcCcD__ObjCo.html#ae02b753a890d00d7779499ec05b95de8", null ],
     [ "SetVsGrp", "structcCcD__ObjCo.html#ae02b753a890d00d7779499ec05b95de8", null ]
 ];

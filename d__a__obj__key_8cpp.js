@@ -7,7 +7,7 @@ var d__a__obj__key_8cpp =
     [ "cXyz", "structcXyz.html", "structcXyz" ],
     [ "fopAcM_gc_c", "classfopAcM__gc__c.html", "classfopAcM__gc__c" ],
     [ "daObj_Key_HIO_c", "structdaObj__Key__HIO__c.html", "structdaObj__Key__HIO__c" ],
-    [ "daKey_c", "structdaKey__c.html", "structdaKey__c" ],
+    [ "daKey_c", "classdaKey__c.html", "classdaKey__c" ],
     [ "dSv_memBit_c", "structdSv__memBit__c.html", "structdSv__memBit__c" ],
     [ "dSv_info_c", "structdSv__info__c.html", "structdSv__info__c" ],
     [ "dKy_tevstr_c", "classdKy__tevstr__c.html", "classdKy__tevstr__c" ],

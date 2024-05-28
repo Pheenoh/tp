@@ -32,8 +32,6 @@ var classJ3DMaterialTable =
     [ "removeTevRegAnimator", "classJ3DMaterialTable.html#a3fa81780d8c60be664c5cd39e83cb59c", null ],
     [ "removeTevRegAnimator", "classJ3DMaterialTable.html#a3fa81780d8c60be664c5cd39e83cb59c", null ],
     [ "removeTevRegAnimator", "classJ3DMaterialTable.html#a3fa81780d8c60be664c5cd39e83cb59c", null ],
-    [ "removeTevRegAnimator", "classJ3DMaterialTable.html#a3fa81780d8c60be664c5cd39e83cb59c", null ],
-    [ "removeTevRegAnimator", "classJ3DMaterialTable.html#a3fa81780d8c60be664c5cd39e83cb59c", null ],
     [ "removeTexMtxAnimator", "classJ3DMaterialTable.html#a477d1969bc8e0f3f8f3b7e6384b11bb4", null ],
     [ "removeTexMtxAnimator", "classJ3DMaterialTable.html#ad17c7941fd7f4e43af9e1714866c561a", null ],
     [ "removeTexMtxAnimator", "classJ3DMaterialTable.html#ad17c7941fd7f4e43af9e1714866c561a", null ],

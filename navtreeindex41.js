@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"Z2Audience_8h_source.html":[4,0,1,11,0],
 "Z2AudioArcLoader_8cpp.html":[4,0,2,5,1],
 "Z2AudioArcLoader_8cpp.html#a138d0ac78523fceb68c0e5b94d4b3702":[4,0,2,5,1,13],
 "Z2AudioArcLoader_8cpp.html#a15b70f8d8f52f4ada5e0722089c9848f":[4,0,2,5,1,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "Z2Creature_8cpp.html#ae2f1a5af9a45ab38d0cb5ca08fb3dc92":[4,0,2,5,4,73],
 "Z2Creature_8cpp.html#ae5e4863a644f078362439bec3f1e6943":[4,0,2,5,4,26],
 "Z2Creature_8cpp.html#aed2fd4b9dffb70ac6572668fdf372861":[4,0,2,5,4,62],
-"Z2Creature_8cpp.html#aed41a964e6fe1025a2d0b4a2ef61fb37":[4,0,2,5,4,60],
-"Z2Creature_8cpp.html#af3e8c0bd97de06b7a43307e6e610c716":[4,0,2,5,4,39]
+"Z2Creature_8cpp.html#aed41a964e6fe1025a2d0b4a2ef61fb37":[4,0,2,5,4,60]
 };

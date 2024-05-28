@@ -13,7 +13,6 @@ var structdaObjHHASHI__c =
     [ "Obj_Damage", "structdaObjHHASHI__c.html#aee0f18b5bf0679e49cafd0ee067a8ff6", null ],
     [ "Roll_Set", "structdaObjHHASHI__c.html#a3e7d34b2ed74970b86fa2b5afff6618e", null ],
     [ "Rolling", "structdaObjHHASHI__c.html#a388a72485b58d9ef9fab4d33d8977ba3", null ],
-    [ "Rolling", "structdaObjHHASHI__c.html#a3502d44d6af0492f9e727ad978e4277e", null ],
     [ "Set_Hahen", "structdaObjHHASHI__c.html#a5aa2d0eea6c438e7eaca6b979c676afd", null ],
     [ "Set_Speed", "structdaObjHHASHI__c.html#ad13656f5597cc69bf5bcb0b121d0c26f", null ],
     [ "setBaseMtx", "structdaObjHHASHI__c.html#ab90d88d7443255f050815662f2c75d12", null ],

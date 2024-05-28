@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"JPAMath_8cpp.html#a1d2328e4a4559ab640aa45e0d8959d41":[4,0,2,1,11,9,7],
 "JPAMath_8cpp.html#a295246cd31ef3c0bed2eb74d4cb83a0b":[4,0,2,1,11,9,12],
 "JPAMath_8cpp.html#a3b458d8c306fefb43dcdcba07c6f5b66":[4,0,2,1,11,9,2],
 "JPAMath_8cpp.html#a3f61243ebf5cbb2ff90548d397b16772":[4,0,2,1,11,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "JSUInputStream_8h.html#a858865037a136681f994fcd5565c1404a76ac9ca8caa2387c084afde6a2479335":[4,0,1,6,14,1,0,0],
 "JSUInputStream_8h.html#a858865037a136681f994fcd5565c1404ae122c72cc89498dfbe6fbcb6252ad37d":[4,0,1,6,14,1,0,1],
 "JSUInputStream_8h_source.html":[4,0,1,6,14,1],
-"JSUIosBase_8h.html":[4,0,1,6,14,2],
-"JSUIosBase_8h.html#a61dd3f9cb1b6fb3089120128760e0642":[4,0,1,6,14,2,0]
+"JSUIosBase_8h.html":[4,0,1,6,14,2]
 };

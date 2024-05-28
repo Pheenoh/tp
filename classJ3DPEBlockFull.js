@@ -7,7 +7,7 @@ var classJ3DPEBlockFull =
     [ "diffBlend", "classJ3DPEBlockFull.html#a882f8b98d2b79fd5034038cdfb499125", null ],
     [ "diffFog", "classJ3DPEBlockFull.html#a71b4e027b4c1b929c5021b75eff320cb", null ],
     [ "getAlphaComp", "classJ3DPEBlockFull.html#ae8c7155eee6a5684ccc1b1e0c3732e67", null ],
-    [ "getBlend", "classJ3DPEBlockFull.html#aa99890b809a693ffd533fd9747e58f04", null ],
+    [ "getBlend", "classJ3DPEBlockFull.html#a0c8e553f28821f00b267cef5ecba3505", null ],
     [ "getDither", "classJ3DPEBlockFull.html#a7d5eb1c03356b058c24d352297819caa", null ],
     [ "getFog", "classJ3DPEBlockFull.html#ac0d2260a074160a635a43f0657134427", null ],
     [ "getFogOffset", "classJ3DPEBlockFull.html#a16135901c4c58751ee7ee32987e839e4", null ],

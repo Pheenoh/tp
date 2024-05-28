@@ -3,7 +3,8 @@ var classdInsect__c =
     [ "Location", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119", [
       [ "LOC_OUTSIDE", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119a920eb02a3da1a8365341b245ced1d244", null ],
       [ "LOC_AGITHA", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119ae9ccd80afe905a2c1426344e0b00266e", null ],
-      [ "LOC_UNK_2", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119a21f200c1bf0345a3fc00f869c854f17a", null ]
+      [ "LOC_UNK_2", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119a21f200c1bf0345a3fc00f869c854f17a", null ],
+      [ "LOC_UNK_3", "classdInsect__c.html#ad3dc9b5c3957e8c78487385ed1005119a12b311dad58979901cba32571f05e879", null ]
     ] ],
     [ "Sex", "classdInsect__c.html#a1d4e2625383725875c8884278a23734e", [
       [ "SEX_MALE", "classdInsect__c.html#a1d4e2625383725875c8884278a23734ead7dbe6f207a2945e98cdae1bd4485bb8", null ],
@@ -20,13 +21,11 @@ var classdInsect__c =
     [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
     [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
     [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
-    [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
     [ "CalcZBuffer", "classdInsect__c.html#a82612a00907cc0135cf79cb62062e62b", null ],
     [ "CalcZBuffer", "classdInsect__c.html#a82612a00907cc0135cf79cb62062e62b", null ],
     [ "CalcZBuffer", "classdInsect__c.html#a82612a00907cc0135cf79cb62062e62b", null ],
     [ "CalcZBuffer", "classdInsect__c.html#a82612a00907cc0135cf79cb62062e62b", null ],
     [ "ChkGetDemo", "classdInsect__c.html#a07ea152be907094024c0b6153b6c2f2b", null ],
-    [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],
     [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],
     [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],
     [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],

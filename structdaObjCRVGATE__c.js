@@ -23,7 +23,6 @@ var structdaObjCRVGATE__c =
     [ "KeyVib", "structdaObjCRVGATE__c.html#a78e55d339cecfbb3bee06f27a93c6415", null ],
     [ "OpenAction", "structdaObjCRVGATE__c.html#a4b4b9b3cb5947c44da7b639951e0964f", null ],
     [ "SetB_Close", "structdaObjCRVGATE__c.html#ab104e83d00bdca77be77cff378c16f56", null ],
-    [ "SetB_Close", "structdaObjCRVGATE__c.html#a7f05ca63bc2bf8a0f96e5ecaa674014c", null ],
     [ "setBaseMtx", "structdaObjCRVGATE__c.html#abd3cf57e4693899c6c3f0a82d7962102", null ],
     [ "setCcCylinder", "structdaObjCRVGATE__c.html#a67efce29f3af0ce3275004563673338e", null ],
     [ "SetDoor", "structdaObjCRVGATE__c.html#a10e75bace40cd8d4df55e00c353dc960", null ],

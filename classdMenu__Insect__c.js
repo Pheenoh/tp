@@ -31,7 +31,6 @@ var classdMenu__Insect__c =
     [ "isCatchNotGiveInsect", "classdMenu__Insect__c.html#a6199298c9121f5599ef3383bd65112e4", null ],
     [ "isCatchNotGiveInsect", "classdMenu__Insect__c.html#a6199298c9121f5599ef3383bd65112e4", null ],
     [ "isCatchNotGiveInsect", "classdMenu__Insect__c.html#a6199298c9121f5599ef3383bd65112e4", null ],
-    [ "isCatchNotGiveInsect", "classdMenu__Insect__c.html#a6199298c9121f5599ef3383bd65112e4", null ],
     [ "isGetInsect", "classdMenu__Insect__c.html#abcfcd6bc22dd0014c77352ff084e1897", null ],
     [ "isGiveInsect", "classdMenu__Insect__c.html#af31405e3742746d06004f9fe0f188e2d", null ],
     [ "isGiveInsect", "classdMenu__Insect__c.html#aa4c8041ed3586cb8f85ccc705be8192e", null ],

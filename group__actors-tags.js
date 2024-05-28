@@ -1,9 +1,5 @@
 var group__actors_tags =
 [
-    [ "daE_YM_TAG_c", "classdaE__YM__TAG__c.html", [
-      [ "create", "classdaE__YM__TAG__c.html#a55812370f59a78218df0154791adc245", null ],
-      [ "execute", "classdaE__YM__TAG__c.html#aef2e934b32b9633e2ef874c508676382", null ]
-    ] ],
     [ "kytag00_class", "classkytag00__class.html", [
       [ "field_0x568", "classkytag00__class.html#a23bd6e8430384fd49cd6d2dce9a3e15e", null ],
       [ "field_0x56c", "classkytag00__class.html#a3828820e8250d41880f54efe27280bbd", null ],

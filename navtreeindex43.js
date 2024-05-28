@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"Z2LinkMgr_8cpp.html#a228b4990ab51353c2892a5174e4eac41":[4,0,2,5,7,114],
 "Z2LinkMgr_8cpp.html#a27ed72047767c2467078608296d2aafa":[4,0,2,5,7,129],
 "Z2LinkMgr_8cpp.html#a2a0ad40b82e5b134be74074775c12939":[4,0,2,5,7,89],
 "Z2LinkMgr_8cpp.html#a2ca633c0bea8a0799d849a0a975c9378":[4,0,2,5,7,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "Z2SceneMgr_8cpp.html#a8046f2f261e0eb285cf5d655611ecf38":[4,0,2,5,9,110],
 "Z2SceneMgr_8cpp.html#a81350ab53fae1067dadffbca42bb4b3f":[4,0,2,5,9,164],
 "Z2SceneMgr_8cpp.html#a81d46d3f87a63afcdff60d7f8f197478":[4,0,2,5,9,68],
-"Z2SceneMgr_8cpp.html#a85078da6592f3e9c3a40e580274164df":[4,0,2,5,9,73],
-"Z2SceneMgr_8cpp.html#a85cfd5fa949776d8bdb723f774cc89b0":[4,0,2,5,9,55]
+"Z2SceneMgr_8cpp.html#a85078da6592f3e9c3a40e580274164df":[4,0,2,5,9,73]
 };

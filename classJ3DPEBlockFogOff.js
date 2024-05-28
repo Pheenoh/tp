@@ -6,7 +6,7 @@ var classJ3DPEBlockFogOff =
     [ "diff", "classJ3DPEBlockFogOff.html#a4d57c4df65dd8d26aaf541b07e139f79", null ],
     [ "diffBlend", "classJ3DPEBlockFogOff.html#ade3f9c25bce3b08fd8df86b0895af0fe", null ],
     [ "getAlphaComp", "classJ3DPEBlockFogOff.html#ac58a36566a9bbf0c37b254db08d6e065", null ],
-    [ "getBlend", "classJ3DPEBlockFogOff.html#ad24711efcd4590006a8b3fe731a8f268", null ],
+    [ "getBlend", "classJ3DPEBlockFogOff.html#abbbbe16d08b39a228adf8d6818864105", null ],
     [ "getDither", "classJ3DPEBlockFogOff.html#a45168a1291c7fc18da4cc547a1fe7d6c", null ],
     [ "getType", "classJ3DPEBlockFogOff.html#a34d3c37b519aaf90795f726ca3321481", null ],
     [ "getZCompLoc", "classJ3DPEBlockFogOff.html#a8cbd520e5b08055ce82c7c8623bd140b", null ],
