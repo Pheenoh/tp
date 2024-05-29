@@ -1509,7 +1509,7 @@ var d__a__alink_8cpp =
     [ "initStatusWindow__9daAlink_cFv", "d__a__alink_8cpp.html#a8f80204d1ae5ea059322d993d39d6579", null ],
     [ "initTevCustomColor__9daAlink_cFv", "d__a__alink_8cpp.html#ab2f676a1abf60bc7180afb45d56958ff", null ],
     [ "initWolfRopeShapeAngle__9daAlink_cFv", "d__a__alink_8cpp.html#a608181a5283343d0a4f93281a998acef", null ],
-    [ "Insect_Release__9dInsect_cFv", "d__a__alink_8cpp.html#a66430d1605f48827dba08e8c0a03029c", null ],
+    [ "Insect_Release__9dInsect_cFv", "d__a__alink_8cpp.html#acf43e00002fe5dcabcc8f8a21aec7f9e", null ],
     [ "isDungeonItem__12dSv_memBit_cCFi", "d__a__alink_8cpp.html#af13b865be306abca7315a70762343853", null ],
     [ "isEventBit__11dSv_event_cCFUs", "d__a__alink_8cpp.html#a4e7b1ea21cc466f0117126266bd45e87", null ],
     [ "isFirstBit__21dSv_player_get_item_cCFUc", "d__a__alink_8cpp.html#a86821147774308be56f6bd3f14a308b6", null ],

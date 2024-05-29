@@ -113,7 +113,7 @@ var searchData=
   ['vibaction_5f_5f8dae_5fmd_5fcfv_110',['VibAction__8daE_MD_cFv',['../d__a__e__md_8cpp.html#a2c69dc9c5b533e3c1d553489b7d91634',1,'d_a_e_md.cpp']]],
   ['vibmode_5fpower_111',['VIBMODE_POWER',['../d__a__obj__bky__rock_8cpp.html#a4f4b9709985741bfbd7f37fb214e0781',1,'d_a_obj_bky_rock.cpp']]],
   ['vibmode_5ftimer_112',['VIBMODE_TIMER',['../d__a__obj__bky__rock_8cpp.html#aa270be2b6b5e4ba78c077133c4e16536',1,'d_a_obj_bky_rock.cpp']]],
-  ['vibstop_113',['VibStop',['../structdaObjCRVGATE__c.html#a6b64e361abfd6f22e4ad9cb0e87d9443',1,'daObjCRVGATE_c']]],
+  ['vibstop_113',['VibStop',['../classdaObjCRVGATE__c.html#a6b64e361abfd6f22e4ad9cb0e87d9443',1,'daObjCRVGATE_c']]],
   ['vibstop_5f_5f14daobjcrvgate_5fcfv_114',['VibStop__14daObjCRVGATE_cFv',['../d__a__obj__crvgate_8cpp.html#a4865f78fd2f033811ebbf3e63a9d952b',1,'d_a_obj_crvgate.cpp']]],
   ['viconfigure_115',['viconfigure',['../vi_8c.html#adb6a4fc17abb3dd8f11efff984357328',1,'VIConfigure(const GXRenderModeObj *obj):&#160;vi.c'],['../vi_8h.html#abf636b244c1fdf55bad8f5d42fa3dbff',1,'VIConfigure(const GXRenderModeObj *):&#160;vi.c']]],
   ['view_5fclass_116',['view_class',['../structview__class.html',1,'']]],

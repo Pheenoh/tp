@@ -9,7 +9,6 @@ var classdBomb__c =
     [ "checkStateCarry", "classdBomb__c.html#a23b7cde0016e00162d6275590f5e14de", null ],
     [ "checkStateExplode", "classdBomb__c.html#a417d718bc4d55201385d0eca333ce0fd", null ],
     [ "checkWaterBomb", "classdBomb__c.html#a1aa881416ac87ee3fb24ebd78b1b685f", null ],
-    [ "checkWaterBomb", "classdBomb__c.html#a0c816eba43e517a18cae958e09c67b5d", null ],
     [ "createEnemyWaterBomb", "classdBomb__c.html#af8fe8967b229654a643d343c9fcf0621", null ],
     [ "createEnemyWaterBombHookshot", "classdBomb__c.html#aa4a933d984a3573544a3084c725b048f", null ],
     [ "createFlowerBomb", "classdBomb__c.html#ac5fa9876bccf3787dbd34c680854a461", null ],

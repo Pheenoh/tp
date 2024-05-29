@@ -34,7 +34,6 @@ var classdaNPC__TK__c =
     [ "draw", "classdaNPC__TK__c.html#aba81b892be506cb883396f166d7e8b57", null ],
     [ "endHawkCamera", "classdaNPC__TK__c.html#a2fa594d6aead3841ce0a7a795ef2b0b7", null ],
     [ "endHawkCamera", "classdaNPC__TK__c.html#ae7de36d2ba5f8cc6160cbefa5a4e5d9d", null ],
-    [ "endHawkCamera", "classdaNPC__TK__c.html#ae7de36d2ba5f8cc6160cbefa5a4e5d9d", null ],
     [ "execute", "classdaNPC__TK__c.html#adbde001acb7123352d1d17465a913fb1", null ],
     [ "execute", "classdaNPC__TK__c.html#a633d1bdec957954928c9a16af2d27eb0", null ],
     [ "executeAttack", "classdaNPC__TK__c.html#ac580d93698a178e476935d9a139e8767", null ],

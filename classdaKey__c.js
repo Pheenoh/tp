@@ -28,6 +28,5 @@ var classdaKey__c =
     [ "initBaseMtx", "classdaKey__c.html#a4fb51122219e5b38f4c03fac0061278c", null ],
     [ "seStartTwinkle_private", "classdaKey__c.html#aea9ee22276ecd7fb665667749fac8797", null ],
     [ "setBaseMtx", "classdaKey__c.html#a14e48d16addcfc7482cbe38e7e01af9c", null ],
-    [ "setPos", "classdaKey__c.html#a69a00673484f8fa0d2c925f0bdcea449", null ],
     [ "field_0x568", "classdaKey__c.html#abd2ba61f0ff2cfa50c6e31194d9ea368", null ]
 ];

@@ -22,7 +22,6 @@ var structmDoGph__gInf__c =
     [ "fadeOut", "structmDoGph__gInf__c.html#abd0093b23bfa58da779571657ffcce6d", null ],
     [ "fadeOut_f", "structmDoGph__gInf__c.html#acafd48b614e54a0dd0221306b377d421", null ],
     [ "fadeOut_f", "structmDoGph__gInf__c.html#acafd48b614e54a0dd0221306b377d421", null ],
-    [ "fadeOut_f", "structmDoGph__gInf__c.html#acafd48b614e54a0dd0221306b377d421", null ],
     [ "getAspect", "structmDoGph__gInf__c.html#a817c2cc5a0ce050d1ec5a5909121be40", null ],
     [ "getBackColor", "structmDoGph__gInf__c.html#a6fd7b50ecfc9b6151ec56bafd4f6e636", null ],
     [ "getBloom", "structmDoGph__gInf__c.html#a0264dc2aa7ce160345ba130de965995b", null ],

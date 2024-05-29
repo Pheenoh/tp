@@ -115,7 +115,7 @@ var searchData=
   ['bgmwave_5f2_112',['BgmWave_2',['../classZ2SceneMgr.html#a95c0582150696ea7f83cca94f338ba90',1,'Z2SceneMgr']]],
   ['bgmwavetoerase_5f1_113',['BgmWaveToErase_1',['../classZ2SceneMgr.html#af89ab3208cd710d85cb22eac929a928a',1,'Z2SceneMgr']]],
   ['bgmwavetoerase_5f2_114',['BgmWaveToErase_2',['../classZ2SceneMgr.html#a0619a833287217d2eb1f05bb69838d2d',1,'Z2SceneMgr']]],
-  ['bgw_115',['bgw',['../structdaObjCatDoor__Door__c.html#a9e1df0d10a6c739a43a882130ad9c729',1,'daObjCatDoor_Door_c']]],
+  ['bgw_115',['bgw',['../classdaObjCatDoor__Door__c.html#a9e1df0d10a6c739a43a882130ad9c729',1,'daObjCatDoor_Door_c']]],
   ['bgwaitflg_116',['bgWaitFlg',['../d__a__alink_8cpp.html#a76f4eb962a57afb4894ab94542a3a9af',1,'d_a_alink.cpp']]],
   ['bh_117',['bh',['../d__a__b__bh_8cpp.html#ad1f5b660f71d79b02bd00faee4258fcf',1,'d_a_b_bh.cpp']]],
   ['bi2debugflag_118',['BI2DebugFlag',['../OS_8c.html#ac962f5657b89ec996587c3c946657865',1,'OS.c']]],

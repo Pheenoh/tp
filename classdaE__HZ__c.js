@@ -32,7 +32,6 @@ var classdaE__HZ__c =
     [ "initBackWalk", "classdaE__HZ__c.html#a5dbe2609385504475a7551df2c6edd32", null ],
     [ "initRollDamage", "classdaE__HZ__c.html#a1d452f595770eb624d8fdc0206fd485e", null ],
     [ "isWait", "classdaE__HZ__c.html#a5a6794f667335288f4c3804dc15c782e", null ],
-    [ "isWait", "classdaE__HZ__c.html#a766c3b0c5f14a4b2c7f3dfd4affb9f7b", null ],
     [ "JointCallBack", "classdaE__HZ__c.html#aad1e6af0008dace21e49a3fa6d9040d0", null ],
     [ "mtx_set", "classdaE__HZ__c.html#a4a1c1d6d3eabb46f84cc1c039e819e36", null ],
     [ "setActionMode", "classdaE__HZ__c.html#a9589e9fc44c47d1ebb9ff5338370bde7", null ],

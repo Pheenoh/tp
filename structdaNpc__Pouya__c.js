@@ -28,7 +28,6 @@ var structdaNpc__Pouya__c =
     [ "getHeadJointNo", "structdaNpc__Pouya__c.html#a4d864eddac3f62df40a7dfa75765de81", null ],
     [ "getNeckJointNo", "structdaNpc__Pouya__c.html#ad021cf59a45adf74664a78de6e350460", null ],
     [ "getType", "structdaNpc__Pouya__c.html#a3b126187fc66b17a266a6dbff8d5df11", null ],
-    [ "getType", "structdaNpc__Pouya__c.html#a1e1e6373b3061c4fabde99b13a73c6e4", null ],
     [ "isDelete", "structdaNpc__Pouya__c.html#af1a332b64d8af74e6b65e7fcf6b7500b", null ],
     [ "reset", "structdaNpc__Pouya__c.html#a1001a47de57d78e0a39f295d82d3b1b5", null ],
     [ "selectAction", "structdaNpc__Pouya__c.html#ab6c110f4537806e83c3c1ac6966af8f1", null ],

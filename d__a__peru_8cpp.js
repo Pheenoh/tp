@@ -18,7 +18,6 @@ var d__a__peru_8cpp =
     [ "daNpcT_motionAnmData_c", "structdaNpcT__motionAnmData__c.html", "structdaNpcT__motionAnmData__c" ],
     [ "daPeru_c", "structdaPeru__c.html", "structdaPeru__c" ],
     [ "daPeru_Param_c", "structdaPeru__Param__c.html", "structdaPeru__Param__c" ],
-    [ "daObjCatDoor_c", "classdaObjCatDoor__c.html", "classdaObjCatDoor__c" ],
     [ "dCcD_GObjInf", "structdCcD__GObjInf.html", "structdCcD__GObjInf" ],
     [ "_GXColorS10", "struct__GXColorS10.html", "struct__GXColorS10" ],
     [ "daNpcT_c", "classdaNpcT__c.html", "classdaNpcT__c" ],

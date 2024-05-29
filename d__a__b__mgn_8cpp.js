@@ -16,7 +16,6 @@ var d__a__b__mgn_8cpp =
     [ "fopEn_enemy_c", "classfopEn__enemy__c.html", "classfopEn__enemy__c" ],
     [ "fopAc_ac_c", "structfopAc__ac__c.html", "structfopAc__ac__c" ],
     [ "daPy_py_c", "structdaPy__py__c.html", "structdaPy__py__c" ],
-    [ "daObjBHASHI_c", "structdaObjBHASHI__c.html", "structdaObjBHASHI__c" ],
     [ "daB_MGN_c", "structdaB__MGN__c.html", "structdaB__MGN__c" ],
     [ "daB_MGN_HIO_c", "structdaB__MGN__HIO__c.html", "structdaB__MGN__HIO__c" ],
     [ "dVibration_c", "classdVibration__c.html", "classdVibration__c" ],

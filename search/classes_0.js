@@ -18,8 +18,8 @@ var searchData=
   ['_5ffile_5fmodes_15',['_file_modes',['../struct__file__modes.html',1,'']]],
   ['_5ffile_5fstates_16',['_file_states',['../struct__file__states.html',1,'']]],
   ['_5ffiles_17',['_files',['../struct__files.html',1,'']]],
-  ['_5fglsph_5flstinfo_5fc_18',['_GlSph_LstInfo_c',['../struct__GlSph__LstInfo__c.html',1,'']]],
-  ['_5fglsph_5fmng_5fc_19',['_GlSph_Mng_c',['../struct__GlSph__Mng__c.html',1,'']]],
+  ['_5fglsph_5flstinfo_5fc_18',['_GlSph_LstInfo_c',['../class__GlSph__LstInfo__c.html',1,'']]],
+  ['_5fglsph_5fmng_5fc_19',['_GlSph_Mng_c',['../class__GlSph__Mng__c.html',1,'']]],
   ['_5fgxcolor_20',['_GXColor',['../struct__GXColor.html',1,'']]],
   ['_5fgxcolors10_21',['_GXColorS10',['../struct__GXColorS10.html',1,'']]],
   ['_5fgxdata_22',['_GXData',['../struct__GXData.html',1,'']]],
@@ -37,6 +37,6 @@ var searchData=
   ['_5fspotlight_5fc_34',['_SpotLight_c',['../structdaNpcChin__c_1_1__SpotLight__c.html',1,'daNpcChin_c']]],
   ['_5fstick_35',['_stick',['../structdCamera__c_1_1dCamera__pad__info_1_1__stick.html',1,'dCamera_c::dCamera_pad_info']]],
   ['_5ftrk_5fmsg_36',['_TRK_Msg',['../struct__TRK__Msg.html',1,'']]],
-  ['_5fzramark_5fhahen_5fc_37',['_ZraMark_Hahen_c',['../struct__ZraMark__Hahen__c.html',1,'']]],
-  ['_5fzramark_5fhahen_5fmng_5fc_38',['_ZraMark_Hahen_Mng_c',['../struct__ZraMark__Hahen__Mng__c.html',1,'']]]
+  ['_5fzramark_5fhahen_5fc_37',['_ZraMark_Hahen_c',['../class__ZraMark__Hahen__c.html',1,'']]],
+  ['_5fzramark_5fhahen_5fmng_5fc_38',['_ZraMark_Hahen_Mng_c',['../class__ZraMark__Hahen__Mng__c.html',1,'']]]
 ];
