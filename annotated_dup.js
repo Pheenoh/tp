@@ -1683,7 +1683,7 @@ var annotated_dup =
     [ "dBgS_Acch", "classdBgS__Acch.html", "classdBgS__Acch" ],
     [ "dBgS_AcchCir", "classdBgS__AcchCir.html", "classdBgS__AcchCir" ],
     [ "dBgS_ArrowLinChk", "classdBgS__ArrowLinChk.html", "classdBgS__ArrowLinChk" ],
-    [ "dBgS_BombAcch", "structdBgS__BombAcch.html", "structdBgS__BombAcch" ],
+    [ "dBgS_BombAcch", "classdBgS__BombAcch.html", "classdBgS__BombAcch" ],
     [ "dBgS_BombLinChk", "classdBgS__BombLinChk.html", "classdBgS__BombLinChk" ],
     [ "dBgS_BoomerangLinChk", "classdBgS__BoomerangLinChk.html", "classdBgS__BoomerangLinChk" ],
     [ "dBgS_CamGndChk", "classdBgS__CamGndChk.html", "classdBgS__CamGndChk" ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"classJ3DMtxBuffer.html#a7f141c735e86791936603f21aedb92fa":[1,1,1,72,17],
-"classJ3DMtxBuffer.html#a91c1c437523860edf1fd92ce8447cf6b":[1,1,1,72,18],
-"classJ3DMtxBuffer.html#a9299c7a29c39542d109e58aa307ae0b0":[1,1,1,72,15],
 "classJ3DMtxBuffer.html#a98cb188bf579495bdce573bd77e0f030":[1,1,1,72,44],
 "classJ3DMtxBuffer.html#aa4bae74b1f12b68891eb3f02983d5e08":[1,1,1,72,5],
 "classJ3DMtxBuffer.html#aae38847b48aff2269356c8ccc980c129":[1,1,1,72,7],
@@ -33,15 +30,15 @@ var NAVTREEINDEX79 =
 "classJ3DMtxCalc.html#a53b943e69645fb5c2c15703269ec4b6a":[1,1,1,49,12],
 "classJ3DMtxCalc.html#a53b943e69645fb5c2c15703269ec4b6a":[1,1,1,49,13],
 "classJ3DMtxCalc.html#a60a2dc5e4f91d0e36bdb0f1974883d6f":[1,1,1,49,20],
-"classJ3DMtxCalc.html#a86b9a67a86daf6dfe02fc439f8420b76":[1,1,1,49,15],
 "classJ3DMtxCalc.html#a86b9a67a86daf6dfe02fc439f8420b76":[1,1,1,49,14],
+"classJ3DMtxCalc.html#a86b9a67a86daf6dfe02fc439f8420b76":[1,1,1,49,15],
 "classJ3DMtxCalc.html#a89b080069e76a18c84b6d83a0f808243":[1,1,1,49,16],
 "classJ3DMtxCalc.html#a96f1b7a0b1f8660b33bf7b0beb045de1":[1,1,1,49,0],
 "classJ3DMtxCalc.html#aabcb15d334d45312bbf759d8f9baef8d":[1,1,1,49,8],
 "classJ3DMtxCalc.html#ab35cb3733d3cfdf76adaae664e539c8e":[1,1,1,49,22],
 "classJ3DMtxCalc.html#ab5a08e68ba01628182b56f6889d205bb":[1,1,1,49,1],
-"classJ3DMtxCalc.html#acb9d2727adb197c1110b804155ecb375":[1,1,1,49,4],
 "classJ3DMtxCalc.html#acb9d2727adb197c1110b804155ecb375":[1,1,1,49,3],
+"classJ3DMtxCalc.html#acb9d2727adb197c1110b804155ecb375":[1,1,1,49,4],
 "classJ3DMtxCalc.html#ad20f02b88c802dfbbb30fbd01e3fda72":[1,1,1,49,11],
 "classJ3DMtxCalc.html#ad85e760364134225e0f5e96eece06e6b":[1,1,1,49,5],
 "classJ3DMtxCalc.html#ad85e760364134225e0f5e96eece06e6b":[1,1,1,49,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX79 =
 "classJ3DShape.html#ad3bfdab34e5392a41a4952ecad0b4cf3":[1,1,1,131,42],
 "classJ3DShape.html#ad5a6c67245c962316c0bdd11c32a3499":[1,1,1,131,25],
 "classJ3DShape.html#ad9a7c935b7a8eb4f959c6765a4f5db5e":[1,1,1,131,33],
-"classJ3DShape.html#ad9eec3cd6463e57c8231ba10c254977a":[1,1,1,131,66]
+"classJ3DShape.html#ad9eec3cd6463e57c8231ba10c254977a":[1,1,1,131,66],
+"classJ3DShape.html#adbbc41ac06c6daad7efb02028656b717":[1,1,1,131,21],
+"classJ3DShape.html#adc6e22abad60c02868656ab5d403bf83":[1,1,1,131,14],
+"classJ3DShape.html#add157328e90f2a8a38cf3645a1663d6c":[1,1,1,131,22]
 };

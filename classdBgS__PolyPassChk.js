@@ -22,7 +22,6 @@ var classdBgS__PolyPassChk =
     [ "ClrStatue", "classdBgS__PolyPassChk.html#a9a768461eb596d8188ef271c45ddda20", null ],
     [ "SetArrow", "classdBgS__PolyPassChk.html#a7e31bacab35440fe7bb711b700abe8c2", null ],
     [ "SetBomb", "classdBgS__PolyPassChk.html#a736bacfd8eb2fec4b16b228df689719a", null ],
-    [ "SetBomb", "classdBgS__PolyPassChk.html#a736bacfd8eb2fec4b16b228df689719a", null ],
     [ "SetBoomerang", "classdBgS__PolyPassChk.html#ae55b2df6bec7b0ae9112a791838a80f4", null ],
     [ "SetCam", "classdBgS__PolyPassChk.html#a4015dd33c78bc3347c33b1cc9038fc28", null ],
     [ "SetHorse", "classdBgS__PolyPassChk.html#a25ee581b02bcf0e2b413a00307714cc5", null ],

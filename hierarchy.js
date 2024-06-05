@@ -123,6 +123,7 @@ var hierarchy =
         [ "ShdwDrawPoly_c", "classShdwDrawPoly__c.html", null ]
       ] ],
       [ "dBgS_Acch", "classdBgS__Acch.html", [
+        [ "dBgS_BombAcch", "classdBgS__BombAcch.html", null ],
         [ "dBgS_LinkAcch", "classdBgS__LinkAcch.html", null ],
         [ "dBgS_ObjAcch", "classdBgS__ObjAcch.html", null ],
         [ "dBgS_StatueAcch", "classdBgS__StatueAcch.html", null ]
@@ -1098,7 +1099,6 @@ var hierarchy =
     [ "DBCommTable", "structDBCommTable.html", null ],
     [ "dBgPc", "classdBgPc.html", null ],
     [ "dBgPlc", "classdBgPlc.html", null ],
-    [ "dBgS_BombAcch", "structdBgS__BombAcch.html", null ],
     [ "dBgS_CamSphChk", "structdBgS__CamSphChk.html", null ],
     [ "dBgS_HorseAcch", "structdBgS__HorseAcch.html", null ],
     [ "DBInterface", "structDBInterface.html", null ],
@@ -2980,10 +2980,14 @@ var hierarchy =
           [ "daZdoor_c", "classdaZdoor__c.html", null ],
           [ "daZrTurara_c", "classdaZrTurara__c.html", null ]
         ] ],
+        [ "dBomb_c", "classdBomb__c.html", [
+          [ "daNbomb_c", "classdaNbomb__c.html", null ]
+        ] ],
         [ "dInsect_c", "classdInsect__c.html", [
           [ "daObjARI_c", "classdaObjARI__c.html", null ],
           [ "daObjBATTA_c", "classdaObjBATTA__c.html", null ],
           [ "daObjCHO_c", "classdaObjCHO__c.html", null ],
+          [ "daObjDAN_c", "classdaObjDAN__c.html", null ],
           [ "daObjKABUTO_c", "classdaObjKABUTO__c.html", null ],
           [ "daObjKAG_c", "classdaObjKAG__c.html", null ],
           [ "daObjNAN_c", "classdaObjNAN__c.html", null ]
@@ -3066,9 +3070,6 @@ var hierarchy =
         [ "daMirror_c", "classdaMirror__c.html", null ],
         [ "daMyna_c", "classdaMyna__c.html", null ],
         [ "daNPC_TK_c", "classdaNPC__TK__c.html", null ],
-        [ "daNbomb_c", "classdaNbomb__c.html", [
-          [ "dBomb_c", "classdBomb__c.html", null ]
-        ] ],
         [ "daNocrm_c", "classdaNocrm__c.html", null ],
         [ "daNpcCd2_c", "classdaNpcCd2__c.html", [
           [ "daNpcFgd_c", "structdaNpcFgd__c.html", null ]
@@ -3106,7 +3107,6 @@ var hierarchy =
         [ "daObjCrope_c", "classdaObjCrope__c.html", null ],
         [ "daObjCrystal_c", "classdaObjCrystal__c.html", null ],
         [ "daObjCwall_c", "classdaObjCwall__c.html", null ],
-        [ "daObjDAN_c", "classdaObjDAN__c.html", null ],
         [ "daObjDigholl_c", "classdaObjDigholl__c.html", null ],
         [ "daObjDigpl_c", "classdaObjDigpl__c.html", null ],
         [ "daObjDrop_c", "classdaObjDrop__c.html", null ],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"classJUTException.html#a5c56514bf11eadff6b0f98476f49fe9f":[1,1,12,8,12],
-"classJUTException.html#a5fd866c4f5f3d44a2dcd4a1cf644767a":[1,1,12,8,54],
-"classJUTException.html#a67bbe875fb6a69a95c76bc72498d8d78":[1,1,12,8,45],
 "classJUTException.html#a689ebc049d709ac8f2fc935d81899c13":[1,1,12,8,37],
 "classJUTException.html#a6a8fea52c2a9112391a0f582c66ba2f1":[1,1,12,8,11],
 "classJUTException.html#a6c3f6dd1de5fffd104b09d84d68f883b":[1,1,12,8,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX97 =
 "classJUTVideo.html#a666a7edf7b6223ee6e62057af02dae31":[1,1,12,27,42],
 "classJUTVideo.html#a6c9d9a4f05fa4fb27de5532ab921e37f":[1,1,12,27,22],
 "classJUTVideo.html#a6ea6747845ea43d39a2d4f13a861a7aa":[1,1,12,27,40],
-"classJUTVideo.html#a70cee437cccf27bd197fdd630a14e8e6":[1,1,12,27,15]
+"classJUTVideo.html#a70cee437cccf27bd197fdd630a14e8e6":[1,1,12,27,15],
+"classJUTVideo.html#a80279d552396a46e7c88ad128896176c":[1,1,12,27,3],
+"classJUTVideo.html#a925063f7a3c1b3347573a1b783905e0e":[1,1,12,27,36],
+"classJUTVideo.html#a95ddf573e2bfdf50fd45b9b4e9d3ef89":[1,1,12,27,8]
 };

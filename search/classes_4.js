@@ -1289,7 +1289,7 @@ var searchData=
   ['dbgs_5facch_1286',['dBgS_Acch',['../classdBgS__Acch.html',1,'']]],
   ['dbgs_5facchcir_1287',['dBgS_AcchCir',['../classdBgS__AcchCir.html',1,'']]],
   ['dbgs_5farrowlinchk_1288',['dBgS_ArrowLinChk',['../classdBgS__ArrowLinChk.html',1,'']]],
-  ['dbgs_5fbombacch_1289',['dBgS_BombAcch',['../structdBgS__BombAcch.html',1,'']]],
+  ['dbgs_5fbombacch_1289',['dBgS_BombAcch',['../classdBgS__BombAcch.html',1,'']]],
   ['dbgs_5fbomblinchk_1290',['dBgS_BombLinChk',['../classdBgS__BombLinChk.html',1,'']]],
   ['dbgs_5fboomeranglinchk_1291',['dBgS_BoomerangLinChk',['../classdBgS__BoomerangLinChk.html',1,'']]],
   ['dbgs_5fcamgndchk_1292',['dBgS_CamGndChk',['../classdBgS__CamGndChk.html',1,'']]],

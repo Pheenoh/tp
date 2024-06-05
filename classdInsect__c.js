@@ -17,6 +17,8 @@ var classdInsect__c =
     [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],
     [ "Insect_Release", "classdInsect__c.html#a61327e63cefc0c5849c5f54ed1010a6a", null ],
     [ "Insect_Release", "classdInsect__c.html#a70371279504e78c0839cd892a7914567", null ],
+    [ "setItemNo", "classdInsect__c.html#a19f64cd7019eea9695e0017f400f6b96", null ],
+    [ "setSaveBitNo", "classdInsect__c.html#a331dedc66d297f0766f190eba76484d4", null ],
     [ "field_0x56C", "classdInsect__c.html#a42700309cdf1b92efcce21fea31dbf01", null ],
     [ "field_0x578", "classdInsect__c.html#a8e00a4bd0f3ebac7722fb3e277f78e29", null ],
     [ "field_0x57C", "classdInsect__c.html#a4bd454248de487bb9f9b8996a1b7ac6c", null ],

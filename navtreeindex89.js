@@ -1,8 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"classJAUStreamAramMgrBase__.html#abd1f39244175ae33ee3a8fc7b548ba6e":[1,1,2,117,1],
-"classJAUStreamStaticAramMgr__.html":[1,1,2,118],
-"classJAUStreamStaticAramMgr__.html#a14b52c01a749c2aa462dba7743a43cf9":[1,1,2,118,1],
 "classJAUStreamStaticAramMgr__.html#a2185585a654b5f600ee703c99976ed69":[1,1,2,118,2],
 "classJAUStreamStaticAramMgr__.html#a241aeb1671659c2d38240ccdc93df0db":[1,1,2,118,4],
 "classJAUStreamStaticAramMgr__.html#a62168ef8b3fed86ea70927e08046ca5b":[1,1,2,118,6],
@@ -249,5 +246,8 @@ var NAVTREEINDEX89 =
 "classJKRAramStream.html#aaa9229e2fd43d9d38484cf65f8e37777":[1,1,5,7,6],
 "classJKRAramStream.html#aacdca7c3cf915ff6507e955d317353f3":[1,1,5,7,1],
 "classJKRAramStream.html#ab6afb31809dc3dddaaa1dd9a0fe5ca93":[1,1,5,7,5],
-"classJKRAramStream.html#abbb4e5536ab4dcf9cfe3eef7588fdad9":[1,1,5,7,14]
+"classJKRAramStream.html#abbb4e5536ab4dcf9cfe3eef7588fdad9":[1,1,5,7,14],
+"classJKRAramStream.html#ad0e10740923c99c4767c5c74bf857e7b":[1,1,5,7,11],
+"classJKRAramStreamCommand.html":[1,1,5,6],
+"classJKRAramStreamCommand.html#a0c2f11b5c4d602c52fe0f291aa8729c1":[1,1,5,6,11]
 };
