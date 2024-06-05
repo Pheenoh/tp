@@ -37,7 +37,6 @@ var classdaSCannon__c =
     [ "middleExe", "classdaSCannon__c.html#ae33c2cfe7c92f9e665717142a6fa1afd", null ],
     [ "orderEvtInit", "classdaSCannon__c.html#a3168650f1edc92198dfe8523640afab3", null ],
     [ "setCannonRepair", "classdaSCannon__c.html#a87a3f7aaa07870dcfa8977464b8d8506", null ],
-    [ "setCannonRepair", "classdaSCannon__c.html#a5da5bd9b95736190f3bfa1cab81f9c0f", null ],
     [ "setModelMtx", "classdaSCannon__c.html#acf59972a20299c9d23f8d18b3b0f957b", null ],
     [ "setPtlModelMtx", "classdaSCannon__c.html#a4cdbc3358dc9d0ed9e8afad98d264c67", null ],
     [ "field_0x568", "classdaSCannon__c.html#a5827c251812329aeee23e10eeea26ea8", null ],

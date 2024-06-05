@@ -8,7 +8,6 @@ var classdaObj__AutoMata__c =
     [ "Draw", "classdaObj__AutoMata__c.html#a0c36d3d86a42bf5070f537829a1f2965", null ],
     [ "Execute", "classdaObj__AutoMata__c.html#a7acfb02af009d90ea7f2094e95f2ab57", null ],
     [ "setAnm", "classdaObj__AutoMata__c.html#a795871ffa9d744c3927233a09167aaf4", null ],
-    [ "setAnm", "classdaObj__AutoMata__c.html#a328b945715b24038ddd818f62f12e2a1", null ],
     [ "setEnvTevColor", "classdaObj__AutoMata__c.html#a47fc1aafc342a2cd6097f4e1eb945ff5", null ],
     [ "setMtx", "classdaObj__AutoMata__c.html#a05b9cfc00e07e8e067d2581289d150b5", null ],
     [ "setRoomNo", "classdaObj__AutoMata__c.html#aa4c17748574f09bfd7ce04e2376b00cd", null ],

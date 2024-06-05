@@ -11,12 +11,10 @@ var classdInsect__c =
       [ "SEX_FEMALE", "classdInsect__c.html#a1d4e2625383725875c8884278a23734eab89766de79de605c8c103791099e299f", null ]
     ] ],
     [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
-    [ "dInsect_c", "classdInsect__c.html#a4ea65c003801d952d1b24ffb252f136a", null ],
     [ "CalcZBuffer", "classdInsect__c.html#a82612a00907cc0135cf79cb62062e62b", null ],
     [ "ChkGetDemo", "classdInsect__c.html#a07ea152be907094024c0b6153b6c2f2b", null ],
     [ "Insect_GetDemoMain", "classdInsect__c.html#a0912efd845f9a7c38cd87ea52850c044", null ],
-    [ "Insect_Release", "classdInsect__c.html#a61327e63cefc0c5849c5f54ed1010a6a", null ],
-    [ "Insect_Release", "classdInsect__c.html#a70371279504e78c0839cd892a7914567", null ],
+    [ "Insect_Release", "classdInsect__c.html#ae09665ba51faeffa0a44c8063302f653", null ],
     [ "setItemNo", "classdInsect__c.html#a19f64cd7019eea9695e0017f400f6b96", null ],
     [ "setSaveBitNo", "classdInsect__c.html#a331dedc66d297f0766f190eba76484d4", null ],
     [ "field_0x56C", "classdInsect__c.html#a42700309cdf1b92efcce21fea31dbf01", null ],

@@ -1068,7 +1068,7 @@ var d__a__alink_8cpp =
     [ "dComIfGs_getBottleMax__Fv", "d__a__alink_8cpp.html#a06dcb425cac70481c47d4eb21ceaaff0", null ],
     [ "dComIfGs_getLife__Fv", "d__a__alink_8cpp.html#a3abbbbbf74a60798f1cb493376799159", null ],
     [ "dComIfGs_getMaxLifeGauge__Fv", "d__a__alink_8cpp.html#a21cde245f7037b7472b2140967d395ad", null ],
-    [ "dComIfGs_getRupee__Fv", "d__a__alink_8cpp.html#abb56210badd03140f7aacc512c00b6a6", null ],
+    [ "dComIfGs_getRupee__Fv", "d__a__alink_8cpp.html#a615d289eb4c3ab4c05b8eb76a0d2849b", null ],
     [ "dComIfGs_getWarpPlayerAngleY__Fv", "d__a__alink_8cpp.html#afc97d7f85800c34883fa20262d1f9b64", null ],
     [ "dComIfGs_getWarpPlayerPos__Fv", "d__a__alink_8cpp.html#a355e966563eeb40d44534f4ac7891959", null ],
     [ "dComIfGs_getWarpRoomNo__Fv", "d__a__alink_8cpp.html#ac763bc63014cc132915976eda5796ac4", null ],

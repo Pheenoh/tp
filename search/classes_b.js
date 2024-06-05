@@ -6,7 +6,7 @@ var searchData=
   ['kcol_5fheader_3',['KCol_Header',['../structKCol__Header.html',1,'']]],
   ['kh_5fchain_5fs_4',['kh_chain_s',['../classkh__chain__s.html',1,'']]],
   ['kita_5fs_5',['kita_s',['../structkita__s.html',1,'']]],
-  ['knob_5fparam_5fc_6',['knob_param_c',['../structknob__param__c.html',1,'']]],
+  ['knob_5fparam_5fc_6',['knob_param_c',['../classknob__param__c.html',1,'']]],
   ['kytag00_5fclass_7',['kytag00_class',['../classkytag00__class.html',1,'']]],
   ['kytag01_5fclass_8',['kytag01_class',['../classkytag01__class.html',1,'']]],
   ['kytag02_5fclass_9',['kytag02_class',['../classkytag02__class.html',1,'']]],

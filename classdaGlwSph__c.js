@@ -16,7 +16,6 @@ var classdaGlwSph__c =
     [ "execute", "classdaGlwSph__c.html#a0933c24c18455ad28b2f23ea0d3ece80", null ],
     [ "getSE", "classdaGlwSph__c.html#abb1e65ec137ac885daeb72aac5cd2420", null ],
     [ "getSphMng", "classdaGlwSph__c.html#a5feba5e89c87f71a0a76eebbdb6b7fe4", null ],
-    [ "getSphMng", "classdaGlwSph__c.html#a3341b509f526c17685f80596cb11df2f", null ],
     [ "getVibe", "classdaGlwSph__c.html#ab4fb01bf09beb3d422e1d6146e29c666", null ],
     [ "setBaseMtx", "classdaGlwSph__c.html#a184973cb2e93388838c8a02ef152968f", null ],
     [ "field_0x568", "classdaGlwSph__c.html#af1bed819aeebdb6ea793ac49951c72ed", null ],

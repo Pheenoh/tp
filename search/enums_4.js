@@ -73,7 +73,7 @@ var searchData=
   ['dmeter2draw_5factionid_70',['dMeter2Draw_actionID',['../d__meter2__draw_8h.html#a6d998eb7f44ad1b1ea2fadcf17af89e9',1,'d_meter2_draw.h']]],
   ['dmeter2info_5fwarpstatus_71',['dMeter2Info_warpStatus',['../d__meter2__info_8h.html#ab5bd43360466ab7ac683d76f39b01939',1,'d_meter2_info.h']]],
   ['dmw_5fstatus_72',['dMw_Status',['../classdMw__c.html#a9c12bf96930db318a3d8b6704985face',1,'dMw_c']]],
-  ['doortype_73',['doortype',['../structdaMBdoorL1__c.html#a61c42209137cbbb5de24365f7b805223',1,'daMBdoorL1_c::DoorType'],['../structdaBdoorL1__c.html#abbc0a851401c8d552647cd0f31dddad1',1,'daBdoorL1_c::DoorType']]],
+  ['doortype_73',['doortype',['../classdaMBdoorL1__c.html#a61c42209137cbbb5de24365f7b805223',1,'daMBdoorL1_c::DoorType'],['../classdaBdoorL1__c.html#abbc0a851401c8d552647cd0f31dddad1',1,'daBdoorL1_c::DoorType']]],
   ['drawbuffer_74',['DrawBuffer',['../structdDlst__list__c.html#ade1f3b0d8ae13b1208ac59bfcf50415c',1,'dDlst_list_c']]],
   ['drawmode_75',['DrawMode',['../structJ3DSys.html#a30cc363d626b82865300b658c387eab9',1,'J3DSys']]],
   ['dserror_76',['DSError',['../trk_8h.html#a05b02c582cd96401f80a16293cccd408',1,'trk.h']]],
