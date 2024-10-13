@@ -400,6 +400,78 @@ void dMeter2Info_c::getString(u32 stringID, char* outStr, JMSMesgEntry_c* p_msgE
 
 /* 8021C370-8021C544 216CB0 01D4+00 0/0 1/1 0/0 .text
  * getStringKana__13dMeter2Info_cFUlPcP14JMSMesgEntry_c         */
+#ifdef NONMATCHING
+void dMeter2Info_c::getStringKana(u32 stringID, char* outStr, JMSMesgEntry_c* p_msgEntry) {
+    strcpy(outStr, "");
+
+    u8* msgRes;
+    
+    if (mMsgResource == NULL) {
+        JKRArchive* msgDtArc = dComIfGp_getMsgDtArchive(0);
+        msgRes = (u8*)JKRArchive::getGlbResource('ROOT', "zel_00.bmg", msgDtArc);
+        if (!msgRes) {
+            return;
+        }
+    } else {
+        msgRes = (u8*)mMsgResource;
+    }
+
+    u8* inf = msgRes + 0x20;
+    u32 stringOffset = (*(u32*)(msgRes + 0x24));
+    u8* strPtr = inf + stringOffset + 8;
+
+    while( true ) {
+        if (stringID <= stringOffset) {
+            if (mMsgResource) {
+                return;
+            }
+            
+
+            dComIfGp_getMsgDtArchive(0)->removeResourceAll();
+            return;
+        }
+        
+        if (stringID == stringOffset * 0x14 + 0x14) break;
+        stringOffset++;
+    }
+
+    int iVar7 = stringID + stringOffset + 8 + *(int *)(stringID + stringOffset * 0x14 + 0x10);
+    int iVar6 = 0;
+    int cVar1;
+    int local_3c = 0;
+
+    while (iVar6 < 512) {
+        if (iVar7 + iVar6 == 26) {
+            if ((iVar6 + iVar7 + 2 == -1) && 
+               (iVar6 + iVar7 + 3 == 0) && 
+               (iVar6 + iVar7 + 4 == 2)) {
+                cVar1 = iVar7 + iVar6 + -6;
+                local_3c = iVar6 + iVar7 + 5 << 1;
+                for (int i = 0; i < cVar1 + -6; i++) {
+                    *outStr = iVar7 + i + iVar6;
+                    outStr = outStr + 1;
+                }
+            }
+
+            iVar6 += iVar6 + iVar7 + 1;
+        } else {
+            if (local_3c < 1) {
+                *outStr = *(char *)(iVar7 + iVar6);
+                outStr = outStr + 1;
+            } else {
+                local_3c = local_3c + -1;
+            }
+            
+            if (*(char *)(iVar7 + iVar6) == '\0') break;
+                iVar6 = iVar6 + 1;
+            }
+        }
+    
+    if (p_msgEntry) {
+        memcpy(p_msgEntry,(void*)(stringID + stringOffset * 0x14 + 0x10),0x14);
+    }
+}
+#else
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
@@ -408,9 +480,61 @@ asm void dMeter2Info_c::getStringKana(u32 param_0, char* param_1, JMSMesgEntry_c
 #include "asm/d/meter/d_meter2_info/getStringKana__13dMeter2Info_cFUlPcP14JMSMesgEntry_c.s"
 }
 #pragma pop
+#endif
 
 /* 8021C544-8021C6A4 216E84 0160+00 0/0 32/32 1/1 .text
  * getStringKanji__13dMeter2Info_cFUlPcP14JMSMesgEntry_c        */
+#ifndef NONMATCHING
+void dMeter2Info_c::getStringKanji(u32 stringID, char* outStr, JMSMesgEntry_c* p_msgEntry) {
+    int iVar1;
+    strcpy(outStr, "");
+
+    u8* msgRes;
+    
+    if (mMsgResource == NULL) {
+        JKRArchive* msgDtArc = dComIfGp_getMsgDtArchive(0);
+        mMsgResource = (u8*)JKRArchive::getGlbResource('ROOT', "zel_00.bmg", msgDtArc);
+        if (!msgRes) {
+            return;
+        }
+    } else {
+        msgRes = (u8*)mMsgResource;
+    }
+
+    u32 stringOffset = *(u32*)(msgRes + 0x24);
+    int tmp = 0;
+
+    int iVar2 = *(int*)(msgRes + iVar1 + 0x30);
+    int iVar6 = 0;
+
+    while (iVar6 < 0x200) {
+        char* pcVar5 = (char *)(msgRes + iVar6 + iVar2 + stringOffset + 0x28);
+        if (*pcVar5 == 26) {
+            iVar6 = iVar6 + pcVar5[1];
+        } else {
+        
+        *outStr = *pcVar5;
+        outStr++;
+        if (!*pcVar5) break;
+            iVar6++;
+        }
+    }
+
+    if (p_msgEntry) {
+        memcpy(p_msgEntry,(void *)(msgRes + 0x10),0x14);
+        return;
+    }
+
+    while( true ) {
+        if (p_msgEntry >= (JMSMesgEntry_c*)0) {
+            if (!mMsgResource) {
+                dComIfGp_getMsgDtArchive(0)->removeResourceAll();
+                return;
+            }
+        }
+    }
+}
+#else
 #pragma push
 #pragma optimization_level 0
 #pragma optimizewithasm off
@@ -419,6 +543,7 @@ asm void dMeter2Info_c::getStringKanji(u32 param_0, char* param_1, JMSMesgEntry_
 #include "asm/d/meter/d_meter2_info/getStringKanji__13dMeter2Info_cFUlPcP14JMSMesgEntry_c.s"
 }
 #pragma pop
+#endif
 
 /* ############################################################################################## */
 /* 804549B8-804549C0 002FB8 0008+00 2/2 0/0 0/0 .sdata2          @4108 */
